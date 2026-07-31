@@ -15,11 +15,14 @@ veille/
   lexique.py         mots-cles, directions, poids
   analyzer.py        scoring lexical et indice quotidien
   macro.py           series numeriques et regime de marche
+  agenda.py          calendrier des echeances (Fed, BCE)
   build_site.py      generation de la page statique
   data/
     articles.json    articles des 90 derniers jours
     index.json       serie quotidienne (conservee indefiniment)
     macro.json       dernier releve chiffre + historique quotidien
+    agenda.json      prochaines echeances de banques centrales
+    synthese.json    synthese redigee du jour (si cle Claude)
   requirements.txt
 
 docs/                 page publiee par GitHub Pages (generee)
@@ -256,6 +259,72 @@ sont separees par un filet, un titre et un fond distinct.
 
 `macro.json` conserve aussi un `history` quotidien, jamais purge, sur le
 meme principe que `index.json`.
+
+## Les quatre zones de marche
+
+`macro.py` suit dix indices, regroupes en quatre zones. Une carte par zone,
+pas par indice : dix cartes rallongeraient la page pour rien.
+
+| zone | indices |
+|------|---------|
+| Amerique | S&P 500, Nasdaq |
+| Europe | Euro Stoxx 50, CAC 40, DAX |
+| Asie | Nikkei 225, Hang Seng, Shanghai |
+| Crypto | Bitcoin, Ethereum |
+
+Le MSCI World est affiche en une ligne sous les zones, comme reference
+mondiale. Le VIX et le dollar alimentent les criteres du regime.
+
+Le verdict d'une zone vient de la tendance de chacun de ses indices :
+tous au-dessus de leurs moyennes 50 et 200 jours donne « Tendance
+haussiere », tous en dessous « Tendance baissiere », le reste
+« Marches partages » avec le decompte. La regle est calculee **une seule
+fois**, dans `macro.py`, et stockee ; la page ne fait que la mettre en
+forme.
+
+## Le calendrier des echeances
+
+`agenda.py` recupere les prochaines reunions du FOMC et du Conseil des
+gouverneurs de la BCE. Savoir qu'une decision de taux tombe mercredi change
+une decision d'entree en position bien plus surement qu'un indice de
+tonalite — et une date de reunion est un fait, pas une prevision.
+
+L'affichage montre **les trois prochaines echeances, quelle que soit leur
+distance**. Une fenetre fixe a 21 jours n'afficherait rien pendant les six
+semaines de pause estivale des banques centrales : « prochaine echeance dans
+41 jours » est une information, « rien a signaler » n'en est pas une.
+
+> Le BLS (CPI, emploi americain) manque volontairement. Verifie en
+> conditions reelles : son site refuse les adresses des runners GitHub,
+> exactement comme son flux RSS. Mieux vaut une absence assumee qu'une
+> source qui echoue en silence.
+
+## La synthese redigee
+
+Si `ANTHROPIC_API_KEY` existe, `analyzer.py` demande a Claude les **cinq
+points a connaitre**, rediges en francais a partir des 30 elements les plus
+importants des 72 dernieres heures.
+
+C'est le seul endroit du projet ou un modele de langage apporte ce qu'un
+lexique ne peut pas donner : transformer cent depeches en cinq phrases
+hierarchisees. Sans cle, la page retombe sur le resume mecanique et le dit
+explicitement. Une panne d'API, un paquet absent ou une reponse malformee
+sont journalises et n'interrompent rien.
+
+Le modele se regle avec `VEILLE_CLAUDE_MODEL` (defaut `claude-sonnet-4-6`).
+
+## La mesure de fiabilite
+
+Chaque jour, `macro.py` enregistre **la cloture et le signal cote a cote**
+dans l'historique. C'est la seule facon de pouvoir repondre un jour a la
+question qui compte vraiment : *les journees classees « haussiere » sont-elles
+suivies d'autre chose que les journees « baissiere » ?*
+
+Tant qu'il y a moins de 60 observations, la page affiche l'avancement de la
+mesure plutot qu'un chiffre qui ne voudrait rien dire. Au-dela, elle affiche
+le rendement moyen du lendemain par type de signal. Si les lignes se
+ressemblent, c'est que le signal n'apporte rien — et il vaut mieux
+l'apprendre sur un historique qu'avec de l'argent.
 
 ## L'etape Claude — optionnelle, desactivee par defaut
 

@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-07-31T19:21:56.673304+00:00",
+  "generated_at": "2026-07-31T19:59:35.836966+00:00",
   "regime": {
     "state": "neutre",
-    "favorable": 6,
-    "available": 11,
+    "favorable": 3,
+    "available": 8,
     "total": 11,
-    "ratio": 0.5455
+    "ratio": 0.375
   },
   "criteria": [
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": false,
-      "value": "62 991 $",
+      "value": "62 959 $",
       "reference": "MM200 71 457 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": false,
-      "value": "62 991 $",
-      "reference": "MM50 63 384 $"
+      "value": "62 959 $",
+      "reference": "MM50 63 383 $"
     },
     {
       "group": "Crypto",
       "label": "ETH au-dessus de sa MM200",
       "ok": false,
-      "value": "1 867 $",
+      "value": "1 866 $",
       "reference": "MM200 2 110 $"
     },
     {
@@ -47,35 +47,35 @@
       "group": "Crypto",
       "label": "Financement des perpétuels BTC",
       "ok": true,
-      "value": "+0.0076 %",
+      "value": "+0.0078 %",
       "reference": "positif"
     },
     {
       "group": "Actions et devises",
       "label": "S&P 500 au-dessus de sa MM200",
       "ok": true,
-      "value": "7 499.90",
-      "reference": "MM200 7 024.16"
+      "value": "7 505.51",
+      "reference": "MM200 7 024.19"
     },
     {
       "group": "Actions et devises",
       "label": "MSCI World au-dessus de sa MM200",
-      "ok": true,
-      "value": "203.71",
-      "reference": "MM200 191.37"
+      "ok": null,
+      "value": "--",
+      "reference": "MM200 --"
     },
     {
       "group": "Actions et devises",
       "label": "Dollar sous sa MM50",
-      "ok": true,
-      "value": "99.91",
-      "reference": "MM50 100.43"
+      "ok": null,
+      "value": "--",
+      "reference": "MM50 --"
     },
     {
       "group": "Actions et devises",
       "label": "VIX calme",
-      "ok": true,
-      "value": "16.5",
+      "ok": null,
+      "value": "--",
       "reference": "moins de 20"
     },
     {
@@ -88,48 +88,39 @@
   ],
   "crypto": {
     "btc": {
-      "price": 62991.2,
-      "ma50": 63383.91400000001,
-      "ma200": 71457.496,
-      "drawdown_1y": 0.495127297792276,
-      "volatility_30d": 0.3070905216716182
+      "price": 62959.3,
+      "ma50": 63383.276000000005,
+      "ma200": 71457.33650000002,
+      "drawdown_1y": 0.49538297539804355,
+      "volatility_30d": 0.3076922240359255,
+      "above_ma50": false,
+      "above_ma200": false,
+      "trend": "baissiere"
     },
     "eth": {
-      "price": 1867.45,
-      "ma50": 1773.2640000000001,
-      "ma200": 2110.164849999999,
-      "drawdown_1y": 0.6133643892339545,
-      "volatility_30d": 0.4478329666830977
+      "price": 1866.14,
+      "ma50": 1773.2378000000003,
+      "ma200": 2110.158299999999,
+      "drawdown_1y": 0.6136356107660454,
+      "volatility_30d": 0.44845058376329905,
+      "above_ma50": true,
+      "above_ma200": false,
+      "trend": "indecise"
     },
     "spot_venue": "kraken",
-    "funding_btc": 7.60908744364e-05,
+    "funding_btc": 7.80487719345e-05,
     "funding_venue": "okx"
   },
   "equities": {
-    "equities_source": "yfinance",
+    "equities_source": "yahoo-direct",
     "sp500": {
       "label": "S&P 500",
-      "price": 7499.89990234375,
-      "ma50": 7471.71322265625,
-      "ma200": 7024.157651367187
-    },
-    "msci_world": {
-      "label": "MSCI World",
-      "price": 203.71240234375,
-      "ma50": 202.36824798583984,
-      "ma200": 191.37496215820312
-    },
-    "vix": {
-      "label": "VIX",
-      "price": 16.520000457763672,
-      "ma50": 17.38779996871948,
-      "ma200": 18.707150053977966
-    },
-    "dxy": {
-      "label": "Dollar (DXY)",
-      "price": 99.90699768066406,
-      "ma50": 100.42674026489257,
-      "ma200": 99.13768520355225
+      "price": 7505.509765625,
+      "ma50": 7471.825419921875,
+      "ma200": 7024.1857006835935,
+      "above_ma50": true,
+      "above_ma200": true,
+      "trend": "haussiere"
     }
   },
   "fear_greed": {
@@ -137,17 +128,112 @@
     "label": "Extreme Fear"
   },
   "fred": {},
-  "failures": [],
+  "failures": [
+    {
+      "source": "yfinance/^GSPC",
+      "reason": "Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html "
+    },
+    {
+      "source": "yfinance/^IXIC",
+      "reason": "Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html "
+    },
+    {
+      "source": "yahoo-direct/^IXIC",
+      "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "yfinance/^STOXX50E",
+      "reason": "historique vide"
+    },
+    {
+      "source": "yahoo-direct/^STOXX50E",
+      "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "yfinance/^FCHI",
+      "reason": "historique vide"
+    },
+    {
+      "source": "yahoo-direct/^FCHI",
+      "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "yfinance/^GDAXI",
+      "reason": "historique vide"
+    },
+    {
+      "source": "yahoo-direct/^GDAXI",
+      "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "yfinance/^N225",
+      "reason": "historique vide"
+    },
+    {
+      "source": "yahoo-direct/^N225",
+      "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "yfinance/^HSI",
+      "reason": "historique vide"
+    },
+    {
+      "source": "yahoo-direct/^HSI",
+      "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "yfinance/000001.SS",
+      "reason": "historique vide"
+    },
+    {
+      "source": "yahoo-direct/000001.SS",
+      "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "yfinance/URTH",
+      "reason": "historique vide"
+    },
+    {
+      "source": "yahoo-direct/URTH",
+      "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "yfinance/^VIX",
+      "reason": "historique vide"
+    },
+    {
+      "source": "yahoo-direct/^VIX",
+      "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "yfinance/DX-Y.NYB",
+      "reason": "historique vide"
+    },
+    {
+      "source": "yahoo-direct/DX-Y.NYB",
+      "reason": "HTTP Error 429: Too Many Requests"
+    }
+  ],
   "history": {
     "2026-07-31": {
       "regime": "neutre",
-      "favorable": 6,
-      "available": 11,
-      "btc": 62991.2,
-      "eth": 1867.45,
-      "sp500": 7499.89990234375,
-      "vix": 16.520000457763672,
-      "fear_greed": 25
+      "favorable": 3,
+      "available": 8,
+      "fear_greed": 25,
+      "assets": {
+        "btc": {
+          "close": 62959.3,
+          "trend": "baissiere"
+        },
+        "eth": {
+          "close": 1866.14,
+          "trend": "indecise"
+        },
+        "sp500": {
+          "close": 7505.5098,
+          "trend": "haussiere"
+        }
+      }
     }
   }
 }

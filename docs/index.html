@@ -24,27 +24,46 @@ h1{font-size:20px;margin:22px 0 2px;font-weight:600;letter-spacing:-.01em}
 h2{font-size:15px;margin:26px 0 10px;font-weight:600;color:#98a1ad;
  text-transform:uppercase;letter-spacing:.07em}
 .updated{color:#98a1ad;font-size:15px;margin:0 0 16px}
-.asset{background:#161b22;border:1px solid #262c36;border-radius:12px;
- padding:14px 15px;margin-bottom:10px}
-.asset-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
-.asset-name{font-size:17px;font-weight:600;letter-spacing:-.01em}
-.asset-price{font-size:17px;color:#98a1ad;font-variant-numeric:tabular-nums;
- white-space:nowrap}
-.asset-state{font-size:21px;font-weight:600;letter-spacing:-.01em;margin:6px 0 3px}
-.asset-reason{font-size:15px;line-height:1.4}
-.asset-news{font-size:15px;color:#98a1ad;margin-top:7px;padding-top:7px;
- border-top:1px solid #262c36}
+.zone{background:#161b22;border:1px solid #262c36;border-radius:12px;
+ padding:13px 15px;margin-bottom:9px}
+.zone-name{font-size:14px;color:#98a1ad;text-transform:uppercase;
+ letter-spacing:.07em;font-weight:600}
+.zone-state{font-size:21px;font-weight:600;letter-spacing:-.01em;margin:3px 0 3px}
+.zone-detail{font-size:15px;line-height:1.4}
+.zone-quotes{font-size:15px;color:#98a1ad;margin-top:7px;padding-top:7px;
+ border-top:1px solid #262c36;font-variant-numeric:tabular-nums;
+ overflow-wrap:anywhere}
+.q-name{color:#e6e9ee}
+.zone-extra{font-size:15px;color:#98a1ad;margin-top:5px;overflow-wrap:anywhere}
+.global-line{font-size:15px;color:#98a1ad;padding:4px 2px 0;
+ font-variant-numeric:tabular-nums}
+.agenda{list-style:none;margin:0;padding:0;background:#161b22;
+ border:1px solid #262c36;border-radius:12px}
+.agenda li{display:flex;gap:12px;align-items:baseline;padding:12px 15px;
+ border-bottom:1px solid #262c36}
+.agenda li:last-child{border-bottom:0}
+.agenda li.soon .ag-when{color:#cf6b62}
+.ag-when{flex:0 0 112px;font-size:15px;color:#98a1ad;font-weight:600}
+.ag-body{flex:1;min-width:0}
+.ag-label{display:block;font-size:16px;line-height:1.35;overflow-wrap:anywhere}
+.ag-date{display:block;font-size:14px;color:#98a1ad;margin-top:2px}
 .news{list-style:none;margin:0;padding:0;background:#161b22;
  border:1px solid #262c36;border-radius:12px}
-.news li{font-size:16px;line-height:1.4;padding:12px 15px;
+.news li{font-size:16px;line-height:1.45;padding:12px 15px;
  border-bottom:1px solid #262c36}
 .news li:last-child{border-bottom:0}
+.news-note{font-size:14px;color:#98a1ad;line-height:1.35;margin-top:7px;padding:0 3px}
 .headline{display:block;min-height:44px;margin-top:10px;padding:12px 15px;
  background:#161b22;border:1px solid #262c36;border-radius:12px;
  text-decoration:none;color:#e6e9ee;-webkit-tap-highlight-color:transparent}
 .headline-label{display:block;font-size:14px;color:#98a1ad;
  text-transform:uppercase;letter-spacing:.07em;margin-bottom:3px}
 .headline-title{display:block;font-size:16px;line-height:1.35;overflow-wrap:anywhere}
+.reliab,.reliab-list{background:#161b22;border:1px solid #262c36;
+ border-radius:12px;padding:12px 15px;margin:0;list-style:none}
+.reliab-progress{font-size:16px;line-height:1.4}
+.reliab-list li{font-size:16px;line-height:1.4;padding:5px 0}
+.reliab-note{font-size:14px;color:#98a1ad;line-height:1.35;margin-top:7px;padding:0 3px}
 .disclaimer{position:fixed;left:0;right:0;bottom:0;background:#161b22;
  border-top:1px solid #262c36;color:#98a1ad;font-size:14px;line-height:1.35;
  padding:10px 16px calc(10px + env(safe-area-inset-bottom));text-align:center;z-index:10}
@@ -52,12 +71,16 @@ h2{font-size:15px;margin:26px 0 10px;font-weight:600;color:#98a1ad;
 </head>
 <body>
 <h1>Veille économique</h1>
-<p class="updated">Mise à jour le 31/07/2026 à 21:40 (heure de Paris)</p>
+<p class="updated">Mise à jour le 31/07/2026 à 22:01 (heure de Paris)</p>
 
-<article class="asset"><div class="asset-head"><span class="asset-name">S&amp;P 500</span><span class="asset-price">7 500</span></div><div class="asset-state" style="color:#5fa97c">Tendance haussière</div><div class="asset-reason">Au-dessus de ses moyennes 50 et 200 jours.</div><div class="asset-news">Actualité 7 jours : <span style="color:#8b94a1">partagée</span> — 4 pour, 3 contre</div></article><article class="asset"><div class="asset-head"><span class="asset-name">MSCI World</span><span class="asset-price">203,71</span></div><div class="asset-state" style="color:#5fa97c">Tendance haussière</div><div class="asset-reason">Au-dessus de ses moyennes 50 et 200 jours.</div><div class="asset-news">Actualité 7 jours : <span style="color:#8b94a1">partagée</span> — 3 pour, 3 contre</div></article><article class="asset"><div class="asset-head"><span class="asset-name">Bitcoin</span><span class="asset-price">62 991 $</span></div><div class="asset-state" style="color:#cf6b62">Tendance baissière</div><div class="asset-reason">Sous ses moyennes 50 et 200 jours, à −50 % du plus haut sur un an.</div><div class="asset-news">Actualité 7 jours : <span style="color:#8b94a1">partagée</span> — 5 pour, 4 contre</div></article><article class="asset"><div class="asset-head"><span class="asset-name">Ethereum</span><span class="asset-price">1 867 $</span></div><div class="asset-state" style="color:#8b94a1">Sans direction nette</div><div class="asset-reason">Sous sa moyenne 200 jours, au-dessus de celle à 50 jours, à −61 % du plus haut sur un an.</div><div class="asset-news">Actualité 7 jours : <span style="color:#8b94a1">partagée</span> — 5 pour, 3 contre</div></article>
+<article class="zone"><div class="zone-name">Amérique</div><div class="zone-state" style="color:#5fa97c">Tendance haussière</div><div class="zone-detail">Seul indice disponible : au-dessus de ses moyennes 50 et 200 jours.</div><div class="zone-quotes"><span class="q-name">S&amp;P 500</span> 7 506</div></article><article class="zone"><div class="zone-name">Europe</div><div class="zone-state" style="color:#8b94a1">Données indisponibles</div><div class="zone-detail"></div><div class="zone-quotes">--</div></article><article class="zone"><div class="zone-name">Asie</div><div class="zone-state" style="color:#8b94a1">Données indisponibles</div><div class="zone-detail"></div><div class="zone-quotes">--</div></article><article class="zone"><div class="zone-name">Crypto</div><div class="zone-state" style="color:#8b94a1">Marchés partagés</div><div class="zone-detail">Sur 2 indices : 1 en baisse, 1 sans direction.</div><div class="zone-quotes"><span class="q-name">Bitcoin</span> 62 959 $ · <span class="q-name">Ethereum</span> 1 866 $</div><div class="zone-extra">Sous le plus haut sur un an : Bitcoin −50 % · Ethereum −61 %.</div></article>
+<h2>À surveiller</h2><ul class="agenda"><li><span class="ag-when">dans 41 jours</span><span class="ag-body"><span class="ag-label">Conseil des gouverneurs de la BCE — décision de taux</span><span class="ag-date">jeudi 10 septembre</span></span></li><li><span class="ag-when">dans 47 jours</span><span class="ag-body"><span class="ag-label">Réunion du FOMC (Fed) — décision de taux</span><span class="ag-date">mercredi 16 septembre</span></span></li><li><span class="ag-when">dans 61 jours</span><span class="ag-body"><span class="ag-label">Conseil des gouverneurs de la BCE — décision de taux</span><span class="ag-date">mercredi 30 septembre</span></span></li></ul>
 
-<h2>Ce que dit l'actualité</h2>
-<ul class="news"><li>Banques centrales : ton <span style="color:#8b94a1">neutre</span> sur 7 jours.</li><li>Actualité générale : <span style="color:#8b94a1">partagée</span> — 14 favorables, 9 défavorables sur 7 jours.</li><li>Part des sujets de crise : <span style="color:#5fa97c">faible</span> (7 % du flux).</li><li>Régime de marché : neutre (6 critères favorables sur 11).</li></ul><a class="headline" target="_blank" rel="noopener noreferrer" href="https://www.bis.org/review/r260730m.htm"><span class="headline-label">Le fait marquant</span><span class="headline-title">Tiff Macklem: Release of the Monetary Policy Report</span></a>
+<h2>Ce qu'il faut savoir</h2>
+<ul class="news"><li>Banques centrales : ton <span style="color:#8b94a1">neutre</span> sur 7 jours.</li><li>Actualité générale : <span style="color:#8b94a1">partagée</span> — 14 favorables, 9 défavorables sur 7 jours.</li><li>Part des sujets de crise : <span style="color:#5fa97c">faible</span> (7 % du flux).</li></ul><div class="news-note">Résumé mécanique. Une synthèse rédigée apparaîtra ici dès qu'une clé ANTHROPIC_API_KEY sera renseignée dans les secrets GitHub.</div>
+<a class="headline" target="_blank" rel="noopener noreferrer" href="https://www.bis.org/review/r260730m.htm"><span class="headline-label">Le fait marquant</span><span class="headline-title">Tiff Macklem: Release of the Monetary Policy Report</span></a>
+
+<h2>Fiabilité des signaux</h2><div class="reliab"><div class="reliab-progress">Mesure en cours : 0 observation accumulée sur les 60 nécessaires.</div><div class="reliab-note">Chaque jour, le signal et la clôture sont enregistrés côte à côte. Quand il y en aura assez, cette section dira si les journées classées « haussière » ont été suivies d'autre chose que les journées « baissière ». D'ici là, rien ne permet de l'affirmer.</div></div>
 
 <!-- Bandeau permanent : ne jamais retirer. -->
 <div class="disclaimer" role="note">Ces indicateurs décrivent l&#x27;actualité. Ils ne prédisent rien. Aucune valeur prédictive n&#x27;a été démontrée à ce jour.</div>

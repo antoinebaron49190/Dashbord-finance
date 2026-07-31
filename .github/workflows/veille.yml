@@ -61,6 +61,12 @@ jobs:
         # retiree du decompte du regime, jamais fatale.
         run: python macro.py
 
+      - name: Recuperer le calendrier des echeances
+        working-directory: veille
+        # Fed et BCE. Une page qui change de structure est journalisee, pas
+        # fatale : le calendrier disparait de la page, le reste continue.
+        run: python agenda.py
+
       - name: Generer la page
         working-directory: veille
         run: python build_site.py

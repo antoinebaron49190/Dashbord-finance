@@ -57,12 +57,33 @@ FUNDING_VENUES = [
     ("bybit", "BTC/USDT:USDT"),
 ]
 
-YAHOO_TICKERS = [
-    ("sp500", "^GSPC", "S&P 500"),
+# Marches suivis, regroupes par zone. Une carte par zone sur la page : dix
+# indices en quatre cartes, plutot que dix cartes qui rallongeraient la page.
+ZONES = [
+    ("amerique", "Amérique", [
+        ("sp500", "^GSPC", "S&P 500"),
+        ("nasdaq", "^IXIC", "Nasdaq"),
+    ]),
+    ("europe", "Europe", [
+        ("eurostoxx", "^STOXX50E", "Euro Stoxx 50"),
+        ("cac40", "^FCHI", "CAC 40"),
+        ("dax", "^GDAXI", "DAX"),
+    ]),
+    ("asie", "Asie", [
+        ("nikkei", "^N225", "Nikkei 225"),
+        ("hangseng", "^HSI", "Hang Seng"),
+        ("shanghai", "000001.SS", "Shanghai"),
+    ]),
+]
+
+# Indices suivis hors zones : reference mondiale et mesures de risque.
+YAHOO_EXTRA = [
     ("msci_world", "URTH", "MSCI World"),
     ("vix", "^VIX", "VIX"),
     ("dxy", "DX-Y.NYB", "Dollar (DXY)"),
 ]
+
+YAHOO_TICKERS = [item for _, _, group in ZONES for item in group] + YAHOO_EXTRA
 
 
 # --- Outils -----------------------------------------------------------------
@@ -271,6 +292,31 @@ def fetch_fred(failures):
     return data
 
 
+# --- Tendance ---------------------------------------------------------------
+
+def annotate_trend(block):
+    """Ajoute la position face aux moyennes mobiles et l'etat de tendance.
+
+    La regle vit ici, cote donnees, et nulle part ailleurs : la page ne fait
+    que mettre en forme ce qui est calcule et stocke. Elle est aussi
+    enregistree chaque jour dans l'historique, pour pouvoir un jour
+    confronter le signal a ce qui s'est reellement passe ensuite.
+    """
+    price, ma50, ma200 = block.get("price"), block.get("ma50"), block.get("ma200")
+    if price is None or ma50 is None or ma200 is None:
+        block["trend"] = None
+        return block
+    block["above_ma50"] = price > ma50
+    block["above_ma200"] = price > ma200
+    if block["above_ma50"] and block["above_ma200"]:
+        block["trend"] = "haussiere"
+    elif not block["above_ma50"] and not block["above_ma200"]:
+        block["trend"] = "baissiere"
+    else:
+        block["trend"] = "indecise"
+    return block
+
+
 # --- Criteres et regime -----------------------------------------------------
 
 def money(value):
@@ -420,6 +466,13 @@ def collect():
     fear_greed = fetch_fear_greed(failures)
     fred = fetch_fred(failures)
 
+    for key in ("btc", "eth"):
+        if isinstance(crypto.get(key), dict):
+            annotate_trend(crypto[key])
+    for block in equities.values():
+        if isinstance(block, dict):
+            annotate_trend(block)
+
     criteria = build_criteria(crypto, equities, fear_greed, fred)
     regime = compute_regime(criteria)
 
@@ -471,15 +524,24 @@ def main():
     previous = load_json(MACRO_PATH, {})
     history = previous.get("history", {})
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    # On enregistre la cloture ET le signal du jour, cote a cote. C'est la
+    # seule facon de pouvoir repondre plus tard a la question qui compte :
+    # les jours classes « haussiere » sont-ils suivis d'autre chose que les
+    # jours classes « baissiere » ? Sans cet enregistrement, la question
+    # reste sans reponse pour toujours.
+    daily = {}
+    for source in (snapshot["crypto"], snapshot["equities"]):
+        for key, block in source.items():
+            if isinstance(block, dict) and block.get("price") is not None:
+                daily[key] = {"close": round(block["price"], 4),
+                              "trend": block.get("trend")}
+
     history[today] = {
         "regime": snapshot["regime"]["state"],
         "favorable": snapshot["regime"]["favorable"],
         "available": snapshot["regime"]["available"],
-        "btc": (snapshot["crypto"].get("btc") or {}).get("price"),
-        "eth": (snapshot["crypto"].get("eth") or {}).get("price"),
-        "sp500": (snapshot["equities"].get("sp500") or {}).get("price"),
-        "vix": (snapshot["equities"].get("vix") or {}).get("price"),
         "fear_greed": snapshot["fear_greed"].get("value"),
+        "assets": daily,
     }
     snapshot["history"] = dict(sorted(history.items(), reverse=True))
 

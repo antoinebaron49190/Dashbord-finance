@@ -42,6 +42,7 @@ from lexique import (
 DATA_DIR = Path(__file__).parent / "data"
 ARTICLES_PATH = DATA_DIR / "articles.json"
 INDEX_PATH = DATA_DIR / "index.json"
+SYNTHESE_PATH = DATA_DIR / "synthese.json"
 
 ASSETS = ["sp500", "msci_world", "btc", "eth"]
 CRYPTO_ASSETS = {"btc", "eth"}
@@ -440,6 +441,94 @@ def claude_requalify(articles):
     return updated
 
 
+# --- Synthese redigee (optionnelle, necessite une cle) ----------------------
+
+SYNTHESE_SYSTEM = """Tu rediges la synthese quotidienne d'un outil de veille \
+economique personnel, pour un particulier qui suit le S&P 500, le MSCI World, \
+les marches europeens et asiatiques, le Bitcoin et l'Ethereum.
+
+A partir des titres fournis, degage les points qu'il doit absolument \
+connaitre aujourd'hui.
+
+Regles :
+- exactement 5 points, un par ligne, chacun commencant par "- "
+- une phrase par point, 25 mots maximum, en francais
+- du plus important au moins important
+- factuel : ce qui s'est passe et pourquoi cela compte pour ces marches
+- ne predis rien, ne conseille ni achat ni vente, n'invente aucun chiffre
+- si plusieurs titres traitent du meme sujet, fusionne-les en un seul point
+
+Aucun texte avant, aucun texte apres, aucun titre, aucune numerotation."""
+
+SYNTHESE_MAX_ITEMS = 30
+SYNTHESE_WINDOW_HOURS = 72
+
+
+def build_synthese(articles):
+    """Demande a Claude les cinq points a retenir. Silencieuse sans cle.
+
+    C'est le seul endroit du projet ou un modele de langage apporte quelque
+    chose qu'un lexique ne peut pas donner : transformer cent depeches en
+    cinq phrases hierarchisees. Sans ANTHROPIC_API_KEY, la page retombe sur
+    le resume mecanique et rien ne casse.
+    """
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        return None
+
+    try:
+        import anthropic
+    except ImportError:
+        print("  (paquet anthropic absent, synthese ignoree)")
+        return None
+
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=SYNTHESE_WINDOW_HOURS)
+    recent = []
+    for article in articles:
+        try:
+            published = datetime.fromisoformat(article["published_at"])
+        except (KeyError, ValueError):
+            continue
+        if published >= cutoff:
+            recent.append(article)
+    if not recent:
+        return None
+
+    recent.sort(key=lambda a: a["importance"], reverse=True)
+    selection = recent[:SYNTHESE_MAX_ITEMS]
+    listing = "\n".join(f"- [{a['source']}] {a['title']} :: {a['summary'][:180]}"
+                         for a in selection)
+
+    try:
+        client = anthropic.Anthropic()
+        response = client.messages.create(
+            model=CLAUDE_MODEL,
+            max_tokens=1200,
+            system=SYNTHESE_SYSTEM,
+            messages=[{"role": "user", "content": listing}],
+        )
+    except Exception as exc:  # bonus, jamais bloquant
+        print(f"  (synthese en echec, on continue : {exc})")
+        return None
+
+    text = "".join(b.text for b in response.content if b.type == "text")
+    points = []
+    for line in text.splitlines():
+        line = line.strip()
+        if line.startswith(("- ", "\u2022 ", "* ")):
+            point = line[2:].strip()
+            if point:
+                points.append(point[:300])
+    if not points:
+        return None
+
+    return {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "model": CLAUDE_MODEL,
+        "based_on": len(selection),
+        "points": points[:5],
+    }
+
+
 # --- Entree -----------------------------------------------------------------
 
 def load_json(path, default):
@@ -508,8 +597,14 @@ def main():
 
     index = build_index(load_json(INDEX_PATH, {}), articles)
 
+    synthese = None if args.no_claude else build_synthese(articles)
+
     save_json(ARTICLES_PATH, articles)
     save_json(INDEX_PATH, index)
+    if synthese:
+        save_json(SYNTHESE_PATH, synthese)
+        print(f"  synthese : {len(synthese['points'])} points "
+              f"(modele {synthese['model']})")
 
     latest = next(iter(index), None)
     print(f"Analyse terminee : {len(articles)} articles scores "
