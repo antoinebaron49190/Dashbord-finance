@@ -1,1 +1,6 @@
 feedparser>=6.0
+
+# Optionnel : uniquement utilise par l'etape Claude d'analyzer.py, elle-meme
+# active seulement si ANTHROPIC_API_KEY existe. Si le paquet est absent,
+# l'etape est ignoree et tout le reste continue de fonctionner.
+anthropic>=0.40

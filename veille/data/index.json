@@ -1,917 +1,2204 @@
 {
   "2026-07-31": {
     "articles_count": 107,
-    "tier_counts": {
-      "1": 14,
-      "2": 11,
-      "3": 82
-    },
-    "asset_counts": {
-      "sp500": 81,
-      "msci_world": 81,
-      "btc": 107,
-      "eth": 107
-    },
-    "weighted_total": 45.2
+    "signal_count": 17,
+    "tone_cb": 0.5,
+    "tone_global": 0.2792,
+    "regul_crypto": 0.6796,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "24b10cf84716609810e7c38a",
+        "title": "Tiff Macklem: Release of the Monetary Policy Report",
+        "source": "bis_cb_speeches",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bis.org/review/r260730m.htm"
+      },
+      {
+        "id": "d90a8d8ed8b45f602eb21257",
+        "title": "Andrew Bailey: Growth and regulation",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.5,
+        "url": "https://www.bis.org/review/r260730s.htm"
+      },
+      {
+        "id": "27362d930279e53d915c911c",
+        "title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm"
+      },
+      {
+        "id": "edc09bc3a00cf47be8e8be34",
+        "title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm"
+      },
+      {
+        "id": "005ed8971c6da973de9a851a",
+        "title": "Michelle W Bowman: Modernizing financial regulation",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/review/r260730j.htm"
+      }
+    ]
   },
   "2026-07-30": {
     "articles_count": 38,
-    "tier_counts": {
-      "1": 16,
-      "2": 2,
-      "3": 20
-    },
-    "asset_counts": {
-      "sp500": 19,
-      "msci_world": 19,
-      "btc": 38,
-      "eth": 38
-    },
-    "weighted_total": 23.2
+    "signal_count": 3,
+    "tone_cb": -0.0898,
+    "tone_global": 0.0041,
+    "regul_crypto": -0.3988,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "2593cb5b1fb40f59c38440aa",
+        "title": "Eddie Yue: Response to media regarding the new measures announced by People Bank of China's Governor Pan Gongsheng",
+        "source": "bis_cb_speeches",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bis.org/review/r260730f.htm"
+      },
+      {
+        "id": "48a12f98f678c84d13170989",
+        "title": "Claudia Buch: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+        "source": "bis_cb_speeches",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bis.org/review/r260730c.htm"
+      },
+      {
+        "id": "e6c551a5d8d4dda479249041",
+        "title": "Let the tree decide: FABART. A non-parametric factor model for nonlinear oil shock transmission",
+        "source": "bce_pub",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3265~cde079e4dc.en.pdf"
+      },
+      {
+        "id": "e8dfbbe8d3c07b28f34a4c41",
+        "title": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": -0.6796,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm"
+      },
+      {
+        "id": "b6ce50853a206ab89fbf5d23",
+        "title": "Sarah Breeden: Agents of change",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.5,
+        "url": "https://www.bis.org/review/r260701h.htm"
+      }
+    ]
   },
   "2026-07-29": {
     "articles_count": 5,
-    "tier_counts": {
-      "1": 4,
-      "2": 0,
-      "3": 1
-    },
-    "asset_counts": {
-      "sp500": 5,
-      "msci_world": 5,
-      "btc": 5,
-      "eth": 5
-    },
-    "weighted_total": 4.3
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "ac7fa5200f7f264f3792480b",
+        "title": "Federal Reserve issues FOMC statement",
+        "source": "fed_press_all",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+      },
+      {
+        "id": "1517a86bfdb32f7903e5c906",
+        "title": "Threshold endogeneity in vector autoregressions: reassessing monetary state dependence",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3263~54951460ab.en.pdf"
+      },
+      {
+        "id": "b12d69a247038fbdd82e6d91",
+        "title": "A SPOT in the dark: using AI to assess financial stability risks",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3262~7169a94638.en.pdf"
+      },
+      {
+        "id": "a4fb171fbcfee82d80a7f9d5",
+        "title": "ECB wage tracker at 2.7% in Q1 2027, indicating stable negotiated wage pressures",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260729~4ad7508d8a.en.html"
+      },
+      {
+        "id": "c126fe9e9dafaa5ead790c26",
+        "title": "Rivian stock drops despite Q2 beat; R2 launch edition conversions stronger than expected, CEO says",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://finance.yahoo.com/markets/stocks/article/rivian-stock-drops-despite-q2-beat-r2-launch-edition-conversions-stronger-than-expected-ceo-says-185442823.html"
+      }
+    ]
   },
   "2026-07-28": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 2,
-      "2": 0,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 2.0
+    "signal_count": 2,
+    "tone_cb": 0.1193,
+    "tone_global": 0.1193,
+    "regul_crypto": 0.8386,
+    "stress": 0.5,
+    "top": [
+      {
+        "id": "ceb2bf06d2c792e5eeb55b67",
+        "title": "Adoption and investment in AI across the euro area. Insights from harmonised firm-level data",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.8386,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpops/ecb.op395.en.pdf"
+      },
+      {
+        "id": "272421f3827afb8eaf293e7c",
+        "title": "The Paris Agreement ten years later: Navigating climate uncertainty and tipping points",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": -0.6,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3261~cc4bd5eabc.en.pdf"
+      }
+    ]
   },
   "2026-07-27": {
     "articles_count": 7,
-    "tier_counts": {
-      "1": 2,
-      "2": 3,
-      "3": 2
-    },
-    "asset_counts": {
-      "sp500": 7,
-      "msci_world": 7,
-      "btc": 7,
-      "eth": 7
-    },
-    "weighted_total": 4.4
+    "signal_count": 1,
+    "tone_cb": -0.6667,
+    "tone_global": -0.6667,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "8ec7b98ed30470cec4690273",
+        "title": "The effects of a large energy price shock on bank credit",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": -0.6667,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3260~7f05446cac.en.pdf"
+      },
+      {
+        "id": "20f4712f959d1045b7773f61",
+        "title": "Central banks, debt managers, and specialness in the Bund repo market",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3259~ca31e19d1b.en.pdf"
+      },
+      {
+        "id": "52151f0b1ac297cf0c2bcc2c",
+        "title": "Small Business Forum’s Report to Congress Highlights Recommendations to Improve Capital-Raising Policy",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-70-small-business-forums-report-congress-highlights-recommendations-improve-capital-raising-policy"
+      },
+      {
+        "id": "fc248ccf0b22c80eb83a69b2",
+        "title": "Conseil sur crypto-actifs : l’AMF met à jour sa doctrine concernant les CIF",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/conseil-sur-crypto-actifs-lamf-met-jour-sa-doctrine-concernant-les-cif#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "8fcee1ba135b7647eed4759c",
+        "title": "Entrée en application du règlement européen MiCA : quelles conséquences pour les détenteurs de cryptos ?",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/espace-epargnants/actualites-mises-en-garde/entree-en-application-du-reglement-europeen-mica-quelles-consequences-pour-les-detenteurs-de-cryptos#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-07-24": {
     "articles_count": 17,
-    "tier_counts": {
-      "1": 12,
-      "2": 5,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 17,
-      "msci_world": 17,
-      "btc": 17,
-      "eth": 17
-    },
-    "weighted_total": 15.0
+    "signal_count": 3,
+    "tone_cb": -0.5394,
+    "tone_global": -0.5394,
+    "regul_crypto": null,
+    "stress": 0.0667,
+    "top": [
+      {
+        "id": "887f0b31ba1afb07b432a4b1",
+        "title": "Import tariff transmission in a production network",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": -0.785,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3258~46133509d4.en.pdf"
+      },
+      {
+        "id": "0ed2becc3de85924d2e2c13e",
+        "title": "Main findings from the ECB’s recent contacts with non-financial companies",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": -0.5,
+        "url": "https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202605_05~8c25c55b38.en.html"
+      },
+      {
+        "id": "4158b5084e8b72fb4ea4cb3a",
+        "title": "The devil in the DeTail: assessing state-contingent tail effects of a releasable macroprudential capital buffer using a parsimonious agent-based framework",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": -0.3333,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3257~92e2d05000.en.pdf"
+      },
+      {
+        "id": "5b5ff037e42f85539a87fa0e",
+        "title": "Philip R. Lane: Outlook for the euro area economy",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260724~d484b483b9.en.pdf"
+      },
+      {
+        "id": "dc3ea8e0ca1a64daba9f269a",
+        "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc260724~eebbc30622.en.html"
+      }
+    ]
   },
   "2026-07-23": {
     "articles_count": 9,
-    "tier_counts": {
-      "1": 5,
-      "2": 4,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 9,
-      "msci_world": 9,
-      "btc": 9,
-      "eth": 9
-    },
-    "weighted_total": 7.4
+    "signal_count": 2,
+    "tone_cb": null,
+    "tone_global": -0.6503,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "b81b347dc23330b7b3e1ffdc",
+        "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
+        "source": "bce_press",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html"
+      },
+      {
+        "id": "16a172b03287a4541a7e9467",
+        "title": "Letter from the Governor to the Daily Mail",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/letter/2026/letter-from-the-governor-to-the-daily-mail"
+      },
+      {
+        "id": "d6dd48e1c8efdae0193d5603",
+        "title": "ECB reveals shortlisted designs for new banknotes and launches public survey",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260723~c2d43f9170.en.html"
+      },
+      {
+        "id": "5caf4f68f0af788f5284eb96",
+        "title": "Report of the Design Contest Jury on the winning design proposals for future euro banknotes",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/pubbydate/2026/html/ecb.desreportbanknotes202607.en.html"
+      },
+      {
+        "id": "86532bb707d4e452d6a2589b",
+        "title": "Monetary policy decisions",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html"
+      }
+    ]
   },
   "2026-07-22": {
     "articles_count": 6,
-    "tier_counts": {
-      "1": 1,
-      "2": 5,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 6,
-      "msci_world": 6,
-      "btc": 6,
-      "eth": 6
-    },
-    "weighted_total": 4.0
+    "signal_count": 2,
+    "tone_cb": null,
+    "tone_global": -0.6503,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "24a6dfc1fc37db25da61a98b",
+        "title": "PRA consults on updated guidance for friendly society amalgamations and transfers",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/july/pra-consults-on-updated-guidance-for-friendly-society-amalgamations-and-transfers"
+      },
+      {
+        "id": "b6a103d716fe0c23406929bc",
+        "title": "La Commission des sanctions de l’AMF sanctionne une société de gestion de portefeuille et deux de ses dirigeants pour des manquements à leurs obligations professionnelles et met hors de cause deux autres dirigeants",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": -0.6667,
+        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-la-commission-des-sanctions/la-commission-des-sanctions-de-lamf-sanctionne-une-societe-de-gestion-de-portefeuille-et-deux-de-ses#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "04edf0337f7ed9c953abac87",
+        "title": "SAN-2026-06 - Décision de la commission des sanctions du 20 juillet 2026 à l'égard de la société Uzès Gestion et de MM. A, B, Jean-Marie Godet et Christian Maugey",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": -0.634,
+        "url": "https://www.amf-france.org/fr/sanctions-transactions/decisions-de-la-commission-des-sanctions/san-2026-06#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "8c7897859e31f4b945af5c90",
+        "title": "SEC Announces Departure of Principal Deputy Director of Enforcement Sam Waldon",
+        "source": "sec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-68-sec-announces-departure-principal-deputy-director-enforcement-sam-waldon"
+      },
+      {
+        "id": "dd7e7b08548ce778ca6c32c4",
+        "title": "De la conception à la mise en œuvre : l'AFM et l'AMF identifient cinq leviers pour favoriser une supervision européenne efficace des marchés de capitaux",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/de-la-conception-la-mise-en-oeuvre-lafm-et-lamf-identifient-cinq-leviers-pour-favoriser-une#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-07-21": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 2,
-      "2": 0,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 2.0
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "3191a35b7f60f2cdab24b694",
+        "title": "ECB appoints Boris Kisselevsky as Director General Secretariat",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260721_1~8c6ba4c5fb.en.html"
+      },
+      {
+        "id": "425e3d96684d03dea026d8c5",
+        "title": "July 2026 euro area bank lending survey",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260721~44ee50f75c.en.html"
+      }
+    ]
   },
   "2026-07-20": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 2,
-      "2": 0,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 2.0
+    "signal_count": 1,
+    "tone_cb": -0.5,
+    "tone_global": -0.5,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "20996752c7431129708c8092",
+        "title": "PRA fines HDI Global SE £4,165,000 for inaccurate reporting of FSCS Liabilities and FSCS Fee Tariff data",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": -0.5,
+        "url": "https://www.bankofengland.co.uk/news/2026/july/pra-fines-hdi-global-se-4165000-for-inaccurate-reporting"
+      },
+      {
+        "id": "91d63660e93688de347c403c",
+        "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260720~cafc3874a7.en.html"
+      }
+    ]
   },
   "2026-07-16": {
     "articles_count": 6,
-    "tier_counts": {
-      "1": 3,
-      "2": 3,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 6,
-      "msci_world": 6,
-      "btc": 6,
-      "eth": 6
-    },
-    "weighted_total": 4.8
+    "signal_count": 1,
+    "tone_cb": -0.6796,
+    "tone_global": -0.6796,
+    "regul_crypto": -0.6796,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "e828b56768679e80489c5397",
+        "title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+        "source": "fed_press_all",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm"
+      },
+      {
+        "id": "46dbab6f714c7f09d5061eb5",
+        "title": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": -0.6796,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm"
+      },
+      {
+        "id": "8eb78520704a21f8d2872a4b",
+        "title": "Jefferson, Navigating Economic Shocks: A Monetary Policymaker’s Perspective",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm"
+      },
+      {
+        "id": "6d0a5d10cf29a529adc06a15",
+        "title": "L'AMF publie une étude sur le financement par le marché à Paris sur la période 2007-2025",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-une-etude-sur-le-financement-par-le-marche-paris-sur-la-periode-2007-2025#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "7fcef96f10ab629bec08737e",
+        "title": "SEC Proposes New E-Delivery Approach to Make Information More Readily Accessible and Useful for Investors",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-67-sec-proposes-new-e-delivery-approach-make-information-more-readily-accessible-useful-investors"
+      }
+    ]
   },
   "2026-07-15": {
     "articles_count": 3,
-    "tier_counts": {
-      "1": 1,
-      "2": 2,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 3,
-      "msci_world": 3,
-      "btc": 3,
-      "eth": 3
-    },
-    "weighted_total": 2.2
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "a5d4a21f80efc00b32c94fe3",
+        "title": "Cook, Economic Outlook",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/cook20260715a.htm"
+      },
+      {
+        "id": "ef9f98b6c44ff8c01acd9e22",
+        "title": "L'AMF publie une étude sur les comportements des investisseurs particuliers sur les valeurs du CAC 40 à l'ère des réseaux sociaux",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-une-etude-sur-les-comportements-des-investisseurs-particuliers-sur-les-valeurs-du-cac-40#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "c2e0dbfc0c62a9fd17637578",
+        "title": "L'influence des réseaux sociaux sur l'activité des investisseurs particuliers sur les titres du CAC 40",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/publications/rapports-etudes-et-analyses/linfluence-des-reseaux-sociaux-sur-lactivite-des-investisseurs-particuliers-sur-les-titres-du-cac-40#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-07-14": {
     "articles_count": 4,
-    "tier_counts": {
-      "1": 4,
-      "2": 0,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 4,
-      "msci_world": 4,
-      "btc": 4,
-      "eth": 4
-    },
-    "weighted_total": 4.0
+    "signal_count": 1,
+    "tone_cb": 0.5,
+    "tone_global": 0.5,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "065e464884fb9e33833860ed",
+        "title": "PRA and FCA propose new captive insurance regime to drive UK growth and competitiveness",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.5,
+        "url": "https://www.bankofengland.co.uk/news/2026/july/pra-and-fca-propose-new-captive-insurance-regime-to-drive-uk-growth-and-competitiveness"
+      },
+      {
+        "id": "4bda63b5b3177ccf2f56bfae",
+        "title": "Bowman, Responsible Innovation and Financial Inclusion",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260714a.htm"
+      },
+      {
+        "id": "ac77899e9ecabb92b87054f8",
+        "title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm"
+      },
+      {
+        "id": "cad77a801012c2e4026d95c9",
+        "title": "Barr, Will Artificial Intelligence Broadly Raise Living Standards or Drive Income and Wealth Inequality?",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/barr20260714a.htm"
+      }
+    ]
   },
   "2026-07-13": {
     "articles_count": 3,
-    "tier_counts": {
-      "1": 3,
-      "2": 0,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 3,
-      "msci_world": 3,
-      "btc": 3,
-      "eth": 3
-    },
-    "weighted_total": 3.0
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "5d391fae73231d001696746d",
+        "title": "Waller, Monetary Policy at a Crossroads",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/waller20260713a.htm"
+      },
+      {
+        "id": "767d76247e6418ac93810d36",
+        "title": "Minutes of the Money Market Committee meeting – June 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/june/money-markets-committee-minutes-june-2026"
+      },
+      {
+        "id": "60e8193e2ea785ccc0e41b4b",
+        "title": "Bowman, Modernizing Financial Regulation",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260713a.htm"
+      }
+    ]
   },
   "2026-07-10": {
     "articles_count": 9,
-    "tier_counts": {
-      "1": 1,
-      "2": 8,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 9,
-      "msci_world": 9,
-      "btc": 9,
-      "eth": 9
-    },
-    "weighted_total": 5.8
+    "signal_count": 2,
+    "tone_cb": null,
+    "tone_global": 0.6398,
+    "regul_crypto": 0.6398,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "117c51e764789798691ce0e8",
+        "title": "UK financial regulators to begin overseeing Critical Third Parties announced by HM Treasury",
+        "source": "boe_news",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/july/uk-financial-regulators-to-begin-overseeing-critical-third-parties-announced-by-hmt"
+      },
+      {
+        "id": "414a068e8d56c0bcf39c87da",
+        "title": "SEC Office of Municipal Securities Updates FAQs for Registration of Municipal Advisors",
+        "source": "sec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-66-sec-office-municipal-securities-updates-faqs-registration-municipal-advisors"
+      },
+      {
+        "id": "477691b2d9695952bba71f74",
+        "title": "Décision relative à des modifications des règles de fonctionnement de la chambre de compensation LCH SA pour le service RepoClear, visant à adapter le cadre applicable aux Membres Agents Garants d’une part et aux Adhérents Compensateurs Spéciaux d’autr...",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/reglementation/regles-professionnelles-approuvees/decision-relative-des-modifications-des-regles-de-fonctionnement-de-la-chambre-de-compensation-lch-0#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "ca7695c69d95d513e24ad56e",
+        "title": "L'AMF publie sa réponse à la consultation publique européenne sur la revue de la directive sur les droits des actionnaires (SRD)",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-sa-reponse-la-consultation-publique-europeenne-sur-la-revue-de-la-directive-sur-les#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "be9854daef7efe76a1dc6ccd",
+        "title": "L'AMF accompagne les émetteurs dans la mise en œuvre du troisième volet des mesures du Listing Act",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.6796,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-accompagne-les-emetteurs-dans-la-mise-en-oeuvre-du-troisieme-volet-des-mesures-du-listing-act#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-07-09": {
     "articles_count": 7,
-    "tier_counts": {
-      "1": 2,
-      "2": 5,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 7,
-      "msci_world": 7,
-      "btc": 7,
-      "eth": 7
-    },
-    "weighted_total": 5.0
+    "signal_count": 1,
+    "tone_cb": -0.6796,
+    "tone_global": -0.6796,
+    "regul_crypto": -0.6796,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "a8ffd9cace96bc4d898634c6",
+        "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "source": "fed_press_all",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm"
+      },
+      {
+        "id": "82ee47c8a3ddec1b38aa3406",
+        "title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": -0.6796,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm"
+      },
+      {
+        "id": "d57c9dfb379e9dba95dd96ae",
+        "title": "L'AMF et l'ACPR mettent en garde le public contre plusieurs acteurs proposant en France des investissements sur le marché des devises non régulé (Forex) et sur des produits dérivés sur crypto-actifs, sans y être autorisés",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-et-lacpr-mettent-en-garde-le-public-contre-plusieurs-acteurs-proposant-en-france-des-1#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "e755e81e3df27dd674826d97",
+        "title": "Visites mystère en agences bancaires : l'AMF encourage les professionnels à renforcer la qualité du questionnement des clients et de la présentation des frais",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/visites-mystere-en-agences-bancaires-lamf-encourage-les-professionnels-renforcer-la-qualite-du#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "94fcfb363b434be623f504e3",
+        "title": "Lettre de l'Observatoire de l'épargne de l'AMF - N°66 - Juillet 2026",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/publications/observatoire-de-lepargne/lettres-de-lobservatoire-de-lepargne/lettre-de-lobservatoire-de-lepargne-de-lamf-ndeg66-juillet-2026#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-07-08": {
     "articles_count": 8,
-    "tier_counts": {
-      "1": 4,
-      "2": 4,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 8,
-      "msci_world": 8,
-      "btc": 8,
-      "eth": 8
-    },
-    "weighted_total": 6.4
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "c02b8c489f4bd038da73727b",
+        "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm"
+      },
+      {
+        "id": "66af0fcc031954e345494283",
+        "title": "Minutes of the UK Money Markets Code Sub-Committee – June 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/june/uk-money-markets-committee-minutes-june-2026"
+      },
+      {
+        "id": "2ebcf954820210abfb98db6f",
+        "title": "Letter from the Governor to Joe Powell MP",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/letter/2026/letter-from-the-governor-to-joe-powell"
+      },
+      {
+        "id": "3f315a78193b4cc17e043c8d",
+        "title": "Statistical Notice 2026/07 - Bank of England Levy: Notification Document Levy Year 2026/27",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-07"
+      },
+      {
+        "id": "7d0c243cdc67ff1b5c3d87f4",
+        "title": "SEC Small Business Advisory Committee to Explore Modernizing Market Access",
+        "source": "sec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-64-sec-small-business-advisory-committee-explore-modernizing-market-access"
+      }
+    ]
   },
   "2026-07-07": {
     "articles_count": 5,
-    "tier_counts": {
-      "1": 3,
-      "2": 2,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 5,
-      "msci_world": 5,
-      "btc": 4,
-      "eth": 4
-    },
-    "weighted_total": 4.2
+    "signal_count": 2,
+    "tone_cb": -0.8093,
+    "tone_global": -0.785,
+    "regul_crypto": -0.785,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "3fdffabf9ff8ee7a938a1721",
+        "title": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": -0.8093,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm"
+      },
+      {
+        "id": "45697ff8a54d23324bcf2371",
+        "title": "Bowman, Opening Remarks on Sound Practices for Artificial Intelligence",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260707a.htm"
+      },
+      {
+        "id": "47b76b40f13da025ad6d7491",
+        "title": "Financial Policy Committee Record – July 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/july-2026"
+      },
+      {
+        "id": "ea4abb613bb01f6014dbe5de",
+        "title": "SEC Forms New Retail Fraud Working Group",
+        "source": "sec_press",
+        "score": 0.9,
+        "tone": -0.75,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-63-sec-forms-new-retail-fraud-working-group"
+      },
+      {
+        "id": "dd8f653a1b3e4cfa73488d35",
+        "title": "Frontier AI models could strain cyber resilience in the financial system, ESRB warns",
+        "source": "esrb_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.esrb.europa.eu//news/pr/date/2026/html/esrb.pr260707~4e1b68241a.en.html"
+      }
+    ]
   },
   "2026-07-06": {
     "articles_count": 4,
-    "tier_counts": {
-      "1": 2,
-      "2": 2,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 4,
-      "msci_world": 4,
-      "btc": 4,
-      "eth": 4
-    },
-    "weighted_total": 3.2
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "4f5d43b39ca3e94484555162",
+        "title": "Bank of England appoints Rhys Phillips as the new Chief Cashier",
+        "source": "boe_news",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/july/boe-appoints-rhys-phillips-as-the-new-chief-cashier"
+      },
+      {
+        "id": "f29f657faac5fe48a75dd76f",
+        "title": "Waller, Two Thoughts on the Transmission of Monetary Policy",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/waller20260706a.htm"
+      },
+      {
+        "id": "b78455e7aad12d9081cd187e",
+        "title": "SEC Names Paul Knight as Chief Operating Officer",
+        "source": "sec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-62-sec-names-paul-knight-chief-operating-officer"
+      },
+      {
+        "id": "92e1ded003a443d49a647dce",
+        "title": "Crypto-actifs : la fin de la période de transition entre la loi Pacte et le règlement européen MiCA consacre un nouveau rôle pour l'AMF",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/crypto-actifs-la-fin-de-la-periode-de-transition-entre-la-loi-pacte-et-le-reglement-europeen-mica#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-07-03": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 0,
-      "2": 2,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 1.2
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "b3ddfa88cd5790e6adc6558f",
+        "title": "Communiqué ESMA : ESMA reminds firms of existing rules and obligations under binary option measures amid growing popularity of prediction markets globally",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/communique-esma-esma-reminds-firms-existing-rules-and-obligations-under-binary-option-measures-amid#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "c4e8655cfd82a64eca51a0f6",
+        "title": "La présence de parts sociales dans un PEA peut en compliquer la clôture",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/le-mediateur/journal-de-bord-du-mediateur/dossiers-du-mois/la-presence-de-parts-sociales-dans-un-pea-peut-en-compliquer-la-cloture#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-07-02": {
     "articles_count": 4,
-    "tier_counts": {
-      "1": 4,
-      "2": 0,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 4,
-      "msci_world": 4,
-      "btc": 4,
-      "eth": 4
-    },
-    "weighted_total": 4.0
+    "signal_count": 1,
+    "tone_cb": -0.6796,
+    "tone_global": -0.6796,
+    "regul_crypto": -0.6796,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "6d5a672032d9abbe67b84730",
+        "title": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions with BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp., and Community Bankshares, Inc.",
+        "source": "fed_press_all",
+        "score": 1.95,
+        "tone": -0.6796,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260702a.htm"
+      },
+      {
+        "id": "ce8392174032117f70fb4ea2",
+        "title": "Minutes of the London FXJSC Main Committee Meeting – 26 March 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/march/fxjsc-main-committee-meeting-26-march-2026"
+      },
+      {
+        "id": "cb9b9e56213a8d9da5ddde20",
+        "title": "Minutes of the London FXJSC Legal Sub Committee Meeting – 17 March 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/march/fxjsc-legal-sub-committee-meeting-17-march-2026"
+      },
+      {
+        "id": "7deed278c4e4d1e7b2936eda",
+        "title": "Minutes of the London FXJSC Operations Sub-Committee Meeting – 18 March 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/march/fxjsc-operations-sub-committee-meeting-18-march-2026"
+      }
+    ]
   },
   "2026-07-01": {
     "articles_count": 8,
-    "tier_counts": {
-      "1": 6,
-      "2": 2,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 8,
-      "msci_world": 8,
-      "btc": 8,
-      "eth": 8
-    },
-    "weighted_total": 7.2
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "c49882aedafdf469af604a00",
+        "title": "Timur M Suleimenov: Statement - base rate of the National Bank of Kazakhstan",
+        "source": "bis_cb_speeches",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bis.org/review/r260701i.htm"
+      },
+      {
+        "id": "732487fa0dbdfa86d12bff7b",
+        "title": "Federal Reserve issues initial findings from its 2025 triennial payments study",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm"
+      },
+      {
+        "id": "38c2ff553cb99d3b94e4e25a",
+        "title": "Zhu Hexin: New landscape of global capital flows and China's high-level opening-up",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/review/r260701e.htm"
+      },
+      {
+        "id": "a676317413ecd7eb66f3cb9c",
+        "title": "Andrew Hauser: \"The straight line belongs to man, the curved line belongs to God\"",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/review/r260701d.htm"
+      },
+      {
+        "id": "481934d7cf1726884724570f",
+        "title": "Naoki Tamura: Economic activity, prices and monetary policy in Japan",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/review/r260701c.htm"
+      }
+    ]
   },
   "2026-06-30": {
     "articles_count": 7,
-    "tier_counts": {
-      "1": 2,
-      "2": 5,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 7,
-      "msci_world": 7,
-      "btc": 7,
-      "eth": 7
-    },
-    "weighted_total": 5.0
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "27bf74161d09dbd998a4e505",
+        "title": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm"
+      },
+      {
+        "id": "a38d18e09505a33906f0f8aa",
+        "title": "Statistical Notice 2026/06 - Form PL - updates to definitions",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-06"
+      },
+      {
+        "id": "b12efced76fe86681873e208",
+        "title": "L'AMF publie sa cartographie 2026 des marchés et des risques",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-publie-sa-cartographie-2026-des-marches-et-des-risques#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "dfce17f55eb338c3707cd97e",
+        "title": "Décision relative à la modification des règles de fonctionnement de la chambre de compensation LCH SA pour le service DigitalAssetClear",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/reglementation/regles-professionnelles-approuvees/decision-relative-la-modification-des-regles-de-fonctionnement-de-la-chambre-de-compensation-lch-sa-1#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "970094f950d9731e6697bb92",
+        "title": "SEC Seeks Public Comment on Novel Exchange-Traded Funds",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-60-sec-seeks-public-comment-novel-exchange-traded-funds"
+      }
+    ]
   },
   "2026-06-29": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 0,
-      "2": 2,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 1.2
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "559b59755b4d597bee731d08",
+        "title": "La garantie des services des sociétés de gestion",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/dossiers-thematiques/garantie-des-services-des-societes-de-gestion#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "6c7d9acf48acd45e3866fd95",
+        "title": "Pre-close calls : l'AMF attire l’attention des sociétés cotées sur les bonnes pratiques identifiées par l'ESMA",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/pre-close-calls-lamf-attire-lattention-des-societes-cotees-sur-les-bonnes-pratiques-identifiees-par#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-06-26": {
     "articles_count": 1,
-    "tier_counts": {
-      "1": 0,
-      "2": 1,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 1,
-      "msci_world": 1,
-      "btc": 1,
-      "eth": 1
-    },
-    "weighted_total": 0.6
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "0a6d052bd9c909180314dd1b",
+        "title": "SEC, CFTC Seek Public Comment on the Harmonization of Portfolio Margining Frameworks",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-59-sec-cftc-seek-public-comment-harmonization-portfolio-margining-frameworks"
+      }
+    ]
   },
   "2026-06-25": {
     "articles_count": 5,
-    "tier_counts": {
-      "1": 3,
-      "2": 2,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 5,
-      "msci_world": 5,
-      "btc": 5,
-      "eth": 5
-    },
-    "weighted_total": 4.2
+    "signal_count": 4,
+    "tone_cb": -0.6796,
+    "tone_global": -0.6692,
+    "regul_crypto": -0.6796,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "ed2d526dcdb1b030c6fc7449",
+        "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+        "source": "fed_press_all",
+        "score": 1.95,
+        "tone": -0.6796,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625a.htm"
+      },
+      {
+        "id": "07adfe9a5990be635e57f85b",
+        "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": -0.6796,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625b.htm"
+      },
+      {
+        "id": "e4e8fc7973605ee067a78ad4",
+        "title": "The Retail Payments Infrastructure Board launches consultation on the next generation UK payments infrastructure",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/june/rpib-launches-consultation-on-next-generation-uk-payments-infrastructure"
+      },
+      {
+        "id": "12e0fd3b22a8328a21388fbe",
+        "title": "La Commission des sanctions de l’AMF sanctionne un prestataire de services d’investissement et sa dirigeante pour un montant total de 850 000 euros",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": -0.6667,
+        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-la-commission-des-sanctions/la-commission-des-sanctions-de-lamf-sanctionne-un-prestaire-de-services-dinvestissement-et-sa#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "37e8cf861d5a1e9d8fa54f32",
+        "title": "Décision de la commission des sanctions du 23 juin 2026 à l'égard de la société Bourse Direct et de Mme Catherine Nini",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": -0.634,
+        "url": "https://www.amf-france.org/fr/sanctions-transactions/decisions-de-la-commission-des-sanctions/san-2026-05#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-06-24": {
     "articles_count": 6,
-    "tier_counts": {
-      "1": 3,
-      "2": 3,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 6,
-      "msci_world": 6,
-      "btc": 6,
-      "eth": 6
-    },
-    "weighted_total": 4.8
+    "signal_count": 1,
+    "tone_cb": -0.6796,
+    "tone_global": -0.6796,
+    "regul_crypto": null,
+    "stress": 0.1955,
+    "top": [
+      {
+        "id": "b76ff175bcfbc9eaa16e5cb5",
+        "title": "Megan Greene's CV and questionnaire for the Treasury Select Committee",
+        "source": "boe_news",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/june/megan-greene-tsc-reappointment"
+      },
+      {
+        "id": "6d00bdbdbcca2b26c9efd043",
+        "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": -0.6796,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm"
+      },
+      {
+        "id": "7ec27b640f056ae3d6c7cb23",
+        "title": "Cook, Welcome Remarks",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/cook20260624a.htm"
+      },
+      {
+        "id": "9b1cb2b5feeb3be5443e7d0b",
+        "title": "Le Pôle commun de l’AMF et de l’ACPR publie son rapport annuel 2025",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/le-pole-commun-de-lamf-et-de-lacpr-publie-son-rapport-annuel-2025#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "615add561c3ca3c0a87dffdc",
+        "title": "SEC Appoints Kathleen Hutchinson as Director of Office of International Affairs",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-58-sec-appoints-kathleen-hutchinson-director-office-international-affairs"
+      }
+    ]
   },
   "2026-06-23": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 0,
-      "2": 2,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 1.2
+    "signal_count": 1,
+    "tone_cb": null,
+    "tone_global": -0.5,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "d703109ec0058ca9f24f5b6f",
+        "title": "Communiqué de l’ESMA : ESMA calls on unauthorised crypto-asset service providers to wind down orderly, while also safeguarding clients’ interests, as MiCA transitional period ends",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/communique-de-lesma-esma-calls-unauthorised-crypto-asset-service-providers-wind-down-orderly-while#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "698a8e6387999f17b45a4f71",
+        "title": "Les contentieux européens des abus de marché - Discours d’ouverture de Marie-Anne Barbat-Layani, présidente de l’Autorité des marchés financiers - Mercredi 17 juin 2026 - Panthéon-Assas Université",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": -0.5,
+        "url": "https://www.amf-france.org/fr/actualites-publications/prises-de-parole/les-contentieux-europeens-des-abus-de-marche-discours-douverture-de-marie-anne-barbat-layani#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-06-22": {
     "articles_count": 5,
-    "tier_counts": {
-      "1": 3,
-      "2": 2,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 5,
-      "msci_world": 5,
-      "btc": 5,
-      "eth": 5
-    },
-    "weighted_total": 4.2
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "4b401d79c1383d5c465573dd",
+        "title": "Bank of England launches policy statement and draft rules on regulating systemic stablecoins",
+        "source": "boe_news",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/june/boe-launches-policy-statement-and-draft-rules-on-regulating-systemic-stablecoins"
+      },
+      {
+        "id": "6faf152234f3ba1ff86356ee",
+        "title": "Waller, Welcoming Remarks on the International Role of the U.S. Dollar",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/waller20260622a.htm"
+      },
+      {
+        "id": "ff2788d63f51f0d522f83b09",
+        "title": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260622a.htm"
+      },
+      {
+        "id": "f39ed14363c3faf442f34837",
+        "title": "Le Pôle commun de l’ACPR et de l’AMF publie la synthèse de son étude sur la distribution, les frais et les performances des produits structurés",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/le-pole-commun-de-lacpr-et-de-lamf-publie-la-synthese-de-son-etude-sur-la-distribution-les-frais-et#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "a9117a4c6e363be8e2374d4d",
+        "title": "Etude des produits structurés du Pôle commun ACPR- AMF",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/publications/rapports-etudes-et-analyses/etude-des-produits-structures-du-pole-commun-amf-acpr#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-06-19": {
     "articles_count": 3,
-    "tier_counts": {
-      "1": 2,
-      "2": 1,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 3,
-      "msci_world": 3,
-      "btc": 3,
-      "eth": 3
-    },
-    "weighted_total": 2.6
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "974d4c824604ae25d11d7b21",
+        "title": "PRA sets out adjustments to its market risk internal model approach under Basel 3.1",
+        "source": "boe_news",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/june/pra-adjustments-market-risk-internal-model-approach-under-basel31"
+      },
+      {
+        "id": "f569d899442d32613de26ecd",
+        "title": "Asset Purchase Facility: Gilt Sales – Market Notice 19 June 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/june/apf-gilt-sales-market-notice-19-june-2026"
+      },
+      {
+        "id": "8e549c47962ec402ab4aaf88",
+        "title": "Le règlement européen EMIR",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/dossiers-thematiques/emir#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-06-18": {
     "articles_count": 6,
-    "tier_counts": {
-      "1": 4,
-      "2": 2,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 6,
-      "msci_world": 6,
-      "btc": 6,
-      "eth": 6
-    },
-    "weighted_total": 5.2
+    "signal_count": 1,
+    "tone_cb": -0.6796,
+    "tone_global": -0.6796,
+    "regul_crypto": -0.6796,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "7446967c90d202c6d7d6b83b",
+        "title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": -0.6796,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm"
+      },
+      {
+        "id": "80cf1677c4bf86318139c9e3",
+        "title": "Minutes of the Meeting of the Court of Directors held on 23 April 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/june/court-minutes-23-april-2026"
+      },
+      {
+        "id": "5306f891b3eb6d435fbe9072",
+        "title": "Transcript of the Governor's pooled broadcast interview given on 18 June 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/june/the-governor-interview-transcript-18-june-2026"
+      },
+      {
+        "id": "bbca603d83d667b385f6d332",
+        "title": "Bank Rate maintained at 3.75% - June 2026 Monetary Policy Summary and Minutes",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026"
+      },
+      {
+        "id": "e54d796215df5d7c24dff50f",
+        "title": "SEC, CFTC Seek Public Comment to Further Clarify and Harmonize Derivatives Product Definitions",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-57-sec-cftc-seek-public-comment-further-clarify-harmonize-derivatives-product-definitions"
+      }
+    ]
   },
   "2026-06-17": {
     "articles_count": 6,
-    "tier_counts": {
-      "1": 4,
-      "2": 2,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 6,
-      "msci_world": 6,
-      "btc": 6,
-      "eth": 6
-    },
-    "weighted_total": 5.2
+    "signal_count": 2,
+    "tone_cb": null,
+    "tone_global": -0.8383,
+    "regul_crypto": null,
+    "stress": 0.1875,
+    "top": [
+      {
+        "id": "1170da7a5bd077cf4fddc0d0",
+        "title": "Federal Reserve issues FOMC statement",
+        "source": "fed_press_monetary",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+      },
+      {
+        "id": "8e67b9f8dfa90d4add56283f",
+        "title": "Announcement of the publication of the Governor's interview transcript",
+        "source": "boe_news",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/june/statement-announcing-governors-interview"
+      },
+      {
+        "id": "164264e42abfacc1e4c7db37",
+        "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+        "source": "fed_press_monetary",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm"
+      },
+      {
+        "id": "9c9cf2eff8ba1603a83d67a1",
+        "title": "Index-linked Treasury Stock",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/june/index-linked-treasury-stock-jun-2026"
+      },
+      {
+        "id": "e2cc66ca0870a13a81bcfa09",
+        "title": "La Banque de France, l'ACPR et l'AMF publient un rapport méthodologique sur leur premier test de résistance portant sur l’ensemble du système financier (« system-wide stress test »)",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": -0.8517,
+        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/la-banque-de-france-lacpr-et-lamf-publient-un-rapport-methodologique-sur-leur-premier-test-de#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-06-15": {
     "articles_count": 9,
-    "tier_counts": {
-      "1": 6,
-      "2": 3,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 9,
-      "msci_world": 9,
-      "btc": 9,
-      "eth": 9
-    },
-    "weighted_total": 7.8
+    "signal_count": 2,
+    "tone_cb": null,
+    "tone_global": -0.7825,
+    "regul_crypto": -0.7221,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "02b55205507db38b0852bba1",
+        "title": "Summary of the RTGS CHAPS Industry Forum",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/june/rtgs-chaps-industry-forum-4-june-2026"
+      },
+      {
+        "id": "8567cca420b1fe92c56f0117",
+        "title": "Banknote imagery advisory group minutes – 15 December 2025",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2025/december/banknote-advisory-minutes-15-december"
+      },
+      {
+        "id": "239b9617dd0fe64abacaa2e4",
+        "title": "Banknote imagery expert panel minutes – 10 March 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/march/banknote-expert-minutes-10-march"
+      },
+      {
+        "id": "5f331dc80fe903c7257bad83",
+        "title": "Banknote imagery expert panel minutes – 15 April 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-advisory-minutes-15-april"
+      },
+      {
+        "id": "b96510ea9cf66ab29c6c160c",
+        "title": "Banknote imagery expert panel minutes – 24 April 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-expert-minutes-24-april"
+      }
+    ]
   },
   "2026-06-12": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 0,
-      "2": 2,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 1.2
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "7e64f6f5885dcc2d16ec398c",
+        "title": "SEC Appoints John Moses as Director of the Office of Investor Education and Assistance",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-55-sec-appoints-john-moses-director-office-investor-education-assistance"
+      },
+      {
+        "id": "bd0596ad56241e467669beaa",
+        "title": "L'AMF instaure une nouvelle méthodologie de contrôle sur pièces des conseillers en investissements financiers",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-instaure-une-nouvelle-methodologie-de-controle-sur-pieces-des-conseillers-en-investissements#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-06-11": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 1,
-      "2": 1,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 1.6
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "c61bd75a3436c0f8a2fff08c",
+        "title": "Changes to collateral eligibility in the Sterling Monetary Framework - Market Notice 11 June 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/june/collateral-eligibility-in-the-smf-11-june-2026"
+      },
+      {
+        "id": "24f6507164d605de7e4896d3",
+        "title": "SEC Proposes Rescission of Regulation NMS Rules 611 and 610(e)",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-54-sec-proposes-rescission-regulation-nms-rules-611-610e"
+      }
+    ]
   },
   "2026-06-10": {
     "articles_count": 7,
-    "tier_counts": {
-      "1": 0,
-      "2": 7,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 7,
-      "msci_world": 7,
-      "btc": 7,
-      "eth": 7
-    },
-    "weighted_total": 4.2
+    "signal_count": 4,
+    "tone_cb": null,
+    "tone_global": -0.5858,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "5e8ac26903203489fe2d967a",
+        "title": "Séance publique de la commission des sanctions - 11 décembre 2026",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": -0.5858,
+        "url": "https://www.amf-france.org/fr/sanctions-transactions/seances-de-la-commission-des-sanctions/seance-publique-de-la-commission-des-sanctions-11-decembre-2026#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "ca608bb9bc4c13ff1dacbe8c",
+        "title": "Séance publique de la commission des sanctions - 20 novembre 2026",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": -0.5858,
+        "url": "https://www.amf-france.org/fr/sanctions-transactions/seances-de-la-commission-des-sanctions/seance-publique-de-la-commission-des-sanctions-20-novembre-2026#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "c96e076a812a6c890ea95bb0",
+        "title": "Séance publique de la commission des sanctions - 9 octobre 2026",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": -0.5858,
+        "url": "https://www.amf-france.org/fr/sanctions-transactions/seances-de-la-commission-des-sanctions/seance-publique-de-la-commission-des-sanctions-25-septembre-2026-0#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "ee2524ad36d1d47a4e38f0e2",
+        "title": "Séance publique de la commission des sanctions - 25 septembre 2026",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": -0.5858,
+        "url": "https://www.amf-france.org/fr/sanctions-transactions/seances-de-la-commission-des-sanctions/seance-publique-de-la-commission-des-sanctions-25-septembre-2026#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "3682f7714e6d978810fac3bb",
+        "title": "L'AMF lance une consultation publique sur l'éligibilité de certains actifs à l’actif des OPCVM",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-lance-une-consultation-publique-sur-leligibilite-de-certains-actifs-lactif-des-opcvm#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-06-09": {
     "articles_count": 3,
-    "tier_counts": {
-      "1": 0,
-      "2": 3,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 3,
-      "msci_world": 3,
-      "btc": 3,
-      "eth": 3
-    },
-    "weighted_total": 1.8
+    "signal_count": 2,
+    "tone_cb": null,
+    "tone_global": -0.0796,
+    "regul_crypto": 0.6796,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "8a51b9da0f3a54d3d6b297f9",
+        "title": "Comment la gouvernance des sociétés cotées tient-elle compte de l’intelligence artificielle, la cybersécurité et la géopolitique ? C’est ce sur quoi l’AMF décide de se pencher en 2026 dans son rapport sur le gouvernement d’entreprise",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": -0.5858,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/comment-la-gouvernance-des-societes-cotees-tient-elle-compte-de-lintelligence-artificielle-la#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "6732efa7ef452310a792b0e2",
+        "title": "L'AMF a prononcé le retrait de l’agrément de la société de gestion de portefeuille Xerys Invest",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.6796,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-prononce-le-retrait-de-lagrement-de-la-societe-de-gestion-de-portefeuille-xerys-invest#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "396167b3d81ec29a9c4d9b32",
+        "title": "Rencontre semestrielle des autorités administratives et publiques indépendantes : l'IA au service de la régulation",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/rencontre-semestrielle-des-autorites-administratives-et-publiques-independantes-lia-au-service-de-la#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-06-08": {
     "articles_count": 7,
-    "tier_counts": {
-      "1": 0,
-      "2": 7,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 7,
-      "msci_world": 7,
-      "btc": 6,
-      "eth": 6
-    },
-    "weighted_total": 4.2
+    "signal_count": 1,
+    "tone_cb": null,
+    "tone_global": -0.6,
+    "regul_crypto": null,
+    "stress": 0.125,
+    "top": [
+      {
+        "id": "f8d8342d188de894de80be9f",
+        "title": "L'OICV publie son rapport final sur la valorisation des organismes de placement collectif, renforçant ainsi les normes internationales en matière de valorisation des fonds ouverts",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/loicv-publie-son-rapport-final-sur-la-valorisation-des-organismes-de-placement-collectif-renforcant#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "6a5dc1c556eb00d3950447a4",
+        "title": "Edition spéciale du Baromètre AMF : encore peu utilisée dans les pratiques d’investissement, l’intelligence artificielle séduit davantage les jeunes investisseurs",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/edition-speciale-du-barometre-amf-encore-peu-utilisee-dans-les-pratiques-dinvestissement#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "db38efee42f18e0c4d0253d1",
+        "title": "Award of the 2026 Ieke van den Burg Prize for research on systemic risk",
+        "source": "esrb_press",
+        "score": 0.6,
+        "tone": -0.6,
+        "url": "https://www.esrb.europa.eu//news/pr/date/2026/html/esrb.pr260608~6d896ea6ce.en.html"
+      },
+      {
+        "id": "47e200c4a90b21a294c351d1",
+        "title": "SEC Establishes Joint Data Standards as Required Under the Financial Data Transparency Act of 2022",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-53-sec-establishes-joint-data-standards-required-under-financial-data-transparency-act-2022"
+      },
+      {
+        "id": "f88b4bc9ab4049729da5d117",
+        "title": "L'AMF lance une consultation sur un projet de recommandation concernant la liquidité des fonds monétaires",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-lance-une-consultation-sur-un-projet-de-recommandation-concernant-la-liquidite-des-fonds#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-06-06": {
     "articles_count": 1,
-    "tier_counts": {
-      "1": 1,
-      "2": 0,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 1,
-      "msci_world": 1,
-      "btc": 1,
-      "eth": 1
-    },
-    "weighted_total": 1.0
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "1cc39ce3f789616cfbe5210c",
+        "title": "Barr, Deregulating in a Financial Boom: What Could Go Wrong?",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/barr20260606a.htm"
+      }
+    ]
   },
   "2026-06-05": {
     "articles_count": 1,
-    "tier_counts": {
-      "1": 1,
-      "2": 0,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 1,
-      "msci_world": 1,
-      "btc": 1,
-      "eth": 1
-    },
-    "weighted_total": 1.0
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "9db95455cb9b34b1bb3fcf34",
+        "title": "Bank of England and Financial Conduct Authority – Memorandum of Understanding on the supervision of Financial Market Infrastructure",
+        "source": "boe_news",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/june/boe-and-fca-mou-on-supervision-of-financial-market-infrastructures"
+      }
+    ]
   },
   "2026-06-04": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 1,
-      "2": 1,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 1.6
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "3f704ac7ecedacf9f42bf5e0",
+        "title": "Minutes of the Synchronisation thematic engagement working group - 30 April 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/april/synchronisation-thematic-engagement-working-group"
+      },
+      {
+        "id": "a2ced37d4274b51f81953726",
+        "title": "SEC Announces New Members of Small Business Capital Formation Advisory Committee",
+        "source": "sec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-52-sec-announces-new-members-small-business-capital-formation-advisory-committee"
+      }
+    ]
   },
   "2026-06-03": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 1,
-      "2": 1,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 1.6
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "c8dc7ea2e4bf87e7930f8219",
+        "title": "Statistical Notice 2026/05 - Implementation of Bank of England Statistics Taxonomy v1.3.1",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-05"
+      },
+      {
+        "id": "a1761b09650c55daf492b87a",
+        "title": "Résilience cyber : l'AMF appelle les acteurs financiers à renforcer leurs dispositifs face à l’évolution rapide des menaces liées à l’intelligence artificielle",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/resilience-cyber-lamf-appelle-les-acteurs-financiers-renforcer-leurs-dispositifs-face-levolution#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-06-02": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 1,
-      "2": 1,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 1.6
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "a4b4b01365bdace002bfc2d4",
+        "title": "Public asked to help select UK wildlife to appear on new banknote series",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/june/wildlife-new-banknote-series"
+      },
+      {
+        "id": "06aa28b3fc4554da2a5e05de",
+        "title": "SEC Publishes Draft Strategic Plan for Public Comment",
+        "source": "sec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-51-sec-publishes-draft-strategic-plan-public-comment"
+      }
+    ]
   },
   "2026-06-01": {
     "articles_count": 5,
-    "tier_counts": {
-      "1": 1,
-      "2": 4,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 5,
-      "msci_world": 5,
-      "btc": 5,
-      "eth": 5
-    },
-    "weighted_total": 3.4
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "50c5a566f932edf9c9c7dec5",
+        "title": "Powell, Acceptance Remarks",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/powell20260531a.htm"
+      },
+      {
+        "id": "74ec6127591cedf3b05a0db4",
+        "title": "SEC Announces Four New Members of Investor Advisory Committee",
+        "source": "sec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-50-sec-announces-four-new-members-investor-advisory-committee"
+      },
+      {
+        "id": "9e131281131aa4672369c0aa",
+        "title": "L'AMF accompagne les sociétés cotées dans la mise en œuvre de leur déclaration des informations relatives à la parité au sein des organes collégiaux",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-accompagne-les-societes-cotees-dans-la-mise-en-oeuvre-de-leur-declaration-des-informations#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "874ea0437ea7f48d4f4bb62d",
+        "title": "La Directive « Women on Boards »",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/dossiers-thematiques/women-boards#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "a872641893390373887fe9da",
+        "title": "Arrêté du 11 mai 2026 portant homologation d'une modification du règlement général de l'Autorité des marchés financiers",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/reglementation/reglement-general/arretes-dhomologation/arrete-du-11-mai-2026-portant-homologation-dune-modification-du-reglement-general-de-lautorite-des#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-05-29": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 1,
-      "2": 1,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 1.6
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "e3882b6e0b27cb613220efc5",
+        "title": "Bowman, A Framework for Practical Monetary Policy Decision Making",
+        "source": "fed_speeches",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260529a.htm"
+      },
+      {
+        "id": "e86fe176824f819575b1e5e8",
+        "title": "SEC Proposes Rescission of Climate-Related Disclosure Rules",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-49-sec-proposes-rescission-climate-related-disclosure-rules"
+      }
+    ]
   },
   "2026-05-28": {
     "articles_count": 6,
-    "tier_counts": {
-      "1": 1,
-      "2": 5,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 6,
-      "msci_world": 6,
-      "btc": 6,
-      "eth": 6
-    },
-    "weighted_total": 4.0
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "710893e36882105667aa6894",
+        "title": "Jefferson, Global Economic Developments and the U.S. Economy",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260527a.htm"
+      },
+      {
+        "id": "8e65450e2cd656a2eede8bc0",
+        "title": "L'AMF publie son rapport annuel 2025",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-publie-son-rapport-annuel-2025#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "fa8cdb6715dc695ac458ed2c",
+        "title": "Décision relative aux modifications des règles de fonctionnement du système multilatéral de négociation (SMN) Aquis Exchange Europe, concernant le lancement d’une seconde phase d’enchère de clôture « MaC + », la création d’un type d’ordre « au marché »...",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/reglementation/regles-professionnelles-approuvees/decision-relative-aux-modifications-des-regles-de-fonctionnement-du-systeme-multilateral-de-0#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "93fde234dc682a901258ebae",
+        "title": "Rapport annuel de l'AMF 2025 - Lettre au président de la République",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/publications/rapports-annuels-et-documents-institutionnels/rapport-annuel-de-lamf-2025-lettre-au-president-de-la-republique#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "8257e51e45173070d6b99f81",
+        "title": "Rapport annuel de l'AMF 2025",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/publications/rapports-annuels-et-documents-institutionnels/rapport-annuel-de-lamf-2025#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-05-27": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 1,
-      "2": 1,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 1.6
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "0ca9061aa86d5ec020ca7f10",
+        "title": "Cook, The Opportunities and Risks AI Presents for the Economy and Financial System",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/cook20260527a.htm"
+      },
+      {
+        "id": "7e6744bd0fee0a30e389cc24",
+        "title": "SEC Investor Advisory Committee to Host June 4 Meeting",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-48-sec-investor-advisory-committee-host-june-4-meeting"
+      }
+    ]
   },
   "2026-05-26": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 2,
-      "2": 0,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 2.0
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "82b82d7f078ed4ebc96fad12",
+        "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+        "source": "fed_press_monetary",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260526a.htm"
+      },
+      {
+        "id": "657a0ffcbd4784ae456483e8",
+        "title": "Statistical Notice 2026/04 - BEEDS User Acceptance Testing (UAT) Environment – Statistical Taxonomy v1.3.1 FINAL",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-04"
+      }
+    ]
   },
   "2026-05-21": {
     "articles_count": 5,
-    "tier_counts": {
-      "1": 0,
-      "2": 5,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 5,
-      "msci_world": 5,
-      "btc": 5,
-      "eth": 5
-    },
-    "weighted_total": 3.0
+    "signal_count": 3,
+    "tone_cb": null,
+    "tone_global": -0.6577,
+    "regul_crypto": null,
+    "stress": 0.1538,
+    "top": [
+      {
+        "id": "90f673f6f76fb6e8b234935f",
+        "title": "La Commission des sanctions de l’AMF sanctionne deux personnes physiques pour des manquements d’initiés",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": -0.6667,
+        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-la-commission-des-sanctions/la-commission-des-sanctions-de-lamf-sanctionne-deux-personnes-physiques-pour-des-manquements-0#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "b3cc2d5e90258ed35016570a",
+        "title": "Décision de la commission des sanctions du 20 mai 2026 à l'égard de MM. Ytane Mamou et Elie Houri",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": -0.634,
+        "url": "https://www.amf-france.org/fr/sanctions-transactions/decisions-de-la-commission-des-sanctions/san-2026-04#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "31e3721484379079338e7f8a",
+        "title": "SEC and NFA Announce Memorandum of Understanding to Further Harmonize Regulatory Coordination",
+        "source": "sec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-47-sec-nfa-announce-memorandum-understanding-further-harmonize-regulatory-coordination"
+      },
+      {
+        "id": "43306a287039ce68515fe93e",
+        "title": "L’AMF se conforme aux orientations de l’ESMA sur la mise à jour des paramètres de scénarios de crise, prévue à l’article 28 du règlement sur les fonds monétaires, pour 2026",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": -0.6796,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-se-conforme-aux-orientations-de-lesma-sur-la-mise-jour-des-parametres-de-scenarios-de-crise-0#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "d3c6456db2291c1edb7c68f0",
+        "title": "Lettre Epargne Info Service n°53 - Mai 2026",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/publications/lettre-epargne-info-service/lettre-epargne-info-service-ndeg53-mai-2026#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-05-20": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 1,
-      "2": 1,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 1,
-      "eth": 1
-    },
-    "weighted_total": 1.6
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "7912779d5e1c4a841a36aeb3",
+        "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+        "source": "fed_press_monetary",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm"
+      },
+      {
+        "id": "1f5cc496a5f075fad4620fe0",
+        "title": "ESRB seeks new members for its Advisory Scientific Committee",
+        "source": "esrb_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.esrb.europa.eu//news/pr/date/2026/html/esrb.pr260520~5954c3faaa.en.html"
+      }
+    ]
   },
   "2026-05-19": {
     "articles_count": 1,
-    "tier_counts": {
-      "1": 0,
-      "2": 1,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 1,
-      "msci_world": 1,
-      "btc": 1,
-      "eth": 1
-    },
-    "weighted_total": 0.6
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "b08cd76ed8c8e5775818060c",
+        "title": "Assemblées générales : évolution des règles concernant la communication avec les actionnaires et la date d’enregistrement",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/assemblees-generales-evolution-des-regles-concernant-la-communication-avec-les-actionnaires-et-la#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-05-18": {
     "articles_count": 3,
-    "tier_counts": {
-      "1": 1,
-      "2": 2,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 3,
-      "msci_world": 3,
-      "btc": 3,
-      "eth": 3
-    },
-    "weighted_total": 2.2
+    "signal_count": 1,
+    "tone_cb": 0.6,
+    "tone_global": 0.6,
+    "regul_crypto": 0.6,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "8db67762459118a3dad04efd",
+        "title": "FCA and Bank of England set out shared vision for tokenisation in UK wholesale markets",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.6,
+        "url": "https://www.bankofengland.co.uk/news/2026/may/fca-and-boe-set-out-shared-vision-for-tokenisation-in-uk-wholesale-markets"
+      },
+      {
+        "id": "61b80032f49b4a1f51ff241c",
+        "title": "France FinTech, l'ACPR et l'AMF lancent l’appel à candidatures pour participer à la 6ème édition des French FinTech Weeks",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/france-fintech-lacpr-et-lamf-lancent-lappel-candidatures-pour-participer-la-6eme-edition-des-french#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "4e625e266ac6b130a99d5292",
+        "title": "Retrait de parts de SCPI : où placer dans le registre chronologique les demandes incomplètes ?",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/le-mediateur/journal-de-bord-du-mediateur/dossiers-du-mois/retrait-de-parts-de-scpi-ou-placer-dans-le-registre-chronologique-les-demandes-incompletes#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-05-17": {
     "articles_count": 1,
-    "tier_counts": {
-      "1": 1,
-      "2": 0,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 1,
-      "msci_world": 1,
-      "btc": 1,
-      "eth": 1
-    },
-    "weighted_total": 1.0
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "b9e1f193306489560e866fc9",
+        "title": "PRA announces ring-fence change to reduce costs",
+        "source": "boe_news",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/may/pra-announces-ring-fence-change-to-reduce-costs"
+      }
+    ]
   },
   "2026-05-15": {
     "articles_count": 1,
-    "tier_counts": {
-      "1": 1,
-      "2": 0,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 1,
-      "msci_world": 1,
-      "btc": 1,
-      "eth": 1
-    },
-    "weighted_total": 1.0
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "c6b9a523fb4ce4647459acc1",
+        "title": "The Bank, FCA and HM Treasury joint statement on Frontier AI models and cyber resilience",
+        "source": "boe_news",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/may/boe-fca-and-hm-treasury-joint-statement-on-frontier-ai-models-and-cyber-resilience"
+      }
+    ]
   },
   "2026-05-13": {
     "articles_count": 1,
-    "tier_counts": {
-      "1": 0,
-      "2": 1,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 1,
-      "msci_world": 1,
-      "btc": 1,
-      "eth": 1
-    },
-    "weighted_total": 0.6
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "fcd638328179c6728ea4d9f4",
+        "title": "Outil de gestion de la liquidité : l'AMF a l’intention d’appliquer les orientations de l'ESMA",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/outil-de-gestion-de-la-liquidite-lamf-lintention-dappliquer-les-orientations-de-lesma#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-05-12": {
     "articles_count": 1,
-    "tier_counts": {
-      "1": 0,
-      "2": 1,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 1,
-      "msci_world": 1,
-      "btc": 1,
-      "eth": 1
-    },
-    "weighted_total": 0.6
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "af319e3dea9d0fad1f118943",
+        "title": "T+1 : l'Autorité des marchés financiers lance une courte enquête publique à destination des acteurs de la Place",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/t1-lautorite-des-marches-financiers-lance-une-courte-enquete-destination-des-acteurs-de-la-place#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-05-11": {
     "articles_count": 1,
-    "tier_counts": {
-      "1": 0,
-      "2": 1,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 1,
-      "msci_world": 1,
-      "btc": 1,
-      "eth": 1
-    },
-    "weighted_total": 0.6
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "4e004c154aca2583acb64713",
+        "title": "Christophe Bonnet est nommé directeur des données et de la surveillance à l’Autorité des marchés financiers",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/christophe-bonnet-est-nomme-directeur-des-donnees-et-de-la-surveillance-lautorite-des-marches#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-05-08": {
     "articles_count": 1,
-    "tier_counts": {
-      "1": 1,
-      "2": 0,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 1,
-      "msci_world": 1,
-      "btc": 1,
-      "eth": 1
-    },
-    "weighted_total": 1.0
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "8b735acc8d635301957a57c6",
+        "title": "Minutes of the Market Participants Group meeting – 7 May 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/may/market-participants-group-meeting-7-may-2026"
+      }
+    ]
   },
   "2026-05-07": {
     "articles_count": 3,
-    "tier_counts": {
-      "1": 1,
-      "2": 2,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 3,
-      "msci_world": 3,
-      "btc": 3,
-      "eth": 3
-    },
-    "weighted_total": 2.2
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "efa83a5136c4d1a563e331a4",
+        "title": "Minutes of the Meeting of the Court of Directors held on 12 February 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/may/court-minutes-12-february-2026"
+      },
+      {
+        "id": "4b1410e2d20ec14248d89a63",
+        "title": "L’Autorité des marchés financiers (AMF) approuve et étend les « Dispositions » actualisées du règlement de déontologie de l’AFG sur la gestion d’actifs pour compte de tiers à l’ensemble des prestataires de services d’investissement",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lautorite-des-marches-financiers-amf-approuve-et-etend-les-dispositions-actualisees-du-reglement-de#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "2827d84bad3bb2c681b828b7",
+        "title": "Règlement de déontologie de la gestion d'actifs pour compte de tiers",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/reglementation/regles-professionnelles-approuvees/reglement-de-deontologie-de-la-gestion-dactifs-pour-compte-de-tiers#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-05-06": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 0,
-      "2": 2,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 1.2
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "bc4606ed12f80d7331159a91",
+        "title": "L'AMF dévoile son plan d'éducation financière 2026-2028 pour renforcer l’investissement des femmes",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-devoile-son-plan-deducation-financiere-2026-2028-pour-renforcer-linvestissement-des-femmes#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "8cd31114dc6931948e6be20c",
+        "title": "Certification professionnelle : examen AMF, vérification interne et examen AMF Finance durable",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/dossiers-thematiques/certification-professionnelle#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   },
   "2026-05-05": {
     "articles_count": 2,
-    "tier_counts": {
-      "1": 1,
-      "2": 1,
-      "3": 0
-    },
-    "asset_counts": {
-      "sp500": 2,
-      "msci_world": 2,
-      "btc": 2,
-      "eth": 2
-    },
-    "weighted_total": 1.6
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "71c740758a54025230fc1c00",
+        "title": "Exchange of letters between the Governor and the Chancellor on the Asset Purchase Facility - May 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/letter/2026/asset-purchase-facility-may-2026"
+      },
+      {
+        "id": "7ba06018e88bb1e73a991763",
+        "title": "L’Autorité des marchés financiers met à jour sa charte du contrôle",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lautorite-des-marches-financiers-met-jour-sa-charte-du-controle#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
   }
 }

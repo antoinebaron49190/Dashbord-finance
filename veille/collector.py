@@ -6,8 +6,10 @@ Usage:
                                    element), sans rien ecrire sur le disque.
     python collector.py           Fait une passe de collecte : recupere tous
                                    les flux, dedoublonne, nettoie le HTML et
-                                   met a jour data/articles.json et
-                                   data/index.json.
+                                   met a jour data/articles.json.
+
+data/index.json est ecrit par analyzer.py, pas ici : la collecte rassemble
+la matiere, le scoring est un etage separe.
 """
 
 import argparse
@@ -27,7 +29,6 @@ from sources import SOURCES
 
 DATA_DIR = Path(__file__).parent / "data"
 ARTICLES_PATH = DATA_DIR / "articles.json"
-INDEX_PATH = DATA_DIR / "index.json"
 
 RETENTION_DAYS = 90
 SUMMARY_MAX_LEN = 600
@@ -197,58 +198,21 @@ def purge_old(articles, retention_days=RETENTION_DAYS):
     return kept
 
 
-def update_index(index, articles):
-    """Met a jour la serie quotidienne a partir des articles courants.
-
-    Seuls les jours presents dans `articles` sont recalcules : les jours
-    plus anciens que la fenetre de retention restent tels quels dans
-    l'index, qui est donc conserve indefiniment meme apres purge.
-    """
-    by_day = {}
-    for article in articles:
-        try:
-            published = datetime.fromisoformat(article["published_at"])
-        except (KeyError, ValueError):
-            continue
-        day = published.strftime("%Y-%m-%d")
-        stats = by_day.setdefault(day, {
-            "articles_count": 0,
-            "tier_counts": {"1": 0, "2": 0, "3": 0},
-            "asset_counts": {asset: 0 for asset in ("sp500", "msci_world", "btc", "eth")},
-            "weighted_total": 0.0,
-        })
-        stats["articles_count"] += 1
-        stats["tier_counts"][str(article["tier"])] += 1
-        for asset in article["assets"]:
-            stats["asset_counts"][asset] += 1
-        stats["weighted_total"] += article["weight"]
-
-    for day, stats in by_day.items():
-        stats["weighted_total"] = round(stats["weighted_total"], 3)
-        index[day] = stats
-
-    return index
-
-
 def run_collection():
     existing_articles = load_json(ARTICLES_PATH, [])
-    index = load_json(INDEX_PATH, {})
 
     new_articles = collect_articles()
     merged = merge_articles(existing_articles, new_articles)
     purged = purge_old(merged)
     purged.sort(key=lambda a: a["published_at"], reverse=True)
 
-    update_index(index, purged)
-
     save_json(ARTICLES_PATH, purged)
-    save_json(INDEX_PATH, index)
 
     new_count = len(merged) - len(existing_articles)
     print(f"Collecte terminee : {len(new_articles)} entrees vues, "
           f"{new_count} nouveaux articles, "
-          f"{len(purged)} articles conserves (fenetre {RETENTION_DAYS}j), "
-          f"{len(index)} jours dans l'index.")
+          f"{len(purged)} articles conserves (fenetre {RETENTION_DAYS}j).")
+    print("Lance `python analyzer.py` pour mettre a jour l'indice.")
 
 
 def main():
