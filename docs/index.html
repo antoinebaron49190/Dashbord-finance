@@ -59,11 +59,29 @@ h2{font-size:15px;margin:26px 0 10px;font-weight:600;color:#98a1ad;
 .headline-label{display:block;font-size:14px;color:#98a1ad;
  text-transform:uppercase;letter-spacing:.07em;margin-bottom:3px}
 .headline-title{display:block;font-size:16px;line-height:1.35;overflow-wrap:anywhere}
-.reliab,.reliab-list{background:#161b22;border:1px solid #262c36;
- border-radius:12px;padding:12px 15px;margin:0;list-style:none}
+.chg li{justify-content:space-between}
+.chg-what{font-size:16px;line-height:1.35;overflow-wrap:anywhere}
+.chg-when{flex:0 0 auto;font-size:14px;color:#98a1ad;white-space:nowrap}
+.verdicts,.context{list-style:none;margin:0;padding:0;background:#161b22;
+ border:1px solid #262c36;border-radius:12px}
+.verdicts li{display:flex;gap:10px;align-items:baseline;padding:11px 15px;
+ border-bottom:1px solid #262c36}
+.verdicts li:last-child,.context li:last-child{border-bottom:0}
+.vd-name{flex:0 0 92px;font-size:16px;overflow-wrap:anywhere}
+.vd-word{flex:1;font-size:15px;line-height:1.3}
+.vd-edge{flex:0 0 auto;font-size:15px;color:#98a1ad;
+ font-variant-numeric:tabular-nums}
+.context li{padding:11px 15px;border-bottom:1px solid #262c36}
+.ctx-top{display:flex;gap:10px;align-items:baseline;justify-content:space-between}
+.ctx-label{font-size:16px;line-height:1.3;overflow-wrap:anywhere}
+.ctx-value{flex:0 0 auto;font-size:16px;font-weight:600;
+ font-variant-numeric:tabular-nums}
+.ctx-sentence{display:block;font-size:14px;color:#98a1ad;margin-top:3px;
+ line-height:1.35}
+.reliab{background:#161b22;border:1px solid #262c36;
+ border-radius:12px;padding:12px 15px;margin:0}
 .reliab-progress{font-size:16px;line-height:1.4}
-.reliab-list li{font-size:16px;line-height:1.4;padding:5px 0}
-.reliab-note{font-size:14px;color:#98a1ad;line-height:1.35;margin-top:7px;padding:0 3px}
+.reliab-note{font-size:14px;color:#98a1ad;line-height:1.35;margin-top:7px}
 .disclaimer{position:fixed;left:0;right:0;bottom:0;background:#161b22;
  border-top:1px solid #262c36;color:#98a1ad;font-size:14px;line-height:1.35;
  padding:10px 16px calc(10px + env(safe-area-inset-bottom));text-align:center;z-index:10}
@@ -71,7 +89,9 @@ h2{font-size:15px;margin:26px 0 10px;font-weight:600;color:#98a1ad;
 </head>
 <body>
 <h1>Veille économique</h1>
-<p class="updated">Mise à jour le 31/07/2026 à 22:03 (heure de Paris)</p>
+<p class="updated">Mise à jour le 31/07/2026 à 22:32 (heure de Paris)</p>
+
+
 
 <article class="zone"><div class="zone-name">Amérique</div><div class="zone-state" style="color:#8b94a1">Marchés partagés</div><div class="zone-detail">Sur 2 indices : 1 en hausse, 1 sans direction.</div><div class="zone-quotes"><span class="q-name">S&amp;P 500</span> 7 490 · <span class="q-name">Nasdaq</span> 25 374</div></article><article class="zone"><div class="zone-name">Europe</div><div class="zone-state" style="color:#5fa97c">Tendance haussière</div><div class="zone-detail">Les 3 indices au-dessus de leurs moyennes 50 et 200 jours.</div><div class="zone-quotes"><span class="q-name">Euro Stoxx 50</span> 6 358 · <span class="q-name">CAC 40</span> 8 510 · <span class="q-name">DAX</span> 25 629</div></article><article class="zone"><div class="zone-name">Asie</div><div class="zone-state" style="color:#8b94a1">Marchés partagés</div><div class="zone-detail">Sur 3 indices : 1 en hausse, 1 en baisse, 1 sans direction.</div><div class="zone-quotes"><span class="q-name">Nikkei</span> 61 867 · <span class="q-name">Hang Seng</span> 25 859 · <span class="q-name">Shanghai</span> 3 805</div></article><article class="zone"><div class="zone-name">Crypto</div><div class="zone-state" style="color:#8b94a1">Marchés partagés</div><div class="zone-detail">Sur 2 indices : 1 en baisse, 1 sans direction.</div><div class="zone-quotes"><span class="q-name">Bitcoin</span> 62 920 $ · <span class="q-name">Ethereum</span> 1 867 $</div><div class="zone-extra">Sous le plus haut sur un an : Bitcoin −50 % · Ethereum −61 %.</div></article><div class="global-line">MSCI World 203,68 — <span style="color:#5fa97c">tendance haussière</span></div>
 <h2>À surveiller</h2><ul class="agenda"><li><span class="ag-when">dans 41 jours</span><span class="ag-body"><span class="ag-label">Conseil des gouverneurs de la BCE — décision de taux</span><span class="ag-date">jeudi 10 septembre</span></span></li><li><span class="ag-when">dans 47 jours</span><span class="ag-body"><span class="ag-label">Réunion du FOMC (Fed) — décision de taux</span><span class="ag-date">mercredi 16 septembre</span></span></li><li><span class="ag-when">dans 61 jours</span><span class="ag-body"><span class="ag-label">Conseil des gouverneurs de la BCE — décision de taux</span><span class="ag-date">mercredi 30 septembre</span></span></li></ul>
@@ -80,7 +100,8 @@ h2{font-size:15px;margin:26px 0 10px;font-weight:600;color:#98a1ad;
 <ul class="news"><li>Banques centrales : ton <span style="color:#8b94a1">neutre</span> sur 7 jours.</li><li>Actualité générale : <span style="color:#8b94a1">partagée</span> — 15 favorables, 11 défavorables sur 7 jours.</li><li>Part des sujets de crise : <span style="color:#5fa97c">faible</span> (7 % du flux).</li></ul><div class="news-note">Résumé mécanique. Une synthèse rédigée apparaîtra ici dès qu'une clé ANTHROPIC_API_KEY sera renseignée dans les secrets GitHub.</div>
 <a class="headline" target="_blank" rel="noopener noreferrer" href="https://www.bis.org/review/r260730m.htm"><span class="headline-label">Le fait marquant</span><span class="headline-title">Tiff Macklem: Release of the Monetary Policy Report</span></a>
 
-<h2>Fiabilité des signaux</h2><div class="reliab"><div class="reliab-progress">Mesure en cours : 0 observation accumulée sur les 60 nécessaires.</div><div class="reliab-note">Chaque jour, le signal et la clôture sont enregistrés côte à côte. Quand il y en aura assez, cette section dira si les journées classées « haussière » ont été suivies d'autre chose que les journées « baissière ». D'ici là, rien ne permet de l'affirmer.</div></div>
+
+
 
 <!-- Bandeau permanent : ne jamais retirer. -->
 <div class="disclaimer" role="note">Ces indicateurs décrivent l&#x27;actualité. Ils ne prédisent rien. Aucune valeur prédictive n&#x27;a été démontrée à ce jour.</div>

@@ -16,6 +16,8 @@ veille/
   analyzer.py        scoring lexical et indice quotidien
   macro.py           series numeriques et regime de marche
   agenda.py          calendrier des echeances (Fed, BCE)
+  backtest.py        ce que les signaux ont reellement valu
+  alerte.py          detection des faits qui meritent une notification
   build_site.py      generation de la page statique
   data/
     articles.json    articles des 90 derniers jours
@@ -23,6 +25,8 @@ veille/
     macro.json       dernier releve chiffre + historique quotidien
     agenda.json      prochaines echeances de banques centrales
     synthese.json    synthese redigee du jour (si cle Claude)
+    backtest.json    verdict par marche + reperes historiques (1x/jour)
+    alerte.json      faits notables et empreintes deja notifiees
   requirements.txt
 
 docs/                 page publiee par GitHub Pages (generee)
@@ -313,18 +317,97 @@ sont journalises et n'interrompent rien.
 
 Le modele se regle avec `VEILLE_CLAUDE_MODEL` (defaut `claude-sonnet-4-6`).
 
-## La mesure de fiabilite
+## Ce que valent les signaux
 
-Chaque jour, `macro.py` enregistre **la cloture et le signal cote a cote**
-dans l'historique. C'est la seule facon de pouvoir repondre un jour a la
-question qui compte vraiment : *les journees classees « haussiere » sont-elles
-suivies d'autre chose que les journees « baissiere » ?*
+C'est la section qui manque a toutes les applications de finance grand
+public : celle qui dit quand l'indicateur affiche du vide.
 
-Tant qu'il y a moins de 60 observations, la page affiche l'avancement de la
-mesure plutot qu'un chiffre qui ne voudrait rien dire. Au-dela, elle affiche
-le rendement moyen du lendemain par type de signal. Si les lignes se
-ressemblent, c'est que le signal n'apporte rien — et il vaut mieux
-l'apprendre sur un historique qu'avec de l'argent.
+```bash
+python backtest.py            # recalcule si le fichier a plus de 20 h
+python backtest.py --force    # recalcule quoi qu'il arrive
+python backtest.py --show     # affiche sans rien ecrire
+```
+
+`backtest.py` **rejoue la regle affichee sur la page** — la position du cours
+face a ses moyennes 50 et 200 jours — sur cinq ans d'historique pour les
+indices, deux ans pour les cryptos (limite des bourses). Pour chaque marche,
+il compare ce qui s'est passe dans les **20 seances suivantes** selon que la
+journee etait classee haussiere ou baissiere.
+
+La regle rejouee est `annotate_trend()` de `macro.py`, **importee et non
+recopiee** : mesurer une autre regle que celle affichee ne mesurerait rien.
+
+| ecart entre les deux etats | verdict affiche |
+|----------------------------|-----------------|
+| 2 points ou plus           | signal utile |
+| entre 0,5 et 2 points      | signal faible |
+| 0,5 point ou moins         | sans valeur |
+| 2 points ou plus, a l'envers | signal inverse |
+
+Trois precautions, dites sur la page et pas seulement ici :
+
+- **Les fenetres se chevauchent.** Deux jours consecutifs partagent 19 des 20
+  seances mesurees. Le nombre affiche est un nombre de *jours observes*, pas
+  d'experiences independantes.
+- **La mesure est faite apres coup, sur les memes donnees.** Elle dit ce qui
+  s'est passe, pas ce qui se passera.
+- **Moins de 60 jours dans l'un des deux etats : aucun verdict.** L'echantillon
+  ne permet rien.
+
+### La mesure en direct, tenue en reserve
+
+`macro.py` continue d'enregistrer chaque jour **la cloture et le signal cote
+a cote**. Cette mesure-la n'est pas affichee : le backtest la devance sur tous
+les points, il porte sur des annees plutot que sur quelques jours. Elle a
+pourtant une qualite que le backtest n'aura jamais — elle est enregistree en
+direct, sans connaitre la suite. Le jour ou elle aura assez d'observations,
+elle pourra contredire le backtest, et c'est elle qui aura raison.
+
+## Les reperes historiques
+
+Le meme module situe quatre chiffres du jour dans **leur propre histoire**.
+« VIX a 16 » ne dit rien a personne ; « VIX a 16, plus calme que 78 % des cinq
+dernieres annees » se lit d'un coup d'oeil.
+
+| repere | fenetre de comparaison |
+|--------|------------------------|
+| VIX | 5 ans |
+| Fear & Greed crypto | toute l'histoire de l'indice |
+| Volatilite BTC 30 jours | 2 ans |
+| Decote BTC sous son plus haut | 2 ans |
+
+## Les alertes qui viennent te chercher
+
+Une page qu'il faut penser a ouvrir ne sert a rien : au moment ou un marche
+bascule, personne ne se dit « tiens, je vais consulter mon tableau de bord ».
+
+```bash
+python alerte.py --show    # affiche sans rien marquer comme envoye
+```
+
+`alerte.py` ne declenche que sur des **faits**, jamais sur des
+interpretations :
+
+| declencheur | condition |
+|-------------|-----------|
+| Basculement de tendance | un actif change d'etat entre deux releves |
+| Changement de regime | le regime general passe d'un etat a un autre |
+| Echeance imminente | decision Fed ou BCE sous 2 jours |
+| Extreme historique | un repere au-dela du 90e ou sous le 10e percentile |
+
+Le canal est **gratuit et deja installe** : le workflow ouvre une issue
+GitHub, l'application GitHub sur iPhone la transforme en notification. Aucun
+service tiers, aucun compte supplementaire, aucune cle. L'issue mentionne le
+proprietaire du depot (`github.repository_owner`) pour que la notification
+parte a coup sur.
+
+**Chaque alerte porte une empreinte**, et une empreinte deja envoyee ne repart
+pas. Sans cette memoire, un basculement de tendance notifierait toutes les
+heures jusqu'au suivant, et l'outil serait desinstalle en une journee. Les
+300 dernieres empreintes sont conservees dans `data/alerte.json`.
+
+Un tour qui ne detecte rien de neuf **ne reecrit meme pas le fichier** : son
+horodatage suffirait a declencher un commit par heure.
 
 ## L'etape Claude — optionnelle, desactivee par defaut
 
@@ -355,16 +438,24 @@ quotidienne), ce qui rend une base de donnees inutile a ce stade.
 python build_site.py
 ```
 
-La page repond a deux questions, dans cet ordre, et rien d'autre :
+La page repond a cinq questions, dans cet ordre, et rien d'autre :
 
-1. **Ou en est chaque actif ?** Quatre cartes — S&P 500, MSCI World, Bitcoin,
-   Ethereum — avec le cours, la tendance et sa justification chiffree, plus
-   le decompte de l'actualite des 7 derniers jours.
-2. **Que dit l'actualite ?** Quatre lignes en francais et le fait marquant
-   des dernieres 48 h.
+1. **Qu'est-ce qui a change ?** Les basculements de tendance des 45 derniers
+   jours, du plus recent au plus ancien. C'est ce qui justifie d'ouvrir la
+   page aujourd'hui plutot qu'hier.
+2. **Ou en est chaque zone ?** Quatre cartes — Amerique, Europe, Asie, Crypto
+   — avec la tendance, sa justification chiffree et les cours.
+3. **Que dit l'actualite ?** La synthese redigee (ou le resume mecanique) et
+   le fait marquant des dernieres 48 h, plus les prochaines echeances.
+4. **Ces signaux valent-ils quelque chose ?** Le verdict mesure marche par
+   marche.
+5. **Ces chiffres sont-ils rares ?** Quatre reperes replaces dans leur propre
+   histoire.
 
-Les quatre cartes tiennent **sur le premier ecran d'un iPhone 14**, sans
-defilement. La page pese 5 Ko contre 32 Ko auparavant.
+« Ce qui a change » vient des **historiques longs**, pas de la memoire de
+l'outil : la section est donc complete des le premier jour, au lieu de rester
+vide plusieurs semaines le temps que les releves s'accumulent. C'est la meme
+lecon que la mesure de fiabilite, appliquee cette fois avant de livrer.
 
 ### La tendance n'est pas une prevision
 
@@ -403,8 +494,9 @@ navigateur en 390x844.
 ## Execution continue (GitHub Actions)
 
 `.github/workflows/veille.yml` enchaine les etapes toutes les heures :
-collecte, analyse, series numeriques, generation de la page, puis commit et
-push si quelque chose a change. Le telephone ne fait tourner aucun processus.
+collecte, analyse, series numeriques, calendrier, backtest (une fois par
+jour), detection des alertes, generation de la page, puis commit et push si
+quelque chose a change. Le telephone ne fait tourner aucun processus.
 
 > Depuis l'ajout de `macro.py`, les prix bougent a chaque tour : le depot
 > recoit donc environ un commit par heure, avec de vraies donnees dedans. Si
@@ -413,8 +505,8 @@ push si quelque chose a change. Le telephone ne fait tourner aucun processus.
 | point | choix |
 |-------|-------|
 | Declencheurs | cron horaire (`0 * * * *`, en UTC) + `workflow_dispatch` |
-| Droits | `GITHUB_TOKEN` par defaut, `permissions: contents: write` |
-| Duree max | `timeout-minutes: 10` |
+| Droits | `GITHUB_TOKEN` par defaut, `contents: write` + `issues: write` |
+| Duree max | `timeout-minutes: 20` (le tour quotidien du backtest est le plus long) |
 | Simultaneite | `concurrency: veille`, sans annulation du tour en cours |
 | Secrets | `ANTHROPIC_API_KEY` et `FRED_API_KEY`, absents = ignores |
 

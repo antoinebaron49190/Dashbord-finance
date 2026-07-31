@@ -65,9 +65,6 @@ ZONES = [
 # Reference mondiale, affichee en une ligne sous les zones.
 GLOBAL_INDEX = ("msci_world", "MSCI World", "equities")
 
-# En deca de ce nombre d'observations, la mesure de fiabilite n'a rien a dire.
-RELIABILITY_MIN_OBS = 60
-
 # Ce texte est une exigence permanente du projet. Il ne doit jamais etre
 # retire de la page, ni reformule pour en attenuer la portee.
 DISCLAIMER = (
@@ -396,14 +393,156 @@ def render_headline(articles):
             '</a>')
 
 
-# --- Fiabilite des signaux --------------------------------------------------
+# --- Ce qui a change ---------------------------------------------------------
+
+# Au-dela, le basculement n'est plus une nouvelle.
+RECENT_DAYS = 45
+
+# La locution porte son auxiliaire : « est passé » et « a perdu » ne se
+# conjuguent pas pareil, un prefixe commun donnerait « a passé haussier ».
+TREND_SHORT = {
+    "haussiere": ("est passé haussier", GREEN),
+    "baissiere": ("est passé baissier", RED),
+    "indecise": ("a perdu sa direction", GRAY),
+}
+
+
+def recent_changes(backtest):
+    """Les actifs qui ont bascule recemment, du plus recent au plus ancien.
+
+    Cette information vient des historiques longs, pas de la memoire de
+    l'outil : elle est donc complete des le premier jour, au lieu de rester
+    vide pendant des semaines le temps que l'outil accumule des releves.
+    """
+    changes = []
+    for asset in ((backtest or {}).get("assets") or {}).values():
+        current = asset.get("current") or {}
+        days = current.get("days")
+        trend = current.get("trend")
+        if days is None or trend not in TREND_SHORT or days > RECENT_DAYS:
+            continue
+        changes.append((days, asset["label"], trend))
+    return sorted(changes)
+
+
+def render_changes(backtest):
+    # Sans mesure du tout, la section disparait. Afficher « rien n'a bouge »
+    # alors qu'on ne sait pas serait un mensonge par omission : c'est
+    # exactement ce que fait une jauge qui affiche zero quand elle est
+    # debranchee.
+    if not ((backtest or {}).get("assets") or {}):
+        return ""
+
+    changes = recent_changes(backtest)
+    if not changes:
+        return ('<h2>Ce qui a changé</h2><div class="reliab">'
+                '<div class="reliab-progress">Aucun basculement de tendance '
+                f'depuis {RECENT_DAYS} jours sur les marchés suivis.</div>'
+                '<div class="reliab-note">Une absence de mouvement est une '
+                'information : rien ne s\'est retourné, inutile de chercher '
+                'quoi faire.</div></div>')
+
+    rows = []
+    for days, label, trend in changes:
+        word, colour = TREND_SHORT[trend]
+        quand = ("aujourd'hui" if days == 0 else
+                 "hier" if days == 1 else f"il y a {days} jours")
+        rows.append(f'<li><span class="chg-what">{html.escape(label)} '
+                    f'<span style="color:{colour}">{word}</span></span>'
+                    f'<span class="chg-when">{quand}</span></li>')
+    return (f'<h2>Ce qui a changé</h2><ul class="agenda chg">{"".join(rows)}</ul>'
+            '<div class="news-note">Changements d\'état de tendance sur les '
+            f'{RECENT_DAYS} derniers jours. Le reste des marchés suivis est '
+            'dans le même état qu\'avant.</div>')
+
+
+# --- Ce que valent les signaux ----------------------------------------------
+
+VERDICT_STYLE = {
+    "signal utile": ("a séparé les deux cas", GREEN),
+    "signal faible": ("a peu séparé les deux cas", GRAY),
+    "sans valeur": ("n'a rien séparé du tout", RED),
+    "signal inversé": ("a séparé les deux cas à l'envers", RED),
+    "non mesurable": ("pas assez d'historique", GRAY),
+}
+
+
+def render_verdicts(backtest):
+    """Ce que le signal affiche plus haut a réellement valu par le passé.
+
+    C'est la section qui manque a toutes les applications de finance grand
+    public : celle qui dit quand l'indicateur affiche du vide. Elle passe
+    avant l'actualite parce qu'elle conditionne la lecture de tout le reste.
+    """
+    assets = (backtest or {}).get("assets") or {}
+    if not assets:
+        return ""
+
+    horizon = backtest.get("horizon_days", 20)
+    ordered = sorted(assets.values(),
+                     key=lambda a: (a.get("edge_pct") is None,
+                                    -(a.get("edge_pct") or 0)))
+
+    rows = []
+    for asset in ordered:
+        word, colour = VERDICT_STYLE.get(asset.get("verdict"),
+                                         ("non mesuré", GRAY))
+        edge = asset.get("edge_pct")
+        chiffre = "--" if edge is None else f"{edge:+.1f} pt".replace(".", ",")
+        rows.append(f'<li><span class="vd-name">{html.escape(asset["label"])}</span>'
+                    f'<span class="vd-word" style="color:{colour}">{word}</span>'
+                    f'<span class="vd-edge">{chiffre}</span></li>')
+
+    useless = sum(1 for a in assets.values()
+                  if a.get("verdict") in ("sans valeur", "signal faible"))
+    resume = (f'Sur {len(assets)} marchés suivis, le signal de tendance n\'a '
+              f'rien apporté sur {useless} d\'entre eux.'
+              if useless else
+              'Le signal de tendance a séparé les deux cas sur tous les '
+              'marchés suivis.')
+
+    return ('<h2>Ce que valent ces signaux</h2>'
+            f'<ul class="verdicts">{"".join(rows)}</ul>'
+            f'<div class="news-note">{resume} L\'écart affiché est la '
+            f'différence de performance moyenne sur {horizon} séances entre '
+            'les journées classées haussières et les journées classées '
+            'baissières, mesurée sur l\'historique disponible. Mesure faite '
+            'après coup, sur les mêmes données : elle dit ce qui s\'est passé, '
+            'pas ce qui se passera.</div>')
+
+
+# --- Contexte : situer les chiffres du jour ---------------------------------
+
+def render_context(backtest):
+    items = (backtest or {}).get("context") or []
+    if not items:
+        return ""
+    rows = []
+    for item in items:
+        rows.append(f'<li><span class="ctx-top">'
+                    f'<span class="ctx-label">{html.escape(item["label"])}</span>'
+                    f'<span class="ctx-value">{html.escape(item["value"])}</span>'
+                    f'</span><span class="ctx-sentence">'
+                    f'{html.escape(item.get("sentence", ""))}</span></li>')
+    return ('<h2>Où on en est, en perspective</h2>'
+            f'<ul class="context">{"".join(rows)}</ul>'
+            '<div class="news-note">Chaque chiffre est comparé à sa propre '
+            'histoire. Un niveau rare décrit le présent ; il ne dit rien de '
+            'la suite.</div>')
+
+
+# --- Mesure en direct, tenue en reserve -------------------------------------
 
 def reliability(macro):
     """Confronte chaque signal passe au rendement du lendemain.
 
-    C'est la seule facon honnete de savoir si cet outil vaut quelque chose.
-    Tant qu'il n'y a pas assez d'observations, on affiche l'avancement
-    plutot qu'un chiffre qui ne voudrait rien dire.
+    Cette mesure-ci n'est pas affichee sur la page : le backtest la devance
+    sur tous les points, il porte sur des annees plutot que sur les quelques
+    jours accumules. Elle continue pourtant d'etre calculee et rapportee en
+    console, parce qu'elle a une qualite que le backtest n'aura jamais : elle
+    est enregistree en direct, sans connaitre la suite. Le jour ou elle aura
+    assez d'observations, elle pourra contredire le backtest — et ce sera
+    elle qui aura raison.
     """
     history = (macro or {}).get("history") or {}
     days = sorted(history)
@@ -422,42 +561,6 @@ def reliability(macro):
                 observations += 1
 
     return observations, buckets
-
-
-def render_reliability(macro):
-    observations, buckets = reliability(macro)
-
-    if observations < RELIABILITY_MIN_OBS:
-        return ('<h2>Fiabilité des signaux</h2>'
-                '<div class="reliab"><div class="reliab-progress">'
-                f'Mesure en cours : {observations} observation'
-                f'{"s" if observations > 1 else ""} accumulée'
-                f'{"s" if observations > 1 else ""} sur les '
-                f'{RELIABILITY_MIN_OBS} nécessaires.</div>'
-                '<div class="reliab-note">Chaque jour, le signal et la clôture '
-                'sont enregistrés côte à côte. Quand il y en aura assez, cette '
-                'section dira si les journées classées « haussière » ont été '
-                'suivies d\'autre chose que les journées « baissière ». '
-                'D\'ici là, rien ne permet de l\'affirmer.</div></div>')
-
-    rows = []
-    for trend, label in (("haussiere", "Après un signal haussier"),
-                         ("baissiere", "Après un signal baissier"),
-                         ("indecise", "Sans direction nette")):
-        values = buckets[trend]
-        if not values:
-            continue
-        mean = sum(values) / len(values) * 100
-        colour = GREEN if mean > 0.02 else (RED if mean < -0.02 else GRAY)
-        rows.append(f'<li>{label} : <span style="color:{colour}">'
-                    f'{mean:+.2f} %</span> le lendemain, en moyenne '
-                    f'({len(values)} observations)</li>')
-
-    return ('<h2>Fiabilité des signaux</h2>'
-            f'<ul class="reliab-list">{"".join(rows)}</ul>'
-            '<div class="reliab-note">Rendement moyen du jour suivant, mesuré '
-            'sur l\'historique accumulé par l\'outil. Un écart faible entre '
-            'les lignes signifie que le signal n\'apporte rien.</div>')
 
 
 # --- Page -------------------------------------------------------------------
@@ -508,18 +611,37 @@ h2{font-size:15px;margin:26px 0 10px;font-weight:600;color:__DIM__;
 .headline-label{display:block;font-size:14px;color:__DIM__;
  text-transform:uppercase;letter-spacing:.07em;margin-bottom:3px}
 .headline-title{display:block;font-size:16px;line-height:1.35;overflow-wrap:anywhere}
-.reliab,.reliab-list{background:__CARD__;border:1px solid __BORDER__;
- border-radius:12px;padding:12px 15px;margin:0;list-style:none}
+.chg li{justify-content:space-between}
+.chg-what{font-size:16px;line-height:1.35;overflow-wrap:anywhere}
+.chg-when{flex:0 0 auto;font-size:14px;color:__DIM__;white-space:nowrap}
+.verdicts,.context{list-style:none;margin:0;padding:0;background:__CARD__;
+ border:1px solid __BORDER__;border-radius:12px}
+.verdicts li{display:flex;gap:10px;align-items:baseline;padding:11px 15px;
+ border-bottom:1px solid __BORDER__}
+.verdicts li:last-child,.context li:last-child{border-bottom:0}
+.vd-name{flex:0 0 92px;font-size:16px;overflow-wrap:anywhere}
+.vd-word{flex:1;font-size:15px;line-height:1.3}
+.vd-edge{flex:0 0 auto;font-size:15px;color:__DIM__;
+ font-variant-numeric:tabular-nums}
+.context li{padding:11px 15px;border-bottom:1px solid __BORDER__}
+.ctx-top{display:flex;gap:10px;align-items:baseline;justify-content:space-between}
+.ctx-label{font-size:16px;line-height:1.3;overflow-wrap:anywhere}
+.ctx-value{flex:0 0 auto;font-size:16px;font-weight:600;
+ font-variant-numeric:tabular-nums}
+.ctx-sentence{display:block;font-size:14px;color:__DIM__;margin-top:3px;
+ line-height:1.35}
+.reliab{background:__CARD__;border:1px solid __BORDER__;
+ border-radius:12px;padding:12px 15px;margin:0}
 .reliab-progress{font-size:16px;line-height:1.4}
-.reliab-list li{font-size:16px;line-height:1.4;padding:5px 0}
-.reliab-note{font-size:14px;color:__DIM__;line-height:1.35;margin-top:7px;padding:0 3px}
+.reliab-note{font-size:14px;color:__DIM__;line-height:1.35;margin-top:7px}
 .disclaimer{position:fixed;left:0;right:0;bottom:0;background:__CARD__;
  border-top:1px solid __BORDER__;color:__DIM__;font-size:14px;line-height:1.35;
  padding:10px 16px calc(10px + env(safe-area-inset-bottom));text-align:center;z-index:10}
 """
 
 
-def render_page(index, articles, macro, agenda, synthese, generated_at):
+def render_page(index, articles, macro, agenda, synthese, backtest,
+                generated_at):
     css = CSS
     for token, colour in (("__BG__", BG), ("__CARD__", BG_CARD),
                           ("__BORDER__", BORDER), ("__TEXT__", TEXT),
@@ -549,6 +671,8 @@ def render_page(index, articles, macro, agenda, synthese, generated_at):
 <h1>Veille économique</h1>
 <p class="updated">Mise à jour le {stamp} (heure de Paris)</p>
 
+{render_changes(backtest)}
+
 {render_zones(macro)}
 {render_agenda(agenda)}
 
@@ -556,7 +680,8 @@ def render_page(index, articles, macro, agenda, synthese, generated_at):
 {render_news(index, articles, synthese)}
 {render_headline(articles)}
 
-{render_reliability(macro)}
+{render_verdicts(backtest)}
+{render_context(backtest)}
 
 <!-- Bandeau permanent : ne jamais retirer. -->
 <div class="disclaimer" role="note">{html.escape(DISCLAIMER)}</div>
@@ -589,11 +714,12 @@ def main():
     macro = load_json(DATA_DIR / "macro.json", {})
     agenda = load_json(DATA_DIR / "agenda.json", {})
     synthese = load_json(DATA_DIR / "synthese.json", {})
+    backtest = load_json(DATA_DIR / "backtest.json", {})
 
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     generated_at = datetime.now(timezone.utc).astimezone(PARIS)
 
-    page = render_page(index, articles, macro, agenda, synthese,
+    page = render_page(index, articles, macro, agenda, synthese, backtest,
                        generated_at)
     (DOCS_DIR / "index.html").write_text(page, encoding="utf-8")
 
@@ -613,10 +739,12 @@ def main():
         state, _, detail = zone_verdict(blocks)
         print(f"  {label:<10} {state:<22} {detail}")
     observations, _ = reliability(macro)
-    print(f"  fiabilite : {observations} observation(s) sur "
-          f"{RELIABILITY_MIN_OBS} necessaires")
+    print(f"  backtest  : {len(backtest.get('assets') or {})} marche(s) mesure(s), "
+          f"{len(recent_changes(backtest))} basculement(s) recent(s)")
+    print(f"  contexte  : {len(backtest.get('context') or [])} repere(s)")
     print(f"  agenda    : {len(agenda.get('upcoming') or [])} echeance(s)")
     print(f"  synthese  : {'oui' if synthese.get('points') else 'non (pas de cle)'}")
+    print(f"  mesure en direct (hors page) : {observations} observation(s)")
 
 
 if __name__ == "__main__":

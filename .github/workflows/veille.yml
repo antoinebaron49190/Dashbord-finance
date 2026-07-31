@@ -11,6 +11,9 @@ on:
 
 permissions:
   contents: write
+  # Les alertes passent par une issue : l'application GitHub sur iPhone la
+  # transforme en notification. Canal gratuit, deja installe, sans cle.
+  issues: write
 
 # Deux tours ne doivent jamais ecrire en meme temps sur la branche. On ne
 # coupe pas le tour en cours : il finit et pousse, le suivant attend.
@@ -21,7 +24,10 @@ concurrency:
 jobs:
   veille:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    # Le backtest ne tourne qu'une fois par jour, mais ce jour-la il
+    # telecharge cinq ans d'historique sur douze marches. Vingt minutes
+    # couvrent ce tour-la ; les vingt-trois autres restent sous les cinq.
+    timeout-minutes: 20
 
     steps:
       - name: Recuperer le depot
@@ -66,6 +72,42 @@ jobs:
         # Fed et BCE. Une page qui change de structure est journalisee, pas
         # fatale : le calendrier disparait de la page, le reste continue.
         run: python agenda.py
+
+      - name: Mesurer ce que valent les signaux
+        working-directory: veille
+        # Une fois par jour : le fichier s'auto-protege contre les recalculs
+        # trop rapproches. Si Yahoo limite le debit ce jour-la, la mesure de
+        # la veille reste affichee, ce qui vaut mieux qu'une page amputee.
+        continue-on-error: true
+        run: python backtest.py
+
+      - name: Detecter les faits notables
+        id: alerte
+        working-directory: veille
+        run: |
+          set -euo pipefail
+          python alerte.py --emit "${RUNNER_TEMP}/alerte" \
+                           --mention "${{ github.repository_owner }}"
+          # Un fichier de sortie d'etape plutot que `hashFiles` : celui-ci ne
+          # sait lire que l'interieur du workspace, et le brouillon d'issue
+          # n'a rien a y faire.
+          if [ -f "${RUNNER_TEMP}/alerte/titre.txt" ]; then
+            echo "notifier=oui" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Notifier par une issue
+        # L'etape ne fait rien la plupart du temps : il faut qu'un marche ait
+        # bascule, que le regime ait change, qu'une banque centrale decide
+        # sous deux jours ou qu'un indicateur touche un extreme. Sans quoi
+        # aucune issue n'est ouverte, et le telephone reste silencieux.
+        if: steps.alerte.outputs.notifier == 'oui'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue create \
+            --repo "${GITHUB_REPOSITORY}" \
+            --title "$(cat "${RUNNER_TEMP}/alerte/titre.txt")" \
+            --body-file "${RUNNER_TEMP}/alerte/corps.md"
 
       - name: Generer la page
         working-directory: veille
