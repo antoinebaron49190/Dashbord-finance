@@ -14,10 +14,13 @@ veille/
   collector.py       collecte, dedoublonnage, stockage
   lexique.py         mots-cles, directions, poids
   analyzer.py        scoring lexical et indice quotidien
+  build_site.py      generation de la page statique
   data/
     articles.json    articles des 90 derniers jours
     index.json       serie quotidienne (conservee indefiniment)
   requirements.txt
+
+docs/                 page publiee par GitHub Pages (generee)
 ```
 
 Les deux etages sont separes : `collector.py` rassemble la matiere et n'ecrit
@@ -205,3 +208,52 @@ Le JSON se versionne proprement dans git (diffs lisibles, historique clair)
 et reste consultable directement depuis un telephone, sans outil
 supplementaire. Le volume reste faible (90 jours d'articles + une serie
 quotidienne), ce qui rend une base de donnees inutile a ce stade.
+
+## La page
+
+```bash
+python build_site.py
+```
+
+Genere `docs/` — le dossier servi par GitHub Pages :
+
+| fichier                | role                                              |
+|------------------------|---------------------------------------------------|
+| `index.html`           | la page entiere : HTML, CSS et JS dans un seul fichier |
+| `manifest.json`        | « Ajouter a l'ecran d'accueil », lancement plein ecran |
+| `apple-touch-icon.png` | icone iOS (180 px)                                |
+| `icon-192.png` / `icon-512.png` | icones du manifest                       |
+
+Les donnees sont **injectees dans le HTML a la generation**. La page ouverte
+ne fait aucune requete reseau : elle fonctionne hors ligne, et rien ne fuite
+vers un tiers. Aucun framework, aucune etape de compilation.
+
+Les trois icones PNG sont produites par le script lui-meme (`zlib` + `struct`,
+sans Pillow) : le depot n'embarque aucun binaire d'origine inconnue.
+
+### Contenu
+
+1. **Quatre cartes** — banques centrales, tonalite globale, reglementaire
+   crypto, part de stress. Valeur du jour, variation sur 7 jours, code
+   couleur vert / gris / rouge. La couleur ne porte jamais seule
+   l'information : chaque valeur est doublee d'un mot (`favorable`,
+   `neutre`, `defavorable`, `elevee`...) et chaque variation d'une fleche et
+   d'un nombre signe.
+2. **Un graphique SVG** des quatre series sur 90 jours, genere cote Python,
+   sans bibliotheque. Les series se distinguent par la couleur **et** par le
+   style de trait. Les jours sans donnee sont des trous : jamais d'
+   interpolation, un jour isole est dessine en point.
+3. **Quatre onglets d'actifs** — les 10 elements les plus importants de
+   chacun, avec titre, source, date, score et lien vers l'article.
+4. **Le bandeau permanent**, fixe en bas de l'ecran.
+
+### Mobile
+
+Pensee pour un iPhone 14 (390 pt) : une seule colonne, aucun defilement
+horizontal, zones tactiles de 44 pt au minimum, theme sombre, contenu et
+titres a 16 px. Le texte secondaire (metadonnees, legendes) est a 14 px et
+les graduations du graphique a 12 px — a 16 px elles couvriraient la courbe.
+
+Verifie au rendu dans un navigateur en 390x844 : pas de debordement
+horizontal, aucune zone tactile sous 44 pt, aucune requete reseau, et le
+dernier element de chaque onglet reste lisible au-dessus du bandeau.
