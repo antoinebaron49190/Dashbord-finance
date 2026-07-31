@@ -1,2 +1,11 @@
 __pycache__/
 *.pyc
+
+# Le depot est public. Ces motifs sont un garde-fou : aucun secret ne doit
+# jamais y entrer, meme par accident. Les cles passent par les GitHub Secrets.
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+credentials.json

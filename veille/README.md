@@ -257,3 +257,117 @@ les graduations du graphique a 12 px — a 16 px elles couvriraient la courbe.
 Verifie au rendu dans un navigateur en 390x844 : pas de debordement
 horizontal, aucune zone tactile sous 44 pt, aucune requete reseau, et le
 dernier element de chaque onglet reste lisible au-dessus du bandeau.
+
+## Execution continue (GitHub Actions)
+
+`.github/workflows/veille.yml` enchaine les trois etapes toutes les heures :
+collecte, analyse, generation de la page, puis commit et push si quelque
+chose a change. Le telephone ne fait tourner aucun processus.
+
+| point | choix |
+|-------|-------|
+| Declencheurs | cron horaire (`0 * * * *`, en UTC) + `workflow_dispatch` |
+| Droits | `GITHUB_TOKEN` par defaut, `permissions: contents: write` |
+| Duree max | `timeout-minutes: 10` |
+| Simultaneite | `concurrency: veille`, sans annulation du tour en cours |
+| Secrets | `ANTHROPIC_API_KEY` et `FRED_API_KEY`, absents = ignores |
+
+**Un flux mort n'echoue jamais le workflow.** `collector.py` isole chaque
+source *et* chaque entree, attrape `Exception` sans filtrer par type, et sort
+toujours en code 0. Verifie en simulant coupure de connexion, reponse
+tronquee, erreur TLS et les 18 flux morts d'un coup : la collecte se termine
+proprement en journalisant les sources muettes.
+
+**Pas de commit inutile.** La page porte son heure de generation, elle change
+donc a chaque tour meme sans actualite. Le workflow ne publie que si les
+donnees ont bouge, ou si la page a change pour autre chose que son horodatage
+— sinon on accumulerait un commit vide par heure, soit environ 8 700 par an.
+
+> `FRED_API_KEY` est transmis au workflow comme demande, mais **aucun code ne
+> le lit aujourd'hui** : il n'y a pas encore de source FRED dans le projet. Le
+> secret est simplement pret pour une phase ulterieure.
+
+## Marche a suivre depuis un iPhone
+
+Tout se fait dans Safari : `github.com` fonctionne entierement sur mobile.
+L'app GitHub est pratique pour suivre les executions, mais ne permet ni de
+creer un depot ni de regler Pages — passe par Safari pour ces etapes.
+
+### 1. Creer le depot public
+
+1. Safari, aller sur **github.com/new**.
+2. Nom : `Dashbord-finance` (ou ce que tu veux).
+3. Cocher **Public** — c'est ce qui donne les minutes GitHub Actions
+   illimitees. Un depot prive consommerait ton quota gratuit.
+4. Ne rien cocher d'autre, puis **Create repository**.
+5. Pousser le code sur la branche `main`.
+
+### 2. Activer GitHub Pages
+
+1. Dans le depot : **Settings** (roue dentee), puis **Pages** dans la
+   colonne de gauche.
+2. Sous *Build and deployment*, **Source** : `Deploy from a branch`.
+3. **Branch** : `main`, dossier **`/docs`**. Puis **Save**.
+4. Au bout d'une a deux minutes, l'adresse s'affiche en haut de la page :
+   `https://<ton-compte>.github.io/Dashbord-finance/`
+
+### 3. Ajouter les cles (facultatif)
+
+Utile seulement si tu veux l'etage Claude. Sans cle, tout fonctionne.
+
+**Settings** > **Secrets and variables** > **Actions** > **New repository
+secret** : nom `ANTHROPIC_API_KEY`, valeur ta cle. Ne colle jamais une cle
+ailleurs que la : le depot est public.
+
+### 4. Declencher le premier tour a la main
+
+1. Onglet **Actions** du depot.
+2. Dans la colonne de gauche, choisir le workflow **Veille**.
+3. Bouton **Run workflow** a droite, branche `main`, puis **Run workflow**.
+4. Le tour dure environ une minute. Une pastille verte = termine.
+
+Sans ce declenchement manuel, il faut attendre le prochain passage du cron
+(jusqu'a une heure). Ensuite tout tourne seul.
+
+### 5. Ajouter la page a l'ecran d'accueil
+
+1. Ouvrir l'adresse `github.io` dans **Safari** (pas dans l'app GitHub, sinon
+   l'icone et le plein ecran ne fonctionnent pas).
+2. Bouton **Partager** (le carre avec la fleche, en bas).
+3. Faire defiler, **Sur l'ecran d'accueil**, puis **Ajouter**.
+
+L'icone generee par `build_site.py` apparait sur l'ecran d'accueil, et
+l'ouverture se fait en plein ecran, sans barre d'adresse, grace au
+`manifest.json` et aux balises `apple-mobile-web-app-*`.
+
+### Bon a savoir
+
+- GitHub desactive les crons d'un depot **inactif depuis 60 jours**. Ici le
+  workflow commite regulierement, donc le compteur ne s'epuise pas. Si tu
+  recois un mail d'avertissement, un `Run workflow` manuel suffit a relancer.
+- Les crons GitHub sont en **UTC** et peuvent etre decales de quelques
+  minutes aux heures chargees. L'heure affichee sur la page, elle, est bien
+  l'heure de Paris.
+- Pour changer la frequence, edite la ligne `cron:` du workflow.
+
+## Confidentialite
+
+**Ce depot est public et ne doit contenir que de la veille d'actualite
+publique.** Il ne contient aucun montant investi, aucune position, aucune
+donnee personnelle, et il ne doit jamais en contenir.
+
+Ce qui est versionne :
+
+- du code Python et un fichier de workflow ;
+- des articles issus de **flux RSS publics** : titre, lien, resume, date,
+  plus les scores calcules. Rien qui ne soit deja publie par la BCE, la Fed,
+  l'AMF ou la presse ;
+- la page generee et ses icones.
+
+Ce qui n'y est pas, et ne doit pas y entrer : montants, positions, taille de
+portefeuille, identite, adresse e-mail, cles d'API. Les cles passent
+exclusivement par les **GitHub Secrets**, qui ne sont jamais ecrits dans le
+depot ni visibles dans les journaux d'execution.
+
+L'outil ne se connecte a aucun compte de courtage et ne passe aucun ordre.
+Il lit des flux publics, les score, et affiche le resultat.

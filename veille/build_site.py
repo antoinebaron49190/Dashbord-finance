@@ -456,7 +456,7 @@ def render_page(index, articles, generated_at):
             f'{hidden}>{render_items(articles, asset)}</div>'
         )
 
-    stamp = generated_at.strftime("%d/%m/%Y a %H:%M")
+    stamp = generated_at.strftime("%d/%m/%Y à %H:%M")
     css = CSS
     for token, colour in (("__BG__", BG), ("__CARD__", BG_CARD),
                           ("__BORDER__", BORDER), ("__TEXT__", TEXT),

@@ -43,14 +43,22 @@ _WS_RE = re.compile(r"\s+")
 
 
 def fetch_feed(url):
-    """Recupere et parse un flux RSS. Ne leve jamais d'exception :
-    renvoie toujours un objet feedparser (bozo=1 en cas d'echec)."""
+    """Recupere et parse un flux RSS. Ne leve jamais d'exception.
+
+    On attrape `Exception` volontairement, et pas une liste de types. Un flux
+    distant peut echouer de facons qu'on n'anticipe pas : connexion coupee en
+    pleine lecture (`ConnectionResetError`, qui n'herite pas de `URLError`),
+    reponse tronquee (`IncompleteRead`), erreur TLS, ou contenu si malforme
+    que feedparser lui-meme trebuche. Un seul de ces cas non attrape ferait
+    tomber toute la collecte — et le workflow avec elle. Or un flux mort ne
+    doit jamais empecher les dix-sept autres d'etre collectes.
+    """
     try:
         request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
         with urllib.request.urlopen(request, timeout=FETCH_TIMEOUT) as response:
             raw = response.read()
         return feedparser.parse(raw)
-    except (urllib.error.URLError, socket.timeout, TimeoutError, ValueError) as exc:
+    except Exception as exc:  # noqa: BLE001 - voir docstring
         parsed = feedparser.FeedParserDict()
         parsed.bozo = True
         parsed.bozo_exception = exc
@@ -139,40 +147,60 @@ def save_json(path, data):
 
 
 def collect_articles():
-    """Recupere tous les flux et renvoie la liste des nouveaux articles."""
+    """Recupere tous les flux et renvoie (articles, sources en echec).
+
+    Chaque source, puis chaque entree, est isolee : une donnee aberrante dans
+    un flux ne fait perdre que cette entree, jamais le reste de la collecte.
+    Les echecs sont journalises et renvoyes a l'appelant, jamais fatals.
+    """
     now = datetime.now(timezone.utc)
     collected = []
+    failures = []
 
     for source in SOURCES:
         parsed = fetch_feed(source["url"])
         entries = getattr(parsed, "entries", [])
 
+        if not entries:
+            reason = getattr(parsed, "bozo_exception", None) or "aucune entree"
+            failures.append((source["id"], str(reason)))
+            print(f"  [KO] {source['id']}: {reason}")
+            continue
+
+        kept = 0
         for entry in entries:
-            title = clean_html(getattr(entry, "title", "") or "")
-            url = getattr(entry, "link", "") or ""
-            if not title or not url:
-                continue
+            try:
+                title = clean_html(getattr(entry, "title", "") or "")
+                url = getattr(entry, "link", "") or ""
+                if not title or not url:
+                    continue
 
-            summary_raw = getattr(entry, "summary", "") or getattr(entry, "description", "") or ""
-            summary = truncate(clean_html(summary_raw))
+                summary_raw = (getattr(entry, "summary", "")
+                               or getattr(entry, "description", "") or "")
+                summary = truncate(clean_html(summary_raw))
 
-            published = entry_published(entry) or now
+                published = entry_published(entry) or now
 
-            collected.append({
-                "id": make_article_id(url, title),
-                "source": source["id"],
-                "tier": source["tier"],
-                "weight": source["weight"],
-                "category": source["category"],
-                "assets": source["assets"],
-                "title": title,
-                "url": url,
-                "summary": summary,
-                "published_at": published.isoformat(),
-                "collected_at": now.isoformat(),
-            })
+                collected.append({
+                    "id": make_article_id(url, title),
+                    "source": source["id"],
+                    "tier": source["tier"],
+                    "weight": source["weight"],
+                    "category": source["category"],
+                    "assets": source["assets"],
+                    "title": title,
+                    "url": url,
+                    "summary": summary,
+                    "published_at": published.isoformat(),
+                    "collected_at": now.isoformat(),
+                })
+                kept += 1
+            except Exception as exc:  # une entree bancale ne coute que cette entree
+                print(f"  [!] {source['id']}: entree ignoree ({exc})")
 
-    return collected
+        print(f"  [OK] {source['id']}: {kept} entrees")
+
+    return collected, failures
 
 
 def merge_articles(existing, new_articles):
@@ -201,7 +229,7 @@ def purge_old(articles, retention_days=RETENTION_DAYS):
 def run_collection():
     existing_articles = load_json(ARTICLES_PATH, [])
 
-    new_articles = collect_articles()
+    new_articles, failures = collect_articles()
     merged = merge_articles(existing_articles, new_articles)
     purged = purge_old(merged)
     purged.sort(key=lambda a: a["published_at"], reverse=True)
@@ -209,9 +237,16 @@ def run_collection():
     save_json(ARTICLES_PATH, purged)
 
     new_count = len(merged) - len(existing_articles)
-    print(f"Collecte terminee : {len(new_articles)} entrees vues, "
+    print(f"\nCollecte terminee : {len(new_articles)} entrees vues, "
           f"{new_count} nouveaux articles, "
           f"{len(purged)} articles conserves (fenetre {RETENTION_DAYS}j).")
+
+    # Les flux morts sont un fait normal, pas une panne : on les rapporte
+    # sans jamais renvoyer un code de sortie non nul.
+    if failures:
+        print(f"{len(failures)}/{len(SOURCES)} flux muets ce tour-ci :")
+        for source_id, reason in failures:
+            print(f"  - {source_id} : {reason}")
     print("Lance `python analyzer.py` pour mettre a jour l'indice.")
 
 

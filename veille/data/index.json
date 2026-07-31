@@ -1,11 +1,11 @@
 {
   "2026-07-31": {
-    "articles_count": 107,
-    "signal_count": 17,
+    "articles_count": 135,
+    "signal_count": 19,
     "tone_cb": 0.5,
-    "tone_global": 0.2792,
+    "tone_global": 0.2273,
     "regul_crypto": 0.6796,
-    "stress": 0.0,
+    "stress": 0.0049,
     "top": [
       {
         "id": "24b10cf84716609810e7c38a",
@@ -50,10 +50,10 @@
     ]
   },
   "2026-07-30": {
-    "articles_count": 38,
-    "signal_count": 3,
+    "articles_count": 64,
+    "signal_count": 6,
     "tone_cb": -0.0898,
-    "tone_global": 0.0041,
+    "tone_global": 0.0426,
     "regul_crypto": -0.3988,
     "stress": 0.0,
     "top": [
@@ -100,7 +100,7 @@
     ]
   },
   "2026-07-29": {
-    "articles_count": 5,
+    "articles_count": 8,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
@@ -140,22 +140,22 @@
         "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260729~4ad7508d8a.en.html"
       },
       {
-        "id": "c126fe9e9dafaa5ead790c26",
-        "title": "Rivian stock drops despite Q2 beat; R2 launch edition conversions stronger than expected, CEO says",
+        "id": "13b082bd762915dbcb412b7b",
+        "title": "Long-term care insurance explained",
         "source": "yahoo_finance",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://finance.yahoo.com/markets/stocks/article/rivian-stock-drops-despite-q2-beat-r2-launch-edition-conversions-stronger-than-expected-ceo-says-185442823.html"
+        "url": "https://finance.yahoo.com/personal-finance/insurance/article/long-term-care-insurance-194903621.html"
       }
     ]
   },
   "2026-07-28": {
-    "articles_count": 2,
+    "articles_count": 3,
     "signal_count": 2,
     "tone_cb": 0.1193,
     "tone_global": 0.1193,
     "regul_crypto": 0.8386,
-    "stress": 0.5,
+    "stress": 0.4483,
     "top": [
       {
         "id": "ceb2bf06d2c792e5eeb55b67",
@@ -172,11 +172,19 @@
         "score": 1.3,
         "tone": -0.6,
         "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3261~cc4bd5eabc.en.pdf"
+      },
+      {
+        "id": "19bd53c9901ed4e92a1d9120",
+        "title": "Meta misses on Q2 earnings, stock tumbles",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://finance.yahoo.com/news/meta-misses-on-q2-earnings-stock-tumbles-121325403.html"
       }
     ]
   },
   "2026-07-27": {
-    "articles_count": 7,
+    "articles_count": 9,
     "signal_count": 1,
     "tone_cb": -0.6667,
     "tone_global": -0.6667,
@@ -1956,7 +1964,7 @@
     ]
   },
   "2026-05-19": {
-    "articles_count": 1,
+    "articles_count": 2,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
@@ -1970,6 +1978,14 @@
         "score": 0.6,
         "tone": 0.0,
         "url": "https://www.amf-france.org/fr/actualites-publications/actualites/assemblees-generales-evolution-des-regles-concernant-la-communication-avec-les-actionnaires-et-la#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "bcd4b59d1fe14ac9d3d7fc81",
+        "title": "What soaring Treasury yields mean for your finances",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://finance.yahoo.com/personal-finance/investing/article/what-soaring-treasury-yields-mean-for-your-finances-141336109.html"
       }
     ]
   },

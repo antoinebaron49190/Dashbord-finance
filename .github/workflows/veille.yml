@@ -1,0 +1,98 @@
+name: Veille
+
+on:
+  schedule:
+    # Toutes les heures. GitHub evalue les crons en UTC et peut decaler le
+    # declenchement de quelques minutes en periode de charge : c'est normal.
+    - cron: "0 * * * *"
+  # Permet de lancer un tour a la main depuis l'app GitHub sur iPhone :
+  # onglet Actions, workflow "Veille", bouton "Run workflow".
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Deux tours ne doivent jamais ecrire en meme temps sur la branche. On ne
+# coupe pas le tour en cours : il finit et pousse, le suivant attend.
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Recuperer le depot
+        uses: actions/checkout@v4
+
+      - name: Installer Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: veille/requirements.txt
+
+      - name: Installer les dependances
+        run: pip install -r veille/requirements.txt
+
+      - name: Collecter les flux
+        working-directory: veille
+        # Un flux mort est un fait normal, pas une panne : collector.py
+        # journalise les sources muettes et sort toujours en code 0.
+        run: python collector.py
+
+      - name: Analyser et construire l'indice
+        working-directory: veille
+        env:
+          # Secrets absents => chaine vide => etape Claude ignoree en silence.
+          # Aucun `if` n'est necessaire : le code teste deja la presence.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python analyzer.py
+
+      - name: Generer la page
+        working-directory: veille
+        run: python build_site.py
+
+      - name: Publier si quelque chose a change
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # La page porte son heure de generation : elle change donc a chaque
+          # tour, meme sans actualite nouvelle. Sans ce garde-fou on
+          # accumulerait un commit vide par heure, soit ~8700 par an.
+          DATA_MODIFIEE="$(git status --porcelain veille/data)"
+          LIGNES_PAGE="$(git diff --unified=0 -- docs/index.html \
+                         | grep -c '^[+-][^+-]' || true)"
+
+          if [ -z "$DATA_MODIFIEE" ] && [ "$LIGNES_PAGE" -le 2 ]; then
+            echo "Aucune donnee nouvelle, seule l'heure a bouge : pas de commit."
+            exit 0
+          fi
+
+          git add veille/data docs
+          if git diff --cached --quiet; then
+            echo "Rien a publier."
+            exit 0
+          fi
+
+          git commit -m "Veille : mise a jour automatique $(date -u '+%Y-%m-%d %H:%M UTC')"
+
+          # Une modification poussee a la main entre-temps ne doit pas faire
+          # echouer le tour : on rejoue par-dessus et on reessaie.
+          for tentative in 1 2 3; do
+            if git push; then
+              echo "Publie."
+              exit 0
+            fi
+            echo "Push refuse (tentative $tentative), rebase sur l'amont..."
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            sleep 5
+          done
+
+          echo "Push impossible apres 3 tentatives."
+          exit 1
