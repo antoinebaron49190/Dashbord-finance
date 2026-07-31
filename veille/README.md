@@ -286,48 +286,50 @@ quotidienne), ce qui rend une base de donnees inutile a ce stade.
 python build_site.py
 ```
 
-Genere `docs/` — le dossier servi par GitHub Pages :
+La page repond a deux questions, dans cet ordre, et rien d'autre :
 
-| fichier                | role                                              |
-|------------------------|---------------------------------------------------|
-| `index.html`           | la page entiere : HTML, CSS et JS dans un seul fichier |
-| `manifest.json`        | « Ajouter a l'ecran d'accueil », lancement plein ecran |
-| `apple-touch-icon.png` | icone iOS (180 px)                                |
-| `icon-192.png` / `icon-512.png` | icones du manifest                       |
+1. **Ou en est chaque actif ?** Quatre cartes — S&P 500, MSCI World, Bitcoin,
+   Ethereum — avec le cours, la tendance et sa justification chiffree, plus
+   le decompte de l'actualite des 7 derniers jours.
+2. **Que dit l'actualite ?** Quatre lignes en francais et le fait marquant
+   des dernieres 48 h.
 
-Les donnees sont **injectees dans le HTML a la generation**. La page ouverte
-ne fait aucune requete reseau : elle fonctionne hors ligne, et rien ne fuite
-vers un tiers. Aucun framework, aucune etape de compilation.
+Les quatre cartes tiennent **sur le premier ecran d'un iPhone 14**, sans
+defilement. La page pese 5 Ko contre 32 Ko auparavant.
 
-Les trois icones PNG sont produites par le script lui-meme (`zlib` + `struct`,
-sans Pillow) : le depot n'embarque aucun binaire d'origine inconnue.
+### La tendance n'est pas une prevision
 
-### Contenu
+Chaque carte affiche « Tendance haussiere / baissiere / Sans direction
+nette », derive d'une regle mecanique : la position du cours face a ses
+moyennes 50 et 200 jours, plus la decote sur un an pour les cryptos.
 
-1. **Quatre cartes** — banques centrales, tonalite globale, reglementaire
-   crypto, part de stress. Valeur du jour, variation sur 7 jours, code
-   couleur vert / gris / rouge. La couleur ne porte jamais seule
-   l'information : chaque valeur est doublee d'un mot (`favorable`,
-   `neutre`, `defavorable`, `elevee`...) et chaque variation d'une fleche et
-   d'un nombre signe.
-2. **Un graphique SVG** des quatre series sur 90 jours, genere cote Python,
-   sans bibliotheque. Les series se distinguent par la couleur **et** par le
-   style de trait. Les jours sans donnee sont des trous : jamais d'
-   interpolation, un jour isole est dessine en point.
-3. **Quatre onglets d'actifs** — les 10 elements les plus importants de
-   chacun, avec titre, source, date, score et lien vers l'article.
-4. **Le bandeau permanent**, fixe en bas de l'ecran.
+C'est un **etat present, verifiable**, pas une prediction. La page n'ecrit
+jamais « acheter », « vendre », ni « va monter » : le calcul ne le supporte
+pas, et le bandeau permanent dit exactement cela.
+
+### On compte, on ne moyenne pas
+
+L'actualite par actif est un **decompte** d'articles favorables et
+defavorables, pas une moyenne. La raison est concrete : une semaine a 14
+articles favorables et 9 defavorables donne une moyenne de 0,00. Afficher
+« neutre » laisserait croire qu'il ne se passe rien, alors que l'actualite
+est nourrie mais partagee. Le decompte dit la verite la ou la moyenne
+l'efface — et la meme methode sert pour le resume general, pour que la page
+ne se contredise pas d'une section a l'autre.
+
+### Ce qui a ete retire
+
+Le graphique 90 jours, la liste des 11 criteres et les 40 titres d'articles
+ont ete supprimes de la page : un tableau de bord qu'on ne lit pas en dix
+secondes sur un telephone ne sert a rien. Le code reste dans l'historique
+git (commit `da89e9f`) si le besoin revient. Les donnees, elles, continuent
+d'etre collectees et conservees dans `data/`.
 
 ### Mobile
 
-Pensee pour un iPhone 14 (390 pt) : une seule colonne, aucun defilement
-horizontal, zones tactiles de 44 pt au minimum, theme sombre, contenu et
-titres a 16 px. Le texte secondaire (metadonnees, legendes) est a 14 px et
-les graduations du graphique a 12 px — a 16 px elles couvriraient la courbe.
-
-Verifie au rendu dans un navigateur en 390x844 : pas de debordement
-horizontal, aucune zone tactile sous 44 pt, aucune requete reseau, et le
-dernier element de chaque onglet reste lisible au-dessus du bandeau.
+Une seule colonne, aucun defilement horizontal, zones tactiles de 44 pt
+minimum, theme sombre, aucun texte sous 14 px. Verifie au rendu dans un
+navigateur en 390x844.
 
 ## Execution continue (GitHub Actions)
 

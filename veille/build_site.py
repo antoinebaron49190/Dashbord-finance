@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
 """Genere docs/index.html : une page statique unique, servie par GitHub Pages.
 
-Contraintes tenues par ce script :
+La page repond a deux questions, dans cet ordre :
+  1. Ou en est chaque actif ? (S&P 500, MSCI World, Bitcoin, Ethereum)
+  2. Que raconte l'actualite economique ?
+
+Tout le reste a ete retire : un tableau de bord qu'on ne lit pas en dix
+secondes sur un telephone ne sert a rien. Le graphique 90 jours, la liste
+des 11 criteres et les 40 titres d'articles restent dans l'historique git
+(commit da89e9f) si le besoin revient.
+
+Contraintes tenues ici :
   - un seul fichier HTML, CSS et JS inclus dedans ;
-  - aucun framework, aucune etape de compilation, aucune dependance externe ;
-  - les donnees sont injectees au moment de la generation, la page ne fait
-    aucune requete reseau ;
-  - pensee pour un iPhone 14 (390pt), une seule colonne, thème sombre.
+  - aucun framework, aucune compilation, aucune dependance externe ;
+  - donnees injectees a la generation : la page ne fait aucune requete ;
+  - pensee pour un iPhone 14 (390 pt), une seule colonne, theme sombre.
 
 Usage:
     python build_site.py
@@ -20,21 +28,17 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from sources import SOURCES
-
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
 DOCS_DIR = ROOT.parent / "docs"
 
 PARIS = ZoneInfo("Europe/Paris")
-CHART_DAYS = 90
-TOP_PER_ASSET = 10
-
-SOURCE_NAMES = {s["id"]: s["name"] for s in SOURCES}
+NEWS_WINDOW_DAYS = 7
+HEADLINE_WINDOW_HOURS = 48
 
 # --- Palette ---------------------------------------------------------------
-# Sobre, sans degrade. Les couleurs ne portent jamais seules l'information :
-# chaque valeur coloree est doublee d'un mot et chaque variation d'un signe.
+# Sobre, sans degrade. La couleur ne porte jamais seule l'information :
+# chaque etat est double d'un mot.
 
 BG = "#0e1116"
 BG_CARD = "#161b22"
@@ -45,18 +49,12 @@ GREEN = "#5fa97c"
 RED = "#cf6b62"
 GRAY = "#8b94a1"
 
-METRICS = [
-    ("tone_cb", "Banques centrales", "tone", "#7fb2f0", "none"),
-    ("tone_global", "Tonalité globale", "tone", "#e0e4ea", "7 4"),
-    ("regul_crypto", "Réglementaire crypto", "tone", "#b98ee0", "2 4"),
-    ("stress", "Part de stress", "stress", "#d97a6c", "9 3 2 3"),
-]
-
-ASSET_TABS = [
-    ("sp500", "S&P 500"),
-    ("msci_world", "MSCI World"),
-    ("btc", "Bitcoin"),
-    ("eth", "Ethereum"),
+# Actif -> (libelle, bloc dans macro.json, unite)
+ASSETS = [
+    ("sp500", "S&P 500", "equities", ""),
+    ("msci_world", "MSCI World", "equities", ""),
+    ("btc", "Bitcoin", "crypto", " $"),
+    ("eth", "Ethereum", "crypto", " $"),
 ]
 
 # Ce texte est une exigence permanente du projet. Il ne doit jamais etre
@@ -91,10 +89,7 @@ def hex_rgb(value):
 
 
 def build_icon(size):
-    """Quatre barres sur fond sombre : un rappel des quatre indicateurs.
-
-    Volontairement minimal, pour rester lisible a 40px sur l'ecran d'accueil.
-    """
+    """Quatre barres sur fond sombre : un rappel des quatre actifs suivis."""
     bg = hex_rgb(BG)
     bar = hex_rgb("#d5dae1")
     accent = hex_rgb("#7fb2f0")
@@ -105,18 +100,16 @@ def build_icon(size):
     bar_w = int(24 * unit)
     gap = int(12 * unit)
     left = int(28 * unit)
-    heights = [58, 96, 44, 118]
 
-    for i, h in enumerate(heights):
+    for i, height in enumerate([58, 96, 44, 118]):
         x0 = left + i * (bar_w + gap)
         x1 = min(size, x0 + bar_w)
-        y0 = max(0, baseline - int(h * unit))
+        y0 = max(0, baseline - int(height * unit))
         colour = accent if i == 3 else bar
         for y in range(y0, min(size, baseline)):
             for x in range(x0, x1):
                 rows[y][x] = colour
 
-    # Ligne de base
     for y in range(baseline, min(size, baseline + max(1, int(4 * unit)))):
         for x in range(left, min(size, int(160 * unit))):
             rows[y][x] = bar
@@ -124,7 +117,7 @@ def build_icon(size):
     return png_bytes(size, size, rows)
 
 
-# --- Chargement et mesures --------------------------------------------------
+# --- Outils -----------------------------------------------------------------
 
 def load_json(path, default):
     if not path.exists():
@@ -133,311 +126,257 @@ def load_json(path, default):
         return json.load(fh)
 
 
-def parse_day(value):
-    return datetime.strptime(value, "%Y-%m-%d").date()
-
-
-def day_span(index, count):
-    """Les `count` derniers jours calendaires, jusqu'au dernier jour indexe."""
-    if not index:
-        return []
-    last = max(parse_day(d) for d in index)
-    return [last - timedelta(days=offset) for offset in range(count - 1, -1, -1)]
-
-
-def series_values(index, key, days):
-    """Valeurs alignees sur `days`. None = pas de donnee, jamais interpole."""
-    return [index.get(d.isoformat(), {}).get(key) for d in days]
-
-
-def latest_value(index, key):
-    """Derniere valeur non nulle, avec le jour dont elle provient.
-
-    Un jour calme peut n'avoir aucun signal. Plutot que d'afficher un tiret
-    sur les quatre cartes un dimanche, on remonte a la derniere valeur
-    disponible — mais en affichant explicitement sa date, pour ne pas la
-    faire passer pour celle du jour.
-    """
-    for day in sorted(index, reverse=True):
-        value = index[day].get(key)
-        if value is not None:
-            return value, parse_day(day)
-    return None, None
-
-
-def value_at_or_before(index, key, target):
-    for day in sorted(index, reverse=True):
-        if parse_day(day) <= target:
-            value = index[day].get(key)
-            if value is not None:
-                return value
-    return None
-
-
-def level_of(key, kind, value):
-    """Renvoie (couleur, mot). Le mot double la couleur, toujours."""
-    if value is None:
-        return GRAY, "sans signal"
-    if kind == "stress":
-        # Une part de stress elevee est defavorable : l'echelle est inversee.
-        if value >= 0.20:
-            return RED, "élevée"
-        if value >= 0.08:
-            return GRAY, "modérée"
-        return GREEN, "faible"
-    if value >= 0.15:
-        return GREEN, "favorable"
-    if value <= -0.15:
-        return RED, "défavorable"
-    return GRAY, "neutre"
-
-
-def format_value(kind, value):
+def number(value, decimals=2):
+    """Format francais : espace pour les milliers, virgule pour les decimales."""
     if value is None:
         return "--"
-    if kind == "stress":
-        return f"{value * 100:.0f} %"
-    return f"{value:+.2f}"
+    formatted = f"{value:,.{decimals}f}"
+    return formatted.replace(",", " ").replace(".", ",")
 
 
-def build_cards(index):
-    cards = []
-    for key, label, kind, _colour, _dash in METRICS:
-        value, day = latest_value(index, key)
-        colour, word = level_of(key, kind, value)
+def price_text(value, unit):
+    if value is None:
+        return "--"
+    return number(value, 0 if value >= 1000 else 2) + unit
 
-        delta_text = "pas de comparaison sur 7 jours"
-        arrow = "—"  # tiret cadratin : ni hausse ni baisse
-        if value is not None and day is not None:
-            previous = value_at_or_before(index, key, day - timedelta(days=7))
-            if previous is not None:
-                delta = value - previous
-                if kind == "stress":
-                    shown = f"{delta * 100:+.0f} pts"
-                else:
-                    shown = f"{delta:+.2f}"
-                if abs(delta) < 0.005:
-                    arrow, trend = "—", "stable"
-                elif delta > 0:
-                    arrow, trend = "▲", "en hausse"
-                else:
-                    arrow, trend = "▼", "en baisse"
-                delta_text = f"{shown} sur 7 jours, {trend}"
-
-        cards.append({
-            "label": label,
-            "value": format_value(kind, value),
-            "colour": colour,
-            "word": word,
-            "arrow": arrow,
-            "delta": delta_text,
-            "day": day,
-        })
-    return cards
-
-
-# --- Graphique SVG ----------------------------------------------------------
-
-def build_chart(index, days):
-    """SVG pur, genere ici. Aucune bibliotheque, cote page comme cote script.
-
-    Les quatre series se distinguent par la couleur ET par le style de trait :
-    un lecteur qui ne percoit pas les couleurs garde l'information.
-    """
-    width, height = 360, 214
-    pad_l, pad_r, pad_t, pad_b = 34, 8, 12, 30
-    plot_w = width - pad_l - pad_r
-    plot_h = height - pad_t - pad_b
-
-    def x_of(i):
-        if len(days) <= 1:
-            return pad_l
-        return pad_l + i * plot_w / (len(days) - 1)
-
-    def y_of(v):
-        # Les tonalites vivent dans [-1, 1], la part de stress dans [0, 1] :
-        # les deux tiennent dans le meme repere.
-        return pad_t + (1 - v) / 2 * plot_h
-
-    parts = [
-        f'<svg viewBox="0 0 {width} {height}" role="img" '
-        f'aria-label="Évolution des quatre indicateurs sur {len(days)} jours" '
-        f'xmlns="http://www.w3.org/2000/svg">'
-    ]
-
-    for level in (1.0, 0.5, 0.0, -0.5, -1.0):
-        y = y_of(level)
-        strong = level == 0.0
-        parts.append(
-            f'<line x1="{pad_l}" y1="{y:.1f}" x2="{width - pad_r}" y2="{y:.1f}" '
-            f'stroke="{"#39414d" if strong else "#1e242d"}" stroke-width="1"/>'
-        )
-        if level in (1.0, 0.0, -1.0):
-            parts.append(
-                f'<text x="{pad_l - 6}" y="{y + 4.2:.1f}" text-anchor="end" '
-                f'font-size="12" fill="{TEXT_DIM}">{level:+.0f}</text>'
-            )
-
-    for key, label, _kind, colour, dash in METRICS:
-        values = series_values(index, key, days)
-        dash_attr = "" if dash == "none" else f' stroke-dasharray="{dash}"'
-
-        # Un jour isole entre deux trous se dessine en point : sans cela il
-        # serait invisible. Il est volontairement plus gros que les tirets du
-        # pointille, pour ne pas se confondre avec eux.
-        run = []
-        for i, value in enumerate(values):
-            if value is None:
-                if len(run) > 1:
-                    points = " ".join(f"{x:.1f},{y:.1f}" for x, y in run)
-                    parts.append(
-                        f'<polyline points="{points}" fill="none" stroke="{colour}" '
-                        f'stroke-width="1.6" stroke-linejoin="round"{dash_attr}/>'
-                    )
-                elif len(run) == 1:
-                    parts.append(f'<circle cx="{run[0][0]:.1f}" cy="{run[0][1]:.1f}" '
-                                 f'r="2.4" fill="{colour}"/>')
-                run = []
-            else:
-                run.append((x_of(i), y_of(value)))
-        if len(run) > 1:
-            points = " ".join(f"{x:.1f},{y:.1f}" for x, y in run)
-            parts.append(
-                f'<polyline points="{points}" fill="none" stroke="{colour}" '
-                f'stroke-width="1.6" stroke-linejoin="round"{dash_attr}/>'
-            )
-        elif len(run) == 1:
-            parts.append(f'<circle cx="{run[0][0]:.1f}" cy="{run[0][1]:.1f}" '
-                         f'r="2.4" fill="{colour}"/>')
-
-    if days:
-        for i, anchor in ((0, "start"), (len(days) // 2, "middle"), (len(days) - 1, "end")):
-            parts.append(
-                f'<text x="{x_of(i):.1f}" y="{height - 9}" text-anchor="{anchor}" '
-                f'font-size="12" fill="{TEXT_DIM}">{days[i].strftime("%d/%m")}</text>'
-            )
-
-    parts.append("</svg>")
-    return "".join(parts)
-
-
-# --- Onglets d'actifs -------------------------------------------------------
 
 def safe_url(url):
     """N'accepte que http(s) : le contenu des flux n'est pas de confiance."""
     return url if url.startswith(("http://", "https://")) else "#"
 
 
-def top_by_asset(articles, asset):
-    selected = [a for a in articles if asset in a.get("assets_effective", [])]
-    selected.sort(
-        key=lambda a: (a.get("importance", 0), a.get("published_at", "")),
-        reverse=True,
-    )
-    return selected[:TOP_PER_ASSET]
+def parse_date(value):
+    try:
+        return datetime.fromisoformat(value)
+    except (TypeError, ValueError):
+        return None
 
 
-def render_items(articles, asset):
-    items = top_by_asset(articles, asset)
-    if not items:
-        return '<p class="empty">Aucun élément pour cet actif.</p>'
+# --- Tendance par actif -----------------------------------------------------
 
-    rows = []
-    for article in items:
-        try:
-            day = datetime.fromisoformat(article["published_at"]).strftime("%d/%m")
-        except (KeyError, ValueError):
-            day = ""
-        source = SOURCE_NAMES.get(article.get("source"), article.get("source", ""))
-        rows.append(
-            '<li><a href="{url}" rel="noopener noreferrer" target="_blank">'
-            '<span class="item-title">{title}</span>'
-            '<span class="item-meta">{source} &middot; {day} &middot; '
-            'score {score:.2f}</span></a></li>'.format(
-                url=html.escape(safe_url(article.get("url", "")), quote=True),
-                title=html.escape(article.get("title", "")),
-                source=html.escape(source),
-                day=html.escape(day),
-                score=article.get("importance", 0),
-            )
-        )
-    return f'<ul class="items">{"".join(rows)}</ul>'
+def trend_of(block, is_crypto):
+    """Position du cours face a ses moyennes 50 et 200 jours.
 
-
-# --- Section marche (donnees chiffrees) -------------------------------------
-
-REGIME_COLOURS = {
-    "favorable au risque": GREEN,
-    "neutre": GRAY,
-    "défavorable au risque": RED,
-    "indisponible": GRAY,
-}
-
-
-def render_macro(macro):
-    """Section chiffree, tenue a l'ecart de la section actualite.
-
-    Les deux ne doivent jamais se lire comme un seul bloc : l'une mesure ce
-    que raconte la presse, l'autre ce que font les prix. Elles sont donc
-    separees par un titre, un liseré et un fond distinct.
+    Regle mecanique et verifiable, pas une prevision : elle decrit ou se
+    situe le cours aujourd'hui, elle ne dit rien de demain. C'est aussi
+    pour cela que le libelle parle de « tendance » et jamais d'« acheter ».
     """
-    if not macro or not macro.get("criteria"):
-        return ""
+    price = block.get("price")
+    ma50 = block.get("ma50")
+    ma200 = block.get("ma200")
+    if price is None or ma50 is None or ma200 is None:
+        return None, "Données indisponibles pour le moment.", GRAY
 
-    regime = macro.get("regime", {})
-    state = regime.get("state", "indisponible")
-    colour = REGIME_COLOURS.get(state, GRAY)
+    above50 = price > ma50
+    above200 = price > ma200
 
-    if regime.get("available"):
-        compte = (f"{regime['favorable']} critères favorables "
-                  f"sur {regime['available']} disponibles")
+    if above50 and above200:
+        state, colour = "Tendance haussière", GREEN
+        reason = "Au-dessus de ses moyennes 50 et 200 jours"
+    elif not above50 and not above200:
+        state, colour = "Tendance baissière", RED
+        reason = "Sous ses moyennes 50 et 200 jours"
     else:
-        compte = "aucun critère calculable"
+        state, colour = "Sans direction nette", GRAY
+        reason = ("Au-dessus de sa moyenne 200 jours, sous celle à 50 jours"
+                  if above200 else
+                  "Sous sa moyenne 200 jours, au-dessus de celle à 50 jours")
 
-    manquants = regime.get("total", 0) - regime.get("available", 0)
-    note = ""
-    if manquants:
-        pluriel = "s" if manquants > 1 else ""
-        note = (f'<div class="macro-note">{manquants} critère{pluriel} non '
-                f'calculable{pluriel} : source indisponible. '
-                f'{"Ils sont exclus" if manquants > 1 else "Il est exclu"} du '
-                f'décompte, pas {"comptés" if manquants > 1 else "compté"} comme '
-                f'défavorable{pluriel}.</div>')
+    if is_crypto:
+        drawdown = block.get("drawdown_1y")
+        if drawdown is not None and drawdown >= 0.05:
+            reason += f", à −{drawdown * 100:.0f} % du plus haut sur un an"
 
-    lignes = []
-    groupe_courant = None
-    for item in macro["criteria"]:
-        if item["group"] != groupe_courant:
-            groupe_courant = item["group"]
-            lignes.append(f'<li class="crit-group">{html.escape(groupe_courant)}</li>')
-        if item["ok"] is None:
-            marque, mot, teinte = "?", "indisponible", GRAY
-        elif item["ok"]:
-            marque, mot, teinte = "oui", "favorable", GREEN
+    return state, reason + ".", colour
+
+
+# --- Tonalite de l'actualite ------------------------------------------------
+
+def news_for_asset(articles, asset, days=NEWS_WINDOW_DAYS):
+    """Compte les articles favorables et defavorables pour cet actif.
+
+    On compte au lieu de moyenner, volontairement. Sur ces donnees, une
+    semaine a 14 articles favorables et 9 defavorables donne une moyenne de
+    0,00 : afficher « neutre » laisserait croire qu'il ne se passe rien,
+    alors que l'actualite est nourrie mais partagee. Le decompte dit la
+    verite la ou la moyenne l'efface.
+
+    Seuls les articles portant reellement un terme du lexique votent : les
+    depeches sans contenu macro ne doivent pas diluer la mesure.
+    """
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+    favorable = defavorable = total = 0
+    for article in articles:
+        if asset not in article.get("assets_effective", []):
+            continue
+        if not article.get("categories") and article.get("scored_by") != "claude":
+            continue
+        published = parse_date(article.get("published_at"))
+        if not published or published < cutoff:
+            continue
+        total += 1
+        tone = article.get("tone", 0)
+        if tone >= 0.15:
+            favorable += 1
+        elif tone <= -0.15:
+            defavorable += 1
+    return favorable, defavorable, total
+
+
+def news_overall(articles, days=NEWS_WINDOW_DAYS):
+    """Meme decompte que news_for_asset, mais tous actifs confondus."""
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+    favorable = defavorable = total = 0
+    for article in articles:
+        if not article.get("categories") and article.get("scored_by") != "claude":
+            continue
+        published = parse_date(article.get("published_at"))
+        if not published or published < cutoff:
+            continue
+        total += 1
+        tone = article.get("tone", 0)
+        if tone >= 0.15:
+            favorable += 1
+        elif tone <= -0.15:
+            defavorable += 1
+    return favorable, defavorable, total
+
+
+def balance_word(favorable, defavorable):
+    """Qualifie le rapport de force entre articles, sans l'aplatir."""
+    if favorable == 0 and defavorable == 0:
+        return "rien de marquant", GRAY
+    if favorable >= defavorable * 2:
+        return "plutôt favorable", GREEN
+    if defavorable >= favorable * 2:
+        return "plutôt défavorable", RED
+    return "partagée", GRAY
+
+
+def tone_word(tone):
+    if tone is None:
+        return "pas de signal", GRAY
+    if tone >= 0.15:
+        return "favorable", GREEN
+    if tone <= -0.15:
+        return "défavorable", RED
+    return "neutre", GRAY
+
+
+# --- Cartes d'actifs --------------------------------------------------------
+
+def render_assets(macro, articles):
+    cards = []
+    for key, label, section, unit in ASSETS:
+        block = (macro.get(section) or {}).get(key) or {}
+        is_crypto = section == "crypto"
+        state, reason, colour = trend_of(block, is_crypto)
+        favorable, defavorable, total = news_for_asset(articles, key)
+        word, tone_colour = balance_word(favorable, defavorable)
+
+        if favorable or defavorable:
+            detail = (f"{favorable} pour, {defavorable} contre"
+                      if favorable and defavorable else
+                      (f"{favorable} article{'s' if favorable > 1 else ''}"
+                       if favorable else
+                       f"{defavorable} article{'s' if defavorable > 1 else ''}"))
+            news_line = (f'Actualité 7 jours : <span style="color:{tone_colour}">'
+                         f'{word}</span> — {detail}')
+        elif total:
+            news_line = f"Actualité 7 jours : {total} articles, aucun marquant"
         else:
-            marque, mot, teinte = "non", "défavorable", RED
-        lignes.append(
-            '<li class="crit">'
-            f'<span class="crit-mark" style="color:{teinte}" '
-            f'aria-label="{mot}">{marque}</span>'
-            f'<span class="crit-body"><span class="crit-label">'
-            f'{html.escape(item["label"])}</span>'
-            f'<span class="crit-meta">{html.escape(item["value"])} '
-            f'&middot; seuil : {html.escape(item["reference"])}</span></span></li>'
-        )
+            news_line = "Actualité 7 jours : rien de significatif"
 
-    return (
-        '<h2>Marché</h2>'
-        '<div class="macro">'
-        f'<div class="regime" style="border-color:{colour}">'
-        f'<div class="regime-label">Régime</div>'
-        f'<div class="regime-state" style="color:{colour}">{html.escape(state)}</div>'
-        f'<div class="regime-count">{html.escape(compte)}</div>'
-        f'</div>'
-        f'{note}'
-        f'<ul class="crits">{"".join(lignes)}</ul>'
-        '</div>'
-    )
+        cards.append(
+            '<article class="asset">'
+            f'<div class="asset-head"><span class="asset-name">{html.escape(label)}</span>'
+            f'<span class="asset-price">{price_text(block.get("price"), unit)}</span></div>'
+            f'<div class="asset-state" style="color:{colour}">'
+            f'{html.escape(state or "Indisponible")}</div>'
+            f'<div class="asset-reason">{html.escape(reason)}</div>'
+            f'<div class="asset-news">{news_line}</div>'
+            '</article>'
+        )
+    return "".join(cards)
+
+
+# --- Resume de l'actualite --------------------------------------------------
+
+def average_over(index, key, days=NEWS_WINDOW_DAYS):
+    """Moyenne d'une serie de l'indice sur les `days` derniers jours indexes."""
+    values = []
+    for day in sorted(index, reverse=True)[:days]:
+        value = index[day].get(key)
+        if value is not None:
+            values.append(value)
+    if not values:
+        return None
+    return sum(values) / len(values)
+
+
+def top_headline(articles, hours=HEADLINE_WINDOW_HOURS):
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
+    recent = []
+    for article in articles:
+        published = parse_date(article.get("published_at"))
+        if published and published >= cutoff:
+            recent.append(article)
+    if not recent:
+        return None
+    return max(recent, key=lambda a: (a.get("importance", 0),
+                                      a.get("published_at", "")))
+
+
+def render_news(index, articles, macro):
+    lines = []
+
+    tone_cb = average_over(index, "tone_cb")
+    word, colour = tone_word(tone_cb)
+    lines.append('Banques centrales : ton '
+                 f'<span style="color:{colour}">{word}</span> sur 7 jours.')
+
+    # Meme methode que les cartes d'actifs : on compte, on ne moyenne pas.
+    # Melanger les deux sur une meme page produisait une contradiction
+    # visible — « defavorable » ici, « partagee » partout au-dessus.
+    favorable, defavorable, _ = news_overall(articles)
+    word, colour = balance_word(favorable, defavorable)
+    lines.append("Actualité générale : "
+                 f'<span style="color:{colour}">{word}</span> — '
+                 f'{favorable} favorables, {defavorable} défavorables sur 7 jours.')
+
+    stress = average_over(index, "stress")
+    if stress is None:
+        lines.append("Part des sujets de crise : pas de mesure disponible.")
+    else:
+        if stress >= 0.20:
+            mot, colour = "élevée", RED
+        elif stress >= 0.08:
+            mot, colour = "modérée", GRAY
+        else:
+            mot, colour = "faible", GREEN
+        lines.append('Part des sujets de crise : '
+                     f'<span style="color:{colour}">{mot}</span> '
+                     f'({stress * 100:.0f} % du flux).')
+
+    regime = macro.get("regime") or {}
+    if regime.get("available"):
+        lines.append(f'Régime de marché : {html.escape(regime["state"])} '
+                     f'({regime["favorable"]} critères favorables sur '
+                     f'{regime["available"]}).')
+
+    body = "".join(f"<li>{line}</li>" for line in lines)
+
+    headline = top_headline(articles)
+    marquant = ""
+    if headline:
+        url = html.escape(safe_url(headline.get("url", "")), quote=True)
+        marquant = (
+            f'<a class="headline" target="_blank" rel="noopener noreferrer" href="{url}">'
+            '<span class="headline-label">Le fait marquant</span>'
+            f'<span class="headline-title">{html.escape(headline.get("title", ""))}</span>'
+            '</a>')
+
+    return f'<ul class="news">{body}</ul>{marquant}'
 
 
 # --- Page -------------------------------------------------------------------
@@ -445,58 +384,35 @@ def render_macro(macro):
 CSS = """
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0;background:__BG__;color:__TEXT__;font-size:16px;line-height:1.45;
+body{margin:0 auto;background:__BG__;color:__TEXT__;font-size:16px;line-height:1.45;
  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
- padding:0 16px calc(96px + env(safe-area-inset-bottom)) 16px;
- max-width:430px;margin:0 auto;overflow-x:hidden}
-h1{font-size:19px;margin:20px 0 2px;font-weight:600;letter-spacing:-.01em}
+ padding:0 16px calc(90px + env(safe-area-inset-bottom)) 16px;
+ max-width:430px;overflow-x:hidden}
+h1{font-size:20px;margin:22px 0 2px;font-weight:600;letter-spacing:-.01em}
 h2{font-size:15px;margin:26px 0 10px;font-weight:600;color:__DIM__;
- text-transform:uppercase;letter-spacing:.06em}
-.updated{color:__DIM__;font-size:15px;margin:0 0 4px}
-.cards{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
-.card{background:__CARD__;border:1px solid __BORDER__;border-radius:10px;padding:12px}
-.card-label{font-size:14px;color:__DIM__;line-height:1.3;min-height:38px}
-.card-value{font-size:26px;font-weight:600;letter-spacing:-.02em;margin:2px 0}
-.card-word{font-size:14px;font-weight:600}
-.card-delta{font-size:14px;color:__DIM__;margin-top:4px}
-.card-day{font-size:14px;color:__DIM__;margin-top:2px}
-.chart{background:__CARD__;border:1px solid __BORDER__;border-radius:10px;
- padding:10px 8px 4px}
-.chart svg{display:block;width:100%;height:auto}
-.legend{display:grid;grid-template-columns:1fr 1fr;gap:6px 10px;margin-top:8px;
- padding:0 4px 8px}
-.legend div{display:flex;align-items:center;gap:7px;font-size:14px;color:__DIM__}
-.legend svg{flex:0 0 22px}
-.tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
-.tabs button{min-height:44px;font-size:16px;font-family:inherit;font-weight:600;
- color:__DIM__;background:__CARD__;border:1px solid __BORDER__;border-radius:10px;
- padding:0 8px;cursor:pointer;-webkit-tap-highlight-color:transparent}
-.tabs button[aria-selected="true"]{color:__TEXT__;border-color:#4a5563;
- background:#1d232c}
-.items{list-style:none;margin:0;padding:0}
-.items li{border-bottom:1px solid __BORDER__}
-.items li:last-child{border-bottom:0}
-.items a{display:block;min-height:44px;padding:11px 2px;text-decoration:none;
- color:__TEXT__;-webkit-tap-highlight-color:transparent}
-.item-title{display:block;font-size:16px;line-height:1.35;overflow-wrap:anywhere}
-.item-meta{display:block;font-size:14px;color:__DIM__;margin-top:3px}
-.empty{color:__DIM__;font-size:16px}
-.section-sep{border:0;border-top:1px solid __BORDER__;margin:30px 0 0}
-.macro{background:#12171f;border:1px solid __BORDER__;border-radius:10px;padding:12px}
-.regime{border-left:4px solid __DIM__;padding:2px 0 2px 12px;margin-bottom:12px}
-.regime-label{font-size:14px;color:__DIM__;text-transform:uppercase;letter-spacing:.06em}
-.regime-state{font-size:22px;font-weight:600;letter-spacing:-.01em;margin:1px 0}
-.regime-count{font-size:14px;color:__DIM__}
-.macro-note{font-size:14px;color:__DIM__;margin-bottom:10px;line-height:1.35}
-.crits{list-style:none;margin:0;padding:0}
-.crit-group{font-size:14px;color:__DIM__;text-transform:uppercase;letter-spacing:.06em;
- margin:12px 0 4px;padding-top:8px;border-top:1px solid __BORDER__}
-.crit-group:first-child{margin-top:0;padding-top:0;border-top:0}
-.crit{display:flex;gap:10px;align-items:baseline;padding:7px 0}
-.crit-mark{flex:0 0 34px;font-size:14px;font-weight:600}
-.crit-body{flex:1;min-width:0}
-.crit-label{display:block;font-size:16px;line-height:1.3;overflow-wrap:anywhere}
-.crit-meta{display:block;font-size:14px;color:__DIM__;margin-top:2px;overflow-wrap:anywhere}
+ text-transform:uppercase;letter-spacing:.07em}
+.updated{color:__DIM__;font-size:15px;margin:0 0 16px}
+.asset{background:__CARD__;border:1px solid __BORDER__;border-radius:12px;
+ padding:14px 15px;margin-bottom:10px}
+.asset-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.asset-name{font-size:17px;font-weight:600;letter-spacing:-.01em}
+.asset-price{font-size:17px;color:__DIM__;font-variant-numeric:tabular-nums;
+ white-space:nowrap}
+.asset-state{font-size:21px;font-weight:600;letter-spacing:-.01em;margin:6px 0 3px}
+.asset-reason{font-size:15px;line-height:1.4}
+.asset-news{font-size:15px;color:__DIM__;margin-top:7px;padding-top:7px;
+ border-top:1px solid __BORDER__}
+.news{list-style:none;margin:0;padding:0;background:__CARD__;
+ border:1px solid __BORDER__;border-radius:12px}
+.news li{font-size:16px;line-height:1.4;padding:12px 15px;
+ border-bottom:1px solid __BORDER__}
+.news li:last-child{border-bottom:0}
+.headline{display:block;min-height:44px;margin-top:10px;padding:12px 15px;
+ background:__CARD__;border:1px solid __BORDER__;border-radius:12px;
+ text-decoration:none;color:__TEXT__;-webkit-tap-highlight-color:transparent}
+.headline-label{display:block;font-size:14px;color:__DIM__;
+ text-transform:uppercase;letter-spacing:.07em;margin-bottom:3px}
+.headline-title{display:block;font-size:16px;line-height:1.35;overflow-wrap:anywhere}
 .disclaimer{position:fixed;left:0;right:0;bottom:0;background:__CARD__;
  border-top:1px solid __BORDER__;color:__DIM__;font-size:14px;line-height:1.35;
  padding:10px 16px calc(10px + env(safe-area-inset-bottom));text-align:center;z-index:10}
@@ -504,57 +420,13 @@ h2{font-size:15px;margin:26px 0 10px;font-weight:600;color:__DIM__;
 
 
 def render_page(index, articles, macro, generated_at):
-    days = day_span(index, CHART_DAYS)
-    cards = build_cards(index)
-
-    card_html = []
-    for card in cards:
-        day_line = ""
-        if card["day"] and card["day"] != (days[-1] if days else None):
-            day_line = (f'<div class="card-day">valeur du '
-                        f'{card["day"].strftime("%d/%m")}</div>')
-        card_html.append(
-            f'<div class="card">'
-            f'<div class="card-label">{html.escape(card["label"])}</div>'
-            f'<div class="card-value" style="color:{card["colour"]}">'
-            f'{html.escape(card["value"])}</div>'
-            f'<div class="card-word" style="color:{card["colour"]}">'
-            f'{html.escape(card["word"])}</div>'
-            f'<div class="card-delta">{card["arrow"]} '
-            f'{html.escape(card["delta"])}</div>'
-            f'{day_line}</div>'
-        )
-
-    legend_html = []
-    for _key, label, _kind, colour, dash in METRICS:
-        dash_attr = "" if dash == "none" else f' stroke-dasharray="{dash}"'
-        legend_html.append(
-            f'<div><svg width="22" height="8" aria-hidden="true">'
-            f'<line x1="0" y1="4" x2="22" y2="4" stroke="{colour}" '
-            f'stroke-width="2"{dash_attr}/></svg>{html.escape(label)}</div>'
-        )
-
-    tab_buttons = []
-    panels = []
-    for position, (asset, label) in enumerate(ASSET_TABS):
-        selected = "true" if position == 0 else "false"
-        hidden = "" if position == 0 else " hidden"
-        tab_buttons.append(
-            f'<button role="tab" id="tab-{asset}" aria-controls="panel-{asset}" '
-            f'aria-selected="{selected}" data-asset="{asset}">{html.escape(label)}</button>'
-        )
-        panels.append(
-            f'<div role="tabpanel" id="panel-{asset}" aria-labelledby="tab-{asset}"'
-            f'{hidden}>{render_items(articles, asset)}</div>'
-        )
-
-    macro_html = render_macro(macro)
-    stamp = generated_at.strftime("%d/%m/%Y à %H:%M")
     css = CSS
     for token, colour in (("__BG__", BG), ("__CARD__", BG_CARD),
                           ("__BORDER__", BORDER), ("__TEXT__", TEXT),
                           ("__DIM__", TEXT_DIM)):
         css = css.replace(token, colour)
+
+    stamp = generated_at.strftime("%d/%m/%Y à %H:%M")
 
     return f"""<!doctype html>
 <html lang="fr">
@@ -577,39 +449,13 @@ def render_page(index, articles, macro, generated_at):
 <h1>Veille économique</h1>
 <p class="updated">Mise à jour le {stamp} (heure de Paris)</p>
 
-<h2>Actualité</h2>
-<div class="cards">{"".join(card_html)}</div>
+{render_assets(macro, articles)}
 
-<h2>90 derniers jours</h2>
-<div class="chart">{build_chart(index, days)}
-<div class="legend">{"".join(legend_html)}</div>
-</div>
-
-<h2>Par actif</h2>
-<div class="tabs" role="tablist">{"".join(tab_buttons)}</div>
-{"".join(panels)}
-
-<hr class="section-sep">
-{macro_html}
+<h2>Ce que dit l'actualité</h2>
+{render_news(index, articles, macro)}
 
 <!-- Bandeau permanent : ne jamais retirer. -->
 <div class="disclaimer" role="note">{html.escape(DISCLAIMER)}</div>
-
-<script>
-(function () {{
-  var tabs = document.querySelectorAll('.tabs button');
-  Array.prototype.forEach.call(tabs, function (tab) {{
-    tab.addEventListener('click', function () {{
-      Array.prototype.forEach.call(tabs, function (other) {{
-        var panel = document.getElementById('panel-' + other.dataset.asset);
-        var active = other === tab;
-        other.setAttribute('aria-selected', active ? 'true' : 'false');
-        if (panel) {{ panel.hidden = !active; }}
-      }});
-    }});
-  }});
-}})();
-</script>
 </body>
 </html>
 """
@@ -653,11 +499,14 @@ def main():
         (DOCS_DIR / name).write_bytes(build_icon(size))
 
     size_kb = (DOCS_DIR / "index.html").stat().st_size / 1024
-    regime = (macro.get("regime") or {}).get("state", "absent")
-    print(f"docs/index.html genere ({size_kb:.1f} Ko), "
-          f"{len(index)} jours, {len(articles)} articles, regime : {regime}.")
-    print(f"Derniere mise a jour affichee : "
-          f"{generated_at.strftime('%d/%m/%Y a %H:%M')} (heure de Paris)")
+    print(f"docs/index.html genere ({size_kb:.1f} Ko)")
+    for key, label, section, unit in ASSETS:
+        block = (macro.get(section) or {}).get(key) or {}
+        state, _, _ = trend_of(block, section == "crypto")
+        fav, unfav, total = news_for_asset(articles, key)
+        print(f"  {label:<12} {price_text(block.get('price'), unit):>12}  "
+              f"{state or 'indisponible':<22} actu: {balance_word(fav, unfav)[0]} "
+              f"({fav} pour / {unfav} contre sur {total})")
 
 
 if __name__ == "__main__":
