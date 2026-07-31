@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-07-31T19:15:08.760952+00:00",
+  "generated_at": "2026-07-31T19:21:56.673304+00:00",
   "regime": {
-    "state": "défavorable au risque",
-    "favorable": 2,
-    "available": 7,
+    "state": "neutre",
+    "favorable": 6,
+    "available": 11,
     "total": 11,
-    "ratio": 0.2857
+    "ratio": 0.5455
   },
   "criteria": [
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": false,
-      "value": "62 998 $",
-      "reference": "MM200 71 458 $"
+      "value": "62 991 $",
+      "reference": "MM200 71 457 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": false,
-      "value": "62 998 $",
+      "value": "62 991 $",
       "reference": "MM50 63 384 $"
     },
     {
       "group": "Crypto",
       "label": "ETH au-dessus de sa MM200",
       "ok": false,
-      "value": "1 868 $",
+      "value": "1 867 $",
       "reference": "MM200 2 110 $"
     },
     {
@@ -53,29 +53,29 @@
     {
       "group": "Actions et devises",
       "label": "S&P 500 au-dessus de sa MM200",
-      "ok": null,
-      "value": "--",
-      "reference": "MM200 --"
+      "ok": true,
+      "value": "7 499.90",
+      "reference": "MM200 7 024.16"
     },
     {
       "group": "Actions et devises",
       "label": "MSCI World au-dessus de sa MM200",
-      "ok": null,
-      "value": "--",
-      "reference": "MM200 --"
+      "ok": true,
+      "value": "203.71",
+      "reference": "MM200 191.37"
     },
     {
       "group": "Actions et devises",
       "label": "Dollar sous sa MM50",
-      "ok": null,
-      "value": "--",
-      "reference": "MM50 --"
+      "ok": true,
+      "value": "99.91",
+      "reference": "MM50 100.43"
     },
     {
       "group": "Actions et devises",
       "label": "VIX calme",
-      "ok": null,
-      "value": "--",
+      "ok": true,
+      "value": "16.5",
       "reference": "moins de 20"
     },
     {
@@ -88,72 +88,65 @@
   ],
   "crypto": {
     "btc": {
-      "price": 62998.4,
-      "ma50": 63384.058000000005,
-      "ma200": 71457.532,
-      "drawdown_1y": 0.495069589994109,
-      "volatility_30d": 0.3069559995956843
+      "price": 62991.2,
+      "ma50": 63383.91400000001,
+      "ma200": 71457.496,
+      "drawdown_1y": 0.495127297792276,
+      "volatility_30d": 0.3070905216716182
     },
     "eth": {
-      "price": 1868.24,
-      "ma50": 1773.2798000000005,
-      "ma200": 2110.168799999999,
-      "drawdown_1y": 0.6132008281573499,
-      "volatility_30d": 0.44746677519981987
+      "price": 1867.45,
+      "ma50": 1773.2640000000001,
+      "ma200": 2110.164849999999,
+      "drawdown_1y": 0.6133643892339545,
+      "volatility_30d": 0.4478329666830977
     },
     "spot_venue": "kraken",
-    "funding_btc": 7.63374194998e-05,
+    "funding_btc": 7.60908744364e-05,
     "funding_venue": "okx"
   },
-  "equities": {},
+  "equities": {
+    "equities_source": "yfinance",
+    "sp500": {
+      "label": "S&P 500",
+      "price": 7499.89990234375,
+      "ma50": 7471.71322265625,
+      "ma200": 7024.157651367187
+    },
+    "msci_world": {
+      "label": "MSCI World",
+      "price": 203.71240234375,
+      "ma50": 202.36824798583984,
+      "ma200": 191.37496215820312
+    },
+    "vix": {
+      "label": "VIX",
+      "price": 16.520000457763672,
+      "ma50": 17.38779996871948,
+      "ma200": 18.707150053977966
+    },
+    "dxy": {
+      "label": "Dollar (DXY)",
+      "price": 99.90699768066406,
+      "ma50": 100.42674026489257,
+      "ma200": 99.13768520355225
+    }
+  },
   "fear_greed": {
     "value": 25,
     "label": "Extreme Fear"
   },
   "fred": {},
-  "failures": [
-    {
-      "source": "yfinance/^GSPC",
-      "reason": "Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html "
-    },
-    {
-      "source": "yahoo-direct/^GSPC",
-      "reason": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "yfinance/URTH",
-      "reason": "Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html "
-    },
-    {
-      "source": "yahoo-direct/URTH",
-      "reason": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "yfinance/^VIX",
-      "reason": "historique vide"
-    },
-    {
-      "source": "yahoo-direct/^VIX",
-      "reason": "HTTP Error 429: Too Many Requests"
-    },
-    {
-      "source": "yfinance/DX-Y.NYB",
-      "reason": "historique vide"
-    },
-    {
-      "source": "yahoo-direct/DX-Y.NYB",
-      "reason": "HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "failures": [],
   "history": {
     "2026-07-31": {
-      "regime": "défavorable au risque",
-      "favorable": 2,
-      "available": 7,
-      "btc": 62998.4,
-      "eth": 1868.24,
-      "sp500": null,
-      "vix": null,
+      "regime": "neutre",
+      "favorable": 6,
+      "available": 11,
+      "btc": 62991.2,
+      "eth": 1867.45,
+      "sp500": 7499.89990234375,
+      "vix": 16.520000457763672,
       "fear_greed": 25
     }
   }
