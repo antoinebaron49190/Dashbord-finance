@@ -1,0 +1,160 @@
+{
+  "generated_at": "2026-07-31T19:15:08.760952+00:00",
+  "regime": {
+    "state": "défavorable au risque",
+    "favorable": 2,
+    "available": 7,
+    "total": 11,
+    "ratio": 0.2857
+  },
+  "criteria": [
+    {
+      "group": "Crypto",
+      "label": "BTC au-dessus de sa MM200",
+      "ok": false,
+      "value": "62 998 $",
+      "reference": "MM200 71 458 $"
+    },
+    {
+      "group": "Crypto",
+      "label": "BTC au-dessus de sa MM50",
+      "ok": false,
+      "value": "62 998 $",
+      "reference": "MM50 63 384 $"
+    },
+    {
+      "group": "Crypto",
+      "label": "ETH au-dessus de sa MM200",
+      "ok": false,
+      "value": "1 868 $",
+      "reference": "MM200 2 110 $"
+    },
+    {
+      "group": "Crypto",
+      "label": "Décote BTC sur le plus haut 1 an",
+      "ok": false,
+      "value": "-50 %",
+      "reference": "moins de 25 %"
+    },
+    {
+      "group": "Crypto",
+      "label": "Volatilité BTC 30 jours",
+      "ok": true,
+      "value": "31 %",
+      "reference": "moins de 60 %"
+    },
+    {
+      "group": "Crypto",
+      "label": "Financement des perpétuels BTC",
+      "ok": true,
+      "value": "+0.0076 %",
+      "reference": "positif"
+    },
+    {
+      "group": "Actions et devises",
+      "label": "S&P 500 au-dessus de sa MM200",
+      "ok": null,
+      "value": "--",
+      "reference": "MM200 --"
+    },
+    {
+      "group": "Actions et devises",
+      "label": "MSCI World au-dessus de sa MM200",
+      "ok": null,
+      "value": "--",
+      "reference": "MM200 --"
+    },
+    {
+      "group": "Actions et devises",
+      "label": "Dollar sous sa MM50",
+      "ok": null,
+      "value": "--",
+      "reference": "MM50 --"
+    },
+    {
+      "group": "Actions et devises",
+      "label": "VIX calme",
+      "ok": null,
+      "value": "--",
+      "reference": "moins de 20"
+    },
+    {
+      "group": "Sentiment",
+      "label": "Fear & Greed crypto",
+      "ok": false,
+      "value": "25/100",
+      "reference": "50 ou plus"
+    }
+  ],
+  "crypto": {
+    "btc": {
+      "price": 62998.4,
+      "ma50": 63384.058000000005,
+      "ma200": 71457.532,
+      "drawdown_1y": 0.495069589994109,
+      "volatility_30d": 0.3069559995956843
+    },
+    "eth": {
+      "price": 1868.24,
+      "ma50": 1773.2798000000005,
+      "ma200": 2110.168799999999,
+      "drawdown_1y": 0.6132008281573499,
+      "volatility_30d": 0.44746677519981987
+    },
+    "spot_venue": "kraken",
+    "funding_btc": 7.63374194998e-05,
+    "funding_venue": "okx"
+  },
+  "equities": {},
+  "fear_greed": {
+    "value": 25,
+    "label": "Extreme Fear"
+  },
+  "fred": {},
+  "failures": [
+    {
+      "source": "yfinance/^GSPC",
+      "reason": "Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html "
+    },
+    {
+      "source": "yahoo-direct/^GSPC",
+      "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "yfinance/URTH",
+      "reason": "Failed to perform, curl: (35) Recv failure: Connection reset by peer. See https://curl.se/libcurl/c/libcurl-errors.html "
+    },
+    {
+      "source": "yahoo-direct/URTH",
+      "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "yfinance/^VIX",
+      "reason": "historique vide"
+    },
+    {
+      "source": "yahoo-direct/^VIX",
+      "reason": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "yfinance/DX-Y.NYB",
+      "reason": "historique vide"
+    },
+    {
+      "source": "yahoo-direct/DX-Y.NYB",
+      "reason": "HTTP Error 429: Too Many Requests"
+    }
+  ],
+  "history": {
+    "2026-07-31": {
+      "regime": "défavorable au risque",
+      "favorable": 2,
+      "available": 7,
+      "btc": 62998.4,
+      "eth": 1868.24,
+      "sp500": null,
+      "vix": null,
+      "fear_greed": 25
+    }
+  }
+}

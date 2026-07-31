@@ -14,10 +14,12 @@ veille/
   collector.py       collecte, dedoublonnage, stockage
   lexique.py         mots-cles, directions, poids
   analyzer.py        scoring lexical et indice quotidien
+  macro.py           series numeriques et regime de marche
   build_site.py      generation de la page statique
   data/
     articles.json    articles des 90 derniers jours
     index.json       serie quotidienne (conservee indefiniment)
+    macro.json       dernier releve chiffre + historique quotidien
   requirements.txt
 
 docs/                 page publiee par GitHub Pages (generee)
@@ -186,6 +188,75 @@ portent sur une valeur isolee et les compter comme des zeros diluerait les
 series jusqu'a les rendre illisibles. `stress`, qui est une *part* du flux et
 non une tonalite, se calcule lui sur l'ensemble des articles.
 
+## Les series numeriques et le regime
+
+`macro.py` recupere des series chiffrees gratuites, calcule un **regime de
+marche en trois etats**, et ecrit `data/macro.json`.
+
+```bash
+python macro.py           # recupere et ecrit
+python macro.py --show    # affiche le detail sans rien ecrire
+```
+
+### Sources
+
+| source | ce qu'elle fournit | compte requis |
+|--------|--------------------|---------------|
+| `ccxt` | BTC et ETH : prix, MM50, MM200, decote sur le plus haut 1 an, volatilite 30 jours, taux de financement des perpetuels | non |
+| `yfinance` | `^GSPC`, `URTH`, `^VIX`, `DX-Y.NYB` | non |
+| `alternative.me` | indice Fear & Greed crypto | non |
+| FRED | `DGS10`, `DFF` | oui, `FRED_API_KEY` — sinon ignore |
+
+**ccxt utilise une chaine de repli** : Kraken, Coinbase, OKX, KuCoin,
+Bitstamp, la premiere qui repond gagne. Binance en est volontairement
+absente : elle renvoie `451 Unavailable For Legal Reasons` depuis une bonne
+partie des hebergeurs, dont les runners GitHub.
+
+**yfinance a un repli `urllib`** sur l'API publique de Yahoo. yfinance
+s'appuie sur `curl_cffi`, qui echoue derriere certains proxies ; le repli
+evite que la moitie de la section disparaisse pour cette seule raison.
+
+### Le regime
+
+Trois etats — **favorable au risque**, **neutre**, **defavorable au risque** —
+obtenus en comptant les criteres favorables :
+
+| part de criteres favorables | regime |
+|-----------------------------|--------|
+| 60 % ou plus                | favorable au risque |
+| entre 35 % et 60 %          | neutre |
+| 35 % ou moins               | defavorable au risque |
+
+**Le denominateur ne compte que les criteres reellement calcules.** Une
+source muette retire ses criteres du decompte au lieu de les compter comme
+defavorables — sans quoi une panne reseau se lirait comme un marche baissier.
+La page affiche toujours combien de criteres etaient disponibles, et signale
+ceux qui ne l'etaient pas.
+
+Les onze criteres (treize avec FRED) sont affiches un par un avec **leur
+valeur et leur seuil**, pour que le calcul se verifie d'un coup d'oeil sans
+relire le code :
+
+| groupe | criteres |
+|--------|----------|
+| Crypto | BTC > MM200, BTC > MM50, ETH > MM200, decote 1 an < 25 %, volatilite 30j < 60 %, financement positif |
+| Actions et devises | S&P 500 > MM200, MSCI World > MM200, dollar < MM50, VIX < 20 |
+| Sentiment | Fear & Greed >= 50 |
+| Taux (si FRED) | 10 ans en detente, taux directeur en detente |
+
+Les seuils sont des conventions de lecture, pas des verites : ils vivent en
+haut de `build_criteria()` dans `macro.py` et sont faits pour etre ajustes.
+
+### Deux sections, jamais melangees
+
+La page separe nettement **Actualite** (ce que raconte la presse, mesure par
+le lexique) et **Marche** (ce que font les prix). Les deux repondent a des
+questions differentes et ne doivent pas se lire comme un seul bloc : elles
+sont separees par un filet, un titre et un fond distinct.
+
+`macro.json` conserve aussi un `history` quotidien, jamais purge, sur le
+meme principe que `index.json`.
+
 ## L'etape Claude — optionnelle, desactivee par defaut
 
 Si la variable d'environnement `ANTHROPIC_API_KEY` existe, les 25 elements les
@@ -260,9 +331,13 @@ dernier element de chaque onglet reste lisible au-dessus du bandeau.
 
 ## Execution continue (GitHub Actions)
 
-`.github/workflows/veille.yml` enchaine les trois etapes toutes les heures :
-collecte, analyse, generation de la page, puis commit et push si quelque
-chose a change. Le telephone ne fait tourner aucun processus.
+`.github/workflows/veille.yml` enchaine les etapes toutes les heures :
+collecte, analyse, series numeriques, generation de la page, puis commit et
+push si quelque chose a change. Le telephone ne fait tourner aucun processus.
+
+> Depuis l'ajout de `macro.py`, les prix bougent a chaque tour : le depot
+> recoit donc environ un commit par heure, avec de vraies donnees dedans. Si
+> c'est trop, passe le cron a `0 */4 * * *`.
 
 | point | choix |
 |-------|-------|

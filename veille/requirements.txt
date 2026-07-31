@@ -1,5 +1,10 @@
 feedparser>=6.0
 
+# Series numeriques (macro.py). ccxt sert aux prix crypto et au taux de
+# financement, yfinance aux indices actions et au dollar.
+ccxt>=4.4
+yfinance>=0.2
+
 # Optionnel : uniquement utilise par l'etape Claude d'analyzer.py, elle-meme
 # active seulement si ANTHROPIC_API_KEY existe. Si le paquet est absent,
 # l'etape est ignoree et tout le reste continue de fonctionner.

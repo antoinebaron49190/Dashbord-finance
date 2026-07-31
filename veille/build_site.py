@@ -364,6 +364,82 @@ def render_items(articles, asset):
     return f'<ul class="items">{"".join(rows)}</ul>'
 
 
+# --- Section marche (donnees chiffrees) -------------------------------------
+
+REGIME_COLOURS = {
+    "favorable au risque": GREEN,
+    "neutre": GRAY,
+    "défavorable au risque": RED,
+    "indisponible": GRAY,
+}
+
+
+def render_macro(macro):
+    """Section chiffree, tenue a l'ecart de la section actualite.
+
+    Les deux ne doivent jamais se lire comme un seul bloc : l'une mesure ce
+    que raconte la presse, l'autre ce que font les prix. Elles sont donc
+    separees par un titre, un liseré et un fond distinct.
+    """
+    if not macro or not macro.get("criteria"):
+        return ""
+
+    regime = macro.get("regime", {})
+    state = regime.get("state", "indisponible")
+    colour = REGIME_COLOURS.get(state, GRAY)
+
+    if regime.get("available"):
+        compte = (f"{regime['favorable']} critères favorables "
+                  f"sur {regime['available']} disponibles")
+    else:
+        compte = "aucun critère calculable"
+
+    manquants = regime.get("total", 0) - regime.get("available", 0)
+    note = ""
+    if manquants:
+        pluriel = "s" if manquants > 1 else ""
+        note = (f'<div class="macro-note">{manquants} critère{pluriel} non '
+                f'calculable{pluriel} : source indisponible. '
+                f'{"Ils sont exclus" if manquants > 1 else "Il est exclu"} du '
+                f'décompte, pas {"comptés" if manquants > 1 else "compté"} comme '
+                f'défavorable{pluriel}.</div>')
+
+    lignes = []
+    groupe_courant = None
+    for item in macro["criteria"]:
+        if item["group"] != groupe_courant:
+            groupe_courant = item["group"]
+            lignes.append(f'<li class="crit-group">{html.escape(groupe_courant)}</li>')
+        if item["ok"] is None:
+            marque, mot, teinte = "?", "indisponible", GRAY
+        elif item["ok"]:
+            marque, mot, teinte = "oui", "favorable", GREEN
+        else:
+            marque, mot, teinte = "non", "défavorable", RED
+        lignes.append(
+            '<li class="crit">'
+            f'<span class="crit-mark" style="color:{teinte}" '
+            f'aria-label="{mot}">{marque}</span>'
+            f'<span class="crit-body"><span class="crit-label">'
+            f'{html.escape(item["label"])}</span>'
+            f'<span class="crit-meta">{html.escape(item["value"])} '
+            f'&middot; seuil : {html.escape(item["reference"])}</span></span></li>'
+        )
+
+    return (
+        '<h2>Marché</h2>'
+        '<div class="macro">'
+        f'<div class="regime" style="border-color:{colour}">'
+        f'<div class="regime-label">Régime</div>'
+        f'<div class="regime-state" style="color:{colour}">{html.escape(state)}</div>'
+        f'<div class="regime-count">{html.escape(compte)}</div>'
+        f'</div>'
+        f'{note}'
+        f'<ul class="crits">{"".join(lignes)}</ul>'
+        '</div>'
+    )
+
+
 # --- Page -------------------------------------------------------------------
 
 CSS = """
@@ -405,13 +481,29 @@ h2{font-size:15px;margin:26px 0 10px;font-weight:600;color:__DIM__;
 .item-title{display:block;font-size:16px;line-height:1.35;overflow-wrap:anywhere}
 .item-meta{display:block;font-size:14px;color:__DIM__;margin-top:3px}
 .empty{color:__DIM__;font-size:16px}
+.section-sep{border:0;border-top:1px solid __BORDER__;margin:30px 0 0}
+.macro{background:#12171f;border:1px solid __BORDER__;border-radius:10px;padding:12px}
+.regime{border-left:4px solid __DIM__;padding:2px 0 2px 12px;margin-bottom:12px}
+.regime-label{font-size:14px;color:__DIM__;text-transform:uppercase;letter-spacing:.06em}
+.regime-state{font-size:22px;font-weight:600;letter-spacing:-.01em;margin:1px 0}
+.regime-count{font-size:14px;color:__DIM__}
+.macro-note{font-size:14px;color:__DIM__;margin-bottom:10px;line-height:1.35}
+.crits{list-style:none;margin:0;padding:0}
+.crit-group{font-size:14px;color:__DIM__;text-transform:uppercase;letter-spacing:.06em;
+ margin:12px 0 4px;padding-top:8px;border-top:1px solid __BORDER__}
+.crit-group:first-child{margin-top:0;padding-top:0;border-top:0}
+.crit{display:flex;gap:10px;align-items:baseline;padding:7px 0}
+.crit-mark{flex:0 0 34px;font-size:14px;font-weight:600}
+.crit-body{flex:1;min-width:0}
+.crit-label{display:block;font-size:16px;line-height:1.3;overflow-wrap:anywhere}
+.crit-meta{display:block;font-size:14px;color:__DIM__;margin-top:2px;overflow-wrap:anywhere}
 .disclaimer{position:fixed;left:0;right:0;bottom:0;background:__CARD__;
  border-top:1px solid __BORDER__;color:__DIM__;font-size:14px;line-height:1.35;
  padding:10px 16px calc(10px + env(safe-area-inset-bottom));text-align:center;z-index:10}
 """
 
 
-def render_page(index, articles, generated_at):
+def render_page(index, articles, macro, generated_at):
     days = day_span(index, CHART_DAYS)
     cards = build_cards(index)
 
@@ -456,6 +548,7 @@ def render_page(index, articles, generated_at):
             f'{hidden}>{render_items(articles, asset)}</div>'
         )
 
+    macro_html = render_macro(macro)
     stamp = generated_at.strftime("%d/%m/%Y à %H:%M")
     css = CSS
     for token, colour in (("__BG__", BG), ("__CARD__", BG_CARD),
@@ -484,6 +577,7 @@ def render_page(index, articles, generated_at):
 <h1>Veille économique</h1>
 <p class="updated">Mise à jour le {stamp} (heure de Paris)</p>
 
+<h2>Actualité</h2>
 <div class="cards">{"".join(card_html)}</div>
 
 <h2>90 derniers jours</h2>
@@ -494,6 +588,9 @@ def render_page(index, articles, generated_at):
 <h2>Par actif</h2>
 <div class="tabs" role="tablist">{"".join(tab_buttons)}</div>
 {"".join(panels)}
+
+<hr class="section-sep">
+{macro_html}
 
 <!-- Bandeau permanent : ne jamais retirer. -->
 <div class="disclaimer" role="note">{html.escape(DISCLAIMER)}</div>
@@ -539,11 +636,12 @@ MANIFEST = {
 def main():
     index = load_json(DATA_DIR / "index.json", {})
     articles = load_json(DATA_DIR / "articles.json", [])
+    macro = load_json(DATA_DIR / "macro.json", {})
 
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     generated_at = datetime.now(timezone.utc).astimezone(PARIS)
 
-    page = render_page(index, articles, generated_at)
+    page = render_page(index, articles, macro, generated_at)
     (DOCS_DIR / "index.html").write_text(page, encoding="utf-8")
 
     with open(DOCS_DIR / "manifest.json", "w", encoding="utf-8") as fh:
@@ -555,8 +653,9 @@ def main():
         (DOCS_DIR / name).write_bytes(build_icon(size))
 
     size_kb = (DOCS_DIR / "index.html").stat().st_size / 1024
+    regime = (macro.get("regime") or {}).get("state", "absent")
     print(f"docs/index.html genere ({size_kb:.1f} Ko), "
-          f"{len(index)} jours, {len(articles)} articles.")
+          f"{len(index)} jours, {len(articles)} articles, regime : {regime}.")
     print(f"Derniere mise a jour affichee : "
           f"{generated_at.strftime('%d/%m/%Y a %H:%M')} (heure de Paris)")
 

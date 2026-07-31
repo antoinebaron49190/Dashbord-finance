@@ -52,6 +52,15 @@ jobs:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: python analyzer.py
 
+      - name: Recuperer les series numeriques
+        working-directory: veille
+        env:
+          # FRED est ignore sans cle ; les autres sources sont sans compte.
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        # Comme pour les flux RSS, une source muette est journalisee et
+        # retiree du decompte du regime, jamais fatale.
+        run: python macro.py
+
       - name: Generer la page
         working-directory: veille
         run: python build_site.py
