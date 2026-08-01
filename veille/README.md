@@ -437,6 +437,13 @@ pas. Sans cette memoire, un basculement de tendance notifierait toutes les
 heures jusqu'au suivant, et l'outil serait desinstalle en une journee. Les
 300 dernieres empreintes sont conservees dans `data/alerte.json`.
 
+Les extremes ont un traitement a part, appris en conditions reelles : leur
+premiere version datait l'empreinte du jour, et une decote de 50 % qui dure
+des mois se serait donc rappelee tous les matins. La liste des extremes en
+cours est desormais conservee d'un tour a l'autre, et **seule l'entree dans
+l'extreme est signalee**. Un indicateur qui en sort puis y revient est
+signale de nouveau — c'est bien le comportement voulu.
+
 Un tour qui ne detecte rien de neuf **ne reecrit meme pas le fichier** : son
 horodatage suffirait a declencher un commit par heure.
 

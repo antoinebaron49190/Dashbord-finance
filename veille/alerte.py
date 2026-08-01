@@ -153,15 +153,18 @@ def imminent_events(agenda):
     return found
 
 
-def extremes(backtest):
-    """Un indicateur au bout de sa propre distribution historique.
+def extremes(backtest, active_before):
+    """Un indicateur qui vient d'entrer au bout de sa propre distribution.
 
-    L'empreinte inclut le jour : un extreme qui dure plusieurs semaines ne
-    notifie qu'une fois, puis se tait — sauf s'il ressort d'un extreme et y
-    revient plus tard.
+    Seule l'ENTREE dans l'extreme est une nouvelle. Une decote de 50 % peut
+    durer des mois : dater l'empreinte du jour reviendrait a notifier tous
+    les matins la meme situation inchangee. On compare donc l'ensemble des
+    extremes en cours a celui du tour precedent, et on ne signale que la
+    difference. Un indicateur qui sort de l'extreme puis y revient plus tard
+    est signale de nouveau, ce qui est bien le comportement voulu.
     """
     found = []
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    active_now = []
     for item in (backtest or {}).get("context") or []:
         rank = item.get("percentile")
         if rank is None:
@@ -172,13 +175,18 @@ def extremes(backtest):
             side = "bas"
         else:
             continue
+
+        key = f"extreme:{item['label']}:{side}"
+        active_now.append(key)
+        if key in active_before:
+            continue
         found.append(alert(
-            f"extreme:{item['label']}:{side}:{today}",
+            key,
             f"{item['label']} : {item['value']}",
             f"{item['label']} à {item['value']} — {item.get('sentence', '')}. "
             "Un extrême historique décrit le présent ; il ne dit rien de la suite.",
             "extreme"))
-    return found
+    return found, active_now
 
 
 # --- Assemblage --------------------------------------------------------------
@@ -188,13 +196,19 @@ def collect():
     agenda = load_json(DATA_DIR / "agenda.json", {})
     backtest = load_json(DATA_DIR / "backtest.json", {})
 
-    candidates = (trend_changes(macro) + regime_change(macro)
-                  + imminent_events(agenda) + extremes(backtest))
-
     state = load_json(ALERTE_PATH, {})
+    extreme_alerts, active = extremes(
+        backtest, set(state.get("extremes_active") or []))
+
+    candidates = (trend_changes(macro) + regime_change(macro)
+                  + imminent_events(agenda) + extreme_alerts)
+
+    # Les extremes portent leur propre memoire d'etat : les inscrire aussi
+    # dans `sent` les empecherait de repartir apres un retour a la normale.
     already = set(state.get("sent") or [])
-    pending = [a for a in candidates if a["fingerprint"] not in already]
-    return state, candidates, pending
+    pending = [a for a in candidates
+               if a["kind"] == "extreme" or a["fingerprint"] not in already]
+    return state, candidates, pending, active
 
 
 # Repris tel quel du bandeau de la page. Une alerte qui reveille quelqu'un
@@ -236,21 +250,27 @@ def main():
                              "notification sur telephone")
     args = parser.parse_args()
 
-    state, candidates, pending = collect()
+    state, candidates, pending, active = collect()
 
     print(f"{len(candidates)} fait(s) notable(s), {len(pending)} nouveau(x) :")
     for item in pending:
         print(f"  [{item['kind']}] {item['title']}")
     if not pending and candidates:
         print("  (tous deja signales)")
+    print(f"{len(active)} extreme(s) en cours.")
 
     if args.show:
         return
 
     # Sans rien de neuf, le fichier n'est pas reecrit. Il porte un horodatage,
     # et le reecrire a chaque tour ferait croire au workflow qu'une donnee a
-    # change : un commit par heure, pour rien.
-    if not pending and not (state.get("pending") or []):
+    # change : un commit par heure, pour rien. La liste des extremes en cours
+    # compte comme une nouveaute : c'est elle qui evite de re-notifier demain
+    # une situation deja signalee aujourd'hui.
+    unchanged = (not pending
+                 and not (state.get("pending") or [])
+                 and sorted(active) == sorted(state.get("extremes_active") or []))
+    if unchanged:
         print("Rien de neuf : data/alerte.json laisse tel quel.")
         return
 
@@ -258,11 +278,13 @@ def main():
     # perdue vaut mieux qu'une alerte repetee en boucle : dans le premier cas
     # l'information reste sur la page, dans le second l'outil devient
     # insupportable et finit desinstalle.
-    sent = (state.get("sent") or []) + [a["fingerprint"] for a in pending]
+    sent = (state.get("sent") or []) + [a["fingerprint"] for a in pending
+                                        if a["kind"] != "extreme"]
     save_json(ALERTE_PATH, {
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "pending": pending,
         "sent": sent[-MEMORY:],
+        "extremes_active": sorted(active),
     })
     print(f"\ndata/alerte.json ecrit ({len(pending)} a notifier).")
 
