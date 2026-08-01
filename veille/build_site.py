@@ -461,6 +461,11 @@ def render_headline(articles):
 # Au-dela, le basculement n'est plus une nouvelle.
 RECENT_DAYS = 45
 
+# Nombre de basculements affiches. Neuf lignes repoussaient les cartes de
+# marche sous le premier ecran ; les plus recents suffisent a savoir s'il
+# s'est passe quelque chose, le compte des autres est rappele en note.
+CHANGES_SHOWN = 5
+
 # La locution porte son auxiliaire : « est passé » et « a perdu » ne se
 # conjuguent pas pareil, un prefixe commun donnerait « a passé haussier ».
 TREND_SHORT = {
@@ -506,17 +511,26 @@ def render_changes(backtest):
                 'quoi faire.</div></div>')
 
     rows = []
-    for days, label, trend in changes:
+    for days, label, trend in changes[:CHANGES_SHOWN]:
         word, colour = TREND_SHORT[trend]
         quand = ("aujourd'hui" if days == 0 else
                  "hier" if days == 1 else f"il y a {days} jours")
         rows.append(f'<li><span class="chg-what">{html.escape(label)} '
                     f'<span style="color:{colour}">{word}</span></span>'
                     f'<span class="chg-when">{quand}</span></li>')
+
+    reste = len(changes) - len(rows)
+    note = (f'Les {len(rows)} basculements les plus récents. '
+            if reste > 0 else '')
+    note += (f'{reste} autre{"s" if reste > 1 else ""} plus ancien'
+             f'{"s" if reste > 1 else ""}, dans les {RECENT_DAYS} derniers '
+             'jours. ' if reste > 0 else
+             f'Changements d\'état de tendance sur les {RECENT_DAYS} derniers '
+             'jours. ')
+    note += 'Le reste des marchés suivis est dans le même état qu\'avant.'
+
     return (f'<h2>Ce qui a changé</h2><ul class="agenda chg">{"".join(rows)}</ul>'
-            '<div class="news-note">Changements d\'état de tendance sur les '
-            f'{RECENT_DAYS} derniers jours. Le reste des marchés suivis est '
-            'dans le même état qu\'avant.</div>')
+            f'<div class="news-note">{note}</div>')
 
 
 # --- Ce que valent les signaux ----------------------------------------------
@@ -727,7 +741,7 @@ h2{font-size:15px;margin:26px 0 10px;font-weight:600;color:__DIM__;
 .q-name{color:__TEXT__}
 .zone-extra{font-size:15px;color:__DIM__;margin-top:5px;overflow-wrap:anywhere}
 .zone-news{font-size:15px;color:__DIM__;margin-top:5px;overflow-wrap:anywhere}
-.breadth{font-size:16px;line-height:1.4;padding:0 2px 10px}
+.breadth{font-size:16px;line-height:1.4;padding:0 2px 10px;margin-top:22px}
 .global-line{font-size:15px;color:__DIM__;padding:4px 2px 0;
  font-variant-numeric:tabular-nums}
 .agenda{list-style:none;margin:0;padding:0;background:__CARD__;
