@@ -49,6 +49,11 @@ VERDICT_HORIZON = 20
 # En deca, l'echantillon ne permet aucune affirmation.
 MIN_SAMPLE = 60
 
+# Nombre de paquets pour les situations comparables. Cinq quintiles laissent
+# environ 250 seances par paquet sur cinq ans : assez pour dire quelque chose,
+# assez grossier pour ne pas se decouper sur mesure autour du present.
+BUCKETS = 5
+
 # Ecart minimal, en points de pourcentage sur l'horizon, pour qu'un signal
 # soit dit utile. Sous ce seuil, l'ecart est indiscernable du hasard sur des
 # echantillons de cette taille.
@@ -60,6 +65,10 @@ CRYPTO_ASSETS = [("btc", "Bitcoin"), ("eth", "Ethereum")]
 
 # Tentatives par ticker, chacune essayant les deux chemins vers Yahoo.
 ATTEMPTS = 2
+
+# Version du format ecrit. A incrementer des qu'un champ apparait : un
+# fichier d'une version anterieure est alors recalcule sans attendre.
+SCHEMA = 2
 
 # Age au-dela duquel le backtest est recalcule. Une journee : la mesure porte
 # sur des annees, une seance de plus ou de moins n'y change rien.
@@ -175,6 +184,74 @@ def replay(closes, horizon=VERDICT_HORIZON):
         if trend in states:
             states[trend].append(closes[i + horizon] / closes[i] - 1)
     return states
+
+
+def baseline(closes, horizon=VERDICT_HORIZON):
+    """Ce qu'a fait une seance quelconque, sans regarder aucun signal.
+
+    C'est le denominateur qui manquait. « +1,2 % apres un signal haussier »
+    ne veut rien dire tant qu'on ignore ce qu'a fait une seance ordinaire :
+    si la moyenne generale est de +1,5 %, le signal haussier fait moins bien
+    que ne rien regarder du tout.
+    """
+    returns = [closes[i + horizon] / closes[i] - 1
+               for i in range(200, len(closes) - horizon)]
+    return summarise(returns)
+
+
+def analogues(closes, horizon=VERDICT_HORIZON, buckets=BUCKETS):
+    """Les seances passees ou le marche etait aussi etire qu'aujourd'hui.
+
+    L'ecart au MM200 est decoupe en quintiles sur tout l'historique. La
+    journee d'aujourd'hui tombe dans l'un d'eux ; on regarde ce qu'ont fait
+    les autres journees du meme quintile dans les `horizon` seances suivantes.
+
+    C'est volontairement plus grossier qu'une regle ajustee : cinq paquets
+    decoupes par les donnees elles-memes, aucun seuil choisi a la main. Une
+    regle affinee jusqu'a bien marcher sur le passe ne mesure plus que sa
+    propre mise au point.
+    """
+    stretches, forward = [], []
+    for i in range(200, len(closes) - horizon):
+        ma200 = moving_average(closes[:i + 1], 200)
+        if not ma200:
+            continue
+        stretches.append(closes[i] / ma200 - 1)
+        forward.append(closes[i + horizon] / closes[i] - 1)
+    if len(stretches) < buckets * MIN_SAMPLE:
+        return None
+
+    today = moving_average(closes, 200)
+    if not today:
+        return None
+    current = closes[-1] / today - 1
+
+    ordered = sorted(stretches)
+    size = len(ordered) / buckets
+    edges = [ordered[min(len(ordered) - 1, int(size * (k + 1)))]
+             for k in range(buckets - 1)]
+
+    def bucket_of(value):
+        for k, edge in enumerate(edges):
+            if value <= edge:
+                return k
+        return buckets - 1
+
+    here = bucket_of(current)
+    same = [f for stretch, f in zip(stretches, forward)
+            if bucket_of(stretch) == here]
+    if len(same) < MIN_SAMPLE:
+        return None
+
+    low = ordered[0] if here == 0 else edges[here - 1]
+    high = ordered[-1] if here == buckets - 1 else edges[here]
+    return {
+        "current_stretch": round(current * 100, 2),
+        "bucket": here + 1,
+        "buckets": buckets,
+        "range_pct": [round(low * 100, 1), round(high * 100, 1)],
+        "outcome": summarise(same),
+    }
 
 
 def trend_at(closes, i):
@@ -399,6 +476,7 @@ def collect():
         failures)
 
     return {
+        "schema": SCHEMA,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "horizon_days": VERDICT_HORIZON,
         "assets": assets,
@@ -419,6 +497,8 @@ def build_asset(label, points, depth):
         "observed_days": len(closes),
         "current": current_state(dates, closes),
         "states": states,
+        "baseline": baseline(closes),
+        "analogues": analogues(closes),
         "edge_pct": None if edge is None else round(edge, 2),
         "verdict": verdict_word(edge),
         "sentence": sentence,
@@ -441,6 +521,19 @@ def print_report(result):
                 print(f"      {name:<10} {state['mean_pct']:+7.2f} % moyen  "
                       f"{state['positive_pct']:5.1f} % de hausses  "
                       f"{state['days']} jours")
+        base = asset.get("baseline")
+        if base:
+            print(f"      {'reference':<10} {base['mean_pct']:+7.2f} % moyen  "
+                  f"{base['positive_pct']:5.1f} % de hausses  "
+                  f"{base['days']} jours (toutes seances)")
+        similar = asset.get("analogues")
+        if similar:
+            out = similar["outcome"]
+            print(f"      comparable {out['mean_pct']:+7.2f} % moyen  "
+                  f"{out['positive_pct']:5.1f} % de hausses  "
+                  f"{out['days']} jours (ecart MM200 "
+                  f"{similar['current_stretch']:+.1f} %, paquet "
+                  f"{similar['bucket']}/{similar['buckets']})")
     if result["context"]:
         print("\n  Contexte :")
         for item in result["context"]:
@@ -453,12 +546,22 @@ def print_report(result):
 
 
 def hours_since(path):
+    """Age du fichier existant, ou None s'il est absent, illisible ou perime.
+
+    « Perime » vaut aussi pour un fichier ecrit par une version anterieure du
+    module : sans ce controle, ajouter un champ laisserait la page amputee
+    pendant toute la duree de fraicheur, alors que le code sait deja le
+    calculer.
+    """
     if not path.exists():
         return None
     try:
         with open(path, "r", encoding="utf-8") as fh:
-            stamp = json.load(fh).get("generated_at")
-        age = datetime.now(timezone.utc) - datetime.fromisoformat(stamp)
+            saved = json.load(fh)
+        if saved.get("schema") != SCHEMA:
+            return None
+        age = datetime.now(timezone.utc) - datetime.fromisoformat(
+            saved["generated_at"])
         return age.total_seconds() / 3600
     except Exception:
         return None

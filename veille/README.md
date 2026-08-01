@@ -162,9 +162,13 @@ L'importance va de 0,3 (presse) a 1,95 (decision d'une banque centrale).
 
 ### Detection des actifs
 
-Mots-cles par actif, plus une liste generique (`crypto`, `cryptocurrency`,
-`digital asset`, `stablecoin`, `blockchain`, `MiCA`...) qui rattache
-l'article a la fois a BTC et a ETH.
+Six cles : `sp500`, `europe`, `asie`, `msci_world`, `btc`, `eth`. Les trois
+premieres portent les memes noms que les zones de la page, ce qui permet de
+mettre l'actualite en face du marche qu'elle concerne.
+
+S'y ajoute une liste generique (`crypto`, `cryptocurrency`, `digital asset`,
+`stablecoin`, `blockchain`, `MiCA`...) qui rattache l'article a la fois a BTC
+et a ETH.
 
 Quand le texte ne nomme aucun actif, on ne retombe sur les actifs declares
 par la source que pour les tiers 1 et 2 : une decision de la BCE concerne
@@ -279,6 +283,15 @@ pas par indice : dix cartes rallongeraient la page pour rien.
 Le MSCI World est affiche en une ligne sous les zones, comme reference
 mondiale. Le VIX et le dollar alimentent les criteres du regime.
 
+Une ligne d'**ampleur** precede les cartes : combien des dix marches sont
+au-dessus de leurs deux moyennes. Quatre cartes lues separement repondent mal
+a la question « le mouvement est-il general ou isole ? ».
+
+Chaque carte porte enfin **l'actualite de sa zone** sur 7 jours, comptee et
+non moyennee. C'est ce a quoi servent les cles `europe` et `asie` ajoutees a
+`ASSET_KEYWORDS` : sans elles, « Asie : tendance haussiere » restait une ligne
+de cours sans un mot d'explication a cote.
+
 Le verdict d'une zone vient de la tendance de chacun de ses indices :
 tous au-dessus de leurs moyennes 50 et 200 jours donne « Tendance
 haussiere », tous en dessous « Tendance baissiere », le reste
@@ -343,6 +356,24 @@ recopiee** : mesurer une autre regle que celle affichee ne mesurerait rien.
 | entre 0,5 et 2 points      | signal faible |
 | 0,5 point ou moins         | sans valeur |
 | 2 points ou plus, a l'envers | signal inverse |
+
+### La reference qui manquait
+
+Chaque marche porte aussi sa **ligne de base** : ce qu'a fait une seance
+quelconque, sans regarder aucun signal. C'est le denominateur sans lequel les
+autres chiffres ne veulent rien dire — « +1,2 % apres un signal haussier »
+est un mauvais resultat si la moyenne generale est de +1,5 %.
+
+### Les situations comparables
+
+L'ecart de chaque marche a sa moyenne 200 jours est decoupe en **cinq
+quintiles** sur tout l'historique. La seance d'aujourd'hui tombe dans l'un
+d'eux, et la page affiche ce qu'ont fait les autres seances du meme paquet
+dans les 20 seances suivantes, **a cote de la moyenne generale**.
+
+Le decoupage est fait par les donnees, sans aucun seuil choisi a la main :
+une regle affinee jusqu'a bien marcher sur le passe ne mesure plus que sa
+propre mise au point. Un paquet de moins de 60 seances n'est pas affiche.
 
 Trois precautions, dites sur la page et pas seulement ici :
 
@@ -438,18 +469,21 @@ quotidienne), ce qui rend une base de donnees inutile a ce stade.
 python build_site.py
 ```
 
-La page repond a cinq questions, dans cet ordre, et rien d'autre :
+La page repond a six questions, dans cet ordre, et rien d'autre :
 
 1. **Qu'est-ce qui a change ?** Les basculements de tendance des 45 derniers
    jours, du plus recent au plus ancien. C'est ce qui justifie d'ouvrir la
    page aujourd'hui plutot qu'hier.
-2. **Ou en est chaque zone ?** Quatre cartes — Amerique, Europe, Asie, Crypto
-   — avec la tendance, sa justification chiffree et les cours.
+2. **Ou en est chaque zone ?** Une ligne d'ampleur, puis quatre cartes —
+   Amerique, Europe, Asie, Crypto — avec la tendance, sa justification
+   chiffree, les cours et l'actualite propre a la zone.
 3. **Que dit l'actualite ?** La synthese redigee (ou le resume mecanique) et
    le fait marquant des dernieres 48 h, plus les prochaines echeances.
-4. **Ces signaux valent-ils quelque chose ?** Le verdict mesure marche par
+4. **C'est deja arrive, et ensuite ?** Les seances passees ressemblant a
+   celle d'aujourd'hui, et ce qui les a suivies.
+5. **Ces signaux valent-ils quelque chose ?** Le verdict mesure marche par
    marche.
-5. **Ces chiffres sont-ils rares ?** Quatre reperes replaces dans leur propre
+6. **Ces chiffres sont-ils rares ?** Quatre reperes replaces dans leur propre
    histoire.
 
 « Ce qui a change » vient des **historiques longs**, pas de la memoire de
@@ -521,9 +555,9 @@ donc a chaque tour meme sans actualite. Le workflow ne publie que si les
 donnees ont bouge, ou si la page a change pour autre chose que son horodatage
 — sinon on accumulerait un commit vide par heure, soit environ 8 700 par an.
 
-> `FRED_API_KEY` est transmis au workflow comme demande, mais **aucun code ne
-> le lit aujourd'hui** : il n'y a pas encore de source FRED dans le projet. Le
-> secret est simplement pret pour une phase ulterieure.
+> `FRED_API_KEY` est lu par `macro.py` (series `DGS10` et `DFF`). Sans la cle,
+> l'etape est ignoree en silence et les deux criteres de taux sortent du
+> decompte du regime au lieu de compter comme defavorables.
 
 ## Marche a suivre depuis un iPhone
 

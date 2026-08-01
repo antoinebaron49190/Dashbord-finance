@@ -50,16 +50,20 @@ RED = "#cf6b62"
 GRAY = "#8b94a1"
 
 # Une carte par zone, pas par indice : dix marches en quatre cartes.
-# (cle, libelle, section macro.json, unite, [(cle_indice, libelle_court)])
+# Le dernier champ relie la zone aux actifs du lexique (analyzer.ASSETS), ce
+# qui permet de mettre l'actualite en face du marche qu'elle concerne.
+# (cle, libelle, section macro.json, unite, [(cle_indice, libelle)], [actifs])
 ZONES = [
     ("amerique", "Amérique", "equities", "", [
-        ("sp500", "S&P 500"), ("nasdaq", "Nasdaq")]),
+        ("sp500", "S&P 500"), ("nasdaq", "Nasdaq")], ["sp500"]),
     ("europe", "Europe", "equities", "", [
-        ("eurostoxx", "Euro Stoxx 50"), ("cac40", "CAC 40"), ("dax", "DAX")]),
+        ("eurostoxx", "Euro Stoxx 50"), ("cac40", "CAC 40"), ("dax", "DAX")],
+        ["europe"]),
     ("asie", "Asie", "equities", "", [
-        ("nikkei", "Nikkei"), ("hangseng", "Hang Seng"), ("shanghai", "Shanghai")]),
+        ("nikkei", "Nikkei"), ("hangseng", "Hang Seng"),
+        ("shanghai", "Shanghai")], ["asie"]),
     ("crypto", "Crypto", "crypto", " $", [
-        ("btc", "Bitcoin"), ("eth", "Ethereum")]),
+        ("btc", "Bitcoin"), ("eth", "Ethereum")], ["btc", "eth"]),
 ]
 
 # Reference mondiale, affichee en une ligne sous les zones.
@@ -213,9 +217,68 @@ def zone_verdict(blocks):
     return "Marchés partagés", GRAY, f"Sur {total} indices : {', '.join(parts)}."
 
 
-def render_zones(macro):
-    cards = []
-    for _key, label, section, unit, indices in ZONES:
+def breadth(macro):
+    """Combien de marches suivis sont orientes a la hausse, sur le total.
+
+    Une seule ligne, mais c'est la question que resument mal quatre cartes
+    lues separement : le mouvement est-il general ou isole ?
+    """
+    trends = []
+    for _key, _label, section, _unit, indices, _news in ZONES:
+        source = macro.get(section) or {}
+        for key, _name in indices:
+            trend = (source.get(key) or {}).get("trend")
+            if trend:
+                trends.append(trend)
+    if not trends:
+        return ""
+    up = trends.count("haussiere")
+    total = len(trends)
+    colour = GREEN if up * 2 > total else (RED if up * 2 < total else GRAY)
+    return (f'<div class="breadth"><span style="color:{colour}">{up} '
+            f'marché{"s" if up > 1 else ""} sur {total}</span> '
+            'au-dessus de leurs moyennes 50 et 200 jours.</div>')
+
+
+def zone_news(articles, asset_key, days=NEWS_WINDOW_DAYS):
+    """Decompte d'articles favorables et defavorables pour une zone."""
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+    favorable = defavorable = 0
+    for article in articles:
+        if asset_key not in (article.get("assets_effective") or []):
+            continue
+        if not article.get("categories") and article.get("scored_by") != "claude":
+            continue
+        published = parse_date(article.get("published_at"))
+        if not published or published < cutoff:
+            continue
+        tone = article.get("tone", 0)
+        if tone >= 0.15:
+            favorable += 1
+        elif tone <= -0.15:
+            defavorable += 1
+    return favorable, defavorable
+
+
+def render_zone_news(articles, asset_keys):
+    """L'actualite de la zone, en une ligne, ou rien si le flux est muet."""
+    favorable = defavorable = 0
+    for key in asset_keys:
+        plus, moins = zone_news(articles, key)
+        favorable += plus
+        defavorable += moins
+    if not favorable and not defavorable:
+        return ""
+    word, colour = balance_word(favorable, defavorable)
+    return (f'<div class="zone-news">Actualité 7 jours : '
+            f'<span style="color:{colour}">{word}</span> — {favorable} '
+            f'favorable{"s" if favorable > 1 else ""}, {defavorable} '
+            f'défavorable{"s" if defavorable > 1 else ""}.</div>')
+
+
+def render_zones(macro, articles):
+    cards = [breadth(macro)]
+    for _key, label, section, unit, indices, news_keys in ZONES:
         source = macro.get(section) or {}
         blocks = [(name, source.get(k) or {}) for k, name in indices]
         present = [b for _, b in blocks if b.get("price") is not None]
@@ -244,7 +307,7 @@ def render_zones(macro):
             f'<div class="zone-state" style="color:{colour}">{html.escape(state)}</div>'
             f'<div class="zone-detail">{html.escape(detail)}</div>'
             f'<div class="zone-quotes">{quotes or "--"}</div>'
-            f'{extra}</article>'
+            f'{extra}{render_zone_news(articles, news_keys)}</article>'
         )
 
     key, label, section = GLOBAL_INDEX
@@ -511,6 +574,82 @@ def render_verdicts(backtest):
             'pas ce qui se passera.</div>')
 
 
+# --- Situations comparables --------------------------------------------------
+
+# Nombre de marches detailles. Au-dela, la section devient un tableau qu'on
+# ne lit plus ; les marches ecartes sont comptes dans la note.
+ANALOGUE_SHOWN = 5
+
+# En deca, l'ecart avec la moyenne generale ne merite pas d'etre souligne.
+ANALOGUE_MIN_GAP = 1.0
+
+
+def analogue_rows(backtest):
+    """Marches classes par ecart entre situation comparable et moyenne."""
+    rows = []
+    for asset in ((backtest or {}).get("assets") or {}).values():
+        similar = asset.get("analogues")
+        base = asset.get("baseline")
+        if not similar or not base:
+            continue
+        gap = similar["outcome"]["mean_pct"] - base["mean_pct"]
+        rows.append((abs(gap), gap, asset, similar, base))
+    return sorted(rows, key=lambda row: -row[0])
+
+
+def render_analogues(backtest):
+    """Ce qu'ont fait les seances passees ressemblant a celle d'aujourd'hui.
+
+    C'est la question qu'on se pose reellement devant un cours : « c'est deja
+    arrive, et ensuite ? ». Elle se repond sans rien predire, en comptant.
+    """
+    rows = analogue_rows(backtest)
+    if not rows:
+        return ""
+
+    horizon = (backtest or {}).get("horizon_days", 20)
+    notable = [row for row in rows if row[0] >= ANALOGUE_MIN_GAP]
+    shown = (notable or rows)[:ANALOGUE_SHOWN]
+
+    items = []
+    for _, gap, asset, similar, base in shown:
+        colour = GREEN if gap > 0 else (RED if gap < 0 else GRAY)
+        position = (percent(similar["current_stretch"])
+                    + " par rapport à sa moyenne 200 jours")
+        items.append(
+            f'<li><span class="ctx-top">'
+            f'<span class="ctx-label">{html.escape(asset["label"])}</span>'
+            f'<span class="ctx-value" style="color:{colour}">'
+            f'{percent(similar["outcome"]["mean_pct"])}</span></span>'
+            f'<span class="ctx-sentence">{html.escape(position)} — '
+            f'les {similar["outcome"]["days"]} séances comparables ont été '
+            f'suivies de {percent(similar["outcome"]["mean_pct"])} en '
+            f'{horizon} séances, contre {percent(base["mean_pct"])} pour une '
+            f'séance quelconque.</span></li>')
+
+    reste = len(rows) - len(shown)
+    note = ('Chaque marché est découpé en cinq paquets selon son écart à la '
+            'moyenne 200 jours, et on regarde ce qu\'ont fait les séances du '
+            'même paquet. Découpage fait par les données, aucun seuil choisi '
+            'à la main. Ce qui a suivi n\'est pas ce qui suivra.')
+    if reste > 0:
+        note = (f'Les {reste} autres marchés suivis sont proches de leur '
+                'moyenne générale. ') + note
+
+    return ('<h2>Des situations comparables</h2>'
+            f'<ul class="context">{"".join(items)}</ul>'
+            f'<div class="news-note">{note}</div>')
+
+
+def percent(value):
+    """Pourcentage signe a la francaise : virgule decimale, vrai signe moins.
+
+    Le trait d'union et le signe moins sont deux caracteres differents ; la
+    page affiche deja « −50 % » ailleurs, et melanger les deux se voit.
+    """
+    return f"{value:+.1f} %".replace(".", ",").replace("-", "−")
+
+
 # --- Contexte : situer les chiffres du jour ---------------------------------
 
 def render_context(backtest):
@@ -587,6 +726,8 @@ h2{font-size:15px;margin:26px 0 10px;font-weight:600;color:__DIM__;
  overflow-wrap:anywhere}
 .q-name{color:__TEXT__}
 .zone-extra{font-size:15px;color:__DIM__;margin-top:5px;overflow-wrap:anywhere}
+.zone-news{font-size:15px;color:__DIM__;margin-top:5px;overflow-wrap:anywhere}
+.breadth{font-size:16px;line-height:1.4;padding:0 2px 10px}
 .global-line{font-size:15px;color:__DIM__;padding:4px 2px 0;
  font-variant-numeric:tabular-nums}
 .agenda{list-style:none;margin:0;padding:0;background:__CARD__;
@@ -673,13 +814,14 @@ def render_page(index, articles, macro, agenda, synthese, backtest,
 
 {render_changes(backtest)}
 
-{render_zones(macro)}
+{render_zones(macro, articles)}
 {render_agenda(agenda)}
 
 <h2>Ce qu'il faut savoir</h2>
 {render_news(index, articles, synthese)}
 {render_headline(articles)}
 
+{render_analogues(backtest)}
 {render_verdicts(backtest)}
 {render_context(backtest)}
 
@@ -733,14 +875,18 @@ def main():
 
     size_kb = (DOCS_DIR / "index.html").stat().st_size / 1024
     print(f"docs/index.html genere ({size_kb:.1f} Ko)")
-    for _key, label, section, unit, indices in ZONES:
+    for _key, label, section, unit, indices, news_keys in ZONES:
         source = macro.get(section) or {}
         blocks = [source.get(k) or {} for k, _ in indices]
         state, _, detail = zone_verdict(blocks)
-        print(f"  {label:<10} {state:<22} {detail}")
+        counts = [zone_news(articles, key) for key in news_keys]
+        plus = sum(c[0] for c in counts)
+        moins = sum(c[1] for c in counts)
+        print(f"  {label:<10} {state:<22} (actu {plus}+/{moins}-) {detail}")
     observations, _ = reliability(macro)
     print(f"  backtest  : {len(backtest.get('assets') or {})} marche(s) mesure(s), "
           f"{len(recent_changes(backtest))} basculement(s) recent(s)")
+    print(f"  comparable: {len(analogue_rows(backtest))} marche(s) situe(s)")
     print(f"  contexte  : {len(backtest.get('context') or [])} repere(s)")
     print(f"  agenda    : {len(agenda.get('upcoming') or [])} echeance(s)")
     print(f"  synthese  : {'oui' if synthese.get('points') else 'non (pas de cle)'}")

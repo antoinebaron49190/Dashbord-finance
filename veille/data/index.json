@@ -52,9 +52,9 @@
   "2026-07-30": {
     "articles_count": 107,
     "signal_count": 11,
-    "tone_cb": -0.0898,
-    "tone_global": 0.0872,
-    "regul_crypto": -0.3988,
+    "tone_cb": 0.25,
+    "tone_global": 0.2539,
+    "regul_crypto": 0.8182,
     "stress": 0.0,
     "top": [
       {
@@ -82,20 +82,20 @@
         "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3265~cde079e4dc.en.pdf"
       },
       {
-        "id": "e8dfbbe8d3c07b28f34a4c41",
-        "title": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
-        "source": "fed_press_all",
-        "score": 1.3,
-        "tone": -0.6796,
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm"
-      },
-      {
         "id": "b6ce50853a206ab89fbf5d23",
         "title": "Sarah Breeden: Agents of change",
         "source": "bis_cb_speeches",
         "score": 1.3,
         "tone": 0.5,
         "url": "https://www.bis.org/review/r260701h.htm"
+      },
+      {
+        "id": "e8dfbbe8d3c07b28f34a4c41",
+        "title": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260730b.htm"
       }
     ]
   },
@@ -152,19 +152,11 @@
   "2026-07-28": {
     "articles_count": 3,
     "signal_count": 2,
-    "tone_cb": 0.1193,
-    "tone_global": 0.1193,
-    "regul_crypto": 0.8386,
+    "tone_cb": -0.3,
+    "tone_global": -0.3,
+    "regul_crypto": null,
     "stress": 0.4483,
     "top": [
-      {
-        "id": "ceb2bf06d2c792e5eeb55b67",
-        "title": "Adoption and investment in AI across the euro area. Insights from harmonised firm-level data",
-        "source": "bce_pub",
-        "score": 1.3,
-        "tone": 0.8386,
-        "url": "https://www.ecb.europa.eu//pub/pdf/scpops/ecb.op395.en.pdf"
-      },
       {
         "id": "272421f3827afb8eaf293e7c",
         "title": "The Paris Agreement ten years later: Navigating climate uncertainty and tipping points",
@@ -172,6 +164,14 @@
         "score": 1.3,
         "tone": -0.6,
         "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3261~cc4bd5eabc.en.pdf"
+      },
+      {
+        "id": "ceb2bf06d2c792e5eeb55b67",
+        "title": "Adoption and investment in AI across the euro area. Insights from harmonised firm-level data",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpops/ecb.op395.en.pdf"
       },
       {
         "id": "19bd53c9901ed4e92a1d9120",
@@ -438,9 +438,9 @@
   "2026-07-16": {
     "articles_count": 6,
     "signal_count": 1,
-    "tone_cb": -0.6796,
-    "tone_global": -0.6796,
-    "regul_crypto": -0.6796,
+    "tone_cb": 0.0,
+    "tone_global": 0.0,
+    "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
@@ -452,20 +452,20 @@
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm"
       },
       {
-        "id": "46dbab6f714c7f09d5061eb5",
-        "title": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
-        "source": "fed_press_all",
-        "score": 1.3,
-        "tone": -0.6796,
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm"
-      },
-      {
         "id": "8eb78520704a21f8d2872a4b",
         "title": "Jefferson, Navigating Economic Shocks: A Monetary Policymaker’s Perspective",
         "source": "fed_speeches",
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260716a.htm"
+      },
+      {
+        "id": "46dbab6f714c7f09d5061eb5",
+        "title": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm"
       },
       {
         "id": "6d0a5d10cf29a529adc06a15",
@@ -648,9 +648,9 @@
   "2026-07-09": {
     "articles_count": 7,
     "signal_count": 1,
-    "tone_cb": -0.6796,
-    "tone_global": -0.6796,
-    "regul_crypto": -0.6796,
+    "tone_cb": 0.0,
+    "tone_global": 0.0,
+    "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
@@ -666,7 +666,7 @@
         "title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
         "source": "fed_press_all",
         "score": 1.3,
-        "tone": -0.6796,
+        "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm"
       },
       {
@@ -748,9 +748,9 @@
   "2026-07-07": {
     "articles_count": 5,
     "signal_count": 2,
-    "tone_cb": -0.8093,
-    "tone_global": -0.785,
-    "regul_crypto": -0.785,
+    "tone_cb": 0.0,
+    "tone_global": -0.3068,
+    "regul_crypto": -0.75,
     "stress": 0.0,
     "top": [
       {
@@ -758,7 +758,7 @@
         "title": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
         "source": "fed_press_all",
         "score": 1.3,
-        "tone": -0.8093,
+        "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm"
       },
       {
@@ -866,9 +866,9 @@
   "2026-07-02": {
     "articles_count": 4,
     "signal_count": 1,
-    "tone_cb": -0.6796,
-    "tone_global": -0.6796,
-    "regul_crypto": -0.6796,
+    "tone_cb": 0.0,
+    "tone_global": 0.0,
+    "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
@@ -876,7 +876,7 @@
         "title": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions with BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp., and Community Bankshares, Inc.",
         "source": "fed_press_all",
         "score": 1.95,
-        "tone": -0.6796,
+        "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260702a.htm"
       },
       {
@@ -1052,9 +1052,9 @@
   "2026-06-25": {
     "articles_count": 5,
     "signal_count": 4,
-    "tone_cb": -0.6796,
-    "tone_global": -0.6692,
-    "regul_crypto": -0.6796,
+    "tone_cb": 0.0,
+    "tone_global": -0.2318,
+    "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
@@ -1062,7 +1062,7 @@
         "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
         "source": "fed_press_all",
         "score": 1.95,
-        "tone": -0.6796,
+        "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625a.htm"
       },
       {
@@ -1070,7 +1070,7 @@
         "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
         "source": "fed_press_all",
         "score": 1.3,
-        "tone": -0.6796,
+        "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625b.htm"
       },
       {
@@ -1262,9 +1262,9 @@
   "2026-06-18": {
     "articles_count": 6,
     "signal_count": 1,
-    "tone_cb": -0.6796,
-    "tone_global": -0.6796,
-    "regul_crypto": -0.6796,
+    "tone_cb": 0.0,
+    "tone_global": 0.0,
+    "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
@@ -1272,7 +1272,7 @@
         "title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
         "source": "fed_press_all",
         "score": 1.3,
-        "tone": -0.6796,
+        "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm"
       },
       {

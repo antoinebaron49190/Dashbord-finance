@@ -104,11 +104,36 @@ LEXIQUE = {
 
 # --- Detection des actifs ---------------------------------------------------
 
+# Quatre zones plus deux cryptos. Les zones portent les memes noms que les
+# cartes de la page : sans cela, l'actualite ne peut pas etre rapportee au
+# marche qu'elle concerne, et « Asie : tendance haussiere » reste une ligne
+# de cours sans un mot d'explication a cote.
 ASSET_KEYWORDS = {
     "sp500": [
         "s&p 500", "s&p500", "sp500", "wall street", "us equities", "nasdaq",
         "dow jones", "standard & poor", "us stocks", "actions americaines",
-        "bourse americaine", "indices americains",
+        "bourse americaine", "indices americains", "federal reserve", "fomc",
+        "etats-unis", "united states",
+    ],
+    "europe": [
+        # institutions et marches
+        "ecb", "european central bank", "bce", "banque centrale europeenne",
+        "eurozone", "euro area", "zone euro", "euro stoxx", "eurostoxx",
+        "cac 40", "cac40", "dax", "ftse", "european union", "union europeenne",
+        # formulations courantes
+        "european equities", "european stocks", "european markets",
+        "actions europeennes", "bourses europeennes", "marches europeens",
+        "allemagne", "germany", "france", "italie", "italy", "espagne", "spain",
+    ],
+    "asie": [
+        # institutions et marches
+        "nikkei", "topix", "hang seng", "shanghai", "shenzhen", "csi 300",
+        "bank of japan", "boj", "pboc", "people's bank of china", "kospi",
+        # pays et formulations courantes
+        "japon", "japan", "japanese", "chine", "china", "chinese", "hong kong",
+        "coree du sud", "south korea", "taiwan", "inde", "india",
+        "asian equities", "asian stocks", "asian markets", "actions asiatiques",
+        "marches asiatiques", "bourses asiatiques",
     ],
     "msci_world": [
         "msci world", "msci", "global equities", "developed markets",

@@ -44,7 +44,9 @@ ARTICLES_PATH = DATA_DIR / "articles.json"
 INDEX_PATH = DATA_DIR / "index.json"
 SYNTHESE_PATH = DATA_DIR / "synthese.json"
 
-ASSETS = ["sp500", "msci_world", "btc", "eth"]
+# Les quatre zones de la page, plus la reference mondiale. L'ordre fixe la
+# presentation partout : c'est la seule liste qui fasse autorite.
+ASSETS = ["sp500", "europe", "asie", "msci_world", "btc", "eth"]
 CRYPTO_ASSETS = {"btc", "eth"}
 CRYPTO_CATEGORIES = ("crypto_favorable", "crypto_defavorable")
 
