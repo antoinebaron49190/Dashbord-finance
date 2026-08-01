@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T07:57:06.738198+00:00",
+  "generated_at": "2026-08-01T08:00:32.902955+00:00",
   "regime": {
     "state": "neutre",
     "favorable": 6,
@@ -12,15 +12,15 @@
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": false,
-      "value": "62 990 $",
+      "value": "63 000 $",
       "reference": "MM200 71 295 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": false,
-      "value": "62 990 $",
-      "reference": "MM50 63 369 $"
+      "value": "63 000 $",
+      "reference": "MM50 63 370 $"
     },
     {
       "group": "Crypto",
@@ -88,27 +88,27 @@
   ],
   "crypto": {
     "btc": {
-      "price": 62990.1,
-      "ma50": 63369.468000000015,
-      "ma200": 71294.81000000001,
-      "drawdown_1y": 0.4951361142614404,
-      "volatility_30d": 0.29859275149099634,
+      "price": 63000.0,
+      "ma50": 63369.66600000001,
+      "ma200": 71294.8595,
+      "drawdown_1y": 0.49505676603896076,
+      "volatility_30d": 0.2986056139416463,
       "above_ma50": false,
       "above_ma200": false,
       "trend": "baissiere"
     },
     "eth": {
-      "price": 1867.91,
-      "ma50": 1777.1788000000006,
-      "ma200": 2102.8514499999987,
-      "drawdown_1y": 0.6132691511387164,
-      "volatility_30d": 0.4135353211234128,
+      "price": 1867.9,
+      "ma50": 1777.1786000000004,
+      "ma200": 2102.851399999999,
+      "drawdown_1y": 0.6132712215320911,
+      "volatility_30d": 0.4135351887753061,
       "above_ma50": true,
       "above_ma200": false,
       "trend": "indecise"
     },
     "spot_venue": "kraken",
-    "funding_btc": 2.63287025748e-05,
+    "funding_btc": 2.56828741724e-05,
     "funding_venue": "okx"
   },
   "equities": {
@@ -227,11 +227,11 @@
       "fear_greed": 27,
       "assets": {
         "btc": {
-          "close": 62990.1,
+          "close": 63000.0,
           "trend": "baissiere"
         },
         "eth": {
-          "close": 1867.91,
+          "close": 1867.9,
           "trend": "indecise"
         },
         "sp500": {
