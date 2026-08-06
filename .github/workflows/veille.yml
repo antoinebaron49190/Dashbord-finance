@@ -139,17 +139,36 @@ jobs:
 
           git commit -m "Veille : mise a jour automatique $(date -u '+%Y-%m-%d %H:%M UTC')"
 
-          # Une modification poussee a la main entre-temps ne doit pas faire
-          # echouer le tour : on rejoue par-dessus et on reessaie.
-          for tentative in 1 2 3; do
-            if git push; then
-              echo "Publie."
-              exit 0
-            fi
-            echo "Push refuse (tentative $tentative), rebase sur l'amont..."
-            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
-            sleep 5
-          done
+          # GitHub Pages sert `main`, mais un tour declenche par le cron
+          # s'execute TOUJOURS sur la branche par defaut du depot, quelle
+          # qu'elle soit. Quand les deux different, les tours reussissent et
+          # publient dans le vide : verifie ici, la page est restee figee cinq
+          # jours pendant que vingt-six tours passaient au vert.
+          #
+          # On pousse donc explicitement sur `main` ET sur la branche
+          # courante. Le tour n'a plus a savoir laquelle est la branche par
+          # defaut, et le reglage du depot peut changer sans rien casser.
+          CIBLES="main"
+          if [ "${GITHUB_REF_NAME}" != "main" ]; then
+            CIBLES="${CIBLES} ${GITHUB_REF_NAME}"
+          fi
 
-          echo "Push impossible apres 3 tentatives."
-          exit 1
+          for cible in ${CIBLES}; do
+            publie=""
+            for tentative in 1 2 3; do
+              if git push origin "HEAD:${cible}"; then
+                echo "Publie sur ${cible}."
+                publie="oui"
+                break
+              fi
+              # Une modification poussee a la main entre-temps ne doit pas
+              # faire echouer le tour : on rejoue par-dessus et on reessaie.
+              echo "Push refuse sur ${cible} (tentative ${tentative}), rebase..."
+              git pull --rebase --autostash origin "${cible}" || true
+              sleep 5
+            done
+            if [ -z "${publie}" ]; then
+              echo "Push impossible sur ${cible} apres 3 tentatives."
+              exit 1
+            fi
+          done

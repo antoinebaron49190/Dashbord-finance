@@ -636,6 +636,21 @@ toujours en code 0. Verifie en simulant coupure de connexion, reponse
 tronquee, erreur TLS et les 18 flux morts d'un coup : la collecte se termine
 proprement en journalisant les sources muettes.
 
+**Le tour publie sur `main` et sur la branche courante.** Un tour declenche
+par le cron s'execute *toujours* sur la **branche par defaut du depot**,
+quelle qu'elle soit — ce n'est pas reglable depuis le fichier de workflow.
+Quand cette branche n'est pas celle que sert GitHub Pages, les tours
+reussissent et publient dans le vide : constate ici, la page est restee figee
+cinq jours pendant que vingt-six tours passaient au vert, parce que la
+branche par defaut du depot etait restee `claude/rss-collector-setup-at0axr`
+alors que Pages sert `main`.
+
+Le tour pousse donc explicitement sur `main` **et** sur la branche courante.
+Il n'a plus a savoir laquelle est la branche par defaut, et le reglage du
+depot peut changer sans rien casser. Mettre `main` par defaut dans
+**Settings > General > Default branch** reste plus propre, mais n'est plus
+necessaire au fonctionnement.
+
 **Pas de commit inutile.** La page porte son heure de generation, elle change
 donc a chaque tour meme sans actualite. Le workflow ne publie que si les
 donnees ont bouge, ou si la page a change pour autre chose que son horodatage
