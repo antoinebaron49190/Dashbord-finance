@@ -535,32 +535,30 @@ def render_changes(backtest):
 
 # --- Phases qui durent plus longtemps que d'habitude -------------------------
 
-# Multiple de la duree habituelle a partir duquel la phase merite d'etre
-# signalee, et plancher en seances pour ecarter les phases trop courtes pour
-# que le rapport veuille dire quoi que ce soit.
-PHASE_FACTOR = 2.0
-PHASE_FLOOR = 25
+# Percentile a partir duquel la phase en cours merite d'etre signalee, et
+# plancher en seances : une phase de trois jours peut battre 90 % des autres
+# sans que cela veuille dire quoi que ce soit.
+PHASE_PERCENTILE = 90
+PHASE_FLOOR = 15
 PHASE_SHOWN = 3
 
 
 def long_phases(backtest):
-    """Marches dont l'etat actuel dure anormalement longtemps.
+    """Marches dont l'etat actuel dure plus longtemps que d'ordinaire.
 
     Ce n'est ni une alerte ni une prevision : une phase longue ne se retourne
     pas parce qu'elle est longue. C'est un fait de contexte, du meme ordre
     qu'un percentile — et il repond a une question que le tableau posait sans
-    y repondre : « haussier depuis 72 jours, c'est beaucoup ou pas ? »
+    y repondre : « haussier depuis 57 seances, c'est beaucoup ou pas ? »
     """
     found = []
     for asset in ((backtest or {}).get("assets") or {}).values():
         current = asset.get("current") or {}
-        sessions = current.get("sessions")
-        usual = current.get("usual_sessions")
-        if not sessions or not usual or usual <= 0:
+        sessions = current.get("sessions") or 0
+        rank = current.get("longer_than_pct")
+        if rank is None or sessions < PHASE_FLOOR or rank < PHASE_PERCENTILE:
             continue
-        if sessions < PHASE_FLOOR or sessions < usual * PHASE_FACTOR:
-            continue
-        found.append((sessions / usual, asset["label"], current, sessions, usual))
+        found.append((rank, sessions, asset["label"], current))
     return sorted(found, reverse=True)
 
 
@@ -569,20 +567,22 @@ def render_long_phases(backtest):
     if not phases:
         return ""
     rows = []
-    for _, label, current, sessions, usual in phases[:PHASE_SHOWN]:
+    for rank, sessions, label, current in phases[:PHASE_SHOWN]:
         word, colour = TREND_TEXT.get(current["trend"], ("état inconnu", GRAY))
         rows.append(
             f'<li><span class="ctx-top">'
             f'<span class="ctx-label">{html.escape(label)}</span>'
             f'<span class="ctx-value" style="color:{colour}">{sessions} séances'
             f'</span></span><span class="ctx-sentence">'
-            f'{html.escape(word.lower())} sans interruption, alors que ces '
-            f'phases en durent {usual} d\'habitude sur ce marché.</span></li>')
+            f'{html.escape(word.lower())} sans interruption — plus long que '
+            f'{rank} % des {current.get("past_phases", 0)} phases de même '
+            'nature qu\'a connues ce marché.</span></li>')
     return ('<h2>Des phases qui durent</h2>'
             f'<ul class="context">{"".join(rows)}</ul>'
-            '<div class="news-note">Durée médiane des phases passées, sur '
-            'l\'historique disponible. Une phase longue ne se retourne pas '
-            'parce qu\'elle est longue : c\'est un repère, pas un signal.</div>')
+            '<div class="news-note">Comparaison avec les phases passées du '
+            'même marché, sur l\'historique disponible. Une phase longue ne '
+            'se retourne pas parce qu\'elle est longue : c\'est un repère, '
+            'pas un signal.</div>')
 
 
 # --- Ce que valent les signaux ----------------------------------------------

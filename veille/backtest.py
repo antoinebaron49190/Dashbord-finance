@@ -68,7 +68,7 @@ ATTEMPTS = 2
 
 # Version du format ecrit. A incrementer des qu'un champ apparait : un
 # fichier d'une version anterieure est alors recalcule sans attendre.
-SCHEMA = 3
+SCHEMA = 4
 
 # Age au-dela duquel le backtest est recalcule. Une journee : la mesure porte
 # sur des annees, une seance de plus ou de moins n'y change rien.
@@ -309,13 +309,20 @@ def analogues(closes, ma200, horizon=VERDICT_HORIZON, buckets=BUCKETS):
 
 
 def current_state(dates, trends, lengths):
-    """Etat de tendance du jour, depuis quand il dure, et ce qui est habituel.
+    """Etat de tendance du jour, depuis quand il dure, et si c'est long.
 
-    « Haussiere » tout court ne dit pas grand-chose. « Haussiere depuis 34
-    jours, alors que ces phases en durent 21 d'habitude » situe la position
-    dans le temps et dans l'histoire du marche. Les deux sont disponibles des
-    le premier jour d'utilisation, contrairement a une memoire que l'outil
-    mettrait des mois a se constituer.
+    « Haussiere » tout court ne dit pas grand-chose. « Haussiere depuis 57
+    seances, plus long que 96 % des phases haussieres passees » situe la
+    position dans l'histoire du marche, et c'est disponible des le premier
+    jour d'utilisation.
+
+    On compare a un PERCENTILE et non a la mediane. Mesuree, la mediane des
+    phases tombe a deux ou trois seances sur la plupart des indices : au
+    contact des moyennes mobiles l'etat bascule d'un jour a l'autre, ce qui
+    fabrique une nuee de phases minuscules. Annoncer « 57 seances alors que
+    ces phases en durent 3 » serait exact et trompeur — le 3 decrit le bruit,
+    pas une duree typique. Le percentile, lui, reste juste : beaucoup de
+    phases courtes rendent simplement une phase longue d'autant plus rare.
     """
     if len(trends) < 201:
         return None
@@ -326,16 +333,21 @@ def current_state(dates, trends, lengths):
     start = len(trends) - 1
     while start > 200 and trends[start - 1] == latest:
         start -= 1
+    sessions = len(trends) - start
 
-    usual = median(lengths.get(latest) or [])
+    past = lengths.get(latest) or []
+    rank = (round(sum(1 for length in past if length < sessions)
+                  / len(past) * 100) if past else None)
+
     return {
         "trend": latest,
         "since": dates[start],
         "days": (datetime.strptime(dates[-1], "%Y-%m-%d")
                  - datetime.strptime(dates[start], "%Y-%m-%d")).days,
-        "sessions": len(trends) - start,
-        "usual_sessions": None if usual is None else round(usual),
-        "past_phases": len(lengths.get(latest) or []),
+        "sessions": sessions,
+        "longer_than_pct": rank,
+        "median_sessions": None if not past else round(median(past)),
+        "past_phases": len(past),
     }
 
 
