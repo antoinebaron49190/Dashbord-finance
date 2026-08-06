@@ -1,6 +1,6 @@
 {
-  "schema": 3,
-  "generated_at": "2026-08-06T12:45:41.066837+00:00",
+  "schema": 4,
+  "generated_at": "2026-08-06T12:48:51.018436+00:00",
   "horizon_days": 20,
   "assets": {
     "btc": {
@@ -12,7 +12,8 @@
         "since": "2026-08-02",
         "days": 4,
         "sessions": 5,
-        "usual_sessions": 3,
+        "longer_than_pct": 70,
+        "median_sessions": 3,
         "past_phases": 27
       },
       "states": {
@@ -42,7 +43,7 @@
         "positive_pct": 47.7
       },
       "analogues": {
-        "current_stretch": -8.58,
+        "current_stretch": -8.59,
         "bucket": 3,
         "buckets": 5,
         "range_pct": [
@@ -69,7 +70,8 @@
         "since": "2026-07-10",
         "days": 27,
         "sessions": 28,
-        "usual_sessions": 9,
+        "longer_than_pct": 83,
+        "median_sessions": 9,
         "past_phases": 12
       },
       "states": {
@@ -99,7 +101,7 @@
         "positive_pct": 47.7
       },
       "analogues": {
-        "current_stretch": -7.99,
+        "current_stretch": -7.98,
         "bucket": 4,
         "buckets": 5,
         "range_pct": [
@@ -126,7 +128,8 @@
         "since": "2026-07-31",
         "days": 5,
         "sessions": 4,
-        "usual_sessions": 5,
+        "longer_than_pct": 43,
+        "median_sessions": 5,
         "past_phases": 28
       },
       "states": {
@@ -183,7 +186,8 @@
         "since": "2026-08-04",
         "days": 1,
         "sessions": 2,
-        "usual_sessions": 4,
+        "longer_than_pct": 28,
+        "median_sessions": 4,
         "past_phases": 32
       },
       "states": {
@@ -240,7 +244,8 @@
         "since": "2026-05-05",
         "days": 93,
         "sessions": 66,
-        "usual_sessions": 3,
+        "longer_than_pct": 100,
+        "median_sessions": 3,
         "past_phases": 45
       },
       "states": {
@@ -270,7 +275,7 @@
         "positive_pct": 60.5
       },
       "analogues": {
-        "current_stretch": 9.8,
+        "current_stretch": 9.76,
         "bucket": 5,
         "buckets": 5,
         "range_pct": [
@@ -297,7 +302,8 @@
         "since": "2026-05-20",
         "days": 78,
         "sessions": 57,
-        "usual_sessions": 3,
+        "longer_than_pct": 98,
+        "median_sessions": 3,
         "past_phases": 43
       },
       "states": {
@@ -327,7 +333,7 @@
         "positive_pct": 56.0
       },
       "analogues": {
-        "current_stretch": 6.45,
+        "current_stretch": 6.49,
         "bucket": 5,
         "buckets": 5,
         "range_pct": [
@@ -354,7 +360,8 @@
         "since": "2026-07-24",
         "days": 13,
         "sessions": 10,
-        "usual_sessions": 7,
+        "longer_than_pct": 54,
+        "median_sessions": 7,
         "past_phases": 37
       },
       "states": {
@@ -384,7 +391,7 @@
         "positive_pct": 61.9
       },
       "analogues": {
-        "current_stretch": 7.12,
+        "current_stretch": 7.1,
         "bucket": 4,
         "buckets": 5,
         "range_pct": [
@@ -411,7 +418,8 @@
         "since": "2026-07-17",
         "days": 20,
         "sessions": 14,
-        "usual_sessions": 2,
+        "longer_than_pct": 93,
+        "median_sessions": 2,
         "past_phases": 42
       },
       "states": {
@@ -468,7 +476,8 @@
         "since": "2026-08-06",
         "days": 0,
         "sessions": 1,
-        "usual_sessions": 2,
+        "longer_than_pct": 0,
+        "median_sessions": 2,
         "past_phases": 54
       },
       "states": {
@@ -498,7 +507,7 @@
         "positive_pct": 47.6
       },
       "analogues": {
-        "current_stretch": -0.72,
+        "current_stretch": -0.85,
         "bucket": 2,
         "buckets": 5,
         "range_pct": [
@@ -525,7 +534,8 @@
         "since": "2026-07-10",
         "days": 27,
         "sessions": 20,
-        "usual_sessions": 2,
+        "longer_than_pct": 76,
+        "median_sessions": 2,
         "past_phases": 17
       },
       "states": {
@@ -582,7 +592,8 @@
         "since": "2026-07-30",
         "days": 6,
         "sessions": 5,
-        "usual_sessions": 14,
+        "longer_than_pct": 42,
+        "median_sessions": 14,
         "past_phases": 26
       },
       "states": {
@@ -654,9 +665,9 @@
   "context": [
     {
       "label": "VIX (nervosité des actions américaines)",
-      "value": "16,0",
-      "percentile": 29,
-      "sentence": "plus calme que 71 % des 5 dernières années"
+      "value": "15,9",
+      "percentile": 28,
+      "sentence": "plus calme que 72 % des 5 dernières années"
     },
     {
       "label": "Fear & Greed crypto",
