@@ -38,6 +38,7 @@ from lexique import (
     LEXIQUE,
     TIER1_MULTIPLIER,
 )
+from sources import get_source_by_id
 
 DATA_DIR = Path(__file__).parent / "data"
 ARTICLES_PATH = DATA_DIR / "articles.json"
@@ -183,8 +184,31 @@ def raw_crypto_tone(categories):
     return round(total, 4)
 
 
+def refresh_source_fields(article):
+    """Reprend le niveau, le poids et les marches declares dans le registre.
+
+    Ces trois champs sont recopies dans chaque article au moment de la
+    collecte. Quand `sources.py` change — un marche declare qu'on resserre,
+    un poids qu'on ajuste — les articles deja collectes gardent sinon
+    l'ancienne valeur pour toujours, et le corpus devient un melange de deux
+    regles. Le registre fait autorite au moment de l'analyse, pas au moment
+    de la collecte.
+
+    Un article dont la source a disparu du registre garde ce qu'il a : le
+    supprimer ferait un trou dans l'historique pour une raison qui ne le
+    concerne pas.
+    """
+    source = get_source_by_id(article.get("source", ""))
+    if source:
+        article["tier"] = source["tier"]
+        article["weight"] = source["weight"]
+        article["assets"] = list(source["assets"])
+    return article
+
+
 def analyze_article(article):
     """Enrichit un article avec son analyse lexicale. Idempotent."""
+    refresh_source_fields(article)
     text = normalize(f"{article.get('title', '')} {article.get('summary', '')}")
 
     categories = score_categories(text)
