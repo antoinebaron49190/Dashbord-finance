@@ -18,7 +18,8 @@ veille/
   agenda.py          calendrier des echeances (Fed, BCE)
   backtest.py        ce que les signaux ont reellement valu
   alerte.py          detection des faits qui meritent une notification
-  build_site.py      generation de la page statique
+  build_site.py      generation de la page : QUOI montrer
+  design.py          jetons, feuille de style, script, icones : A QUOI ca ressemble
   data/
     articles.json    articles des 90 derniers jours
     index.json       serie quotidienne (conservee indefiniment)
@@ -555,21 +556,42 @@ python build_site.py
 passe devant parce que c'est ce qu'on vient chercher ; les mesures restent,
 mais elles servent la lecture au lieu de l'ouvrir.
 
-1. **L'etat du monde en deux phrases.** Combien de marches sont orientes a la
-   hausse, et de quel cote penche l'actualite de la semaine.
+1. **L'etat du monde en cinq secondes.** Un titre, deux phrases, et quatre
+   tuiles : marches haussiers, ton de l'actualite, nervosite (VIX),
+   sentiment crypto.
 2. **L'essentiel.** La synthese redigee des points a connaitre, si la cle
    Claude existe. Sinon, une ligne qui dit comment l'activer — plutot que de
    disparaitre en silence, sans quoi la fonction reste invisible et personne
    ne l'active jamais.
-3. **Ce qui a change.** Les trois derniers basculements de tendance. C'est ce
-   qui justifie d'ouvrir la page aujourd'hui plutot qu'hier.
-4. **L'actualite, region par region.** Quatre blocs — Amerique, Europe, Asie,
-   Crypto — chacun avec l'etat de ses marches, ses cours, **trois titres
-   cliquables** avec leur source et leur anciennete, et le decompte de la
-   semaine. C'est le coeur de la page.
-5. **A surveiller.** Les quatre prochaines decisions de banques centrales.
-6. Puis la partie analytique : situations comparables, phases qui durent,
-   valeur mesuree des signaux, correlations, reperes historiques.
+3. **Les marches, region par region.** Quatre cartes — Amerique, Europe,
+   Asie, Crypto — chacune avec son etat, sa **courbe des derniers releves**,
+   ses cours et le decompte de son actualite.
+4. **Le flux d'actualite.** Le coeur de la page : recherche instantanee,
+   filtres par region, favoris et « a lire », et une carte par article
+   portant sa rubrique, son impact, son ton, ses marches, son extrait, sa
+   source, son anciennete et un lien vers l'original.
+5. Puis le contexte et les mesures : ce qui a change, le calendrier des
+   banques centrales, situations comparables, phases qui durent, valeur
+   mesuree des signaux, correlations, reperes historiques.
+
+### Le flux : ce que le navigateur fait, et ce qu'il ne fait pas
+
+Recherche, filtres, favoris et liste « a lire » sont **entierement locaux**.
+Le script ne fabrique aucune donnee : tout est deja dans le HTML, il ne fait
+que masquer, compter et retenir. Les preferences vivent dans le
+`localStorage` du telephone — le depot est public, rien de personnel ne doit
+en sortir — et un stockage indisponible (navigation privee) n'empeche jamais
+la page de fonctionner.
+
+**Chaque region a un quota reserve.** Un classement purement global etouffe
+les regions peu bavardes : mesure sur les vraies donnees, l'Asie ne placait
+qu'**un article sur trente**, ce qui vidait de son sens le filtre par region
+et la promesse d'une veille mondiale. Cinq places sont donc reservees par
+region, le reste va aux meilleurs articles quelle que soit leur origine.
+
+**L'extrait disparait quand il repete le titre.** Plusieurs flux — la Fed en
+particulier — recopient le titre dans le resume ; une carte qui dit deux fois
+la meme phrase fait moins serieux qu'une carte sans extrait.
 
 ### Le classement editorial des titres
 
@@ -623,16 +645,51 @@ secondes sur un telephone ne sert a rien. Le code reste dans l'historique
 git (commit `da89e9f`) si le besoin revient. Les donnees, elles, continuent
 d'etre collectees et conservees dans `data/`.
 
-### Mobile et mise en forme
+## Le systeme de design (`design.py`)
 
-Une seule colonne, aucun defilement horizontal, zones tactiles de 44 pt
-minimum, theme sombre, aucun texte sous 14 px. Verifie au rendu dans un
-navigateur en 390x844.
+Le rendu et la mise en forme sont deux metiers differents : `build_site.py`
+decide QUOI montrer, `design.py` decide a quoi cela ressemble. Chacun se
+relit sans faire defiler l'autre.
 
-Chaque region porte une **couleur d'accent** — Amerique bleu, Europe violet,
-Asie ambre, Crypto turquoise — sur un filet en haut de bloc. Elle sert a
-distinguer les regions entre elles, jamais a porter une information : celle-ci
-est toujours ecrite en toutes lettres a cote.
+Trois regles tiennent tout le reste :
+
+1. **La couleur ne porte jamais seule une information.** Le bleu est l'accent
+   de l'interface, le vert ne sert qu'aux donnees favorables, le rouge qu'aux
+   alertes. Chaque etat est double d'un mot. Les quatre accents de region —
+   bleu, violet, ambre, turquoise — distinguent les regions entre elles,
+   jamais un etat de marche.
+2. **Aucune ressource externe.** Pas de police distante, pas de bibliotheque
+   d'icones, pas de feuille de style tierce. Les icones sont un jeu maison
+   dessine sur la meme grille de 24, meme graisse (1.75), memes extremites
+   arrondies : melanger deux jeux d'icones se voit immediatement.
+3. **Les animations ne portent que `opacity` et `transform`**, les deux
+   seules proprietes que le navigateur compose sans recalculer la mise en
+   page — c'est ce qui les tient a 60 images par seconde.
+   `prefers-reduced-motion` les desactive entierement, et sans
+   `IntersectionObserver` tout s'affiche immediatement : l'apparition
+   progressive est un bonus, jamais une condition pour voir le contenu.
+
+### Accessibilite, verifiee et non supposee
+
+| couleur | contraste sur le fond | verdict |
+|---------|----------------------|---------|
+| texte `#EAEEF6` | 16,9:1 | AA et AAA |
+| secondaire `#A6B0C2` | 9,0:1 | AA et AAA |
+| tertiaire `#79839A` | 5,2:1 | AA |
+| accent `#4C8DFF` | 6,1:1 | AA |
+| vert `#3ED598` | 10,5:1 | AA et AAA |
+| rouge `#FF6B6B` | 7,1:1 | AA |
+
+Aucun texte sous 14 px, aucune zone tactile sous 38 px, `:focus-visible`
+sur tous les elements interactifs, `aria-pressed` sur les bascules, libelles
+`aria-label` sur les boutons a icone seule. Mesures faites au rendu, pas
+estimees.
+
+### Responsive
+
+Une colonne sur telephone, deux a partir de 720 px, jusqu'a quatre cartes de
+marche et deux colonnes de flux au-dela de 1080 px. Verifie sans debordement
+horizontal en 390x844, 834x1112 et 1440x900.
 
 Les nombres utilisent la typographie francaise : virgule decimale, espace
 insecable pour les milliers, **vrai signe moins** (U+2212) et non un trait

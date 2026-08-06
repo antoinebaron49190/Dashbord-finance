@@ -3,23 +3,26 @@
 
 La page est d'abord un JOURNAL. Elle repond, dans cet ordre :
 
-  1. Qu'est-ce qui a bouge depuis la derniere fois ?
-  2. Que raconte l'actualite financiere, region par region ? — Amerique,
-     Europe, Asie, Crypto, chacune avec l'etat de ses marches ET les titres
-     qui la concernent.
-  3. Quelles echeances arrivent ?
-  4. Ce que valent ces signaux, et ou en sont les chiffres dans leur
-     histoire — la partie analytique, volontairement placee apres.
+  1. Ou en est le monde, en cinq secondes ? — l'en-tete et ses quatre
+     chiffres cles.
+  2. Qu'est-ce qui a bouge, et que faut-il savoir ? — l'essentiel redige,
+     les basculements, puis l'etat des quatre regions.
+  3. Que raconte l'actualite ? — le flux, cherchable et filtrable, ou chaque
+     article porte sa rubrique, son importance, son extrait, ses marches et
+     un lien vers la source.
+  4. Qu'est-ce qui arrive, et que valent ces signaux ? — le calendrier, puis
+     la partie analytique, volontairement placee en dernier.
 
-L'actualite passe devant parce que c'est ce qu'on vient chercher. Les
-mesures restent, mais elles servent la lecture au lieu de l'ouvrir.
+Ce module decide QUOI montrer. `design.py` decide a quoi cela ressemble :
+jetons, feuille de style, script et icones y vivent ensemble.
 
 Contraintes tenues ici :
-  - un seul fichier HTML, CSS inclus dedans ;
+  - un seul fichier HTML, CSS et JS inclus dedans ;
   - aucun framework, aucune compilation, aucune dependance externe ;
-  - donnees injectees a la generation : la page ne fait aucune requete ;
-  - pensee pour un iPhone 14 (390 pt), une seule colonne, theme sombre ;
-  - aucun texte sous 14 px, aucune zone tactile sous 44 pt.
+  - donnees injectees a la generation : la page ne fait aucune requete, elle
+    s'ouvre entiere hors ligne ;
+  - du telephone au grand ecran, sans defilement horizontal ;
+  - aucun texte sous 14 px, aucune zone tactile sous 38 px.
 
 Usage:
     python build_site.py
@@ -34,6 +37,9 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+from design import (CATEGORY_STYLE, ICONS, REGION_ACCENTS, SCRIPT, TOKENS,
+                    icon, stylesheet)
+
 ROOT = Path(__file__).parent
 DATA_DIR = ROOT / "data"
 DOCS_DIR = ROOT.parent / "docs"
@@ -41,43 +47,42 @@ DOCS_DIR = ROOT.parent / "docs"
 PARIS = ZoneInfo("Europe/Paris")
 
 NEWS_WINDOW_DAYS = 7        # fenetre du decompte favorable/defavorable
-HEADLINE_WINDOW_HOURS = 72  # fenetre des titres affiches
-HEADLINES_PER_ZONE = 3
+FEED_WINDOW_HOURS = 96      # fenetre du flux
+FEED_MAX = 32               # articles injectes dans la page
+FEED_PER_ZONE = 5           # places reservees a chaque region
+EXCERPT_CHARS = 190
 
-# --- Palette ---------------------------------------------------------------
-# Fond profond, surfaces legerement plus claires, une couleur d'accent par
-# region. La couleur ne porte jamais seule l'information : chaque etat reste
-# double d'un mot, l'accent ne sert qu'a distinguer les regions entre elles.
+TEXT = TOKENS["text"]
+DIM = TOKENS["dim"]
+FAINT = TOKENS["faint"]
+GREEN = TOKENS["positive"]
+RED = TOKENS["negative"]
+GRAY = TOKENS["dim"]
+ACCENT = TOKENS["accent"]
 
-BG = "#0a0c10"
-SURFACE = "#12151b"
-SURFACE_2 = "#171b22"
-BORDER = "#232833"
-BORDER_SOFT = "#1c212a"
-TEXT = "#eaeef4"
-TEXT_DIM = "#98a2b2"
-TEXT_FAINT = "#6f7a8a"
-GREEN = "#5ec48f"
-RED = "#e0736b"
-GRAY = "#8b94a3"
-
-# (cle, libelle, section macro.json, unite, [(indice, nom)], [actifs], accent)
+# (cle, libelle, section macro.json, unite, [(indice, nom)], [actifs])
 ZONES = [
     ("amerique", "Amérique", "equities", "", [
-        ("sp500", "S&P 500"), ("nasdaq", "Nasdaq")], ["sp500"], "#6aa9ff"),
+        ("sp500", "S&P 500"), ("nasdaq", "Nasdaq")], ["sp500"]),
     ("europe", "Europe", "equities", "", [
         ("eurostoxx", "Euro Stoxx 50"), ("cac40", "CAC 40"), ("dax", "DAX")],
-        ["europe"], "#a78bfa"),
+        ["europe"]),
     ("asie", "Asie", "equities", "", [
         ("nikkei", "Nikkei"), ("hangseng", "Hang Seng"),
-        ("shanghai", "Shanghai")], ["asie"], "#f0b45f"),
+        ("shanghai", "Shanghai")], ["asie"]),
     ("crypto", "Crypto", "crypto", " $", [
-        ("btc", "Bitcoin"), ("eth", "Ethereum")], ["btc", "eth"], "#4fd0b0"),
+        ("btc", "Bitcoin"), ("eth", "Ethereum")], ["btc", "eth"]),
 ]
 
 GLOBAL_INDEX = ("msci_world", "MSCI World", "equities")
 
-# Noms lisibles des sources, pour la signature sous chaque titre.
+# Rattache un actif du lexique a la region qui le porte sur la page.
+ASSET_ZONE = {"sp500": "amerique", "europe": "europe", "asie": "asie",
+              "btc": "crypto", "eth": "crypto"}
+
+ASSET_LABEL = {"sp500": "Amérique", "europe": "Europe", "asie": "Asie",
+               "btc": "Bitcoin", "eth": "Ethereum", "msci_world": "Monde"}
+
 SOURCE_NAMES = {
     "bce_press": "BCE", "bce_pub": "BCE", "fed_press_all": "Fed",
     "fed_press_monetary": "Fed", "fed_speeches": "Fed",
@@ -96,6 +101,10 @@ DISCLAIMER = (
     "Ces indicateurs décrivent l'actualité. Ils ne prédisent rien. "
     "Aucune valeur prédictive n'a été démontrée à ce jour."
 )
+
+# Espace fine insecable : typographie francaise devant le signe pourcent, et
+# elle empeche « −4,2 » de finir une ligne en laissant le « % » sur la suivante.
+NBSP = " "
 
 
 # --- Icone PNG generee sans dependance --------------------------------------
@@ -122,19 +131,19 @@ def hex_rgb(value):
 
 
 def build_icon(size):
-    """Quatre barres, une par region suivie, dans les couleurs d'accent."""
-    bg = hex_rgb(BG)
+    """Quatre barres, une par region, dans les couleurs d'accent."""
+    bg = hex_rgb(TOKENS["bg"])
     rows = [[bg for _ in range(size)] for _ in range(size)]
 
     unit = size / 180.0
-    baseline = int(148 * unit)
-    bar_w = int(26 * unit)
-    gap = int(10 * unit)
-    left = int(26 * unit)
+    baseline = int(146 * unit)
+    bar_w = max(1, int(26 * unit))
+    gap = max(1, int(11 * unit))
+    left = int(27 * unit)
 
-    heights = [62, 104, 46, 122]
-    for i, (height, zone) in enumerate(zip(heights, ZONES)):
-        colour = hex_rgb(zone[6])
+    for i, (height, zone) in enumerate(zip([64, 106, 48, 124], ZONES)):
+        key = zone[0]
+        colour = hex_rgb(REGION_ACCENTS[key])
         x0 = left + i * (bar_w + gap)
         x1 = min(size, x0 + bar_w)
         y0 = max(0, baseline - int(height * unit))
@@ -142,9 +151,9 @@ def build_icon(size):
             for x in range(x0, x1):
                 rows[y][x] = colour
 
-    rail = hex_rgb(BORDER)
+    rail = hex_rgb("#232833")
     for y in range(baseline, min(size, baseline + max(1, int(4 * unit)))):
-        for x in range(left, min(size, int(156 * unit))):
+        for x in range(left, min(size, int(154 * unit))):
             rows[y][x] = rail
 
     return png_bytes(size, size, rows)
@@ -164,7 +173,7 @@ def number(value, decimals=2):
     if value is None:
         return "--"
     formatted = f"{value:,.{decimals}f}"
-    return formatted.replace(",", " ").replace(".", ",")
+    return formatted.replace(",", " ").replace(".", ",")
 
 
 def price_text(value, unit):
@@ -173,18 +182,8 @@ def price_text(value, unit):
     return number(value, 0 if value >= 1000 else 2) + unit
 
 
-# Espace fine insecable : la typographie francaise en met une devant le
-# signe pourcent, et elle empeche « −4,2 » de finir une ligne en laissant le
-# « % » seul sur la suivante.
-NBSP = " "
-
-
 def percent(value):
-    """Pourcentage signe a la francaise : virgule decimale, vrai signe moins.
-
-    Le trait d'union et le signe moins sont deux caracteres differents ; la
-    page affiche « −50 % » ailleurs, et melanger les deux se voit.
-    """
+    """Pourcentage signe a la francaise : virgule, vrai signe moins."""
     return f"{value:+.1f}{NBSP}%".replace(".", ",").replace("-", "−")
 
 
@@ -211,17 +210,23 @@ def ago(published, now):
     if hours < 24:
         return f"il y a {hours} h"
     days = hours // 24
-    if days == 1:
-        return "hier"
-    return f"il y a {days} j"
+    return "hier" if days == 1 else f"il y a {days} j"
 
 
-# --- Verdict par zone -------------------------------------------------------
+def esc(value):
+    return html.escape(value or "")
 
-TREND_TEXT = {
-    "haussiere": ("Tendance haussière", GREEN),
-    "baissiere": ("Tendance baissière", RED),
-    "indecise": ("Sans direction nette", GRAY),
+
+def attr(value):
+    return html.escape(value or "", quote=True)
+
+
+# --- Marches ----------------------------------------------------------------
+
+TREND_BADGE = {
+    "haussiere": ("Haussière", "badge-up", "trend_up"),
+    "baissiere": ("Baissière", "badge-down", "trend_down"),
+    "indecise": ("Sans direction", "badge-flat", "trend_flat"),
 }
 
 
@@ -233,7 +238,7 @@ def zone_verdict(blocks):
     """
     trends = [b.get("trend") for b in blocks if b.get("trend")]
     if not trends:
-        return "Données indisponibles", GRAY, ""
+        return "Données indisponibles", "badge-flat", "trend_flat", ""
 
     up = trends.count("haussiere")
     down = trends.count("baissiere")
@@ -249,12 +254,11 @@ def zone_verdict(blocks):
         return f"Les {total} indices {position} leurs moyennes 50 et 200 jours."
 
     if up == total:
-        return "Tendance haussière", GREEN, tous("au-dessus de")
+        return "Haussière", "badge-up", "trend_up", tous("au-dessus de")
     if down == total:
-        return "Tendance baissière", RED, tous("sous")
-
+        return "Baissière", "badge-down", "trend_down", tous("sous")
     if up == 0 and down == 0:
-        return ("Sans direction nette", GRAY,
+        return ("Sans direction", "badge-flat", "trend_flat",
                 f"Aucun des {total} indices n'est clairement orienté."
                 if total > 1 else "Indice sans orientation claire.")
 
@@ -266,7 +270,66 @@ def zone_verdict(blocks):
     undecided = total - up - down
     if undecided:
         parts.append(f"{undecided} sans direction")
-    return "Marchés partagés", GRAY, f"Sur {total} indices : {', '.join(parts)}."
+    return ("Partagée", "badge-flat", "trend_flat",
+            f"Sur {total} indices : {', '.join(parts)}.")
+
+
+def history_closes(macro, key, limit=30):
+    """Serie des clotures relevees par l'outil, tous formats d'historique.
+
+    Les journees enregistrees avant l'ajout du sous-objet `assets` rangeaient
+    la cloture a plat. Les lire aussi evite de perdre une semaine de courbe
+    pour une raison de format.
+    """
+    history = (macro or {}).get("history") or {}
+    points = []
+    for day in sorted(history):
+        entry = history[day] or {}
+        assets = entry.get("assets") or {}
+        value = None
+        if isinstance(assets.get(key), dict):
+            value = assets[key].get("close")
+        elif isinstance(entry.get(key), (int, float)):
+            value = entry[key]
+        if isinstance(value, (int, float)):
+            points.append(float(value))
+    return points[-limit:]
+
+
+def sparkline(points, width=76, height=26, colour=ACCENT):
+    """Courbe minimale, en SVG, sans axe ni etiquette.
+
+    Elle ne sert qu'a donner la forme des derniers jours. Sous quatre points,
+    elle ne dirait rien de plus qu'une ligne droite : on ne l'affiche pas.
+    """
+    if len(points) < 4:
+        return ""
+    low, high = min(points), max(points)
+    span = (high - low) or 1.0
+    step = width / (len(points) - 1)
+    coords = [(i * step, height - 3 - (value - low) / span * (height - 6))
+              for i, value in enumerate(points)]
+    line = " ".join(f"{x:.1f},{y:.1f}" for x, y in coords)
+    rising = points[-1] >= points[0]
+    stroke = GREEN if rising else RED
+    area = (f"0,{height} " + line + f" {width},{height}")
+    return (f'<svg class="market-spark" width="{width}" height="{height}" '
+            f'viewBox="0 0 {width} {height}" aria-hidden="true">'
+            f'<polygon points="{area}" fill="{stroke}" opacity=".08"/>'
+            f'<polyline points="{line}" fill="none" stroke="{stroke}" '
+            'stroke-width="1.75" stroke-linecap="round" '
+            'stroke-linejoin="round"/></svg>')
+
+
+def breadth(macro):
+    trends = []
+    for _key, _label, section, _unit, indices, _news in ZONES:
+        source = macro.get(section) or {}
+        for key, _name in indices:
+            trend = (source.get(key) or {}).get("trend")
+            if trend:
+                trends.append(trend)
+    return trends.count("haussiere"), len(trends)
 
 
 # --- Actualite --------------------------------------------------------------
@@ -286,19 +349,73 @@ def editorial_score(article):
     return article.get("importance", 0) * (0.35 + intensity)
 
 
-def zone_headlines(articles, asset_keys, now, count=HEADLINES_PER_ZONE):
-    """Les titres marquants d'une region, dedoublonnes.
+def clean_excerpt(text, title=""):
+    """Extrait lisible, ou rien du tout.
 
-    Les depeches reprennent souvent le meme communique mot pour mot ; sans
-    dedoublonnage sur le debut du titre, une region affiche trois fois la
-    meme nouvelle et donne l'impression qu'il ne s'est rien passe d'autre.
+    Plusieurs flux — la Fed en particulier — recopient le titre dans le
+    resume. L'afficher donnerait une carte qui dit deux fois la meme phrase,
+    ce qui fait moins serieux qu'une carte sans extrait. On compare donc les
+    debuts normalises et on n'affiche que ce qui apporte quelque chose.
     """
-    cutoff = now - timedelta(hours=HEADLINE_WINDOW_HOURS)
-    keys = set(asset_keys)
+    if not text:
+        return ""
+    text = re.sub(r"\s+", " ", text).strip()
+
+    def skeleton(value):
+        return re.sub(r"\W+", "", (value or "").lower())[:60]
+
+    if skeleton(text) == skeleton(title):
+        return ""
+    if len(text) <= EXCERPT_CHARS:
+        return text
+    cut = text[:EXCERPT_CHARS].rsplit(" ", 1)[0]
+    return cut + "…"
+
+
+def impact_words(article):
+    """Importance et sens, en mots. Deux mesures distinctes, jamais melangees.
+
+    L'importance vient de la source et du type d'article ; le sens vient du
+    lexique. Un communique de banque centrale peut etre tres important et
+    parfaitement neutre — les confondre en une seule note ferait dire au
+    tableau ce qu'il ne mesure pas.
+    """
+    importance = article.get("importance", 0)
+    if importance >= 1.5:
+        level, css = "Impact élevé", "tag-high"
+    elif importance >= 0.8:
+        level, css = "Impact modéré", "tag"
+    else:
+        level, css = "Impact limité", "tag"
+
+    tone = article.get("tone", 0)
+    if tone >= 0.15:
+        sense, colour = "favorable", GREEN
+    elif tone <= -0.15:
+        sense, colour = "défavorable", RED
+    else:
+        sense, colour = "neutre", FAINT
+    return level, css, sense, colour
+
+
+def feed_articles(articles, now):
+    """Les articles du flux : recents, porteurs de signal, dedoublonnes.
+
+    Deux garde-fous, tous deux constates sur les vraies donnees :
+
+    Les depeches reprennent souvent le meme communique mot pour mot. Sans
+    dedoublonnage sur le debut du titre, le flux affiche trois fois la meme
+    nouvelle et donne l'impression qu'il ne s'est rien passe d'autre.
+
+    Un classement purement global etouffe les regions peu bavardes : mesure
+    ici, l'Asie ne placait qu'UN article sur trente, ce qui vide de son sens
+    le filtre par region et la promesse d'une veille mondiale. Chaque region
+    recoit donc un quota reserve, et les places restantes vont aux meilleurs
+    articles quelle que soit leur origine.
+    """
+    cutoff = now - timedelta(hours=FEED_WINDOW_HOURS)
     pool = []
     for article in articles:
-        if not keys & set(article.get("assets_effective") or []):
-            continue
         if not article.get("categories") and article.get("scored_by") != "claude":
             continue
         published = parse_date(article.get("published_at"))
@@ -309,48 +426,135 @@ def zone_headlines(articles, asset_keys, now, count=HEADLINES_PER_ZONE):
     pool.sort(key=lambda row: (-row[0], -row[1].timestamp()))
 
     seen = set()
-    kept = []
-    for _, published, article in pool:
+    chosen = {}
+
+    def take(score, published, article):
         fingerprint = re.sub(r"\W+", " ", article.get("title", "").lower())[:45]
-        if fingerprint in seen:
-            continue
+        if fingerprint in seen or article["id"] in chosen:
+            return False
         seen.add(fingerprint)
-        kept.append((article, published))
-        if len(kept) >= count:
+        chosen[article["id"]] = (score, published, article)
+        return True
+
+    for key, *_rest in ZONES:
+        quota = 0
+        for score, published, article in pool:
+            zones = {ASSET_ZONE.get(a) for a in
+                     (article.get("assets_effective") or [])}
+            if key not in zones:
+                continue
+            if take(score, published, article):
+                quota += 1
+            if quota >= FEED_PER_ZONE:
+                break
+
+    for score, published, article in pool:
+        if len(chosen) >= FEED_MAX:
             break
-    return kept
+        take(score, published, article)
+
+    ordered = sorted(chosen.values(), key=lambda row: (-row[0],
+                                                       -row[1].timestamp()))
+    return [(article, published) for _score, published, article in ordered]
 
 
-def render_headlines(articles, asset_keys, now):
-    items = zone_headlines(articles, asset_keys, now)
+def render_story(article, published, now):
+    category = article.get("category", "marche")
+    cat_label, cat_colour = CATEGORY_STYLE.get(category,
+                                               ("Marché", TOKENS["dim"]))
+    level, level_css, sense, sense_colour = impact_words(article)
+
+    zones = sorted({ASSET_ZONE[a] for a in (article.get("assets_effective") or [])
+                    if a in ASSET_ZONE})
+    marches = [ASSET_LABEL[a] for a in (article.get("assets_effective") or [])
+               if a in ASSET_LABEL]
+
+    source = SOURCE_NAMES.get(article.get("source", ""), article.get("source", ""))
+    excerpt = clean_excerpt(article.get("summary"), article.get("title"))
+    url = attr(safe_url(article.get("url", "")))
+    identifier = attr(article.get("id", ""))
+
+    haystack = " ".join([article.get("title", ""), source, cat_label,
+                         " ".join(marches), excerpt]).lower()
+
+    tags = [f'<span class="tag tag-cat">{esc(cat_label)}</span>',
+            f'<span class="{level_css}">{esc(level)}</span>',
+            f'<span class="tag" style="color:{sense_colour}">Ton {esc(sense)}</span>']
+    for name in marches[:3]:
+        tags.append(f'<span class="tag">{esc(name)}</span>')
+
+    return (
+        f'<article class="card story reveal" data-story data-id="{identifier}" '
+        f'data-zones="{attr(" ".join(zones))}" data-search="{attr(haystack)}" '
+        f'style="--cat:{cat_colour}">'
+        f'<div class="story-head">{"".join(tags)}</div>'
+        f'<h3 class="story-title">{esc(article.get("title", ""))}</h3>'
+        + (f'<p class="story-excerpt">{esc(excerpt)}</p>' if excerpt else "")
+        + '<div class="story-foot">'
+        f'<span class="story-src">{esc(source)}</span>'
+        f'<span class="dotsep">·</span><span>{esc(ago(published, now))}</span>'
+        '<span class="story-actions">'
+        f'<button class="act" type="button" data-act="fav" aria-pressed="false" '
+        f'title="Mettre en favori" aria-label="Mettre en favori">'
+        f'{icon("star", 18)}</button>'
+        f'<button class="act" type="button" data-act="later" aria-pressed="false" '
+        f'title="Lire plus tard" aria-label="Lire plus tard">'
+        f'{icon("clock", 18)}</button>'
+        f'<a class="act" href="{url}" target="_blank" rel="noopener noreferrer" '
+        f'title="Ouvrir la source" aria-label="Ouvrir la source">'
+        f'{icon("external", 18)}</a>'
+        '</span></div></article>')
+
+
+def render_feed(articles, now):
+    items = feed_articles(articles, now)
     if not items:
-        return ('<p class="no-news">Aucun titre marquant sur cette région '
-                'ces trois derniers jours.</p>')
-    rows = []
-    for article, published in items:
-        tone = article.get("tone", 0)
-        if tone >= 0.15:
-            dot = GREEN
-        elif tone <= -0.15:
-            dot = RED
-        else:
-            dot = TEXT_FAINT
-        source = SOURCE_NAMES.get(article.get("source", ""),
-                                  article.get("source", ""))
-        url = html.escape(safe_url(article.get("url", "")), quote=True)
-        rows.append(
-            f'<a class="story" href="{url}" target="_blank" rel="noopener noreferrer">'
-            f'<span class="story-dot" style="background:{dot}"></span>'
-            f'<span class="story-body">'
-            f'<span class="story-title">{html.escape(article.get("title", ""))}</span>'
-            f'<span class="story-meta">{html.escape(source)}'
-            f'<span class="story-sep">·</span>{ago(published, now)}</span>'
-            '</span></a>')
-    return "".join(rows)
+        return ""
+
+    counts = {key: 0 for key, *_ in ZONES}
+    for article, _ in items:
+        for asset in article.get("assets_effective") or []:
+            zone = ASSET_ZONE.get(asset)
+            if zone:
+                counts[zone] += 1
+
+    chips = [f'<button class="chip" type="button" data-filter="tout" '
+             f'aria-pressed="true">Tout<span class="chip-count">'
+             f'{len(items)}</span></button>']
+    for key, label, *_ in ZONES:
+        chips.append(f'<button class="chip" type="button" data-filter="{key}" '
+                     f'aria-pressed="false">{esc(label)}'
+                     f'<span class="chip-count">{counts[key]}</span></button>')
+    chips.append('<button class="chip" type="button" data-filter="fav" '
+                 f'aria-pressed="false">{icon("star", 15)}Favoris</button>')
+    chips.append('<button class="chip" type="button" data-filter="later" '
+                 f'aria-pressed="false">{icon("clock", 15)}À lire</button>')
+
+    stories = "".join(render_story(article, published, now)
+                      for article, published in items)
+
+    return (
+        '<section class="section">'
+        '<div class="section-head">'
+        f'<p class="eyebrow">{icon("globe", 16)}L\'actualité financière</p>'
+        f'<span class="section-sub"><span id="feed-count">{len(items)}</span> '
+        f'articles · {FEED_WINDOW_HOURS // 24} derniers jours · classés par '
+        'importance</span></div>'
+        '<div class="toolbar">'
+        f'<label class="search">{icon("search", 18)}'
+        '<input id="q" type="search" placeholder="Rechercher un titre, une '
+        'source, un marché…" aria-label="Rechercher dans l\'actualité">'
+        '</label>'
+        f'<div class="chips" role="group" aria-label="Filtres">{"".join(chips)}'
+        '</div></div>'
+        f'<div class="feed" id="feed">{stories}</div>'
+        '<div class="card empty feed-wide" id="feed-empty" hidden>'
+        '<strong>Aucun article ne correspond</strong>'
+        'Essayez un autre mot-clé, ou revenez au filtre « Tout ».</div>'
+        '</section>')
 
 
 def zone_news_count(articles, asset_keys, now, days=NEWS_WINDOW_DAYS):
-    """Decompte d'articles favorables et defavorables sur la periode."""
     cutoff = now - timedelta(days=days)
     keys = set(asset_keys)
     favorable = defavorable = 0
@@ -386,144 +590,120 @@ def balance_word(favorable, defavorable):
     return "partagée", GRAY
 
 
-# --- Les quatre regions -----------------------------------------------------
-
-def render_regions(macro, articles, now):
-    blocks = []
-    for _key, label, section, unit, indices, news_keys, accent in ZONES:
-        source = macro.get(section) or {}
-        rows = [(name, source.get(k) or {}) for k, name in indices]
-        state, colour, detail = zone_verdict([b for _, b in rows])
-
-        quotes = "".join(
-            f'<span class="quote"><span class="quote-name">'
-            f'{html.escape(name)}</span>'
-            f'<span class="quote-value">{price_text(block.get("price"), unit)}'
-            '</span></span>'
-            for name, block in rows if block.get("price") is not None)
-
-        favorable, defavorable = zone_news_count(articles, news_keys, now)
-        word, word_colour = balance_word(favorable, defavorable)
-        tally = (f'<span class="tally">Actualité 7 jours : '
-                 f'<span style="color:{word_colour}">{word}</span>'
-                 f' · {favorable} pour, {defavorable} contre</span>')
-
-        quotes = quotes or '<span class="quote">--</span>'
-        blocks.append(
-            f'<section class="region" style="--accent:{accent}">'
-            '<header class="region-head">'
-            f'<span class="region-name">{html.escape(label)}</span>'
-            f'<span class="region-state" style="color:{colour}">'
-            f'{html.escape(state)}</span>'
-            '</header>'
-            f'<p class="region-detail">{html.escape(detail)}</p>'
-            f'<div class="quotes">{quotes}</div>'
-            f'<div class="stories">{render_headlines(articles, news_keys, now)}</div>'
-            f'<footer class="region-foot">{tally}</footer>'
-            '</section>')
-
-    key, label, section = GLOBAL_INDEX
-    block = (macro.get(section) or {}).get(key) or {}
-    if block.get("trend"):
-        text, colour = TREND_TEXT[block["trend"]]
-        blocks.append(
-            f'<p class="global-line">{html.escape(label)} '
-            f'{price_text(block.get("price"), "")} — '
-            f'<span style="color:{colour}">{html.escape(text.lower())}</span></p>')
-
-    return "".join(blocks)
-
-
 # --- En-tete ----------------------------------------------------------------
 
-def breadth(macro):
-    """Combien de marches suivis sont orientes a la hausse, sur le total."""
-    trends = []
-    for _key, _label, section, _unit, indices, _news, _accent in ZONES:
-        source = macro.get(section) or {}
-        for key, _name in indices:
-            trend = (source.get(key) or {}).get("trend")
-            if trend:
-                trends.append(trend)
-    if not trends:
-        return None, 0, 0
-    return trends.count("haussiere"), len(trends), trends.count("baissiere")
+def render_topbar(stamp):
+    return (
+        '<div class="topbar"><div class="topbar-in">'
+        f'<span class="brand"><span class="brand-mark">{icon("spark", 17)}</span>'
+        '<span class="brand-name">Veille économique</span></span>'
+        f'<span class="live"><span class="live-dot"></span>{esc(stamp)}</span>'
+        '</div></div>')
 
 
-def render_hero(macro, articles, now, stamp):
-    up, total, down = breadth(macro)
-    if total:
-        colour = GREEN if up * 2 > total else (RED if up * 2 < total else GRAY)
-        marches = (f'<span style="color:{colour}">{up} marché'
-                   f'{"s" if up > 1 else ""} sur {total}</span> '
-                   'au-dessus de leurs moyennes 50 et 200 jours')
-    else:
-        marches = "Données de marché indisponibles"
-
+def render_hero(macro, articles, backtest, now):
+    up, total = breadth(macro)
     favorable = defavorable = 0
-    for _key, _label, _section, _unit, _indices, news_keys, _accent in ZONES:
+    for _key, _label, _section, _unit, _indices, news_keys in ZONES:
         plus, moins = zone_news_count(articles, news_keys, now)
         favorable += plus
         defavorable += moins
     word, word_colour = balance_word(favorable, defavorable)
 
-    return (
-        '<header class="hero">'
-        '<h1>Veille économique</h1>'
-        f'<p class="hero-stamp">{stamp} · heure de Paris</p>'
-        f'<p class="hero-line">{marches}.</p>'
-        f'<p class="hero-line">Actualité <span style="color:{word_colour}">'
-        f'{word}</span> sur les 7 derniers jours : {favorable} article'
-        f'{"s" if favorable > 1 else ""} favorable'
-        f'{"s" if favorable > 1 else ""}, {defavorable} défavorable'
-        f'{"s" if defavorable > 1 else ""}.</p>'
-        '</header>')
+    if total:
+        colour = GREEN if up * 2 > total else (RED if up * 2 < total else DIM)
+        lede = (f'<b style="color:{colour}">{up} des {total} marchés suivis</b> '
+                'sont au-dessus de leurs moyennes 50 et 200 jours, et '
+                f'l\'actualité de la semaine est <b style="color:{word_colour}">'
+                f'{word}</b>.')
+        tile_markets = f'{up}<span style="color:{FAINT}">/{total}</span>'
+    else:
+        lede = ('Les séries de marché sont momentanément indisponibles. '
+                'L\'actualité, elle, continue d\'être collectée.')
+        tile_markets = "--"
+
+    vix = next((c for c in (backtest or {}).get("context") or []
+                if c["label"].startswith("VIX")), None)
+    fng = next((c for c in (backtest or {}).get("context") or []
+                if "Fear" in c["label"]), None)
+    events = ((load_json(DATA_DIR / "agenda.json", {})).get("upcoming") or [])
+    next_event = events[0] if events else None
+
+    # Libelles courts a dessein : sur un telephone, « Marches orientes a la
+    # hausse » se casse en trois lignes au-dessus du chiffre et ruine la
+    # lecture en un coup d'oeil que ces tuiles sont censees permettre.
+    tiles = [
+        ('trend_up', 'Marchés haussiers', tile_markets,
+         'sur les dix indices suivis'),
+        ('pulse', 'Ton de l\'actualité', esc(word.capitalize()),
+         f'{favorable} pour · {defavorable} contre, sur 7 jours'),
+    ]
+    if vix:
+        tiles.append(('gauge', 'Nervosité (VIX)', esc(vix["value"]),
+                      esc(vix.get("sentence", ""))))
+    if fng:
+        tiles.append(('shield', 'Sentiment crypto', esc(fng["value"]),
+                      esc(fng.get("sentence", ""))))
+    if next_event and len(tiles) < 4:
+        tiles.append(('calendar', 'Prochaine échéance',
+                      esc(next_event["when"]), esc(next_event["label"])))
+
+    cells = "".join(
+        f'<div class="tile reveal"><span class="tile-label">'
+        f'{icon(name, 15)}{esc(label)}</span>'
+        f'<div class="tile-value">{value}</div>'
+        f'<div class="tile-note">{note}</div></div>'
+        for name, label, value, note in tiles[:4])
+
+    return ('<header class="hero">'
+            '<h1>L\'économie mondiale,<br>en un coup d\'œil.</h1>'
+            f'<p class="hero-lede">{lede}</p>'
+            f'<div class="tiles">{cells}</div></header>')
 
 
 # --- L'essentiel, redige -----------------------------------------------------
 
 def render_essentiel(synthese):
-    """Les cinq points a connaitre, rediges par Claude quand la cle existe.
+    """Les points a connaitre, rediges par Claude quand la cle existe.
 
     C'est le seul endroit du projet ou un modele de langage apporte ce qu'un
     lexique ne peut pas donner : transformer cent depeches en cinq phrases
-    hierarchisees. Sans cle, la section se reduit a une ligne qui dit
-    comment l'obtenir, plutot que de disparaitre en silence — sinon la
-    fonction reste invisible et personne ne l'active jamais.
+    hierarchisees. Sans cle, la section dit comment l'obtenir plutot que de
+    disparaitre en silence — sinon la fonction reste invisible et personne ne
+    l'active jamais.
     """
     points = (synthese or {}).get("points") or []
     if not points:
-        return ('<section class="band"><h2>L\'essentiel</h2>'
-                '<p class="band-empty">Une synthèse rédigée des points à '
-                'connaître apparaîtra ici dès qu\'une clé '
-                '<code>ANTHROPIC_API_KEY</code> sera renseignée dans les '
-                'secrets GitHub du dépôt. D\'ici là, l\'actualité est '
-                'présentée région par région, ci-dessous.</p></section>')
+        return ('<section class="section"><div class="card panel reveal">'
+                f'<div class="panel-head">{icon("spark", 18)}'
+                '<h2>L\'essentiel</h2></div>'
+                '<p class="note">Une synthèse rédigée des points à connaître '
+                's\'affichera ici dès qu\'une clé <code>ANTHROPIC_API_KEY</code> '
+                'sera renseignée dans les secrets GitHub du dépôt. D\'ici là, '
+                'l\'actualité est classée par importance dans le flux '
+                'ci-dessous.</p></div></section>')
 
-    items = "".join(f'<li class="point">{html.escape(point)}</li>'
-                    for point in points)
-    return ('<section class="band"><h2>L\'essentiel</h2>'
+    items = "".join(f'<li class="point">{esc(point)}</li>' for point in points)
+    return ('<section class="section"><div class="card panel reveal">'
+            f'<div class="panel-head">{icon("spark", 18)}'
+            '<h2>L\'essentiel</h2></div>'
             f'<ol class="points">{items}</ol>'
-            '<p class="note">Synthèse rédigée à partir des '
+            f'<p class="note">Synthèse rédigée à partir des '
             f'{(synthese or {}).get("based_on", 0)} éléments les plus '
-            'importants des 72 dernières heures.</p></section>')
+            'importants des 72 dernières heures.</p></div></section>')
 
 
 # --- Ce qui a change ---------------------------------------------------------
 
 RECENT_DAYS = 45
-
-# Trois suffisent. Cette section repond a « pourquoi ouvrir aujourd'hui » ;
-# au-dela elle repousse l'actualite — ce qu'on vient vraiment lire — sous le
-# premier ecran.
-CHANGES_SHOWN = 3
+CHANGES_SHOWN = 4
 
 # La locution porte son auxiliaire : « est passe » et « a perdu » ne se
 # conjuguent pas pareil, un prefixe commun donnerait « a passe haussier ».
 TREND_SHORT = {
-    "haussiere": ("est passé haussier", GREEN),
-    "baissiere": ("est passé baissier", RED),
-    "indecise": ("a perdu sa direction", GRAY),
+    "haussiere": ("est passé haussier", GREEN, "trend_up"),
+    "baissiere": ("est passé baissier", RED, "trend_down"),
+    "indecise": ("a perdu sa direction", DIM, "trend_flat"),
 }
 
 
@@ -553,34 +733,70 @@ def render_changes(backtest):
 
     changes = recent_changes(backtest)
     if not changes:
-        return ('<section class="band">'
-                '<h2>Ce qui a changé</h2>'
-                f'<p class="band-empty">Aucun basculement de tendance depuis '
-                f'{RECENT_DAYS} jours sur les marchés suivis. Une absence de '
-                'mouvement est une information : rien ne s\'est retourné.</p>'
-                '</section>')
+        return ('<div class="card panel reveal">'
+                f'<div class="panel-head">{icon("pulse", 18)}'
+                '<h2>Ce qui a changé</h2></div>'
+                f'<p class="note">Aucun basculement de tendance depuis '
+                f'{RECENT_DAYS} jours. Une absence de mouvement est une '
+                'information : rien ne s\'est retourné.</p></div>')
 
-    chips = []
+    rows = []
     for days, label, trend in changes[:CHANGES_SHOWN]:
-        word, colour = TREND_SHORT[trend]
+        word, colour, glyph = TREND_SHORT[trend]
         quand = ("aujourd'hui" if days == 0 else
                  "hier" if days == 1 else f"il y a {days} j")
-        chips.append(
-            f'<li class="chip"><span class="chip-name">{html.escape(label)}</span>'
-            f'<span class="chip-word" style="color:{colour}">{word}</span>'
-            f'<span class="chip-when">{quand}</span></li>')
+        rows.append(
+            f'<li class="row row-flat"><span class="row-name">{esc(label)}</span>'
+            f'<span class="row-word" style="color:{colour}">{word}</span>'
+            f'<span class="row-value" style="font-size:14px;color:{FAINT}">'
+            f'{quand}</span></li>')
 
-    reste = len(changes) - len(chips)
+    reste = len(changes) - len(rows)
     note = (f'{reste} autre{"s" if reste > 1 else ""} basculement'
             f'{"s" if reste > 1 else ""} plus ancien{"s" if reste > 1 else ""}, '
             f'dans les {RECENT_DAYS} derniers jours.' if reste > 0 else
             f'Changements d\'état sur les {RECENT_DAYS} derniers jours.')
 
-    return ('<section class="band">'
-            '<h2>Ce qui a changé</h2>'
-            f'<ul class="chips">{"".join(chips)}</ul>'
-            f'<p class="note">{note}</p>'
-            '</section>')
+    return ('<div class="card panel reveal">'
+            f'<div class="panel-head">{icon("pulse", 18)}'
+            '<h2>Ce qui a changé</h2></div>'
+            f'<ul class="rows">{"".join(rows)}</ul>'
+            f'<p class="note">{note}</p></div>')
+
+
+# --- Regions ----------------------------------------------------------------
+
+def render_markets(macro, articles, now):
+    cards = []
+    for key, label, section, unit, indices, news_keys in ZONES:
+        source = macro.get(section) or {}
+        rows = [(name, source.get(k) or {}) for k, name in indices]
+        state, badge_css, glyph, detail = zone_verdict([b for _, b in rows])
+        accent = REGION_ACCENTS[key]
+
+        quotes = "".join(
+            f'<span class="quote">{esc(name)}<b>'
+            f'{price_text(block.get("price"), unit)}</b></span>'
+            for name, block in rows if block.get("price") is not None)
+
+        curve = sparkline(history_closes(macro, indices[0][0]))
+        favorable, defavorable = zone_news_count(articles, news_keys, now)
+        word, word_colour = balance_word(favorable, defavorable)
+        quotes = quotes or '<span class="quote">--</span>'
+
+        cards.append(
+            f'<section class="card market reveal" style="--accent:{accent}">'
+            '<div class="market-top">'
+            f'<span class="market-name">{esc(label)}</span>{curve}</div>'
+            f'<div class="market-state"><span class="badge {badge_css}">'
+            f'{icon(glyph, 15)}{esc(state)}</span></div>'
+            f'<p class="market-detail">{esc(detail)}</p>'
+            f'<div class="quotes">{quotes}</div>'
+            f'<div class="market-foot">Actualité 7 jours : '
+            f'<span style="color:{word_colour}">{word}</span> · {favorable} pour, '
+            f'{defavorable} contre</div></section>')
+
+    return f'<div class="markets">{"".join(cards)}</div>'
 
 
 # --- Agenda -----------------------------------------------------------------
@@ -591,27 +807,29 @@ def render_agenda(agenda):
         return ""
     rows = []
     for event in events:
-        marker = ' soon' if event.get("imminent") else ""
+        soon = " soon" if event.get("imminent") else ""
         rows.append(
-            f'<li class="event{marker}">'
-            f'<span class="event-when">{html.escape(event["when"])}</span>'
-            '<span class="event-body">'
-            f'<span class="event-label">{html.escape(event["label"])}</span>'
-            f'<span class="event-date">{html.escape(event["date_fr"])}</span>'
+            f'<li class="tl{soon}"><span class="tl-mark"></span>'
+            '<span class="tl-body">'
+            f'<span class="tl-when">{esc(event["when"])}</span>'
+            f'<span class="tl-label">{esc(event["label"])}</span>'
+            f'<span class="tl-date">{esc(event["date_fr"])}</span>'
             '</span></li>')
-    return ('<section class="band">'
-            '<h2>À surveiller</h2>'
-            f'<ul class="events">{"".join(rows)}</ul></section>')
+    return ('<div class="card panel reveal" style="padding:18px 0 4px">'
+            f'<div class="panel-head" style="padding:0 18px">'
+            f'{icon("calendar", 18)}<h2>À surveiller</h2></div>'
+            '<p class="panel-sub" style="padding:0 18px">Décisions de taux '
+            'des quatre banques centrales qui portent les zones suivies.</p>'
+            f'<ul class="timeline">{"".join(rows)}</ul></div>')
 
 
-# --- Situations comparables --------------------------------------------------
+# --- Analyses ----------------------------------------------------------------
 
 ANALOGUE_SHOWN = 4
 ANALOGUE_MIN_GAP = 1.0
 
 
 def analogue_rows(backtest):
-    """Marches classes par ecart entre situation comparable et moyenne."""
     rows = []
     for asset in ((backtest or {}).get("assets") or {}).values():
         similar = asset.get("analogues")
@@ -632,26 +850,24 @@ def render_analogues(backtest):
     rows = analogue_rows(backtest)
     if not rows:
         return ""
-
     horizon = (backtest or {}).get("horizon_days", 20)
     notable = [row for row in rows if row[0] >= ANALOGUE_MIN_GAP]
     shown = (notable or rows)[:ANALOGUE_SHOWN]
 
     items = []
     for _, gap, asset, similar, base in shown:
-        colour = GREEN if gap > 0 else (RED if gap < 0 else GRAY)
+        colour = GREEN if gap > 0 else (RED if gap < 0 else DIM)
         items.append(
-            '<li class="stat">'
-            '<span class="stat-top">'
-            f'<span class="stat-name">{html.escape(asset["label"])}</span>'
-            f'<span class="stat-value" style="color:{colour}">'
+            '<li class="row"><span class="row-top">'
+            f'<span class="row-name">{esc(asset["label"])}</span>'
+            f'<span class="row-value" style="color:{colour}">'
             f'{percent(similar["outcome"]["mean_pct"])}</span></span>'
-            f'<span class="stat-line">{percent(similar["current_stretch"])} par '
-            'rapport à sa moyenne 200 jours — les '
-            f'{similar["outcome"]["days"]} séances comparables ont été suivies '
-            f'de {percent(similar["outcome"]["mean_pct"])} en {horizon} '
-            f'séances, contre {percent(base["mean_pct"])} pour une séance '
-            'quelconque.</span></li>')
+            f'<span class="row-line">{percent(similar["current_stretch"])} par '
+            f'rapport à sa moyenne 200 jours — les {similar["outcome"]["days"]} '
+            'séances comparables ont été suivies de '
+            f'{percent(similar["outcome"]["mean_pct"])} en {horizon} séances, '
+            f'contre {percent(base["mean_pct"])} pour une séance quelconque.'
+            '</span></li>')
 
     reste = len(rows) - len(shown)
     note = ('Chaque marché est découpé en cinq paquets selon son écart à la '
@@ -659,16 +875,16 @@ def render_analogues(backtest):
             'même paquet. Découpage fait par les données, aucun seuil choisi '
             'à la main. Ce qui a suivi n\'est pas ce qui suivra.')
     if reste > 0:
-        note = (f'Les {reste} autres marchés suivis sont proches de leur '
-                'moyenne générale. ') + note
+        note = (f'Les {reste} autres marchés sont proches de leur moyenne '
+                'générale. ') + note
 
-    return ('<section class="band">'
-            '<h2>Des situations comparables</h2>'
-            f'<ul class="stats">{"".join(items)}</ul>'
-            f'<p class="note">{note}</p></section>')
+    return ('<div class="card panel reveal">'
+            f'<div class="panel-head">{icon("layers", 18)}'
+            '<h2>Situations comparables</h2></div>'
+            '<p class="panel-sub">C\'est déjà arrivé — et ensuite ?</p>'
+            f'<ul class="rows">{"".join(items)}</ul>'
+            f'<p class="note">{note}</p></div>')
 
-
-# --- Phases qui durent -------------------------------------------------------
 
 PHASE_PERCENTILE = 90
 PHASE_FLOOR = 15
@@ -676,7 +892,6 @@ PHASE_SHOWN = 3
 
 
 def long_phases(backtest):
-    """Marches dont l'etat actuel dure plus longtemps que d'ordinaire."""
     found = []
     for asset in ((backtest or {}).get("assets") or {}).values():
         current = asset.get("current") or {}
@@ -694,34 +909,34 @@ def render_long_phases(backtest):
         return ""
     rows = []
     for rank, sessions, label, current in phases[:PHASE_SHOWN]:
-        word, colour = TREND_TEXT.get(current["trend"], ("état inconnu", GRAY))
+        word, _css, _glyph = TREND_BADGE.get(current["trend"],
+                                             ("état inconnu", "", ""))
+        colour = (GREEN if current["trend"] == "haussiere"
+                  else RED if current["trend"] == "baissiere" else DIM)
         rows.append(
-            '<li class="stat"><span class="stat-top">'
-            f'<span class="stat-name">{html.escape(label)}</span>'
-            f'<span class="stat-value" style="color:{colour}">{sessions} '
+            '<li class="row"><span class="row-top">'
+            f'<span class="row-name">{esc(label)}</span>'
+            f'<span class="row-value" style="color:{colour}">{sessions} '
             'séances</span></span>'
-            f'<span class="stat-line">{html.escape(word.lower())} sans '
+            f'<span class="row-line">tendance {esc(word.lower())} sans '
             f'interruption — plus long que {rank} % des '
             f'{current.get("past_phases", 0)} phases de même nature qu\'a '
             'connues ce marché.</span></li>')
-    return ('<section class="band">'
-            '<h2>Des phases qui durent</h2>'
-            f'<ul class="stats">{"".join(rows)}</ul>'
-            '<p class="note">Comparaison avec les phases passées du même '
-            'marché. Une phase longue ne se retourne pas parce qu\'elle est '
-            'longue : c\'est un repère, pas un signal.</p></section>')
+    return ('<div class="card panel reveal">'
+            f'<div class="panel-head">{icon("clock", 18)}'
+            '<h2>Phases qui durent</h2></div>'
+            '<p class="panel-sub">Inhabituellement longues pour ce marché.</p>'
+            f'<ul class="rows">{"".join(rows)}</ul>'
+            '<p class="note">Une phase longue ne se retourne pas parce '
+            'qu\'elle est longue : c\'est un repère, pas un signal.</p></div>')
 
 
-# --- Ce que valent les signaux ----------------------------------------------
-
-# Formulations courtes a dessein : sur onze marches, une phrase entiere par
-# ligne double la hauteur de la section sans rien ajouter au sens.
 VERDICT_STYLE = {
     "signal utile": ("a séparé les deux cas", GREEN),
-    "signal faible": ("a peu séparé", GRAY),
+    "signal faible": ("a peu séparé", DIM),
     "sans valeur": ("n'a rien séparé", RED),
     "signal inversé": ("a séparé à l'envers", RED),
-    "non mesurable": ("pas assez d'historique", GRAY),
+    "non mesurable": ("pas assez d'historique", DIM),
 }
 
 
@@ -734,73 +949,69 @@ def render_verdicts(backtest):
     assets = (backtest or {}).get("assets") or {}
     if not assets:
         return ""
-
     horizon = backtest.get("horizon_days", 20)
     ordered = sorted(assets.values(),
                      key=lambda a: (a.get("edge_pct") is None,
                                     -(a.get("edge_pct") or 0)))
-
     rows = []
     for asset in ordered:
         word, colour = VERDICT_STYLE.get(asset.get("verdict"),
-                                         ("non mesuré", GRAY))
+                                         ("non mesuré", DIM))
         edge = asset.get("edge_pct")
         chiffre = ("--" if edge is None
-                   else f"{edge:+.1f}{NBSP}pt".replace(".", ",")
-                   .replace("-", "−"))
+                   else f"{edge:+.1f}{NBSP}pt".replace(".", ",").replace("-", "−"))
         rows.append(
-            f'<li class="verdict"><span class="verdict-name">'
-            f'{html.escape(asset["label"])}</span>'
-            f'<span class="verdict-word" style="color:{colour}">{word}</span>'
-            f'<span class="verdict-edge">{chiffre}</span></li>')
+            f'<li class="row row-flat"><span class="row-name">'
+            f'{esc(asset["label"])}</span>'
+            f'<span class="row-word" style="color:{colour}">{word}</span>'
+            f'<span class="row-value" style="font-size:15px;color:{FAINT}">'
+            f'{chiffre}</span></li>')
 
     useless = sum(1 for a in assets.values()
                   if a.get("verdict") in ("sans valeur", "signal faible"))
     resume = (f'Sur {len(assets)} marchés suivis, le signal de tendance n\'a '
               f'rien apporté sur {useless} d\'entre eux.'
               if useless else
-              'Le signal de tendance a séparé les deux cas sur tous les '
-              'marchés suivis.')
+              'Le signal a séparé les deux cas sur tous les marchés suivis.')
 
-    return ('<section class="band">'
-            '<h2>Ce que valent ces signaux</h2>'
-            f'<ul class="verdicts">{"".join(rows)}</ul>'
+    return ('<div class="card panel reveal">'
+            f'<div class="panel-head">{icon("gauge", 18)}'
+            '<h2>Ce que valent ces signaux</h2></div>'
+            '<p class="panel-sub">Mesuré, pas supposé.</p>'
+            f'<ul class="rows">{"".join(rows)}</ul>'
             f'<p class="note">{resume} L\'écart est la différence de '
             f'performance moyenne sur {horizon} séances entre les journées '
-            'classées haussières et les journées classées baissières. Mesure '
-            'faite après coup, sur les mêmes données : elle dit ce qui s\'est '
-            'passé, pas ce qui se passera.</p></section>')
+            'classées haussières et baissières. Mesure faite après coup, sur '
+            'les mêmes données : elle dit ce qui s\'est passé, pas ce qui se '
+            'passera.</p></div>')
 
-
-# --- Correlations ------------------------------------------------------------
 
 def render_correlations(backtest):
-    """Ce qui bouge avec quoi, sur les 90 dernieres seances communes."""
     items = (backtest or {}).get("correlations") or []
     if not items:
         return ""
     rows = []
     for item in items:
         value = f'{item["value"]:+.2f}'.replace(".", ",").replace("-", "−")
-        colour = GRAY if abs(item["value"]) < 0.3 else TEXT
+        colour = DIM if abs(item["value"]) < 0.3 else TEXT
         rows.append(
-            '<li class="stat"><span class="stat-top">'
-            f'<span class="stat-name">{html.escape(item["label"])}</span>'
-            f'<span class="stat-value" style="color:{colour}">{value}</span>'
-            f'</span><span class="stat-line">{html.escape(item["word"])} — '
-            f'mesuré sur {item["sessions"]} séances communes aux deux '
-            'marchés.</span></li>')
-    return ('<section class="band">'
-            '<h2>Ce qui bouge avec quoi</h2>'
-            f'<ul class="stats">{"".join(rows)}</ul>'
+            '<li class="row"><span class="row-top">'
+            f'<span class="row-name">{esc(item["label"])}</span>'
+            f'<span class="row-value" style="color:{colour}">{value}</span>'
+            f'</span><span class="row-line">{esc(item["word"])} — mesuré sur '
+            f'{item["sessions"]} séances communes aux deux marchés.'
+            '</span></li>')
+    return ('<div class="card panel reveal">'
+            f'<div class="panel-head">{icon("layers", 18)}'
+            '<h2>Ce qui bouge avec quoi</h2></div>'
+            '<p class="panel-sub">Deux paris, ou le même ?</p>'
+            f'<ul class="rows">{"".join(rows)}</ul>'
             '<p class="note">Corrélation des variations quotidiennes, entre '
-            '−1 et +1. Proche de 1, les deux marchés montent et descendent '
-            'ensemble et ne se diversifient donc pas l\'un l\'autre. Seules '
-            'les journées cotées des deux côtés sont comparées : les cryptos '
-            'cotent le week-end, pas les indices.</p></section>')
+            '−1 et +1. Proche de 1, les deux marchés ne se diversifient pas '
+            'l\'un l\'autre. Seules les journées cotées des deux côtés sont '
+            'comparées : les cryptos cotent le week-end, pas les '
+            'indices.</p></div>')
 
-
-# --- Reperes historiques -----------------------------------------------------
 
 def render_context(backtest):
     items = (backtest or {}).get("context") or []
@@ -809,17 +1020,18 @@ def render_context(backtest):
     rows = []
     for item in items:
         rows.append(
-            '<li class="stat"><span class="stat-top">'
-            f'<span class="stat-name">{html.escape(item["label"])}</span>'
-            f'<span class="stat-value">{html.escape(item["value"])}</span>'
-            f'</span><span class="stat-line">'
-            f'{html.escape(item.get("sentence", ""))}</span></li>')
-    return ('<section class="band">'
-            '<h2>Où on en est, en perspective</h2>'
-            f'<ul class="stats">{"".join(rows)}</ul>'
-            '<p class="note">Chaque chiffre est comparé à sa propre histoire. '
-            'Un niveau rare décrit le présent ; il ne dit rien de la '
-            'suite.</p></section>')
+            '<li class="row"><span class="row-top">'
+            f'<span class="row-name">{esc(item["label"])}</span>'
+            f'<span class="row-value">{esc(item["value"])}</span></span>'
+            f'<span class="row-line">{esc(item.get("sentence", ""))}'
+            '</span></li>')
+    return ('<div class="card panel reveal">'
+            f'<div class="panel-head">{icon("gauge", 18)}'
+            '<h2>En perspective</h2></div>'
+            '<p class="panel-sub">Chaque chiffre face à sa propre histoire.</p>'
+            f'<ul class="rows">{"".join(rows)}</ul>'
+            '<p class="note">Un niveau rare décrit le présent ; il ne dit '
+            'rien de la suite.</p></div>')
 
 
 # --- Mesure en direct, tenue en reserve -------------------------------------
@@ -827,11 +1039,11 @@ def render_context(backtest):
 def reliability(macro):
     """Confronte chaque signal passe au rendement du lendemain.
 
-    Cette mesure-ci n'est pas affichee sur la page : le backtest la devance
-    sur tous les points, il porte sur des annees plutot que sur les quelques
-    jours accumules. Elle continue pourtant d'etre calculee et rapportee en
-    console, parce qu'elle a une qualite que le backtest n'aura jamais : elle
-    est enregistree en direct, sans connaitre la suite. Le jour ou elle aura
+    Cette mesure-ci n'est pas affichee : le backtest la devance sur tous les
+    points, il porte sur des annees plutot que sur les quelques jours
+    accumules. Elle continue d'etre calculee et rapportee en console, parce
+    qu'elle a une qualite que le backtest n'aura jamais : elle est
+    enregistree en direct, sans connaitre la suite. Le jour ou elle aura
     assez d'observations, elle pourra contredire le backtest — et ce sera
     elle qui aura raison.
     """
@@ -839,153 +1051,36 @@ def reliability(macro):
     days = sorted(history)
     buckets = {"haussiere": [], "baissiere": [], "indecise": []}
     observations = 0
-
     for earlier, later in zip(days, days[1:]):
         before = (history[earlier] or {}).get("assets") or {}
         after = (history[later] or {}).get("assets") or {}
         for key, entry in before.items():
+            if not isinstance(entry, dict):
+                continue
             trend = entry.get("trend")
             close = entry.get("close")
             next_close = (after.get(key) or {}).get("close")
             if trend in buckets and close and next_close:
                 buckets[trend].append(next_close / close - 1)
                 observations += 1
-
     return observations, buckets
 
 
 # --- Page -------------------------------------------------------------------
 
-CSS = """
-*,*::before,*::after{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0 auto;max-width:440px;background:__BG__;color:__TEXT__;
- font-size:17px;line-height:1.5;letter-spacing:-.005em;
- font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,
- Helvetica,Arial,sans-serif;
- padding:0 18px calc(84px + env(safe-area-inset-bottom));
- overflow-x:hidden;-webkit-font-smoothing:antialiased}
-
-.hero{padding:34px 2px 22px;border-bottom:1px solid __BORDER__;margin-bottom:26px}
-h1{margin:0;font-size:30px;line-height:1.1;font-weight:700;letter-spacing:-.03em}
-.hero-stamp{margin:9px 0 18px;font-size:14px;color:__FAINT__;
- text-transform:uppercase;letter-spacing:.09em;font-weight:600}
-.hero-line{margin:0 0 7px;font-size:17px;line-height:1.45;color:__DIM__}
-.hero-line:last-child{margin-bottom:0}
-
-h2{font-size:14px;margin:0 0 13px;font-weight:700;color:__FAINT__;
- text-transform:uppercase;letter-spacing:.11em}
-
-.region{background:__SURFACE__;border:1px solid __BORDER__;border-radius:18px;
- padding:0;margin-bottom:16px;overflow:hidden;
- box-shadow:0 1px 0 rgba(255,255,255,.02) inset}
-.region-head{display:flex;align-items:baseline;justify-content:space-between;
- gap:12px;padding:16px 18px 0;border-top:3px solid var(--accent)}
-.region-name{font-size:21px;font-weight:700;letter-spacing:-.02em}
-.region-state{font-size:15px;font-weight:600;text-align:right;flex:0 0 auto}
-.region-detail{margin:5px 18px 0;font-size:15px;line-height:1.4;color:__DIM__}
-.quotes{display:flex;flex-wrap:wrap;gap:7px;padding:13px 18px 15px}
-.quote{display:inline-flex;gap:6px;align-items:baseline;background:__SURFACE2__;
- border:1px solid __BORDERSOFT__;border-radius:999px;padding:5px 11px;
- font-size:14px;font-variant-numeric:tabular-nums}
-.quote-name{color:__DIM__}
-.quote-value{color:__TEXT__;font-weight:600}
-
-.stories{border-top:1px solid __BORDERSOFT__}
-.story{display:flex;gap:11px;padding:14px 18px;min-height:44px;
- border-bottom:1px solid __BORDERSOFT__;text-decoration:none;color:inherit;
- -webkit-tap-highlight-color:transparent}
-.story:last-child{border-bottom:0}
-.story-dot{flex:0 0 auto;width:7px;height:7px;border-radius:50%;margin-top:8px}
-.story-body{min-width:0}
-.story-title{display:block;font-size:16px;line-height:1.38;
- overflow-wrap:anywhere}
-.story-meta{display:block;margin-top:5px;font-size:14px;color:__FAINT__}
-.story-sep{margin:0 6px}
-.no-news{margin:0;padding:15px 18px;font-size:15px;color:__FAINT__}
-.region-foot{padding:12px 18px 14px;background:__SURFACE2__;
- border-top:1px solid __BORDERSOFT__}
-.tally{font-size:14px;color:__DIM__}
-.global-line{margin:2px 2px 0;font-size:15px;color:__DIM__;
- font-variant-numeric:tabular-nums}
-
-.band{margin-top:32px}
-.band-empty{margin:0;background:__SURFACE__;border:1px solid __BORDER__;
- border-radius:16px;padding:15px 17px;font-size:16px;line-height:1.45;
- color:__DIM__}
-.note{margin:10px 3px 0;font-size:14px;line-height:1.45;color:__FAINT__}
-
-.points{list-style:none;counter-reset:pt;margin:0;padding:0;
- background:__SURFACE__;border:1px solid __BORDER__;border-radius:16px;
- overflow:hidden}
-.point{counter-increment:pt;position:relative;padding:14px 17px 14px 46px;
- font-size:16px;line-height:1.45;border-bottom:1px solid __BORDERSOFT__}
-.point:last-child{border-bottom:0}
-.point::before{content:counter(pt);position:absolute;left:17px;top:14px;
- width:20px;height:20px;border-radius:50%;background:__SURFACE2__;
- border:1px solid __BORDER__;color:__FAINT__;font-size:14px;font-weight:700;
- line-height:19px;text-align:center}
-.band-empty code{font-size:14px;background:__SURFACE2__;border-radius:5px;
- padding:1px 5px;overflow-wrap:anywhere}
-
-.chips{list-style:none;margin:0;padding:0;background:__SURFACE__;
- border:1px solid __BORDER__;border-radius:16px;overflow:hidden}
-.chip{display:flex;align-items:baseline;gap:9px;padding:11px 16px;
- font-size:16px;border-bottom:1px solid __BORDERSOFT__}
-.chip:last-child{border-bottom:0}
-.chip-name{font-weight:600;flex:0 0 auto}
-.chip-word{flex:1;font-size:15px}
-.chip-when{flex:0 0 auto;font-size:14px;color:__FAINT__;white-space:nowrap}
-
-.events{list-style:none;margin:0;padding:0;background:__SURFACE__;
- border:1px solid __BORDER__;border-radius:16px;overflow:hidden}
-.event{display:flex;gap:13px;align-items:baseline;padding:14px 17px;
- border-bottom:1px solid __BORDERSOFT__}
-.event:last-child{border-bottom:0}
-.event.soon .event-when{color:__RED__}
-.event-when{flex:0 0 104px;font-size:14px;color:__DIM__;font-weight:600}
-.event-body{flex:1;min-width:0}
-.event-label{display:block;font-size:16px;line-height:1.35;
- overflow-wrap:anywhere}
-.event-date{display:block;font-size:14px;color:__FAINT__;margin-top:3px}
-
-.stats,.verdicts{list-style:none;margin:0;padding:0;background:__SURFACE__;
- border:1px solid __BORDER__;border-radius:16px;overflow:hidden}
-.stat{padding:13px 17px;border-bottom:1px solid __BORDERSOFT__}
-.stat:last-child,.verdict:last-child{border-bottom:0}
-.stat-top{display:flex;gap:12px;align-items:baseline;justify-content:space-between}
-.stat-name{font-size:16px;line-height:1.3;overflow-wrap:anywhere}
-.stat-value{flex:0 0 auto;font-size:17px;font-weight:700;
- font-variant-numeric:tabular-nums}
-.stat-line{display:block;margin-top:4px;font-size:14px;line-height:1.45;
- color:__FAINT__}
-.verdict{display:flex;gap:11px;align-items:baseline;padding:12px 17px;
- border-bottom:1px solid __BORDERSOFT__}
-.verdict-name{flex:0 0 96px;font-size:16px;overflow-wrap:anywhere}
-.verdict-word{flex:1;font-size:15px;line-height:1.3}
-.verdict-edge{flex:0 0 auto;font-size:15px;color:__DIM__;
- font-variant-numeric:tabular-nums}
-
-.disclaimer{position:fixed;left:0;right:0;bottom:0;
- background:rgba(10,12,16,.94);backdrop-filter:blur(12px);
- -webkit-backdrop-filter:blur(12px);border-top:1px solid __BORDER__;
- color:__FAINT__;font-size:14px;line-height:1.4;text-align:center;
- padding:11px 18px calc(11px + env(safe-area-inset-bottom));z-index:10}
-"""
-
-
-def render_page(index, articles, macro, agenda, synthese, backtest,
-                generated_at):
-    css = CSS
-    for token, colour in (("__BG__", BG), ("__SURFACE__", SURFACE),
-                          ("__SURFACE2__", SURFACE_2), ("__BORDER__", BORDER),
-                          ("__BORDERSOFT__", BORDER_SOFT), ("__TEXT__", TEXT),
-                          ("__DIM__", TEXT_DIM), ("__FAINT__", TEXT_FAINT),
-                          ("__RED__", RED)):
-        css = css.replace(token, colour)
-
+def render_page(articles, macro, agenda, synthese, backtest, generated_at):
     now = datetime.now(timezone.utc)
-    stamp = generated_at.strftime("%d/%m/%Y à %H:%M")
+    stamp = generated_at.strftime("%d/%m à %H:%M")
+
+    panels = "".join(filter(None, [
+        render_changes(backtest),
+        render_agenda(agenda),
+        render_analogues(backtest),
+        render_long_phases(backtest),
+        render_verdicts(backtest),
+        render_correlations(backtest),
+        render_context(backtest),
+    ]))
 
     return f"""<!doctype html>
 <html lang="fr">
@@ -993,36 +1088,40 @@ def render_page(index, articles, macro, agenda, synthese, backtest,
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Veille économique</title>
+<meta name="description" content="Veille macro et actualité financière mondiale — Amérique, Europe, Asie, crypto.">
 <meta name="color-scheme" content="dark">
-<meta name="theme-color" content="{BG}">
+<meta name="theme-color" content="{TOKENS['bg']}">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Veille">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
-<style>{css}</style>
+<style>{stylesheet()}</style>
 </head>
 <body>
-{render_hero(macro, articles, now, stamp)}
+{render_topbar(stamp)}
+<main class="shell">
+{render_hero(macro, articles, backtest, now)}
 {render_essentiel(synthese)}
-{render_changes(backtest)}
 
-<section class="band">
-<h2>L'actualité, région par région</h2>
-{render_regions(macro, articles, now)}
+<section class="section">
+<p class="eyebrow">{icon("globe", 16)}Les marchés, région par région</p>
+{render_markets(macro, articles, now)}
 </section>
 
-{render_agenda(agenda)}
-{render_analogues(backtest)}
-{render_long_phases(backtest)}
-{render_verdicts(backtest)}
-{render_correlations(backtest)}
-{render_context(backtest)}
+{render_feed(articles, now)}
+
+<section class="section">
+<p class="eyebrow">{icon("layers", 16)}Contexte et mesures</p>
+<div class="grid">{panels}</div>
+</section>
+</main>
 
 <!-- Bandeau permanent : ne jamais retirer. -->
-<div class="disclaimer" role="note">{html.escape(DISCLAIMER)}</div>
+<div class="disclaimer" role="note">{esc(DISCLAIMER)}</div>
+<script>{SCRIPT}</script>
 </body>
 </html>
 """
@@ -1035,8 +1134,8 @@ MANIFEST = {
     "scope": "./",
     "display": "standalone",
     "orientation": "portrait",
-    "background_color": BG,
-    "theme_color": BG,
+    "background_color": TOKENS["bg"],
+    "theme_color": TOKENS["bg"],
     "icons": [
         {"src": "icon-192.png", "sizes": "192x192", "type": "image/png",
          "purpose": "any"},
@@ -1047,7 +1146,6 @@ MANIFEST = {
 
 
 def main():
-    index = load_json(DATA_DIR / "index.json", {})
     articles = load_json(DATA_DIR / "articles.json", [])
     macro = load_json(DATA_DIR / "macro.json", {})
     agenda = load_json(DATA_DIR / "agenda.json", {})
@@ -1056,8 +1154,9 @@ def main():
 
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     generated_at = datetime.now(timezone.utc).astimezone(PARIS)
+    now = datetime.now(timezone.utc)
 
-    page = render_page(index, articles, macro, agenda, synthese, backtest,
+    page = render_page(articles, macro, agenda, synthese, backtest,
                        generated_at)
     (DOCS_DIR / "index.html").write_text(page, encoding="utf-8")
 
@@ -1069,17 +1168,16 @@ def main():
                        ("icon-512.png", 512)):
         (DOCS_DIR / name).write_bytes(build_icon(size))
 
-    now = datetime.now(timezone.utc)
     size_kb = (DOCS_DIR / "index.html").stat().st_size / 1024
     print(f"docs/index.html genere ({size_kb:.1f} Ko)")
-    for _key, label, section, _unit, indices, news_keys, _accent in ZONES:
+    for _key, label, section, _unit, indices, news_keys in ZONES:
         source = macro.get(section) or {}
         blocks = [source.get(k) or {} for k, _ in indices]
-        state, _, _ = zone_verdict(blocks)
-        titres = len(zone_headlines(articles, news_keys, now))
+        state, _, _, _ = zone_verdict(blocks)
         plus, moins = zone_news_count(articles, news_keys, now)
-        print(f"  {label:<10} {state:<22} {titres} titre(s), "
-              f"actu {plus}+/{moins}-")
+        courbe = "courbe" if sparkline(history_closes(macro, indices[0][0])) else "--"
+        print(f"  {label:<10} {state:<16} actu {plus}+/{moins}-  {courbe}")
+    print(f"  flux      : {len(feed_articles(articles, now))} article(s)")
     print(f"  backtest  : {len(backtest.get('assets') or {})} marche(s), "
           f"{len(recent_changes(backtest))} basculement(s) recent(s)")
     print(f"  agenda    : {len(agenda.get('upcoming') or [])} echeance(s)")
