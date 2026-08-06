@@ -533,13 +533,67 @@ def render_changes(backtest):
             f'<div class="news-note">{note}</div>')
 
 
+# --- Phases qui durent plus longtemps que d'habitude -------------------------
+
+# Multiple de la duree habituelle a partir duquel la phase merite d'etre
+# signalee, et plancher en seances pour ecarter les phases trop courtes pour
+# que le rapport veuille dire quoi que ce soit.
+PHASE_FACTOR = 2.0
+PHASE_FLOOR = 25
+PHASE_SHOWN = 3
+
+
+def long_phases(backtest):
+    """Marches dont l'etat actuel dure anormalement longtemps.
+
+    Ce n'est ni une alerte ni une prevision : une phase longue ne se retourne
+    pas parce qu'elle est longue. C'est un fait de contexte, du meme ordre
+    qu'un percentile — et il repond a une question que le tableau posait sans
+    y repondre : « haussier depuis 72 jours, c'est beaucoup ou pas ? »
+    """
+    found = []
+    for asset in ((backtest or {}).get("assets") or {}).values():
+        current = asset.get("current") or {}
+        sessions = current.get("sessions")
+        usual = current.get("usual_sessions")
+        if not sessions or not usual or usual <= 0:
+            continue
+        if sessions < PHASE_FLOOR or sessions < usual * PHASE_FACTOR:
+            continue
+        found.append((sessions / usual, asset["label"], current, sessions, usual))
+    return sorted(found, reverse=True)
+
+
+def render_long_phases(backtest):
+    phases = long_phases(backtest)
+    if not phases:
+        return ""
+    rows = []
+    for _, label, current, sessions, usual in phases[:PHASE_SHOWN]:
+        word, colour = TREND_TEXT.get(current["trend"], ("état inconnu", GRAY))
+        rows.append(
+            f'<li><span class="ctx-top">'
+            f'<span class="ctx-label">{html.escape(label)}</span>'
+            f'<span class="ctx-value" style="color:{colour}">{sessions} séances'
+            f'</span></span><span class="ctx-sentence">'
+            f'{html.escape(word.lower())} sans interruption, alors que ces '
+            f'phases en durent {usual} d\'habitude sur ce marché.</span></li>')
+    return ('<h2>Des phases qui durent</h2>'
+            f'<ul class="context">{"".join(rows)}</ul>'
+            '<div class="news-note">Durée médiane des phases passées, sur '
+            'l\'historique disponible. Une phase longue ne se retourne pas '
+            'parce qu\'elle est longue : c\'est un repère, pas un signal.</div>')
+
+
 # --- Ce que valent les signaux ----------------------------------------------
 
+# Formulations courtes a dessein : sur onze marches, une phrase entiere par
+# ligne double la hauteur de la section sans rien ajouter au sens.
 VERDICT_STYLE = {
     "signal utile": ("a séparé les deux cas", GREEN),
-    "signal faible": ("a peu séparé les deux cas", GRAY),
-    "sans valeur": ("n'a rien séparé du tout", RED),
-    "signal inversé": ("a séparé les deux cas à l'envers", RED),
+    "signal faible": ("a peu séparé", GRAY),
+    "sans valeur": ("n'a rien séparé", RED),
+    "signal inversé": ("a séparé à l'envers", RED),
     "non mesurable": ("pas assez d'historique", GRAY),
 }
 
@@ -565,7 +619,8 @@ def render_verdicts(backtest):
         word, colour = VERDICT_STYLE.get(asset.get("verdict"),
                                          ("non mesuré", GRAY))
         edge = asset.get("edge_pct")
-        chiffre = "--" if edge is None else f"{edge:+.1f} pt".replace(".", ",")
+        chiffre = ("--" if edge is None
+                   else f"{edge:+.1f} pt".replace(".", ",").replace("-", "−"))
         rows.append(f'<li><span class="vd-name">{html.escape(asset["label"])}</span>'
                     f'<span class="vd-word" style="color:{colour}">{word}</span>'
                     f'<span class="vd-edge">{chiffre}</span></li>')
@@ -665,6 +720,37 @@ def percent(value):
 
 
 # --- Contexte : situer les chiffres du jour ---------------------------------
+
+def render_correlations(backtest):
+    """Ce qui bouge avec quoi, sur les 90 dernieres seances communes.
+
+    Question rarement posee et pourtant decisive quand on detient a la fois
+    des actions et des cryptos : est-ce que ces deux paris sont le meme ?
+    """
+    items = (backtest or {}).get("correlations") or []
+    if not items:
+        return ""
+    rows = []
+    for item in items:
+        value = item["value"]
+        colour = GRAY if abs(value) < 0.3 else TEXT
+        rows.append(
+            f'<li><span class="ctx-top">'
+            f'<span class="ctx-label">{html.escape(item["label"])}</span>'
+            f'<span class="ctx-value" style="color:{colour}">'
+            f'{value:+.2f}'.replace(".", ",") + '</span></span>'
+            f'<span class="ctx-sentence">{html.escape(item["word"])} — mesuré '
+            f'sur {item["sessions"]} séances communes aux deux marchés.'
+            '</span></li>')
+    return ('<h2>Ce qui bouge avec quoi</h2>'
+            f'<ul class="context">{"".join(rows)}</ul>'
+            '<div class="news-note">Corrélation des variations quotidiennes, '
+            'entre −1 et +1. Proche de 1, les deux marchés montent et '
+            'descendent ensemble et ne se diversifient donc pas l\'un '
+            'l\'autre. Seules les journées cotées des deux côtés sont '
+            'comparées : les cryptos cotent le week-end, pas les indices.'
+            '</div>')
+
 
 def render_context(backtest):
     items = (backtest or {}).get("context") or []
@@ -836,7 +922,9 @@ def render_page(index, articles, macro, agenda, synthese, backtest,
 {render_headline(articles)}
 
 {render_analogues(backtest)}
+{render_long_phases(backtest)}
 {render_verdicts(backtest)}
+{render_correlations(backtest)}
 {render_context(backtest)}
 
 <!-- Bandeau permanent : ne jamais retirer. -->

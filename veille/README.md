@@ -38,16 +38,41 @@ donc reanalyser tout l'historique sans retoucher a la collecte.
 
 ## Sources
 
-18 flux repartis en 3 niveaux :
+21 flux repartis en 3 niveaux, **tous verifies joignables** :
 
-- **Tier 1** (sources primaires officielles, poids 1.0) : BCE, Federal
-  Reserve, Bank of England, BRI (discours de banques centrales).
-- **Tier 2** (regulateurs et statistiques, poids 0.6) : BLS, FMI, CERS, SEC,
-  ESMA, AMF.
+- **Tier 1** (sources primaires officielles, poids 1.0) : BCE (×2), Federal
+  Reserve (×3), Bank of England, **Banque du Japon**, BRI.
+- **Tier 2** (regulateurs et statistiques, poids 0.6) : **Commission
+  europeenne**, **CSF**, CERS, SEC, ESMA, AMF.
 - **Tier 3** (presse economique et financiere, poids 0.3) : CoinDesk, The
-  Block, Yahoo Finance, Investing.com, MarketWatch.
+  Block, **Nikkei Asia**, **CNBC Economie**, Yahoo Finance, Investing.com,
+  MarketWatch.
 
-Le detail (URL, actifs concernes, categorie) est dans `sources.py`.
+Le detail (URL, marches concernes, categorie) est dans `sources.py`.
+
+### Deux flux retires, cinq ajoutes
+
+Le **BLS** et le **FMI** repondaient `403 Forbidden` a toute adresse
+d'hebergeur, la nôtre comme celle des runners GitHub. Ce n'etait pas une
+panne passagere : ils ont ete retires, parce qu'une source qui echoue en
+silence vaut moins qu'une absence assumee. Leur role est repris par la
+Commission europeenne (indicateurs), le CSF (stabilite financiere
+internationale) et CNBC (qui *reprend* les chiffres du BLS le jour de leur
+publication).
+
+La **Banque du Japon** et **Nikkei Asia** comblent un trou franc : l'outil
+suivait le Nikkei, le Hang Seng et Shanghai sans aucune source asiatique.
+L'Asie est passee de 11 a 97 articles rattaches, l'Europe de 29 a 82.
+
+### Les marches declares par une source ne servent que de repli
+
+Et uniquement pour les tiers 1 et 2, quand le texte ne nomme aucun marche.
+Ils doivent donc rester etroits. La premiere version declarait les quatre
+actifs partout, ce qui rattachait **chaque communique de la BCE au
+Bitcoin** et gonflait le decompte crypto de la page avec des articles qui ne
+parlaient pas de crypto. Chaque source ne declare plus que sa zone : la Fed
+`sp500`, la BCE et la BoE `europe`, la BoJ `asie`, la SEC et l'ESMA aussi
+`btc`/`eth` parce qu'elles legiferent dessus.
 
 ## Utilisation
 
@@ -301,12 +326,27 @@ forme.
 
 ## Le calendrier des echeances
 
-`agenda.py` recupere les prochaines reunions du FOMC et du Conseil des
-gouverneurs de la BCE. Savoir qu'une decision de taux tombe mercredi change
-une decision d'entree en position bien plus surement qu'un indice de
-tonalite — et une date de reunion est un fait, pas une prevision.
+`agenda.py` recupere les prochaines decisions de taux des **quatre banques
+centrales** qui portent les zones suivies :
 
-L'affichage montre **les trois prochaines echeances, quelle que soit leur
+| banque | source | zone concernee |
+|--------|--------|----------------|
+| Federal Reserve (FOMC) | calendrier officiel | Amerique |
+| BCE (Conseil des gouverneurs) | calendrier officiel | Europe |
+| Bank of England (MPC) | page des dates a venir | Europe |
+| Banque du Japon (MPM) | page des reunions | Asie |
+
+Savoir qu'une decision de taux tombe mercredi change une decision d'entree en
+position bien plus surement qu'un indice de tonalite — et une date de reunion
+est un fait, pas une prevision.
+
+Les deux nouvelles sources ont chacune leur piege d'analyse, traite dans le
+code : la BoE n'ecrit pas l'annee dans ses dates (elle se lit dans l'URL de
+la ligne, puis se deduit du passage a un mois anterieur), et la BoJ note ses
+reunions de deux jours « Sept. 17 (Thurs.), 18 (Fri.) » — la decision tombe
+le second jour.
+
+L'affichage montre **les quatre prochaines echeances, quelle que soit leur
 distance**. Une fenetre fixe a 21 jours n'afficherait rien pendant les six
 semaines de pause estivale des banques centrales : « prochaine echeance dans
 41 jours » est une information, « rien a signaler » n'en est pas une.
@@ -394,6 +434,41 @@ pourtant une qualite que le backtest n'aura jamais — elle est enregistree en
 direct, sans connaitre la suite. Le jour ou elle aura assez d'observations,
 elle pourra contredire le backtest, et c'est elle qui aura raison.
 
+### Les phases et leur duree habituelle
+
+Le module releve aussi **depuis combien de seances chaque marche est dans son
+etat**, et **combien de temps ces phases durent d'habitude** sur ce marche
+(mediane des phases passees, celle en cours exclue puisqu'elle n'est pas
+finie). La page signale les phases qui durent au moins deux fois la normale.
+
+Ce n'est ni une alerte ni une prevision : une phase longue ne se retourne pas
+parce qu'elle est longue. C'est ce qui repond a « haussier depuis 72 jours,
+c'est beaucoup ou pas ? », question que le tableau posait sans y repondre.
+
+### Une seule passe au lieu de trois
+
+Les moyennes mobiles etaient recalculees depuis le debut de l'historique a
+chaque journee rejouee, et ce travail etait refait par chacune des mesures —
+des dizaines de millions d'additions pour un resultat identique. Les moyennes
+et les etats de tendance sont desormais calcules **une fois par marche** par
+somme glissante, puis partages. L'etape est passee de plusieurs secondes a
+un temps non mesurable.
+
+## Ce qui bouge avec quoi
+
+Correlation des variations quotidiennes sur les **90 dernieres seances
+communes** aux deux marches : Bitcoin/Nasdaq, Bitcoin/S&P 500,
+Ethereum/Bitcoin.
+
+Question rarement posee et pourtant decisive quand on detient a la fois des
+actions et des cryptos : est-ce que ces deux paris sont le meme ? Proche de
+1, les deux marches montent et descendent ensemble et ne se diversifient donc
+pas l'un l'autre.
+
+**Seules les dates presentes des deux cotes sont comparees.** Les cryptos
+cotent le week-end, pas les indices ; aligner les series par position
+reviendrait a comparer un mouvement du samedi a un jour ferie.
+
 ## Les reperes historiques
 
 Le meme module situe quatre chiffres du jour dans **leur propre histoire**.
@@ -476,7 +551,7 @@ quotidienne), ce qui rend une base de donnees inutile a ce stade.
 python build_site.py
 ```
 
-La page repond a six questions, dans cet ordre, et rien d'autre :
+La page repond a huit questions, dans cet ordre, et rien d'autre :
 
 1. **Qu'est-ce qui a change ?** Les basculements de tendance des 45 derniers
    jours, du plus recent au plus ancien. C'est ce qui justifie d'ouvrir la
@@ -488,9 +563,13 @@ La page repond a six questions, dans cet ordre, et rien d'autre :
    le fait marquant des dernieres 48 h, plus les prochaines echeances.
 4. **C'est deja arrive, et ensuite ?** Les seances passees ressemblant a
    celle d'aujourd'hui, et ce qui les a suivies.
-5. **Ces signaux valent-ils quelque chose ?** Le verdict mesure marche par
+5. **Cette phase dure-t-elle depuis longtemps ?** Les marches dont l'etat
+   dure au moins deux fois plus que d'habitude.
+6. **Ces signaux valent-ils quelque chose ?** Le verdict mesure marche par
    marche.
-6. **Ces chiffres sont-ils rares ?** Quatre reperes replaces dans leur propre
+7. **Mes paris sont-ils le meme pari ?** Les correlations entre cryptos et
+   actions.
+8. **Ces chiffres sont-ils rares ?** Quatre reperes replaces dans leur propre
    histoire.
 
 « Ce qui a change » vient des **historiques longs**, pas de la memoire de

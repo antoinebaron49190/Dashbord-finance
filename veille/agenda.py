@@ -39,8 +39,10 @@ USER_AGENT = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
 
 FOMC_URL = "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
 ECB_URL = "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+BOE_URL = "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates"
+BOJ_URL = "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm"
 
-NEXT_COUNT = 3      # nombre d'echeances affichees
+NEXT_COUNT = 4      # nombre d'echeances affichees
 IMMINENT_DAYS = 7   # en deca, l'echeance est signalee comme proche
 
 MONTHS = {
@@ -151,6 +153,115 @@ def fetch_ecb(failures):
         return []
 
 
+# --- Bank of England --------------------------------------------------------
+
+def parse_boe(html_text):
+    """Extrait les dates du Comite de politique monetaire britannique.
+
+    Le tableau donne « <td>Thursday&nbsp;17 September</td> » puis une cellule
+    contenant un lien vers « /monetary-policy-summary-and-minutes/2026/... ».
+    L'annee n'est donc pas dans la date elle-meme, elle se lit dans le lien.
+    Les lignes les plus lointaines n'ont pas encore de lien : on y deduit
+    l'annee du passage a un mois anterieur, le tableau etant chronologique.
+    """
+    events = []
+    rows = re.findall(
+        r"<td>\s*\w+day\s*(?:&nbsp;|\s)\s*(\d{1,2})\s+([A-Z][a-z]+)\s*</td>"
+        r"\s*<td>(.*?)</td>", html_text, re.S)
+    year = None
+    previous_month = 0
+    for day_text, month_text, body in rows:
+        month = MONTHS.get(month_text.lower())
+        if not month:
+            continue
+        found = re.search(r"/(20\d\d)/", body)
+        if found:
+            year = int(found.group(1))
+        elif year is None:
+            continue
+        elif month < previous_month:
+            year += 1
+        previous_month = month
+        try:
+            date = datetime(year, month, int(day_text)).date()
+        except ValueError:
+            continue
+        events.append({
+            "date": date.isoformat(),
+            "label": "Comité de politique monétaire (BoE) — décision de taux",
+            "source": "Bank of England",
+            "importance": 2,
+        })
+    return events
+
+
+def fetch_boe(failures):
+    try:
+        return parse_boe(fetch_html(BOE_URL))
+    except Exception as exc:
+        failures.append(("boe", str(exc)[:120]))
+        return []
+
+
+# --- Banque du Japon --------------------------------------------------------
+
+BOJ_ROW = re.compile(
+    r"(Jan|Feb|Mar|Apr|May|June?|July?|Aug|Sept?|Oct|Nov|Dec)\.?\s*"
+    r"(\d{1,2})\s*\([A-Za-z.]+\)\s*,\s*(\d{1,2})\s*\([A-Za-z.]+\)"
+    r"(?:\s*,\s*(20\d\d))?")
+
+BOJ_MONTHS = {"jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
+              "june": 6, "jul": 7, "july": 7, "aug": 8, "sep": 9, "sept": 9,
+              "oct": 10, "nov": 11, "dec": 12}
+
+
+def parse_boj(html_text):
+    """Extrait les reunions de politique monetaire de la Banque du Japon.
+
+    Elles durent deux jours et s'ecrivent « Sept. 17 (Thurs.), 18 (Fri.) ».
+    La decision tombe le second jour, c'est celui qu'on retient. L'annee
+    n'apparait que lorsque le tableau bascule sur la suivante ; ailleurs on
+    part de l'annee du titre de page et on avance d'un an des qu'un mois
+    recule, le tableau etant chronologique.
+
+    L'outil suit le Nikkei depuis qu'il a des zones ; sans cette source, la
+    seule echeance asiatique du calendrier etait l'absence de calendrier.
+    """
+    events = []
+    page_year = re.search(r"minu_(20\d\d)", html_text)
+    year = int(page_year.group(1)) if page_year else \
+        datetime.now(timezone.utc).year
+    previous_month = 0
+    for match in BOJ_ROW.finditer(html_text):
+        month = BOJ_MONTHS.get(match.group(1).lower().rstrip("."))
+        if not month:
+            continue
+        if match.group(4):
+            year = int(match.group(4))
+        elif month < previous_month:
+            year += 1
+        previous_month = month
+        try:
+            date = datetime(year, month, int(match.group(3))).date()
+        except ValueError:
+            continue
+        events.append({
+            "date": date.isoformat(),
+            "label": "Réunion de politique monétaire (BoJ) — décision de taux",
+            "source": "Banque du Japon",
+            "importance": 2,
+        })
+    return events
+
+
+def fetch_boj(failures):
+    try:
+        return parse_boj(fetch_html(BOJ_URL))
+    except Exception as exc:
+        failures.append(("boj", str(exc)[:120]))
+        return []
+
+
 # --- Assemblage -------------------------------------------------------------
 
 def french_date(iso):
@@ -196,7 +307,8 @@ def upcoming(events, count=NEXT_COUNT):
 
 def collect():
     failures = []
-    events = fetch_fomc(failures) + fetch_ecb(failures)
+    events = (fetch_fomc(failures) + fetch_ecb(failures)
+              + fetch_boe(failures) + fetch_boj(failures))
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "upcoming": upcoming(events),

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-01T08:02:34.752533+00:00",
+  "generated_at": "2026-08-06T12:37:12.129853+00:00",
   "upcoming": [
     {
       "date": "2026-09-10",
       "label": "Conseil des gouverneurs de la BCE — décision de taux",
       "source": "BCE",
       "importance": 3,
-      "when": "dans 40 jours",
-      "days": 40,
+      "when": "dans 35 jours",
+      "days": 35,
       "imminent": false,
       "date_fr": "jeudi 10 septembre"
     },
@@ -16,22 +16,32 @@
       "label": "Réunion du FOMC (Fed) — décision de taux",
       "source": "Federal Reserve",
       "importance": 3,
-      "when": "dans 46 jours",
-      "days": 46,
+      "when": "dans 41 jours",
+      "days": 41,
       "imminent": false,
       "date_fr": "mercredi 16 septembre"
     },
     {
-      "date": "2026-09-30",
-      "label": "Conseil des gouverneurs de la BCE — décision de taux",
-      "source": "BCE",
-      "importance": 3,
-      "when": "dans 60 jours",
-      "days": 60,
+      "date": "2026-09-17",
+      "label": "Comité de politique monétaire (BoE) — décision de taux",
+      "source": "Bank of England",
+      "importance": 2,
+      "when": "dans 42 jours",
+      "days": 42,
       "imminent": false,
-      "date_fr": "mercredi 30 septembre"
+      "date_fr": "jeudi 17 septembre"
+    },
+    {
+      "date": "2026-09-18",
+      "label": "Réunion de politique monétaire (BoJ) — décision de taux",
+      "source": "Banque du Japon",
+      "importance": 2,
+      "when": "dans 43 jours",
+      "days": 43,
+      "imminent": false,
+      "date_fr": "vendredi 18 septembre"
     }
   ],
-  "all_known": 89,
+  "all_known": 115,
   "failures": []
 }

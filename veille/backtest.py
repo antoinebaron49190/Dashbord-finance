@@ -68,7 +68,7 @@ ATTEMPTS = 2
 
 # Version du format ecrit. A incrementer des qu'un champ apparait : un
 # fichier d'une version anterieure est alors recalcule sans attendre.
-SCHEMA = 2
+SCHEMA = 3
 
 # Age au-dela duquel le backtest est recalcule. Une journee : la mesure porte
 # sur des annees, une seance de plus ou de moins n'y change rien.
@@ -163,8 +163,43 @@ def fetch_yahoo_history(ticker, failures, years=5):
 
 # --- Rejeu de la regle -------------------------------------------------------
 
-def replay(closes, horizon=VERDICT_HORIZON):
-    """Rejoue annotate_trend chaque jour et mesure la suite.
+def rolling_means(closes, window):
+    """Moyenne mobile a chaque date, en une seule passe.
+
+    La premiere version recalculait la moyenne depuis le debut a chaque
+    journee rejouee, et refaisait le meme travail trois fois — une fois par
+    mesure. Sur douze marches et cinq ans, cela representait des dizaines de
+    millions d'additions pour un resultat identique. La somme glissante donne
+    la meme chose en un passage.
+
+    La liste rendue a la longueur de `closes` ; les positions ou la fenetre
+    n'est pas encore pleine valent None.
+    """
+    means = [None] * len(closes)
+    total = 0.0
+    for i, value in enumerate(closes):
+        total += value
+        if i >= window:
+            total -= closes[i - window]
+        if i >= window - 1:
+            means[i] = total / window
+    return means
+
+
+def trend_series(closes):
+    """Etat de tendance a chaque date, calcule une fois pour toutes.
+
+    La regle reste celle de macro.py : elle est appelee, pas recopiee.
+    """
+    ma50 = rolling_means(closes, 50)
+    ma200 = rolling_means(closes, 200)
+    return [annotate_trend({"price": price, "ma50": ma50[i],
+                            "ma200": ma200[i]}).get("trend")
+            for i, price in enumerate(closes)], ma200
+
+
+def replay(trends, closes, horizon=VERDICT_HORIZON):
+    """Repartit les rendements a venir selon l'etat du jour.
 
     Les fenetres se chevauchent : deux jours consecutifs partagent 19 des 20
     seances mesurees. Le nombre d'observations est donc un nombre de jours
@@ -174,16 +209,37 @@ def replay(closes, horizon=VERDICT_HORIZON):
     """
     states = {"haussiere": [], "baissiere": [], "indecise": []}
     for i in range(200, len(closes) - horizon):
-        window = closes[:i + 1]
-        block = annotate_trend({
-            "price": closes[i],
-            "ma50": moving_average(window, 50),
-            "ma200": moving_average(window, 200),
-        })
-        trend = block.get("trend")
+        trend = trends[i]
         if trend in states:
             states[trend].append(closes[i + horizon] / closes[i] - 1)
     return states
+
+
+def phase_lengths(trends):
+    """Duree, en seances, de chaque phase de tendance passee.
+
+    « Haussier depuis 72 jours » ne dit rien tant qu'on ignore combien de
+    temps ces phases durent d'habitude. La phase en cours est exclue : elle
+    n'est pas finie, la compter raccourcirait artificiellement la mediane.
+    """
+    lengths = {"haussiere": [], "baissiere": [], "indecise": []}
+    start = 200
+    for i in range(201, len(trends)):
+        if trends[i] != trends[i - 1]:
+            if trends[i - 1] in lengths:
+                lengths[trends[i - 1]].append(i - start)
+            start = i
+    return lengths
+
+
+def median(values):
+    if not values:
+        return None
+    ordered = sorted(values)
+    middle = len(ordered) // 2
+    if len(ordered) % 2:
+        return ordered[middle]
+    return (ordered[middle - 1] + ordered[middle]) / 2
 
 
 def baseline(closes, horizon=VERDICT_HORIZON):
@@ -199,7 +255,7 @@ def baseline(closes, horizon=VERDICT_HORIZON):
     return summarise(returns)
 
 
-def analogues(closes, horizon=VERDICT_HORIZON, buckets=BUCKETS):
+def analogues(closes, ma200, horizon=VERDICT_HORIZON, buckets=BUCKETS):
     """Les seances passees ou le marche etait aussi etire qu'aujourd'hui.
 
     L'ecart au MM200 est decoupe en quintiles sur tout l'historique. La
@@ -213,18 +269,16 @@ def analogues(closes, horizon=VERDICT_HORIZON, buckets=BUCKETS):
     """
     stretches, forward = [], []
     for i in range(200, len(closes) - horizon):
-        ma200 = moving_average(closes[:i + 1], 200)
-        if not ma200:
+        if not ma200[i]:
             continue
-        stretches.append(closes[i] / ma200 - 1)
+        stretches.append(closes[i] / ma200[i] - 1)
         forward.append(closes[i + horizon] / closes[i] - 1)
     if len(stretches) < buckets * MIN_SAMPLE:
         return None
 
-    today = moving_average(closes, 200)
-    if not today:
+    if not ma200[-1]:
         return None
-    current = closes[-1] / today - 1
+    current = closes[-1] / ma200[-1] - 1
 
     ordered = sorted(stretches)
     size = len(ordered) / buckets
@@ -254,36 +308,35 @@ def analogues(closes, horizon=VERDICT_HORIZON, buckets=BUCKETS):
     }
 
 
-def trend_at(closes, i):
-    window = closes[:i + 1]
-    return annotate_trend({
-        "price": closes[i],
-        "ma50": moving_average(window, 50),
-        "ma200": moving_average(window, 200),
-    }).get("trend")
-
-
-def current_state(dates, closes):
-    """Etat de tendance du jour, et depuis quand il dure.
+def current_state(dates, trends, lengths):
+    """Etat de tendance du jour, depuis quand il dure, et ce qui est habituel.
 
     « Haussiere » tout court ne dit pas grand-chose. « Haussiere depuis 34
-    jours » situe la position dans le temps, et c'est disponible des le
-    premier jour d'utilisation — contrairement a une memoire que l'outil
+    jours, alors que ces phases en durent 21 d'habitude » situe la position
+    dans le temps et dans l'histoire du marche. Les deux sont disponibles des
+    le premier jour d'utilisation, contrairement a une memoire que l'outil
     mettrait des mois a se constituer.
     """
-    if len(closes) < 201:
+    if len(trends) < 201:
         return None
-    latest = trend_at(closes, len(closes) - 1)
+    latest = trends[-1]
     if latest is None:
         return None
-    start = len(closes) - 1
-    for i in range(len(closes) - 2, 199, -1):
-        if trend_at(closes, i) != latest:
-            break
-        start = i
-    return {"trend": latest, "since": dates[start],
-            "days": (datetime.strptime(dates[-1], "%Y-%m-%d")
-                     - datetime.strptime(dates[start], "%Y-%m-%d")).days}
+
+    start = len(trends) - 1
+    while start > 200 and trends[start - 1] == latest:
+        start -= 1
+
+    usual = median(lengths.get(latest) or [])
+    return {
+        "trend": latest,
+        "since": dates[start],
+        "days": (datetime.strptime(dates[-1], "%Y-%m-%d")
+                 - datetime.strptime(dates[start], "%Y-%m-%d")).days,
+        "sessions": len(trends) - start,
+        "usual_sessions": None if usual is None else round(usual),
+        "past_phases": len(lengths.get(latest) or []),
+    }
 
 
 def summarise(returns):
@@ -441,6 +494,81 @@ def build_context(crypto_series, vix_closes, fng_history, failures):
     return items
 
 
+# --- Ce qui bouge avec quoi --------------------------------------------------
+
+# Fenetre de correlation, en seances communes aux deux series.
+CORRELATION_WINDOW = 90
+
+# Paires suivies : (cle A, cle B, phrase quand la correlation est forte,
+# phrase quand elle est faible).
+CORRELATION_PAIRS = [
+    ("btc", "nasdaq", "Bitcoin et Nasdaq"),
+    ("btc", "sp500", "Bitcoin et S&P 500"),
+    ("eth", "btc", "Ethereum et Bitcoin"),
+]
+
+
+def daily_returns(points):
+    """Rendements journaliers indexes par date."""
+    out = {}
+    for (_, previous), (date, current) in zip(points, points[1:]):
+        if previous and current:
+            out[date] = current / previous - 1
+    return out
+
+
+def correlation(points_a, points_b, window=CORRELATION_WINDOW):
+    """Correlation des rendements sur les dernieres seances communes.
+
+    Les deux series n'ont pas le meme calendrier : les cryptos cotent le
+    week-end, pas les indices. On ne garde donc que les dates presentes des
+    deux cotes, sans quoi on comparerait un mouvement du samedi a un zero.
+    """
+    a, b = daily_returns(points_a), daily_returns(points_b)
+    dates = sorted(set(a) & set(b))[-window:]
+    if len(dates) < 30:
+        return None, 0
+
+    xs = [a[d] for d in dates]
+    ys = [b[d] for d in dates]
+    mx = sum(xs) / len(xs)
+    my = sum(ys) / len(ys)
+    covariance = sum((x - mx) * (y - my) for x, y in zip(xs, ys))
+    vx = sum((x - mx) ** 2 for x in xs)
+    vy = sum((y - my) ** 2 for y in ys)
+    if vx <= 0 or vy <= 0:
+        return None, len(dates)
+    return covariance / (vx * vy) ** 0.5, len(dates)
+
+
+def link_word(value):
+    """Traduit un coefficient en mots, sans faire dire plus qu'il ne dit."""
+    strength = abs(value)
+    if strength >= 0.6:
+        return "bougent ensemble"
+    if strength >= 0.3:
+        return "bougent un peu ensemble"
+    return "bougent chacun de leur côté"
+
+
+def build_correlations(series):
+    items = []
+    for key_a, key_b, label in CORRELATION_PAIRS:
+        points_a, points_b = series.get(key_a), series.get(key_b)
+        if not points_a or not points_b:
+            continue
+        value, sessions = correlation(points_a, points_b)
+        if value is None:
+            continue
+        items.append({
+            "label": label,
+            "value": round(value, 2),
+            "sessions": sessions,
+            "word": link_word(value),
+        })
+    return items
+
+
 # --- Assemblage --------------------------------------------------------------
 
 def collect():
@@ -475,11 +603,16 @@ def collect():
         fetch_fear_greed_history(failures),
         failures)
 
+    dated = dict(crypto_series)
+    for key, block in equity_series.items():
+        dated[key] = block["points"]
+
     return {
         "schema": SCHEMA,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "horizon_days": VERDICT_HORIZON,
         "assets": assets,
+        "correlations": build_correlations(dated),
         "context": context,
         "failures": [{"source": s, "reason": r} for s, r in failures],
     }
@@ -488,17 +621,20 @@ def collect():
 def build_asset(label, points, depth):
     dates = [d for d, _ in points]
     closes = [c for _, c in points]
+    # Les moyennes mobiles et les etats de tendance sont calcules une seule
+    # fois, puis partages par les quatre mesures qui les utilisent.
+    trends, ma200 = trend_series(closes)
     states = {name: summarise(values)
-              for name, values in replay(closes).items()}
+              for name, values in replay(trends, closes).items()}
     edge, sentence = verdict(states)
     return {
         "label": label,
         "depth": depth,
         "observed_days": len(closes),
-        "current": current_state(dates, closes),
+        "current": current_state(dates, trends, phase_lengths(trends)),
         "states": states,
         "baseline": baseline(closes),
-        "analogues": analogues(closes),
+        "analogues": analogues(closes, ma200),
         "edge_pct": None if edge is None else round(edge, 2),
         "verdict": verdict_word(edge),
         "sentence": sentence,
@@ -534,6 +670,11 @@ def print_report(result):
                   f"{out['days']} jours (ecart MM200 "
                   f"{similar['current_stretch']:+.1f} %, paquet "
                   f"{similar['bucket']}/{similar['buckets']})")
+    if result.get("correlations"):
+        print("\n  Ce qui bouge avec quoi :")
+        for item in result["correlations"]:
+            print(f"    {item['label']:<24} {item['value']:+.2f}  "
+                  f"{item['word']} ({item['sessions']} seances)")
     if result["context"]:
         print("\n  Contexte :")
         for item in result["context"]:
