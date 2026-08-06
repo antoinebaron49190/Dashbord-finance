@@ -551,26 +551,44 @@ quotidienne), ce qui rend une base de donnees inutile a ce stade.
 python build_site.py
 ```
 
-La page repond a huit questions, dans cet ordre, et rien d'autre :
+**La page est d'abord un journal, ensuite un tableau de bord.** L'actualite
+passe devant parce que c'est ce qu'on vient chercher ; les mesures restent,
+mais elles servent la lecture au lieu de l'ouvrir.
 
-1. **Qu'est-ce qui a change ?** Les basculements de tendance des 45 derniers
-   jours, du plus recent au plus ancien. C'est ce qui justifie d'ouvrir la
-   page aujourd'hui plutot qu'hier.
-2. **Ou en est chaque zone ?** Une ligne d'ampleur, puis quatre cartes —
-   Amerique, Europe, Asie, Crypto — avec la tendance, sa justification
-   chiffree, les cours et l'actualite propre a la zone.
-3. **Que dit l'actualite ?** La synthese redigee (ou le resume mecanique) et
-   le fait marquant des dernieres 48 h, plus les prochaines echeances.
-4. **C'est deja arrive, et ensuite ?** Les seances passees ressemblant a
-   celle d'aujourd'hui, et ce qui les a suivies.
-5. **Cette phase dure-t-elle depuis longtemps ?** Les marches dont l'etat
-   dure au moins deux fois plus que d'habitude.
-6. **Ces signaux valent-ils quelque chose ?** Le verdict mesure marche par
-   marche.
-7. **Mes paris sont-ils le meme pari ?** Les correlations entre cryptos et
-   actions.
-8. **Ces chiffres sont-ils rares ?** Quatre reperes replaces dans leur propre
-   histoire.
+1. **L'etat du monde en deux phrases.** Combien de marches sont orientes a la
+   hausse, et de quel cote penche l'actualite de la semaine.
+2. **L'essentiel.** La synthese redigee des points a connaitre, si la cle
+   Claude existe. Sinon, une ligne qui dit comment l'activer — plutot que de
+   disparaitre en silence, sans quoi la fonction reste invisible et personne
+   ne l'active jamais.
+3. **Ce qui a change.** Les trois derniers basculements de tendance. C'est ce
+   qui justifie d'ouvrir la page aujourd'hui plutot qu'hier.
+4. **L'actualite, region par region.** Quatre blocs — Amerique, Europe, Asie,
+   Crypto — chacun avec l'etat de ses marches, ses cours, **trois titres
+   cliquables** avec leur source et leur anciennete, et le decompte de la
+   semaine. C'est le coeur de la page.
+5. **A surveiller.** Les quatre prochaines decisions de banques centrales.
+6. Puis la partie analytique : situations comparables, phases qui durent,
+   valeur mesuree des signaux, correlations, reperes historiques.
+
+### Le classement editorial des titres
+
+L'importance seule fait remonter les bulletins administratifs : « Green
+notice 2026/02 » sort de la Bank of England avec le meme poids qu'une
+decision de taux. Les titres sont donc classes par **importance x intensite
+lexicale** — la somme de ce que l'article declenche dans le lexique — ce qui
+fait passer devant les textes qui parlent reellement de taux, de crise ou de
+croissance. Le terme constant du produit evite d'annuler un article au titre
+sobre mais a la source decisive.
+
+Les depeches reprennent souvent le meme communique mot pour mot : les titres
+sont **dedoublonnes sur leurs 45 premiers caracteres normalises**, sans quoi
+une region affiche trois fois la meme nouvelle et donne l'impression qu'il
+ne s'est rien passe d'autre.
+
+Une pastille coloree porte la tonalite de chaque titre, doublee du decompte
+en toutes lettres en bas de bloc : la couleur ne porte jamais seule
+l'information.
 
 « Ce qui a change » vient des **historiques longs**, pas de la memoire de
 l'outil : la section est donc complete des le premier jour, au lieu de rester
@@ -605,11 +623,21 @@ secondes sur un telephone ne sert a rien. Le code reste dans l'historique
 git (commit `da89e9f`) si le besoin revient. Les donnees, elles, continuent
 d'etre collectees et conservees dans `data/`.
 
-### Mobile
+### Mobile et mise en forme
 
 Une seule colonne, aucun defilement horizontal, zones tactiles de 44 pt
 minimum, theme sombre, aucun texte sous 14 px. Verifie au rendu dans un
 navigateur en 390x844.
+
+Chaque region porte une **couleur d'accent** — Amerique bleu, Europe violet,
+Asie ambre, Crypto turquoise — sur un filet en haut de bloc. Elle sert a
+distinguer les regions entre elles, jamais a porter une information : celle-ci
+est toujours ecrite en toutes lettres a cote.
+
+Les nombres utilisent la typographie francaise : virgule decimale, espace
+insecable pour les milliers, **vrai signe moins** (U+2212) et non un trait
+d'union, espace fine insecable devant le signe pourcent — qui empeche aussi
+« −4,2 » de finir une ligne en laissant le « % » seul sur la suivante.
 
 ## Execution continue (GitHub Actions)
 

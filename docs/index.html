@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Veille économique</title>
 <meta name="color-scheme" content="dark">
-<meta name="theme-color" content="#0e1116">
+<meta name="theme-color" content="#0a0c10">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -16,97 +16,136 @@
 <style>
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{margin:0 auto;background:#0e1116;color:#e6e9ee;font-size:16px;line-height:1.45;
- font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
- padding:0 16px calc(90px + env(safe-area-inset-bottom)) 16px;
- max-width:430px;overflow-x:hidden}
-h1{font-size:20px;margin:22px 0 2px;font-weight:600;letter-spacing:-.01em}
-h2{font-size:15px;margin:26px 0 10px;font-weight:600;color:#98a1ad;
- text-transform:uppercase;letter-spacing:.07em}
-.updated{color:#98a1ad;font-size:15px;margin:0 0 16px}
-.zone{background:#161b22;border:1px solid #262c36;border-radius:12px;
- padding:13px 15px;margin-bottom:9px}
-.zone-name{font-size:14px;color:#98a1ad;text-transform:uppercase;
- letter-spacing:.07em;font-weight:600}
-.zone-state{font-size:21px;font-weight:600;letter-spacing:-.01em;margin:3px 0 3px}
-.zone-detail{font-size:15px;line-height:1.4}
-.zone-quotes{font-size:15px;color:#98a1ad;margin-top:7px;padding-top:7px;
- border-top:1px solid #262c36;font-variant-numeric:tabular-nums;
+body{margin:0 auto;max-width:440px;background:#0a0c10;color:#eaeef4;
+ font-size:17px;line-height:1.5;letter-spacing:-.005em;
+ font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,
+ Helvetica,Arial,sans-serif;
+ padding:0 18px calc(84px + env(safe-area-inset-bottom));
+ overflow-x:hidden;-webkit-font-smoothing:antialiased}
+
+.hero{padding:34px 2px 22px;border-bottom:1px solid #232833;margin-bottom:26px}
+h1{margin:0;font-size:30px;line-height:1.1;font-weight:700;letter-spacing:-.03em}
+.hero-stamp{margin:9px 0 18px;font-size:14px;color:#6f7a8a;
+ text-transform:uppercase;letter-spacing:.09em;font-weight:600}
+.hero-line{margin:0 0 7px;font-size:17px;line-height:1.45;color:#98a2b2}
+.hero-line:last-child{margin-bottom:0}
+
+h2{font-size:14px;margin:0 0 13px;font-weight:700;color:#6f7a8a;
+ text-transform:uppercase;letter-spacing:.11em}
+
+.region{background:#12151b;border:1px solid #232833;border-radius:18px;
+ padding:0;margin-bottom:16px;overflow:hidden;
+ box-shadow:0 1px 0 rgba(255,255,255,.02) inset}
+.region-head{display:flex;align-items:baseline;justify-content:space-between;
+ gap:12px;padding:16px 18px 0;border-top:3px solid var(--accent)}
+.region-name{font-size:21px;font-weight:700;letter-spacing:-.02em}
+.region-state{font-size:15px;font-weight:600;text-align:right;flex:0 0 auto}
+.region-detail{margin:5px 18px 0;font-size:15px;line-height:1.4;color:#98a2b2}
+.quotes{display:flex;flex-wrap:wrap;gap:7px;padding:13px 18px 15px}
+.quote{display:inline-flex;gap:6px;align-items:baseline;background:#171b22;
+ border:1px solid #1c212a;border-radius:999px;padding:5px 11px;
+ font-size:14px;font-variant-numeric:tabular-nums}
+.quote-name{color:#98a2b2}
+.quote-value{color:#eaeef4;font-weight:600}
+
+.stories{border-top:1px solid #1c212a}
+.story{display:flex;gap:11px;padding:14px 18px;min-height:44px;
+ border-bottom:1px solid #1c212a;text-decoration:none;color:inherit;
+ -webkit-tap-highlight-color:transparent}
+.story:last-child{border-bottom:0}
+.story-dot{flex:0 0 auto;width:7px;height:7px;border-radius:50%;margin-top:8px}
+.story-body{min-width:0}
+.story-title{display:block;font-size:16px;line-height:1.38;
  overflow-wrap:anywhere}
-.q-name{color:#e6e9ee}
-.zone-extra{font-size:15px;color:#98a1ad;margin-top:5px;overflow-wrap:anywhere}
-.zone-news{font-size:15px;color:#98a1ad;margin-top:5px;overflow-wrap:anywhere}
-.breadth{font-size:16px;line-height:1.4;padding:0 2px 10px;margin-top:22px}
-.global-line{font-size:15px;color:#98a1ad;padding:4px 2px 0;
+.story-meta{display:block;margin-top:5px;font-size:14px;color:#6f7a8a}
+.story-sep{margin:0 6px}
+.no-news{margin:0;padding:15px 18px;font-size:15px;color:#6f7a8a}
+.region-foot{padding:12px 18px 14px;background:#171b22;
+ border-top:1px solid #1c212a}
+.tally{font-size:14px;color:#98a2b2}
+.global-line{margin:2px 2px 0;font-size:15px;color:#98a2b2;
  font-variant-numeric:tabular-nums}
-.agenda{list-style:none;margin:0;padding:0;background:#161b22;
- border:1px solid #262c36;border-radius:12px}
-.agenda li{display:flex;gap:12px;align-items:baseline;padding:12px 15px;
- border-bottom:1px solid #262c36}
-.agenda li:last-child{border-bottom:0}
-.agenda li.soon .ag-when{color:#cf6b62}
-.ag-when{flex:0 0 112px;font-size:15px;color:#98a1ad;font-weight:600}
-.ag-body{flex:1;min-width:0}
-.ag-label{display:block;font-size:16px;line-height:1.35;overflow-wrap:anywhere}
-.ag-date{display:block;font-size:14px;color:#98a1ad;margin-top:2px}
-.news{list-style:none;margin:0;padding:0;background:#161b22;
- border:1px solid #262c36;border-radius:12px}
-.news li{font-size:16px;line-height:1.45;padding:12px 15px;
- border-bottom:1px solid #262c36}
-.news li:last-child{border-bottom:0}
-.news-note{font-size:14px;color:#98a1ad;line-height:1.35;margin-top:7px;padding:0 3px}
-.headline{display:block;min-height:44px;margin-top:10px;padding:12px 15px;
- background:#161b22;border:1px solid #262c36;border-radius:12px;
- text-decoration:none;color:#e6e9ee;-webkit-tap-highlight-color:transparent}
-.headline-label{display:block;font-size:14px;color:#98a1ad;
- text-transform:uppercase;letter-spacing:.07em;margin-bottom:3px}
-.headline-title{display:block;font-size:16px;line-height:1.35;overflow-wrap:anywhere}
-.chg li{justify-content:space-between}
-.chg-what{font-size:16px;line-height:1.35;overflow-wrap:anywhere}
-.chg-when{flex:0 0 auto;font-size:14px;color:#98a1ad;white-space:nowrap}
-.verdicts,.context{list-style:none;margin:0;padding:0;background:#161b22;
- border:1px solid #262c36;border-radius:12px}
-.verdicts li{display:flex;gap:10px;align-items:baseline;padding:11px 15px;
- border-bottom:1px solid #262c36}
-.verdicts li:last-child,.context li:last-child{border-bottom:0}
-.vd-name{flex:0 0 92px;font-size:16px;overflow-wrap:anywhere}
-.vd-word{flex:1;font-size:15px;line-height:1.3}
-.vd-edge{flex:0 0 auto;font-size:15px;color:#98a1ad;
+
+.band{margin-top:32px}
+.band-empty{margin:0;background:#12151b;border:1px solid #232833;
+ border-radius:16px;padding:15px 17px;font-size:16px;line-height:1.45;
+ color:#98a2b2}
+.note{margin:10px 3px 0;font-size:14px;line-height:1.45;color:#6f7a8a}
+
+.points{list-style:none;counter-reset:pt;margin:0;padding:0;
+ background:#12151b;border:1px solid #232833;border-radius:16px;
+ overflow:hidden}
+.point{counter-increment:pt;position:relative;padding:14px 17px 14px 46px;
+ font-size:16px;line-height:1.45;border-bottom:1px solid #1c212a}
+.point:last-child{border-bottom:0}
+.point::before{content:counter(pt);position:absolute;left:17px;top:14px;
+ width:20px;height:20px;border-radius:50%;background:#171b22;
+ border:1px solid #232833;color:#6f7a8a;font-size:14px;font-weight:700;
+ line-height:19px;text-align:center}
+.band-empty code{font-size:14px;background:#171b22;border-radius:5px;
+ padding:1px 5px;overflow-wrap:anywhere}
+
+.chips{list-style:none;margin:0;padding:0;background:#12151b;
+ border:1px solid #232833;border-radius:16px;overflow:hidden}
+.chip{display:flex;align-items:baseline;gap:9px;padding:11px 16px;
+ font-size:16px;border-bottom:1px solid #1c212a}
+.chip:last-child{border-bottom:0}
+.chip-name{font-weight:600;flex:0 0 auto}
+.chip-word{flex:1;font-size:15px}
+.chip-when{flex:0 0 auto;font-size:14px;color:#6f7a8a;white-space:nowrap}
+
+.events{list-style:none;margin:0;padding:0;background:#12151b;
+ border:1px solid #232833;border-radius:16px;overflow:hidden}
+.event{display:flex;gap:13px;align-items:baseline;padding:14px 17px;
+ border-bottom:1px solid #1c212a}
+.event:last-child{border-bottom:0}
+.event.soon .event-when{color:#e0736b}
+.event-when{flex:0 0 104px;font-size:14px;color:#98a2b2;font-weight:600}
+.event-body{flex:1;min-width:0}
+.event-label{display:block;font-size:16px;line-height:1.35;
+ overflow-wrap:anywhere}
+.event-date{display:block;font-size:14px;color:#6f7a8a;margin-top:3px}
+
+.stats,.verdicts{list-style:none;margin:0;padding:0;background:#12151b;
+ border:1px solid #232833;border-radius:16px;overflow:hidden}
+.stat{padding:13px 17px;border-bottom:1px solid #1c212a}
+.stat:last-child,.verdict:last-child{border-bottom:0}
+.stat-top{display:flex;gap:12px;align-items:baseline;justify-content:space-between}
+.stat-name{font-size:16px;line-height:1.3;overflow-wrap:anywhere}
+.stat-value{flex:0 0 auto;font-size:17px;font-weight:700;
  font-variant-numeric:tabular-nums}
-.context li{padding:11px 15px;border-bottom:1px solid #262c36}
-.ctx-top{display:flex;gap:10px;align-items:baseline;justify-content:space-between}
-.ctx-label{font-size:16px;line-height:1.3;overflow-wrap:anywhere}
-.ctx-value{flex:0 0 auto;font-size:16px;font-weight:600;
+.stat-line{display:block;margin-top:4px;font-size:14px;line-height:1.45;
+ color:#6f7a8a}
+.verdict{display:flex;gap:11px;align-items:baseline;padding:12px 17px;
+ border-bottom:1px solid #1c212a}
+.verdict-name{flex:0 0 96px;font-size:16px;overflow-wrap:anywhere}
+.verdict-word{flex:1;font-size:15px;line-height:1.3}
+.verdict-edge{flex:0 0 auto;font-size:15px;color:#98a2b2;
  font-variant-numeric:tabular-nums}
-.ctx-sentence{display:block;font-size:14px;color:#98a1ad;margin-top:3px;
- line-height:1.35}
-.reliab{background:#161b22;border:1px solid #262c36;
- border-radius:12px;padding:12px 15px;margin:0}
-.reliab-progress{font-size:16px;line-height:1.4}
-.reliab-note{font-size:14px;color:#98a1ad;line-height:1.35;margin-top:7px}
-.disclaimer{position:fixed;left:0;right:0;bottom:0;background:#161b22;
- border-top:1px solid #262c36;color:#98a1ad;font-size:14px;line-height:1.35;
- padding:10px 16px calc(10px + env(safe-area-inset-bottom));text-align:center;z-index:10}
+
+.disclaimer{position:fixed;left:0;right:0;bottom:0;
+ background:rgba(10,12,16,.94);backdrop-filter:blur(12px);
+ -webkit-backdrop-filter:blur(12px);border-top:1px solid #232833;
+ color:#6f7a8a;font-size:14px;line-height:1.4;text-align:center;
+ padding:11px 18px calc(11px + env(safe-area-inset-bottom));z-index:10}
 </style>
 </head>
 <body>
-<h1>Veille économique</h1>
-<p class="updated">Mise à jour le 06/08/2026 à 14:48 (heure de Paris)</p>
+<header class="hero"><h1>Veille économique</h1><p class="hero-stamp">06/08/2026 à 15:02 · heure de Paris</p><p class="hero-line"><span style="color:#8b94a3">5 marchés sur 10</span> au-dessus de leurs moyennes 50 et 200 jours.</p><p class="hero-line">Actualité <span style="color:#8b94a3">partagée</span> sur les 7 derniers jours : 25 articles favorables, 29 défavorables.</p></header>
+<section class="band"><h2>L'essentiel</h2><p class="band-empty">Une synthèse rédigée des points à connaître apparaîtra ici dès qu'une clé <code>ANTHROPIC_API_KEY</code> sera renseignée dans les secrets GitHub du dépôt. D'ici là, l'actualité est présentée région par région, ci-dessous.</p></section>
+<section class="band"><h2>Ce qui a changé</h2><ul class="chips"><li class="chip"><span class="chip-name">Hang Seng</span><span class="chip-word" style="color:#8b94a3">a perdu sa direction</span><span class="chip-when">aujourd'hui</span></li><li class="chip"><span class="chip-name">Nasdaq</span><span class="chip-word" style="color:#5ec48f">est passé haussier</span><span class="chip-when">hier</span></li><li class="chip"><span class="chip-name">Bitcoin</span><span class="chip-word" style="color:#8b94a3">a perdu sa direction</span><span class="chip-when">il y a 4 j</span></li></ul><p class="note">6 autres basculements plus anciens, dans les 45 derniers jours.</p></section>
 
-<h2>Ce qui a changé</h2><ul class="agenda chg"><li><span class="chg-what">Hang Seng <span style="color:#8b94a1">a perdu sa direction</span></span><span class="chg-when">aujourd'hui</span></li><li><span class="chg-what">Nasdaq <span style="color:#5fa97c">est passé haussier</span></span><span class="chg-when">hier</span></li><li><span class="chg-what">Bitcoin <span style="color:#8b94a1">a perdu sa direction</span></span><span class="chg-when">il y a 4 jours</span></li><li><span class="chg-what">S&amp;P 500 <span style="color:#5fa97c">est passé haussier</span></span><span class="chg-when">il y a 5 jours</span></li><li><span class="chg-what">MSCI World <span style="color:#5fa97c">est passé haussier</span></span><span class="chg-when">il y a 6 jours</span></li></ul><div class="news-note">Les 5 basculements les plus récents. 4 autres plus anciens, dans les 45 derniers jours. Le reste des marchés suivis est dans le même état qu'avant.</div>
+<section class="band">
+<h2>L'actualité, région par région</h2>
+<section class="region" style="--accent:#6aa9ff"><header class="region-head"><span class="region-name">Amérique</span><span class="region-state" style="color:#5ec48f">Tendance haussière</span></header><p class="region-detail">Les deux indices au-dessus de leurs moyennes 50 et 200 jours.</p><div class="quotes"><span class="quote"><span class="quote-name">S&amp;P 500</span><span class="quote-value">7 724</span></span><span class="quote"><span class="quote-name">Nasdaq</span><span class="quote-value">26 363</span></span></div><div class="stories"><a class="story" href="https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm" target="_blank" rel="noopener noreferrer"><span class="story-dot" style="background:#6f7a8a"></span><span class="story-body"><span class="story-title">Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.</span><span class="story-meta">Fed<span class="story-sep">·</span>hier</span></span></a><a class="story" href="https://www.sec.gov/newsroom/press-releases/2026-72-sec-establishes-financial-reporting-accounting-unit-enforcement-division" target="_blank" rel="noopener noreferrer"><span class="story-dot" style="background:#e0736b"></span><span class="story-body"><span class="story-title">SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division</span><span class="story-meta">SEC<span class="story-sep">·</span>il y a 18 h</span></span></a><a class="story" href="https://finance.yahoo.com/markets/stocks/articles/crowdstrike-stock-wall-street-bullish-151542445.html" target="_blank" rel="noopener noreferrer"><span class="story-dot" style="background:#6f7a8a"></span><span class="story-body"><span class="story-title">CrowdStrike Stock: Is Wall Street Bullish or Bearish?</span><span class="story-meta">Yahoo Finance<span class="story-sep">·</span>hier</span></span></a></div><footer class="region-foot"><span class="tally">Actualité 7 jours : <span style="color:#5ec48f">plutôt favorable</span> · 5 pour, 2 contre</span></footer></section><section class="region" style="--accent:#a78bfa"><header class="region-head"><span class="region-name">Europe</span><span class="region-state" style="color:#5ec48f">Tendance haussière</span></header><p class="region-detail">Les 3 indices au-dessus de leurs moyennes 50 et 200 jours.</p><div class="quotes"><span class="quote"><span class="quote-name">Euro Stoxx 50</span><span class="quote-value">6 509</span></span><span class="quote"><span class="quote-name">CAC 40</span><span class="quote-value">8 729</span></span><span class="quote"><span class="quote-name">DAX</span><span class="quote-value">26 170</span></span></div><div class="stories"><a class="story" href="https://www.ecb.europa.eu//press/economic-bulletin/articles/2026/html/ecb.ebart202605_01~712f201ac1.en.html" target="_blank" rel="noopener noreferrer"><span class="story-dot" style="background:#e0736b"></span><span class="story-body"><span class="story-title">The cost of not knowing: how uncertainty weighs on the euro area economy</span><span class="story-meta">BCE<span class="story-sep">·</span>hier</span></span></a><a class="story" href="https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202605_01~4453cc2a34.en.html" target="_blank" rel="noopener noreferrer"><span class="story-dot" style="background:#5ec48f"></span><span class="story-body"><span class="story-title">Europe’s venture capital gap and the financing of high-growth firms</span><span class="story-meta">BCE<span class="story-sep">·</span>il y a 2 j</span></span></a><a class="story" href="https://www.ecb.europa.eu//pub/pdf/scpops/ecb.op396.en.pdf" target="_blank" rel="noopener noreferrer"><span class="story-dot" style="background:#5ec48f"></span><span class="story-body"><span class="story-title">Macro-at-Risk in the euro area Expert Group on Macro-at-Risk Time-Series Workstream</span><span class="story-meta">BCE<span class="story-sep">·</span>il y a 4 h</span></span></a></div><footer class="region-foot"><span class="tally">Actualité 7 jours : <span style="color:#8b94a3">partagée</span> · 4 pour, 6 contre</span></footer></section><section class="region" style="--accent:#f0b45f"><header class="region-head"><span class="region-name">Asie</span><span class="region-state" style="color:#8b94a3">Marchés partagés</span></header><p class="region-detail">Sur 3 indices : 1 en baisse, 2 sans direction.</p><div class="quotes"><span class="quote"><span class="quote-name">Nikkei</span><span class="quote-value">65 683</span></span><span class="quote"><span class="quote-name">Hang Seng</span><span class="quote-value">25 497</span></span><span class="quote"><span class="quote-name">Shanghai</span><span class="quote-value">3 900</span></span></div><div class="stories"><a class="story" href="https://www.theblock.co/post/410959/jpyc-stablecoin-raises-38-million?utm_source=rss&amp;utm_medium=rss" target="_blank" rel="noopener noreferrer"><span class="story-dot" style="background:#5ec48f"></span><span class="story-body"><span class="story-title">Japanese stablecoin firm JPYC raises $38 million in extended Series B</span><span class="story-meta">The Block<span class="story-sep">·</span>il y a 6 h</span></span></a><a class="story" href="https://asia.nikkei.com/business/china-tech/ai-becomes-bigger-headache-than-tariffs-for-china-camera-maker-insta360" target="_blank" rel="noopener noreferrer"><span class="story-dot" style="background:#e0736b"></span><span class="story-body"><span class="story-title">AI becomes bigger headache than tariffs for China camera maker Insta360</span><span class="story-meta">Nikkei Asia<span class="story-sep">·</span>il y a 28 min</span></span></a><a class="story" href="https://asia.nikkei.com/business/technology/for-taiwan-s-tech-suppliers-space-economy-could-be-next-growth-spark" target="_blank" rel="noopener noreferrer"><span class="story-dot" style="background:#5ec48f"></span><span class="story-body"><span class="story-title">For Taiwan&#x27;s tech suppliers, space economy could be next growth spark</span><span class="story-meta">Nikkei Asia<span class="story-sep">·</span>il y a 28 min</span></span></a></div><footer class="region-foot"><span class="tally">Actualité 7 jours : <span style="color:#8b94a3">partagée</span> · 4 pour, 6 contre</span></footer></section><section class="region" style="--accent:#4fd0b0"><header class="region-head"><span class="region-name">Crypto</span><span class="region-state" style="color:#8b94a3">Sans direction nette</span></header><p class="region-detail">Aucun des 2 indices n&#x27;est clairement orienté.</p><div class="quotes"><span class="quote"><span class="quote-name">Bitcoin</span><span class="quote-value">64 450 $</span></span><span class="quote"><span class="quote-name">Ethereum</span><span class="quote-value">1 902 $</span></span></div><div class="stories"><a class="story" href="https://www.sec.gov/newsroom/press-releases/2026-72-sec-establishes-financial-reporting-accounting-unit-enforcement-division" target="_blank" rel="noopener noreferrer"><span class="story-dot" style="background:#e0736b"></span><span class="story-body"><span class="story-title">SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division</span><span class="story-meta">SEC<span class="story-sep">·</span>il y a 18 h</span></span></a><a class="story" href="https://www.theblock.co/post/410959/jpyc-stablecoin-raises-38-million?utm_source=rss&amp;utm_medium=rss" target="_blank" rel="noopener noreferrer"><span class="story-dot" style="background:#5ec48f"></span><span class="story-body"><span class="story-title">Japanese stablecoin firm JPYC raises $38 million in extended Series B</span><span class="story-meta">The Block<span class="story-sep">·</span>il y a 6 h</span></span></a><a class="story" href="https://www.theblock.co/post/410905/analysts-see-bitcoin-bottom-forming-through-boredom-price-clings-64k-amid-spot-etf-inflows?utm_source=rss&amp;utm_medium=rss" target="_blank" rel="noopener noreferrer"><span class="story-dot" style="background:#5ec48f"></span><span class="story-body"><span class="story-title">Analysts see bitcoin bottom forming through boredom as price clings to $64K amid spot ETF inflows</span><span class="story-meta">The Block<span class="story-sep">·</span>il y a 19 h</span></span></a></div><footer class="region-foot"><span class="tally">Actualité 7 jours : <span style="color:#8b94a3">partagée</span> · 12 pour, 15 contre</span></footer></section><p class="global-line">MSCI World 209,15 — <span style="color:#5ec48f">tendance haussière</span></p>
+</section>
 
-<div class="breadth"><span style="color:#8b94a1">5 marchés sur 10</span> au-dessus de leurs moyennes 50 et 200 jours.</div><article class="zone"><div class="zone-name">Amérique</div><div class="zone-state" style="color:#5fa97c">Tendance haussière</div><div class="zone-detail">Les deux indices au-dessus de leurs moyennes 50 et 200 jours.</div><div class="zone-quotes"><span class="q-name">S&amp;P 500</span> 7 724 · <span class="q-name">Nasdaq</span> 26 363</div><div class="zone-news">Actualité 7 jours : <span style="color:#5fa97c">plutôt favorable</span> — 5 favorables, 2 défavorables.</div></article><article class="zone"><div class="zone-name">Europe</div><div class="zone-state" style="color:#5fa97c">Tendance haussière</div><div class="zone-detail">Les 3 indices au-dessus de leurs moyennes 50 et 200 jours.</div><div class="zone-quotes"><span class="q-name">Euro Stoxx 50</span> 6 509 · <span class="q-name">CAC 40</span> 8 729 · <span class="q-name">DAX</span> 26 170</div><div class="zone-news">Actualité 7 jours : <span style="color:#8b94a1">partagée</span> — 4 favorables, 6 défavorables.</div></article><article class="zone"><div class="zone-name">Asie</div><div class="zone-state" style="color:#8b94a1">Marchés partagés</div><div class="zone-detail">Sur 3 indices : 1 en baisse, 2 sans direction.</div><div class="zone-quotes"><span class="q-name">Nikkei</span> 65 683 · <span class="q-name">Hang Seng</span> 25 497 · <span class="q-name">Shanghai</span> 3 900</div><div class="zone-news">Actualité 7 jours : <span style="color:#8b94a1">partagée</span> — 4 favorables, 6 défavorables.</div></article><article class="zone"><div class="zone-name">Crypto</div><div class="zone-state" style="color:#8b94a1">Sans direction nette</div><div class="zone-detail">Aucun des 2 indices n&#x27;est clairement orienté.</div><div class="zone-quotes"><span class="q-name">Bitcoin</span> 64 450 $ · <span class="q-name">Ethereum</span> 1 902 $</div><div class="zone-extra">Sous le plus haut sur un an : Bitcoin −48 % · Ethereum −61 %.</div><div class="zone-news">Actualité 7 jours : <span style="color:#8b94a1">partagée</span> — 20 favorables, 20 défavorables.</div></article><div class="global-line">MSCI World 209,15 — <span style="color:#5fa97c">tendance haussière</span></div>
-<h2>À surveiller</h2><ul class="agenda"><li><span class="ag-when">dans 35 jours</span><span class="ag-body"><span class="ag-label">Conseil des gouverneurs de la BCE — décision de taux</span><span class="ag-date">jeudi 10 septembre</span></span></li><li><span class="ag-when">dans 41 jours</span><span class="ag-body"><span class="ag-label">Réunion du FOMC (Fed) — décision de taux</span><span class="ag-date">mercredi 16 septembre</span></span></li><li><span class="ag-when">dans 42 jours</span><span class="ag-body"><span class="ag-label">Comité de politique monétaire (BoE) — décision de taux</span><span class="ag-date">jeudi 17 septembre</span></span></li><li><span class="ag-when">dans 43 jours</span><span class="ag-body"><span class="ag-label">Réunion de politique monétaire (BoJ) — décision de taux</span><span class="ag-date">vendredi 18 septembre</span></span></li></ul>
-
-<h2>Ce qu'il faut savoir</h2>
-<ul class="news"><li>Banques centrales : ton <span style="color:#8b94a1">neutre</span> sur 7 jours.</li><li>Actualité générale : <span style="color:#8b94a1">partagée</span> — 88 favorables, 53 défavorables sur 7 jours.</li><li>Part des sujets de crise : <span style="color:#5fa97c">faible</span> (1 % du flux).</li></ul><div class="news-note">Résumé mécanique. Une synthèse rédigée apparaîtra ici dès qu'une clé ANTHROPIC_API_KEY sera renseignée dans les secrets GitHub.</div>
-<a class="headline" target="_blank" rel="noopener noreferrer" href="https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm"><span class="headline-label">Le fait marquant</span><span class="headline-title">Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.</span></a>
-
-<h2>Des situations comparables</h2><ul class="context"><li><span class="ctx-top"><span class="ctx-label">Bitcoin</span><span class="ctx-value" style="color:#cf6b62">−4,2 %</span></span><span class="ctx-sentence">−8,6 % par rapport à sa moyenne 200 jours — les 100 séances comparables ont été suivies de −4,2 % en 20 séances, contre −0,6 % pour une séance quelconque.</span></li><li><span class="ctx-top"><span class="ctx-label">Euro Stoxx 50</span><span class="ctx-value" style="color:#cf6b62">−0,3 %</span></span><span class="ctx-sentence">+9,8 % par rapport à sa moyenne 200 jours — les 207 séances comparables ont été suivies de −0,3 % en 20 séances, contre +1,1 % pour une séance quelconque.</span></li><li><span class="ctx-top"><span class="ctx-label">CAC 40</span><span class="ctx-value" style="color:#cf6b62">−0,6 %</span></span><span class="ctx-sentence">+6,5 % par rapport à sa moyenne 200 jours — les 212 séances comparables ont été suivies de −0,6 % en 20 séances, contre +0,6 % pour une séance quelconque.</span></li><li><span class="ctx-top"><span class="ctx-label">Shanghai</span><span class="ctx-value" style="color:#cf6b62">−0,7 %</span></span><span class="ctx-sentence">−2,8 % par rapport à sa moyenne 200 jours — les 198 séances comparables ont été suivies de −0,7 % en 20 séances, contre +0,4 % pour une séance quelconque.</span></li></ul><div class="news-note">Les 7 autres marchés suivis sont proches de leur moyenne générale. Chaque marché est découpé en cinq paquets selon son écart à la moyenne 200 jours, et on regarde ce qu'ont fait les séances du même paquet. Découpage fait par les données, aucun seuil choisi à la main. Ce qui a suivi n'est pas ce qui suivra.</div>
-<h2>Des phases qui durent</h2><ul class="context"><li><span class="ctx-top"><span class="ctx-label">Euro Stoxx 50</span><span class="ctx-value" style="color:#5fa97c">66 séances</span></span><span class="ctx-sentence">tendance haussière sans interruption — plus long que 100 % des 45 phases de même nature qu'a connues ce marché.</span></li><li><span class="ctx-top"><span class="ctx-label">CAC 40</span><span class="ctx-value" style="color:#5fa97c">57 séances</span></span><span class="ctx-sentence">tendance haussière sans interruption — plus long que 98 % des 43 phases de même nature qu'a connues ce marché.</span></li></ul><div class="news-note">Comparaison avec les phases passées du même marché, sur l'historique disponible. Une phase longue ne se retourne pas parce qu'elle est longue : c'est un repère, pas un signal.</div>
-<h2>Ce que valent ces signaux</h2><ul class="verdicts"><li><span class="vd-name">Ethereum</span><span class="vd-word" style="color:#5fa97c">a séparé les deux cas</span><span class="vd-edge">+5,0 pt</span></li><li><span class="vd-name">Bitcoin</span><span class="vd-word" style="color:#8b94a1">a peu séparé</span><span class="vd-edge">+1,7 pt</span></li><li><span class="vd-name">Hang Seng</span><span class="vd-word" style="color:#cf6b62">n'a rien séparé</span><span class="vd-edge">−0,3 pt</span></li><li><span class="vd-name">Shanghai</span><span class="vd-word" style="color:#cf6b62">n'a rien séparé</span><span class="vd-edge">−0,5 pt</span></li><li><span class="vd-name">Nikkei 225</span><span class="vd-word" style="color:#8b94a1">a peu séparé</span><span class="vd-edge">−1,6 pt</span></li><li><span class="vd-name">S&amp;P 500</span><span class="vd-word" style="color:#cf6b62">a séparé à l'envers</span><span class="vd-edge">−2,3 pt</span></li><li><span class="vd-name">Nasdaq</span><span class="vd-word" style="color:#cf6b62">a séparé à l'envers</span><span class="vd-edge">−2,3 pt</span></li><li><span class="vd-name">DAX</span><span class="vd-word" style="color:#cf6b62">a séparé à l'envers</span><span class="vd-edge">−2,3 pt</span></li><li><span class="vd-name">CAC 40</span><span class="vd-word" style="color:#cf6b62">a séparé à l'envers</span><span class="vd-edge">−2,3 pt</span></li><li><span class="vd-name">MSCI World</span><span class="vd-word" style="color:#cf6b62">a séparé à l'envers</span><span class="vd-edge">−2,6 pt</span></li><li><span class="vd-name">Euro Stoxx 50</span><span class="vd-word" style="color:#cf6b62">a séparé à l'envers</span><span class="vd-edge">−2,9 pt</span></li></ul><div class="news-note">Sur 11 marchés suivis, le signal de tendance n'a rien apporté sur 4 d'entre eux. L'écart affiché est la différence de performance moyenne sur 20 séances entre les journées classées haussières et les journées classées baissières, mesurée sur l'historique disponible. Mesure faite après coup, sur les mêmes données : elle dit ce qui s'est passé, pas ce qui se passera.</div>
-<h2>Ce qui bouge avec quoi</h2><ul class="context"><li><span class="ctx-top"><span class="ctx-label">Bitcoin et Nasdaq</span><span class="ctx-value" style="color:#e6e9ee">+0,39</span></span><span class="ctx-sentence">bougent un peu ensemble — mesuré sur 90 séances communes aux deux marchés.</span></li><li><span class="ctx-top"><span class="ctx-label">Bitcoin et S&amp;P 500</span><span class="ctx-value" style="color:#e6e9ee">+0,39</span></span><span class="ctx-sentence">bougent un peu ensemble — mesuré sur 90 séances communes aux deux marchés.</span></li><li><span class="ctx-top"><span class="ctx-label">Ethereum et Bitcoin</span><span class="ctx-value" style="color:#e6e9ee">+0,88</span></span><span class="ctx-sentence">bougent ensemble — mesuré sur 90 séances communes aux deux marchés.</span></li></ul><div class="news-note">Corrélation des variations quotidiennes, entre −1 et +1. Proche de 1, les deux marchés montent et descendent ensemble et ne se diversifient donc pas l'un l'autre. Seules les journées cotées des deux côtés sont comparées : les cryptos cotent le week-end, pas les indices.</div>
-<h2>Où on en est, en perspective</h2><ul class="context"><li><span class="ctx-top"><span class="ctx-label">VIX (nervosité des actions américaines)</span><span class="ctx-value">15,9</span></span><span class="ctx-sentence">plus calme que 72 % des 5 dernières années</span></li><li><span class="ctx-top"><span class="ctx-label">Fear &amp; Greed crypto</span><span class="ctx-value">25/100</span></span><span class="ctx-sentence">plus craintif que 78 % de toute l&#x27;histoire de l&#x27;indice</span></li><li><span class="ctx-top"><span class="ctx-label">Volatilité du Bitcoin sur 30 jours</span><span class="ctx-value">29 %</span></span><span class="ctx-sentence">plus calme que 87 % des 2 dernières années</span></li><li><span class="ctx-top"><span class="ctx-label">Décote du Bitcoin sous son plus haut</span><span class="ctx-value">−48 %</span></span><span class="ctx-sentence">plus loin du sommet que 92 % des 2 dernières années</span></li></ul><div class="news-note">Chaque chiffre est comparé à sa propre histoire. Un niveau rare décrit le présent ; il ne dit rien de la suite.</div>
+<section class="band"><h2>À surveiller</h2><ul class="events"><li class="event"><span class="event-when">dans 35 jours</span><span class="event-body"><span class="event-label">Conseil des gouverneurs de la BCE — décision de taux</span><span class="event-date">jeudi 10 septembre</span></span></li><li class="event"><span class="event-when">dans 41 jours</span><span class="event-body"><span class="event-label">Réunion du FOMC (Fed) — décision de taux</span><span class="event-date">mercredi 16 septembre</span></span></li><li class="event"><span class="event-when">dans 42 jours</span><span class="event-body"><span class="event-label">Comité de politique monétaire (BoE) — décision de taux</span><span class="event-date">jeudi 17 septembre</span></span></li><li class="event"><span class="event-when">dans 43 jours</span><span class="event-body"><span class="event-label">Réunion de politique monétaire (BoJ) — décision de taux</span><span class="event-date">vendredi 18 septembre</span></span></li></ul></section>
+<section class="band"><h2>Des situations comparables</h2><ul class="stats"><li class="stat"><span class="stat-top"><span class="stat-name">Bitcoin</span><span class="stat-value" style="color:#e0736b">−4,2 %</span></span><span class="stat-line">−8,6 % par rapport à sa moyenne 200 jours — les 100 séances comparables ont été suivies de −4,2 % en 20 séances, contre −0,6 % pour une séance quelconque.</span></li><li class="stat"><span class="stat-top"><span class="stat-name">Euro Stoxx 50</span><span class="stat-value" style="color:#e0736b">−0,3 %</span></span><span class="stat-line">+9,8 % par rapport à sa moyenne 200 jours — les 207 séances comparables ont été suivies de −0,3 % en 20 séances, contre +1,1 % pour une séance quelconque.</span></li><li class="stat"><span class="stat-top"><span class="stat-name">CAC 40</span><span class="stat-value" style="color:#e0736b">−0,6 %</span></span><span class="stat-line">+6,5 % par rapport à sa moyenne 200 jours — les 212 séances comparables ont été suivies de −0,6 % en 20 séances, contre +0,6 % pour une séance quelconque.</span></li><li class="stat"><span class="stat-top"><span class="stat-name">Shanghai</span><span class="stat-value" style="color:#e0736b">−0,7 %</span></span><span class="stat-line">−2,8 % par rapport à sa moyenne 200 jours — les 198 séances comparables ont été suivies de −0,7 % en 20 séances, contre +0,4 % pour une séance quelconque.</span></li></ul><p class="note">Les 7 autres marchés suivis sont proches de leur moyenne générale. Chaque marché est découpé en cinq paquets selon son écart à la moyenne 200 jours ; on regarde ce qu'ont fait les séances du même paquet. Découpage fait par les données, aucun seuil choisi à la main. Ce qui a suivi n'est pas ce qui suivra.</p></section>
+<section class="band"><h2>Des phases qui durent</h2><ul class="stats"><li class="stat"><span class="stat-top"><span class="stat-name">Euro Stoxx 50</span><span class="stat-value" style="color:#5ec48f">66 séances</span></span><span class="stat-line">tendance haussière sans interruption — plus long que 100 % des 45 phases de même nature qu'a connues ce marché.</span></li><li class="stat"><span class="stat-top"><span class="stat-name">CAC 40</span><span class="stat-value" style="color:#5ec48f">57 séances</span></span><span class="stat-line">tendance haussière sans interruption — plus long que 98 % des 43 phases de même nature qu'a connues ce marché.</span></li></ul><p class="note">Comparaison avec les phases passées du même marché. Une phase longue ne se retourne pas parce qu'elle est longue : c'est un repère, pas un signal.</p></section>
+<section class="band"><h2>Ce que valent ces signaux</h2><ul class="verdicts"><li class="verdict"><span class="verdict-name">Ethereum</span><span class="verdict-word" style="color:#5ec48f">a séparé les deux cas</span><span class="verdict-edge">+5,0 pt</span></li><li class="verdict"><span class="verdict-name">Bitcoin</span><span class="verdict-word" style="color:#8b94a3">a peu séparé</span><span class="verdict-edge">+1,7 pt</span></li><li class="verdict"><span class="verdict-name">Hang Seng</span><span class="verdict-word" style="color:#e0736b">n'a rien séparé</span><span class="verdict-edge">−0,3 pt</span></li><li class="verdict"><span class="verdict-name">Shanghai</span><span class="verdict-word" style="color:#e0736b">n'a rien séparé</span><span class="verdict-edge">−0,5 pt</span></li><li class="verdict"><span class="verdict-name">Nikkei 225</span><span class="verdict-word" style="color:#8b94a3">a peu séparé</span><span class="verdict-edge">−1,6 pt</span></li><li class="verdict"><span class="verdict-name">S&amp;P 500</span><span class="verdict-word" style="color:#e0736b">a séparé à l'envers</span><span class="verdict-edge">−2,3 pt</span></li><li class="verdict"><span class="verdict-name">Nasdaq</span><span class="verdict-word" style="color:#e0736b">a séparé à l'envers</span><span class="verdict-edge">−2,3 pt</span></li><li class="verdict"><span class="verdict-name">DAX</span><span class="verdict-word" style="color:#e0736b">a séparé à l'envers</span><span class="verdict-edge">−2,3 pt</span></li><li class="verdict"><span class="verdict-name">CAC 40</span><span class="verdict-word" style="color:#e0736b">a séparé à l'envers</span><span class="verdict-edge">−2,3 pt</span></li><li class="verdict"><span class="verdict-name">MSCI World</span><span class="verdict-word" style="color:#e0736b">a séparé à l'envers</span><span class="verdict-edge">−2,6 pt</span></li><li class="verdict"><span class="verdict-name">Euro Stoxx 50</span><span class="verdict-word" style="color:#e0736b">a séparé à l'envers</span><span class="verdict-edge">−2,9 pt</span></li></ul><p class="note">Sur 11 marchés suivis, le signal de tendance n'a rien apporté sur 4 d'entre eux. L'écart est la différence de performance moyenne sur 20 séances entre les journées classées haussières et les journées classées baissières. Mesure faite après coup, sur les mêmes données : elle dit ce qui s'est passé, pas ce qui se passera.</p></section>
+<section class="band"><h2>Ce qui bouge avec quoi</h2><ul class="stats"><li class="stat"><span class="stat-top"><span class="stat-name">Bitcoin et Nasdaq</span><span class="stat-value" style="color:#eaeef4">+0,39</span></span><span class="stat-line">bougent un peu ensemble — mesuré sur 90 séances communes aux deux marchés.</span></li><li class="stat"><span class="stat-top"><span class="stat-name">Bitcoin et S&amp;P 500</span><span class="stat-value" style="color:#eaeef4">+0,39</span></span><span class="stat-line">bougent un peu ensemble — mesuré sur 90 séances communes aux deux marchés.</span></li><li class="stat"><span class="stat-top"><span class="stat-name">Ethereum et Bitcoin</span><span class="stat-value" style="color:#eaeef4">+0,88</span></span><span class="stat-line">bougent ensemble — mesuré sur 90 séances communes aux deux marchés.</span></li></ul><p class="note">Corrélation des variations quotidiennes, entre −1 et +1. Proche de 1, les deux marchés montent et descendent ensemble et ne se diversifient donc pas l'un l'autre. Seules les journées cotées des deux côtés sont comparées : les cryptos cotent le week-end, pas les indices.</p></section>
+<section class="band"><h2>Où on en est, en perspective</h2><ul class="stats"><li class="stat"><span class="stat-top"><span class="stat-name">VIX (nervosité des actions américaines)</span><span class="stat-value">15,9</span></span><span class="stat-line">plus calme que 72 % des 5 dernières années</span></li><li class="stat"><span class="stat-top"><span class="stat-name">Fear &amp; Greed crypto</span><span class="stat-value">25/100</span></span><span class="stat-line">plus craintif que 78 % de toute l&#x27;histoire de l&#x27;indice</span></li><li class="stat"><span class="stat-top"><span class="stat-name">Volatilité du Bitcoin sur 30 jours</span><span class="stat-value">29 %</span></span><span class="stat-line">plus calme que 87 % des 2 dernières années</span></li><li class="stat"><span class="stat-top"><span class="stat-name">Décote du Bitcoin sous son plus haut</span><span class="stat-value">−48 %</span></span><span class="stat-line">plus loin du sommet que 92 % des 2 dernières années</span></li></ul><p class="note">Chaque chiffre est comparé à sa propre histoire. Un niveau rare décrit le présent ; il ne dit rien de la suite.</p></section>
 
 <!-- Bandeau permanent : ne jamais retirer. -->
 <div class="disclaimer" role="note">Ces indicateurs décrivent l&#x27;actualité. Ils ne prédisent rien. Aucune valeur prédictive n&#x27;a été démontrée à ce jour.</div>
