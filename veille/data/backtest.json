@@ -1,6 +1,6 @@
 {
-  "schema": 2,
-  "generated_at": "2026-08-01T07:57:14.800267+00:00",
+  "schema": 3,
+  "generated_at": "2026-08-06T12:45:41.066837+00:00",
   "horizon_days": 20,
   "assets": {
     "btc": {
@@ -8,9 +8,12 @@
       "depth": "2 ans (limite de la bourse)",
       "observed_days": 721,
       "current": {
-        "trend": "baissiere",
-        "since": "2026-07-31",
-        "days": 1
+        "trend": "indecise",
+        "since": "2026-08-02",
+        "days": 4,
+        "sessions": 5,
+        "usual_sessions": 3,
+        "past_phases": 27
       },
       "states": {
         "haussiere": {
@@ -20,42 +23,42 @@
           "positive_pct": 51.8
         },
         "baissiere": {
-          "days": 208,
-          "mean_pct": -0.45,
-          "median_pct": -0.4,
-          "positive_pct": 48.1
+          "days": 210,
+          "mean_pct": -0.43,
+          "median_pct": -0.35,
+          "positive_pct": 48.6
         },
         "indecise": {
-          "days": 152,
-          "mean_pct": -2.73,
+          "days": 150,
+          "mean_pct": -2.71,
           "median_pct": -1.07,
-          "positive_pct": 42.1
+          "positive_pct": 42.7
         }
       },
       "baseline": {
         "days": 501,
-        "mean_pct": -0.65,
+        "mean_pct": -0.62,
         "median_pct": -0.46,
-        "positive_pct": 47.3
+        "positive_pct": 47.7
       },
       "analogues": {
-        "current_stretch": -11.65,
-        "bucket": 2,
+        "current_stretch": -8.58,
+        "bucket": 3,
         "buckets": 5,
         "range_pct": [
-          -18.8,
-          -9.8
+          -11.3,
+          0.4
         ],
         "outcome": {
           "days": 100,
-          "mean_pct": -3.26,
-          "median_pct": -1.93,
+          "mean_pct": -4.22,
+          "median_pct": -4.41,
           "positive_pct": 37.0
         }
       },
-      "edge_pct": 1.76,
+      "edge_pct": 1.74,
       "verdict": "signal faible",
-      "sentence": "Écart trop faible pour en tirer quoi que ce soit. Après un signal haussier, +1,3 % en moyenne sur 20 séances ; après un signal baissier, -0,5 %."
+      "sentence": "Écart trop faible pour en tirer quoi que ce soit. Après un signal haussier, +1,3 % en moyenne sur 20 séances ; après un signal baissier, -0,4 %."
     },
     "eth": {
       "label": "Ethereum",
@@ -64,7 +67,10 @@
       "current": {
         "trend": "indecise",
         "since": "2026-07-10",
-        "days": 22
+        "days": 27,
+        "sessions": 28,
+        "usual_sessions": 9,
+        "past_phases": 12
       },
       "states": {
         "haussiere": {
@@ -74,64 +80,67 @@
           "positive_pct": 53.3
         },
         "baissiere": {
-          "days": 241,
-          "mean_pct": 1.58,
-          "median_pct": 0.2,
-          "positive_pct": 51.5
+          "days": 236,
+          "mean_pct": 1.87,
+          "median_pct": 0.29,
+          "positive_pct": 52.5
         },
         "indecise": {
-          "days": 170,
-          "mean_pct": -2.64,
-          "median_pct": -3.73,
-          "positive_pct": 37.6
+          "days": 175,
+          "mean_pct": -2.53,
+          "median_pct": -3.13,
+          "positive_pct": 38.3
         }
       },
       "baseline": {
         "days": 501,
-        "mean_pct": 1.09,
-        "median_pct": -0.69,
-        "positive_pct": 47.1
+        "mean_pct": 1.23,
+        "median_pct": -0.62,
+        "positive_pct": 47.7
       },
       "analogues": {
-        "current_stretch": -11.17,
-        "bucket": 3,
+        "current_stretch": -7.99,
+        "bucket": 4,
         "buckets": 5,
         "range_pct": [
-          -19.6,
-          -10.6
+          -10.6,
+          21.3
         ],
         "outcome": {
           "days": 100,
-          "mean_pct": -5.91,
-          "median_pct": -5.44,
-          "positive_pct": 31.0
+          "mean_pct": 1.42,
+          "median_pct": -2.28,
+          "positive_pct": 41.0
         }
       },
-      "edge_pct": 5.27,
+      "edge_pct": 4.98,
       "verdict": "signal utile",
-      "sentence": "Le signal a séparé les deux cas. Après un signal haussier, +6,8 % en moyenne sur 20 séances ; après un signal baissier, +1,6 %."
+      "sentence": "Le signal a séparé les deux cas. Après un signal haussier, +6,8 % en moyenne sur 20 séances ; après un signal baissier, +1,9 %."
     },
     "sp500": {
       "label": "S&P 500",
       "depth": "5 ans",
-      "observed_days": 1255,
+      "observed_days": 1254,
       "current": {
         "trend": "haussiere",
         "since": "2026-07-31",
-        "days": 0
+        "days": 5,
+        "sessions": 4,
+        "usual_sessions": 5,
+        "past_phases": 28
       },
       "states": {
         "haussiere": {
-          "days": 658,
+          "days": 661,
           "mean_pct": 1.18,
-          "median_pct": 1.62,
-          "positive_pct": 70.8
+          "median_pct": 1.63,
+          "positive_pct": 71.0
         },
         "baissiere": {
-          "days": 163,
-          "mean_pct": 3.22,
-          "median_pct": 5.29,
-          "positive_pct": 68.7
+          "days": 159,
+          "mean_pct": 3.45,
+          "median_pct": 5.38,
+          "positive_pct": 70.4
         },
         "indecise": {
           "days": 214,
@@ -141,83 +150,86 @@
         }
       },
       "baseline": {
-        "days": 1035,
-        "mean_pct": 1.3,
-        "median_pct": 1.75,
-        "positive_pct": 67.5
+        "days": 1034,
+        "mean_pct": 1.33,
+        "median_pct": 1.8,
+        "positive_pct": 67.9
       },
       "analogues": {
-        "current_stretch": 6.63,
-        "bucket": 3,
+        "current_stretch": 9.71,
+        "bucket": 4,
         "buckets": 5,
         "range_pct": [
-          5.1,
-          8.1
+          8.1,
+          10.2
         ],
         "outcome": {
           "days": 207,
-          "mean_pct": 1.37,
-          "median_pct": 2.29,
-          "positive_pct": 72.0
+          "mean_pct": 1.54,
+          "median_pct": 1.87,
+          "positive_pct": 79.2
         }
       },
-      "edge_pct": -2.04,
+      "edge_pct": -2.27,
       "verdict": "signal inversé",
-      "sentence": "Le signal a séparé les deux cas, mais à l'envers de l'intuition. Après un signal haussier, +1,2 % en moyenne sur 20 séances ; après un signal baissier, +3,2 %."
+      "sentence": "Le signal a séparé les deux cas, mais à l'envers de l'intuition. Après un signal haussier, +1,2 % en moyenne sur 20 séances ; après un signal baissier, +3,5 %."
     },
     "nasdaq": {
       "label": "Nasdaq",
       "depth": "5 ans",
-      "observed_days": 1255,
+      "observed_days": 1254,
       "current": {
-        "trend": "indecise",
-        "since": "2026-07-16",
-        "days": 15
+        "trend": "haussiere",
+        "since": "2026-08-04",
+        "days": 1,
+        "sessions": 2,
+        "usual_sessions": 4,
+        "past_phases": 32
       },
       "states": {
         "haussiere": {
-          "days": 639,
-          "mean_pct": 1.7,
+          "days": 640,
+          "mean_pct": 1.69,
           "median_pct": 2.15,
-          "positive_pct": 71.5
+          "positive_pct": 71.4
         },
         "baissiere": {
-          "days": 170,
-          "mean_pct": 3.74,
-          "median_pct": 4.31,
-          "positive_pct": 64.1
+          "days": 166,
+          "mean_pct": 3.96,
+          "median_pct": 4.7,
+          "positive_pct": 65.7
         },
         "indecise": {
-          "days": 226,
-          "mean_pct": 0.08,
-          "median_pct": -0.03,
-          "positive_pct": 50.0
+          "days": 228,
+          "mean_pct": 0.1,
+          "median_pct": 0.18,
+          "positive_pct": 50.4
         }
       },
       "baseline": {
-        "days": 1035,
-        "mean_pct": 1.68,
-        "median_pct": 1.98,
-        "positive_pct": 65.6
+        "days": 1034,
+        "mean_pct": 1.71,
+        "median_pct": 1.99,
+        "positive_pct": 65.9
       },
       "analogues": {
-        "current_stretch": 5.73,
-        "bucket": 2,
+        "current_stretch": 9.6,
+        "bucket": 3,
         "buckets": 5,
         "range_pct": [
-          -3.3,
-          6.4
+          6.5,
+          10.3
         ],
         "outcome": {
           "days": 207,
-          "mean_pct": 2.8,
-          "median_pct": 3.2,
-          "positive_pct": 69.1
+          "mean_pct": 2.55,
+          "median_pct": 3.18,
+          "positive_pct": 79.7
         }
       },
-      "edge_pct": -2.04,
+      "edge_pct": -2.27,
       "verdict": "signal inversé",
-      "sentence": "Le signal a séparé les deux cas, mais à l'envers de l'intuition. Après un signal haussier, +1,7 % en moyenne sur 20 séances ; après un signal baissier, +3,7 %."
+      "sentence": "Le signal a séparé les deux cas, mais à l'envers de l'intuition. Après un signal haussier, +1,7 % en moyenne sur 20 séances ; après un signal baissier, +4,0 %."
     },
     "eurostoxx": {
       "label": "Euro Stoxx 50",
@@ -226,20 +238,23 @@
       "current": {
         "trend": "haussiere",
         "since": "2026-05-05",
-        "days": 87
+        "days": 93,
+        "sessions": 66,
+        "usual_sessions": 3,
+        "past_phases": 45
       },
       "states": {
         "haussiere": {
-          "days": 631,
-          "mean_pct": 0.65,
+          "days": 635,
+          "mean_pct": 0.67,
           "median_pct": 0.59,
-          "positive_pct": 57.7
+          "positive_pct": 58.0
         },
         "baissiere": {
-          "days": 174,
-          "mean_pct": 3.37,
-          "median_pct": 3.55,
-          "positive_pct": 71.8
+          "days": 170,
+          "mean_pct": 3.6,
+          "median_pct": 3.72,
+          "positive_pct": 73.5
         },
         "indecise": {
           "days": 232,
@@ -250,28 +265,28 @@
       },
       "baseline": {
         "days": 1037,
-        "mean_pct": 1.11,
-        "median_pct": 0.91,
-        "positive_pct": 60.1
+        "mean_pct": 1.14,
+        "median_pct": 0.95,
+        "positive_pct": 60.5
       },
       "analogues": {
-        "current_stretch": 7.55,
-        "bucket": 4,
+        "current_stretch": 9.8,
+        "bucket": 5,
         "buckets": 5,
         "range_pct": [
-          6.1,
-          9.1
+          9.2,
+          15.3
         ],
         "outcome": {
           "days": 207,
-          "mean_pct": -0.35,
-          "median_pct": -0.55,
-          "positive_pct": 47.3
+          "mean_pct": -0.3,
+          "median_pct": -0.17,
+          "positive_pct": 48.3
         }
       },
-      "edge_pct": -2.72,
+      "edge_pct": -2.93,
       "verdict": "signal inversé",
-      "sentence": "Le signal a séparé les deux cas, mais à l'envers de l'intuition. Après un signal haussier, +0,7 % en moyenne sur 20 séances ; après un signal baissier, +3,4 %."
+      "sentence": "Le signal a séparé les deux cas, mais à l'envers de l'intuition. Après un signal haussier, +0,7 % en moyenne sur 20 séances ; après un signal baissier, +3,6 %."
     },
     "cac40": {
       "label": "CAC 40",
@@ -280,20 +295,23 @@
       "current": {
         "trend": "haussiere",
         "since": "2026-05-20",
-        "days": 72
+        "days": 78,
+        "sessions": 57,
+        "usual_sessions": 3,
+        "past_phases": 43
       },
       "states": {
         "haussiere": {
-          "days": 536,
-          "mean_pct": -0.05,
-          "median_pct": -0.13,
-          "positive_pct": 48.5
+          "days": 540,
+          "mean_pct": -0.03,
+          "median_pct": -0.1,
+          "positive_pct": 48.9
         },
         "baissiere": {
-          "days": 262,
-          "mean_pct": 2.21,
+          "days": 258,
+          "mean_pct": 2.25,
           "median_pct": 2.17,
-          "positive_pct": 71.8
+          "positive_pct": 72.1
         },
         "indecise": {
           "days": 263,
@@ -304,28 +322,28 @@
       },
       "baseline": {
         "days": 1061,
-        "mean_pct": 0.6,
+        "mean_pct": 0.61,
         "median_pct": 0.51,
-        "positive_pct": 55.8
+        "positive_pct": 56.0
       },
       "analogues": {
-        "current_stretch": 3.93,
-        "bucket": 4,
+        "current_stretch": 6.45,
+        "bucket": 5,
         "buckets": 5,
         "range_pct": [
-          3.3,
-          6.4
+          6.4,
+          15.0
         ],
         "outcome": {
           "days": 212,
-          "mean_pct": -0.62,
-          "median_pct": -0.73,
-          "positive_pct": 42.5
+          "mean_pct": -0.56,
+          "median_pct": -0.62,
+          "positive_pct": 42.0
         }
       },
-      "edge_pct": -2.26,
+      "edge_pct": -2.28,
       "verdict": "signal inversé",
-      "sentence": "Le signal a séparé les deux cas, mais à l'envers de l'intuition. Après un signal haussier, -0,1 % en moyenne sur 20 séances ; après un signal baissier, +2,2 %."
+      "sentence": "Le signal a séparé les deux cas, mais à l'envers de l'intuition. Après un signal haussier, -0,0 % en moyenne sur 20 séances ; après un signal baissier, +2,2 %."
     },
     "dax": {
       "label": "DAX",
@@ -334,52 +352,55 @@
       "current": {
         "trend": "haussiere",
         "since": "2026-07-24",
-        "days": 7
+        "days": 13,
+        "sessions": 10,
+        "usual_sessions": 7,
+        "past_phases": 37
       },
       "states": {
         "haussiere": {
-          "days": 679,
-          "mean_pct": 0.75,
+          "days": 683,
+          "mean_pct": 0.76,
           "median_pct": 0.78,
-          "positive_pct": 59.2
+          "positive_pct": 59.4
         },
         "baissiere": {
-          "days": 154,
-          "mean_pct": 2.91,
-          "median_pct": 2.73,
-          "positive_pct": 66.9
+          "days": 151,
+          "mean_pct": 3.03,
+          "median_pct": 2.97,
+          "positive_pct": 68.2
         },
         "indecise": {
-          "days": 222,
-          "mean_pct": 1.32,
-          "median_pct": 1.8,
-          "positive_pct": 64.9
+          "days": 221,
+          "mean_pct": 1.35,
+          "median_pct": 1.82,
+          "positive_pct": 65.2
         }
       },
       "baseline": {
         "days": 1055,
-        "mean_pct": 1.18,
-        "median_pct": 1.07,
-        "positive_pct": 61.5
+        "mean_pct": 1.21,
+        "median_pct": 1.12,
+        "positive_pct": 61.9
       },
       "analogues": {
-        "current_stretch": 5.06,
-        "bucket": 3,
+        "current_stretch": 7.12,
+        "bucket": 4,
         "buckets": 5,
         "range_pct": [
-          4.4,
-          7.0
+          7.0,
+          11.0
         ],
         "outcome": {
           "days": 211,
-          "mean_pct": 1.57,
-          "median_pct": 1.42,
-          "positive_pct": 69.7
+          "mean_pct": 1.06,
+          "median_pct": 0.76,
+          "positive_pct": 58.3
         }
       },
-      "edge_pct": -2.16,
+      "edge_pct": -2.27,
       "verdict": "signal inversé",
-      "sentence": "Le signal a séparé les deux cas, mais à l'envers de l'intuition. Après un signal haussier, +0,8 % en moyenne sur 20 séances ; après un signal baissier, +2,9 %."
+      "sentence": "Le signal a séparé les deux cas, mais à l'envers de l'intuition. Après un signal haussier, +0,8 % en moyenne sur 20 séances ; après un signal baissier, +3,0 %."
     },
     "nikkei": {
       "label": "Nikkei 225",
@@ -388,14 +409,17 @@
       "current": {
         "trend": "indecise",
         "since": "2026-07-17",
-        "days": 14
+        "days": 20,
+        "sessions": 14,
+        "usual_sessions": 2,
+        "past_phases": 42
       },
       "states": {
         "haussiere": {
-          "days": 662,
-          "mean_pct": 1.5,
-          "median_pct": 1.3,
-          "positive_pct": 59.2
+          "days": 666,
+          "mean_pct": 1.45,
+          "median_pct": 1.17,
+          "positive_pct": 58.9
         },
         "baissiere": {
           "days": 149,
@@ -404,45 +428,48 @@
           "positive_pct": 77.9
         },
         "indecise": {
-          "days": 192,
-          "mean_pct": 2.68,
-          "median_pct": 2.3,
-          "positive_pct": 74.5
+          "days": 188,
+          "mean_pct": 2.78,
+          "median_pct": 2.43,
+          "positive_pct": 76.1
         }
       },
       "baseline": {
         "days": 1003,
-        "mean_pct": 1.95,
+        "mean_pct": 1.94,
         "median_pct": 2.03,
         "positive_pct": 64.9
       },
       "analogues": {
-        "current_stretch": 12.97,
+        "current_stretch": 14.61,
         "bucket": 4,
         "buckets": 5,
         "range_pct": [
-          9.5,
-          16.7
+          9.6,
+          16.9
         ],
         "outcome": {
           "days": 201,
-          "mean_pct": 2.44,
+          "mean_pct": 2.41,
           "median_pct": 1.93,
           "positive_pct": 65.2
         }
       },
-      "edge_pct": -1.55,
+      "edge_pct": -1.6,
       "verdict": "signal faible",
-      "sentence": "Écart trop faible pour en tirer quoi que ce soit. Après un signal haussier, +1,5 % en moyenne sur 20 séances ; après un signal baissier, +3,0 %."
+      "sentence": "Écart trop faible pour en tirer quoi que ce soit. Après un signal haussier, +1,4 % en moyenne sur 20 séances ; après un signal baissier, +3,0 %."
     },
     "hangseng": {
       "label": "Hang Seng",
       "depth": "5 ans",
       "observed_days": 1227,
       "current": {
-        "trend": "haussiere",
-        "since": "2026-07-29",
-        "days": 2
+        "trend": "indecise",
+        "since": "2026-08-06",
+        "days": 0,
+        "sessions": 1,
+        "usual_sessions": 2,
+        "past_phases": 54
       },
       "states": {
         "haussiere": {
@@ -452,42 +479,42 @@
           "positive_pct": 42.7
         },
         "baissiere": {
-          "days": 313,
-          "mean_pct": -0.07,
-          "median_pct": -0.8,
-          "positive_pct": 45.4
+          "days": 315,
+          "mean_pct": -0.01,
+          "median_pct": -0.79,
+          "positive_pct": 45.7
         },
         "indecise": {
-          "days": 315,
-          "mean_pct": 2.13,
-          "median_pct": 0.53,
-          "positive_pct": 55.6
+          "days": 313,
+          "mean_pct": 2.11,
+          "median_pct": 0.52,
+          "positive_pct": 55.3
         }
       },
       "baseline": {
         "days": 1007,
-        "mean_pct": 0.54,
+        "mean_pct": 0.55,
         "median_pct": -0.3,
         "positive_pct": 47.6
       },
       "analogues": {
-        "current_stretch": 0.58,
-        "bucket": 3,
+        "current_stretch": -0.72,
+        "bucket": 2,
         "buckets": 5,
         "range_pct": [
-          -0.6,
-          4.7
+          -8.8,
+          -0.6
         ],
         "outcome": {
-          "days": 202,
-          "mean_pct": 1.6,
-          "median_pct": -0.37,
-          "positive_pct": 47.0
+          "days": 201,
+          "mean_pct": 0.85,
+          "median_pct": -0.15,
+          "positive_pct": 49.8
         }
       },
-      "edge_pct": -0.21,
+      "edge_pct": -0.27,
       "verdict": "sans valeur",
-      "sentence": "Aucun écart mesurable : suivre ce signal revenait à ne pas le suivre. Après un signal haussier, -0,3 % en moyenne sur 20 séances ; après un signal baissier, -0,1 %."
+      "sentence": "Aucun écart mesurable : suivre ce signal revenait à ne pas le suivre. Après un signal haussier, -0,3 % en moyenne sur 20 séances ; après un signal baissier, -0,0 %."
     },
     "shanghai": {
       "label": "Shanghai",
@@ -496,7 +523,10 @@
       "current": {
         "trend": "baissiere",
         "since": "2026-07-10",
-        "days": 21
+        "days": 27,
+        "sessions": 20,
+        "usual_sessions": 2,
+        "past_phases": 17
       },
       "states": {
         "haussiere": {
@@ -506,64 +536,67 @@
           "positive_pct": 49.8
         },
         "baissiere": {
-          "days": 285,
-          "mean_pct": 0.46,
+          "days": 287,
+          "mean_pct": 0.43,
           "median_pct": -1.23,
-          "positive_pct": 37.5
+          "positive_pct": 37.3
         },
         "indecise": {
-          "days": 254,
-          "mean_pct": 1.24,
-          "median_pct": 1.28,
-          "positive_pct": 61.8
+          "days": 252,
+          "mean_pct": 1.14,
+          "median_pct": 1.22,
+          "positive_pct": 60.7
         }
       },
       "baseline": {
         "days": 991,
-        "mean_pct": 0.42,
-        "median_pct": -0.05,
-        "positive_pct": 49.3
+        "mean_pct": 0.38,
+        "median_pct": -0.06,
+        "positive_pct": 48.9
       },
       "analogues": {
-        "current_stretch": -4.51,
-        "bucket": 1,
+        "current_stretch": -2.79,
+        "bucket": 2,
         "buckets": 5,
         "range_pct": [
-          -13.1,
-          -3.8
+          -3.7,
+          0.1
         ],
         "outcome": {
-          "days": 199,
-          "mean_pct": 1.77,
-          "median_pct": 0.34,
-          "positive_pct": 51.8
+          "days": 198,
+          "mean_pct": -0.74,
+          "median_pct": -1.14,
+          "positive_pct": 31.8
         }
       },
-      "edge_pct": -0.53,
-      "verdict": "signal faible",
-      "sentence": "Écart trop faible pour en tirer quoi que ce soit. Après un signal haussier, -0,1 % en moyenne sur 20 séances ; après un signal baissier, +0,5 %."
+      "edge_pct": -0.5,
+      "verdict": "sans valeur",
+      "sentence": "Aucun écart mesurable : suivre ce signal revenait à ne pas le suivre. Après un signal haussier, -0,1 % en moyenne sur 20 séances ; après un signal baissier, +0,4 %."
     },
     "msci_world": {
       "label": "MSCI World",
       "depth": "5 ans",
-      "observed_days": 1255,
+      "observed_days": 1254,
       "current": {
         "trend": "haussiere",
         "since": "2026-07-30",
-        "days": 1
+        "days": 6,
+        "sessions": 5,
+        "usual_sessions": 14,
+        "past_phases": 26
       },
       "states": {
         "haussiere": {
-          "days": 676,
-          "mean_pct": 0.87,
-          "median_pct": 1.32,
-          "positive_pct": 70.4
+          "days": 679,
+          "mean_pct": 0.88,
+          "median_pct": 1.34,
+          "positive_pct": 70.5
         },
         "baissiere": {
-          "days": 148,
-          "mean_pct": 3.25,
-          "median_pct": 5.72,
-          "positive_pct": 70.9
+          "days": 144,
+          "mean_pct": 3.53,
+          "median_pct": 5.8,
+          "positive_pct": 72.9
         },
         "indecise": {
           "days": 211,
@@ -573,31 +606,51 @@
         }
       },
       "baseline": {
-        "days": 1035,
-        "mean_pct": 1.19,
-        "median_pct": 1.53,
-        "positive_pct": 68.4
+        "days": 1034,
+        "mean_pct": 1.22,
+        "median_pct": 1.55,
+        "positive_pct": 68.8
       },
       "analogues": {
-        "current_stretch": 6.27,
-        "bucket": 3,
+        "current_stretch": 9.06,
+        "bucket": 4,
         "buckets": 5,
         "range_pct": [
-          5.3,
-          7.3
+          7.3,
+          9.3
         ],
         "outcome": {
           "days": 207,
-          "mean_pct": 1.09,
-          "median_pct": 1.92,
-          "positive_pct": 71.5
+          "mean_pct": 1.16,
+          "median_pct": 1.48,
+          "positive_pct": 78.3
         }
       },
-      "edge_pct": -2.38,
+      "edge_pct": -2.65,
       "verdict": "signal inversé",
-      "sentence": "Le signal a séparé les deux cas, mais à l'envers de l'intuition. Après un signal haussier, +0,9 % en moyenne sur 20 séances ; après un signal baissier, +3,2 %."
+      "sentence": "Le signal a séparé les deux cas, mais à l'envers de l'intuition. Après un signal haussier, +0,9 % en moyenne sur 20 séances ; après un signal baissier, +3,5 %."
     }
   },
+  "correlations": [
+    {
+      "label": "Bitcoin et Nasdaq",
+      "value": 0.39,
+      "sessions": 90,
+      "word": "bougent un peu ensemble"
+    },
+    {
+      "label": "Bitcoin et S&P 500",
+      "value": 0.39,
+      "sessions": 90,
+      "word": "bougent un peu ensemble"
+    },
+    {
+      "label": "Ethereum et Bitcoin",
+      "value": 0.88,
+      "sessions": 90,
+      "word": "bougent ensemble"
+    }
+  ],
   "context": [
     {
       "label": "VIX (nervosité des actions américaines)",
@@ -607,21 +660,21 @@
     },
     {
       "label": "Fear & Greed crypto",
-      "value": "27/100",
-      "percentile": 26,
-      "sentence": "plus craintif que 74 % de toute l'histoire de l'indice"
+      "value": "25/100",
+      "percentile": 22,
+      "sentence": "plus craintif que 78 % de toute l'histoire de l'indice"
     },
     {
       "label": "Volatilité du Bitcoin sur 30 jours",
-      "value": "30 %",
-      "percentile": 14,
-      "sentence": "plus calme que 86 % des 2 dernières années"
+      "value": "29 %",
+      "percentile": 13,
+      "sentence": "plus calme que 87 % des 2 dernières années"
     },
     {
       "label": "Décote du Bitcoin sous son plus haut",
-      "value": "−50 %",
-      "percentile": 97,
-      "sentence": "plus loin du sommet que 97 % des 2 dernières années"
+      "value": "−48 %",
+      "percentile": 92,
+      "sentence": "plus loin du sommet que 92 % des 2 dernières années"
     }
   ],
   "failures": []
