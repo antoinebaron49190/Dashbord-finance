@@ -1,12 +1,20 @@
 {
   "2026-08-07": {
-    "articles_count": 28,
-    "signal_count": 3,
+    "articles_count": 56,
+    "signal_count": 9,
     "tone_cb": null,
-    "tone_global": -0.5333,
+    "tone_global": 0.1556,
     "regul_crypto": null,
-    "stress": 0.0357,
+    "stress": 0.0169,
     "top": [
+      {
+        "id": "cdc2e52eebd7e4b81a5134ef",
+        "title": "Amounts Outstanding in the Call Money Market (July)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/market/short/call/call.xlsx"
+      },
       {
         "id": "d6a879dd9d14da3ed5f71720",
         "title": "Social Security’s funding crisis is the elephant in the room. But don’t ignore the mouse.",
@@ -16,41 +24,33 @@
         "url": "https://www.marketwatch.com/story/if-social-securitys-funding-crisis-is-the-elephant-in-the-room-this-is-the-mouse-everyone-has-overlooked-you-have-been-warned-b95c450d?mod=mw_rss_topstories"
       },
       {
-        "id": "7d23f82f83f89c8336bcd5dd",
-        "title": "US imposes 15% tariff on polysilicon in pushback against China",
+        "id": "5c1ddf0134dd1f3d0477e4c2",
+        "title": "Shares in Australia's Atlassian surge 33% as sales growth quells AI fears",
         "source": "nikkei_asia",
         "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-imposes-15-tariff-on-polysilicon-in-pushback-against-china"
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/business/markets/shares-in-australia-s-atlassian-surge-33-as-sales-growth-quells-ai-fears"
       },
       {
-        "id": "e4205dc3f9126d1ed10e8676",
-        "title": "Nuclear arms makers draw 30% more financing as geopolitical risks rise",
+        "id": "83d71fbe04c8766ec9655d08",
+        "title": "Philippine GDP growth slows further to 2.3% in Q2 as inflation bites",
         "source": "nikkei_asia",
         "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/business/aerospace-defense-industries/nuclear-arms-makers-draw-30-more-financing-as-geopolitical-risks-rise"
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/economy/philippine-gdp-growth-slows-further-to-2.3-in-q2-as-inflation-bites"
       },
       {
-        "id": "3488be48110e60fd06edffc9",
-        "title": "Zepto IPO setback highlights fault lines in India's quick commerce sector",
+        "id": "b4396293fea8abd356277169",
+        "title": "Weak yen boosts Japan automaker profits, easing Middle East, China stress",
         "source": "nikkei_asia",
         "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/retail/zepto-ipo-setback-highlights-fault-lines-in-india-s-quick-commerce-sector"
-      },
-      {
-        "id": "7647e4d7b2077ce8cc2c724c",
-        "title": "4 US tech giants amass $1.46tn in physical assets, rivaling oil majors",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/4-us-tech-giants-amass-1.46tn-in-physical-assets-rivaling-oil-majors"
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/business/automobiles/weak-yen-boosts-japan-automaker-profits-easing-middle-east-china-stress"
       }
     ]
   },
   "2026-08-06": {
-    "articles_count": 226,
+    "articles_count": 227,
     "signal_count": 37,
     "tone_cb": -0.025,
     "tone_global": 0.071,
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-05": {
-    "articles_count": 216,
-    "signal_count": 43,
+    "articles_count": 247,
+    "signal_count": 46,
     "tone_cb": -0.5858,
-    "tone_global": 0.0765,
+    "tone_global": 0.0798,
     "regul_crypto": -0.4071,
-    "stress": 0.0,
+    "stress": 0.0038,
     "top": [
       {
         "id": "9e2c9e0ff66c70afd772158d",
@@ -200,7 +200,7 @@
     ]
   },
   "2026-08-03": {
-    "articles_count": 218,
+    "articles_count": 220,
     "signal_count": 22,
     "tone_cb": -0.6036,
     "tone_global": -0.1139,
