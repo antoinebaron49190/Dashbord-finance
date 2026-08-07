@@ -1,12 +1,20 @@
 {
   "2026-08-07": {
-    "articles_count": 56,
-    "signal_count": 9,
+    "articles_count": 83,
+    "signal_count": 12,
     "tone_cb": null,
-    "tone_global": 0.1556,
-    "regul_crypto": null,
-    "stress": 0.0169,
+    "tone_global": 0.1667,
+    "regul_crypto": 0.6,
+    "stress": 0.0107,
     "top": [
+      {
+        "id": "073dc3e30cbf3096dd974f39",
+        "title": "ECB publishes consolidated banking data for end-March 2026",
+        "source": "bce_press",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html"
+      },
       {
         "id": "cdc2e52eebd7e4b81a5134ef",
         "title": "Amounts Outstanding in the Call Money Market (July)",
@@ -16,46 +24,38 @@
         "url": "http://www.boj.or.jp/en/statistics/market/short/call/call.xlsx"
       },
       {
-        "id": "d6a879dd9d14da3ed5f71720",
-        "title": "Social Security’s funding crisis is the elephant in the room. But don’t ignore the mouse.",
-        "source": "marketwatch",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://www.marketwatch.com/story/if-social-securitys-funding-crisis-is-the-elephant-in-the-room-this-is-the-mouse-everyone-has-overlooked-you-have-been-warned-b95c450d?mod=mw_rss_topstories"
+        "id": "7c84546a43228bdf0fd5c78b",
+        "title": "Daily News 07 / 08 / 2026",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1727"
       },
       {
-        "id": "5c1ddf0134dd1f3d0477e4c2",
-        "title": "Shares in Australia's Atlassian surge 33% as sales growth quells AI fears",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/business/markets/shares-in-australia-s-atlassian-surge-33-as-sales-growth-quells-ai-fears"
+        "id": "ba8956589f13fb5db7e81066",
+        "title": "‘Applesauce’: Michigan judge denies Coinbase bid to block state enforcement of sports event contracts",
+        "source": "theblock",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.theblock.co/post/411128/michigan-judge-denies-coinbase-bid-prediction-markets?utm_source=rss&utm_medium=rss"
       },
       {
-        "id": "83d71fbe04c8766ec9655d08",
-        "title": "Philippine GDP growth slows further to 2.3% in Q2 as inflation bites",
-        "source": "nikkei_asia",
+        "id": "b0e820e453f479705b231424",
+        "title": "Crypto market maker Wintermute lands SEC approval to trade equities and ETF blocks",
+        "source": "coindesk",
         "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/economy/philippine-gdp-growth-slows-further-to-2.3-in-q2-as-inflation-bites"
-      },
-      {
-        "id": "b4396293fea8abd356277169",
-        "title": "Weak yen boosts Japan automaker profits, easing Middle East, China stress",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/business/automobiles/weak-yen-boosts-japan-automaker-profits-easing-middle-east-china-stress"
+        "tone": 0.6,
+        "url": "https://www.coindesk.com/business/2026/08/07/wintermute-gains-u-s-broker-dealer-status-in-wall-street-push"
       }
     ]
   },
   "2026-08-06": {
-    "articles_count": 227,
+    "articles_count": 231,
     "signal_count": 37,
     "tone_cb": -0.025,
     "tone_global": 0.071,
     "regul_crypto": 0.25,
-    "stress": 0.0197,
+    "stress": 0.0192,
     "top": [
       {
         "id": "a2a404c75699899fd1fedac4",
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-05": {
-    "articles_count": 247,
-    "signal_count": 46,
+    "articles_count": 277,
+    "signal_count": 48,
     "tone_cb": -0.5858,
-    "tone_global": 0.0798,
+    "tone_global": 0.0956,
     "regul_crypto": -0.4071,
-    "stress": 0.0038,
+    "stress": 0.0034,
     "top": [
       {
         "id": "9e2c9e0ff66c70afd772158d",
@@ -200,12 +200,12 @@
     ]
   },
   "2026-08-03": {
-    "articles_count": 220,
+    "articles_count": 222,
     "signal_count": 22,
     "tone_cb": -0.6036,
     "tone_global": -0.1139,
     "regul_crypto": -0.2,
-    "stress": 0.0039,
+    "stress": 0.0038,
     "top": [
       {
         "id": "b369682b2e7bff768df8452d",
