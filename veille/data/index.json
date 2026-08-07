@@ -1,11 +1,11 @@
 {
   "2026-08-07": {
-    "articles_count": 83,
-    "signal_count": 12,
+    "articles_count": 146,
+    "signal_count": 22,
     "tone_cb": null,
-    "tone_global": 0.1667,
+    "tone_global": 0.1212,
     "regul_crypto": 0.6,
-    "stress": 0.0107,
+    "stress": 0.0062,
     "top": [
       {
         "id": "073dc3e30cbf3096dd974f39",
@@ -14,6 +14,14 @@
         "score": 1.95,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260807~58eb5109ce.en.html"
+      },
+      {
+        "id": "0e6cdcca9363aa5615c62a49",
+        "title": "Letter from the ECB President to Mr Gerald Hauser, MEP, on digital euro",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/other/ecb.mepletter260807_Hauser~184853fae9.en.pdf"
       },
       {
         "id": "cdc2e52eebd7e4b81a5134ef",
@@ -32,30 +40,22 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1727"
       },
       {
-        "id": "ba8956589f13fb5db7e81066",
-        "title": "‘Applesauce’: Michigan judge denies Coinbase bid to block state enforcement of sports event contracts",
-        "source": "theblock",
+        "id": "a67f625dd9d6b0d5fec67338",
+        "title": "First Real Estate Investment Trust of New Jersey elects directors and approves auditor at annual meeting",
+        "source": "investing_com",
         "score": 0.45,
         "tone": 0.0,
-        "url": "https://www.theblock.co/post/411128/michigan-judge-denies-coinbase-bid-prediction-markets?utm_source=rss&utm_medium=rss"
-      },
-      {
-        "id": "b0e820e453f479705b231424",
-        "title": "Crypto market maker Wintermute lands SEC approval to trade equities and ETF blocks",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": 0.6,
-        "url": "https://www.coindesk.com/business/2026/08/07/wintermute-gains-u-s-broker-dealer-status-in-wall-street-push"
+        "url": "https://www.investing.com/news/sec-filings/first-real-estate-investment-trust-of-new-jersey-elects-directors-and-approves-auditor-at-annual-meeting-93CH-4846909"
       }
     ]
   },
   "2026-08-06": {
-    "articles_count": 231,
+    "articles_count": 241,
     "signal_count": 37,
     "tone_cb": -0.025,
     "tone_global": 0.071,
     "regul_crypto": 0.25,
-    "stress": 0.0192,
+    "stress": 0.0185,
     "top": [
       {
         "id": "a2a404c75699899fd1fedac4",
@@ -200,7 +200,7 @@
     ]
   },
   "2026-08-03": {
-    "articles_count": 222,
+    "articles_count": 223,
     "signal_count": 22,
     "tone_cb": -0.6036,
     "tone_global": -0.1139,
