@@ -1,11 +1,11 @@
 {
   "2026-08-07": {
-    "articles_count": 146,
-    "signal_count": 22,
+    "articles_count": 211,
+    "signal_count": 29,
     "tone_cb": null,
-    "tone_global": 0.1212,
-    "regul_crypto": 0.6,
-    "stress": 0.0062,
+    "tone_global": 0.0333,
+    "regul_crypto": 0.0,
+    "stress": 0.0088,
     "top": [
       {
         "id": "073dc3e30cbf3096dd974f39",
@@ -40,22 +40,22 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1727"
       },
       {
-        "id": "a67f625dd9d6b0d5fec67338",
-        "title": "First Real Estate Investment Trust of New Jersey elects directors and approves auditor at annual meeting",
+        "id": "b8dbe3da2b92ae9b89453acc",
+        "title": "Illinois Tool Works raises dividend 7%, approves $6B buyback",
         "source": "investing_com",
         "score": 0.45,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/sec-filings/first-real-estate-investment-trust-of-new-jersey-elects-directors-and-approves-auditor-at-annual-meeting-93CH-4846909"
+        "url": "https://www.investing.com/news/company-news/illinois-tool-works-raises-dividend-7-approves-6b-buyback-93CH-4847266"
       }
     ]
   },
   "2026-08-06": {
-    "articles_count": 241,
-    "signal_count": 37,
+    "articles_count": 254,
+    "signal_count": 42,
     "tone_cb": -0.025,
-    "tone_global": 0.071,
-    "regul_crypto": 0.25,
-    "stress": 0.0185,
+    "tone_global": 0.0927,
+    "regul_crypto": 0.3375,
+    "stress": 0.0177,
     "top": [
       {
         "id": "a2a404c75699899fd1fedac4",
@@ -200,7 +200,7 @@
     ]
   },
   "2026-08-03": {
-    "articles_count": 223,
+    "articles_count": 224,
     "signal_count": 22,
     "tone_cb": -0.6036,
     "tone_global": -0.1139,
