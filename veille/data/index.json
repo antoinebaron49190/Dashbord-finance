@@ -1,11 +1,61 @@
 {
+  "2026-08-07": {
+    "articles_count": 28,
+    "signal_count": 3,
+    "tone_cb": null,
+    "tone_global": -0.5333,
+    "regul_crypto": null,
+    "stress": 0.0357,
+    "top": [
+      {
+        "id": "d6a879dd9d14da3ed5f71720",
+        "title": "Social Security’s funding crisis is the elephant in the room. But don’t ignore the mouse.",
+        "source": "marketwatch",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.marketwatch.com/story/if-social-securitys-funding-crisis-is-the-elephant-in-the-room-this-is-the-mouse-everyone-has-overlooked-you-have-been-warned-b95c450d?mod=mw_rss_topstories"
+      },
+      {
+        "id": "7d23f82f83f89c8336bcd5dd",
+        "title": "US imposes 15% tariff on polysilicon in pushback against China",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-imposes-15-tariff-on-polysilicon-in-pushback-against-china"
+      },
+      {
+        "id": "e4205dc3f9126d1ed10e8676",
+        "title": "Nuclear arms makers draw 30% more financing as geopolitical risks rise",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/business/aerospace-defense-industries/nuclear-arms-makers-draw-30-more-financing-as-geopolitical-risks-rise"
+      },
+      {
+        "id": "3488be48110e60fd06edffc9",
+        "title": "Zepto IPO setback highlights fault lines in India's quick commerce sector",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/retail/zepto-ipo-setback-highlights-fault-lines-in-india-s-quick-commerce-sector"
+      },
+      {
+        "id": "7647e4d7b2077ce8cc2c724c",
+        "title": "4 US tech giants amass $1.46tn in physical assets, rivaling oil majors",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/4-us-tech-giants-amass-1.46tn-in-physical-assets-rivaling-oil-majors"
+      }
+    ]
+  },
   "2026-08-06": {
-    "articles_count": 200,
-    "signal_count": 31,
+    "articles_count": 226,
+    "signal_count": 37,
     "tone_cb": -0.025,
-    "tone_global": 0.0477,
-    "regul_crypto": 0.075,
-    "stress": 0.0231,
+    "tone_global": 0.071,
+    "regul_crypto": 0.25,
+    "stress": 0.0197,
     "top": [
       {
         "id": "a2a404c75699899fd1fedac4",
@@ -40,20 +90,20 @@
         "url": "https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202605_04~faa9ef5955.en.html"
       },
       {
-        "id": "99062e894b4bd125ed2f3ac3",
-        "title": "Green notice 2026/02",
-        "source": "boe_news",
+        "id": "d0c34e589fb19ed2e05b10dc",
+        "title": "Market Operations by the Bank of Japan (July)",
+        "source": "boj_news",
         "score": 1.3,
         "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/statistics/notice/2026/green-notice-2026-02"
+        "url": "http://www.boj.or.jp/en/statistics/boj/fm/ope/m_release/2026/ope2607.xlsx"
       }
     ]
   },
   "2026-08-05": {
-    "articles_count": 176,
-    "signal_count": 34,
+    "articles_count": 216,
+    "signal_count": 43,
     "tone_cb": -0.5858,
-    "tone_global": 0.0177,
+    "tone_global": 0.0765,
     "regul_crypto": -0.4071,
     "stress": 0.0,
     "top": [
