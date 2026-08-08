@@ -1,12 +1,20 @@
 {
   "2026-08-08": {
-    "articles_count": 24,
-    "signal_count": 2,
+    "articles_count": 36,
+    "signal_count": 3,
     "tone_cb": null,
-    "tone_global": 0.5,
-    "regul_crypto": null,
+    "tone_global": 0.1333,
+    "regul_crypto": -0.6,
     "stress": 0.0,
     "top": [
+      {
+        "id": "4e85b7f7d2fce6c9f730dbf5",
+        "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes"
+      },
       {
         "id": "c4432ecf38ce306591e99bbb",
         "title": "Kaynes Q1 FY27 slides: 40% revenue growth, margin pressure mounts",
@@ -24,38 +32,30 @@
         "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-kaynes-technology-posts-strong-q1-2027-growth-93CH-4847615"
       },
       {
-        "id": "038772540a0920139c581685",
-        "title": "Hong Kong-based rice ball chain prepares supplies for US push",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/food-beverage/hong-kong-based-rice-ball-chain-prepares-supplies-for-us-push"
-      },
-      {
-        "id": "3de201ab2037b443f3b5095a",
-        "title": "Kyiv hit as Ukraine targets Russian refineries and shadow fleet",
+        "id": "f1a94fb18b1061de00d18fc7",
+        "title": "Perella Weinberg Partners CEO Andrew Bednar sells $4.08m in stock",
         "source": "investing_com",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/economy-news/kyiv-hit-as-ukraine-targets-russian-refineries-and-shadow-fleet-4847621"
+        "url": "https://www.investing.com/news/insider-trading-news/perella-weinberg-partners-ceo-andrew-bednar-sells-408m-in-stock-93CH-4847638"
       },
       {
-        "id": "b4cf7937b795e64a5ecb10da",
-        "title": "Bitcoin stalls at $65,156 resistance as ADX warns of bull trap: Live levels",
+        "id": "51c23464e60dcf6fadbf9741",
+        "title": "Nvidia invests $2 billion in power developer Lancium - report",
         "source": "investing_com",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-tests-62k-support-with-breakout-looming-live-levels-93CH-4829888"
+        "url": "https://www.investing.com/news/company-news/nvidia-invests-2-billion-in-power-developer-lancium--report-93CH-4847637"
       }
     ]
   },
   "2026-08-07": {
-    "articles_count": 284,
-    "signal_count": 35,
+    "articles_count": 304,
+    "signal_count": 39,
     "tone_cb": null,
-    "tone_global": -0.0385,
+    "tone_global": -0.0346,
     "regul_crypto": -0.2,
-    "stress": 0.01,
+    "stress": 0.0093,
     "top": [
       {
         "id": "073dc3e30cbf3096dd974f39",
@@ -100,7 +100,7 @@
     ]
   },
   "2026-08-06": {
-    "articles_count": 340,
+    "articles_count": 342,
     "signal_count": 50,
     "tone_cb": -0.025,
     "tone_global": 0.0901,
