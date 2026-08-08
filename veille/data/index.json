@@ -1,11 +1,11 @@
 {
   "2026-08-08": {
-    "articles_count": 103,
-    "signal_count": 11,
+    "articles_count": 126,
+    "signal_count": 13,
     "tone_cb": null,
-    "tone_global": -0.0636,
+    "tone_global": -0.0615,
     "regul_crypto": -0.6,
-    "stress": 0.0,
+    "stress": 0.0079,
     "top": [
       {
         "id": "d5996d89f1cbb95f9011c24e",
@@ -14,6 +14,14 @@
         "score": 0.45,
         "tone": 0.0,
         "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-ceo-sundar-pichai-just-155000736.html"
+      },
+      {
+        "id": "dae238731eb43ef073e30370",
+        "title": "Are target date funds aggressive enough to give Americans retirement savings that last their lifetimes?",
+        "source": "marketwatch",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.marketwatch.com/story/are-target-date-funds-hurting-americans-as-they-live-longer-929f4f92?mod=mw_rss_topstories"
       },
       {
         "id": "8e316397d7ec7e0172a251be",
@@ -32,20 +40,12 @@
         "url": "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes"
       },
       {
-        "id": "c2f39e08478025ac28ec39d5",
-        "title": "Could Copper’s Tariff-Driven Rally Be Running Out of Steam?",
+        "id": "8f34869bad1b83a23d93340a",
+        "title": "Why Aurora Cannabis Looks Cheaper Than Its International Growth Suggests – Quarterly Update Report",
         "source": "yahoo_finance",
         "score": 0.3,
-        "tone": -0.5,
-        "url": "https://finance.yahoo.com/markets/commodities/articles/could-copper-tariff-driven-rally-133000938.html"
-      },
-      {
-        "id": "419b3e1ec66da499e9724534",
-        "title": "President Donald Trump Expected the Iran War to Drive the Stock Market \"Down 20% to 25%\" -- His Prophecy May Still Come True",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://finance.yahoo.com/markets/stocks/articles/president-donald-trump-expected-iran-132600497.html"
+        "tone": 0.5,
+        "url": "https://finance.yahoo.com/healthcare/articles/why-aurora-cannabis-looks-cheaper-163923801.html"
       }
     ]
   },
