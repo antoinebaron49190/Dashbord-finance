@@ -1,12 +1,28 @@
 {
   "2026-08-08": {
-    "articles_count": 85,
-    "signal_count": 8,
+    "articles_count": 103,
+    "signal_count": 11,
     "tone_cb": null,
-    "tone_global": -0.0125,
+    "tone_global": -0.0636,
     "regul_crypto": -0.6,
     "stress": 0.0,
     "top": [
+      {
+        "id": "d5996d89f1cbb95f9011c24e",
+        "title": "Alphabet CEO Sundar Pichai Just Made a Decision That Could Move Nvidia and Broadcom Stock",
+        "source": "yahoo_finance",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-ceo-sundar-pichai-just-155000736.html"
+      },
+      {
+        "id": "8e316397d7ec7e0172a251be",
+        "title": "Bitcoin, ether ETFs draw $1.1 billion in best inflow week since April, despite low volume",
+        "source": "theblock",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.theblock.co/news/markets/2026-08-08-bitcoin-ether-etfs-draw-1-1-billion-in-best-inflow-week-since-april-despite-low-volume-411204?utm_source=rss&utm_medium=rss"
+      },
       {
         "id": "4e85b7f7d2fce6c9f730dbf5",
         "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
@@ -30,22 +46,6 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://finance.yahoo.com/markets/stocks/articles/president-donald-trump-expected-iran-132600497.html"
-      },
-      {
-        "id": "95810d8b5ca7c6c296e7ff75",
-        "title": "Why One Top Economist Says the Fed’s Inflation Fight Can’t Be Won With Rate Hikes",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://finance.yahoo.com/economy/policy/articles/why-one-top-economist-says-131715669.html"
-      },
-      {
-        "id": "b06e23c9688ba8e5a7e773ec",
-        "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Arista Beats Views",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investors.com/research/best-stocks-seven-magnificent-stocks-earnings-growth/?src=A00220&yptr=yahoo"
       }
     ]
   },

@@ -1,5 +1,507 @@
 [
   {
+    "id": "74abca741502ceeb7e6609aa",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Japan's top 3 banks boost foreign currency liquidity to $1.25tn",
+    "url": "https://asia.nikkei.com/business/finance/japan-s-top-3-banks-boost-foreign-currency-liquidity-to-1.25tn",
+    "summary": "",
+    "published_at": "2026-08-08T16:01:40.026428+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d5996d89f1cbb95f9011c24e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Alphabet CEO Sundar Pichai Just Made a Decision That Could Move Nvidia and Broadcom Stock",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-ceo-sundar-pichai-just-155000736.html",
+    "summary": "",
+    "published_at": "2026-08-08T15:50:00+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bd7678bfad1a83dcfbf1a1c7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nebius Stock Plunged 31% Last Month. Is It Time to Buy?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nebius-stock-plunged-31-last-154927769.html",
+    "summary": "",
+    "published_at": "2026-08-08T15:49:27+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "963c49095bbf1e1d6d82f607",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AI is Hollowing Out Tech Sector Jobs: Oracle and Microsoft Help Push Layoff Rate to 20-Year High",
+    "url": "https://finance.yahoo.com/technology/ai/articles/ai-hollowing-tech-sector-jobs-153836165.html",
+    "summary": "",
+    "published_at": "2026-08-08T15:38:36+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5e1be35f1f5016685f6c406f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jamie Dimon's JPMorgan Sees Gold Reaching $5,000 an Ounce by Q4, a Bullish Case for Investors Seeking a Hedge",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/jamie-dimons-jpmorgan-sees-gold-153500501.html",
+    "summary": "",
+    "published_at": "2026-08-08T15:35:00+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "00f1982d7cfcbddf258a6af6",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "No More Instant Crypto Transfers in Brazil? Central Bank Introduces New Law",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/no-more-instant-crypto-transfers-152600069.html",
+    "summary": "",
+    "published_at": "2026-08-08T15:26:00+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0f6fabccf28016dffc4cf953",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Brazil's central bank orders exchanges to delay large crypto transfers abroad",
+    "url": "https://www.coindesk.com/business/2026/08/08/brazil-s-central-bank-orders-exchanges-to-delay-large-crypto-transfers-abroad",
+    "summary": "",
+    "published_at": "2026-08-08T15:25:38+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "58ef0c2d1f6a3da6ce135ed4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Airbnb vs. MercadoLibre: Which Consumer Stock Is a Better Buy in 2026?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-vs-mercadolibre-consumer-stock-152501799.html",
+    "summary": "",
+    "published_at": "2026-08-08T15:25:01+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "693e8b0c66b543797e6006ca",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Iran says deal on Strait of Hormuz is close but is not enough to open the waterway",
+    "url": "https://www.investing.com/news/commodities-news/iran-says-deal-on-strait-of-hormuz-is-close-but-will-not-open-the-waterway-by-itself-4847656",
+    "summary": "",
+    "published_at": "2026-08-08T15:24:29+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d6ff25487854534a4953eaf2",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Prediction: This Will Be the Cryptocurrency XRP's Price by Late 2027 (Hint: It's a Big Move)",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/prediction-cryptocurrency-xrps-price-2027-152000231.html",
+    "summary": "",
+    "published_at": "2026-08-08T15:20:00+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "138e9851d8549b0229c75a1c",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Google's AI claimed Flock cameras hold $650 in gold and 23 pounds of copper — It was duped by meme",
+    "url": "https://finance.yahoo.com/technology/ai/articles/googles-ai-claimed-flock-cameras-150000005.html",
+    "summary": "",
+    "published_at": "2026-08-08T15:00:00+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "16f4d48013e8d9ba9e997651",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Berkshire Hathaway Beats Earnings Views, Ends 14 Quarters Of Selling Equities",
+    "url": "https://www.investors.com/news/berkshire-hathaway-earnings-buybacks-cash-hoard-warren-buffett/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-08T14:52:35+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8e316397d7ec7e0172a251be",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin, ether ETFs draw $1.1 billion in best inflow week since April, despite low volume",
+    "url": "https://www.theblock.co/news/markets/2026-08-08-bitcoin-ether-etfs-draw-1-1-billion-in-best-inflow-week-since-april-despite-low-volume-411204?utm_source=rss&utm_medium=rss",
+    "summary": "Bloomberg analyst Eric Balchunas tied the run to the Coldcard wallet exploit, noting several Bitcoin funds have drawn inflows daily since the hack.",
+    "published_at": "2026-08-08T14:52:11+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {
+      "crypto_favorable": 1.0,
+      "crypto_defavorable": 2.0
+    },
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e93361d5259485ed59118673",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "‘My wife and I are both retired’: Do we dip into our $2.3 million fund to pay off our $300,000 mortgage at 2.9%?",
+    "url": "https://www.marketwatch.com/story/my-wife-and-i-are-both-retired-do-we-dip-into-our-2-3-million-fund-to-pay-off-our-300-000-mortgage-at-2-9-2d23d1df?mod=mw_rss_topstories",
+    "summary": "“Right now, we’re withdrawing about $100,000 a year from our investments.”",
+    "published_at": "2026-08-08T14:48:00+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "493d506c155b6b9f21527c45",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Paying for pricey daycare? Here’s how to keep saving for retirement at the same time.",
+    "url": "https://www.marketwatch.com/story/how-parents-can-keep-saving-for-retirement-during-the-expensive-childcare-years-e06b3abe?mod=mw_rss_topstories",
+    "summary": "Young families are striving to do better but struggling with costs of living, including expensive childcare.",
+    "published_at": "2026-08-08T14:46:00+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "eb5f8673c748b14dd72cd93e",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Delhivery Q1 FY27 slides: volumes surge 55% as margins compress",
+    "url": "https://www.investing.com/news/company-news/delhivery-q1-fy27-slides-volumes-surge-55-as-margins-compress-93CH-4847668",
+    "summary": "",
+    "published_at": "2026-08-08T14:33:50+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d3d193928670077d60ef32a6",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Delhivery Q1 2026 revenue rises 28% as volumes jump",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-delhivery-q1-2026-revenue-rises-28-as-volumes-jump-93CH-4847665",
+    "summary": "",
+    "published_at": "2026-08-08T14:23:59+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0d1280672ca1ecd3ab2e0214",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Stock Market Week Ahead: Bullish Signals Amid 'Dirty' Volume",
+    "url": "https://www.investors.com/research/investing-action-plan/stock-market-week-ahead-bullish-signals-amid-dirty-volume/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-08T14:20:55+00:00",
+    "collected_at": "2026-08-08T16:01:40.026428+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "a27e882ffd106bff9121a52b",
     "source": "marketwatch",
     "tier": 3,
