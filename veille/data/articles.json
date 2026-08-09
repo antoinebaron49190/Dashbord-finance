@@ -1,5 +1,396 @@
 [
   {
+    "id": "b762fe69743bc851712fa70c",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Japan to integrate cybersecurity into air-defense radar, fighter jets",
+    "url": "https://asia.nikkei.com/business/aerospace-defense-industries/japan-to-integrate-cybersecurity-into-air-defense-radar-fighter-jets",
+    "summary": "",
+    "published_at": "2026-08-09T14:56:45.360610+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "89ae9d254f8aa13e14d6a0ad",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin investors pour $853 million into spot ETFs. BlackRock’s IBIT claims the bulk",
+    "url": "https://www.coindesk.com/markets/2026/08/09/bitcoin-investors-pour-usd853-million-into-spot-etfs-blackrock-s-ibit-claims-the-bulk",
+    "summary": "",
+    "published_at": "2026-08-09T14:19:35+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "29463e5ac1136be9fd630525",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "S&P 500 sales growth is at a nearly 5-year high. Here’s what’s behind the surge.",
+    "url": "https://www.marketwatch.com/story/s-p-500-sales-growth-is-at-a-nearly-5-year-high-heres-whats-behind-the-surge-a4ccf06d?mod=mw_rss_topstories",
+    "summary": "Energy companies in the S&P 500 have put up a 42.5% revenue gain in the second quarter, powering the index’s sales performance.",
+    "published_at": "2026-08-09T14:00:00+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "eea5e09442a24cb99bfc60aa",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Iran says Oman deal is in ’final stages’ but US must act to open Hormuz",
+    "url": "https://www.investing.com/news/commodities-news/iran-says-oman-deal-is-in-final-stages-but-us-must-act-to-open-hormuz-4847732",
+    "summary": "",
+    "published_at": "2026-08-09T13:48:51+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "abae70dd99361fe3183fba37",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "CEVA earnings on deck: Can licensing sustain royalty wait?",
+    "url": "https://www.investing.com/news/earnings/ceva-earnings-on-deck-can-licensing-sustain-royalty-wait-93CH-4847747",
+    "summary": "",
+    "published_at": "2026-08-09T13:41:19+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5f90d74973e47d14da7f5af1",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Berkshire Hathaway earnings on deck as Abel faces cash test",
+    "url": "https://www.investing.com/news/earnings/berkshire-hathaway-earnings-on-deck-as-abel-faces-cash-test-93CH-4847746",
+    "summary": "",
+    "published_at": "2026-08-09T13:40:27+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1c7c4a8e8e2bec8be52bcf81",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Trimble earnings on deck amid portfolio simplification push",
+    "url": "https://www.investing.com/news/earnings/trimble-earnings-on-deck-amid-portfolio-simplification-push-93CH-4847745",
+    "summary": "",
+    "published_at": "2026-08-09T13:39:33+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "597a4f5c4dbcfaf5a50f02ad",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Silicon Labs faces earnings test amid Texas Instruments deal",
+    "url": "https://www.investing.com/news/earnings/silicon-labs-faces-earnings-test-amid-texas-instruments-deal-93CH-4847744",
+    "summary": "",
+    "published_at": "2026-08-09T13:38:39+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "324d7706e244f74e47597bfd",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Hub Group earnings ahead: Can execution match freight rebound?",
+    "url": "https://www.investing.com/news/earnings/hub-group-earnings-ahead-can-execution-match-freight-rebound-93CH-4847743",
+    "summary": "",
+    "published_at": "2026-08-09T13:37:44+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5b19f975fbe4ab4ef7258152",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Biohaven earnings set to show cash burn ahead of epilepsy data",
+    "url": "https://www.investing.com/news/earnings/biohaven-earnings-set-to-show-cash-burn-ahead-of-epilepsy-data-93CH-4847742",
+    "summary": "",
+    "published_at": "2026-08-09T13:36:51+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "878ac3b455d57ad1a37999a8",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Sana Biotechnology faces earnings test as CAR-T program advances",
+    "url": "https://www.investing.com/news/earnings/sana-biotechnology-faces-earnings-test-as-cart-program-advances-93CH-4847741",
+    "summary": "",
+    "published_at": "2026-08-09T13:35:57+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4719b2935b75151b37434a16",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Replimune in the spotlight: Earnings loom days after FDA approval",
+    "url": "https://www.investing.com/news/earnings/replimune-in-the-spotlight-earnings-loom-days-after-fda-approval-93CH-4847740",
+    "summary": "",
+    "published_at": "2026-08-09T13:35:03+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "65f7d962d116b28d82628df3",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Crypto is going through a massive dot-com style shakeout as over 100 projects fold in 2026",
+    "url": "https://www.coindesk.com/business/2026/08/09/crypto-is-going-through-a-massive-dot-com-style-shakeout-as-over-100-projects-fold-in-2026",
+    "summary": "",
+    "published_at": "2026-08-09T13:00:00+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4b895314c565991bd1cc9ba4",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The number of stocks beating the S&P 500 is the highest in 4 years. Why that number should rise.",
+    "url": "https://www.marketwatch.com/story/the-number-of-stocks-beating-the-s-p-500-is-the-highest-in-4-years-why-that-number-should-rise-b9bd05b3?mod=mw_rss_topstories",
+    "summary": "For the first time in four years, the average stock is beating the stock market.",
+    "published_at": "2026-08-09T13:00:00+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "e58c2c46b03e7986dcf772f9",
     "source": "investing_com",
     "tier": 3,
@@ -4123,6 +4514,92 @@
     "scored_by": "lexique"
   },
   {
+    "id": "f03afb649edb6571ffeb1698",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "How Leveraged ETFs Turned South Korea’s Stock Market Into a Casino and Why the U.S. Might Be Next",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/leveraged-etfs-turned-south-korea-140002821.html",
+    "summary": "",
+    "published_at": "2026-08-08T14:00:02+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fc778b1a1298b372012ea78a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SpaceX Stock Looks Likely to Rally as All Operating Segments Drive Growth",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-looks-likely-rally-140002580.html",
+    "summary": "",
+    "published_at": "2026-08-08T14:00:02+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e16446c4f8fd9acd3201789e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dear Bullish Stock Fans, Mark Your Calendars for August 13",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/dear-bullish-stock-fans-mark-140002248.html",
+    "summary": "",
+    "published_at": "2026-08-08T14:00:02+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "8469c46f15e59508b75cfac1",
     "source": "coindesk",
     "tier": 3,
@@ -4167,6 +4644,32 @@
     "summary": "",
     "published_at": "2026-08-08T13:50:21+00:00",
     "collected_at": "2026-08-08T14:06:11.482771+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dd38e7a7866e5147ef899ae8",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AMD Just Reported Its Data Center Revenue More Than Doubled Year-Over-Year. What Comes Next.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/amd-just-reported-data-center-134502782.html",
+    "summary": "",
+    "published_at": "2026-08-08T13:45:02+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -4423,6 +4926,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "5a48f83663998144c276f69e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dear Nebius Stock Fans, Mark Your Calendars for August 12",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/dear-nebius-stock-fans-mark-131501982.html",
+    "summary": "",
+    "published_at": "2026-08-08T13:15:01+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "f216aea345459f59cab32dbc",
     "source": "investing_com",
     "tier": 3,
@@ -4557,6 +5086,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "68887161705b08753e63b70e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Israel Englander's Millennium Manages $240 Billion Across Thousands of Positions. Here's the Strategy Behind His Success.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/israel-englanders-millennium-manages-240-130500814.html",
+    "summary": "",
+    "published_at": "2026-08-08T13:05:00+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e0fb42660c0d8af2f1a45b23",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Hyster-Yale Q2 Earnings Call Highlights",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/hyster-yale-q2-earnings-call-130404389.html",
+    "summary": "",
+    "published_at": "2026-08-08T13:04:04+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "e7ae4f8a349042a9d5c56b41",
     "source": "yahoo_finance",
     "tier": 3,
@@ -4571,6 +5152,84 @@
     "summary": "",
     "published_at": "2026-08-08T13:03:10+00:00",
     "collected_at": "2026-08-08T14:06:11.482771+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2445938cd8bc5caeb6569931",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer says surging defense stock is a sensational buy",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-surging-defense-130300783.html",
+    "summary": "",
+    "published_at": "2026-08-08T13:03:00+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bd43ab78d8ad0760bd6d7d5b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SanDisk Just Unveiled the First High-Bandwidth Flash Standard. What That Means for SNDK Stock.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-just-unveiled-first-high-130002017.html",
+    "summary": "",
+    "published_at": "2026-08-08T13:00:02+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f302f0ca2df8aff726afbea9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dear Home Depot Stock Fans, Mark Your Calendars for August 18",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/dear-home-depot-stock-fans-130002400.html",
+    "summary": "",
+    "published_at": "2026-08-08T13:00:02+00:00",
+    "collected_at": "2026-08-09T14:56:45.360610+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
