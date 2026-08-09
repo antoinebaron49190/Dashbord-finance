@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-08-09T07:58:29.479448+00:00",
+  "generated_at": "2026-08-09T10:05:13.909817+00:00",
   "regime": {
     "state": "favorable au risque",
-    "favorable": 6,
-    "available": 10,
+    "favorable": 7,
+    "available": 11,
     "total": 11,
-    "ratio": 0.6
+    "ratio": 0.6364
   },
   "criteria": [
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": false,
-      "value": "64 787 $",
+      "value": "64 845 $",
       "reference": "MM200 70 131 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": true,
-      "value": "64 787 $",
-      "reference": "MM50 63 312 $"
+      "value": "64 845 $",
+      "reference": "MM50 63 313 $"
     },
     {
       "group": "Crypto",
       "label": "ETH au-dessus de sa MM200",
       "ok": false,
-      "value": "1 917 $",
+      "value": "1 921 $",
       "reference": "MM200 2 050 $"
     },
     {
@@ -47,15 +47,15 @@
       "group": "Crypto",
       "label": "Financement des perpétuels BTC",
       "ok": true,
-      "value": "+0.0008 %",
+      "value": "+0.0006 %",
       "reference": "positif"
     },
     {
       "group": "Actions et devises",
       "label": "S&P 500 au-dessus de sa MM200",
-      "ok": null,
-      "value": "--",
-      "reference": "MM200 --"
+      "ok": true,
+      "value": "7 757.64",
+      "reference": "MM200 7 050.03"
     },
     {
       "group": "Actions et devises",
@@ -88,31 +88,40 @@
   ],
   "crypto": {
     "btc": {
-      "price": 64787.1,
-      "ma50": 63312.03200000002,
-      "ma200": 70131.12299999996,
-      "drawdown_1y": 0.4807332096355993,
-      "volatility_30d": 0.27908752742984166,
+      "price": 64844.6,
+      "ma50": 63313.18200000002,
+      "ma200": 70131.41049999997,
+      "drawdown_1y": 0.4802723487474603,
+      "volatility_30d": 0.2790206683993869,
       "above_ma50": true,
       "above_ma200": false,
       "trend": "indecise"
     },
     "eth": {
-      "price": 1916.53,
-      "ma50": 1801.9926,
-      "ma200": 2050.2384,
-      "drawdown_1y": 0.6032028985507247,
-      "volatility_30d": 0.39163332590722244,
+      "price": 1920.58,
+      "ma50": 1802.0736000000002,
+      "ma200": 2050.2586499999998,
+      "drawdown_1y": 0.6023643892339544,
+      "volatility_30d": 0.3916039445468386,
       "above_ma50": true,
       "above_ma200": false,
       "trend": "indecise"
     },
     "spot_venue": "kraken",
-    "funding_btc": 7.7237805099e-06,
+    "funding_btc": 5.8295782773e-06,
     "funding_venue": "okx"
   },
   "equities": {
     "equities_source": "yfinance",
+    "sp500": {
+      "label": "S&P 500",
+      "price": 7757.64013671875,
+      "ma50": 7494.24021484375,
+      "ma200": 7050.029704589844,
+      "above_ma50": true,
+      "above_ma200": true,
+      "trend": "haussiere"
+    },
     "nasdaq": {
       "label": "Nasdaq",
       "price": 26690.619140625,
@@ -209,30 +218,25 @@
     "label": "Fear"
   },
   "fred": {},
-  "failures": [
-    {
-      "source": "yfinance/^GSPC",
-      "reason": "Too Many Requests. Rate limited. Try after a while."
-    },
-    {
-      "source": "yahoo-direct/^GSPC",
-      "reason": "HTTP Error 429: Too Many Requests"
-    }
-  ],
+  "failures": [],
   "history": {
     "2026-08-09": {
       "regime": "favorable au risque",
-      "favorable": 6,
-      "available": 10,
+      "favorable": 7,
+      "available": 11,
       "fear_greed": 31,
       "assets": {
         "btc": {
-          "close": 64787.1,
+          "close": 64844.6,
           "trend": "indecise"
         },
         "eth": {
-          "close": 1916.53,
+          "close": 1920.58,
           "trend": "indecise"
+        },
+        "sp500": {
+          "close": 7757.6401,
+          "trend": "haussiere"
         },
         "nasdaq": {
           "close": 26690.6191,
