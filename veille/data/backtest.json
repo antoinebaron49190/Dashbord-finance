@@ -1,6 +1,6 @@
 {
   "schema": 4,
-  "generated_at": "2026-08-08T07:37:23.337894+00:00",
+  "generated_at": "2026-08-09T04:46:53.126683+00:00",
   "horizon_days": 20,
   "assets": {
     "btc": {
@@ -10,9 +10,9 @@
       "current": {
         "trend": "indecise",
         "since": "2026-08-02",
-        "days": 6,
-        "sessions": 7,
-        "longer_than_pct": 81,
+        "days": 7,
+        "sessions": 8,
+        "longer_than_pct": 85,
         "median_sessions": 3,
         "past_phases": 27
       },
@@ -31,24 +31,24 @@
         },
         "indecise": {
           "days": 150,
-          "mean_pct": -2.68,
-          "median_pct": -1.02,
+          "mean_pct": -2.67,
+          "median_pct": -0.97,
           "positive_pct": 43.3
         }
       },
       "baseline": {
         "days": 501,
-        "mean_pct": -0.62,
+        "mean_pct": -0.61,
         "median_pct": -0.45,
         "positive_pct": 47.9
       },
       "analogues": {
-        "current_stretch": -7.55,
+        "current_stretch": -7.67,
         "bucket": 3,
         "buckets": 5,
         "range_pct": [
           -11.4,
-          0.3
+          0.1
         ],
         "outcome": {
           "days": 100,
@@ -68,8 +68,8 @@
       "current": {
         "trend": "indecise",
         "since": "2026-07-10",
-        "days": 29,
-        "sessions": 30,
+        "days": 30,
+        "sessions": 31,
         "longer_than_pct": 83,
         "median_sessions": 9,
         "past_phases": 12
@@ -82,26 +82,26 @@
           "positive_pct": 53.3
         },
         "baissiere": {
-          "days": 234,
-          "mean_pct": 1.94,
-          "median_pct": 0.35,
-          "positive_pct": 53.0
+          "days": 233,
+          "mean_pct": 1.98,
+          "median_pct": 0.41,
+          "positive_pct": 53.2
         },
         "indecise": {
-          "days": 177,
-          "mean_pct": -2.47,
-          "median_pct": -2.93,
-          "positive_pct": 39.0
+          "days": 178,
+          "mean_pct": -2.46,
+          "median_pct": -2.85,
+          "positive_pct": 39.3
         }
       },
       "baseline": {
         "days": 501,
-        "mean_pct": 1.26,
-        "median_pct": -0.61,
-        "positive_pct": 48.1
+        "mean_pct": 1.28,
+        "median_pct": -0.6,
+        "positive_pct": 48.3
       },
       "analogues": {
-        "current_stretch": -6.88,
+        "current_stretch": -6.75,
         "bucket": 4,
         "buckets": 5,
         "range_pct": [
@@ -115,9 +115,9 @@
           "positive_pct": 41.0
         }
       },
-      "edge_pct": 4.91,
+      "edge_pct": 4.87,
       "verdict": "signal utile",
-      "sentence": "Le signal a séparé les deux cas. Après un signal haussier, +6,8 % en moyenne sur 20 séances ; après un signal baissier, +1,9 %."
+      "sentence": "Le signal a séparé les deux cas. Après un signal haussier, +6,8 % en moyenne sur 20 séances ; après un signal baissier, +2,0 %."
     },
     "sp500": {
       "label": "S&P 500",
@@ -671,15 +671,15 @@
     },
     {
       "label": "Fear & Greed crypto",
-      "value": "30/100",
-      "percentile": 32,
-      "sentence": "plus craintif que 68 % de toute l'histoire de l'indice"
+      "value": "31/100",
+      "percentile": 34,
+      "sentence": "plus craintif que 66 % de toute l'histoire de l'indice"
     },
     {
       "label": "Volatilité du Bitcoin sur 30 jours",
       "value": "28 %",
-      "percentile": 12,
-      "sentence": "plus calme que 88 % des 2 dernières années"
+      "percentile": 11,
+      "sentence": "plus calme que 89 % des 2 dernières années"
     },
     {
       "label": "Décote du Bitcoin sous son plus haut",

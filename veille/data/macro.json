@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T23:04:19.178058+00:00",
+  "generated_at": "2026-08-09T04:46:44.291025+00:00",
   "regime": {
     "state": "favorable au risque",
     "favorable": 7,
@@ -12,22 +12,22 @@
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": false,
-      "value": "64 892 $",
-      "reference": "MM200 70 254 $"
+      "value": "64 753 $",
+      "reference": "MM200 70 131 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": true,
-      "value": "64 892 $",
-      "reference": "MM50 63 301 $"
+      "value": "64 753 $",
+      "reference": "MM50 63 311 $"
     },
     {
       "group": "Crypto",
       "label": "ETH au-dessus de sa MM200",
       "ok": false,
-      "value": "1 914 $",
-      "reference": "MM200 2 056 $"
+      "value": "1 912 $",
+      "reference": "MM200 2 050 $"
     },
     {
       "group": "Crypto",
@@ -47,7 +47,7 @@
       "group": "Crypto",
       "label": "Financement des perpétuels BTC",
       "ok": true,
-      "value": "+0.0041 %",
+      "value": "+0.0029 %",
       "reference": "positif"
     },
     {
@@ -82,33 +82,33 @@
       "group": "Sentiment",
       "label": "Fear & Greed crypto",
       "ok": false,
-      "value": "30/100",
+      "value": "31/100",
       "reference": "50 ou plus"
     }
   ],
   "crypto": {
     "btc": {
-      "price": 64891.7,
-      "ma50": 63301.10400000002,
-      "ma200": 70254.00499999998,
-      "drawdown_1y": 0.47989484356778467,
-      "volatility_30d": 0.28356758225177375,
+      "price": 64753.0,
+      "ma50": 63311.35000000002,
+      "ma200": 70130.95249999997,
+      "drawdown_1y": 0.4810065201796957,
+      "volatility_30d": 0.2791434176350051,
       "above_ma50": true,
       "above_ma200": false,
       "trend": "indecise"
     },
     "eth": {
-      "price": 1914.28,
-      "ma50": 1798.4246000000003,
-      "ma200": 2055.5509,
-      "drawdown_1y": 0.6036687370600414,
-      "volatility_30d": 0.4027470630194344,
+      "price": 1911.83,
+      "ma50": 1801.8986000000002,
+      "ma200": 2050.2149,
+      "drawdown_1y": 0.604175983436853,
+      "volatility_30d": 0.391841602340516,
       "above_ma50": true,
       "above_ma200": false,
       "trend": "indecise"
     },
     "spot_venue": "kraken",
-    "funding_btc": 4.10230619963e-05,
+    "funding_btc": 2.86428276293e-05,
     "funding_venue": "okx"
   },
   "equities": {
@@ -214,12 +214,72 @@
     }
   },
   "fear_greed": {
-    "value": 30,
+    "value": 31,
     "label": "Fear"
   },
   "fred": {},
   "failures": [],
   "history": {
+    "2026-08-09": {
+      "regime": "favorable au risque",
+      "favorable": 7,
+      "available": 11,
+      "fear_greed": 31,
+      "assets": {
+        "btc": {
+          "close": 64753.0,
+          "trend": "indecise"
+        },
+        "eth": {
+          "close": 1911.83,
+          "trend": "indecise"
+        },
+        "sp500": {
+          "close": 7757.6401,
+          "trend": "haussiere"
+        },
+        "nasdaq": {
+          "close": 26690.6191,
+          "trend": "haussiere"
+        },
+        "eurostoxx": {
+          "close": 6523.8599,
+          "trend": "haussiere"
+        },
+        "cac40": {
+          "close": 8714.9297,
+          "trend": "haussiere"
+        },
+        "dax": {
+          "close": 26319.4492,
+          "trend": "haussiere"
+        },
+        "nikkei": {
+          "close": 65606.7109,
+          "trend": "indecise"
+        },
+        "hangseng": {
+          "close": 25668.0293,
+          "trend": "indecise"
+        },
+        "shanghai": {
+          "close": 3940.0371,
+          "trend": "baissiere"
+        },
+        "msci_world": {
+          "close": 210.47,
+          "trend": "haussiere"
+        },
+        "vix": {
+          "close": 14.9,
+          "trend": "baissiere"
+        },
+        "dxy": {
+          "close": 99.6,
+          "trend": "indecise"
+        }
+      }
+    },
     "2026-08-08": {
       "regime": "favorable au risque",
       "favorable": 7,
