@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T00:04:46.691635+00:00",
+  "generated_at": "2026-08-10T06:01:13.918221+00:00",
   "regime": {
     "state": "favorable au risque",
     "favorable": 7,
@@ -12,21 +12,21 @@
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": false,
-      "value": "64 856 $",
-      "reference": "MM200 70 008 $"
+      "value": "65 103 $",
+      "reference": "MM200 70 010 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": true,
-      "value": "64 856 $",
-      "reference": "MM50 63 346 $"
+      "value": "65 103 $",
+      "reference": "MM50 63 351 $"
     },
     {
       "group": "Crypto",
       "label": "ETH au-dessus de sa MM200",
       "ok": false,
-      "value": "1 910 $",
+      "value": "1 922 $",
       "reference": "MM200 2 045 $"
     },
     {
@@ -68,7 +68,7 @@
       "group": "Actions et devises",
       "label": "Dollar sous sa MM50",
       "ok": true,
-      "value": "99.62",
+      "value": "99.69",
       "reference": "MM50 100.50"
     },
     {
@@ -88,27 +88,27 @@
   ],
   "crypto": {
     "btc": {
-      "price": 64855.8,
-      "ma50": 63345.926000000014,
-      "ma200": 70008.49549999998,
-      "drawdown_1y": 0.4801825810614227,
-      "volatility_30d": 0.27823068719285615,
+      "price": 65103.1,
+      "ma50": 63350.87200000002,
+      "ma200": 70009.73199999996,
+      "drawdown_1y": 0.47820047849382646,
+      "volatility_30d": 0.2784401140481592,
       "above_ma50": true,
       "above_ma200": false,
       "trend": "indecise"
     },
     "eth": {
-      "price": 1909.57,
-      "ma50": 1805.9264000000005,
-      "ma200": 2045.0025,
-      "drawdown_1y": 0.6046438923395445,
-      "volatility_30d": 0.3913093540028212,
+      "price": 1922.4,
+      "ma50": 1806.1830000000002,
+      "ma200": 2045.06665,
+      "drawdown_1y": 0.6019875776397515,
+      "volatility_30d": 0.3916341563143989,
       "above_ma50": true,
       "above_ma200": false,
       "trend": "indecise"
     },
     "spot_venue": "kraken",
-    "funding_btc": 9.23123867313e-05,
+    "funding_btc": 9.23137240356e-05,
     "funding_venue": "okx"
   },
   "equities": {
@@ -160,27 +160,27 @@
     },
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 65606.7109375,
-      "ma50": 67164.911328125,
-      "ma200": 57399.3569140625,
+      "price": 66937.203125,
+      "ma50": 67177.065390625,
+      "ma200": 57499.806328125,
       "above_ma50": false,
       "above_ma200": true,
       "trend": "indecise"
     },
     "hangseng": {
       "label": "Hang Seng",
-      "price": 25668.029296875,
-      "ma50": 24618.722578125,
-      "ma200": 25715.538798828125,
+      "price": 25842.189453125,
+      "ma50": 24635.4431640625,
+      "ma200": 25717.542998046876,
       "above_ma50": true,
-      "above_ma200": false,
-      "trend": "indecise"
+      "above_ma200": true,
+      "trend": "haussiere"
     },
     "shanghai": {
       "label": "Shanghai",
-      "price": 3940.037109375,
-      "ma50": 3976.8904296875,
-      "ma200": 4012.5229174804685,
+      "price": 3947.7724609375,
+      "ma50": 3974.4744970703123,
+      "ma200": 4012.7007348632815,
       "above_ma50": false,
       "above_ma200": false,
       "trend": "baissiere"
@@ -205,9 +205,9 @@
     },
     "dxy": {
       "label": "Dollar (DXY)",
-      "price": 99.62000274658203,
-      "ma50": 100.49880050659179,
-      "ma200": 99.1699002456665,
+      "price": 99.68900299072266,
+      "ma50": 100.50018051147461,
+      "ma200": 99.1702452468872,
       "above_ma50": false,
       "above_ma200": true,
       "trend": "indecise"
@@ -227,11 +227,11 @@
       "fear_greed": 30,
       "assets": {
         "btc": {
-          "close": 64855.8,
+          "close": 65103.1,
           "trend": "indecise"
         },
         "eth": {
-          "close": 1909.57,
+          "close": 1922.4,
           "trend": "indecise"
         },
         "sp500": {
@@ -255,15 +255,15 @@
           "trend": "haussiere"
         },
         "nikkei": {
-          "close": 65606.7109,
+          "close": 66937.2031,
           "trend": "indecise"
         },
         "hangseng": {
-          "close": 25668.0293,
-          "trend": "indecise"
+          "close": 25842.1895,
+          "trend": "haussiere"
         },
         "shanghai": {
-          "close": 3940.0371,
+          "close": 3947.7725,
           "trend": "baissiere"
         },
         "msci_world": {
@@ -275,7 +275,7 @@
           "trend": "baissiere"
         },
         "dxy": {
-          "close": 99.62,
+          "close": 99.689,
           "trend": "indecise"
         }
       }

@@ -1,4 +1,54 @@
 {
+  "2026-08-10": {
+    "articles_count": 18,
+    "signal_count": 2,
+    "tone_cb": null,
+    "tone_global": 0.5,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "154b0e62c91df43a2363dea0",
+        "title": "Hypoport reports 5% profit growth in first half of 2026",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/stock-market-news/hypoport-reports-5-profit-growth-in-first-half-of-2026-93CH-4847832"
+      },
+      {
+        "id": "0e4b771fe8237604af9f8cab",
+        "title": "Medi Assist Q1 FY27 slides: margin recovery continues, tech revenue surges",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/company-news/medi-assist-q1-fy27-slides-margin-recovery-continues-tech-revenue-surges-93CH-4847828"
+      },
+      {
+        "id": "c8878b7b4f48b60ed36836b8",
+        "title": "Japan's multinationals take the win from weak yen",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/business-trends/japan-s-multinationals-take-the-win-from-weak-yen"
+      },
+      {
+        "id": "f78c2c7b21f30e69a4e55c49",
+        "title": "India's rare earth magnet push dogged by China competition concerns",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/materials/india-s-rare-earth-magnet-push-dogged-by-china-competition-concerns"
+      },
+      {
+        "id": "b3bf8917fc6ec628b07bc715",
+        "title": "Australian scandium miner gets US backing as Chinese restrictions bite",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/markets/commodities/australian-scandium-miner-gets-us-backing-as-chinese-restrictions-bite"
+      }
+    ]
+  },
   "2026-08-09": {
     "articles_count": 213,
     "signal_count": 23,
@@ -50,12 +100,12 @@
     ]
   },
   "2026-08-08": {
-    "articles_count": 252,
-    "signal_count": 21,
+    "articles_count": 263,
+    "signal_count": 23,
     "tone_cb": null,
-    "tone_global": 0.0095,
+    "tone_global": 0.0043,
     "regul_crypto": -0.6,
-    "stress": 0.004,
+    "stress": 0.0076,
     "top": [
       {
         "id": "d5996d89f1cbb95f9011c24e",
@@ -64,6 +114,14 @@
         "score": 0.45,
         "tone": 0.0,
         "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-ceo-sundar-pichai-just-155000736.html"
+      },
+      {
+        "id": "b81361a78fa459109972bcdb",
+        "title": "What JEPQ Actually Paid the Last Time the Nasdaq Fell 10%: a Stress Test for Its 10% Yield",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://finance.yahoo.com/markets/options/articles/jepq-actually-paid-last-time-183454837.html"
       },
       {
         "id": "dae238731eb43ef073e30370",
@@ -88,14 +146,6 @@
         "score": 0.3,
         "tone": -0.6,
         "url": "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes"
-      },
-      {
-        "id": "e706a3dd93d225d5467121b0",
-        "title": "Why the Market Continues to Sleep on Micron's Growth Potential",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://finance.yahoo.com/markets/stocks/articles/why-market-continues-sleep-microns-223500954.html"
       }
     ]
   },
