@@ -1,12 +1,20 @@
 {
   "2026-08-11": {
-    "articles_count": 19,
-    "signal_count": 3,
+    "articles_count": 42,
+    "signal_count": 7,
     "tone_cb": null,
-    "tone_global": 0.1667,
-    "regul_crypto": null,
+    "tone_global": 0.081,
+    "regul_crypto": -0.6,
     "stress": 0.0,
     "top": [
+      {
+        "id": "ff121eec1eeb0db793cccf4f",
+        "title": "ECB and Frankfurt Radio Symphony invite the public to Europa Open Air concert on 20 August 2026",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260811~47cd3ee040.en.html"
+      },
       {
         "id": "b35d753e608a65b47dcaeb0d",
         "title": "Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure",
@@ -16,41 +24,33 @@
         "url": "https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories"
       },
       {
-        "id": "6d186848391e055e10bd156b",
-        "title": "Singapore records 5.9% Q2 GDP growth, raises full-year forecast",
+        "id": "c13220c61b6f9a563ca2f939",
+        "title": "Compal bets on expansion in Taiwan, Vietnam and US for AI servers",
         "source": "nikkei_asia",
         "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/economy/singapore-records-5.9-q2-gdp-growth-raises-full-year-forecast"
+        "tone": 0.6667,
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/compal-bets-on-expansion-in-taiwan-vietnam-and-us-for-ai-servers"
       },
       {
-        "id": "f377ea4a8079e543fb2b1333",
-        "title": "RBA leaves rates steady at 4.35%; warns of more rate hikes amid high inflation",
+        "id": "cb01ef573f38832dc35e5f60",
+        "title": "BTCPay offers $190,000 bounty after bitcoin payment servers drained in exploit",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.coindesk.com/markets/2026/08/11/btcpay-offers-usd190-000-bounty-after-bitcoin-payment-servers-drained-in-exploit"
+      },
+      {
+        "id": "cf179ae62c512116e53e4c5a",
+        "title": "Russia says it struck military-related warehouses and steel works in overnight Ukraine strikes",
         "source": "investing_com",
         "score": 0.3,
         "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/rba-leaves-rates-steady-at-435-warns-of-more-rate-hikes-amid-high-inflation-4850765"
-      },
-      {
-        "id": "9b33eb0aad419d3a44be11e2",
-        "title": "OCBC extends gains, hits record high after strong Q2 profit",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/stock-market-news/ocbc-extends-gains-hits-record-high-after-strong-q2-profit-4850758"
-      },
-      {
-        "id": "6ed2d34ffd89d0e0c1165e8e",
-        "title": "Japan faces record izakaya bankruptcies, signaling change of drink culture",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/food-beverage/japan-faces-record-izakaya-bankruptcies-signaling-change-of-drink-culture"
+        "url": "https://www.investing.com/news/stock-market-news/russia-says-it-struck-militaryrelated-warehouses-and-steel-works-in-overnight-ukraine-strikes-4850912"
       }
     ]
   },
   "2026-08-10": {
-    "articles_count": 299,
+    "articles_count": 301,
     "signal_count": 34,
     "tone_cb": 0.6667,
     "tone_global": 0.1754,
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-09": {
-    "articles_count": 258,
-    "signal_count": 28,
+    "articles_count": 262,
+    "signal_count": 29,
     "tone_cb": null,
-    "tone_global": 0.2131,
+    "tone_global": 0.2057,
     "regul_crypto": 0.0,
-    "stress": 0.0074,
+    "stress": 0.0073,
     "top": [
       {
         "id": "a92b399a997ed94c83a89062",

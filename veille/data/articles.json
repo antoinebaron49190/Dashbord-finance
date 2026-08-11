@@ -1,5 +1,633 @@
 [
   {
+    "id": "c13220c61b6f9a563ca2f939",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Compal bets on expansion in Taiwan, Vietnam and US for AI servers",
+    "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/compal-bets-on-expansion-in-taiwan-vietnam-and-us-for-ai-servers",
+    "summary": "",
+    "published_at": "2026-08-11T08:32:11.879479+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {
+      "croissance": 2.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6667,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.6667,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "21f2bad977c5acc5b72994a6",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Renewables firm up China's status as Bangladesh's top power investor",
+    "url": "https://asia.nikkei.com/business/energy/renewables-firm-up-china-s-status-as-bangladesh-s-top-power-investor",
+    "summary": "",
+    "published_at": "2026-08-11T08:32:11.879479+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ff121eec1eeb0db793cccf4f",
+    "source": "bce_press",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "ECB and Frankfurt Radio Symphony invite the public to Europa Open Air concert on 20 August 2026",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260811~47cd3ee040.en.html",
+    "summary": "",
+    "published_at": "2026-08-11T08:30:00+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cf179ae62c512116e53e4c5a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Russia says it struck military-related warehouses and steel works in overnight Ukraine strikes",
+    "url": "https://www.investing.com/news/stock-market-news/russia-says-it-struck-militaryrelated-warehouses-and-steel-works-in-overnight-ukraine-strikes-4850912",
+    "summary": "",
+    "published_at": "2026-08-11T08:12:37+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7797e1abbde02b71046726f2",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is Babcock & Wilcox stock surging today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-babcock--wilcox-stock-surging-today-93CH-4850911",
+    "summary": "",
+    "published_at": "2026-08-11T08:12:28+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a60565ae83e2d30e51d32642",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Genuit stock slips as H1 profit falls on Middle East, weather hit",
+    "url": "https://www.investing.com/news/earnings/genuit-stock-dips-as-h1-profit-falls-on-middle-east-weather-hit-4850898",
+    "summary": "",
+    "published_at": "2026-08-11T08:11:42+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e168e5ee046f27716eb9d8e3",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Intel upsizes stock offering to $20 bln, shares up in premarket",
+    "url": "https://www.investing.com/news/stock-market-news/intel-upsizes-stock-offering-to-20-bln-4850818",
+    "summary": "",
+    "published_at": "2026-08-11T08:08:52+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "65b1122a91347974894e7b5b",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Cloudflare prices $2.175 billion convertible notes offering",
+    "url": "https://www.investing.com/news/company-news/cloudflare-prices-2175-billion-convertible-notes-offering-93CH-4850910",
+    "summary": "",
+    "published_at": "2026-08-11T08:08:32+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f2dcd937fdd2a6c58e525f23",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "German yields rebound to highest since Aug. 3 as energy spike stokes fear",
+    "url": "https://www.investing.com/news/forex-news/german-yields-rebound-to-highest-since-aug-3-as-energy-spike-stokes-fear-4850909",
+    "summary": "",
+    "published_at": "2026-08-11T08:08:13+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "233e018b1ec1ab517964ea51",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "DAX double top forms near all-time highs: Hourly levels",
+    "url": "https://www.investing.com/news/stock-market-news/dax-coils-below-ath-with-double-top-risk-live-levels-93CH-4847984",
+    "summary": "",
+    "published_at": "2026-08-11T08:07:14+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "baadb716734f62bdd9d7745d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Wallenius Wilhelmsen Q2 2026 slides: China boom offsets bunker costs",
+    "url": "https://www.investing.com/news/company-news/wallenius-wilhelmsen-q2-2026-slides-china-boom-offsets-bunker-costs-93CH-4850908",
+    "summary": "",
+    "published_at": "2026-08-11T08:06:41+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b4e1380db4032e99d128b003",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is Spirax Group stock plunging today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-spirax-group-stock-plunging-today-93CH-4850907",
+    "summary": "",
+    "published_at": "2026-08-11T08:06:40+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1ada52e270de1a1ff380876d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Lufthansa, German pilots’ union agree process to resolve labour disputes",
+    "url": "https://www.investing.com/news/stock-market-news/lufthansa-german-pilots-union-agree-process-to-resolve-labour-disputes-4850906",
+    "summary": "",
+    "published_at": "2026-08-11T08:06:34+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "40412662a0464945262da307",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Coinbase rolls out derivatives for UK professional investors",
+    "url": "https://www.theblock.co/news/business/2026-08-11-coinbase-expands-uk-derivatives-411380",
+    "summary": "Coinbase launches perpetuals, futures and options to UK professional clients after obtaining its MiFID license.",
+    "published_at": "2026-08-11T08:00:00+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5cd3f2f07e32cda3c593433f",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The Bessent bond-market scorecard doesn’t look as strong as it once did",
+    "url": "https://www.marketwatch.com/story/the-bessent-bond-market-scorecard-doesnt-look-as-strong-as-it-once-did-afe2f93e?mod=mw_rss_topstories",
+    "summary": "Since President Donald Trump’s inauguration U.S Treasury securities have underperformed all major government bond indices with the exception of Japan.",
+    "published_at": "2026-08-11T07:35:00+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "07f2f647c4f7197414385407",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "A $2 trillion asset class is getting a new blockchain rail",
+    "url": "https://www.coindesk.com/markets/2026/08/11/emb-7-00-utc-a-usd2-trillion-asset-class-is-getting-a-new-blockchain-rail",
+    "summary": "",
+    "published_at": "2026-08-11T07:19:09+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bb85b00694910ea7ee6d74b8",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "FlightAware sues Kalshi over alleged unauthorized data use for flight cancellation markets",
+    "url": "https://www.theblock.co/news/business/2026-08-11-flightaware-sues-kalshi-411370",
+    "summary": "FlightAware is also seeking a temporary restraining order to bar Kalshi from activities involving the flight-tracking site.",
+    "published_at": "2026-08-11T07:06:33+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "92160813b05a24ab3534ee6b",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Zama brings its blockchain-privacy token to Revolut’s 70 million users",
+    "url": "https://www.theblock.co/news/markets/2026-08-11-zama-brings-blockchain-privacy-token-to-revoluts-70-million-users-411290",
+    "summary": "Zama listed its ZAMA token on Revolut across the EEA, opening the privacy protocol to the fintech's 70 million-plus customers.",
+    "published_at": "2026-08-11T07:05:03+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dfef939373665b3bb1830fea",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Broadridge’s Distributed Ledger Repo platform processes $8 trillion in July volume",
+    "url": "https://www.theblock.co/news/business/2026-08-11-broadridge-8-trillion-july-411365",
+    "summary": "Broadridge also offers services enabling onchain proxy voting and governance and managing digital asset infrastructure.",
+    "published_at": "2026-08-11T06:31:22+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cb01ef573f38832dc35e5f60",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "BTCPay offers $190,000 bounty after bitcoin payment servers drained in exploit",
+    "url": "https://www.coindesk.com/markets/2026/08/11/btcpay-offers-usd190-000-bounty-after-bitcoin-payment-servers-drained-in-exploit",
+    "summary": "",
+    "published_at": "2026-08-11T06:19:07+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "59b43104603acc0620931d5f",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "‘The market is obviously on fire’: Is it a mistake to take $1,000 from my brokerage account to pay my car loan?",
+    "url": "https://www.marketwatch.com/story/the-market-is-obviously-on-fire-is-it-a-mistake-to-take-1-000-from-my-brokerage-account-to-pay-my-car-loan-65800d1f?mod=mw_rss_topstories",
+    "summary": "“I’m curious whether there’s a downside.”",
+    "published_at": "2026-08-11T06:15:00+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "be644f1b3817800269bb3cbf",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin’s BIP-110 fork is 300 blocks behind BTC and six years from fixing itself",
+    "url": "https://www.coindesk.com/tech/2026/08/11/bitcoin-s-bip-110-fork-is-300-blocks-behind-btc-and-six-years-from-fixing-itself",
+    "summary": "",
+    "published_at": "2026-08-11T05:26:37+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "6ed2d34ffd89d0e0c1165e8e",
     "source": "nikkei_asia",
     "tier": 3,
@@ -111,6 +739,38 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "80d82a4806ec7be9252604b8",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "XRP, ether lead crypto losses as traders eye $70,000 bitcoin next",
+    "url": "https://www.coindesk.com/markets/2026/08/11/xrp-ether-lead-crypto-losses-as-traders-eye-usd70-000-bitcoin-next",
+    "summary": "",
+    "published_at": "2026-08-11T04:50:23+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
@@ -8755,6 +9415,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "273101d307ff67f5c5abc8c9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Contact Energy Profit Jumps as Utility Eyes 250-MW Data Center",
+    "url": "https://finance.yahoo.com/energy/articles/contact-energy-profit-jumps-utility-010300364.html",
+    "summary": "",
+    "published_at": "2026-08-10T01:03:00+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "27ea60f64d741ab96238122b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Thermo Fisher (TMO) vs Danaher (DHR): Which Life Sciences Stock Looks Better Positioned?",
+    "url": "https://finance.yahoo.com/healthcare/articles/thermo-fisher-tmo-vs-danaher-000131616.html",
+    "summary": "",
+    "published_at": "2026-08-10T00:01:31+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "a92b399a997ed94c83a89062",
     "source": "boj_news",
     "tier": 1,
@@ -8856,6 +9568,32 @@
     "summary": "",
     "published_at": "2026-08-09T23:44:06+00:00",
     "collected_at": "2026-08-10T00:04:23.604056+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f10d30518ef3000a90655bfa",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Is Medtronic (MDT) Becoming a Turnaround Story?",
+    "url": "https://finance.yahoo.com/healthcare/articles/medtronic-mdt-becoming-turnaround-story-234359487.html",
+    "summary": "",
+    "published_at": "2026-08-09T23:43:59+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -9273,6 +10011,34 @@
     "scored_by": "lexique"
   },
   {
+    "id": "a67c72375163f244632ca085",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Kraken Delisting Deadline Nears: Holders of 21 Tokens Risk Near-Zero Payouts",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/kraken-delisting-deadline-nears-holders-212908309.html",
+    "summary": "",
+    "published_at": "2026-08-09T21:29:08+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "e56374b928128ee3d25f647a",
     "source": "investing_com",
     "tier": 3,
@@ -9342,6 +10108,36 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8dbd46cb96a642ecfa92d942",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Apple's Favorite Bullying Tactic Just Died in China. It Could Cost You Hundreds on Your Next iPhone.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/apples-favorite-bullying-tactic-just-210637752.html",
+    "summary": "",
+    "published_at": "2026-08-09T21:06:37+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -9682,6 +10478,36 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b8640373ba0da9f133886f23",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "S&P 500 Positive Profit Surprises Trending Above 5-Year Average",
+    "url": "https://www.barrons.com/livecoverage/sunday0809/card/s-p-500-positive-profit-surprises-trending-above-5-year-average-SFZldkmcNCFSSVbQa79W?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-09T21:01:02+00:00",
+    "collected_at": "2026-08-11T08:32:11.879479+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
