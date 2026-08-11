@@ -1,9 +1,9 @@
 {
   "2026-08-11": {
-    "articles_count": 42,
-    "signal_count": 7,
+    "articles_count": 100,
+    "signal_count": 13,
     "tone_cb": null,
-    "tone_global": 0.081,
+    "tone_global": 0.2744,
     "regul_crypto": -0.6,
     "stress": 0.0,
     "top": [
@@ -14,6 +14,14 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260811~47cd3ee040.en.html"
+      },
+      {
+        "id": "5cbbb8331c3d5c9a1f3c7cce",
+        "title": "Daily News 11 / 08 / 2026",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1731"
       },
       {
         "id": "b35d753e608a65b47dcaeb0d",
@@ -38,24 +46,16 @@
         "score": 0.3,
         "tone": -0.6,
         "url": "https://www.coindesk.com/markets/2026/08/11/btcpay-offers-usd190-000-bounty-after-bitcoin-payment-servers-drained-in-exploit"
-      },
-      {
-        "id": "cf179ae62c512116e53e4c5a",
-        "title": "Russia says it struck military-related warehouses and steel works in overnight Ukraine strikes",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/stock-market-news/russia-says-it-struck-militaryrelated-warehouses-and-steel-works-in-overnight-ukraine-strikes-4850912"
       }
     ]
   },
   "2026-08-10": {
-    "articles_count": 301,
+    "articles_count": 303,
     "signal_count": 34,
     "tone_cb": 0.6667,
     "tone_global": 0.1754,
     "regul_crypto": -0.7148,
-    "stress": 0.0089,
+    "stress": 0.0088,
     "top": [
       {
         "id": "1ebfdfe8c62c11b8098f568e",
@@ -2766,21 +2766,13 @@
     ]
   },
   "2026-05-13": {
-    "articles_count": 2,
+    "articles_count": 1,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
-      {
-        "id": "fcd638328179c6728ea4d9f4",
-        "title": "Outil de gestion de la liquidité : l'AMF a l’intention d’appliquer les orientations de l'ESMA",
-        "source": "amf_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/outil-de-gestion-de-la-liquidite-lamf-lintention-dappliquer-les-orientations-de-lesma#xts=607212&xtor=RSS-3&type=RSS"
-      },
       {
         "id": "dabe2c589524e651398c254b",
         "title": "Best private student loans for August 2026",
