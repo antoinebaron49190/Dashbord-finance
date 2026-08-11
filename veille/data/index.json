@@ -1,12 +1,28 @@
 {
   "2026-08-11": {
-    "articles_count": 100,
-    "signal_count": 13,
+    "articles_count": 174,
+    "signal_count": 19,
     "tone_cb": null,
-    "tone_global": 0.2744,
+    "tone_global": 0.2214,
     "regul_crypto": -0.6,
     "stress": 0.0,
     "top": [
+      {
+        "id": "80ae009caf837552ebd96c5c",
+        "title": "Results of the Semi-Annual FX Turnover Surveys in April 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/markets/london-foreign-exchange-joint-standing-committee/results-of-the-semi-annual-fx-turnover-survey-april-2026"
+      },
+      {
+        "id": "60e8d82d4b87e354173c8721",
+        "title": "Can structural reforms unleash private investment?",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3273~292f21a541.en.pdf"
+      },
       {
         "id": "ff121eec1eeb0db793cccf4f",
         "title": "ECB and Frankfurt Radio Symphony invite the public to Europa Open Air concert on 20 August 2026",
@@ -24,33 +40,17 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1731"
       },
       {
-        "id": "b35d753e608a65b47dcaeb0d",
-        "title": "Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure",
-        "source": "marketwatch",
+        "id": "817b112b679226bc6da4c91d",
+        "title": "eToro agrees to buy TradeZero for up to $231 million as equities drive Q2 growth",
+        "source": "theblock",
         "score": 0.45,
-        "tone": 0.0,
-        "url": "https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories"
-      },
-      {
-        "id": "c13220c61b6f9a563ca2f939",
-        "title": "Compal bets on expansion in Taiwan, Vietnam and US for AI servers",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/compal-bets-on-expansion-in-taiwan-vietnam-and-us-for-ai-servers"
-      },
-      {
-        "id": "cb01ef573f38832dc35e5f60",
-        "title": "BTCPay offers $190,000 bounty after bitcoin payment servers drained in exploit",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://www.coindesk.com/markets/2026/08/11/btcpay-offers-usd190-000-bounty-after-bitcoin-payment-servers-drained-in-exploit"
+        "tone": 0.5,
+        "url": "https://www.theblock.co/news/business/2026-08-11-etoro-to-buy-tradezero-for-231-million-equities-drive-q2-growth-411417"
       }
     ]
   },
   "2026-08-10": {
-    "articles_count": 303,
+    "articles_count": 305,
     "signal_count": 34,
     "tone_cb": 0.6667,
     "tone_global": 0.1754,
