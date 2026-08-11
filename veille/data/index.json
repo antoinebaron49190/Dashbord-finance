@@ -1,11 +1,61 @@
 {
+  "2026-08-11": {
+    "articles_count": 19,
+    "signal_count": 3,
+    "tone_cb": null,
+    "tone_global": 0.1667,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "b35d753e608a65b47dcaeb0d",
+        "title": "Nvidia teams with Wall Street firms to help finance $500 billion for AI infrastructure",
+        "source": "marketwatch",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.marketwatch.com/story/nvidia-teams-with-wall-street-firms-to-help-finance-500-billion-for-ai-infrastructure-2c4805a5?mod=mw_rss_topstories"
+      },
+      {
+        "id": "6d186848391e055e10bd156b",
+        "title": "Singapore records 5.9% Q2 GDP growth, raises full-year forecast",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/economy/singapore-records-5.9-q2-gdp-growth-raises-full-year-forecast"
+      },
+      {
+        "id": "f377ea4a8079e543fb2b1333",
+        "title": "RBA leaves rates steady at 4.35%; warns of more rate hikes amid high inflation",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/rba-leaves-rates-steady-at-435-warns-of-more-rate-hikes-amid-high-inflation-4850765"
+      },
+      {
+        "id": "9b33eb0aad419d3a44be11e2",
+        "title": "OCBC extends gains, hits record high after strong Q2 profit",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/stock-market-news/ocbc-extends-gains-hits-record-high-after-strong-q2-profit-4850758"
+      },
+      {
+        "id": "6ed2d34ffd89d0e0c1165e8e",
+        "title": "Japan faces record izakaya bankruptcies, signaling change of drink culture",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/food-beverage/japan-faces-record-izakaya-bankruptcies-signaling-change-of-drink-culture"
+      }
+    ]
+  },
   "2026-08-10": {
-    "articles_count": 287,
-    "signal_count": 32,
+    "articles_count": 299,
+    "signal_count": 34,
     "tone_cb": 0.6667,
-    "tone_global": 0.1856,
-    "regul_crypto": -0.7265,
-    "stress": 0.0093,
+    "tone_global": 0.1754,
+    "regul_crypto": -0.7148,
+    "stress": 0.0089,
     "top": [
       {
         "id": "1ebfdfe8c62c11b8098f568e",
@@ -50,12 +100,12 @@
     ]
   },
   "2026-08-09": {
-    "articles_count": 252,
-    "signal_count": 26,
+    "articles_count": 258,
+    "signal_count": 28,
     "tone_cb": null,
-    "tone_global": 0.2487,
+    "tone_global": 0.2131,
     "regul_crypto": 0.0,
-    "stress": 0.0076,
+    "stress": 0.0074,
     "top": [
       {
         "id": "a92b399a997ed94c83a89062",
@@ -100,12 +150,12 @@
     ]
   },
   "2026-08-08": {
-    "articles_count": 263,
-    "signal_count": 23,
+    "articles_count": 266,
+    "signal_count": 24,
     "tone_cb": null,
-    "tone_global": 0.0043,
+    "tone_global": -0.0208,
     "regul_crypto": -0.6,
-    "stress": 0.0076,
+    "stress": 0.0075,
     "top": [
       {
         "id": "d5996d89f1cbb95f9011c24e",
@@ -140,20 +190,20 @@
         "url": "https://www.theblock.co/news/markets/2026-08-08-bitcoin-ether-etfs-draw-1-1-billion-in-best-inflow-week-since-april-despite-low-volume-411204?utm_source=rss&utm_medium=rss"
       },
       {
-        "id": "4e85b7f7d2fce6c9f730dbf5",
-        "title": "Another Bitcoin infrastructure exploit hits, this time draining Lightning payment servers",
-        "source": "coindesk",
+        "id": "74e39a4fd4de1d4c73a6dc93",
+        "title": "Bitcoin, ether ETFs draw $1.1 billion in best inflow week since April, despite low volume",
+        "source": "theblock",
         "score": 0.3,
         "tone": -0.6,
-        "url": "https://www.coindesk.com/tech/2026/08/08/another-bitcoin-infrastructure-exploit-hits-this-time-draining-merchant-lightning-nodes"
+        "url": "https://www.theblock.co/news/markets/2026-08-08-bitcoin-ether-etfs-draw-1-1-billion-in-best-inflow-week-since-april-despite-low-volume-411204"
       }
     ]
   },
   "2026-08-07": {
-    "articles_count": 361,
-    "signal_count": 43,
+    "articles_count": 363,
+    "signal_count": 44,
     "tone_cb": null,
-    "tone_global": -0.0081,
+    "tone_global": -0.0193,
     "regul_crypto": -0.2,
     "stress": 0.0079,
     "top": [

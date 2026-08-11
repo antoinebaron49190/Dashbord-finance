@@ -1,11 +1,20 @@
 {
-  "updated_at": "2026-08-10T10:48:33.932562+00:00",
-  "pending": [],
+  "updated_at": "2026-08-11T04:51:47.117564+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:hangseng:indecise->haussiere:2026-08-11",
+      "title": "Hang Seng : tendance haussière",
+      "body": "Hang Seng passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-08-11.",
+      "kind": "tendance",
+      "detected_at": "2026-08-11T04:51:47.117515+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
     "regime:favorable au risque->neutre:2026-08-08",
-    "trend:hangseng:indecise->haussiere:2026-08-10"
+    "trend:hangseng:indecise->haussiere:2026-08-10",
+    "trend:hangseng:indecise->haussiere:2026-08-11"
   ],
   "extremes_active": [
     "extreme:Décote du Bitcoin sous son plus haut:haut"
