@@ -1,5 +1,630 @@
 [
   {
+    "id": "3d44e20082909421d8dc45d7",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Sony, TSMC deal brings overseas investment in Japan chipmaking to $37bn",
+    "url": "https://asia.nikkei.com/business/tech/semiconductors/sony-tsmc-deal-brings-overseas-investment-in-japan-chipmaking-to-37bn",
+    "summary": "",
+    "published_at": "2026-08-12T23:21:51.505997+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "396d820321e980dff5c9e86a",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Japan dividends heading to record high on chip, AI gains",
+    "url": "https://asia.nikkei.com/business/markets/equities/japan-dividends-heading-to-record-high-on-chip-ai-gains",
+    "summary": "",
+    "published_at": "2026-08-12T23:21:51.505997+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "068741d3ecb5bb4419ec109b",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Japan's defense boom won't save its carmakers",
+    "url": "https://asia.nikkei.com/opinion/japan-s-defense-boom-won-t-save-its-carmakers",
+    "summary": "",
+    "published_at": "2026-08-12T23:21:51.505997+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "38876ecda7aecc8519298501",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Prediction markets should dial back faulty filings for incentives to boost trading: CFTC",
+    "url": "https://www.coindesk.com/policy/2026/08/12/prediction-markets-should-dial-back-faulty-filings-for-incentives-to-boost-trading-cftc",
+    "summary": "",
+    "published_at": "2026-08-12T23:16:53+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3107c1cb8e2445f11c1a6cf2",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Allot Q2 2026 slides: revenue up 15%, SECaaS growth accelerates",
+    "url": "https://www.investing.com/news/company-news/allot-q2-2026-slides-revenue-up-15-secaas-growth-accelerates-93CH-4856426",
+    "summary": "",
+    "published_at": "2026-08-12T23:01:31+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "79fc54c3057b1358f1e913b0",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Mike Kelly makes multiple trades including Abbott Laboratories and Disney stocks",
+    "url": "https://www.investing.com/news/company-news/mike-kelly-makes-multiple-trades-including-abbott-laboratories-and-disney-stocks-93CH-4856425",
+    "summary": "",
+    "published_at": "2026-08-12T23:01:19+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c6ebdcc0410ae273e72b081a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Biodesix director Jack Schuler buys $665,940 in company stock",
+    "url": "https://www.investing.com/news/insider-trading-news/biodesix-director-jack-schuler-buys-665940-in-company-stock-93CH-4856424",
+    "summary": "",
+    "published_at": "2026-08-12T23:01:09+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fb602d0300cc6d0a5bdd393a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nextpower president Howard Wenger sells $1.17m in common stock",
+    "url": "https://www.investing.com/news/insider-trading-news/nextpower-president-howard-wenger-sells-117m-in-common-stock-93CH-4856423",
+    "summary": "",
+    "published_at": "2026-08-12T23:01:00+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "34af7fa2ad1acbce32dc8719",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Artivion SVP Jean Holloway sells 977 shares for $27,834",
+    "url": "https://www.investing.com/news/insider-trading-news/artivion-svp-jean-holloway-sells-977-shares-for-27834-93CH-4856422",
+    "summary": "",
+    "published_at": "2026-08-12T23:00:55+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0235c2c3e44694d28eaa0855",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "WEC Energy Group director Ulice Payne Jr. sells $103,468 in stock",
+    "url": "https://www.investing.com/news/insider-trading-news/wec-energy-group-director-ulice-payne-jr-sells-103468-in-stock-93CH-4856421",
+    "summary": "",
+    "published_at": "2026-08-12T23:00:54+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "277a2d90dea3ea66f5572d08",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Venezuela inflation surges to near 20% in July, central bank says",
+    "url": "https://www.investing.com/news/economy-news/venezuela-inflation-grows-to-199-in-july-central-bank-says-4856342",
+    "summary": "",
+    "published_at": "2026-08-12T22:54:22+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1c6f8baa566a53303f5acd81",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Intellinetics misses Q2 2026 estimates as shares fall",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-intellinetics-misses-q2-2026-estimates-as-shares-fall-93CH-4856420",
+    "summary": "",
+    "published_at": "2026-08-12T22:53:09+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3fe14b008c12bbf763b7a183",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Allot beats on Q2 2026 profit, raises outlook",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-allot-beats-on-q2-2026-profit-raises-outlook-93CH-4856419",
+    "summary": "",
+    "published_at": "2026-08-12T22:51:13+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4ff9fd88d07898f0227372cc",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Green LTF Holdings II sells $220.9m in Life Time Group stock",
+    "url": "https://www.investing.com/news/insider-trading-news/green-ltf-holdings-ii-sells-2209m-in-life-time-group-stock-93CH-4856418",
+    "summary": "",
+    "published_at": "2026-08-12T22:49:56+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0d6d58df5648ac95f3f09d73",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "China’s next economic ambition: workshop for the Muslim world",
+    "url": "https://www.marketwatch.com/story/now-china-wants-to-become-the-shop-floor-for-the-muslim-world-9ffd785a?mod=mw_rss_topstories",
+    "summary": "Chinese exporters are moving into halal food, cosmetics and fashion, but success in this vast market depends on something harder to manufacture than cheap goods: trust.",
+    "published_at": "2026-08-12T22:35:00+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d1fc328b511d2d0f91423f1c",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nebius adds to the excitement around neocloud stocks with upbeat earnings of its own",
+    "url": "https://www.marketwatch.com/story/nebius-adds-to-the-excitement-around-neocloud-stocks-with-upbeat-earnings-of-its-own-cd2aa36e?mod=mw_rss_topstories",
+    "summary": "Investors are reacting positively to earnings results and demand signals from neocloud companies CoreWeave and Nebius.",
+    "published_at": "2026-08-12T22:34:00+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "27dc15e0b66e1f45553ac5ba",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Securitize falls 20% after earnings miss as tokenization revenue falls short",
+    "url": "https://www.coindesk.com/markets/2026/08/12/securitize-falls-20-after-earnings-miss-as-tokenization-revenue-falls-short",
+    "summary": "",
+    "published_at": "2026-08-12T22:26:24+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "89b1fc1637198aea989b2b0a",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Morgan Stanley's infrastructure partner Zerohash rebuffed in pitch to be U.S. trust bank",
+    "url": "https://www.coindesk.com/policy/2026/08/12/morgan-stanley-s-infrastructure-partner-zerohash-rebuffed-in-pitch-to-be-u-s-trust-bank",
+    "summary": "",
+    "published_at": "2026-08-12T22:11:09+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "31f0f89297325c3facfdd48b",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Hyperliquid treasury Hyperion triples quarterly profits as HYPE holdings rise in value",
+    "url": "https://www.theblock.co/news/markets/2026-08-12-hyperliquid-treasury-hyperion-triples-quarterly-profits-as-hype-holdings-rise-in-value-411652",
+    "summary": "The company's HYPE holdings increased to $133 million during the second quarter, up from $71 million at the end of Q1.",
+    "published_at": "2026-08-12T21:19:33+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "252abb21e49dc3edf45fa922",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Cisco sees record results from an AI ‘supercycle,’ but its stock pulls back",
+    "url": "https://www.marketwatch.com/story/cisco-sees-record-results-from-an-ai-supercycle-but-its-stock-pulls-back-2635b81a?mod=mw_rss_topstories",
+    "summary": "An 18% revenue surge and blowout 2027 forecast weren’t enough to sustain Cisco’s stock momentum.",
+    "published_at": "2026-08-12T21:19:00+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c778b868a6a134f99a9b46d0",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Goldman’s latest deal underscores how ‘boomer candy’ ETFs are now big business on Wall Street",
+    "url": "https://www.marketwatch.com/story/goldmans-latest-deal-underscores-how-boomer-candy-etfs-are-now-big-business-on-wall-street-5520109d?mod=mw_rss_topstories",
+    "summary": "Goldman Sachs announced Wednesday that it has agreed to buy Neos Investments, adding yet another ETF shop to its fast-growing asset-management business.",
+    "published_at": "2026-08-12T21:12:00+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dde53d14bbc69b44a8905197",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Chip stocks are closing in on a bull market. Here’s why some analysts are nervous.",
+    "url": "https://www.marketwatch.com/story/chip-stocks-are-closing-in-on-a-bull-market-heres-why-some-analysts-are-nervous-2a180b75?mod=mw_rss_topstories",
+    "summary": "Wall Street is excited about growing backlogs at some AI infrastructure companies, but some experts caution that there’s no guarantee all those orders will be carried out.",
+    "published_at": "2026-08-12T21:08:00+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "31e1d2095f4dba2493519530",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "SEC clears Franklin Templeton funds to use onchain BENJI system for cash management",
+    "url": "https://www.theblock.co/news/defi/2026-08-12-sec-clears-franklin-templeton-funds-use-onchain-benji-system-cash-management-411654",
+    "summary": "Franklin Templeton received a no-action letter from the SEC enabling its traditional registered funds to invest in its BENJI/FOBXX fund.",
+    "published_at": "2026-08-12T21:04:46+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "229cc2d9a567faab142c183c",
     "source": "nikkei_asia",
     "tier": 3,
@@ -7201,6 +7826,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "73920243ecc63cfd53f2d56b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Hims & Hers stock trims losses following quarterly results",
+    "url": "https://finance.yahoo.com/markets/stocks/article/hims--hers-stock-trims-losses-following-quarterly-results-155021166.html",
+    "summary": "",
+    "published_at": "2026-08-11T15:50:21+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "df8012f47c2cfcfb97d0cd3d",
     "source": "theblock",
     "tier": 3,
@@ -7445,6 +8096,196 @@
     "scored_by": "lexique"
   },
   {
+    "id": "b94003f3e02552478b2723d2",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AECOM touts data center pipeline amid fiscal Q3 loss",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/aecom-touts-data-center-pipeline-152900141.html",
+    "summary": "",
+    "published_at": "2026-08-11T15:29:00+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "516ce1101c33089aabd5bba3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why Oil Prices Could Make or Break the Housing Market",
+    "url": "https://www.barrons.com/articles/home-sales-mortgage-rates-housing-market-527f23d0?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-11T15:29:00+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "84a460141acfff98502018a5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "S&P 500 Hovers Near Record Highs on US-Iran Hopes",
+    "url": "https://finance.yahoo.com/video/p-500-hovers-near-record-152831970.html",
+    "summary": "",
+    "published_at": "2026-08-11T15:28:31+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "98ce46a517acb7050ee7ec48",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "A Red-Hot Robotics IPO Is 8,000 Times Oversubscribed. SpaceX Drew 4X Demand.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/red-hot-robotics-ipo-8-152739678.html",
+    "summary": "",
+    "published_at": "2026-08-11T15:27:39+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e825e0a7bff7d6660f9b4045",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The S&P 500 Is at Record Highs and Hasn't Been This Expensive in Decades. History Says This Could Happen Next",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-record-highs-hasnt-152659398.html",
+    "summary": "",
+    "published_at": "2026-08-11T15:26:59+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0febb3752e80497174691ef7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Rocket Lab Drops on Launch Pushback; Riot Platforms' Anthropic Deal | Stock Movers",
+    "url": "https://finance.yahoo.com/video/rocket-lab-drops-launch-pushback-152635747.html",
+    "summary": "",
+    "published_at": "2026-08-11T15:26:35+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "47dbffc0282534622740efdd",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oil Is Climbing Again. A Looming Natural Gas Shortage Could Hit US Consumers Even Harder.",
+    "url": "https://finance.yahoo.com/energy/articles/oil-climbing-again-looming-natural-152443000.html",
+    "summary": "",
+    "published_at": "2026-08-11T15:24:43+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "190550984b202dc53b24f581",
     "source": "investing_com",
     "tier": 3,
@@ -7563,6 +8404,32 @@
     "summary": "",
     "published_at": "2026-08-11T15:23:56+00:00",
     "collected_at": "2026-08-11T15:30:47.299778+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b29b10a7247330e1d5ec7759",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Crude Prices Supported as Strait of Hormuz Remains Closed",
+    "url": "https://finance.yahoo.com/energy/articles/crude-prices-supported-strait-hormuz-152330758.html",
+    "summary": "",
+    "published_at": "2026-08-11T15:23:30+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -7709,6 +8576,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "88efa12a8b375172482fd8df",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Spirax Gets Punished for Being Merely Good",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/spirax-gets-punished-being-merely-151858718.html",
+    "summary": "",
+    "published_at": "2026-08-11T15:18:58+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "09fb0b777f0f0c7225262325",
     "source": "investing_com",
     "tier": 3,
@@ -7791,6 +8684,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "a4bf7ca14612bcfb690faff1",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "VOYG Stock Alert: What to Know as Voyager Technologies Scores New Space Force Contract",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/voyg-stock-alert-know-voyager-151504914.html",
+    "summary": "",
+    "published_at": "2026-08-11T15:15:04+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "6163407d9e00f14eb062f41a",
     "source": "yahoo_finance",
     "tier": 3,
@@ -7845,6 +8764,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "d276702576316970be1b1e24",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "XRP Price Forecast: XRP Toys With Key Level and Risks a Big Loss",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/xrp-price-forecast-xrp-toys-151128982.html",
+    "summary": "",
+    "published_at": "2026-08-11T15:11:28+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "3f2351bdb9e4ab6b2288f7e6",
     "source": "yahoo_finance",
     "tier": 3,
@@ -7885,6 +8830,58 @@
     "summary": "",
     "published_at": "2026-08-11T15:09:03+00:00",
     "collected_at": "2026-08-11T15:30:47.299778+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8b14b8ab879786ee67b24d36",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why Oklo's First-Ever Revenue Is Not Enough to Stop OKLO Stock's Decline",
+    "url": "https://finance.yahoo.com/energy/articles/why-oklos-first-ever-revenue-150839532.html",
+    "summary": "",
+    "published_at": "2026-08-11T15:08:39+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "64562484d190baed2aea7146",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Stocks Mostly Higher in Hopes for a Deal to Reopen Hormuz",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-mostly-higher-hopes-deal-150716160.html",
+    "summary": "",
+    "published_at": "2026-08-11T15:07:16+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -8095,6 +9092,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "9cfcbde61d6f2ec9af3a59e7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "December Australian Dollar Futures Just Hit a 6-Week High. How to Play It Here.",
+    "url": "https://finance.yahoo.com/markets/currencies/articles/december-australian-dollar-futures-just-145430613.html",
+    "summary": "",
+    "published_at": "2026-08-11T14:54:30+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "719d28f93a6258af2f2222b9",
     "source": "marketwatch",
     "tier": 3,
@@ -8118,6 +9141,66 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "00e8b6c2c4cdd837510cd8e5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Are Wall Street Analysts Bullish on DaVita Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-davita-145201385.html",
+    "summary": "",
+    "published_at": "2026-08-11T14:52:01+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "af2fab9ac18b0a7e5bd68071",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Brent Could Hit $100 as Hormuz Crisis Flares Again",
+    "url": "https://finance.yahoo.com/energy/articles/brent-could-hit-100-hormuz-145200334.html",
+    "summary": "",
+    "published_at": "2026-08-11T14:52:00+00:00",
+    "collected_at": "2026-08-12T23:21:51.505997+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
     "scored_by": "lexique"
   },
   {
