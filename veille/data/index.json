@@ -1,12 +1,70 @@
 {
-  "2026-08-11": {
-    "articles_count": 234,
-    "signal_count": 30,
+  "2026-08-12": {
+    "articles_count": 18,
+    "signal_count": 0,
     "tone_cb": null,
-    "tone_global": 0.2187,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "5550897221473965e13fe8fd",
+        "title": "(Research Paper) Linkages of Firm Spending Behavior through Supply Chains",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/research/wps_rev/wps_2026/wp26e14.htm"
+      },
+      {
+        "id": "54ee7145ae262536dc0d06de",
+        "title": "(Research Paper) Mapping Japan's Manufacturing Supply Chains Through Firm-to-Firm Transaction Data",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/research/wps_rev/wps_2026/wp26e13.htm"
+      },
+      {
+        "id": "95c3f614eb4dbb1b37788abd",
+        "title": "Indonesian banks face tighter liquidity after strong profits",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/finance/indonesian-banks-face-tighter-liquidity-after-strong-profits"
+      },
+      {
+        "id": "4cbf9e1c84eeac19146f37be",
+        "title": "Thailand's $3 government bonds attract retail investors",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/markets/wealth-management/thailand-s-3-government-bonds-attract-retail-investors"
+      },
+      {
+        "id": "f0ee3ea6d634dce198c9f0c1",
+        "title": "US-Japan yen intervention is another defeat for Tokyo",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/spotlight/comment/us-japan-yen-intervention-is-another-defeat-for-tokyo"
+      }
+    ]
+  },
+  "2026-08-11": {
+    "articles_count": 237,
+    "signal_count": 32,
+    "tone_cb": null,
+    "tone_global": 0.236,
     "regul_crypto": 0.0,
     "stress": 0.0,
     "top": [
+      {
+        "id": "cd6b38f41fe3cfcdcb02005c",
+        "title": "Money Stock (July)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/money/ms/ms2607.pdf"
+      },
       {
         "id": "80ae009caf837552ebd96c5c",
         "title": "Results of the Semi-Annual FX Turnover Surveys in April 2026",
@@ -38,24 +96,16 @@
         "score": 0.6,
         "tone": 0.0,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1731"
-      },
-      {
-        "id": "817b112b679226bc6da4c91d",
-        "title": "eToro agrees to buy TradeZero for up to $231 million as equities drive Q2 growth",
-        "source": "theblock",
-        "score": 0.45,
-        "tone": 0.5,
-        "url": "https://www.theblock.co/news/business/2026-08-11-etoro-to-buy-tradezero-for-231-million-equities-drive-q2-growth-411417"
       }
     ]
   },
   "2026-08-10": {
-    "articles_count": 335,
-    "signal_count": 38,
+    "articles_count": 364,
+    "signal_count": 43,
     "tone_cb": 0.6667,
-    "tone_global": 0.1707,
+    "tone_global": 0.1738,
     "regul_crypto": -0.7148,
-    "stress": 0.0081,
+    "stress": 0.0075,
     "top": [
       {
         "id": "1ebfdfe8c62c11b8098f568e",
