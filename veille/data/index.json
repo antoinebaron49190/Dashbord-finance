@@ -1,10 +1,10 @@
 {
   "2026-08-12": {
-    "articles_count": 49,
-    "signal_count": 4,
+    "articles_count": 104,
+    "signal_count": 10,
     "tone_cb": null,
-    "tone_global": 0.25,
-    "regul_crypto": null,
+    "tone_global": 0.15,
+    "regul_crypto": 0.0,
     "stress": 0.0,
     "top": [
       {
@@ -32,20 +32,20 @@
         "url": "http://www.boj.or.jp/en/research/wps_rev/wps_2026/wp26e13.htm"
       },
       {
-        "id": "fb1dc9c927ac89190aa83ddb",
-        "title": "Citizens reiterates CoreWeave stock rating on strong demand outlook",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/analyst-ratings/citizens-reiterates-coreweave-stock-rating-on-strong-demand-outlook-93CH-4854051"
+        "id": "752ea21104d63d95364272ba",
+        "title": "Daily News 12 / 08 / 2026",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1733"
       },
       {
-        "id": "7648481f616d5a28bb180ed8",
-        "title": "Online spending growth slowed to 8% in July, BofA card data shows",
-        "source": "investing_com",
+        "id": "d3531f00c4980c1c9de29972",
+        "title": "Standard Chartered-backed Anchorpoint begins HKDAP stablecoin rollout",
+        "source": "theblock",
         "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/stock-market-news/online-spending-growth-slowed-to-8-in-july-bofa-card-data-shows-93CH-4854049"
+        "tone": 0.6,
+        "url": "https://www.theblock.co/news/business/2026-08-12-standard-chartered-anchorpoint-hkdap-stablecoin-rollout-411575"
       }
     ]
   },
@@ -100,7 +100,7 @@
     ]
   },
   "2026-08-10": {
-    "articles_count": 391,
+    "articles_count": 394,
     "signal_count": 48,
     "tone_cb": 0.6667,
     "tone_global": 0.1856,
