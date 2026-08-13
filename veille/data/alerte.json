@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-08-12T20:04:54.556202+00:00",
-  "pending": [],
+  "updated_at": "2026-08-13T05:51:16.267680+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:nikkei:indecise->haussiere:2026-08-13",
+      "title": "Nikkei 225 : tendance haussière",
+      "body": "Nikkei 225 passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-08-13.",
+      "kind": "tendance",
+      "detected_at": "2026-08-13T05:51:16.267630+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -10,7 +18,8 @@
     "trend:nikkei:indecise->haussiere:2026-08-12",
     "trend:hangseng:haussiere->indecise:2026-08-12",
     "trend:btc:indecise->baissiere:2026-08-12",
-    "regime:favorable au risque->neutre:2026-08-12"
+    "regime:favorable au risque->neutre:2026-08-12",
+    "trend:nikkei:indecise->haussiere:2026-08-13"
   ],
   "extremes_active": [
     "extreme:Décote du Bitcoin sous son plus haut:haut",

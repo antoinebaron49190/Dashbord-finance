@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T23:22:13.166618+00:00",
+  "generated_at": "2026-08-13T05:51:08.610004+00:00",
   "regime": {
     "state": "favorable au risque",
     "favorable": 7,
@@ -12,22 +12,22 @@
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": false,
-      "value": "63 341 $",
-      "reference": "MM200 69 745 $"
+      "value": "63 825 $",
+      "reference": "MM200 69 632 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": true,
-      "value": "63 341 $",
-      "reference": "MM50 63 333 $"
+      "value": "63 825 $",
+      "reference": "MM50 63 391 $"
     },
     {
       "group": "Crypto",
       "label": "ETH au-dessus de sa MM200",
       "ok": false,
-      "value": "1 875 $",
-      "reference": "MM200 2 034 $"
+      "value": "1 895 $",
+      "reference": "MM200 2 029 $"
     },
     {
       "group": "Crypto",
@@ -40,7 +40,7 @@
       "group": "Crypto",
       "label": "Volatilité BTC 30 jours",
       "ok": true,
-      "value": "27 %",
+      "value": "23 %",
       "reference": "moins de 60 %"
     },
     {
@@ -68,8 +68,8 @@
       "group": "Actions et devises",
       "label": "Dollar sous sa MM50",
       "ok": true,
-      "value": "99.99",
-      "reference": "MM50 100.54"
+      "value": "99.97",
+      "reference": "MM50 100.46"
     },
     {
       "group": "Actions et devises",
@@ -82,27 +82,27 @@
       "group": "Sentiment",
       "label": "Fear & Greed crypto",
       "ok": false,
-      "value": "27/100",
+      "value": "29/100",
       "reference": "50 ou plus"
     }
   ],
   "crypto": {
     "btc": {
-      "price": 63341.2,
-      "ma50": 63332.82000000003,
-      "ma200": 69745.36549999996,
-      "drawdown_1y": 0.49232205760360354,
-      "volatility_30d": 0.2714022836777752,
+      "price": 63824.9,
+      "ma50": 63391.11800000002,
+      "ma200": 69631.98249999997,
+      "drawdown_1y": 0.4884452156628582,
+      "volatility_30d": 0.22589543582685753,
       "above_ma50": true,
       "above_ma200": false,
       "trend": "indecise"
     },
     "eth": {
-      "price": 1874.97,
-      "ma50": 1812.4423999999997,
-      "ma200": 2034.0813999999996,
-      "drawdown_1y": 0.6118074534161491,
-      "volatility_30d": 0.39240971413568504,
+      "price": 1894.54,
+      "ma50": 1818.0031999999999,
+      "ma200": 2029.49705,
+      "drawdown_1y": 0.6077556935817805,
+      "volatility_30d": 0.3257523632629666,
       "above_ma50": true,
       "above_ma200": false,
       "trend": "indecise"
@@ -124,63 +124,63 @@
     },
     "nasdaq": {
       "label": "Nasdaq",
-      "price": 26588.48828125,
-      "ma50": 25914.930703125,
-      "ma200": 24145.460927734373,
+      "price": 26588.490234375,
+      "ma50": 25914.9307421875,
+      "ma200": 24145.4609375,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "eurostoxx": {
       "label": "Euro Stoxx 50",
-      "price": 6551.22021484375,
-      "ma50": 6280.1141796875,
-      "ma200": 5943.329741210938,
+      "price": 6533.990234375,
+      "ma50": 6289.722587890625,
+      "ma200": 5947.565541992188,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "cac40": {
       "label": "CAC 40",
-      "price": 8714.9404296875,
-      "ma50": 8409.318203125,
-      "ma200": 8204.267043457032,
+      "price": 8674.9404296875,
+      "ma50": 8419.80861328125,
+      "ma200": 8206.558845214844,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "dax": {
       "label": "DAX",
-      "price": 26391.419921875,
-      "ma50": 25181.6906640625,
-      "ma200": 24466.831435546876,
+      "price": 26331.0703125,
+      "ma50": 25194.93625,
+      "ma200": 24461.30138671875,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "nikkei": {
       "label": "Nikkei 225",
-      "price": 66970.21875,
-      "ma50": 67177.725703125,
-      "ma200": 57499.97140625,
-      "above_ma50": false,
+      "price": 68613.5390625,
+      "ma50": 67292.8715625,
+      "ma200": 57431.34697265625,
+      "above_ma50": true,
       "above_ma200": true,
-      "trend": "indecise"
+      "trend": "haussiere"
     },
     "hangseng": {
       "label": "Hang Seng",
-      "price": 25652.8203125,
-      "ma50": 24646.7577734375,
-      "ma200": 25716.73060546875,
+      "price": 25472.599609375,
+      "ma50": 24636.2831640625,
+      "ma200": 25715.61640625,
       "above_ma50": true,
       "above_ma200": false,
       "trend": "indecise"
     },
     "shanghai": {
       "label": "Shanghai",
-      "price": 3934.093017578125,
-      "ma50": 3972.37798828125,
-      "ma200": 4012.884167480469,
+      "price": 3965.514892578125,
+      "ma50": 3980.503330078125,
+      "ma200": 4014.2079431152342,
       "above_ma50": false,
       "above_ma200": false,
       "trend": "baissiere"
@@ -197,29 +197,89 @@
     "vix": {
       "label": "VIX",
       "price": 14.550000190734863,
-      "ma50": 17.238199920654296,
-      "ma200": 18.54655004501343,
+      "ma50": 17.186799926757814,
+      "ma200": 18.55950005531311,
       "above_ma50": false,
       "above_ma200": false,
       "trend": "baissiere"
     },
     "dxy": {
       "label": "Dollar (DXY)",
-      "price": 99.98500061035156,
-      "ma50": 100.53650039672851,
-      "ma200": 99.18067520141602,
+      "price": 99.9739990234375,
+      "ma50": 100.45628036499023,
+      "ma200": 99.15927021026611,
       "above_ma50": false,
       "above_ma200": true,
       "trend": "indecise"
     }
   },
   "fear_greed": {
-    "value": 27,
+    "value": 29,
     "label": "Fear"
   },
   "fred": {},
   "failures": [],
   "history": {
+    "2026-08-13": {
+      "regime": "favorable au risque",
+      "favorable": 7,
+      "available": 11,
+      "fear_greed": 29,
+      "assets": {
+        "btc": {
+          "close": 63824.9,
+          "trend": "indecise"
+        },
+        "eth": {
+          "close": 1894.54,
+          "trend": "indecise"
+        },
+        "sp500": {
+          "close": 7748.5,
+          "trend": "haussiere"
+        },
+        "nasdaq": {
+          "close": 26588.4902,
+          "trend": "haussiere"
+        },
+        "eurostoxx": {
+          "close": 6533.9902,
+          "trend": "haussiere"
+        },
+        "cac40": {
+          "close": 8674.9404,
+          "trend": "haussiere"
+        },
+        "dax": {
+          "close": 26331.0703,
+          "trend": "haussiere"
+        },
+        "nikkei": {
+          "close": 68613.5391,
+          "trend": "haussiere"
+        },
+        "hangseng": {
+          "close": 25472.5996,
+          "trend": "indecise"
+        },
+        "shanghai": {
+          "close": 3965.5149,
+          "trend": "baissiere"
+        },
+        "msci_world": {
+          "close": 210.38,
+          "trend": "haussiere"
+        },
+        "vix": {
+          "close": 14.55,
+          "trend": "baissiere"
+        },
+        "dxy": {
+          "close": 99.974,
+          "trend": "indecise"
+        }
+      }
+    },
     "2026-08-12": {
       "regime": "favorable au risque",
       "favorable": 7,
