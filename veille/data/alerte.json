@@ -1,6 +1,21 @@
 {
-  "updated_at": "2026-08-13T22:24:59.460385+00:00",
-  "pending": [],
+  "updated_at": "2026-08-14T05:18:49.696658+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:btc:indecise->baissiere:2026-08-14",
+      "title": "Bitcoin : tendance baissière",
+      "body": "Bitcoin passe de « sans direction nette » à « baissière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-08-14.",
+      "kind": "tendance",
+      "detected_at": "2026-08-14T05:18:49.696614+00:00"
+    },
+    {
+      "fingerprint": "regime:favorable au risque->neutre:2026-08-14",
+      "title": "Régime de marché : neutre",
+      "body": "Le régime passe de « favorable au risque » à « neutre » (6 critères favorables sur 11 calculés).",
+      "kind": "regime",
+      "detected_at": "2026-08-14T05:18:49.696632+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -13,7 +28,9 @@
     "regime:favorable au risque->neutre:2026-08-12",
     "trend:nikkei:indecise->haussiere:2026-08-13",
     "trend:btc:indecise->baissiere:2026-08-13",
-    "regime:favorable au risque->neutre:2026-08-13"
+    "regime:favorable au risque->neutre:2026-08-13",
+    "trend:btc:indecise->baissiere:2026-08-14",
+    "regime:favorable au risque->neutre:2026-08-14"
   ],
   "extremes_active": [
     "extreme:Décote du Bitcoin sous son plus haut:haut",
