@@ -1,11 +1,11 @@
 {
   "2026-08-14": {
-    "articles_count": 161,
-    "signal_count": 26,
+    "articles_count": 179,
+    "signal_count": 31,
     "tone_cb": 0.5,
-    "tone_global": 0.2443,
+    "tone_global": 0.2379,
     "regul_crypto": 0.6,
-    "stress": 0.0118,
+    "stress": 0.0107,
     "top": [
       {
         "id": "32c651d40f65df04feba5f83",
@@ -32,28 +32,28 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1735"
       },
       {
+        "id": "984802136a30dc123c95f90e",
+        "title": "Cboe seeks SEC nod for first US 3x bitcoin and ether ETFs",
+        "source": "theblock",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.theblock.co/news/regulation/2026-08-14-cboe-seeks-sec-nod-for-first-us-3x-bitcoin-and-ether-etfs-411879"
+      },
+      {
         "id": "69a3fdceca1aa218f27200d4",
         "title": "FDA approves Lantheus’ tau imaging agent for Alzheimer’s disease",
         "source": "investing_com",
         "score": 0.45,
         "tone": 0.0,
         "url": "https://www.investing.com/news/company-news/fda-approves-lantheus-tau-imaging-agent-for-alzheimers-disease-93CH-4860537"
-      },
-      {
-        "id": "9b257b828e5e29d80825bff9",
-        "title": "Tokenization stocks slip as SEC delay puts 'speed bump' in crypto’s Wall Street push",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": 0.6,
-        "url": "https://www.coindesk.com/markets/2026/08/14/tokenization-stocks-slip-as-sec-delay-puts-speed-bump-in-crypto-s-wall-street-push"
       }
     ]
   },
   "2026-08-13": {
-    "articles_count": 257,
-    "signal_count": 38,
+    "articles_count": 277,
+    "signal_count": 39,
     "tone_cb": 0.0,
-    "tone_global": 0.0981,
+    "tone_global": 0.1072,
     "regul_crypto": -0.0479,
     "stress": 0.0,
     "top": [
