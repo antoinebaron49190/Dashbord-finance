@@ -1,11 +1,11 @@
 {
   "2026-08-14": {
-    "articles_count": 47,
-    "signal_count": 7,
+    "articles_count": 74,
+    "signal_count": 13,
     "tone_cb": 0.5,
-    "tone_global": 0.4032,
-    "regul_crypto": null,
-    "stress": 0.0,
+    "tone_global": 0.3776,
+    "regul_crypto": 0.6,
+    "stress": 0.0122,
     "top": [
       {
         "id": "32c651d40f65df04feba5f83",
@@ -24,33 +24,33 @@
         "url": "https://www.esma.europa.eu/press-news/esma-news/esma-confirms-go-live-weekly-commodity-derivatives-position-reporting"
       },
       {
-        "id": "fef4c3c33cc29a47bf37012a",
-        "title": "Indonesia's Prabowo eyes 6% growth in 2026, foreign firm buying spree",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/economy/indonesia-s-prabowo-eyes-6-growth-in-2026-foreign-firm-buying-spree"
+        "id": "9936d45e454ac6cf3ffc4cac",
+        "title": "Daily News 14 / 08 / 2026",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1735"
       },
       {
-        "id": "ca190c3d57121899589600c8",
-        "title": "Earnings call transcript: Aviva posts strong H1 2026 profit growth as Direct Line pays off",
+        "id": "69a3fdceca1aa218f27200d4",
+        "title": "FDA approves Lantheus’ tau imaging agent for Alzheimer’s disease",
         "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-aviva-posts-strong-h1-2026-profit-growth-as-direct-line-pays-off-93CH-4860111"
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/company-news/fda-approves-lantheus-tau-imaging-agent-for-alzheimers-disease-93CH-4860537"
       },
       {
-        "id": "491983b8ae0d7dbfad1f71f2",
-        "title": "eMemory Q2 2026 slides: strong growth, AI security push",
-        "source": "investing_com",
+        "id": "0001b0c7811d52b4719d5a77",
+        "title": "Norway sovereign wealth fund sees indirect bitcoin exposure hit all-time high, with Strategy accounting for 86%: K33",
+        "source": "theblock",
         "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/company-news/ememory-q2-2026-slides-strong-growth-ai-security-push-93CH-4860110"
+        "tone": 0.6,
+        "url": "https://www.theblock.co/news/markets/2026-08-14-norway-sovereign-wealth-fund-indirect-bitcoin-exposure-all-time-high-strategy-k33-411815"
       }
     ]
   },
   "2026-08-13": {
-    "articles_count": 205,
+    "articles_count": 231,
     "signal_count": 33,
     "tone_cb": 0.0,
     "tone_global": 0.0979,
