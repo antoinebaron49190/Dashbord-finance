@@ -1,11 +1,11 @@
 {
   "2026-08-14": {
-    "articles_count": 179,
-    "signal_count": 31,
+    "articles_count": 196,
+    "signal_count": 33,
     "tone_cb": 0.5,
-    "tone_global": 0.2379,
-    "regul_crypto": 0.6,
-    "stress": 0.0107,
+    "tone_global": 0.1786,
+    "regul_crypto": -0.075,
+    "stress": 0.0097,
     "top": [
       {
         "id": "32c651d40f65df04feba5f83",
@@ -32,29 +32,29 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1735"
       },
       {
-        "id": "984802136a30dc123c95f90e",
-        "title": "Cboe seeks SEC nod for first US 3x bitcoin and ether ETFs",
-        "source": "theblock",
-        "score": 0.45,
-        "tone": 0.0,
-        "url": "https://www.theblock.co/news/regulation/2026-08-14-cboe-seeks-sec-nod-for-first-us-3x-bitcoin-and-ether-etfs-411879"
+        "id": "3eb7a60c3057b840a0e283b9",
+        "title": "SEC Charges Boiler Room Operator and Three Entities with Defrauding Retail Investors in $74 Million Pre-IPO Investment Scam",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": -0.75,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defrauding-retail-investors-74-million-pre-ipo"
       },
       {
-        "id": "69a3fdceca1aa218f27200d4",
-        "title": "FDA approves Lantheus’ tau imaging agent for Alzheimer’s disease",
+        "id": "fd5c4d487013f99babf7c1de",
+        "title": "Jacobs Solutions announces executive transition for Shannon Miller",
         "source": "investing_com",
         "score": 0.45,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/company-news/fda-approves-lantheus-tau-imaging-agent-for-alzheimers-disease-93CH-4860537"
+        "url": "https://www.investing.com/news/sec-filings/jacobs-solutions-announces-executive-transition-for-shannon-miller-93CH-4861557"
       }
     ]
   },
   "2026-08-13": {
-    "articles_count": 277,
-    "signal_count": 39,
+    "articles_count": 308,
+    "signal_count": 45,
     "tone_cb": 0.0,
-    "tone_global": 0.1072,
-    "regul_crypto": -0.0479,
+    "tone_global": 0.0964,
+    "regul_crypto": 0.0446,
     "stress": 0.0,
     "top": [
       {
