@@ -1,11 +1,11 @@
 {
   "2026-08-15": {
-    "articles_count": 242,
-    "signal_count": 11,
+    "articles_count": 270,
+    "signal_count": 14,
     "tone_cb": null,
-    "tone_global": 0.2091,
+    "tone_global": 0.1929,
     "regul_crypto": null,
-    "stress": 0.0082,
+    "stress": 0.011,
     "top": [
       {
         "id": "2606e8ea0ae55f5e7b7eeb34",
@@ -32,20 +32,20 @@
         "url": "https://finance.yahoo.com/markets/options/articles/buying-bonds-could-single-most-140002365.html"
       },
       {
+        "id": "083b84ce267e6a6db353f4b4",
+        "title": "Historic retailer gets lifeline after warning it could collapse",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://finance.yahoo.com/markets/stocks/articles/historic-retailer-gets-lifeline-warning-220700487.html"
+      },
+      {
         "id": "71ea2d3e573054c1e53bf91e",
         "title": "Major ice cream brand files Chapter 11 bankruptcy after lawsuit",
         "source": "yahoo_finance",
         "score": 0.3,
         "tone": -0.6,
         "url": "https://finance.yahoo.com/small-business/articles/major-ice-cream-brand-files-200009894.html"
-      },
-      {
-        "id": "e75d65fe1239e5605369da46",
-        "title": "Your Default Bond Fund Pays 4%. So Does BSV, Without the 30-Year Risk You Never Agreed To",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://finance.yahoo.com/markets/options/articles/default-bond-fund-pays-4-191550640.html"
       }
     ]
   },

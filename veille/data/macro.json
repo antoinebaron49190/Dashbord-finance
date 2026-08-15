@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T21:43:46.472846+00:00",
+  "generated_at": "2026-08-15T22:51:30.305112+00:00",
   "regime": {
     "state": "neutre",
     "favorable": 6,
@@ -47,7 +47,7 @@
       "group": "Crypto",
       "label": "Financement des perpétuels BTC",
       "ok": true,
-      "value": "+0.0065 %",
+      "value": "+0.0058 %",
       "reference": "positif"
     },
     {
@@ -98,17 +98,17 @@
       "trend": "baissiere"
     },
     "eth": {
-      "price": 1883.13,
-      "ma50": 1830.2404000000001,
-      "ma200": 2018.5200999999997,
-      "drawdown_1y": 0.6101180124223602,
-      "volatility_30d": 0.30483191570308826,
+      "price": 1883.31,
+      "ma50": 1830.244,
+      "ma200": 2018.5209999999997,
+      "drawdown_1y": 0.6100807453416149,
+      "volatility_30d": 0.3048368316490054,
       "above_ma50": true,
       "above_ma200": false,
       "trend": "indecise"
     },
     "spot_venue": "kraken",
-    "funding_btc": 6.48267682984e-05,
+    "funding_btc": 5.79351777033e-05,
     "funding_venue": "okx"
   },
   "equities": {
@@ -161,8 +161,8 @@
     "nikkei": {
       "label": "Nikkei 225",
       "price": 68713.796875,
-      "ma50": 67227.240703125,
-      "ma200": 57805.04087890625,
+      "ma50": 67334.45859375,
+      "ma200": 57539.15462890625,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
@@ -231,7 +231,7 @@
           "trend": "baissiere"
         },
         "eth": {
-          "close": 1883.13,
+          "close": 1883.31,
           "trend": "indecise"
         },
         "sp500": {
