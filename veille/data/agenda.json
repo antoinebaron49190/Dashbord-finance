@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-08-15T03:04:27.495187+00:00",
+  "generated_at": "2026-08-15T05:02:28.303179+00:00",
   "upcoming": [
-    {
-      "date": "2026-09-10",
-      "label": "Conseil des gouverneurs de la BCE — décision de taux",
-      "source": "BCE",
-      "importance": 3,
-      "when": "dans 26 jours",
-      "days": 26,
-      "imminent": false,
-      "date_fr": "jeudi 10 septembre"
-    },
     {
       "date": "2026-09-16",
       "label": "Réunion du FOMC (Fed) — décision de taux",
@@ -40,8 +30,23 @@
       "days": 34,
       "imminent": false,
       "date_fr": "vendredi 18 septembre"
+    },
+    {
+      "date": "2026-10-28",
+      "label": "Réunion du FOMC (Fed) — décision de taux",
+      "source": "Federal Reserve",
+      "importance": 3,
+      "when": "dans 74 jours",
+      "days": 74,
+      "imminent": false,
+      "date_fr": "mercredi 28 octobre"
     }
   ],
-  "all_known": 115,
-  "failures": []
+  "all_known": 81,
+  "failures": [
+    {
+      "source": "bce",
+      "reason": "<urlopen error _ssl.c:999: The handshake operation timed out>"
+    }
+  ]
 }
