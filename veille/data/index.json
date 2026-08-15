@@ -1,12 +1,20 @@
 {
   "2026-08-15": {
-    "articles_count": 112,
+    "articles_count": 134,
     "signal_count": 4,
     "tone_cb": null,
     "tone_global": 0.375,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "ab0c9b75c9aee8825f6fddee",
+        "title": "CEO Elon Musk Just Announced Great News for SpaceX Stock Investors",
+        "source": "yahoo_finance",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ceo-elon-musk-just-announced-145000843.html"
+      },
       {
         "id": "b77a44cbb48b178d0844610a",
         "title": "Nvidia, ASML Lead Five Stocks Near Buy Points With Roaring Growth",
@@ -32,28 +40,20 @@
         "url": "https://asia.nikkei.com/politics/modi-pitches-7-growth-mantras-wants-50-indian-firms-in-fortune-500"
       },
       {
-        "id": "86bf5bbe66d1ab5a7bb36499",
-        "title": "At least 47 dead in eastern Indonesia earthquake of magnitude 7.7",
+        "id": "eff1a362a985eda33c9e9735",
+        "title": "Sony hunts for next Hello Kitty in character IP push",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/economy/natural-disasters/at-least-47-dead-in-eastern-indonesia-earthquake-of-magnitude-7.7"
-      },
-      {
-        "id": "af73a2875949766b024d774e",
-        "title": "Nvidia Is Looking to Own Another Layer of the AI Ecosystem",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-looking-own-another-layer-143602047.html"
+        "url": "https://asia.nikkei.com/business/media-entertainment/sony-hunts-for-next-hello-kitty-in-character-ip-push"
       }
     ]
   },
   "2026-08-14": {
-    "articles_count": 364,
-    "signal_count": 50,
+    "articles_count": 366,
+    "signal_count": 51,
     "tone_cb": 0.5,
-    "tone_global": 0.2055,
+    "tone_global": 0.2018,
     "regul_crypto": -0.075,
     "stress": 0.0053,
     "top": [
