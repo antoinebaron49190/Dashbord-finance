@@ -1,5 +1,35 @@
 [
   {
+    "id": "211db29456c63ff941ce45b8",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin price holds on to $63,000 as selling pressure offsets regulatory progress",
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-on-to-63000-as-selling-pressure-offsets-regulatory-progress-4861762",
+    "summary": "",
+    "published_at": "2026-08-15T09:41:11+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "a0a28396c64f42841452a427",
     "source": "nikkei_asia",
     "tier": 3,
@@ -45,6 +75,36 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9b9c7b44c8688651b5889a35",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "US presses Apple to avoid Chinese memory chips amid shortage - WSJ reports",
+    "url": "https://www.investing.com/news/economy-news/us-presses-apple-to-avoid-chinese-memory-chips-amid-shortage--wsj-reports-4861759",
+    "summary": "",
+    "published_at": "2026-08-15T08:55:22+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -6432,6 +6492,120 @@
     "scored_by": "lexique"
   },
   {
+    "id": "d6a3eae68e7902afabbdc716",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "e.l.f. Beauty (ELF) Just Logged Its 30th Growth Quarter. Can The Streak Hold?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/e-l-f-beauty-elf-084557866.html",
+    "summary": "",
+    "published_at": "2026-08-14T08:45:57+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "825a1c29c41f113aa16a5f58",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why Is Nutrien (NTR) Raising Guidance While Nitrogen Volumes Slide?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-nutrien-ntr-raising-guidance-083605403.html",
+    "summary": "",
+    "published_at": "2026-08-14T08:36:05+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0879ee1ee63e4afc235de553",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Wonders Whether AppLovin Corporation (NASDAQ:APP) Is Facing Off With Google",
+    "url": "https://finance.yahoo.com/media-advertising/articles/jim-cramer-wonders-whether-applovin-074217885.html",
+    "summary": "",
+    "published_at": "2026-08-14T07:42:17+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "95824b6879e1d064f4a750e2",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Explains Datadog, Inc. (NASDAQ:DDOG)’s Share Price Movement",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-datadog-inc-074112335.html",
+    "summary": "",
+    "published_at": "2026-08-14T07:41:12+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "15477524d27235e2b251c248",
     "source": "coindesk",
     "tier": 3,
@@ -6459,6 +6633,138 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7c906748b518afcdd4c98233",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Are Innovative Beverages Enough to Turn McDonald's Around?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/innovative-beverages-enough-turn-mcdonalds-070500109.html",
+    "summary": "",
+    "published_at": "2026-08-14T07:05:00+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "138b1195aad90f411500db17",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Tapestry Q4 Earnings Call Highlights",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/tapestry-q4-earnings-call-highlights-070419169.html",
+    "summary": "",
+    "published_at": "2026-08-14T07:04:19+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "81ee3bed540a525e147b20f0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Sunshine Silver Mining & Refining Q2 Earnings Call Highlights",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/sunshine-silver-mining-refining-q2-070415899.html",
+    "summary": "",
+    "published_at": "2026-08-14T07:04:15+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "60264d2eb99484617ef23c54",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Anthropic needs to bring in Amazon-style earnings to justify its $2 trillion valuation—but it’s barely turned a profit",
+    "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-needs-bring-amazon-style-070200085.html",
+    "summary": "",
+    "published_at": "2026-08-14T07:02:00+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5f89a36b674be1e22b0cafc2",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Aviva Posts Strong First-Half Profit Growth",
+    "url": "https://www.wsj.com/business/earnings/aviva-posts-strong-first-half-profit-growth-79bc4d45?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-14T07:01:00+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
     "scored_by": "lexique"
   },
   {
@@ -6567,6 +6873,148 @@
     "assets_effective": [
       "asie"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ad51e63ffed210c0b4debf48",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Atlanticus (ATLC) Q2 2026 Earnings Call Transcript",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/atlanticus-atlc-q2-2026-earnings-065858032.html",
+    "summary": "",
+    "published_at": "2026-08-14T06:58:58+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4df33c9633e787d3b1466819",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Equity Perp Volume Surges 17x as Chip Stocks Draw Crypto Traders",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/equity-perp-volume-surges-17x-065426849.html",
+    "summary": "",
+    "published_at": "2026-08-14T06:54:26+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f74c827f6dc9c2c397d83aed",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "OpenAI revenue run rate reportedly tops $40bn ahead of expected listing",
+    "url": "https://finance.yahoo.com/technology/ai/articles/openai-revenue-run-rate-reportedly-064000185.html",
+    "summary": "",
+    "published_at": "2026-08-14T06:40:00+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2c57f470664ac7cf0c484ca9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "London BTC Company targets antimony potential across Nevada exploration portfolio",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/london-btc-company-targets-antimony-063600159.html",
+    "summary": "",
+    "published_at": "2026-08-14T06:36:00+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5946046dd65e3f86a825cec1",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Arrow Exploration buys into Canada with $8.9 million Alberta oil deal",
+    "url": "https://finance.yahoo.com/energy/articles/arrow-exploration-buys-canada-8-063200522.html",
+    "summary": "",
+    "published_at": "2026-08-14T06:32:00+00:00",
+    "collected_at": "2026-08-15T09:54:27.211887+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
