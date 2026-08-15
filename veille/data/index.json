@@ -1,12 +1,20 @@
 {
   "2026-08-15": {
-    "articles_count": 56,
-    "signal_count": 2,
+    "articles_count": 91,
+    "signal_count": 3,
     "tone_cb": null,
-    "tone_global": 0.25,
+    "tone_global": 0.3333,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "b77a44cbb48b178d0844610a",
+        "title": "Nvidia, ASML Lead Five Stocks Near Buy Points With Roaring Growth",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investors.com/news/nvidia-stock-asml-avnet-cve-nue-buy-points-bulls-take-charge/?src=A00220&yptr=yahoo"
+      },
       {
         "id": "b7bac41210deae27ae9bd66f",
         "title": "Modi pitches 7 growth mantras, wants '50 Indian firms in Fortune 500'",
@@ -16,46 +24,38 @@
         "url": "https://asia.nikkei.com/politics/modi-pitches-7-growth-mantras-wants-50-indian-firms-in-fortune-500"
       },
       {
-        "id": "f1a68dfa4c658ce5138cd3be",
-        "title": "At least 38 dead in eastern Indonesia earthquake of magnitude 7.7",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/economy/natural-disasters/at-least-38-dead-in-eastern-indonesia-earthquake-of-magnitude-7.7"
-      },
-      {
-        "id": "efe45077d01c4ddb8c759cfd",
-        "title": "This old-school way of investing money is better than ever — even in the age of AI and mega-IPOs",
+        "id": "23ce744043c662d7ae22da04",
+        "title": "Here’s who could pay higher Social Security taxes under proposals to shore up the program",
         "source": "marketwatch",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.marketwatch.com/story/this-old-school-way-of-investing-money-is-better-than-ever-even-in-the-age-of-ai-and-mega-ipos-3e1142f7?mod=mw_rss_topstories"
+        "url": "https://www.marketwatch.com/story/a-plan-to-save-social-security-involves-wealthy-people-paying-more-without-getting-an-increase-in-benefits-f9d70307?mod=mw_rss_topstories"
       },
       {
-        "id": "6126446cfe8994c0e521a1db",
-        "title": "Winnebago SVP-CHRO Woodson sells $78,841 in stock",
+        "id": "2afeb6f523f3fea9612cf078",
+        "title": "Insider Sale Alert: Triumph Financial EVP Nelson Sells 3,750 Shares",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://finance.yahoo.com/markets/stocks/articles/insider-sale-alert-triumph-financial-132001369.html"
+      },
+      {
+        "id": "b06a298efa741be05bc74875",
+        "title": "Ukraine strikes Russian space centre linked to Rassvet satellite network",
         "source": "investing_com",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/winnebago-svpchro-woodson-sells-78841-in-stock-93CH-4861771"
-      },
-      {
-        "id": "5ce2635461cd4c720b31cfd5",
-        "title": "how InvestingPro’s Fair Value spotted Organon’s 69% gain potential",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/investment-ideas/how-investingpros-fair-value-spotted-organons-69-gain-potential-93CH-4861770"
+        "url": "https://www.investing.com/news/economy-news/ukraine-strikes-russian-space-centre-linked-to-rassvet-satellite-network-4861785"
       }
     ]
   },
   "2026-08-14": {
-    "articles_count": 345,
+    "articles_count": 355,
     "signal_count": 48,
     "tone_cb": 0.5,
     "tone_global": 0.2038,
     "regul_crypto": -0.075,
-    "stress": 0.0056,
+    "stress": 0.0055,
     "top": [
       {
         "id": "32c651d40f65df04feba5f83",
