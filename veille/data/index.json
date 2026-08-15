@@ -1,12 +1,20 @@
 {
   "2026-08-15": {
-    "articles_count": 169,
-    "signal_count": 7,
+    "articles_count": 192,
+    "signal_count": 8,
     "tone_cb": null,
-    "tone_global": 0.4286,
+    "tone_global": 0.4375,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "2606e8ea0ae55f5e7b7eeb34",
+        "title": "SK Hynix Approved $38 Billion of New Memory Fabs That Won't Produce a Chip Before December 2028",
+        "source": "yahoo_finance",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://finance.yahoo.com/technology/articles/sk-hynix-approved-38-billion-174600023.html"
+      },
       {
         "id": "ab0c9b75c9aee8825f6fddee",
         "title": "CEO Elon Musk Just Announced Great News for SpaceX Stock Investors",
@@ -14,6 +22,14 @@
         "score": 0.45,
         "tone": 0.0,
         "url": "https://finance.yahoo.com/markets/stocks/articles/ceo-elon-musk-just-announced-145000843.html"
+      },
+      {
+        "id": "fecea47feb67132ef73184b0",
+        "title": "Taiwan rail jumps to growth track with new Japan bullet train cars",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/business/transportation/taiwan-rail-jumps-to-growth-track-with-new-japan-bullet-train-cars"
       },
       {
         "id": "f33a86e9f6c24272b4934b11",
@@ -30,22 +46,6 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.investing.com/news/economic-indicators/perus-economic-growth-slows-to-175-in-june-4861809"
-      },
-      {
-        "id": "1e929bddeb21b1e8cce5ecf7",
-        "title": "A 1-hour delay replying to a recruiter cuts your hiring chances by half. Here's why",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://finance.yahoo.com/small-business/articles/1-hour-delay-replying-recruiter-153000153.html"
-      },
-      {
-        "id": "b77a44cbb48b178d0844610a",
-        "title": "Nvidia, ASML Lead Five Stocks Near Buy Points With Roaring Growth",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investors.com/news/nvidia-stock-asml-avnet-cve-nue-buy-points-bulls-take-charge/?src=A00220&yptr=yahoo"
       }
     ]
   },
