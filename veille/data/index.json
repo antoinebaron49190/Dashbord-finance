@@ -1,9 +1,9 @@
 {
   "2026-08-15": {
-    "articles_count": 134,
-    "signal_count": 4,
+    "articles_count": 154,
+    "signal_count": 6,
     "tone_cb": null,
-    "tone_global": 0.375,
+    "tone_global": 0.4167,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
@@ -14,6 +14,22 @@
         "score": 0.45,
         "tone": 0.0,
         "url": "https://finance.yahoo.com/markets/stocks/articles/ceo-elon-musk-just-announced-145000843.html"
+      },
+      {
+        "id": "48ceafb06696eaeb832193d4",
+        "title": "Peru’s economic growth slows to 1.75% in June",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/economic-indicators/perus-economic-growth-slows-to-175-in-june-4861809"
+      },
+      {
+        "id": "1e929bddeb21b1e8cce5ecf7",
+        "title": "A 1-hour delay replying to a recruiter cuts your hiring chances by half. Here's why",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://finance.yahoo.com/small-business/articles/1-hour-delay-replying-recruiter-153000153.html"
       },
       {
         "id": "b77a44cbb48b178d0844610a",
@@ -30,22 +46,6 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-real-problem-isn-t-112602774.html"
-      },
-      {
-        "id": "b7bac41210deae27ae9bd66f",
-        "title": "Modi pitches 7 growth mantras, wants '50 Indian firms in Fortune 500'",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/politics/modi-pitches-7-growth-mantras-wants-50-indian-firms-in-fortune-500"
-      },
-      {
-        "id": "eff1a362a985eda33c9e9735",
-        "title": "Sony hunts for next Hello Kitty in character IP push",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/media-entertainment/sony-hunts-for-next-hello-kitty-in-character-ip-push"
       }
     ]
   },
