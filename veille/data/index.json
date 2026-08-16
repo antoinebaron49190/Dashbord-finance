@@ -1,11 +1,11 @@
 {
   "2026-08-16": {
-    "articles_count": 126,
-    "signal_count": 3,
+    "articles_count": 136,
+    "signal_count": 5,
     "tone_cb": null,
-    "tone_global": 0.0714,
+    "tone_global": 0.0273,
     "regul_crypto": null,
-    "stress": 0.0,
+    "stress": 0.0073,
     "top": [
       {
         "id": "0e1d2017e26680174c30f8c7",
@@ -16,6 +16,22 @@
         "url": "https://asia.nikkei.com/politics/dap-votes-to-stay-in-malaysia-s-ruling-coalition-easing-pressure-on-anwar"
       },
       {
+        "id": "cb73f546cebc2014f3119d27",
+        "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-says-ai-backlash-165351283.html"
+      },
+      {
+        "id": "09fbd55eaed990b235bccd8b",
+        "title": "Morgan Stanley says disinflation is here, but risks to 2027 rate outlook remain",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/economy-news/morgan-stanley-says-disinflation-is-here-but-risks-to-2027-rate-outlook-remain-4862000"
+      },
+      {
         "id": "8f0658e62904ec0390458908",
         "title": "Iran disputes Qatar, Kuwait accounts as U.S. war commander visits carrier",
         "source": "investing_com",
@@ -24,28 +40,12 @@
         "url": "https://www.investing.com/news/economy-news/iran-war-commander-visits-uss-abraham-lincoln-as-carrier-prepares-to-return-home-4861886"
       },
       {
-        "id": "81277beed874f4b1db7420bb",
-        "title": "Mexico bets on homegrown electric bus to curb China reliance",
-        "source": "nikkei_asia",
+        "id": "5701721987bd6ca81b9bdde5",
+        "title": "Wallet provider SafePal says data breach exposed personal info of nearly 40,000 customers",
+        "source": "theblock",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/mexico-bets-on-homegrown-electric-bus-to-curb-china-reliance"
-      },
-      {
-        "id": "c6d13ddf45339203c7e5ea5d",
-        "title": "Should You Buy Meta Platforms Stock Below $600 Before Mark Zuckerberg Unveils Its AI Cloud Business? Here's My Honest Take",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://finance.yahoo.com/markets/stocks/articles/buy-meta-platforms-stock-below-164000665.html"
-      },
-      {
-        "id": "ed35057d73d3fe8009e7c732",
-        "title": "Investing $500 a Month Into These 3 ETFs Could Retire You a Millionaire",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://finance.yahoo.com/markets/stocks/articles/investing-500-month-3-etfs-163720672.html"
+        "url": "https://www.theblock.co/news/business/2026-08-16-wallet-provider-safepal-says-data-breach-exposed-personal-info-of-nearly-40000-customers-411934"
       }
     ]
   },
