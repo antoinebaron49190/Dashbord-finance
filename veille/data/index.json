@@ -1,11 +1,11 @@
 {
   "2026-08-16": {
-    "articles_count": 155,
-    "signal_count": 7,
+    "articles_count": 170,
+    "signal_count": 8,
     "tone_cb": null,
-    "tone_global": -0.06,
+    "tone_global": 0.0059,
     "regul_crypto": null,
-    "stress": 0.0129,
+    "stress": 0.0117,
     "top": [
       {
         "id": "0e1d2017e26680174c30f8c7",
@@ -32,20 +32,20 @@
         "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-says-ai-backlash-165351283.html"
       },
       {
+        "id": "b3e246d999bd25e933d84a79",
+        "title": "Big Pharma's Future Growth Rests on Chinese Science? Expert Says: 'We Can't Ban Our Way Out of This'",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://finance.yahoo.com/healthcare/articles/big-pharmas-future-growth-rests-180016912.html"
+      },
+      {
         "id": "09fbd55eaed990b235bccd8b",
         "title": "Morgan Stanley says disinflation is here, but risks to 2027 rate outlook remain",
         "source": "investing_com",
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.investing.com/news/economy-news/morgan-stanley-says-disinflation-is-here-but-risks-to-2027-rate-outlook-remain-4862000"
-      },
-      {
-        "id": "8f0658e62904ec0390458908",
-        "title": "Iran disputes Qatar, Kuwait accounts as U.S. war commander visits carrier",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/iran-war-commander-visits-uss-abraham-lincoln-as-carrier-prepares-to-return-home-4861886"
       }
     ]
   },
