@@ -1,11 +1,11 @@
 {
   "2026-08-16": {
-    "articles_count": 136,
-    "signal_count": 5,
+    "articles_count": 155,
+    "signal_count": 7,
     "tone_cb": null,
-    "tone_global": 0.0273,
+    "tone_global": -0.06,
     "regul_crypto": null,
-    "stress": 0.0073,
+    "stress": 0.0129,
     "top": [
       {
         "id": "0e1d2017e26680174c30f8c7",
@@ -14,6 +14,14 @@
         "score": 0.45,
         "tone": 0.5,
         "url": "https://asia.nikkei.com/politics/dap-votes-to-stay-in-malaysia-s-ruling-coalition-easing-pressure-on-anwar"
+      },
+      {
+        "id": "813387dcca7ba20596475af5",
+        "title": "Casino operator liquidated as Chapter 11 bankruptcy ends",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://finance.yahoo.com/small-business/articles/casino-operator-liquidated-chapter-11-183942370.html"
       },
       {
         "id": "cb73f546cebc2014f3119d27",
@@ -38,14 +46,6 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://www.investing.com/news/economy-news/iran-war-commander-visits-uss-abraham-lincoln-as-carrier-prepares-to-return-home-4861886"
-      },
-      {
-        "id": "5701721987bd6ca81b9bdde5",
-        "title": "Wallet provider SafePal says data breach exposed personal info of nearly 40,000 customers",
-        "source": "theblock",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.theblock.co/news/business/2026-08-16-wallet-provider-safepal-says-data-breach-exposed-personal-info-of-nearly-40000-customers-411934"
       }
     ]
   },
