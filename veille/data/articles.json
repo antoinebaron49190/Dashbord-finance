@@ -1,5 +1,350 @@
 [
   {
+    "id": "3190e6872a1d9a2f0b1ec474",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "'A new Plaza Accord?' Japan's battle against yen bears enters new phase",
+    "url": "https://asia.nikkei.com/business/markets/trading-asia/a-new-plaza-accord-japan-s-battle-against-yen-bears-enters-new-phase",
+    "summary": "",
+    "published_at": "2026-08-16T21:40:13.916327+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f3acff4f226774e589b46bbe",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "1 Jaw-Dropping Metric That Makes Alphabet Stock a No-Brainer Buy.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/1-jaw-dropping-metric-makes-212600838.html",
+    "summary": "",
+    "published_at": "2026-08-16T21:26:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c7399b98a7a17ba18afc120d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Polymarket Launches Predictions Market for Pokémon Cards",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/polymarket-launches-predictions-market-pok-212512366.html",
+    "summary": "",
+    "published_at": "2026-08-16T21:25:12+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7828a8b859fb4318db8e5d3a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nvidia’s neocloud funding could drive significant revenue stream - Morgan Stanley",
+    "url": "https://www.investing.com/news/company-news/nvidias-neocloud-funding-could-drive-significant-revenue-stream--morgan-stanley-4862014",
+    "summary": "",
+    "published_at": "2026-08-16T21:21:34+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8cfc6aff52ab739e73101c75",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Russia stocks lower at close of trade; MOEX Russia Index down 4.29%",
+    "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-down-429-4862013",
+    "summary": "",
+    "published_at": "2026-08-16T21:20:03+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "73f3eaebcbd8acce1deaa664",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Shopify Shines and Uber Declines",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/shopify-shines-uber-declines-211859817.html",
+    "summary": "",
+    "published_at": "2026-08-16T21:18:59+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "90818fefe21af74011f93f94",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Insider Sale: Monolithic Power Systems Interim CFO Sells 105 Shares for $141,148",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/insider-sale-monolithic-power-systems-211501756.html",
+    "summary": "",
+    "published_at": "2026-08-16T21:15:01+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "00c72a9885ec4c7fe3c2d6f5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "New Zealand’s a2 Milk posts 44% fall in full-year profit",
+    "url": "https://www.investing.com/news/stock-market-news/new-zealands-a2-milk-posts-44-fall-in-fullyear-profit-4862012",
+    "summary": "",
+    "published_at": "2026-08-16T21:06:26+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d2b507f0297d8b490970de71",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/4-reasons-could-most-important-210327553.html",
+    "summary": "",
+    "published_at": "2026-08-16T21:03:27+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b63bf958a3a7a8e1329997ae",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bank of America sees ‘great convergence’ across America’s two economies",
+    "url": "https://finance.yahoo.com/economy/articles/bank-america-sees-great-convergence-210300748.html",
+    "summary": "",
+    "published_at": "2026-08-16T21:03:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c5b91dff2044dd6ee050e7e4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Here's How to Read BBB Foods' Latest Insider Filings as Chain Grows 39% Despite Soft Economy",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/heres-read-bbb-foods-latest-205940527.html",
+    "summary": "",
+    "published_at": "2026-08-16T20:59:40+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "170fce083095bd13db7a5479",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+    "url": "https://finance.yahoo.com/technology/ai/articles/stripe-reportedly-acquire-ai-gateway-205704570.html",
+    "summary": "",
+    "published_at": "2026-08-16T20:57:04+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "10a97cc7e5dae3a9a404aeec",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Ferrari’s electric car Luce sells for $40 million at charity auction",
+    "url": "https://www.investing.com/news/company-news/ferraris-electric-car-luce-sells-for-40-million-at-charity-auction-4862011",
+    "summary": "",
+    "published_at": "2026-08-16T20:51:14+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "819bcb74598800d3a73fc0ed",
     "source": "nikkei_asia",
     "tier": 3,
@@ -24,6 +369,84 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "eb7948dabe7ac310a67dd452",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "BBB Foods Shows a Net Loss but Its Cash Flow Surged. Here's How to Read an Insider's Trade Before Last Week's Earnings",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/bbb-foods-shows-net-loss-204943229.html",
+    "summary": "",
+    "published_at": "2026-08-16T20:49:43+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6606472a50760ff481471b01",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "An Estate Can Pick Its Own Valuation Date. Here’s the Six-Month Do-Over That Cuts the Tax Bill When Markets Fall",
+    "url": "https://finance.yahoo.com/real-estate/articles/estate-pick-own-valuation-date-204853000.html",
+    "summary": "",
+    "published_at": "2026-08-16T20:48:53+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ed45301a6b00b5a1bec55f36",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Chili’s Parent Wants a Bigger Slice of Fast Food’s Digital Business — CEO Calls Takeout the ‘Next Big Frontier’",
+    "url": "https://finance.yahoo.com/small-business/articles/chili-parent-wants-bigger-slice-203003149.html",
+    "summary": "",
+    "published_at": "2026-08-16T20:30:03+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
@@ -2114,6 +2537,60 @@
     "scored_by": "lexique"
   },
   {
+    "id": "e2cbf777ee231f2fc6d086ed",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Home Depot CEO Takes Medical Leave. What This Means for HD Stock Ahead of Earnings.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-ceo-takes-medical-153002568.html",
+    "summary": "",
+    "published_at": "2026-08-16T15:30:02+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1187e51aa56827e9a341bf9b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Michael Burry’s Bearish Bet Against Nebius Stock Sends a Warning Message to AI Bulls",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-bearish-bet-against-153002331.html",
+    "summary": "",
+    "published_at": "2026-08-16T15:30:02+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "f9ce566e7efed8aa08692dec",
     "source": "investing_com",
     "tier": 3,
@@ -2239,6 +2716,32 @@
     "assets_effective": [
       "sp500"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "16814e795567166594fddff8",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oppenheimer Just Upgraded Intuitive Surgical Stock. Here's Why.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oppenheimer-just-upgraded-intuitive-surgical-151502484.html",
+    "summary": "",
+    "published_at": "2026-08-16T15:15:02+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -24055,6 +24558,38 @@
     "scored_by": "lexique"
   },
   {
+    "id": "b31aa6e5bcf7fd00b2ddfdf1",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "(Research Paper) What Prevents Productivity Gains from Translating into Wages: Lessons from Japan's Deflationary Period",
+    "url": "https://www.boj.or.jp/en/research/wps_rev/wps_2026/wp26e12.htm",
+    "summary": "",
+    "published_at": "2026-08-14T07:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
     "id": "ad51e63ffed210c0b4debf48",
     "source": "yahoo_finance",
     "tier": 3,
@@ -35950,6 +36485,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "df11b9a95147ccfabbd3d4a5",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Japanese Government Bonds Held by the Bank of Japan",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260810.xlsx",
+    "summary": "",
+    "published_at": "2026-08-13T08:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "6fcd0b758e6d90da67b3fefa",
     "source": "yahoo_finance",
     "tier": 3,
@@ -35990,6 +36555,35 @@
     "summary": "",
     "published_at": "2026-08-13T07:30:00+00:00",
     "collected_at": "2026-08-13T09:47:13.685841+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8dda8370481dede5c82864d7",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Basic Figures on Fails (July)",
+    "url": "https://www.boj.or.jp/en/statistics/set/bffail/sjgb2607.pdf",
+    "summary": "",
+    "published_at": "2026-08-13T07:30:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -37069,6 +37663,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "f41ee5f1d8ff808b06108b51",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Bank of Japan Accounts (August 10)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260810.htm",
+    "summary": "",
+    "published_at": "2026-08-13T01:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "a8161a1611f730af52af648b",
     "source": "yahoo_finance",
     "tier": 3,
@@ -37395,6 +38019,35 @@
     "summary": "",
     "published_at": "2026-08-12T23:50:00+00:00",
     "collected_at": "2026-08-13T05:50:49.155613+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7821bf0ab5d8eb17bb448962",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Corporate Goods Price Index (July)",
+    "url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2607.pdf",
+    "summary": "",
+    "published_at": "2026-08-12T23:50:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -45676,6 +46329,35 @@
     "scored_by": "lexique"
   },
   {
+    "id": "c48fd6ec0aa0c37b6a2d6f50",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "(Research Paper) Market Operations in Fiscal 2025",
+    "url": "https://www.boj.or.jp/en/research/brp/mor/mor260812.htm",
+    "summary": "",
+    "published_at": "2026-08-12T07:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "1a57d304a386b1ec591f2f64",
     "source": "theblock",
     "tier": 3,
@@ -45977,6 +46659,65 @@
     "summary": "",
     "published_at": "2026-08-12T05:00:00+00:00",
     "collected_at": "2026-08-12T05:17:23.631005+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bb84eb2ba725313a0ee46faa",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "(Research Paper) Linkages of Firm Spending Behavior through Supply Chains",
+    "url": "https://www.boj.or.jp/en/research/wps_rev/wps_2026/wp26e14.htm",
+    "summary": "",
+    "published_at": "2026-08-12T05:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3a45f88d9d56891f6f129a2a",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "(Research Paper) Mapping Japan's Manufacturing Supply Chains Through Firm-to-Firm Transaction Data",
+    "url": "https://www.boj.or.jp/en/research/wps_rev/wps_2026/wp26e13.htm",
+    "summary": "",
+    "published_at": "2026-08-12T05:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [
       "asie"
@@ -46713,6 +47454,35 @@
     "summary": "",
     "published_at": "2026-08-11T23:50:00+00:00",
     "collected_at": "2026-08-12T05:17:23.631005+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f46c3f948f4c13acb3e58bf3",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Money Stock (July)",
+    "url": "https://www.boj.or.jp/en/statistics/money/ms/ms2607.pdf",
+    "summary": "",
+    "published_at": "2026-08-11T23:50:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -66468,6 +67238,93 @@
     "summary": "",
     "published_at": "2026-08-09T23:50:00+00:00",
     "collected_at": "2026-08-10T00:04:23.604056+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dca09bccbff16be5272bc9de",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Summary of Opinions at the Monetary Policy Meeting on July 30 and 31, 2026",
+    "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/opinion_2026/opi260731.pdf",
+    "summary": "",
+    "published_at": "2026-08-09T23:50:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "94744d658c63c82ff0f1f423",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Principal Figures of Financial Institutions (July)",
+    "url": "https://www.boj.or.jp/en/statistics/dl/depo/kashi/kasi2607.pdf",
+    "summary": "",
+    "published_at": "2026-08-09T23:50:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "057282abb23113577dd44a78",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Release of Latest \"Loans and Bills Discounted by Sector\" and \"Loans to Households\" Data",
+    "url": "https://www.boj.or.jp/en/statistics/outline/notice_2026/not260810a.htm",
+    "summary": "",
+    "published_at": "2026-08-09T23:50:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -88524,6 +89381,35 @@
     "scored_by": "lexique"
   },
   {
+    "id": "b07b1257f53e9bd3347d8e07",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Amounts Outstanding in the Call Money Market (July)",
+    "url": "https://www.boj.or.jp/en/statistics/market/short/call/call.xlsx",
+    "summary": "",
+    "published_at": "2026-08-07T06:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "bf80e21c2ef60ac6975f01ae",
     "source": "investing_com",
     "tier": 3,
@@ -88789,6 +89675,35 @@
     "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dfad2004aec5670cd3339b28",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Consumption Activity Index",
+    "url": "https://www.boj.or.jp/en/research/research_data/cai/index.htm",
+    "summary": "",
+    "published_at": "2026-08-07T05:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
@@ -90523,6 +91438,96 @@
     "summary": "",
     "published_at": "2026-08-06T23:50:00+00:00",
     "collected_at": "2026-08-07T01:53:40.220823+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3331de62214335defdbb02c3",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Market Operations by the Bank of Japan (July)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/ope/m_release/2026/ope2607.xlsx",
+    "summary": "",
+    "published_at": "2026-08-06T23:50:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dc345d219546be69c17b7990",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Monetary Base and the Bank of Japan's Transactions (July)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/mbt/mbt2607.pdf",
+    "summary": "",
+    "published_at": "2026-08-06T23:50:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cc8890b1899061b5ebb84fb3",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Bank of Japan's Transactions with the Government (July)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/tseifu/release/2026/seifu2607.pdf",
+    "summary": "",
+    "published_at": "2026-08-06T23:50:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [
       "asie"
@@ -107479,6 +108484,64 @@
     "scored_by": "lexique"
   },
   {
+    "id": "ab4331f1d203bf58bb2434bb",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Sources of Changes in Current Account Balances (Projections for Aug.)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/juqp/juqp2608.xlsx",
+    "summary": "",
+    "published_at": "2026-08-04T23:50:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "be3c06ddf65263060b442c2a",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Minutes of the Monetary Policy Meeting on June 15 and 16, 2026",
+    "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/minu_2026/g260616.pdf",
+    "summary": "",
+    "published_at": "2026-08-04T23:50:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "5fb2ba8529517725b1774544",
     "source": "yahoo_finance",
     "tier": 3,
@@ -113222,6 +114285,66 @@
     "scored_by": "lexique"
   },
   {
+    "id": "c7a1f1a0ea7bda2998b9c6da",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Japanese Government Bonds Held by the Bank of Japan",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260731.xlsx",
+    "summary": "",
+    "published_at": "2026-08-04T08:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3954e0b7ce282cbd78b035b9",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Collateral Accepted by the Bank of Japan (End of July)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/col/col2607.xlsx",
+    "summary": "",
+    "published_at": "2026-08-04T08:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "c46a383c8984950303e5fa59",
     "source": "coindesk",
     "tier": 3,
@@ -113572,6 +114695,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "87d23a3adaaa844fe1efc367",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "(BOJ Review) Impact of the Bank of Japan's Reductions in JGB Purchases on the JGB Markets",
+    "url": "https://www.boj.or.jp/en/research/wps_rev/rev_2026/rev26e10.htm",
+    "summary": "",
+    "published_at": "2026-08-04T06:30:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "9d8a431b682c0072c62f2e77",
     "source": "coindesk",
     "tier": 3,
@@ -113836,6 +114989,64 @@
     "scored_by": "lexique"
   },
   {
+    "id": "d3240adc0dfd24959c4f40bb",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "(Research Paper) IMES DPS: Distance and Loan Pricing Revisited: A Structural Estimation Approach",
+    "url": "https://www.boj.or.jp/en/research/imes/dps/dpse260804b.htm",
+    "summary": "",
+    "published_at": "2026-08-04T02:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "85b1ceba5b92741dc785abab",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "(Research Paper) IMES DPS: Current Status and Future Prospects of Optical Quantum Computing",
+    "url": "https://www.boj.or.jp/en/research/imes/dps/dpse260804a.htm",
+    "summary": "",
+    "published_at": "2026-08-04T02:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "285367cc65c0ca93b48a410d",
     "source": "boj_news",
     "tier": 1,
@@ -113866,6 +115077,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "2f8015079ae9457bef134ace",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Bank of Japan Accounts (July 31)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260731.htm",
+    "summary": "",
+    "published_at": "2026-08-04T01:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "8268b80abe84875a30f341c9",
     "source": "boj_news",
     "tier": 1,
@@ -113880,6 +115121,35 @@
     "summary": "",
     "published_at": "2026-08-03T23:50:00+00:00",
     "collected_at": "2026-08-06T12:33:25.479701+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1cfbd3c5a741e480f84516cd",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Monetary Base (July)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/mb/mb.htm",
+    "summary": "",
+    "published_at": "2026-08-03T23:50:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -119741,6 +121011,35 @@
     "scored_by": "lexique"
   },
   {
+    "id": "cde8a64711965c254270b4b1",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Outlook for Economic Activity and Prices (July 2026, full text)",
+    "url": "https://www.boj.or.jp/en/mopo/outlook/gor2607b.pdf",
+    "summary": "",
+    "published_at": "2026-08-03T05:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b89da90ac5d7e1398166cb65",
     "source": "theblock",
     "tier": 3,
@@ -119949,6 +121248,35 @@
     "summary": "",
     "published_at": "2026-08-03T04:00:00+00:00",
     "collected_at": "2026-08-06T12:33:25.479701+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a2a24d72dad0866f3235ddeb",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Sources of Changes in Current Account Balances and Market Operations (July)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/juqf/juqf07.xlsx",
+    "summary": "",
+    "published_at": "2026-08-03T04:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -134022,6 +135350,65 @@
     "scored_by": "lexique"
   },
   {
+    "id": "5293fdca149f62c693ec7732",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Quarterly Schedule of Outright Purchases of Japanese Government Bonds (Competitive Auction Method) (July-September 2026) (Schedule Updates)",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260731b.pdf",
+    "summary": "",
+    "published_at": "2026-07-31T08:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0d972be136de947b3c13b2c3",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Timetable and Schedule of U.S. Dollar Funds-Supplying Operations (August-December 2026)",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260731a.pdf",
+    "summary": "",
+    "published_at": "2026-07-31T08:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "cddf8a1489a26c9bb9bdb863",
     "source": "coindesk",
     "tier": 3,
@@ -134240,6 +135627,64 @@
     "summary": "",
     "published_at": "2026-07-31T04:25:00+00:00",
     "collected_at": "2026-08-06T12:33:25.479701+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6e37230caf0a752c30b72441",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Statement on Monetary Policy",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260731a.pdf",
+    "summary": "",
+    "published_at": "2026-07-31T04:25:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": true,
+    "importance": 1.95,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "58929b625560b2d947166821",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Outlook for Economic Activity and Prices (July 2026, The Bank's View)",
+    "url": "https://www.boj.or.jp/en/mopo/outlook/gor2607a.pdf",
+    "summary": "",
+    "published_at": "2026-07-31T04:25:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -134795,6 +136240,35 @@
     "summary": "",
     "published_at": "2026-07-31T03:11:00+00:00",
     "collected_at": "2026-08-06T12:33:25.479701+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2c9976899eb5e84f4129bbfd",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Scheduled Dates of Monetary Policy Meetings in 2027",
+    "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/m_ref/mref260731a.pdf",
+    "summary": "",
+    "published_at": "2026-07-31T03:11:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -135588,6 +137062,35 @@
     "summary": "",
     "published_at": "2026-07-31T02:00:00+00:00",
     "collected_at": "2026-08-06T12:33:25.479701+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "73872f5d265f87f76440fffe",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Payment and Settlement Statistics (June)",
+    "url": "https://www.boj.or.jp/en/statistics/set/kess/release/2026/kess2606.pdf",
+    "summary": "",
+    "published_at": "2026-07-31T02:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -140299,6 +141802,35 @@
     "scored_by": "lexique"
   },
   {
+    "id": "8cfc62018a863dca413f03dc",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Average Contract Interest Rates on Loans and Discounts (June)",
+    "url": "https://www.boj.or.jp/en/statistics/dl/loan/yaku/yaku2606.pdf",
+    "summary": "",
+    "published_at": "2026-07-28T23:50:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "29584520968e5efd06277136",
     "source": "ec_press",
     "tier": 2,
@@ -140519,6 +142051,35 @@
     "summary": "",
     "published_at": "2026-07-28T05:00:00+00:00",
     "collected_at": "2026-08-06T12:33:25.479701+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4c5e02a788fc14ccedc68b4e",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Indicators for Core CPI",
+    "url": "https://www.boj.or.jp/en/research/research_data/cpi/index.htm",
+    "summary": "",
+    "published_at": "2026-07-28T05:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -140972,6 +142533,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "9f468dd5d54ef9b7e61c7b45",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "(IMES Newsletter) 2026 BOJ-IMES Conference",
+    "url": "https://www.boj.or.jp/en/about/release_2026/rel260727a.htm",
+    "summary": "",
+    "published_at": "2026-07-27T07:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b272d4bff7570a16b5819bbd",
     "source": "boj_news",
     "tier": 1,
@@ -140986,6 +142577,35 @@
     "summary": "",
     "published_at": "2026-07-26T23:50:00+00:00",
     "collected_at": "2026-08-06T12:33:25.479701+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5bb9208fec9f8987b0e6a74e",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Services Producer Price Index (June)",
+    "url": "https://www.boj.or.jp/en/statistics/pi/cspi_release/sppi2606.pdf",
+    "summary": "",
+    "published_at": "2026-07-26T23:50:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -141854,6 +143474,35 @@
     "scored_by": "lexique"
   },
   {
+    "id": "2aea7e8a9d594b43d29584b1",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Developments in Real Exports and Real Imports",
+    "url": "https://www.boj.or.jp/en/research/research_data/reri/index.htm",
+    "summary": "",
+    "published_at": "2026-07-23T07:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "55214c82784ca3a2d210ec86",
     "source": "cnbc_economy",
     "tier": 3,
@@ -142062,6 +143711,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "b8d4343c01cae74206d15449",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Japanese Government Bonds Held by the Bank of Japan",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260717.xlsx",
+    "summary": "",
+    "published_at": "2026-07-22T08:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "dd7e7b08548ce778ca6c32c4",
     "source": "amf_news",
     "tier": 2,
@@ -142138,6 +143817,36 @@
     "summary": "",
     "published_at": "2026-07-22T07:00:00+00:00",
     "collected_at": "2026-08-06T12:33:25.479701+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bb28b954eee54a4c7e9c8b51",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "(BOJ Review) The Development and Strengthening of International Forums in Asia with the Participation of the Bank of Japan",
+    "url": "https://www.boj.or.jp/en/research/wps_rev/rev_2026/rev26e09.htm",
+    "summary": "",
+    "published_at": "2026-07-22T07:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [
       "asie"
@@ -142245,6 +143954,65 @@
     "scored_by": "lexique"
   },
   {
+    "id": "37dfa57416ae75d98b159285",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Bank of Japan Accounts (July 20)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260720.htm",
+    "summary": "",
+    "published_at": "2026-07-22T01:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "11acc7ba7f70c77930bb3a2a",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Meeting on the Fifth Market Functioning Survey concerning Climate Change",
+    "url": "https://www.boj.or.jp/en/paym/m-climate/mcli260722a.htm",
+    "summary": "",
+    "published_at": "2026-07-22T01:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "c19579f656088b9cb4f677fb",
     "source": "boj_news",
     "tier": 1,
@@ -142259,6 +144027,36 @@
     "summary": "",
     "published_at": "2026-07-21T23:50:00+00:00",
     "collected_at": "2026-08-06T12:33:25.479701+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f4e7e707d76b7da9e36e0a5b",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Statistics on Securities Financing Transactions in Japan",
+    "url": "https://www.boj.or.jp/en/statistics/bis/repo/index.htm",
+    "summary": "",
+    "published_at": "2026-07-21T23:50:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [
       "asie"
@@ -142454,6 +144252,35 @@
     "scored_by": "lexique"
   },
   {
+    "id": "987b28a3a132192099694e64",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Loan Disbursement under the Funds-Supplying Operations to Support Financing for Climate Change Responses",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260717a.pdf",
+    "summary": "",
+    "published_at": "2026-07-17T07:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "f575a1f72b7c080afd56f234",
     "source": "boj_news",
     "tier": 1,
@@ -142468,6 +144295,35 @@
     "summary": "",
     "published_at": "2026-07-16T23:50:00+00:00",
     "collected_at": "2026-08-06T12:33:25.479701+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f47f9ea553d55c93fcfdf33b",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Senior Loan Officer Opinion Survey (July)",
+    "url": "https://www.boj.or.jp/en/statistics/dl/loan/loos/release/loos2607.pdf",
+    "summary": "",
+    "published_at": "2026-07-16T23:50:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -142661,6 +144517,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "c935cf6d892a1e060ddf1373",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "BOJ Current Account Balances by Sector (June)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/cabs/cabs.xlsx",
+    "summary": "",
+    "published_at": "2026-07-16T08:00:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "6d0a5d10cf29a529adc06a15",
     "source": "amf_news",
     "tier": 2,
@@ -142737,6 +144623,35 @@
     "summary": "",
     "published_at": "2026-07-16T04:30:00+00:00",
     "collected_at": "2026-08-06T12:33:25.479701+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5c0b8bee4d9d993f6ed0970f",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Results of the 106th Opinion Survey on the General Public's Views and Behavior",
+    "url": "https://www.boj.or.jp/en/research/o_survey/ishiki2607.htm",
+    "summary": "",
+    "published_at": "2026-07-16T04:30:00+00:00",
+    "collected_at": "2026-08-16T21:40:13.916327+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [

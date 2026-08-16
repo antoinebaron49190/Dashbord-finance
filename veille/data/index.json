@@ -1,11 +1,11 @@
 {
   "2026-08-16": {
-    "articles_count": 187,
-    "signal_count": 10,
+    "articles_count": 206,
+    "signal_count": 11,
     "tone_cb": null,
-    "tone_global": -0.0905,
+    "tone_global": -0.0826,
     "regul_crypto": null,
-    "stress": 0.0106,
+    "stress": 0.0097,
     "top": [
       {
         "id": "0e1d2017e26680174c30f8c7",
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-14": {
-    "articles_count": 435,
-    "signal_count": 58,
+    "articles_count": 436,
+    "signal_count": 59,
     "tone_cb": 0.5,
-    "tone_global": 0.2032,
+    "tone_global": 0.2225,
     "regul_crypto": -0.075,
-    "stress": 0.0045,
+    "stress": 0.0044,
     "top": [
       {
         "id": "32c651d40f65df04feba5f83",
@@ -114,6 +114,14 @@
         "score": 1.3,
         "tone": 0.5,
         "url": "http://www.boj.or.jp/en/research/wps_rev/wps_2026/wp26e12.htm"
+      },
+      {
+        "id": "b31aa6e5bcf7fd00b2ddfdf1",
+        "title": "(Research Paper) What Prevents Productivity Gains from Translating into Wages: Lessons from Japan's Deflationary Period",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.5,
+        "url": "https://www.boj.or.jp/en/research/wps_rev/wps_2026/wp26e12.htm"
       },
       {
         "id": "c6aca009a7326e694287d7c7",
@@ -138,19 +146,11 @@
         "score": 0.6,
         "tone": -0.75,
         "url": "https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defrauding-retail-investors-74-million-pre-ipo"
-      },
-      {
-        "id": "87492bf11a8fc56a16482532",
-        "title": "US regulator approves bank charter for Trump-backed crypto company World Liberty Financial",
-        "source": "yahoo_finance",
-        "score": 0.45,
-        "tone": 0.0,
-        "url": "https://finance.yahoo.com/markets/crypto/articles/us-regulator-approves-bank-charter-200528955.html"
       }
     ]
   },
   "2026-08-13": {
-    "articles_count": 413,
+    "articles_count": 416,
     "signal_count": 61,
     "tone_cb": 0.0,
     "tone_global": 0.1259,
@@ -182,25 +182,25 @@
         "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260810.xlsx"
       },
       {
+        "id": "df11b9a95147ccfabbd3d4a5",
+        "title": "Japanese Government Bonds Held by the Bank of Japan",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260810.xlsx"
+      },
+      {
         "id": "19ca04131ea65a3622f1f884",
         "title": "Basic Figures on Fails (July)",
         "source": "boj_news",
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/statistics/set/bffail/sjgb2607.pdf"
-      },
-      {
-        "id": "361dbea9654e7346d764484a",
-        "title": "Bank of Japan Accounts (August 10)",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260810.htm"
       }
     ]
   },
   "2026-08-12": {
-    "articles_count": 343,
+    "articles_count": 347,
     "signal_count": 31,
     "tone_cb": null,
     "tone_global": 0.1023,
@@ -216,6 +216,14 @@
         "url": "http://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2607.pdf"
       },
       {
+        "id": "7821bf0ab5d8eb17bb448962",
+        "title": "Corporate Goods Price Index (July)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2607.pdf"
+      },
+      {
         "id": "d901828ad14f88f05d69bd30",
         "title": "(Research Paper) Market Operations in Fiscal 2025",
         "source": "boj_news",
@@ -224,38 +232,30 @@
         "url": "http://www.boj.or.jp/en/research/brp/mor/mor260812.htm"
       },
       {
+        "id": "c48fd6ec0aa0c37b6a2d6f50",
+        "title": "(Research Paper) Market Operations in Fiscal 2025",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/research/brp/mor/mor260812.htm"
+      },
+      {
         "id": "5550897221473965e13fe8fd",
         "title": "(Research Paper) Linkages of Firm Spending Behavior through Supply Chains",
         "source": "boj_news",
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/research/wps_rev/wps_2026/wp26e14.htm"
-      },
-      {
-        "id": "54ee7145ae262536dc0d06de",
-        "title": "(Research Paper) Mapping Japan's Manufacturing Supply Chains Through Firm-to-Firm Transaction Data",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/research/wps_rev/wps_2026/wp26e13.htm"
-      },
-      {
-        "id": "752ea21104d63d95364272ba",
-        "title": "Daily News 12 / 08 / 2026",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1733"
       }
     ]
   },
   "2026-08-11": {
-    "articles_count": 316,
+    "articles_count": 317,
     "signal_count": 41,
     "tone_cb": 0.5,
     "tone_global": 0.2283,
     "regul_crypto": 0.0,
-    "stress": 0.003,
+    "stress": 0.0029,
     "top": [
       {
         "id": "661add30d3585772f9929483",
@@ -274,6 +274,14 @@
         "url": "http://www.boj.or.jp/en/statistics/money/ms/ms2607.pdf"
       },
       {
+        "id": "f46c3f948f4c13acb3e58bf3",
+        "title": "Money Stock (July)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/money/ms/ms2607.pdf"
+      },
+      {
         "id": "80ae009caf837552ebd96c5c",
         "title": "Results of the Semi-Annual FX Turnover Surveys in April 2026",
         "source": "boe_news",
@@ -288,14 +296,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3273~292f21a541.en.pdf"
-      },
-      {
-        "id": "ff121eec1eeb0db793cccf4f",
-        "title": "ECB and Frankfurt Radio Symphony invite the public to Europa Open Air concert on 20 August 2026",
-        "source": "bce_press",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260811~47cd3ee040.en.html"
       }
     ]
   },
@@ -350,12 +350,12 @@
     ]
   },
   "2026-08-09": {
-    "articles_count": 262,
+    "articles_count": 265,
     "signal_count": 29,
     "tone_cb": null,
     "tone_global": 0.2057,
     "regul_crypto": 0.0,
-    "stress": 0.0073,
+    "stress": 0.007,
     "top": [
       {
         "id": "a92b399a997ed94c83a89062",
@@ -382,20 +382,20 @@
         "url": "http://www.boj.or.jp/en/statistics/outline/notice_2026/not260810a.htm"
       },
       {
-        "id": "bcf23eae42162be70d7f28c2",
-        "title": "Treasury Wine announces $395 million charge tied to US supply chain revamp",
-        "source": "investing_com",
-        "score": 0.45,
+        "id": "dca09bccbff16be5272bc9de",
+        "title": "Summary of Opinions at the Monetary Policy Meeting on July 30 and 31, 2026",
+        "source": "boj_news",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/stock-market-news/treasury-wine-announces-395-million-charge-tied-to-us-supply-chain-revamp-4847764"
+        "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/opinion_2026/opi260731.pdf"
       },
       {
-        "id": "c4d6180c36db392d60f61386",
-        "title": "UnitedHealth (UNH) Commits $4M to Tennessee Health Hub Expansion",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://finance.yahoo.com/healthcare/articles/unitedhealth-unh-commits-4m-tennessee-181302253.html"
+        "id": "94744d658c63c82ff0f1f423",
+        "title": "Principal Figures of Financial Institutions (July)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/dl/depo/kashi/kasi2607.pdf"
       }
     ]
   },
@@ -450,12 +450,12 @@
     ]
   },
   "2026-08-07": {
-    "articles_count": 363,
+    "articles_count": 365,
     "signal_count": 44,
     "tone_cb": null,
     "tone_global": -0.0193,
     "regul_crypto": -0.2,
-    "stress": 0.0079,
+    "stress": 0.0077,
     "top": [
       {
         "id": "073dc3e30cbf3096dd974f39",
@@ -482,30 +482,30 @@
         "url": "http://www.boj.or.jp/en/statistics/market/short/call/call.xlsx"
       },
       {
-        "id": "7c84546a43228bdf0fd5c78b",
-        "title": "Daily News 07 / 08 / 2026",
-        "source": "ec_press",
-        "score": 0.6,
+        "id": "b07b1257f53e9bd3347d8e07",
+        "title": "Amounts Outstanding in the Call Money Market (July)",
+        "source": "boj_news",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1727"
+        "url": "https://www.boj.or.jp/en/statistics/market/short/call/call.xlsx"
       },
       {
-        "id": "67498d5bf6f7d0deff1af2bd",
-        "title": "Explainer-How could New Mexico’s $567 million ruling change Meta?",
-        "source": "investing_com",
-        "score": 0.45,
+        "id": "dfad2004aec5670cd3339b28",
+        "title": "Consumption Activity Index",
+        "source": "boj_news",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/stock-market-news/explainerhow-could-new-mexicos-567-million-ruling-change-meta-4847332"
+        "url": "https://www.boj.or.jp/en/research/research_data/cai/index.htm"
       }
     ]
   },
   "2026-08-06": {
-    "articles_count": 342,
+    "articles_count": 345,
     "signal_count": 50,
     "tone_cb": -0.025,
     "tone_global": 0.0901,
     "regul_crypto": 0.3375,
-    "stress": 0.0163,
+    "stress": 0.0157,
     "top": [
       {
         "id": "a2a404c75699899fd1fedac4",
@@ -600,12 +600,12 @@
     ]
   },
   "2026-08-04": {
-    "articles_count": 234,
+    "articles_count": 242,
     "signal_count": 38,
     "tone_cb": 0.1065,
     "tone_global": 0.175,
     "regul_crypto": 0.0857,
-    "stress": 0.0034,
+    "stress": 0.003,
     "top": [
       {
         "id": "db9bfedb4849a382aa95c1f2",
@@ -650,12 +650,12 @@
     ]
   },
   "2026-08-03": {
-    "articles_count": 224,
+    "articles_count": 227,
     "signal_count": 22,
     "tone_cb": -0.6036,
     "tone_global": -0.1139,
     "regul_crypto": -0.2,
-    "stress": 0.0038,
+    "stress": 0.0036,
     "top": [
       {
         "id": "b369682b2e7bff768df8452d",
@@ -690,12 +690,12 @@
         "url": "http://www.boj.or.jp/en/statistics/boj/other/mb/mb.htm"
       },
       {
-        "id": "bcef45e4a5d28c9b24b5e6ea",
-        "title": "Michelle W Bowman: Responsible innovation and financial inclusion",
-        "source": "bis_cb_speeches",
+        "id": "1cfbd3c5a741e480f84516cd",
+        "title": "Monetary Base (July)",
+        "source": "boj_news",
         "score": 1.3,
         "tone": 0.0,
-        "url": "https://www.bis.org/review/r260730o.htm"
+        "url": "https://www.boj.or.jp/en/statistics/boj/other/mb/mb.htm"
       }
     ]
   },
@@ -800,12 +800,12 @@
     ]
   },
   "2026-07-31": {
-    "articles_count": 301,
+    "articles_count": 307,
     "signal_count": 31,
     "tone_cb": 0.5,
     "tone_global": 0.0434,
     "regul_crypto": 0.6796,
-    "stress": 0.0152,
+    "stress": 0.0142,
     "top": [
       {
         "id": "24b10cf84716609810e7c38a",
@@ -824,6 +824,14 @@
         "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260731a.pdf"
       },
       {
+        "id": "6e37230caf0a752c30b72441",
+        "title": "Statement on Monetary Policy",
+        "source": "boj_news",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260731a.pdf"
+      },
+      {
         "id": "d90a8d8ed8b45f602eb21257",
         "title": "Andrew Bailey: Growth and regulation",
         "source": "bis_cb_speeches",
@@ -838,14 +846,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm"
-      },
-      {
-        "id": "edc09bc3a00cf47be8e8be34",
-        "title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
-        "source": "fed_press_all",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm"
       }
     ]
   },
@@ -950,12 +950,12 @@
     ]
   },
   "2026-07-28": {
-    "articles_count": 9,
+    "articles_count": 11,
     "signal_count": 3,
     "tone_cb": -0.3,
     "tone_global": -0.3375,
     "regul_crypto": null,
-    "stress": 0.1529,
+    "stress": 0.1171,
     "top": [
       {
         "id": "272421f3827afb8eaf293e7c",
@@ -974,6 +974,14 @@
         "url": "http://www.boj.or.jp/en/statistics/dl/loan/yaku/yaku2606.pdf"
       },
       {
+        "id": "8cfc62018a863dca413f03dc",
+        "title": "Average Contract Interest Rates on Loans and Discounts (June)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/dl/loan/yaku/yaku2606.pdf"
+      },
+      {
         "id": "ceb2bf06d2c792e5eeb55b67",
         "title": "Adoption and investment in AI across the euro area. Insights from harmonised firm-level data",
         "source": "bce_pub",
@@ -988,24 +996,16 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/research/research_data/cpi/index.htm"
-      },
-      {
-        "id": "29584520968e5efd06277136",
-        "title": "Commission endorses Malta's €60 million Social Climate Plan to support vulnerable households and small companies in the clean transition",
-        "source": "ec_press",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1701"
       }
     ]
   },
   "2026-07-27": {
-    "articles_count": 15,
+    "articles_count": 16,
     "signal_count": 2,
     "tone_cb": -0.6667,
     "tone_global": -0.6394,
     "regul_crypto": null,
-    "stress": 0.0882,
+    "stress": 0.0783,
     "top": [
       {
         "id": "8ec7b98ed30470cec4690273",
@@ -1032,25 +1032,25 @@
         "url": "http://www.boj.or.jp/en/about/release_2026/rel260727a.htm"
       },
       {
+        "id": "9f468dd5d54ef9b7e61c7b45",
+        "title": "(IMES Newsletter) 2026 BOJ-IMES Conference",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/about/release_2026/rel260727a.htm"
+      },
+      {
         "id": "077c1bbef4bcf909479807fa",
         "title": "Commission approves €149 million Swedish State aid for agricultural, fishing and aquaculture companies facing increased fuel and fertiliser prices",
         "source": "ec_press",
         "score": 0.9,
         "tone": -0.6,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1691"
-      },
-      {
-        "id": "f09405c414a270d1e3ab7ba7",
-        "title": "Joint statement by European Commission and High Representative marking the 75th anniversary of the 1951 Convention relating to the Status of Refugees",
-        "source": "ec_press",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1694"
       }
     ]
   },
   "2026-07-26": {
-    "articles_count": 1,
+    "articles_count": 2,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
@@ -1064,6 +1064,14 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/statistics/pi/cspi_release/sppi2606.pdf"
+      },
+      {
+        "id": "5bb9208fec9f8987b0e6a74e",
+        "title": "Services Producer Price Index (June)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/pi/cspi_release/sppi2606.pdf"
       }
     ]
   },
@@ -1118,7 +1126,7 @@
     ]
   },
   "2026-07-23": {
-    "articles_count": 10,
+    "articles_count": 11,
     "signal_count": 2,
     "tone_cb": null,
     "tone_global": -0.6503,
@@ -1168,7 +1176,7 @@
     ]
   },
   "2026-07-22": {
-    "articles_count": 13,
+    "articles_count": 17,
     "signal_count": 3,
     "tone_cb": null,
     "tone_global": -0.6527,
@@ -1192,6 +1200,14 @@
         "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260717.xlsx"
       },
       {
+        "id": "b8d4343c01cae74206d15449",
+        "title": "Japanese Government Bonds Held by the Bank of Japan",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260717.xlsx"
+      },
+      {
         "id": "0f027fd5e8dfeba8c8f03992",
         "title": "(BOJ Review) The Development and Strengthening of International Forums in Asia with the Participation of the Bank of Japan",
         "source": "boj_news",
@@ -1200,25 +1216,17 @@
         "url": "http://www.boj.or.jp/en/research/wps_rev/rev_2026/rev26e09.htm"
       },
       {
-        "id": "b17f4c0b0430ce6c57995cb2",
-        "title": "Bank of Japan Accounts (July 20)",
+        "id": "bb28b954eee54a4c7e9c8b51",
+        "title": "(BOJ Review) The Development and Strengthening of International Forums in Asia with the Participation of the Bank of Japan",
         "source": "boj_news",
         "score": 1.3,
         "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260720.htm"
-      },
-      {
-        "id": "3f0ec92318486b112f24cbf4",
-        "title": "Meeting on the Fifth Market Functioning Survey concerning Climate Change",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/paym/m-climate/mcli260722a.htm"
+        "url": "https://www.boj.or.jp/en/research/wps_rev/rev_2026/rev26e09.htm"
       }
     ]
   },
   "2026-07-21": {
-    "articles_count": 3,
+    "articles_count": 4,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
@@ -1232,6 +1240,14 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/statistics/bis/repo/index.htm"
+      },
+      {
+        "id": "f4e7e707d76b7da9e36e0a5b",
+        "title": "Statistics on Securities Financing Transactions in Japan",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/bis/repo/index.htm"
       },
       {
         "id": "3191a35b7f60f2cdab24b694",
@@ -1278,7 +1294,7 @@
     ]
   },
   "2026-07-17": {
-    "articles_count": 2,
+    "articles_count": 3,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
@@ -1294,6 +1310,14 @@
         "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260717a.pdf"
       },
       {
+        "id": "987b28a3a132192099694e64",
+        "title": "Loan Disbursement under the Funds-Supplying Operations to Support Financing for Climate Change Responses",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260717a.pdf"
+      },
+      {
         "id": "655deeee39769d7915fcaa09",
         "title": "Import prices post surprise gain as costs of goods from China hit highest since 2008",
         "source": "cnbc_economy",
@@ -1304,7 +1328,7 @@
     ]
   },
   "2026-07-16": {
-    "articles_count": 10,
+    "articles_count": 13,
     "signal_count": 1,
     "tone_cb": 0.0,
     "tone_global": 0.0,
@@ -1328,6 +1352,14 @@
         "url": "http://www.boj.or.jp/en/statistics/dl/loan/loos/release/loos2607.pdf"
       },
       {
+        "id": "f47f9ea553d55c93fcfdf33b",
+        "title": "Senior Loan Officer Opinion Survey (July)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/dl/loan/loos/release/loos2607.pdf"
+      },
+      {
         "id": "8eb78520704a21f8d2872a4b",
         "title": "Jefferson, Navigating Economic Shocks: A Monetary Policymaker’s Perspective",
         "source": "fed_speeches",
@@ -1342,14 +1374,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm"
-      },
-      {
-        "id": "822837c712f55bf1d75f2a26",
-        "title": "BOJ Current Account Balances by Sector (June)",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/boj/other/cabs/cabs.xlsx"
       }
     ]
   },
