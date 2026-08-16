@@ -1,11 +1,11 @@
 {
   "2026-08-16": {
-    "articles_count": 206,
-    "signal_count": 11,
+    "articles_count": 223,
+    "signal_count": 12,
     "tone_cb": null,
-    "tone_global": -0.0826,
+    "tone_global": -0.036,
     "regul_crypto": null,
-    "stress": 0.0097,
+    "stress": 0.0089,
     "top": [
       {
         "id": "0e1d2017e26680174c30f8c7",
@@ -14,6 +14,14 @@
         "score": 0.45,
         "tone": 0.5,
         "url": "https://asia.nikkei.com/politics/dap-votes-to-stay-in-malaysia-s-ruling-coalition-easing-pressure-on-anwar"
+      },
+      {
+        "id": "fdc16a12de494c9de3f7ae16",
+        "title": "Prediction market Novig sues Wisconsin AG in latest spat over sports contracts",
+        "source": "theblock",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.theblock.co/news/business/2026-08-16-prediction-market-novig-sues-wisconsin-ag-in-latest-spat-over-sports-contracts-411938"
       },
       {
         "id": "b9fa08740ccc4d857e7af3de",
@@ -38,14 +46,6 @@
         "score": 0.3,
         "tone": -0.6,
         "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-says-ai-backlash-165351283.html"
-      },
-      {
-        "id": "819bcb74598800d3a73fc0ed",
-        "title": "Extreme heat is tightening the food-energy link across Asia",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/opinion/extreme-heat-is-tightening-the-food-energy-link-across-asia"
       }
     ]
   },

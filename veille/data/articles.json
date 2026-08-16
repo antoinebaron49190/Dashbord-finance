@@ -1,5 +1,341 @@
 [
   {
+    "id": "2aae37a9c6c51d4959c6fd10",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "HIVE reports 74% revenue jump in fiscal Q1 2027 earnings",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/hive-reports-74-revenue-jump-223813201.html",
+    "summary": "",
+    "published_at": "2026-08-16T22:38:13+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "65c715a432e73e4c270883c2",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Amazon, Alphabet, and Microsoft Are Dropping Nearly $600 Billion on Capital Expenditures: 1 Clear Winner Emerges",
+    "url": "https://finance.yahoo.com/technology/articles/amazon-alphabet-microsoft-dropping-nearly-222700076.html",
+    "summary": "",
+    "published_at": "2026-08-16T22:27:00+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "65e52d61664875cff8362c3a",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "U.S. stock futures little changed as investors ponder the Fed’s next move",
+    "url": "https://www.marketwatch.com/story/u-s-stock-futures-little-changed-as-investors-ponder-the-feds-next-move-27bcbea4?mod=mw_rss_topstories",
+    "summary": "U.S. stock-index futures were little changed on Sunday after a quiet week on Wall Street, as investors await hints from the Fed concerning the outlook for interest rates.",
+    "published_at": "2026-08-16T22:23:00+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c7832ef372f66e3858675f40",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin hovers around $63k as Strategy’s Saylor calls it ‘digital monetary energy’",
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-trades-above-63000-as-saylor-calls-it-digital-monetary-energy-4861953",
+    "summary": "",
+    "published_at": "2026-08-16T22:20:48+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b82099c3735cd029a6ff0585",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-biggest-funds-dumping-221314247.html",
+    "summary": "",
+    "published_at": "2026-08-16T22:13:14+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500",
+      "asie"
+    ],
+    "assets_effective": [
+      "sp500",
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "70e766d0cc616506c69d4ca8",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "New AI financing backstops allows compute buyers more control over business models",
+    "url": "https://www.investing.com/news/economy-news/new-ai-financing-backstops-allows-compute-buyers-more-control-over-business-models-4862016",
+    "summary": "",
+    "published_at": "2026-08-16T22:10:04+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5beeb53c8c8f5e80f108ab3c",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Micron Is Worth $1.1 Trillion and Sits 23% Below Its 52-Week High. Is the Stock a Buy?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/micron-worth-1-1-trillion-214900136.html",
+    "summary": "",
+    "published_at": "2026-08-16T21:49:00+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6b0c50002136c82dd95f3786",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "New Zealand’s a2 Milk full-year profit falls 44% on weaker China-label IMF sales",
+    "url": "https://www.investing.com/news/stock-market-news/new-zealands-a2-milk-posts-44-fall-in-fullyear-profit-4862012",
+    "summary": "",
+    "published_at": "2026-08-16T21:48:22+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "38ad4b4ba69b497c2fe4be11",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Warren Buffett's Berkshire raises stake in world's largest airline",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-berkshire-raises-stake-214700937.html",
+    "summary": "",
+    "published_at": "2026-08-16T21:47:00+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "94f0dba3b95e10de83f2e58d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-xrp-ethereum-solana-drop-214547270.html",
+    "summary": "",
+    "published_at": "2026-08-16T21:45:47+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e339617d6854b3cf2d10bbe9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Billionaire Investor David Tepper Just Exited 12 Stocks. These 5 Are the Most Surprising.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-investor-david-tepper-just-214351429.html",
+    "summary": "",
+    "published_at": "2026-08-16T21:43:51+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fdc16a12de494c9de3f7ae16",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Prediction market Novig sues Wisconsin AG in latest spat over sports contracts",
+    "url": "https://www.theblock.co/news/business/2026-08-16-prediction-market-novig-sues-wisconsin-ag-in-latest-spat-over-sports-contracts-411938",
+    "summary": "Novig, which recently announced a partnership with the New York Mets, has sued officials in five states including Wisconsin since Aug. 4.",
+    "published_at": "2026-08-16T21:40:20+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "3190e6872a1d9a2f0b1ec474",
     "source": "nikkei_asia",
     "tier": 3,
@@ -20,6 +356,60 @@
     "assets_effective": [
       "asie"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "98d202a45e37f05976058f8b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "What BBB Foods' Long Growth Runway Means, and Why a Director's Latest Insider Transaction Doesn't Detract From It",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/bbb-foods-long-growth-runway-213506883.html",
+    "summary": "",
+    "published_at": "2026-08-16T21:35:06+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "34e68fe589d5a00a7e2f8248",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Wendy's Traders Smell a Buyout Cooking — Nelson Peltz Preps a Bid",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wendys-traders-smell-buyout-cooking-213005518.html",
+    "summary": "",
+    "published_at": "2026-08-16T21:30:05+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -2203,6 +2593,84 @@
     "summary": "",
     "published_at": "2026-08-16T16:16:00+00:00",
     "collected_at": "2026-08-16T17:41:41.891008+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "502d753bfc8811c3f8c2a620",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "As Oracle Deepens Its Partnership with AWS, Here’s How You Should Play ORCL Stock",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-deepens-partnership-aws-play-161502495.html",
+    "summary": "",
+    "published_at": "2026-08-16T16:15:02+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4bb1b65d3e866e8e2c024265",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "A $210 Billion Reason to Buy AMD Stock Here",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/210-billion-reason-buy-amd-161502041.html",
+    "summary": "",
+    "published_at": "2026-08-16T16:15:02+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5bf7f5cd8da35b028e34e0c5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Reddit Stock Jumped 11%. The Business Had Almost Nothing to Do With It",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/reddit-stock-jumped-11-business-161138860.html",
+    "summary": "",
+    "published_at": "2026-08-16T16:11:38+00:00",
+    "collected_at": "2026-08-16T22:49:00.979206+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
