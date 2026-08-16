@@ -1,61 +1,61 @@
 {
   "2026-08-16": {
-    "articles_count": 32,
-    "signal_count": 0,
+    "articles_count": 43,
+    "signal_count": 1,
     "tone_cb": null,
-    "tone_global": null,
+    "tone_global": -0.5,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
-        "id": "daff7191804b685beb407a4c",
-        "title": "Ameriprise EVP Deirdre McGraw sells $1.34 million in stock",
+        "id": "8f0658e62904ec0390458908",
+        "title": "Iran disputes Qatar, Kuwait accounts as U.S. war commander visits carrier",
         "source": "investing_com",
         "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/ameriprise-evp-deirdre-mcgraw-sells-134-million-in-stock-93CH-4861932"
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/iran-war-commander-visits-uss-abraham-lincoln-as-carrier-prepares-to-return-home-4861886"
       },
       {
-        "id": "9dd4bfd799dc0f1d3a0f516f",
-        "title": "Equitable Holdings director Charles Stonehill sells $386k in shares",
-        "source": "investing_com",
+        "id": "c6d68dd16c298b04bd23dbba",
+        "title": "Indians rethink study abroad, turn to higher education at home",
+        "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/equitable-holdings-director-charles-stonehill-sells-386k-in-shares-93CH-4861931"
+        "url": "https://asia.nikkei.com/business/education/indians-rethink-study-abroad-turn-to-higher-education-at-home"
       },
       {
-        "id": "c28d557615a5ccf3e296e06e",
-        "title": "German companies cut US investment to three-year low, data show",
+        "id": "211fdaab1fb9237b84b6cb18",
+        "title": "Iron Mountain president & CEO William Meaney sells $4.68m in stock",
         "source": "investing_com",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/economic-indicators/german-companies-cut-us-investment-to-threeyear-low-data-show-4861926"
+        "url": "https://www.investing.com/news/insider-trading-news/iron-mountain-president--ceo-william-meaney-sells-468m-in-stock-93CH-4861947"
       },
       {
-        "id": "ada1c2a4cc57ab35ee2b268c",
-        "title": "Central bank market backstops risk fuelling leverage and future crises",
+        "id": "03db4328c6e732e0b11c0855",
+        "title": "Ametek president David Hermance sells $1.68 million in AME shares",
         "source": "investing_com",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/economy-news/central-bank-market-backstops-risk-fuelling-leverage-and-future-crises-4861929"
+        "url": "https://www.investing.com/news/insider-trading-news/ametek-president-david-hermance-sells-168-million-in-ame-shares-93CH-4861946"
       },
       {
-        "id": "35a012a6a6311dcaeba37135",
-        "title": "Bitcoin trapped in $62,500-$64,000 chop zone: Live levels",
+        "id": "f39d1d0b3e321dd38deca672",
+        "title": "Origin Bancorp director Cecil Jones buys $199,282 in stock",
         "source": "investing_com",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-in-635k655k-squeeze-hourly-levels-93CH-4847929"
+        "url": "https://www.investing.com/news/insider-trading-news/origin-bancorp-director-cecil-jones-buys-199282-in-stock-93CH-4861945"
       }
     ]
   },
   "2026-08-15": {
-    "articles_count": 306,
-    "signal_count": 17,
+    "articles_count": 314,
+    "signal_count": 18,
     "tone_cb": null,
-    "tone_global": 0.2176,
+    "tone_global": 0.2056,
     "regul_crypto": null,
-    "stress": 0.0098,
+    "stress": 0.0095,
     "top": [
       {
         "id": "2606e8ea0ae55f5e7b7eeb34",
@@ -2954,21 +2954,13 @@
     ]
   },
   "2026-05-18": {
-    "articles_count": 3,
-    "signal_count": 1,
-    "tone_cb": 0.0,
-    "tone_global": 0.0,
+    "articles_count": 1,
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
-      {
-        "id": "8db67762459118a3dad04efd",
-        "title": "FCA and Bank of England set out shared vision for tokenisation in UK wholesale markets",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/news/2026/may/fca-and-boe-set-out-shared-vision-for-tokenisation-in-uk-wholesale-markets"
-      },
       {
         "id": "61b80032f49b4a1f51ff241c",
         "title": "France FinTech, l'ACPR et l'AMF lancent l’appel à candidatures pour participer à la 6ème édition des French FinTech Weeks",
@@ -2976,14 +2968,6 @@
         "score": 0.6,
         "tone": 0.0,
         "url": "https://www.amf-france.org/fr/actualites-publications/actualites/france-fintech-lacpr-et-lamf-lancent-lappel-candidatures-pour-participer-la-6eme-edition-des-french#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "4e625e266ac6b130a99d5292",
-        "title": "Retrait de parts de SCPI : où placer dans le registre chronologique les demandes incomplètes ?",
-        "source": "amf_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/le-mediateur/journal-de-bord-du-mediateur/dossiers-du-mois/retrait-de-parts-de-scpi-ou-placer-dans-le-registre-chronologique-les-demandes-incompletes#xts=607212&xtor=RSS-3&type=RSS"
       }
     ]
   },
