@@ -1,5 +1,340 @@
 [
   {
+    "id": "7377ee339adbce491fd56bca",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "'We live in the most partisan era in over a century,' Larry Sabato says",
+    "url": "https://asia.nikkei.com/editor-s-picks/interview/we-live-in-the-most-partisan-era-in-over-a-century-larry-sabato-says",
+    "summary": "",
+    "published_at": "2026-08-16T14:53:09.239313+00:00",
+    "collected_at": "2026-08-16T14:53:09.239313+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e7a5cb6de8c4534687b20884",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "PubMatic CEO Rajeev Goel sells $3.75 million in company stock",
+    "url": "https://www.investing.com/news/insider-trading-news/pubmatic-ceo-rajeev-goel-sells-375-million-in-company-stock-93CH-4861991",
+    "summary": "",
+    "published_at": "2026-08-16T14:31:12+00:00",
+    "collected_at": "2026-08-16T14:53:09.239313+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d247683ed33e784b40d1e37d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Savers value village general counsel Medway sells $648,900 in shares",
+    "url": "https://www.investing.com/news/insider-trading-news/savers-value-village-general-counsel-medway-sells-648900-in-shares-93CH-4861989",
+    "summary": "",
+    "published_at": "2026-08-16T14:18:22+00:00",
+    "collected_at": "2026-08-16T14:53:09.239313+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6910ee938f57f8dee505e7cd",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Crypto wallet SafePal reveals a data breach exposing nearly 40,000 customers' order info",
+    "url": "https://www.coindesk.com/tech/2026/08/16/crypto-wallet-safepal-reveals-a-data-breach-exposing-nearly-40-000-customers-order-info",
+    "summary": "",
+    "published_at": "2026-08-16T14:02:32+00:00",
+    "collected_at": "2026-08-16T14:53:09.239313+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b3034a4ea26a9bd4768c5600",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Natera director Jonathan Sheena sells $2.89m in stock",
+    "url": "https://www.investing.com/news/insider-trading-news/natera-director-jonathan-sheena-sells-289m-in-stock-93CH-4861988",
+    "summary": "",
+    "published_at": "2026-08-16T14:01:04+00:00",
+    "collected_at": "2026-08-16T14:53:09.239313+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6cd58f91811a458163dfa343",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "MiCA's cleanup is creating a new scam wave across the European Union",
+    "url": "https://www.coindesk.com/business/2026/08/14/mica-s-cleanup-is-creating-a-new-scam-wave-across-the-european-union",
+    "summary": "",
+    "published_at": "2026-08-16T14:00:00+00:00",
+    "collected_at": "2026-08-16T14:53:09.239313+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe",
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "europe",
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "15b4c597a880b182dd766b19",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bill Ackman's $5 billion fund trades 20% below its NAV as S&P 500 soars — and high fees aren't helping",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/bill-ackmans-5-billion-fund-140000634.html",
+    "summary": "",
+    "published_at": "2026-08-16T14:00:00+00:00",
+    "collected_at": "2026-08-16T14:53:09.239313+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "66ef642b2126898b396ac027",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Lear Corp director Conrad Mallett Jr. sells $199,742 in stock",
+    "url": "https://www.investing.com/news/insider-trading-news/lear-corp-director-conrad-mallett-jr-sells-199742-in-stock-93CH-4861986",
+    "summary": "",
+    "published_at": "2026-08-16T13:46:36+00:00",
+    "collected_at": "2026-08-16T14:53:09.239313+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "52de0a8a64feeb15bc0773f7",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Netlist EVP and CFO Gail Sasaki sells $99,750 in company stock",
+    "url": "https://www.investing.com/news/insider-trading-news/netlist-evp-and-cfo-gail-sasaki-sells-99750-in-company-stock-93CH-4861985",
+    "summary": "",
+    "published_at": "2026-08-16T13:46:32+00:00",
+    "collected_at": "2026-08-16T14:53:09.239313+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c7898f3867e86a8d8a120d27",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "U.S. equity inflows triple week-on-week as Wall Street hovers near record levels",
+    "url": "https://www.investing.com/news/stock-market-news/us-equity-inflows-triple-weekonweek-as-wall-street-hovers-near-record-levels-4861984",
+    "summary": "",
+    "published_at": "2026-08-16T13:41:11+00:00",
+    "collected_at": "2026-08-16T14:53:09.239313+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "02de50250800d4ce19f18283",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Liberty Live earnings up next: Can revenue surge narrow losses?",
+    "url": "https://www.investing.com/news/earnings/liberty-live-earnings-up-next-can-revenue-surge-narrow-losses-93CH-4861983",
+    "summary": "",
+    "published_at": "2026-08-16T13:36:51+00:00",
+    "collected_at": "2026-08-16T14:53:09.239313+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "38d1c8e26847218304c45398",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Liberty Live earnings ahead as investors eye return to profit",
+    "url": "https://www.investing.com/news/earnings/liberty-live-earnings-ahead-as-investors-eye-return-to-profit-93CH-4861982",
+    "summary": "",
+    "published_at": "2026-08-16T13:35:57+00:00",
+    "collected_at": "2026-08-16T14:53:09.239313+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b580235178490b5533aa06c8",
     "source": "investing_com",
     "tier": 3,
@@ -7483,6 +7818,32 @@
     "summary": "",
     "published_at": "2026-08-15T13:16:01+00:00",
     "collected_at": "2026-08-15T13:39:56.630859+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ad94deae1c0187df5fe6fdb5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Every fusion startup that has raised over $100M",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/every-fusion-startup-raised-over-153901654.html",
+    "summary": "",
+    "published_at": "2026-08-15T13:15:20+00:00",
+    "collected_at": "2026-08-16T14:53:09.239313+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
