@@ -1,5 +1,481 @@
 [
   {
+    "id": "0c2c5cba06f9b893a043c43c",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Canada review of Argentina lithium sale tests warming ties with China",
+    "url": "https://asia.nikkei.com/business/materials/canada-review-of-argentina-lithium-sale-tests-warming-ties-with-china",
+    "summary": "",
+    "published_at": "2026-08-17T08:07:51.083418+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c9e2ebdcfd972c4a92be2a59",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "China's economic growth challenges mount as consumption slips",
+    "url": "https://asia.nikkei.com/economy/china-s-economic-growth-challenges-mount-as-consumption-slips",
+    "summary": "",
+    "published_at": "2026-08-17T08:07:51.083418+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4ca2f093ec803e10e2b4bf5a",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Geely's Q2 profit grows 36% as exports increasingly power sales",
+    "url": "https://asia.nikkei.com/business/automobiles/geely-s-q2-profit-grows-36-as-exports-increasingly-power-sales",
+    "summary": "",
+    "published_at": "2026-08-17T08:07:51.083418+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "63d0e3279b788c2e72d7fd90",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "South Korea says joint drills are on despite Trump objections",
+    "url": "https://asia.nikkei.com/politics/international-relations/south-korea-says-joint-drills-are-on-despite-trump-objections",
+    "summary": "",
+    "published_at": "2026-08-17T08:07:51.083418+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "90c5066d2ad7fb2ac49b15d7",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Highlights of the Outlook for Economic Activity and Prices (July 2026)",
+    "url": "http://www.boj.or.jp/en/mopo/outlook/highlight/ten202607.htm",
+    "summary": "",
+    "published_at": "2026-08-17T08:00:00+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "39ad10b2bb8aab44047139a7",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "BOJ Current Account Balances by Sector (July)",
+    "url": "http://www.boj.or.jp/en/statistics/boj/other/cabs/cabs.xlsx",
+    "summary": "",
+    "published_at": "2026-08-17T08:00:00+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d026d40bb5e4a993cb9d94c0",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: HIAG posts strong H1 2026 profit growth as stock edges up",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-hiag-posts-strong-h1-2026-profit-growth-as-stock-edges-up-93CH-4862282",
+    "summary": "",
+    "published_at": "2026-08-17T07:51:02+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "67da5ffa5749703c7c4b681b",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is Argen-X stock surging today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-argenx-stock-surging-today-93CH-4862279",
+    "summary": "",
+    "published_at": "2026-08-17T07:49:14+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c7ec94657e16855d353cd77d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Taiwan’s president says record defence spending an investment in peace",
+    "url": "https://www.investing.com/news/economy-news/taiwan-president-says-record-defence-spending-is-investment-in-peace-4862224",
+    "summary": "",
+    "published_at": "2026-08-17T07:48:26+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "15148a9aa69b03a6ad313b28",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Mink Brook Asset Management boosts DLH Holdings stake with $9,431 stock buy",
+    "url": "https://www.investing.com/news/insider-trading-news/mink-brook-asset-management-boosts-dlh-holdings-stake-with-9431-stock-buy-93CH-4862278",
+    "summary": "",
+    "published_at": "2026-08-17T07:46:15+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7da0f11abcbc3f0f67028b96",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is TomTom stock sliding today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-tomtom-stock-sliding-today-93CH-4862277",
+    "summary": "",
+    "published_at": "2026-08-17T07:46:02+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7bae355a2429b7ef22f85af5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Goldman Sachs reinstates Etsy stock coverage with neutral rating",
+    "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-reinstates-etsy-stock-coverage-with-neutral-rating-93CH-4862264",
+    "summary": "",
+    "published_at": "2026-08-17T07:44:58+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "323f10f39da767f4706387a2",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "National Investment Fund Uzbekistan schedules shareholder meeting",
+    "url": "https://www.investing.com/news/company-news/national-investment-fund-uzbekistan-schedules-shareholder-meeting-93CH-4862262",
+    "summary": "",
+    "published_at": "2026-08-17T07:42:36+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e112f5c5b150a7c8897b8022",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "China industrial production slows more than expected in July",
+    "url": "https://www.investing.com/news/economic-indicators/china-industrial-production-slows-in-july-as-domestic-demand-weighs-4862261",
+    "summary": "",
+    "published_at": "2026-08-17T07:33:44+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2f2c7b22dfe867d42cbed29d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Exclusive-Shein eyes company valuation of around $25 billion in Hong Kong IPO, sources say",
+    "url": "https://www.investing.com/news/stock-market-news/exclusiveshein-eyes-company-valuation-of-around-25-billion-in-hong-kong-ipo-sources-say-4862226",
+    "summary": "",
+    "published_at": "2026-08-17T07:31:14+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5f0b968278a69faf62be44f6",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Shares rise, dollar slips as markets pare Fed rate risks",
+    "url": "https://www.investing.com/news/economy-news/asian-shares-mark-time-as-gulf-war-keeps-oil-prices-up-4862057",
+    "summary": "",
+    "published_at": "2026-08-17T07:30:37+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a0fd83ac42ada6ca6337d0ae",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Results of the Fifth Market Functioning Survey concerning Climate Change",
+    "url": "http://www.boj.or.jp/en/paym/m-climate/mcli260817a.htm",
+    "summary": "",
+    "published_at": "2026-08-17T07:00:00+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "1c9880b3674dd0ceea8e2841",
     "source": "nikkei_asia",
     "tier": 3,
@@ -74,6 +550,36 @@
     "summary": "",
     "published_at": "2026-08-17T05:51:18+00:00",
     "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "321e603a2e92238e2fa36fba",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "The bitcoin futures market looks like a crowded club with a tiny exit – and it could cause pain",
+    "url": "https://www.coindesk.com/markets/2026/08/17/the-bitcoin-futures-market-has-a-crowded-club-tiny-exit-problem-and-it-could-cause-pain",
+    "summary": "",
+    "published_at": "2026-08-17T05:51:18+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
     "categories": {},
     "assets_detected": [
       "btc"
@@ -6354,6 +6860,64 @@
     "scored_by": "lexique"
   },
   {
+    "id": "328178b3c1177b1c56e83517",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why Bitcoin is Falling Despite US Stocks Hitting Record Highs",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/why-bitcoin-falling-despite-us-064837944.html",
+    "summary": "",
+    "published_at": "2026-08-16T06:48:37+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500",
+      "btc"
+    ],
+    "assets_effective": [
+      "sp500",
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "82b69a5a7f8f89e708f563ef",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "German companies cut US investment to three-year low, data show",
+    "url": "https://finance.yahoo.com/news/german-companies-cut-us-investment-063427866.html",
+    "summary": "",
+    "published_at": "2026-08-16T06:34:27+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "6b10f281b1ef3c86c99f8a2f",
     "source": "investing_com",
     "tier": 3,
@@ -6957,6 +7521,58 @@
     "summary": "",
     "published_at": "2026-08-16T01:36:31+00:00",
     "collected_at": "2026-08-16T03:16:26.089085+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6afd9c267fc8b498ae0f3138",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Billionaire Peter Thiel buys 1% stake in Argentine Vaca Muerta oil firm, filing shows",
+    "url": "https://finance.yahoo.com/energy/articles/billionaire-peter-thiel-buys-1-013411129.html",
+    "summary": "",
+    "published_at": "2026-08-16T01:34:11+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "546320a697766addc359706d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AbCellera (ABCL) Soars 64% as Drug Candidate Holds Huge Market Opportunity",
+    "url": "https://finance.yahoo.com/healthcare/articles/abcellera-abcl-soars-64-drug-010958336.html",
+    "summary": "",
+    "published_at": "2026-08-16T01:09:58+00:00",
+    "collected_at": "2026-08-17T08:07:51.083418+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -152867,37 +153483,6 @@
     "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
-    "tone_lexical": 0.0,
-    "crypto_tone": 0.0,
-    "is_stress": false,
-    "tone": 0.0,
-    "scored_by": "lexique"
-  },
-  {
-    "id": "b08cd76ed8c8e5775818060c",
-    "source": "amf_news",
-    "tier": 2,
-    "weight": 0.6,
-    "category": "reglementation",
-    "assets": [
-      "europe",
-      "btc",
-      "eth"
-    ],
-    "title": "Assemblées générales : évolution des règles concernant la communication avec les actionnaires et la date d’enregistrement",
-    "url": "https://www.amf-france.org/fr/actualites-publications/actualites/assemblees-generales-evolution-des-regles-concernant-la-communication-avec-les-actionnaires-et-la#xts=607212&xtor=RSS-3&type=RSS",
-    "summary": "Actualité Gouvernance Info périodique & permanente Assemblées générales : évolution des règles concernant la communication avec les actionnaires et la date d’enregistrement",
-    "published_at": "2026-05-19T07:52:13+00:00",
-    "collected_at": "2026-07-31T16:01:54.092103+00:00",
-    "categories": {},
-    "assets_detected": [],
-    "assets_effective": [
-      "europe",
-      "btc",
-      "eth"
-    ],
-    "has_decision_marker": false,
-    "importance": 0.6,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
