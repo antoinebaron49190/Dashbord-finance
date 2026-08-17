@@ -1,9 +1,9 @@
 {
   "2026-08-17": {
-    "articles_count": 376,
-    "signal_count": 38,
+    "articles_count": 390,
+    "signal_count": 39,
     "tone_cb": 0.6667,
-    "tone_global": 0.1587,
+    "tone_global": 0.1667,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
@@ -50,12 +50,12 @@
     ]
   },
   "2026-08-16": {
-    "articles_count": 238,
-    "signal_count": 12,
+    "articles_count": 275,
+    "signal_count": 15,
     "tone_cb": null,
-    "tone_global": -0.036,
+    "tone_global": 0.0355,
     "regul_crypto": null,
-    "stress": 0.0084,
+    "stress": 0.0072,
     "top": [
       {
         "id": "0e1d2017e26680174c30f8c7",
@@ -82,20 +82,20 @@
         "url": "https://finance.yahoo.com/small-business/articles/dave-ramsey-tells-couple-earning-193421347.html"
       },
       {
+        "id": "d9393b463170eb27685660bc",
+        "title": "American skips taxes for 4 years citing this strategy his CPA approved. Unfortunately, he's not all the way right",
+        "source": "yahoo_finance",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://finance.yahoo.com/economy/policy/articles/american-skips-taxes-4-years-123000044.html"
+      },
+      {
         "id": "813387dcca7ba20596475af5",
         "title": "Casino operator liquidated as Chapter 11 bankruptcy ends",
         "source": "yahoo_finance",
         "score": 0.3,
         "tone": -0.6,
         "url": "https://finance.yahoo.com/small-business/articles/casino-operator-liquidated-chapter-11-183942370.html"
-      },
-      {
-        "id": "cb73f546cebc2014f3119d27",
-        "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-says-ai-backlash-165351283.html"
       }
     ]
   },
