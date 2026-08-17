@@ -1,5 +1,414 @@
 [
   {
+    "id": "1c9880b3674dd0ceea8e2841",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "China-built data center stirs debate on Pakistan's digital sovereignty",
+    "url": "https://asia.nikkei.com/politics/international-relations/china-built-data-center-stirs-debate-on-pakistan-s-digital-sovereignty",
+    "summary": "",
+    "published_at": "2026-08-17T05:54:13.063023+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2d8a6d34d474df07f4274402",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "10-year JGB yields slip past 2.9% on faster BOJ tightening expectations",
+    "url": "https://asia.nikkei.com/business/markets/10-year-jgb-yields-slip-past-2.9-on-faster-boj-tightening-expectations",
+    "summary": "",
+    "published_at": "2026-08-17T05:54:13.063023+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "290ed5e51e9915b62b099a04",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "The bitcoin futures market has a 'crowded club, tiny exit' problem – and it could cause pain",
+    "url": "https://www.coindesk.com/markets/2026/08/17/the-bitcoin-futures-market-has-a-crowded-club-tiny-exit-problem-and-it-could-cause-pain",
+    "summary": "",
+    "published_at": "2026-08-17T05:51:18+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6907ee88ac0fe9f4b1445e85",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: GIC posts stronger Q1 2026 underwriting results",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-gic-posts-stronger-q1-2026-underwriting-results-93CH-4862150",
+    "summary": "",
+    "published_at": "2026-08-17T05:32:59+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "461fe038e2c8a1b4bc86fdf3",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jyske Bank buys back 54,769 shares in week 33",
+    "url": "https://www.investing.com/news/company-news/jyske-bank-buys-back-54769-shares-in-week-33-93CH-4862149",
+    "summary": "",
+    "published_at": "2026-08-17T05:32:40+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3fbc85a6ff21c04e5ffd40ff",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "HIVE Digital secures $350 million GPU cloud services contract",
+    "url": "https://www.investing.com/news/company-news/hive-digital-secures-350-million-gpu-cloud-services-contract-93CH-4862148",
+    "summary": "",
+    "published_at": "2026-08-17T05:32:37+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7cbade75397d85d7e53c5834",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Patanjali Foods posts record Q1 2026 revenue beat",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-patanjali-foods-posts-record-q1-2026-revenue-beat-93CH-4862147",
+    "summary": "",
+    "published_at": "2026-08-17T05:32:31+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1fbf33e0e0201a621bd4fb76",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "HIAG H1 profit nearly doubles as property revaluations, sales drive earnings",
+    "url": "https://www.investing.com/news/earnings/hiag-h1-profit-nearly-doubles-as-property-revaluations-sales-drive-earnings-4862146",
+    "summary": "",
+    "published_at": "2026-08-17T05:31:53+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0fcfbbbe049a59bd6484fe32",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Asian shares rise, dollar slips as markets pare Fed rate risks",
+    "url": "https://www.investing.com/news/economy-news/asian-shares-mark-time-as-gulf-war-keeps-oil-prices-up-4862057",
+    "summary": "",
+    "published_at": "2026-08-17T05:31:44+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "16c63fe51e9c1b8cccb9a76a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Mayville Engineering SVP Leuba sells $327,031 in company stock",
+    "url": "https://www.investing.com/news/insider-trading-news/mayville-engineering-svp-leuba-sells-327031-in-company-stock-93CH-4862144",
+    "summary": "",
+    "published_at": "2026-08-17T05:31:10+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "78c03b7c56c9b34aa6ac3d31",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "KB Home EVP Albert Praw sells $1.29 million in stock",
+    "url": "https://www.investing.com/news/insider-trading-news/kb-home-evp-albert-praw-sells-129-million-in-stock-93CH-4862143",
+    "summary": "",
+    "published_at": "2026-08-17T05:31:02+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d1eaf38bf161d359db607fd8",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is CanSino Biologics stock climbing today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-cansino-biologics-stock-climbing-today-93CH-4862141",
+    "summary": "",
+    "published_at": "2026-08-17T05:29:06+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7e9259a1d74d1669f84e10f0",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Geely first-half profit slips on forex loss; core earnings jump",
+    "url": "https://www.investing.com/news/earnings/geely-firsthalf-profit-slips-on-forex-loss-core-earnings-jump-4862140",
+    "summary": "",
+    "published_at": "2026-08-17T05:27:24+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "07e2286e449da2bff28fd448",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "XRP traders bet on a rebound as price slips to $1 and bearish chatter surges",
+    "url": "https://www.coindesk.com/markets/2026/08/17/xrp-traders-bet-on-a-rebound-as-price-slips-to-usd1-and-bearish-chatter-surges",
+    "summary": "",
+    "published_at": "2026-08-17T04:43:03+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {
+      "croissance": 1.0,
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "26b1b6107b1e842277e17cb4",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin tops $64,000 in Asia morning hours as HYPE jumps 8% on the week",
+    "url": "https://www.coindesk.com/markets/2026/08/17/bitcoin-tops-usd64-000-in-asia-morning-hours-as-hype-jumps-8-on-the-week",
+    "summary": "",
+    "published_at": "2026-08-17T04:14:00+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "17340d82cbe9d1b26244679e",
     "source": "nikkei_asia",
     "tier": 3,
@@ -9485,6 +9894,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "ee9157edd0b553e7801ce412",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dave Ramsey Says Gen Z and Millennials' Feelings About the Economy 'Aren't Facts.' They Could Have Doubled Their Money in the S&P 500",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/dave-ramsey-says-gen-z-183104830.html",
+    "summary": "",
+    "published_at": "2026-08-15T18:31:04+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "a3305ac87ddbadcc7c4f45f6",
     "source": "yahoo_finance",
     "tier": 3,
@@ -9529,6 +9968,32 @@
     "summary": "",
     "published_at": "2026-08-15T18:23:12+00:00",
     "collected_at": "2026-08-15T19:01:29.974829+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6f3580b0e7e73119c1432cb9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Owning a home is overrated. Renting is now often a much better money move.",
+    "url": "https://finance.yahoo.com/real-estate/articles/owning-home-overrated-renting-now-173000391.html",
+    "summary": "",
+    "published_at": "2026-08-15T18:23:00+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -9685,6 +10150,32 @@
     "summary": "",
     "published_at": "2026-08-15T18:13:50+00:00",
     "collected_at": "2026-08-15T19:01:29.974829+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a443c4cd8fa68ab166c6aaf9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Big Manufacturers Find New Demand in Equipping AI Data Centers",
+    "url": "https://www.wsj.com/business/big-manufacturers-find-new-demand-in-equipping-ai-data-centers-14e869ee?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-15T18:12:00+00:00",
+    "collected_at": "2026-08-17T05:54:13.063023+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],

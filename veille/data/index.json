@@ -1,9 +1,9 @@
 {
   "2026-08-17": {
-    "articles_count": 16,
-    "signal_count": 4,
+    "articles_count": 31,
+    "signal_count": 6,
     "tone_cb": null,
-    "tone_global": 0.2778,
+    "tone_global": 0.1923,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
@@ -14,6 +14,22 @@
         "score": 0.45,
         "tone": 0.5,
         "url": "https://asia.nikkei.com/politics/malaysia-s-dap-votes-to-stay-in-ruling-coalition-easing-pressure-on-anwar"
+      },
+      {
+        "id": "2d8a6d34d474df07f4274402",
+        "title": "10-year JGB yields slip past 2.9% on faster BOJ tightening expectations",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/business/markets/10-year-jgb-yields-slip-past-2.9-on-faster-boj-tightening-expectations"
+      },
+      {
+        "id": "07e2286e449da2bff28fd448",
+        "title": "XRP traders bet on a rebound as price slips to $1 and bearish chatter surges",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.coindesk.com/markets/2026/08/17/xrp-traders-bet-on-a-rebound-as-price-slips-to-usd1-and-bearish-chatter-surges"
       },
       {
         "id": "17340d82cbe9d1b26244679e",
@@ -30,22 +46,6 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://asia.nikkei.com/economy/japan-s-economy-shows-weaker-than-expected-1.1-growth-in-second-quarter"
-      },
-      {
-        "id": "726896e2c25787817d67db7f",
-        "title": "Yen stronger as traders cut back bets on Fed rate hike",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/yen-edges-up-as-traders-push-back-fed-rate-hike-bets-4862043"
-      },
-      {
-        "id": "edc98bf5b9ebde1b3a94c52c",
-        "title": "Japan's Rakuten to partner with German AI defense drone startup",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/aerospace-defense-industries/japan-s-rakuten-to-partner-with-german-ai-defense-drone-startup"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-15": {
-    "articles_count": 360,
+    "articles_count": 363,
     "signal_count": 20,
     "tone_cb": null,
     "tone_global": 0.185,
     "regul_crypto": null,
-    "stress": 0.0083,
+    "stress": 0.0082,
     "top": [
       {
         "id": "2606e8ea0ae55f5e7b7eeb34",
