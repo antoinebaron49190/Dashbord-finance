@@ -1,12 +1,20 @@
 {
   "2026-08-17": {
-    "articles_count": 49,
-    "signal_count": 8,
+    "articles_count": 103,
+    "signal_count": 14,
     "tone_cb": null,
-    "tone_global": 0.2647,
+    "tone_global": 0.1207,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "e6078ab3a44409711f93b192",
+        "title": "Philip R. Lane: The rise in defence spending and the euro area economy",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260817~1f9f7149c9.en.pdf"
+      },
       {
         "id": "90c5066d2ad7fb2ac49b15d7",
         "title": "Highlights of the Outlook for Economic Activity and Prices (July 2026)",
@@ -38,19 +46,11 @@
         "score": 0.45,
         "tone": 0.5,
         "url": "https://asia.nikkei.com/politics/malaysia-s-dap-votes-to-stay-in-ruling-coalition-easing-pressure-on-anwar"
-      },
-      {
-        "id": "c9e2ebdcfd972c4a92be2a59",
-        "title": "China's economic growth challenges mount as consumption slips",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/economy/china-s-economic-growth-challenges-mount-as-consumption-slips"
       }
     ]
   },
   "2026-08-16": {
-    "articles_count": 237,
+    "articles_count": 238,
     "signal_count": 12,
     "tone_cb": null,
     "tone_global": -0.036,
@@ -100,7 +100,7 @@
     ]
   },
   "2026-08-15": {
-    "articles_count": 363,
+    "articles_count": 364,
     "signal_count": 20,
     "tone_cb": null,
     "tone_global": 0.185,
