@@ -1,12 +1,20 @@
 {
   "2026-08-18": {
-    "articles_count": 89,
-    "signal_count": 10,
+    "articles_count": 140,
+    "signal_count": 14,
     "tone_cb": null,
-    "tone_global": 0.3333,
-    "regul_crypto": null,
+    "tone_global": 0.3286,
+    "regul_crypto": 0.6,
     "stress": 0.0,
     "top": [
+      {
+        "id": "3657862a82a33118b389008e",
+        "title": "Daily News 18 / 08 / 2026",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1739"
+      },
       {
         "id": "8b54a39cbbe701f67cb3c69d",
         "title": "XRP sinks below $1 for first time since 2024 as Korean bank adopts Ripple Payments",
@@ -24,33 +32,25 @@
         "url": "https://www.coindesk.com/markets/2026/08/18/xrp-slips-below-usd1-even-as-korean-regional-bank-adopts-ripple-payments"
       },
       {
+        "id": "cac9be99dd7418bc1d84bbe4",
+        "title": "Analysis-Canada's pipeline ambitions hinge on uncertain output expansion",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": 0.6667,
+        "url": "https://finance.yahoo.com/news/analysis-canadas-pipeline-ambitions-hinge-100608458.html"
+      },
+      {
         "id": "c57c23fccad5eac373c23d34",
         "title": "Dollar feeble as rate hike bets dwindle, Iran conflict in focus",
         "source": "yahoo_finance",
         "score": 0.3,
         "tone": -0.6667,
         "url": "https://finance.yahoo.com/news/dollar-feeble-rate-hike-bets-015445875.html"
-      },
-      {
-        "id": "c87f67b5f2e286a4fe67bf41",
-        "title": "KeyBanc upgrades Acadia Realty stock rating on earnings growth outlook",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/analyst-ratings/keybanc-upgrades-acadia-realty-stock-rating-on-earnings-growth-outlook-93CH-4864555"
-      },
-      {
-        "id": "2c425ad63ca018507ec041bf",
-        "title": "1 Top Growth Stock Down 22% This Year and Built for the Long Haul",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://finance.yahoo.com/markets/stocks/articles/1-top-growth-stock-down-084800621.html"
       }
     ]
   },
   "2026-08-17": {
-    "articles_count": 467,
+    "articles_count": 469,
     "signal_count": 45,
     "tone_cb": 0.6667,
     "tone_global": 0.1441,
