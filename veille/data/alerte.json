@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-18T03:11:12.690418+00:00",
+  "updated_at": "2026-08-18T05:17:00.840533+00:00",
   "pending": [
     {
-      "fingerprint": "regime:neutre->favorable au risque:2026-08-18",
-      "title": "Régime de marché : favorable au risque",
-      "body": "Le régime passe de « neutre » à « favorable au risque » (7 critères favorables sur 11 calculés).",
-      "kind": "regime",
-      "detected_at": "2026-08-18T03:11:12.690369+00:00"
+      "fingerprint": "trend:shanghai:baissiere->indecise:2026-08-18",
+      "title": "Shanghai : tendance sans direction nette",
+      "body": "Shanghai passe de « baissière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-08-18.",
+      "kind": "tendance",
+      "detected_at": "2026-08-18T05:17:00.840480+00:00"
     }
   ],
   "sent": [
@@ -27,7 +27,8 @@
     "trend:shanghai:baissiere->indecise:2026-08-17",
     "trend:btc:baissiere->indecise:2026-08-17",
     "regime:neutre->favorable au risque:2026-08-17",
-    "regime:neutre->favorable au risque:2026-08-18"
+    "regime:neutre->favorable au risque:2026-08-18",
+    "trend:shanghai:baissiere->indecise:2026-08-18"
   ],
   "extremes_active": [
     "extreme:Décote du Bitcoin sous son plus haut:haut",
