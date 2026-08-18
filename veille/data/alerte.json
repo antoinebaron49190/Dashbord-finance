@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-08-17T15:54:58.808304+00:00",
-  "pending": [],
+  "updated_at": "2026-08-18T03:11:12.690418+00:00",
+  "pending": [
+    {
+      "fingerprint": "regime:neutre->favorable au risque:2026-08-18",
+      "title": "Régime de marché : favorable au risque",
+      "body": "Le régime passe de « neutre » à « favorable au risque » (7 critères favorables sur 11 calculés).",
+      "kind": "regime",
+      "detected_at": "2026-08-18T03:11:12.690369+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -18,7 +26,8 @@
     "regime:favorable au risque->neutre:2026-08-14",
     "trend:shanghai:baissiere->indecise:2026-08-17",
     "trend:btc:baissiere->indecise:2026-08-17",
-    "regime:neutre->favorable au risque:2026-08-17"
+    "regime:neutre->favorable au risque:2026-08-17",
+    "regime:neutre->favorable au risque:2026-08-18"
   ],
   "extremes_active": [
     "extreme:Décote du Bitcoin sous son plus haut:haut",
