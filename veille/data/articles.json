@@ -1,5 +1,506 @@
 [
   {
+    "id": "644d3260e9a83d64f3fff463",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Hong Kong population up 20,000 on influx from mainland China",
+    "url": "https://asia.nikkei.com/economy/demography/hong-kong-population-up-20-000-on-influx-from-mainland-china",
+    "summary": "",
+    "published_at": "2026-08-18T19:25:23.394690+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1d63d50e0df2cc67956fdbe6",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "SEC proposes new crypto offering rules as Congress stalls on digital asset legislation",
+    "url": "https://www.theblock.co/news/regulation/2026-08-18-sec-proposes-new-crypto-offering-rules-congress-stalls-digital-asset-legislation-412145",
+    "summary": "On Tuesday, the SEC proposed a new rule that seeks to offer a pathway for investments involving digital assets.",
+    "published_at": "2026-08-18T19:23:53+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d86ee875b5bdabfa52d5601c",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Mortgage rates could move even higher — dealing a fresh blow to home buyers",
+    "url": "https://www.marketwatch.com/story/mortgage-rates-could-move-even-higher-dealing-a-fresh-blow-to-home-buyers-ad8d0f3d?mod=mw_rss_topstories",
+    "summary": "Mortgage rates rose slightly due to a deepening bond-market selloff.",
+    "published_at": "2026-08-18T19:17:00+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8e9f899d05ecaae81921c473",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Phillips 66 stock hits all-time high at 242.49 USD",
+    "url": "https://www.investing.com/news/company-news/phillips-66-stock-hits-alltime-high-at-24249-usd-93CH-4865909",
+    "summary": "",
+    "published_at": "2026-08-18T19:15:05+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "423815bc0189e6467771b7a9",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: NowVertical jumps 32% after q2 2026 profit gains",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-nowvertical-jumps-32-after-q2-2026-profit-gains-93CH-4865908",
+    "summary": "",
+    "published_at": "2026-08-18T19:14:49+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9822ff48d678b4e760c34827",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Singularity Future Technology prices $1.8M stock offering",
+    "url": "https://www.investing.com/news/company-news/singularity-future-technology-prices-18m-stock-offering-93CH-4865906",
+    "summary": "",
+    "published_at": "2026-08-18T19:12:35+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c40bb1d309b5378aa4eebce6",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Corporación América Airports posts mixed Q2 2026 results",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-corporacion-america-airports-posts-mixed-q2-2026-results-93CH-4865904",
+    "summary": "",
+    "published_at": "2026-08-18T19:11:53+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3918e4fd5d3e3963ef1bdce0",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Precision Optics at Lytham Partners summit: growth shifts to scale",
+    "url": "https://www.investing.com/news/transcripts/precision-optics-at-lytham-partners-summit-growth-shifts-to-scale-93CH-4865903",
+    "summary": "",
+    "published_at": "2026-08-18T19:11:23+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d6b196d142fe78ade5e49331",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Raymond James sees positive earnings trends across market caps",
+    "url": "https://www.investing.com/news/stock-market-news/raymond-james-sees-positive-earnings-trends-across-market-caps-93CH-4865902",
+    "summary": "",
+    "published_at": "2026-08-18T19:10:28+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "161919d63fa83fc05ca04beb",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "U.S. SEC proposes first major crypto rule in surprise announcement",
+    "url": "https://www.coindesk.com/policy/2026/08/18/r",
+    "summary": "",
+    "published_at": "2026-08-18T19:09:33+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "73a70f65f222e842c8b9fded",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Scott Peters from California’s 50th District makes extensive trades in U.S. Treasury Bills and other assets",
+    "url": "https://www.investing.com/news/company-news/scott-peters-from-californias-50th-district-makes-extensive-trades-in-us-treasury-bills-and-other-assets-93CH-4865900",
+    "summary": "",
+    "published_at": "2026-08-18T19:09:13+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "926d9f3e652296344e2938a9",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "OpenAI slows model training to bolster security after Hugging Face hack",
+    "url": "https://www.investing.com/news/economy-news/openai-slows-model-training-to-bolster-security-after-hugging-face-hack-4865899",
+    "summary": "",
+    "published_at": "2026-08-18T19:06:52+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d8f3c80edd0e07a01ab6518b",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Steve Cohen acquires significant stakes in JPMorgan Chase and U.S. Treasury Bill",
+    "url": "https://www.investing.com/news/company-news/steve-cohen-acquires-significant-stakes-in-jpmorgan-chase-and-us-treasury-bill-93CH-4865897",
+    "summary": "",
+    "published_at": "2026-08-18T19:06:33+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "694215c126411094d2ad2112",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Canada stocks slip 1% as inflation, tariffs and Middle East tensions weigh",
+    "url": "https://www.investing.com/news/economy-news/tsx-futures-inch-lower-amid-mideast-tensions-looming-us-tariff-deadline-4865076",
+    "summary": "",
+    "published_at": "2026-08-18T19:05:59+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "925b64bc44fcf06ed8d4c0aa",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Wyoming joins $15 billion LayerZero exodus with state stablecoin move",
+    "url": "https://www.coindesk.com/business/2026/08/18/wyoming-joins-usd15-billion-layerzero-exodus-with-state-stablecoin-move",
+    "summary": "",
+    "published_at": "2026-08-18T18:57:00+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4cb21db05312680f9a435200",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "How to compare life insurance quotes",
+    "url": "https://finance.yahoo.com/personal-finance/insurance/article/life-insurance-quotes-185319925.html",
+    "summary": "",
+    "published_at": "2026-08-18T18:53:19+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "150b96f4e6324251887a4884",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin correction may be nearing an end with 8 of 12 capitulation signals flashing, VanEck says",
+    "url": "https://www.theblock.co/news/markets/2026-08-18-bitcoin-correction-may-nearing-end-8-capitulation-signals-flashing-vaneck-412130",
+    "summary": "Long-term holders shed roughly 356,000 bitcoin over the past month, pushing their share of supply below 60%.",
+    "published_at": "2026-08-18T18:49:15+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d3a800b81ebafb060d6cadef",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Life insurance rates: Average costs by age and policy",
+    "url": "https://finance.yahoo.com/personal-finance/insurance/article/life-insurance-rates-184834481.html",
+    "summary": "",
+    "published_at": "2026-08-18T18:48:34+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "84d8bb62198a7fc7ab775eb8",
     "source": "nikkei_asia",
     "tier": 3,
@@ -482,6 +983,39 @@
     "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9db8adbf0149741b0956d6f7",
+    "source": "sec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "reglementation",
+    "assets": [
+      "sp500",
+      "btc",
+      "eth"
+    ],
+    "title": "SEC Proposes New Regulation Crypto Assets",
+    "url": "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets",
+    "summary": "The Securities and Exchange Commission today announced that it proposed new rules, titled “Regulation Crypto Assets,” that would create a clear and fit-for-purpose framework for certain investment contracts involving crypto assets. This proposal follows…",
+    "published_at": "2026-08-18T17:15:48+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.9,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
@@ -19240,6 +19774,84 @@
     "scored_by": "lexique"
   },
   {
+    "id": "f92e2a70d7b059a46ac0d7f5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Option Volatility And Earnings Report For Aug 17-21",
+    "url": "https://finance.yahoo.com/markets/options/articles/option-volatility-earnings-report-aug-110002337.html",
+    "summary": "",
+    "published_at": "2026-08-17T11:00:02+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4c0cb80a594fb02374be6041",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Azerbaijan seeks to nurture tech sector as it looks beyond oil",
+    "url": "https://finance.yahoo.com/technology/articles/azerbaijan-seeks-nurture-tech-sector-105944295.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:59:44+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "aca599201b45c7dc9ef052ce",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Equity Residential Stock: Analyst Estimates & Ratings",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/equity-residential-stock-analyst-estimates-105842940.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:58:42+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b4ccf5d87e9f6bd939a0c999",
     "source": "coindesk",
     "tier": 3,
@@ -19300,6 +19912,39 @@
     "scored_by": "lexique"
   },
   {
+    "id": "f5364bb252418c12e947d127",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Capital One Stock: Is Wall Street Bullish or Bearish?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/capital-one-stock-wall-street-104700766.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:47:00+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {
+      "crypto_favorable": 1.0,
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "2183a47ea3e1bcb26727b4b1",
     "source": "yahoo_finance",
     "tier": 3,
@@ -19326,6 +19971,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "0e606329e1c44c43c5522378",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Do Wall Street Analysts Like Pentair Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-pentair-stock-103829222.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:38:29+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "3788ea7f3669097fc5f98fc7",
     "source": "yahoo_finance",
     "tier": 3,
@@ -19340,6 +20015,32 @@
     "summary": "",
     "published_at": "2026-08-17T10:35:58+00:00",
     "collected_at": "2026-08-17T11:54:16.354103+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e055a89a56c886fb2f7e1cdd",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Stocks Set to Open Higher on Tech Boost, Fed Minutes and Retail Earnings Awaited",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-set-open-higher-tech-103548577.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:35:48+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -19382,6 +20083,142 @@
     "scored_by": "lexique"
   },
   {
+    "id": "2b54093331991712ef400f50",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "His Company Joined the S&P 500. His 401(k) Started Buying More of It Without Asking Him.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/company-joined-p-500-401-103023311.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:30:23+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0a62e0471747ff90e410a212",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why the Copper Squeeze May Reward This Mining Stock More Than Nvidia",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/why-copper-squeeze-may-reward-102949519.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:29:49+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f75587822991a4cb0e9b0a1c",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Elon Musk Just Uttered 3 Massively Bullish Words for Micron, Sandisk, and SK Hynix",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-just-uttered-3-102600118.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:26:00+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3126d28f8f6d5f7f711bbb4a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The Average Inheriting Family Will Receive $515,000 From the $36 Trillion Boomer Wealth Transfer. Most Millennials Will Get Nothing At All",
+    "url": "https://finance.yahoo.com/economy/articles/average-inheriting-family-receive-515-102538957.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:25:38+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a272ab20500f06a55bde8773",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Slate, Fulcrum to combine in reverse merger",
+    "url": "https://finance.yahoo.com/healthcare/articles/slate-fulcrum-combine-reverse-merger-102340395.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:23:40+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b4f3882d5455b58767d10f18",
     "source": "yahoo_finance",
     "tier": 3,
@@ -19409,6 +20246,34 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "98e3e1cd8da2ff712ca9d2f4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "ArcelorMittal Says Two Killed in Missile Strike on Ukraine Facility",
+    "url": "https://www.wsj.com/world/europe/arcelormittal-says-two-killed-in-missile-strike-on-ukraine-facility-98bfb001?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-17T10:19:00+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
     "scored_by": "lexique"
   },
   {
@@ -19479,6 +20344,58 @@
     "summary": "",
     "published_at": "2026-08-17T10:17:57.734488+00:00",
     "collected_at": "2026-08-17T10:17:57.734488+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5f615e3807f9f2fcd0b67316",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "How Much Do You Really Need Invested to Replace a $75,000 Salary With Dividends?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/much-really-invested-replace-75-101704884.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:17:04+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a6a6a4a473a758dfd42742c9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Home Improvement’s Hangover Could Last",
+    "url": "https://www.wsj.com/finance/stocks/home-improvements-hangover-could-last-90cb961d?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-17T10:17:00+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -19571,6 +20488,38 @@
     "scored_by": "lexique"
   },
   {
+    "id": "70a12c962abb072889cb38a4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dutch Prosecutors Sell $2.5M of Crypto From Bankrupt Platform Knaken",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/dutch-prosecutors-sell-2-5m-101341510.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:13:41+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "0aae4a47aed5648b3f9d5493",
     "source": "investing_com",
     "tier": 3,
@@ -19590,6 +20539,32 @@
     "assets_effective": [],
     "has_decision_marker": true,
     "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c05e1fd7a3005d9590026920",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why Sandisk Bulls Think the Old Memory Boom-And-Bust Playbook Is Dead",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-sandisk-bulls-think-old-101317556.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:13:17+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
@@ -19691,6 +20666,32 @@
     "summary": "",
     "published_at": "2026-08-17T10:12:34+00:00",
     "collected_at": "2026-08-17T10:17:57.734488+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "73c56583366af979a03ddd42",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "BitMart CEO Calls Accusations Fabricated as Users Report Frozen Withdrawals",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bitmart-ceo-calls-accusations-fabricated-101031033.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:10:31+00:00",
+    "collected_at": "2026-08-18T19:25:23.394690+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
