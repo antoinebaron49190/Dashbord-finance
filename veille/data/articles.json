@@ -1,5 +1,495 @@
 [
   {
+    "id": "205a09ed0a77d418a5eaee53",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Former Komatsu chief Sakane dies at 85",
+    "url": "https://asia.nikkei.com/life-arts/obituaries/former-komatsu-chief-sakane-dies-at-85",
+    "summary": "",
+    "published_at": "2026-08-18T07:58:25.415423+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "13ae8729e781271583972a63",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Vietnam taps Samsung hub and Ha Long Bay province as growth zones",
+    "url": "https://asia.nikkei.com/economy/vietnam-taps-samsung-hub-and-ha-long-bay-province-as-growth-zones",
+    "summary": "",
+    "published_at": "2026-08-18T07:58:25.415423+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7e963d2c6e86387226ed56e4",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "BHP, Port Hedland unions fail to reach wage deal; talks to resume on August 25",
+    "url": "https://www.investing.com/news/stock-market-news/australias-bhp-unions-fail-to-reach-wage-deal-4864265",
+    "summary": "",
+    "published_at": "2026-08-18T07:54:30+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a495007d914fd913ace52b7d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Kainos shares surges nearly 22% as strong demand lifts full-year outlook",
+    "url": "https://www.investing.com/news/stock-market-news/kainos-shares-surges-nearly-22-as-strong-demand-lifts-fullyear-outlook-4864442",
+    "summary": "",
+    "published_at": "2026-08-18T07:53:38+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2069855fd74f684a9bf40adf",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jefferies downgrades ADCB, Alinma to Hold as MENA bank outlook diverges",
+    "url": "https://www.investing.com/news/stock-market-news/jefferies-downgrades-adcb-alinma-to-hold-as-mena-bank-outlook-diverges-4864441",
+    "summary": "",
+    "published_at": "2026-08-18T07:53:12+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cbe6bf18665112aca8028110",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Elopak Q2 2026 slides: revenue rises 5% as supply woes weigh",
+    "url": "https://www.investing.com/news/company-news/elopak-q2-2026-slides-revenue-rises-5-as-supply-woes-weigh-93CH-4864440",
+    "summary": "",
+    "published_at": "2026-08-18T07:52:51+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7d6cf5bfd862a4ed49a769d6",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Garanti BBVA receives approval for $100m bond issuance",
+    "url": "https://www.investing.com/news/company-news/garanti-bbva-receives-approval-for-100m-bond-issuance-93CH-4864437",
+    "summary": "",
+    "published_at": "2026-08-18T07:50:35+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2b7f31921c244492d8f7f3c7",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Brookfield targets Australia’s Reliance again with $2.9 billion bid",
+    "url": "https://www.investing.com/news/stock-market-news/australias-reliance-worldwide-receives-29-billion-takeover-bid-from-brookfield-4864096",
+    "summary": "",
+    "published_at": "2026-08-18T07:49:14+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ef8b733c38de5a1e57dce0c0",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "UK labour market loses more momentum in second quarter",
+    "url": "https://www.investing.com/news/economy-news/uk-wage-growth-35-in-the-second-quarter-4864297",
+    "summary": "",
+    "published_at": "2026-08-18T07:48:55+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e4de98722d3ab29506a5c237",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Jupiter Wagons posts strong q1 2026 revenue growth",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-jupiter-wagons-posts-strong-q1-2026-revenue-growth-93CH-4864436",
+    "summary": "",
+    "published_at": "2026-08-18T07:47:30+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a2178753b4670df3decccc54",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Axis Bank’s $300m notes receive Baa3 rating from Moody’s",
+    "url": "https://www.investing.com/news/company-news/axis-banks-300m-notes-receive-baa3-rating-from-moodys-93CH-4864435",
+    "summary": "",
+    "published_at": "2026-08-18T07:46:41+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "19d8944b8526be546c1fb558",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: PSP Swiss Property posts solid H1 2026 results",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-psp-swiss-property-posts-solid-h1-2026-results-93CH-4864434",
+    "summary": "",
+    "published_at": "2026-08-18T07:45:59+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "70c1084cf68d0dc46816aba4",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Cathie Wood’s Ark Invest scoops up $15 million in Block Inc shares as stock dips 3%",
+    "url": "https://www.theblock.co/news/markets/2026-08-18-cathie-wood-ark-invest-15-million-block-inc-412060",
+    "summary": "The firm also bought $1 million worth of Securitize shares, which fell over 20% last week following disappointing Q2 results.",
+    "published_at": "2026-08-18T07:37:40+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5a06e8ba930483ac965ae658",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Ripple partners with South Korea’s Jeonbuk Bank for cross-border payments",
+    "url": "https://www.theblock.co/news/business/2026-08-18-ripple-south-korea-jeonbuk-bank-412049",
+    "summary": "The Jeonbuk Bank collaboration marked Ripple's third Korean partnership this year, following those with Kyobo Life Insurance and Kbank.",
+    "published_at": "2026-08-18T06:17:53+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "47845b0450974b1a337d62aa",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "The bitcoin price level where leveraged bulls could get whacked",
+    "url": "https://www.coindesk.com/markets/2026/08/18/the-bitcoin-price-level-where-leveraged-bulls-could-get-whacked",
+    "summary": "",
+    "published_at": "2026-08-18T05:55:43+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8b54a39cbbe701f67cb3c69d",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "XRP sinks below $1 for first time since 2024 as Korean bank adopts Ripple Payments",
+    "url": "https://www.coindesk.com/markets/2026/08/18/xrp-slips-below-usd1-even-as-korean-regional-bank-adopts-ripple-payments",
+    "summary": "",
+    "published_at": "2026-08-18T05:34:32+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f5c23f6fae6cda0bfccdda62",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Upbit and Bithumb report 50% declines in H1 revenue, reflecting market contraction",
+    "url": "https://www.theblock.co/news/markets/2026-08-18-upbit-bithumb-h1-decline-412034",
+    "summary": "Investor capital in South Korea largely shifted toward domestic equities, with the benchmark KOSPI more than doubling in H1 2026.",
+    "published_at": "2026-08-18T05:30:25+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "03294635e3f18a6fd32dc540",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Monad, an Ethereum rival, offered early investors up to $60 million to cash out. Almost all said no",
+    "url": "https://www.coindesk.com/markets/2026/08/18/monad-an-ethereum-rival-offered-early-investors-up-to-usd60-million-to-cash-out-almost-all-said-no",
+    "summary": "",
+    "published_at": "2026-08-18T05:18:18+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [
+      "eth"
+    ],
+    "assets_effective": [
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "13b32f563e808ad5bfef921c",
     "source": "nikkei_asia",
     "tier": 3,
@@ -430,6 +920,32 @@
     "assets_effective": [
       "asie"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fdb40d44a40a1d0eb722d7bb",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "5-star analyst sets alarming SpaceX stock price target",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/5-star-analyst-sets-alarming-030700322.html",
+    "summary": "",
+    "published_at": "2026-08-18T03:07:00+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -12659,6 +13175,110 @@
     "scored_by": "lexique"
   },
   {
+    "id": "73e68dd1f236ec5f0598de63",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Leveraged ETF Craze Turns Its Sights to Other Funds",
+    "url": "https://finance.yahoo.com/markets/options/articles/leveraged-etf-craze-turns-sights-040300408.html",
+    "summary": "",
+    "published_at": "2026-08-17T04:03:00+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5818d4b7d34df63f3024df8a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The ETF Searching for Alpha Without the Male",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/etf-searching-alpha-without-male-040200036.html",
+    "summary": "",
+    "published_at": "2026-08-17T04:02:00+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4c93fd59c31bf220078464fc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Janus Henderson’s JAAA Just Topped $30B. What’s Next For CLOs?",
+    "url": "https://finance.yahoo.com/markets/options/articles/janus-henderson-jaaa-just-topped-040100415.html",
+    "summary": "",
+    "published_at": "2026-08-17T04:01:00+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a353c81949e30ac432d1219c",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Big Box Earnings Preview: Walmart, Target Poised to Benefit From Value Shoppers",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/big-box-earnings-preview-walmart-040100283.html",
+    "summary": "",
+    "published_at": "2026-08-17T04:01:00+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "17340d82cbe9d1b26244679e",
     "source": "nikkei_asia",
     "tier": 3,
@@ -12824,6 +13444,36 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "edf0ca04d1094bfa58fd8d77",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dow Jones Futures: Nvidia Leads 5 Stocks In Buy Areas, Sandisk Nears Key Level; Walmart Looms",
+    "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-run-sandisk-soars-nvidia-buy-walmart-target/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-17T03:06:02+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
@@ -13088,6 +13738,60 @@
     "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ff76d941be1119adfcd8bd2e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Petrobras Finds Hydrocarbons in First Amapá Offshore Discovery",
+    "url": "https://finance.yahoo.com/energy/articles/petrobras-finds-hydrocarbons-first-amap-021500715.html",
+    "summary": "",
+    "published_at": "2026-08-17T02:15:00+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "793ae81b660ae4566dd85127",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Argentina LNG Seeks RIGI Approval for $51 Billion Export Project",
+    "url": "https://finance.yahoo.com/energy/articles/argentina-lng-seeks-rigi-approval-015747805.html",
+    "summary": "",
+    "published_at": "2026-08-17T01:57:47+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
     "is_stress": false,
     "tone": 0.0,
     "scored_by": "lexique"
@@ -13488,6 +14192,32 @@
     "summary": "",
     "published_at": "2026-08-16T22:10:04+00:00",
     "collected_at": "2026-08-16T22:49:00.979206+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "27e95706e0e1519a09dca539",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Avita Medical Raises 2026 Revenue Outlook as Q2 Sales Climb 18%",
+    "url": "https://finance.yahoo.com/healthcare/articles/avita-medical-raises-2026-revenue-220156208.html",
+    "summary": "",
+    "published_at": "2026-08-16T22:01:56+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -13984,6 +14714,34 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "338acd33de657f517059d323",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Avita Medical Targets Q4 2025 Cash Flow Breakeven as Revenue Growth Builds",
+    "url": "https://finance.yahoo.com/healthcare/articles/avita-medical-targets-q4-2025-210153230.html",
+    "summary": "",
+    "published_at": "2026-08-16T21:01:53+00:00",
+    "collected_at": "2026-08-18T07:58:25.415423+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
     "scored_by": "lexique"
   },
   {
