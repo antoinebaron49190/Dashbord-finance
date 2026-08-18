@@ -1,12 +1,28 @@
 {
   "2026-08-18": {
-    "articles_count": 174,
-    "signal_count": 17,
+    "articles_count": 230,
+    "signal_count": 27,
     "tone_cb": null,
-    "tone_global": 0.2941,
-    "regul_crypto": 0.6,
-    "stress": 0.0056,
+    "tone_global": 0.2694,
+    "regul_crypto": 0.6265,
+    "stress": 0.0169,
     "top": [
+      {
+        "id": "300caddfd632568e969502a7",
+        "title": "Joint statement by High Representative/Vice-President Kallas and Commissioner Lahbib ahead of World Humanitarian Day*",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": -0.6,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1741"
+      },
+      {
+        "id": "a3ff2ce410c49b4256514a5b",
+        "title": "ESMA consults on reporting framework for clearing activity at recognised third-country CCPs",
+        "source": "esma_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.esma.europa.eu/press-news/esma-news/esma-consults-reporting-framework-clearing-activity-recognised-third-country"
+      },
       {
         "id": "3657862a82a33118b389008e",
         "title": "Daily News 18 / 08 / 2026",
@@ -30,27 +46,11 @@
         "score": 0.45,
         "tone": 0.0,
         "url": "https://finance.yahoo.com/small-business/articles/burq-bets-last-mile-decision-110000069.html"
-      },
-      {
-        "id": "8b54a39cbbe701f67cb3c69d",
-        "title": "XRP sinks below $1 for first time since 2024 as Korean bank adopts Ripple Payments",
-        "source": "coindesk",
-        "score": 0.45,
-        "tone": 0.0,
-        "url": "https://www.coindesk.com/markets/2026/08/18/xrp-slips-below-usd1-even-as-korean-regional-bank-adopts-ripple-payments"
-      },
-      {
-        "id": "6158f59572ce9a95b22f3500",
-        "title": "XRP sinks below $1 for first time since 2024 even as Korean bank adopts Ripple Payments",
-        "source": "coindesk",
-        "score": 0.45,
-        "tone": 0.0,
-        "url": "https://www.coindesk.com/markets/2026/08/18/xrp-slips-below-usd1-even-as-korean-regional-bank-adopts-ripple-payments"
       }
     ]
   },
   "2026-08-17": {
-    "articles_count": 469,
+    "articles_count": 470,
     "signal_count": 45,
     "tone_cb": 0.6667,
     "tone_global": 0.1441,
@@ -3026,7 +3026,7 @@
     ]
   },
   "2026-05-20": {
-    "articles_count": 2,
+    "articles_count": 1,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
@@ -3040,14 +3040,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm"
-      },
-      {
-        "id": "1f5cc496a5f075fad4620fe0",
-        "title": "ESRB seeks new members for its Advisory Scientific Committee",
-        "source": "esrb_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.esrb.europa.eu//news/pr/date/2026/html/esrb.pr260520~5954c3faaa.en.html"
       }
     ]
   },
