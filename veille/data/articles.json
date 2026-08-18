@@ -1,5 +1,438 @@
 [
   {
+    "id": "84d8bb62198a7fc7ab775eb8",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Japan middle class loses spending power despite years of pay raises",
+    "url": "https://asia.nikkei.com/economy/japan-middle-class-loses-spending-power-despite-years-of-pay-raises",
+    "summary": "",
+    "published_at": "2026-08-18T18:34:54.830170+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "66a21978145cf57c8b91a0d9",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Pocari Sweat maker views US, Europe heat waves as way to expand",
+    "url": "https://asia.nikkei.com/business/food-beverage/pocari-sweat-maker-views-us-europe-heat-waves-as-way-to-expand",
+    "summary": "",
+    "published_at": "2026-08-18T18:34:54.830170+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "73e808ce864ca9f0870f1274",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "LG Energy Solution opens US battery hub serving Toyota and Tesla",
+    "url": "https://asia.nikkei.com/business/technology/lg-energy-solution-opens-us-battery-hub-serving-toyota-and-tesla",
+    "summary": "",
+    "published_at": "2026-08-18T18:34:54.830170+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cf5d1726ca2783ef57ff2c03",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The national debt is about to hit $40 trillion. Here’s how it can hurt Americans.",
+    "url": "https://www.marketwatch.com/story/the-national-debt-is-about-to-hit-40-trillion-heres-how-it-can-hurt-americans-b4f252b9?mod=mw_rss_topstories",
+    "summary": "A research group looked at the consequences for a student financing college, a family buying a home and a Social Security recipient.",
+    "published_at": "2026-08-18T18:33:00+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cb17a4c0bc233f1ec14fc8dd",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The Fed minutes are coming —and they’re more crucial now as Warsh limits his communication",
+    "url": "https://www.marketwatch.com/story/the-fed-minutes-are-coming-and-theyre-more-crucial-now-as-warsh-limits-his-communication-fd780695?mod=mw_rss_topstories",
+    "summary": "Investors are starved for information in a new world of “terse” communication from the central bank.",
+    "published_at": "2026-08-18T18:19:00+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5167aedeef329507db747a31",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "US imposes sanctions on British Virgin Islands entity",
+    "url": "https://www.investing.com/news/economy-news/us-imposes-sanctions-on-british-virgin-islands-entity-93CH-4865850",
+    "summary": "",
+    "published_at": "2026-08-18T18:05:40+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f6cea329fcf969e3aeea81a7",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Century Casinos at Lytham Partners summit: growth, leverage improve",
+    "url": "https://www.investing.com/news/transcripts/century-casinos-at-lytham-partners-summit-growth-leverage-improve-93CH-4865848",
+    "summary": "",
+    "published_at": "2026-08-18T18:04:25+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1539ee6a47512d2ffbed9b1c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Fabrinet at Rosenblatt ai summit: growth broadens beyond nvidia",
+    "url": "https://www.investing.com/news/transcripts/fabrinet-at-rosenblatt-ai-summit-growth-broadens-beyond-nvidia-93CH-4865847",
+    "summary": "",
+    "published_at": "2026-08-18T18:04:24+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "229b74db99fa34ef45269f3d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Prairie Operating at EnerCom Denver: growth, hedges and Rockies scale",
+    "url": "https://www.investing.com/news/transcripts/prairie-operating-at-enercom-denver-growth-hedges-and-rockies-scale-93CH-4865845",
+    "summary": "",
+    "published_at": "2026-08-18T18:02:34+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "773973f1b2f36265c1e5827a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Canadian, U.S. officials push for a deal ahead of midnight tariff deadline - CBC",
+    "url": "https://www.investing.com/news/economy-news/canadian-us-officials-push-for-a-deal-ahead-of-midnight-tariff-deadline--cbc-4865841",
+    "summary": "",
+    "published_at": "2026-08-18T18:01:32+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b7598b9dabe810f280fc7889",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Glencore’s planned Australian debut draws interest as investors look past coal",
+    "url": "https://www.investing.com/news/stock-market-news/glencores-planned-australian-debut-draws-interest-as-investors-look-past-coal-4864364",
+    "summary": "",
+    "published_at": "2026-08-18T18:01:03+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6411e7b40d9b6ede44a6e33e",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "FOMC minutes, crude oil inventories among economic data due Wednesday",
+    "url": "https://www.investing.com/news/stock-market-news/fomc-minutes-crude-oil-inventories-among-economic-data-due-wednesday-93CH-4865840",
+    "summary": "",
+    "published_at": "2026-08-18T18:00:36+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4eec17c8c0f2ea4e4195ab07",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Griffon closes $800M notes offering, extends credit facility",
+    "url": "https://www.investing.com/news/company-news/griffon-closes-800m-notes-offering-extends-credit-facility-93CH-4865839",
+    "summary": "",
+    "published_at": "2026-08-18T18:00:33+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0bf65d8d442a5df5541c9ba3",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Anthropic’s pre-IPO credit facility set to exceed $10 billion, Bloomberg News reports",
+    "url": "https://www.investing.com/news/stock-market-news/anthropics-preipo-credit-facility-set-to-exceed-10-billion-bloomberg-news-reports-4865836",
+    "summary": "",
+    "published_at": "2026-08-18T17:54:35+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bbb5892b06f613f036800c8a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Analysis-Canada’s pipeline ambitions hinge on uncertain output expansion",
+    "url": "https://www.investing.com/news/commodities-news/analysiscanadas-pipeline-ambitions-hinge-on-uncertain-output-expansion-4864712",
+    "summary": "",
+    "published_at": "2026-08-18T17:49:16+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {
+      "croissance": 2.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6667,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.6667,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "85c0622cab9d91fc30b54add",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Here’s the case for Nvidia’s stock to climb 55%, according to BofA",
+    "url": "https://www.marketwatch.com/story/heres-the-case-for-nvidias-stock-to-climb-55-from-here-according-to-bofa-f5483409?mod=mw_rss_topstories",
+    "summary": "An analyst is looking past financing risks and noting that Nvidia could appeal to investors through its enhanced share buybacks.",
+    "published_at": "2026-08-18T17:26:00+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b418381c46d6384cccec8209",
     "source": "nikkei_asia",
     "tier": 3,
@@ -44,6 +477,32 @@
     "summary": "",
     "published_at": "2026-08-18T17:24:30.023292+00:00",
     "collected_at": "2026-08-18T17:24:30.023292+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "54f21feaeb0bf305d992f006",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Costco launching Medicare Advantage plans with SCAN Group",
+    "url": "https://finance.yahoo.com/healthcare/articles/costco-launching-medicare-advantage-plans-171035001.html",
+    "summary": "",
+    "published_at": "2026-08-18T17:10:35+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -18923,6 +19382,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "b4f3882d5455b58767d10f18",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Do Wall Street Analysts Like Marathon Petroleum Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-marathon-petroleum-102300856.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:23:00+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "1f6d6ad210039c343c1d300c",
     "source": "nikkei_asia",
     "tier": 3,
@@ -19540,6 +20029,65 @@
     "scored_by": "lexique"
   },
   {
+    "id": "542384eba6ca3cf8ba3a2884",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Darden Restaurants Stock: Analyst Estimates & Ratings",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/darden-restaurants-stock-analyst-estimates-095738208.html",
+    "summary": "",
+    "published_at": "2026-08-17T09:57:38+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ad7468d1bdd7f5333984941a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Marsh & McLennan Stock: Is Wall Street Bullish or Bearish?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/marsh-mclennan-stock-wall-street-094905795.html",
+    "summary": "",
+    "published_at": "2026-08-17T09:49:05+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {
+      "crypto_favorable": 1.0,
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "729f1b7e3b4081cc066819ea",
     "source": "yahoo_finance",
     "tier": 3,
@@ -19682,6 +20230,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "5587c1a48304cbeb1c45f2be",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "What Are Wall Street Analysts' Target Price for Hilton Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-093416228.html",
+    "summary": "",
+    "published_at": "2026-08-17T09:34:16+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b21eba7ef3733c1a255043f4",
     "source": "yahoo_finance",
     "tier": 3,
@@ -19731,6 +20309,140 @@
     ],
     "has_decision_marker": false,
     "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0ac2e84f14e51c13c30e196e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The Secret Word Game Bank of America’s CEO Plays With Wall Street",
+    "url": "https://www.wsj.com/finance/banking/the-secret-word-game-bank-of-americas-ceo-plays-with-wall-street-987dcbee?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-17T09:30:00+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "61619a17a99b4ecf03079028",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why Warehouses Are Rolling In More Robots",
+    "url": "https://www.wsj.com/logistics-report/why-warehouses-are-rolling-in-more-robots-09dc27e7?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-17T09:30:00+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4bb6e783f0b569fe93e7fee7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The Hidden Advantages of Being a Job Hopper",
+    "url": "https://www.wsj.com/lifestyle/careers/the-hidden-advantages-of-being-a-job-hopper-e84e3830?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-17T09:30:00+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ef068cafd11a6b6f7830c74d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AI Is Driving Up Treasury Yields: ‘It Just Touches Everything’",
+    "url": "https://finance.yahoo.com/economy/policy/articles/ai-driving-treasury-yields-just-093000747.html",
+    "summary": "",
+    "published_at": "2026-08-17T09:30:00+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d3235ec05a1153344d5f758c",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Skanska-Stacy Witbeck JV wins $1.9B California light rail segment",
+    "url": "https://finance.yahoo.com/real-estate/articles/skanska-stacy-witbeck-jv-wins-092700098.html",
+    "summary": "",
+    "published_at": "2026-08-17T09:27:00+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
@@ -19816,6 +20528,34 @@
     "scored_by": "lexique"
   },
   {
+    "id": "b2c5154f8d348c154e6cdc55",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dollar Extends Slide as Traders Scale Back Fed Tightening Bets",
+    "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-extends-slide-traders-scale-092021327.html",
+    "summary": "",
+    "published_at": "2026-08-17T09:20:21+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
     "id": "be354526e0f0d0088141664d",
     "source": "yahoo_finance",
     "tier": 3,
@@ -19842,6 +20582,34 @@
     "scored_by": "lexique"
   },
   {
+    "id": "f654e016005037767a0130bc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Lowe’s Earnings Preview: Can Pro Growth and Digital Momentum Offset Weak DIY Demand?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/lowe-earnings-preview-pro-growth-091853853.html",
+    "summary": "",
+    "published_at": "2026-08-17T09:18:53+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
     "id": "f88797d767d9e8b0cbfbd59a",
     "source": "yahoo_finance",
     "tier": 3,
@@ -19865,6 +20633,34 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "11565b8ab7c301561982a5b1",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dollar, Treasury Yields Fall. Any Middle East Escalation Could Push Them Higher.",
+    "url": "https://www.barrons.com/livecoverage/stock-market-news-today-081726/card/dollar-treasury-yields-fall-any-middle-east-escalation-could-push-them-higher--ToPkHu29mVl0NOFEJWS0?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-17T09:16:38+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
     "scored_by": "lexique"
   },
   {
@@ -20376,6 +21172,58 @@
     "summary": "Former Starbucks CEO Howard Schultz has sold his longtime Hawaii sanctuary for the staggering price of $36 million—just months after he bought a $44 million residence in Florida.",
     "published_at": "2026-08-17T09:01:00+00:00",
     "collected_at": "2026-08-17T10:17:57.734488+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a533eba64817564512361fa5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Home Depot Earnings Preview: Can Pro Demand Offset a Weak Housing Market?",
+    "url": "https://finance.yahoo.com/real-estate/articles/home-depot-earnings-preview-pro-090048816.html",
+    "summary": "",
+    "published_at": "2026-08-17T09:00:48+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a751b2558060513866d07c42",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "How Can I Roll Over $720k to a Roth IRA While Minimizing Taxes?",
+    "url": "https://finance.yahoo.com/news/want-roll-over-720k-roth-123000007.html",
+    "summary": "",
+    "published_at": "2026-08-17T09:00:00+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -21088,6 +21936,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "710d8721bf960f53ee148419",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "US Dollar Price Forecast: Fed Hike Bets Fade as EUR/USD and GBP/USD Rally",
+    "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-073820762.html",
+    "summary": "",
+    "published_at": "2026-08-17T07:38:20+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "147d3b7976d9e35a414610b4",
     "source": "bis_cb_speeches",
     "tier": 1,
@@ -21365,6 +22239,32 @@
     ],
     "has_decision_marker": false,
     "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8f1dbd2b473f5ba821999b7d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Ask an Advisor: What Are My Options for Managing My Retirement Account After I Retire?",
+    "url": "https://finance.yahoo.com/markets/articles/ask-advisor-retirement-accounts-retire-160430428.html",
+    "summary": "",
+    "published_at": "2026-08-17T07:00:00+00:00",
+    "collected_at": "2026-08-18T18:34:54.830170+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
@@ -177237,35 +178137,6 @@
     ],
     "has_decision_marker": false,
     "importance": 0.6,
-    "tone_lexical": 0.0,
-    "crypto_tone": 0.0,
-    "is_stress": false,
-    "tone": 0.0,
-    "scored_by": "lexique"
-  },
-  {
-    "id": "7912779d5e1c4a841a36aeb3",
-    "source": "fed_press_monetary",
-    "tier": 1,
-    "weight": 1.0,
-    "category": "politique_monetaire",
-    "assets": [
-      "sp500",
-      "msci_world"
-    ],
-    "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
-    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260520a.htm",
-    "summary": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
-    "published_at": "2026-05-20T18:00:00+00:00",
-    "collected_at": "2026-07-31T16:01:54.092103+00:00",
-    "categories": {},
-    "assets_detected": [],
-    "assets_effective": [
-      "sp500",
-      "msci_world"
-    ],
-    "has_decision_marker": false,
-    "importance": 1.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
