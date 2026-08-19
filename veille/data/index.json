@@ -1,11 +1,11 @@
 {
   "2026-08-19": {
-    "articles_count": 38,
-    "signal_count": 5,
+    "articles_count": 51,
+    "signal_count": 6,
     "tone_cb": null,
-    "tone_global": -0.36,
+    "tone_global": -0.3834,
     "regul_crypto": null,
-    "stress": 0.0263,
+    "stress": 0.0196,
     "top": [
       {
         "id": "1da615dcf3cd82e24d92fb27",
@@ -24,6 +24,14 @@
         "url": "https://www.marketwatch.com/story/trump-holds-off-on-new-50-tariffs-for-canadian-goods-71f75005?mod=mw_rss_topstories"
       },
       {
+        "id": "9cd40d6b107457c2b853bfed",
+        "title": "South Korea cuts short joint military exercises after Trump intervention",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/spotlight/north-korea-tensions/south-korea-cuts-short-joint-military-exercises-after-trump-intervention"
+      },
+      {
         "id": "1bfd61e089b763052912752e",
         "title": "RBA’s Hauser warns of rate hike if inflation risks crystallize",
         "source": "investing_com",
@@ -38,14 +46,6 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://asia.nikkei.com/spotlight/myanmar-crisis/thailand-hosts-myanmar-military-chief-deepening-bilateral-ties"
-      },
-      {
-        "id": "4990027aee512e72814b9353",
-        "title": "Baidu shares hit near 1-year low as weak earnings expose limits of AI growth push",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/stock-market-news/baidu-shares-hit-near-1year-low-as-weak-earnings-expose-limits-of-ai-growth-push-4866379"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-17": {
-    "articles_count": 608,
+    "articles_count": 632,
     "signal_count": 63,
     "tone_cb": 0.6667,
     "tone_global": 0.0839,
     "regul_crypto": null,
-    "stress": 0.003,
+    "stress": 0.0029,
     "top": [
       {
         "id": "147d3b7976d9e35a414610b4",
