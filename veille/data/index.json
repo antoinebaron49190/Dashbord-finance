@@ -1,11 +1,11 @@
 {
   "2026-08-19": {
-    "articles_count": 51,
-    "signal_count": 6,
+    "articles_count": 62,
+    "signal_count": 7,
     "tone_cb": null,
-    "tone_global": -0.3834,
+    "tone_global": -0.4,
     "regul_crypto": null,
-    "stress": 0.0196,
+    "stress": 0.0161,
     "top": [
       {
         "id": "1da615dcf3cd82e24d92fb27",
@@ -24,6 +24,14 @@
         "url": "https://www.marketwatch.com/story/trump-holds-off-on-new-50-tariffs-for-canadian-goods-71f75005?mod=mw_rss_topstories"
       },
       {
+        "id": "c1e2395368e1d0460ffcd2ff",
+        "title": "South Korea cuts short joint military exercises after Trump intervention",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/politics/defense/south-korea-cuts-short-joint-military-exercises-after-trump-intervention2"
+      },
+      {
         "id": "9cd40d6b107457c2b853bfed",
         "title": "South Korea cuts short joint military exercises after Trump intervention",
         "source": "nikkei_asia",
@@ -38,14 +46,6 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://www.investing.com/news/economy-news/rbas-hauser-warns-of-rate-hike-if-inflation-risks-crystallize-4866395"
-      },
-      {
-        "id": "0faab3956caf3199901ce1a1",
-        "title": "Thailand hosts Myanmar military chief, deepening bilateral ties",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/spotlight/myanmar-crisis/thailand-hosts-myanmar-military-chief-deepening-bilateral-ties"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-17": {
-    "articles_count": 632,
-    "signal_count": 63,
+    "articles_count": 654,
+    "signal_count": 66,
     "tone_cb": 0.6667,
-    "tone_global": 0.0839,
+    "tone_global": 0.0946,
     "regul_crypto": null,
-    "stress": 0.0029,
+    "stress": 0.0028,
     "top": [
       {
         "id": "147d3b7976d9e35a414610b4",
