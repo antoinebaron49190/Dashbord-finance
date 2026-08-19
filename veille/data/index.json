@@ -1,12 +1,20 @@
 {
   "2026-08-19": {
-    "articles_count": 26,
-    "signal_count": 3,
+    "articles_count": 38,
+    "signal_count": 5,
     "tone_cb": null,
-    "tone_global": -0.1953,
+    "tone_global": -0.36,
     "regul_crypto": null,
-    "stress": 0.0,
+    "stress": 0.0263,
     "top": [
+      {
+        "id": "1da615dcf3cd82e24d92fb27",
+        "title": "Iran war energy crisis sparks Philippine solar boom",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.7143,
+        "url": "https://asia.nikkei.com/business/energy/iran-war-energy-crisis-sparks-philippine-solar-boom"
+      },
       {
         "id": "bfba8f144e76e3613ed14b13",
         "title": "Trump holds off on new 50% tariffs for Canadian goods",
@@ -14,6 +22,14 @@
         "score": 0.3,
         "tone": -0.5858,
         "url": "https://www.marketwatch.com/story/trump-holds-off-on-new-50-tariffs-for-canadian-goods-71f75005?mod=mw_rss_topstories"
+      },
+      {
+        "id": "1bfd61e089b763052912752e",
+        "title": "RBA’s Hauser warns of rate hike if inflation risks crystallize",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/rbas-hauser-warns-of-rate-hike-if-inflation-risks-crystallize-4866395"
       },
       {
         "id": "0faab3956caf3199901ce1a1",
@@ -30,22 +46,6 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.investing.com/news/stock-market-news/baidu-shares-hit-near-1year-low-as-weak-earnings-expose-limits-of-ai-growth-push-4866379"
-      },
-      {
-        "id": "c30d69f62c4112c60421a22f",
-        "title": "Japan bond yields spike on Takaichi budget fears, worries over US view",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/markets/bonds/japan-bond-yields-spike-on-takaichi-budget-fears-worries-over-us-view"
-      },
-      {
-        "id": "94d9dba97cde1eb509ff8920",
-        "title": "Unitree shares soar 629% after robot maker raises $905m in Shanghai IPO",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/markets/ipo/unitree-shares-soar-629-after-robot-maker-raises-905m-in-shanghai-ipo"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-17": {
-    "articles_count": 590,
-    "signal_count": 59,
+    "articles_count": 608,
+    "signal_count": 63,
     "tone_cb": 0.6667,
-    "tone_global": 0.0972,
+    "tone_global": 0.0839,
     "regul_crypto": null,
-    "stress": 0.0031,
+    "stress": 0.003,
     "top": [
       {
         "id": "147d3b7976d9e35a414610b4",
