@@ -1,11 +1,11 @@
 {
   "2026-08-19": {
-    "articles_count": 92,
-    "signal_count": 10,
+    "articles_count": 103,
+    "signal_count": 12,
     "tone_cb": null,
-    "tone_global": -0.29,
+    "tone_global": -0.1375,
     "regul_crypto": -0.6,
-    "stress": 0.0104,
+    "stress": 0.0094,
     "top": [
       {
         "id": "1c2389aeada4d5d4cd08da0e",
@@ -24,6 +24,14 @@
         "url": "https://www.investing.com/news/company-news/sk-hynix-approves-40-trillion-won-share-buyback-and-cancellation-93CH-4866536"
       },
       {
+        "id": "a9b718b93cf3d88ef448e2a5",
+        "title": "FACC H1 2026 slides: margin expansion drives guidance upgrade",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.75,
+        "url": "https://www.investing.com/news/company-news/facc-h1-2026-slides-margin-expansion-drives-guidance-upgrade-93CH-4866654"
+      },
+      {
         "id": "1da615dcf3cd82e24d92fb27",
         "title": "Iran war energy crisis sparks Philippine solar boom",
         "source": "nikkei_asia",
@@ -38,14 +46,6 @@
         "score": 0.3,
         "tone": -0.6,
         "url": "https://www.coindesk.com/markets/2026/08/19/maya-protocol-exploit-drains-bitcoin-and-other-assets-as-pool-value-drops-usd11-million"
-      },
-      {
-        "id": "bfba8f144e76e3613ed14b13",
-        "title": "Trump holds off on new 50% tariffs for Canadian goods",
-        "source": "marketwatch",
-        "score": 0.3,
-        "tone": -0.5858,
-        "url": "https://www.marketwatch.com/story/trump-holds-off-on-new-50-tariffs-for-canadian-goods-71f75005?mod=mw_rss_topstories"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-17": {
-    "articles_count": 713,
-    "signal_count": 72,
+    "articles_count": 733,
+    "signal_count": 77,
     "tone_cb": 0.6667,
-    "tone_global": 0.0871,
+    "tone_global": 0.0693,
     "regul_crypto": null,
-    "stress": 0.0026,
+    "stress": 0.0025,
     "top": [
       {
         "id": "147d3b7976d9e35a414610b4",
@@ -3026,29 +3026,13 @@
     ]
   },
   "2026-05-21": {
-    "articles_count": 5,
-    "signal_count": 3,
+    "articles_count": 2,
+    "signal_count": 1,
     "tone_cb": null,
-    "tone_global": -0.6577,
+    "tone_global": -0.6796,
     "regul_crypto": null,
-    "stress": 0.1538,
+    "stress": 0.4,
     "top": [
-      {
-        "id": "90f673f6f76fb6e8b234935f",
-        "title": "La Commission des sanctions de l’AMF sanctionne deux personnes physiques pour des manquements d’initiés",
-        "source": "amf_news",
-        "score": 0.9,
-        "tone": -0.6667,
-        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-la-commission-des-sanctions/la-commission-des-sanctions-de-lamf-sanctionne-deux-personnes-physiques-pour-des-manquements-0#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "b3cc2d5e90258ed35016570a",
-        "title": "Décision de la commission des sanctions du 20 mai 2026 à l'égard de MM. Ytane Mamou et Elie Houri",
-        "source": "amf_news",
-        "score": 0.9,
-        "tone": -0.634,
-        "url": "https://www.amf-france.org/fr/sanctions-transactions/decisions-de-la-commission-des-sanctions/san-2026-04#xts=607212&xtor=RSS-3&type=RSS"
-      },
       {
         "id": "31e3721484379079338e7f8a",
         "title": "SEC and NFA Announce Memorandum of Understanding to Further Harmonize Regulatory Coordination",
@@ -3064,14 +3048,6 @@
         "score": 0.6,
         "tone": -0.6796,
         "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-se-conforme-aux-orientations-de-lesma-sur-la-mise-jour-des-parametres-de-scenarios-de-crise-0#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "d3c6456db2291c1edb7c68f0",
-        "title": "Lettre Epargne Info Service n°53 - Mai 2026",
-        "source": "amf_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/publications/lettre-epargne-info-service/lettre-epargne-info-service-ndeg53-mai-2026#xts=607212&xtor=RSS-3&type=RSS"
       }
     ]
   },
