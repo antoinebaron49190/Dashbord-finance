@@ -1,11 +1,11 @@
 {
   "2026-08-19": {
-    "articles_count": 121,
-    "signal_count": 14,
+    "articles_count": 151,
+    "signal_count": 15,
     "tone_cb": null,
-    "tone_global": -0.0464,
+    "tone_global": -0.0767,
     "regul_crypto": -0.6,
-    "stress": 0.0079,
+    "stress": 0.0063,
     "top": [
       {
         "id": "1c2389aeada4d5d4cd08da0e",
@@ -14,6 +14,14 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260819~98ddf24b7b.en.html"
+      },
+      {
+        "id": "a5ab470981aadceff937158c",
+        "title": "Daily News 19 / 08 / 2026",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1742"
       },
       {
         "id": "b50f28154435e2bd7ba0e76b",
@@ -38,24 +46,16 @@
         "score": 0.45,
         "tone": 0.0,
         "url": "https://www.investing.com/news/company-news/sk-hynix-approves-40-trillion-won-share-buyback-and-cancellation-93CH-4866536"
-      },
-      {
-        "id": "a9b718b93cf3d88ef448e2a5",
-        "title": "FACC H1 2026 slides: margin expansion drives guidance upgrade",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.75,
-        "url": "https://www.investing.com/news/company-news/facc-h1-2026-slides-margin-expansion-drives-guidance-upgrade-93CH-4866654"
       }
     ]
   },
   "2026-08-18": {
-    "articles_count": 464,
+    "articles_count": 467,
     "signal_count": 59,
     "tone_cb": null,
     "tone_global": 0.1902,
     "regul_crypto": 0.2824,
-    "stress": 0.0147,
+    "stress": 0.0146,
     "top": [
       {
         "id": "300caddfd632568e969502a7",
@@ -100,7 +100,7 @@
     ]
   },
   "2026-08-17": {
-    "articles_count": 747,
+    "articles_count": 749,
     "signal_count": 79,
     "tone_cb": 0.6667,
     "tone_global": 0.0808,
