@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-08-19T16:29:15.578305+00:00",
-  "pending": [],
+  "updated_at": "2026-08-19T21:23:08.266695+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:btc:indecise->haussiere:2026-08-19",
+      "title": "Bitcoin : tendance haussière",
+      "body": "Bitcoin passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-08-19.",
+      "kind": "tendance",
+      "detected_at": "2026-08-19T21:23:08.266644+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -23,7 +31,8 @@
     "trend:shanghai:baissiere->indecise:2026-08-18",
     "trend:nikkei:haussiere->indecise:2026-08-19",
     "trend:shanghai:indecise->baissiere:2026-08-19",
-    "trend:eth:indecise->haussiere:2026-08-19"
+    "trend:eth:indecise->haussiere:2026-08-19",
+    "trend:btc:indecise->haussiere:2026-08-19"
   ],
   "extremes_active": [
     "extreme:Décote du Bitcoin sous son plus haut:haut",

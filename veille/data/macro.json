@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-08-19T20:24:28.683089+00:00",
+  "generated_at": "2026-08-19T21:23:06.346654+00:00",
   "regime": {
     "state": "favorable au risque",
-    "favorable": 8,
+    "favorable": 9,
     "available": 11,
     "total": 11,
-    "ratio": 0.7273
+    "ratio": 0.8182
   },
   "criteria": [
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
-      "ok": false,
-      "value": "68 745 $",
-      "reference": "MM200 68 994 $"
+      "ok": true,
+      "value": "69 659 $",
+      "reference": "MM200 68 999 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": true,
-      "value": "68 745 $",
-      "reference": "MM50 63 961 $"
+      "value": "69 659 $",
+      "reference": "MM50 63 979 $"
     },
     {
       "group": "Crypto",
       "label": "ETH au-dessus de sa MM200",
       "ok": true,
-      "value": "2 115 $",
+      "value": "2 269 $",
       "reference": "MM200 2 003 $"
     },
     {
       "group": "Crypto",
       "label": "Décote BTC sur le plus haut 1 an",
       "ok": false,
-      "value": "-45 %",
+      "value": "-44 %",
       "reference": "moins de 25 %"
     },
     {
       "group": "Crypto",
       "label": "Volatilité BTC 30 jours",
       "ok": true,
-      "value": "32 %",
+      "value": "35 %",
       "reference": "moins de 60 %"
     },
     {
@@ -68,7 +68,7 @@
       "group": "Actions et devises",
       "label": "Dollar sous sa MM50",
       "ok": true,
-      "value": "98.81",
+      "value": "98.80",
       "reference": "MM50 100.47"
     },
     {
@@ -88,21 +88,21 @@
   ],
   "crypto": {
     "btc": {
-      "price": 68745.4,
-      "ma50": 63960.698000000026,
-      "ma200": 68994.46349999998,
-      "drawdown_1y": 0.4490075460961076,
-      "volatility_30d": 0.3154838313939321,
+      "price": 69658.8,
+      "ma50": 63978.96600000002,
+      "ma200": 68999.03049999998,
+      "drawdown_1y": 0.4416866707008692,
+      "volatility_30d": 0.3483301943871255,
       "above_ma50": true,
-      "above_ma200": false,
-      "trend": "indecise"
+      "above_ma200": true,
+      "trend": "haussiere"
     },
     "eth": {
-      "price": 2114.76,
-      "ma50": 1860.1155999999996,
-      "ma200": 2002.7204499999998,
-      "drawdown_1y": 0.5621614906832297,
-      "volatility_30d": 0.45692875758243223,
+      "price": 2269.33,
+      "ma50": 1863.2069999999999,
+      "ma200": 2003.4932999999999,
+      "drawdown_1y": 0.5301594202898551,
+      "volatility_30d": 0.6620676865628797,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
@@ -196,18 +196,18 @@
     },
     "vix": {
       "label": "VIX",
-      "price": 14.869999885559082,
-      "ma50": 17.10359994888306,
-      "ma200": 18.511000051498414,
+      "price": 14.890000343322754,
+      "ma50": 17.10399995803833,
+      "ma200": 18.51110005378723,
       "above_ma50": false,
       "above_ma200": false,
       "trend": "baissiere"
     },
     "dxy": {
       "label": "Dollar (DXY)",
-      "price": 98.80899810791016,
-      "ma50": 100.47418029785156,
-      "ma200": 99.17019519805908,
+      "price": 98.80000305175781,
+      "ma50": 100.47400039672851,
+      "ma200": 99.17015022277832,
       "above_ma50": false,
       "above_ma200": false,
       "trend": "baissiere"
@@ -222,16 +222,16 @@
   "history": {
     "2026-08-19": {
       "regime": "favorable au risque",
-      "favorable": 8,
+      "favorable": 9,
       "available": 11,
       "fear_greed": 46,
       "assets": {
         "btc": {
-          "close": 68745.4,
-          "trend": "indecise"
+          "close": 69658.8,
+          "trend": "haussiere"
         },
         "eth": {
-          "close": 2114.76,
+          "close": 2269.33,
           "trend": "haussiere"
         },
         "sp500": {
@@ -271,11 +271,11 @@
           "trend": "haussiere"
         },
         "vix": {
-          "close": 14.87,
+          "close": 14.89,
           "trend": "baissiere"
         },
         "dxy": {
-          "close": 98.809,
+          "close": 98.8,
           "trend": "baissiere"
         }
       }
