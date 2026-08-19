@@ -1,5 +1,412 @@
 [
   {
+    "id": "c30d69f62c4112c60421a22f",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Japan bond yields spike on Takaichi budget fears, worries over US view",
+    "url": "https://asia.nikkei.com/business/markets/bonds/japan-bond-yields-spike-on-takaichi-budget-fears-worries-over-us-view",
+    "summary": "",
+    "published_at": "2026-08-19T02:55:00.271726+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "94d9dba97cde1eb509ff8920",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Unitree shares soar 629% after robot maker raises $905m in Shanghai IPO",
+    "url": "https://asia.nikkei.com/business/markets/ipo/unitree-shares-soar-629-after-robot-maker-raises-905m-in-shanghai-ipo",
+    "summary": "",
+    "published_at": "2026-08-19T02:55:00.271726+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0faab3956caf3199901ce1a1",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Thailand hosts Myanmar military chief, deepening bilateral ties",
+    "url": "https://asia.nikkei.com/spotlight/myanmar-crisis/thailand-hosts-myanmar-military-chief-deepening-bilateral-ties",
+    "summary": "",
+    "published_at": "2026-08-19T02:55:00.271726+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bfba8f144e76e3613ed14b13",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Trump holds off on new 50% tariffs for Canadian goods",
+    "url": "https://www.marketwatch.com/story/trump-holds-off-on-new-50-tariffs-for-canadian-goods-71f75005?mod=mw_rss_topstories",
+    "summary": "Here’s what’s going on with the Trump administration’s plan for new tariffs for some Canadian goods.",
+    "published_at": "2026-08-19T02:42:00+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {
+      "geopolitique": 1.4142
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5858,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5858,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b84ae4bc8a19b998ac6ba1d5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Stealth Group posts record H2 2026 results",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-stealth-group-posts-record-h2-2026-results-93CH-4866380",
+    "summary": "",
+    "published_at": "2026-08-19T02:35:16+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4990027aee512e72814b9353",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Baidu shares hit near 1-year low as weak earnings expose limits of AI growth push",
+    "url": "https://www.investing.com/news/stock-market-news/baidu-shares-hit-near-1year-low-as-weak-earnings-expose-limits-of-ai-growth-push-4866379",
+    "summary": "",
+    "published_at": "2026-08-19T02:34:21+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "41d0415f855d5d5c868768c5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Santos H1 2026 slides: Barossa, Pikka ramp drives production shift",
+    "url": "https://www.investing.com/news/company-news/santos-h1-2026-slides-barossa-pikka-ramp-drives-production-shift-93CH-4866378",
+    "summary": "",
+    "published_at": "2026-08-19T02:32:14+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d991f8be93792a056a37f385",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Meiragtx CEO Forbes sells $859,320 in company stock",
+    "url": "https://www.investing.com/news/insider-trading-news/meiragtx-ceo-forbes-sells-859320-in-company-stock-93CH-4866377",
+    "summary": "",
+    "published_at": "2026-08-19T02:31:03+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bc3c90f5d402012bdaad3d2c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: BWP Group posts solid H2 2026 results as stock edges higher",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-bwp-group-posts-solid-h2-2026-results-as-stock-edges-higher-93CH-4866375",
+    "summary": "",
+    "published_at": "2026-08-19T02:27:28+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "89fd51cdbc9ccbf5987da777",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Alliance Laundry stockholder prices 22.55M share offering at $23.50",
+    "url": "https://www.investing.com/news/company-news/alliance-laundry-stockholder-prices-2255m-share-offering-at-2350-93CH-4866374",
+    "summary": "",
+    "published_at": "2026-08-19T02:24:33+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1bc8f38f1f6fe5270e55193a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SHAPE FY26 slides: revenue tops $1.2B on diversification push",
+    "url": "https://www.investing.com/news/company-news/shape-fy26-slides-revenue-tops-12b-on-diversification-push-93CH-4866373",
+    "summary": "",
+    "published_at": "2026-08-19T02:21:41+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "17a134123ce859371aac6827",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Santos lifts h1 2026 output as barossa, pikka ramp",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-santos-lifts-h1-2026-output-as-barossa-pikka-ramp-93CH-4866371",
+    "summary": "",
+    "published_at": "2026-08-19T02:18:59+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "32c601aebcce7c16a672a160",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "ZTO Express Cayman earnings beat by ¥0.40, revenue topped estimates",
+    "url": "https://www.investing.com/news/earnings/zto-express-cayman-earnings-beat-by-040-revenue-topped-estimates-4866370",
+    "summary": "",
+    "published_at": "2026-08-19T02:18:06+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2ad9c6e22df8d7496a8d98db",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Slide insurance director Stephen Rohde sells $109,450 in stock",
+    "url": "https://www.investing.com/news/insider-trading-news/slide-insurance-director-stephen-rohde-sells-109450-in-stock-93CH-4866369",
+    "summary": "",
+    "published_at": "2026-08-19T02:16:03+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8d70ea098f0dc9233821a1eb",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "‘It has to pass’: Andrew Cuomo warns U.S. is falling behind on crypto rules",
+    "url": "https://www.coindesk.com/policy/2026/08/18/it-has-to-pass-andrew-cuomo-warns-u-s-is-falling-behind-on-crypto-rules",
+    "summary": "",
+    "published_at": "2026-08-19T01:35:36+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "cd3714f84e7dfd3e959bc8e1",
     "source": "nikkei_asia",
     "tier": 3,
@@ -16296,6 +16703,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "2edbfb71e3f0dd95c4803cd7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Are Wall Street Analysts Predicting Becton, Dickinson and Company Stock Will Climb or Sink?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-becton-154922963.html",
+    "summary": "",
+    "published_at": "2026-08-17T15:49:22+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "7408128b7e0e3638e416d75f",
     "source": "investing_com",
     "tier": 3,
@@ -16399,6 +16836,32 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "454661e2b5a7bd61bb657df3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Rocket Lab’s Biggest Breakthrough Has Nothing to Do With Neutron",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-biggest-breakthrough-nothing-154229929.html",
+    "summary": "",
+    "published_at": "2026-08-17T15:42:29+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
@@ -17586,6 +18049,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "48526c831d1c7b4208717aa9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Charles Schwab takes huge gamble on single stock futures",
+    "url": "https://finance.yahoo.com/markets/options/articles/charles-schwab-takes-huge-gamble-150700399.html",
+    "summary": "",
+    "published_at": "2026-08-17T15:07:00+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "902321e45b1e188668b2656b",
     "source": "theblock",
     "tier": 3,
@@ -17638,6 +18127,86 @@
     "scored_by": "lexique"
   },
   {
+    "id": "efcfb961aef4bec14036b42b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "American Fusion Appoints Samson Lee as Independent Director to Support Asian Expansion Strategy",
+    "url": "https://finance.yahoo.com/energy/articles/american-fusion-appoints-samson-lee-150555769.html",
+    "summary": "",
+    "published_at": "2026-08-17T15:05:55+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {
+      "croissance": 2.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6667,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.6667,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "48ae6aa3c00e7095d333b5a7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Anavex Urges Shareholders to Back Six Director Nominees Ahead of 2026 Annual Meeting",
+    "url": "https://finance.yahoo.com/healthcare/articles/anavex-urges-shareholders-back-six-150448243.html",
+    "summary": "",
+    "published_at": "2026-08-17T15:04:48+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a293eb54fe645653c5cf677a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Impact Fusion Expands Production Capacity With New Proprietary Machinery",
+    "url": "https://finance.yahoo.com/small-business/articles/impact-fusion-expands-production-capacity-150353686.html",
+    "summary": "",
+    "published_at": "2026-08-17T15:03:53+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "7e0ee4e84b61a73d0f249c3e",
     "source": "yahoo_finance",
     "tier": 3,
@@ -17652,6 +18221,58 @@
     "summary": "",
     "published_at": "2026-08-17T15:03:48+00:00",
     "collected_at": "2026-08-17T15:54:22.318457+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1f84e17666f83755c3c42532",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AI Infrastructure Boom: Who Should Buy Vertiv and Who Should Buy Super Micro Computer",
+    "url": "https://finance.yahoo.com/technology/ai/articles/ai-infrastructure-boom-buy-vertiv-150348719.html",
+    "summary": "",
+    "published_at": "2026-08-17T15:03:48+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "80187c377703bfe0e1620837",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Anthropic’s Tokenized Price Implies $1.8T Valuation, 88% Above Private-Market Deal",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/anthropic-tokenized-price-implies-1-150342277.html",
+    "summary": "",
+    "published_at": "2026-08-17T15:03:42+00:00",
+    "collected_at": "2026-08-19T02:55:00.271726+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],

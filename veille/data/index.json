@@ -1,51 +1,51 @@
 {
   "2026-08-19": {
-    "articles_count": 11,
-    "signal_count": 0,
+    "articles_count": 26,
+    "signal_count": 3,
     "tone_cb": null,
-    "tone_global": null,
+    "tone_global": -0.1953,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
-        "id": "cd3714f84e7dfd3e959bc8e1",
-        "title": "Japan chip startup targets AI boom as industry focus turns to materials",
+        "id": "bfba8f144e76e3613ed14b13",
+        "title": "Trump holds off on new 50% tariffs for Canadian goods",
+        "source": "marketwatch",
+        "score": 0.3,
+        "tone": -0.5858,
+        "url": "https://www.marketwatch.com/story/trump-holds-off-on-new-50-tariffs-for-canadian-goods-71f75005?mod=mw_rss_topstories"
+      },
+      {
+        "id": "0faab3956caf3199901ce1a1",
+        "title": "Thailand hosts Myanmar military chief, deepening bilateral ties",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/spotlight/myanmar-crisis/thailand-hosts-myanmar-military-chief-deepening-bilateral-ties"
+      },
+      {
+        "id": "4990027aee512e72814b9353",
+        "title": "Baidu shares hit near 1-year low as weak earnings expose limits of AI growth push",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/stock-market-news/baidu-shares-hit-near-1year-low-as-weak-earnings-expose-limits-of-ai-growth-push-4866379"
+      },
+      {
+        "id": "c30d69f62c4112c60421a22f",
+        "title": "Japan bond yields spike on Takaichi budget fears, worries over US view",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/editor-s-picks/interview/japan-chip-startup-targets-ai-boom-as-industry-focus-turns-to-materials"
+        "url": "https://asia.nikkei.com/business/markets/bonds/japan-bond-yields-spike-on-takaichi-budget-fears-worries-over-us-view"
       },
       {
-        "id": "29fde554ed853d719ff346aa",
-        "title": "AppFolio director Maurice Duca sells $3.16m in stock",
-        "source": "investing_com",
+        "id": "94d9dba97cde1eb509ff8920",
+        "title": "Unitree shares soar 629% after robot maker raises $905m in Shanghai IPO",
+        "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/appfolio-director-maurice-duca-sells-316m-in-stock-93CH-4866276"
-      },
-      {
-        "id": "330930d522ccc7021d351220",
-        "title": "EquipmentShare’s founder & president William Schlacks buys $182,884 in stock",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/equipmentshares-founder--president-william-schlacks-buys-182884-in-stock-93CH-4866275"
-      },
-      {
-        "id": "5d5b32f7260cd8b3e2c9406a",
-        "title": "Earnings call transcript: Stockland rises on strong H2 2026 results and outlook",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-stockland-rises-on-strong-h2-2026-results-and-outlook-93CH-4866274"
-      },
-      {
-        "id": "1bdff1a8e89856dababeb851",
-        "title": "Cheesecake factory director Janice Meyer sells $214k in stock",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/cheesecake-factory-director-janice-meyer-sells-214k-in-stock-93CH-4866273"
+        "url": "https://asia.nikkei.com/business/markets/ipo/unitree-shares-soar-629-after-robot-maker-raises-905m-in-shanghai-ipo"
       }
     ]
   },
@@ -100,10 +100,10 @@
     ]
   },
   "2026-08-17": {
-    "articles_count": 582,
-    "signal_count": 58,
+    "articles_count": 590,
+    "signal_count": 59,
     "tone_cb": 0.6667,
-    "tone_global": 0.088,
+    "tone_global": 0.0972,
     "regul_crypto": null,
     "stress": 0.0031,
     "top": [
