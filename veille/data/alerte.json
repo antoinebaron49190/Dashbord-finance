@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-08-19T03:44:13.575065+00:00",
-  "pending": [],
+  "updated_at": "2026-08-19T15:29:08.965555+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:eth:indecise->haussiere:2026-08-19",
+      "title": "Ethereum : tendance haussière",
+      "body": "Ethereum passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-08-19.",
+      "kind": "tendance",
+      "detected_at": "2026-08-19T15:29:08.965498+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -22,7 +30,8 @@
     "regime:neutre->favorable au risque:2026-08-18",
     "trend:shanghai:baissiere->indecise:2026-08-18",
     "trend:nikkei:haussiere->indecise:2026-08-19",
-    "trend:shanghai:indecise->baissiere:2026-08-19"
+    "trend:shanghai:indecise->baissiere:2026-08-19",
+    "trend:eth:indecise->haussiere:2026-08-19"
   ],
   "extremes_active": [
     "extreme:Décote du Bitcoin sous son plus haut:haut",
