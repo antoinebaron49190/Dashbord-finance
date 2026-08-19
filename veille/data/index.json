@@ -1,12 +1,20 @@
 {
   "2026-08-19": {
-    "articles_count": 443,
-    "signal_count": 59,
+    "articles_count": 463,
+    "signal_count": 64,
     "tone_cb": null,
-    "tone_global": 0.1161,
+    "tone_global": 0.1003,
     "regul_crypto": -0.6,
-    "stress": 0.011,
+    "stress": 0.0126,
     "top": [
+      {
+        "id": "981d22e6c8c6ddfe3e10d69d",
+        "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm"
+      },
       {
         "id": "1c2389aeada4d5d4cd08da0e",
         "title": "Christine Lagarde: Panel remarks about the European economy during a discussion on the global economic outlook at the World Economic Forum",
@@ -32,30 +40,22 @@
         "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-appelle-lattention-des-epargnants-sur-la-multiplication-des-arnaques-prenant-la-forme-de-faux#xts=607212&xtor=RSS-3&type=RSS"
       },
       {
-        "id": "bece2be56d982f5c66602b39",
-        "title": "US yields fall, yen rises after Treasury announces larger debt buyback",
-        "source": "nikkei_asia",
+        "id": "1242914171c5d6bbda383b5c",
+        "title": "FDA approves Regeneron’s Pasatru for rare bone disorder FOP",
+        "source": "investing_com",
         "score": 0.45,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/markets/bonds/us-yields-fall-yen-rises-after-treasury-announces-larger-debt-buyback"
-      },
-      {
-        "id": "59fbb62882cb020132557563",
-        "title": "Bitcoin and ethereum prices today, Wednesday, August 19, 2026: Crypto prices rise after SEC announces proposed regulation",
-        "source": "yahoo_finance",
-        "score": 0.45,
-        "tone": 0.0,
-        "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-august-19-2026-crypto-prices-rise-after-sec-announces-proposed-regulation-161733939.html"
+        "url": "https://www.investing.com/news/company-news/fda-approves-regenerons-pasatru-for-rare-bone-disorder-fop-93CH-4868022"
       }
     ]
   },
   "2026-08-18": {
-    "articles_count": 469,
-    "signal_count": 59,
+    "articles_count": 487,
+    "signal_count": 63,
     "tone_cb": null,
-    "tone_global": 0.1902,
+    "tone_global": 0.1862,
     "regul_crypto": 0.2824,
-    "stress": 0.0146,
+    "stress": 0.014,
     "top": [
       {
         "id": "300caddfd632568e969502a7",

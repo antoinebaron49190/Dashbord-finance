@@ -1,5 +1,525 @@
 [
   {
+    "id": "c590db6c0c6bbcdd8020a56e",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "China debuts offshore government bond futures to promote yuan use",
+    "url": "https://asia.nikkei.com/business/markets/bonds/china-debuts-offshore-government-bond-futures-to-promote-yuan-use",
+    "summary": "",
+    "published_at": "2026-08-19T18:31:27.751950+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c2b6ef18259464b16dbea69c",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Fed minutes reveal growing support for rate hikes",
+    "url": "https://www.marketwatch.com/story/fed-minutes-reveal-growing-support-for-rate-hikes-84fc9afa?mod=mw_rss_topstories",
+    "summary": "The minutes make clear that Federal Reserve officials remained divided over the inflation outlook.",
+    "published_at": "2026-08-19T18:27:00+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b8b92550830f25fb107544ad",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "I want to be a snowbird. Can my $2 million nest egg sustain two homes?",
+    "url": "https://www.marketwatch.com/story/i-want-to-be-a-snowbird-but-im-not-sure-my-2-million-nest-egg-can-sustain-two-homes-ce903e6b?mod=mw_rss_topstories",
+    "summary": "It’s not the purchase price that’s the biggest obstacle, but rather the continuing costs.",
+    "published_at": "2026-08-19T18:26:00+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "740efcf68516606c4f643ca8",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Crypto campaign fund Fairshake faces $2 million setback in Florida primaries",
+    "url": "https://www.coindesk.com/policy/2026/08/19/crypto-campaign-fund-fairshake-faces-usd2-million-setback-in-florida-primaries",
+    "summary": "",
+    "published_at": "2026-08-19T18:10:10+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c697a07e4203b44fdf763a09",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Fed policymakers’ inflation concerns increased at July meeting, minutes show",
+    "url": "https://www.investing.com/news/economy-news/fed-policymakers-inflation-concerns-increased-at-july-meeting-minutes-show-4868029",
+    "summary": "",
+    "published_at": "2026-08-19T18:07:39+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "73503fb87c0c1edb1f2d9582",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Atlas Salt at Micro-Cap Virtual Conference: financing is key",
+    "url": "https://www.investing.com/news/transcripts/atlas-salt-at-microcap-virtual-conference-financing-is-key-93CH-4868028",
+    "summary": "",
+    "published_at": "2026-08-19T18:07:27+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "26acab09d35d696884786dae",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Amazon plans drone delivery expansion to about 500 US locales",
+    "url": "https://www.investing.com/news/economy-news/amazon-plans-drone-delivery-expansion-to-about-500-us-locales-4868017",
+    "summary": "",
+    "published_at": "2026-08-19T18:07:22+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {
+      "croissance": 2.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6667,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.6667,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b9e126a628d4b6046be325cb",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Unusual Machines at Micro-Cap Virtual Conference: scaling for drone demand",
+    "url": "https://www.investing.com/news/transcripts/unusual-machines-at-microcap-virtual-conference-scaling-for-drone-demand-93CH-4868027",
+    "summary": "",
+    "published_at": "2026-08-19T18:06:56+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "970450a333f45343e920168a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Moderna, Estee Lauder among market cap stock movers on Wednesday",
+    "url": "https://www.investing.com/news/stock-market-news/moderna-estee-lauder-among-market-cap-stock-movers-on-wednesday-93CH-4868026",
+    "summary": "",
+    "published_at": "2026-08-19T18:06:42+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "198f6cdec06c6824538844d8",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Honeywell Aerospace analysis: what does Morgan Stanley’s upgrade tell investors?",
+    "url": "https://www.investing.com/news/stock-market-news/honeywell-aerospace-analysis-what-does-morgan-stanleys-upgrade-tell-investors-93CH-4868024",
+    "summary": "",
+    "published_at": "2026-08-19T18:06:20+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1242914171c5d6bbda383b5c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "FDA approves Regeneron’s Pasatru for rare bone disorder FOP",
+    "url": "https://www.investing.com/news/company-news/fda-approves-regenerons-pasatru-for-rare-bone-disorder-fop-93CH-4868022",
+    "summary": "",
+    "published_at": "2026-08-19T18:04:40+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5d6f69715aaf82cc1fc4e699",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "WTI vs. Brent crude: which oil benchmark suits beginner traders",
+    "url": "https://www.investing.com/news/commodities-news/wti-vs-brent-crude-which-oil-benchmark-suits-beginner-traders-93CH-4868021",
+    "summary": "",
+    "published_at": "2026-08-19T18:04:30+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cc63fbbd9e36934be4297fac",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Want to bet on the bond rally? Check out these overlooked funds.",
+    "url": "https://www.marketwatch.com/story/want-to-bet-on-the-bond-rally-check-out-these-overlooked-funds-15e957a2?mod=mw_rss_topstories",
+    "summary": "The Treasury just sparked a bond-market rally. Here is why it may not last.",
+    "published_at": "2026-08-19T18:04:00+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fedc9d2300681350c177fc5c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Many policymakers see rate hikes likely if inflation does not fall - Fed minutes",
+    "url": "https://www.investing.com/news/economy-news/many-policymakers-see-rate-hikes-likely-if-inflation-does-not-fall--fed-minutes-4868004",
+    "summary": "",
+    "published_at": "2026-08-19T18:03:18+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3c41fdee789c9cb89aab3df6",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oil prices up over 1%, near 3-week high as Middle East crisis escalates",
+    "url": "https://www.investing.com/news/commodities-news/oil-edges-up-on-uncertainty-over-exports-through-hormuz-4866269",
+    "summary": "",
+    "published_at": "2026-08-19T18:01:10+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "981d22e6c8c6ddfe3e10d69d",
+    "source": "fed_press_all",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm",
+    "summary": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
+    "published_at": "2026-08-19T18:00:00+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "sp500",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cde0f0550b14fb397f08fd34",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Treasury-market reprieve could be fleeting with deluge of corporate-bond issuance due in September",
+    "url": "https://www.marketwatch.com/story/treasury-market-reprieve-could-be-fleeting-with-deluge-of-corporate-bond-issuance-due-in-september-33cfaacd?mod=mw_rss_topstories",
+    "summary": "“From a bond investors perspective, the bottom line is about where you put your money to work,” says Henry Song, portfolio manager at Diamond Hill",
+    "published_at": "2026-08-19T17:49:00+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7426c5cc3739597547df4526",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Five reasons we’re headed for a 10% stock-market correction — or worse",
+    "url": "https://www.marketwatch.com/story/five-reasons-were-headed-for-a-10-stock-market-correction-or-worse-74840e8e?mod=mw_rss_topstories",
+    "summary": "Summer is winding down, and “spooky season” will soon be upon us. That’s just one cause for investor wariness.",
+    "published_at": "2026-08-19T17:47:00+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "35dc82c3a1efe29435366999",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Apple’s stock could be the savviest buy within Big Tech, according to this analysis",
+    "url": "https://www.marketwatch.com/story/apples-stock-could-be-the-savviest-buy-within-big-tech-according-to-this-analysis-84d67c92?mod=mw_rss_topstories",
+    "summary": "While other “Magnificent Seven” companies spend big on AI, Apple’s more conservative strategy has turned the stock into a valuable portfolio hedge against volatility.",
+    "published_at": "2026-08-19T17:39:00+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "26136ca7f77359f88b85ef14",
     "source": "nikkei_asia",
     "tier": 3,
@@ -8926,6 +9446,36 @@
     "summary": "",
     "published_at": "2026-08-19T09:05:45+00:00",
     "collected_at": "2026-08-19T16:28:45.657624+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "79c3b3e7ec85ff961586fafa",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Live updates: Bitcoin and gold jump but rejected at key level as Treasury move pushes yields lower",
+    "url": "https://www.coindesk.com/markets/2026/08/19/live-updates-bitcoin-holds-firm-above-usd64-000-as-south-korea-s-kospi-sinks-5-8",
+    "summary": "",
+    "published_at": "2026-08-19T09:05:45+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
     "categories": {},
     "assets_detected": [
       "btc"
@@ -21649,6 +22199,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "4595e35896d0af38afa4e62a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Do Wall Street Analysts Like Omnicom Group Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-omnicom-group-100346066.html",
+    "summary": "",
+    "published_at": "2026-08-18T10:03:46+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "11115f7caa6b551bd38a4885",
     "source": "coindesk",
     "tier": 3,
@@ -21811,6 +22391,182 @@
     "scored_by": "lexique"
   },
   {
+    "id": "d7b2045f39db93cbffb72abf",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Did the Commodities Complex See Turnaround Activity Overnight?",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/did-commodities-complex-see-turnaround-095943320.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:59:43+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "71d215d6aee6a83f540bf385",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Xylem Stock: Analyst Estimates & Ratings",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/xylem-stock-analyst-estimates-ratings-095644774.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:56:44+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cad86bbf925679a11fd42770",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "CMS Energy Stock: Is Wall Street Bullish or Bearish?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/cms-energy-stock-wall-street-095613661.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:56:13+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {
+      "crypto_favorable": 1.0,
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8940b02773f1cae52394c21a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Air Products and Chemicals Stock: Analyst Estimates & Ratings",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/air-products-chemicals-stock-analyst-095318124.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:53:18+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cc3419044df03484d4bcb74f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Is Wall Street Bullish or Bearish on Bio-Techne Stock?",
+    "url": "https://finance.yahoo.com/healthcare/articles/wall-street-bullish-bearish-bio-095038170.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:50:38+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {
+      "crypto_favorable": 1.0,
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cdaaee2570f18de550083f6a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Are Wall Street Analysts Bullish on Paychex Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-paychex-094746473.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:47:46+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "ea5b4adfaa2525edc5a23565",
     "source": "yahoo_finance",
     "tier": 3,
@@ -21854,6 +22610,116 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "55f4115ab9579c113ba2a96a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SIG names Ann-Kristin Erkens new CEO in swift leadership shift",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/sig-names-ann-kristin-erkens-093721646.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:37:21+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "74f28f840d5cda2422e31786",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AI Server Demand to Keep Driving NAND Flash Growth in Third Quarter",
+    "url": "https://www.barrons.com/livecoverage/stock-market-news-today-081826/card/ai-server-demand-to-keep-driving-nand-flash-growth-in-third-quarter-DaZHRCcxsfvoxmeIiYAk?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-18T09:37:13+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "19986774b435edef9b2ff8cc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Chili's Marketing Fueled a 71% Sales Run. Its CMO Cashed In Some Stock",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/chilis-marketing-fueled-71-sales-093647759.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:36:47+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "93edbb88e6f80d7988f9bca3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "What Are Wall Street Analysts' Target Price for Expeditors International Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-093541496.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:35:41+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -21920,6 +22786,172 @@
     "crypto_tone": 0.6,
     "is_stress": false,
     "tone": 0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dc4ad9f34b468684840187df",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "KPMG and EY secure civil servants training contract in UK",
+    "url": "https://finance.yahoo.com/small-business/articles/kpmg-ey-secure-civil-servants-093523248.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:35:23+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5a1ec531f6aeea8de8f428fe",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Ed Yardeni Just Raised His 2026 Price Target on the S&P 500 to 8,400. 3 Ways The Market Can Get There.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/ed-yardeni-just-raised-2026-093500569.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:35:00+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e091f0aa80202fffcdd25248",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The Most Versatile College Majors for Entering the Job Market, According to a New Analysis",
+    "url": "https://finance.yahoo.com/small-business/articles/most-versatile-college-majors-entering-093500607.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:35:00+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "84d8905d6e8ccde6370150d0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Gold Slips Below $4,400 as Higher Oil Prices and Treasury Yields Weigh",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/gold-slips-below-4-400-093327068.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:33:27+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2949b8f55c1cde1da1863668",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitpanda Hit With Europe's First Published MiCA Penalty in Austria",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bitpanda-hit-europes-first-published-093104258.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:31:04+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "61f17a50b8e419f4514081fc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Uber Eats partners with Zipline for US drone deliveries",
+    "url": "https://finance.yahoo.com/technology/articles/uber-eats-partners-zipline-us-092641967.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:26:41+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
@@ -22447,6 +23479,32 @@
     "summary": "“Jurassic World” star Chris Pratt and his wife, Katherine Schwarzenegger, have returned their troubled Los Angeles mansion to the market for the fifth time in three years.",
     "published_at": "2026-08-18T09:01:00+00:00",
     "collected_at": "2026-08-18T09:18:31.906558+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "133123e875b6daffce11efef",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Ask an Advisor: I'm 43 With $315K in an IRA, $90K in a Roth and Maxing My 401(k). Is Retirement at 57 Realistic?",
+    "url": "https://finance.yahoo.com/news/ask-advisor-im-43-old-160032038.html",
+    "summary": "",
+    "published_at": "2026-08-18T09:00:00+00:00",
+    "collected_at": "2026-08-19T18:31:27.751950+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
