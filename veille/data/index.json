@@ -1,12 +1,20 @@
 {
   "2026-08-20": {
-    "articles_count": 83,
-    "signal_count": 15,
+    "articles_count": 95,
+    "signal_count": 19,
     "tone_cb": null,
-    "tone_global": 0.3628,
-    "regul_crypto": 0.3932,
+    "tone_global": 0.3961,
+    "regul_crypto": 0.4308,
     "stress": 0.0,
     "top": [
+      {
+        "id": "48b19102c502fd1dd00776a1",
+        "title": "Domestic and cyclical inflation in the euro area",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpsps/ecb.sps54~7507337776.en.pdf"
+      },
       {
         "id": "1cef5f84771e342f768445e0",
         "title": "Spot bitcoin ETFs report $517 million in net inflows, largest in 3.5 months",
@@ -38,19 +46,11 @@
         "score": 0.3,
         "tone": 0.6,
         "url": "https://www.coindesk.com/tech/2026/08/20/live-updates-bitcoin-etfs-draw-usd517-million-ether-pulls-usd189-million-in-biggest-inflows-in-months"
-      },
-      {
-        "id": "ed65142efa89bd7b486d45bc",
-        "title": "Bearish crypto bets lose record $2.7 billion as bitcoin surges toward $70,000",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://www.coindesk.com/markets/2026/08/20/bearish-crypto-bets-lose-record-usd2-7-billion-as-bitcoin-surges-toward-usd70-000"
       }
     ]
   },
   "2026-08-19": {
-    "articles_count": 542,
+    "articles_count": 543,
     "signal_count": 68,
     "tone_cb": null,
     "tone_global": 0.0944,
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-18": {
-    "articles_count": 703,
-    "signal_count": 90,
+    "articles_count": 727,
+    "signal_count": 91,
     "tone_cb": null,
-    "tone_global": 0.1676,
+    "tone_global": 0.1712,
     "regul_crypto": 0.2824,
-    "stress": 0.0126,
+    "stress": 0.0122,
     "top": [
       {
         "id": "300caddfd632568e969502a7",
