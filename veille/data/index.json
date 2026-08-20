@@ -1,10 +1,10 @@
 {
   "2026-08-20": {
-    "articles_count": 58,
-    "signal_count": 12,
+    "articles_count": 71,
+    "signal_count": 13,
     "tone_cb": null,
-    "tone_global": 0.2764,
-    "regul_crypto": 0.075,
+    "tone_global": 0.3013,
+    "regul_crypto": 0.25,
     "stress": 0.0,
     "top": [
       {
@@ -24,6 +24,14 @@
         "url": "https://asia.nikkei.com/economy/trade/asean-headlines-india-s-export-expansion-in-april-june-quarter"
       },
       {
+        "id": "1b74ec927886e51ae1d44c8c",
+        "title": "Live updates: Bitcoin ETFs draw $517 million, ether pulls $189 million in biggest inflows in months",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": 0.6,
+        "url": "https://www.coindesk.com/tech/2026/08/20/live-updates-bitcoin-etfs-draw-usd517-million-ether-pulls-usd189-million-in-biggest-inflows-in-months"
+      },
+      {
         "id": "ed65142efa89bd7b486d45bc",
         "title": "Bearish crypto bets lose record $2.7 billion as bitcoin surges toward $70,000",
         "source": "coindesk",
@@ -38,14 +46,6 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://www.investing.com/news/commodities-news/oil-prices-steady-as-investors-assess-usiran-war-outlook-4868535"
-      },
-      {
-        "id": "4b4c6e71b6bb4e486129787e",
-        "title": "Deceuninck reports 9.5% sales growth in first half of 2026",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/stock-market-news/deceuninck-reports-95-sales-growth-in-first-half-of-2026-93CH-4868678"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-18": {
-    "articles_count": 646,
-    "signal_count": 84,
+    "articles_count": 677,
+    "signal_count": 87,
     "tone_cb": null,
-    "tone_global": 0.162,
+    "tone_global": 0.1677,
     "regul_crypto": 0.2824,
-    "stress": 0.0137,
+    "stress": 0.0131,
     "top": [
       {
         "id": "300caddfd632568e969502a7",
