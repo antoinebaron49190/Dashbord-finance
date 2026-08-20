@@ -1,12 +1,36 @@
 {
   "2026-08-20": {
-    "articles_count": 11,
-    "signal_count": 3,
+    "articles_count": 25,
+    "signal_count": 6,
     "tone_cb": null,
-    "tone_global": 0.5,
+    "tone_global": 0.5278,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "3519a9e2ff2567ff51d0183f",
+        "title": "ASEAN headlines India's export expansion in April-June quarter",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.6667,
+        "url": "https://asia.nikkei.com/economy/trade/asean-headlines-india-s-export-expansion-in-april-june-quarter"
+      },
+      {
+        "id": "7297b5e6603dc05378921da9",
+        "title": "Earnings call transcript: AIA Group lifts H1 2026 profit outlook as growth accelerates",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-aia-group-lifts-h1-2026-profit-outlook-as-growth-accelerates-93CH-4868638"
+      },
+      {
+        "id": "fda01bd0af8c701b90e37eb0",
+        "title": "Cuscal FY26 slides: payments group posts 20% growth, eyes mid-20s gains",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/company-news/cuscal-fy26-slides-payments-group-posts-20-growth-eyes-mid20s-gains-93CH-4868634"
+      },
       {
         "id": "94905e6c9a5358c2441902cb",
         "title": "Goodman Group FY26 slides: data centres drive 10% profit growth",
@@ -22,30 +46,6 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.investing.com/news/stock-market-news/sk-hynix-shares-rebound-8-after-record-286-billion-buyback-plan-4868496"
-      },
-      {
-        "id": "7d6181816b6d3bd086b6b6ea",
-        "title": "Earnings call transcript: Goodman Group lifts FY2026 profit, eyes 9% FY2027 growth",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-goodman-group-lifts-fy2026-profit-eyes-9-fy2027-growth-93CH-4868488"
-      },
-      {
-        "id": "185ff66a7a38d46f502cc52b",
-        "title": "Japan exports grew for 11th consecutive month in July on cars and chips",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/economy/trade/japan-exports-grew-for-11th-consecutive-month-in-july-on-cars-and-chips"
-      },
-      {
-        "id": "74552f5ce40628a472368dc0",
-        "title": "Earnings call transcript: Coty tops revenue views in Q4 2026, shares swing lower",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-coty-tops-revenue-views-in-q4-2026-shares-swing-lower-93CH-4868495"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-18": {
-    "articles_count": 588,
+    "articles_count": 593,
     "signal_count": 78,
     "tone_cb": null,
     "tone_global": 0.1793,
     "regul_crypto": 0.2824,
-    "stress": 0.0133,
+    "stress": 0.0132,
     "top": [
       {
         "id": "300caddfd632568e969502a7",
