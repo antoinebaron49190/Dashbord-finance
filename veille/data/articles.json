@@ -1,5 +1,470 @@
 [
   {
+    "id": "761fbbce0714902cdc80b24d",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Japan left behind by US and China in AI era patent race",
+    "url": "https://asia.nikkei.com/business/technology/japan-left-behind-by-us-and-china-in-ai-era-patent-race",
+    "summary": "",
+    "published_at": "2026-08-20T18:35:38.809333+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cf09acc1da95bc3823186bae",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Mitsubishi Motors plots pivot to US, Australia with partners' help",
+    "url": "https://asia.nikkei.com/business/automobiles/mitsubishi-motors-plots-pivot-to-us-australia-with-partners-help",
+    "summary": "",
+    "published_at": "2026-08-20T18:35:38.809333+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ecb83055c1fdb5b44bcad244",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Japan's Takaichi eyes September cabinet shuffle to cement power base",
+    "url": "https://asia.nikkei.com/politics/japan-s-takaichi-eyes-september-cabinet-shuffle-to-cement-power-base",
+    "summary": "",
+    "published_at": "2026-08-20T18:35:38.809333+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d4a4eb64f6bf16a454a9798b",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "US Treasury buyback briefly eases bond rout, but debt worries persist",
+    "url": "https://www.investing.com/news/stock-market-news/bonds-bounce-on-us-buybacks-but-relief-may-be-brief-4868662",
+    "summary": "",
+    "published_at": "2026-08-20T18:24:52+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "01e8af48644d38cf61dccf2f",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Neocloud stocks like CoreWeave are having a moment — and time’s running out to cash in",
+    "url": "https://www.marketwatch.com/story/neocloud-stocks-like-coreweave-are-having-a-moment-and-times-running-out-to-cash-in-8aca34c8?mod=mw_rss_topstories",
+    "summary": "The neoclouds are destined to be “cyclical leasing companies,” according to BCA analyst Noah Weisberger, which implies low valuations for the stocks.",
+    "published_at": "2026-08-20T18:20:00+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "65a415aae557cecdbac4bf00",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oil hits more than three-week high as Trump threatens Iran-related retaliation",
+    "url": "https://www.investing.com/news/commodities-news/oil-prices-steady-as-investors-assess-usiran-war-outlook-4868535",
+    "summary": "",
+    "published_at": "2026-08-20T18:19:08+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ce185a71ce1da2cd8f60d2ca",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "C&F financial executive chairman Dillon disposes of $86,000 in shares",
+    "url": "https://www.investing.com/news/insider-trading-news/cf-financial-executive-chairman-dillon-disposes-of-86000-in-shares-93CH-4870302",
+    "summary": "",
+    "published_at": "2026-08-20T18:16:21+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c61c16f5d6fdff97272da09d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Google bundles Antigravity coding agents into Gemini Enterprise",
+    "url": "https://www.investing.com/news/stock-market-news/google-bundles-antigravity-coding-agents-into-gemini-enterprise-93CH-4870301",
+    "summary": "",
+    "published_at": "2026-08-20T18:15:21+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "280a5559a37034b5342657c0",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Anthropic wants to match or beat SpaceX’s record IPO size - report",
+    "url": "https://www.investing.com/news/stock-market-news/anthropic-wants-to-match-or-beat-spacexs-record-ipo-size--report-4870300",
+    "summary": "",
+    "published_at": "2026-08-20T18:13:43+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "99277f1ca805103722b6f85a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Google adds personalization to Search and News",
+    "url": "https://www.investing.com/news/stock-market-news/google-adds-personalization-to-search-and-news-93CH-4870299",
+    "summary": "",
+    "published_at": "2026-08-20T18:11:56+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a21fa39604cb90dfc8c1be59",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SpaceX secures over $8 billion in Golden Dome contracts",
+    "url": "https://www.investing.com/news/stock-market-news/spacex-secures-over-8-billion-in-golden-dome-contracts-4870298",
+    "summary": "",
+    "published_at": "2026-08-20T18:09:20+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "99dab7a45f328b849251b32c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Google’s Gemma AI models surpass one billion downloads",
+    "url": "https://www.investing.com/news/stock-market-news/googles-gemma-ai-models-surpass-one-billion-downloads-93CH-4870297",
+    "summary": "",
+    "published_at": "2026-08-20T18:07:09+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "63a57e3e31963c22bb4fc775",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bessent says US will impose toughest ever sanctions on Iran, urges China to cooperate",
+    "url": "https://www.investing.com/news/commodities-news/us-treasury-secretary-bessent-to-hold-press-conference-on-iranon-monday-4870187",
+    "summary": "",
+    "published_at": "2026-08-20T18:06:53+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8d38a9e4bff1685fb5187b8b",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Walmart, Moderna among market cap stock movers on Thursday",
+    "url": "https://www.investing.com/news/stock-market-news/walmart-moderna-among-market-cap-stock-movers-on-thursday-93CH-4870296",
+    "summary": "",
+    "published_at": "2026-08-20T18:06:18+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8895b8bf8239b3fd9636869d",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "If rising rates were enough to end a bull market, we’d have entered a bear market long ago",
+    "url": "https://www.marketwatch.com/story/if-rising-rates-were-enough-to-end-a-bull-market-wed-have-entered-a-bear-market-long-ago-0c6790a0?mod=mw_rss_topstories",
+    "summary": "The “Fed Model” has turned bearish — how much should you care?",
+    "published_at": "2026-08-20T18:03:00+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "270c2eefc66a218dafbe69b2",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Ondo executive says tokenization is following the same path as early ETFs",
+    "url": "https://www.theblock.co/news/business/2026-08-20-ondo-executive-says-tokenization-following-same-path-as-early-etfs-412346",
+    "summary": "The firm hopes that passage of the Clarity Act will help open the door for it to offer tokenized products in the U.S.",
+    "published_at": "2026-08-20T17:53:38+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "40a329a3d9856687da50c6c0",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Inside the Oval Office meeting: Trump appears ‘bullish’ on Clarity Act as he solicits feedback from crypto, finance CEOs",
+    "url": "https://www.theblock.co/news/regulation/2026-08-20-inside-oval-office-meeting-trump-bullish-clarity-act-solicits-feedback-crypto-finance-ceos-412340",
+    "summary": "During a private Oval Office meeting, President Trump appeared “bullish” on passing the Clarity Act, one source said.",
+    "published_at": "2026-08-20T17:44:28+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {
+      "crypto_favorable": 1.4142
+    },
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6796,
+    "crypto_tone": 0.6796,
+    "is_stress": false,
+    "tone": 0.6796,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b707ce613cfebb27119e4288",
     "source": "nikkei_asia",
     "tier": 3,
@@ -22561,6 +23026,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "e531038ba4f69bc9b698508f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Prolific investor and author Robert Kiyosaki challenges wisdom of Ramsey, Orman - 3 tips from his playbook",
+    "url": "https://finance.yahoo.com/small-business/articles/prolific-investor-author-robert-kiyosaki-090500104.html",
+    "summary": "",
+    "published_at": "2026-08-19T09:05:00+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b50f28154435e2bd7ba0e76b",
     "source": "amf_news",
     "tier": 2,
@@ -22587,6 +23078,58 @@
     ],
     "has_decision_marker": false,
     "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "50acaed4c7bd61c6f35fa016",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Can I Retire at 62 With $2.5M in a Roth IRA and $2,500 a Month From Social Security?",
+    "url": "https://finance.yahoo.com/news/2-5-million-roth-ira-110000154.html",
+    "summary": "",
+    "published_at": "2026-08-19T09:00:00+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d0f7c7dd8a3092a100d90bb5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "More millennials are breaking their way into the 401(k) millionaire club than ever. How you can steal their strategy",
+    "url": "https://finance.yahoo.com/markets/articles/more-millennials-breaking-way-401-090000839.html",
+    "summary": "",
+    "published_at": "2026-08-19T09:00:00+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
@@ -22642,6 +23185,32 @@
     ],
     "has_decision_marker": true,
     "importance": 0.9,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "86ec15c2bd07f09da1e2dd52",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Alphabet raises $3.9 billion in inaugural Australian dollar bond",
+    "url": "https://finance.yahoo.com/technology/articles/alphabet-raises-3-9-billion-084802381.html",
+    "summary": "",
+    "published_at": "2026-08-19T08:48:02+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
@@ -22833,6 +23402,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "7ca70e59320eb5ae108cc029",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Samsung hikes chipmaking prices by up to 15% on demand spike, sources say",
+    "url": "https://finance.yahoo.com/technology/ai/articles/samsung-hikes-chipmaking-prices-15-082956191.html",
+    "summary": "",
+    "published_at": "2026-08-19T08:29:56+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "4d2325684343d574dcdd220c",
     "source": "investing_com",
     "tier": 3,
@@ -22885,6 +23480,62 @@
     "scored_by": "lexique"
   },
   {
+    "id": "46695466fa7466e092e9a188",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Equinor to acquire 17.4% interest in Namibia’s Orange Basin block",
+    "url": "https://finance.yahoo.com/energy/articles/equinor-acquire-17-4-interest-082827505.html",
+    "summary": "",
+    "published_at": "2026-08-19T08:28:27+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6a04fe5a8e30a990fe9bbc66",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Warren Buffett's and Greg Abel's $175 Billion Warning Echoes Loudly Through Wall Street",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffetts-greg-abels-175-082600336.html",
+    "summary": "",
+    "published_at": "2026-08-19T08:26:00+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "a9b718b93cf3d88ef448e2a5",
     "source": "investing_com",
     "tier": 3,
@@ -22910,6 +23561,90 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.75,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8e68442d757b02ee0923564e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Inox Clean Energy acquires Vena Energy India for $627m",
+    "url": "https://finance.yahoo.com/energy/articles/inox-clean-energy-acquires-vena-082139353.html",
+    "summary": "",
+    "published_at": "2026-08-19T08:21:39+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "35e87ac218daaa4d4c3d5c8d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "U.K. Inflation Surges as Iran War Threatens Further Price Pressures",
+    "url": "https://www.wsj.com/economy/global/u-k-inflation-picked-up-in-july-15b2b0be?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-19T08:16:00+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a13a1d737969fcd5b7a18b9c",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "RLUSD Holders Can Earn Weekly XRP as Binance Extends $800K Reward Pool",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/rlusd-holders-earn-weekly-xrp-081354566.html",
+    "summary": "",
+    "published_at": "2026-08-19T08:13:54+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
@@ -23006,6 +23741,92 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "07ea7f83036b20fb9d72fff2",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Carlsberg Lifts Lower End of Guidance as Nonalcoholic Drinks Offset Beer Declines",
+    "url": "https://www.wsj.com/business/earnings/carlsberg-lifts-lower-end-of-guidance-books-strong-growth-in-soft-drinks-alcohol-free-brews-0ca981ff?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-19T08:10:00+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "16ede244e3e00e8258036444",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin Time Machine Hands Buyers a 50% Discount, Cameron Winklevoss Says",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-time-machine-hands-buyers-080916752.html",
+    "summary": "",
+    "published_at": "2026-08-19T08:09:16+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bf6ca88acd66fd929ddbf735",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nikkei Falls to Two-Week Low on Risk-Off Sentiment",
+    "url": "https://www.barrons.com/livecoverage/stock-market-news-today-081926/card/nikkei-falls-to-two-week-low-on-risk-off-sentiment-PkqJMXx0HZFhxFPKPOPM?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-19T08:06:11+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
@@ -23378,6 +24199,88 @@
     ],
     "has_decision_marker": false,
     "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "41acbecae7f0f72b88aba453",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SK Hynix plans $28.6 billion buyback after share price declines",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-stock-jumps-amid-29b-treasury-buyback-plan-070906682.html",
+    "summary": "",
+    "published_at": "2026-08-19T07:09:06+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "467e7143edd68259e6de42c3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Unitree soars in Shanghai debut, a milestone for China's humanoid robotics sector",
+    "url": "https://finance.yahoo.com/technology/articles/unitree-soars-shanghai-debut-milestone-070855689.html",
+    "summary": "",
+    "published_at": "2026-08-19T07:08:55+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2eca6e5855c27c1ed692fe6a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "I'm 62 With $800,000 and $2,600 Monthly Social Security. How Much Can I Spend in Retirement?",
+    "url": "https://finance.yahoo.com/news/im-62-800-000-receive-100000521.html",
+    "summary": "",
+    "published_at": "2026-08-19T07:00:00+00:00",
+    "collected_at": "2026-08-20T18:35:38.809333+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
