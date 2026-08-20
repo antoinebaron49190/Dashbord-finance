@@ -1,5 +1,306 @@
 [
   {
+    "id": "4ff396b8d093236a36171695",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Foreign ownership of Japan stocks hits new record on AI boom",
+    "url": "https://asia.nikkei.com/business/markets/equities/foreign-ownership-of-japan-stocks-hits-new-record-on-ai-boom",
+    "summary": "",
+    "published_at": "2026-08-20T22:24:43.823843+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3846104df67f0f1bcb414292",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Mariana, 18 more Brazil cities join Vale-BHP dam collapse compensation deal",
+    "url": "https://www.investing.com/news/stock-market-news/mariana-18-more-brazil-cities-join-valebhp-dam-collapse-compensation-deal-4870563",
+    "summary": "",
+    "published_at": "2026-08-20T22:01:56+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c59c0684f2cc4d1f09db5b25",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Medical properties trust senior VP, controller & CAO buys $9,545 in stock",
+    "url": "https://www.investing.com/news/insider-trading-news/medical-properties-trust-senior-vp-controller--cao-buys-9545-in-stock-93CH-4870601",
+    "summary": "",
+    "published_at": "2026-08-20T22:01:24+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6bafebd18984f5f5ca70fd69",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Ichor Holdings director Iain MacKenzie sells $653,176 in shares",
+    "url": "https://www.investing.com/news/insider-trading-news/ichor-holdings-director-iain-mackenzie-sells-653176-in-shares-93CH-4870600",
+    "summary": "",
+    "published_at": "2026-08-20T22:01:21+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f282a998af53466efa0b398c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Rocket Pharmaceuticals general counsel Martin Wilson sells $2,133 in stock",
+    "url": "https://www.investing.com/news/insider-trading-news/rocket-pharmaceuticals-general-counsel-martin-wilson-sells-2133-in-stock-93CH-4870599",
+    "summary": "",
+    "published_at": "2026-08-20T22:01:20+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1e187f716d16a122457dac3e",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Anthropic adds Citigroup to lead IPO banks ahead of listing - Bloomberg",
+    "url": "https://www.investing.com/news/stock-market-news/anthropic-adds-citigroup-to-lead-ipo-banks-ahead-of-listing--bloomberg-93CH-4870593",
+    "summary": "",
+    "published_at": "2026-08-20T21:52:29+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d7c8ded4d8127ff89d361416",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "White House sets goal of 1,000 annual space launches by 2030",
+    "url": "https://www.investing.com/news/economy-news/white-house-sets-goal-of-1000-annual-space-launches-by-2030-93CH-4870592",
+    "summary": "",
+    "published_at": "2026-08-20T21:52:18+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "886b7c9a0f0b3068b71e863e",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Vext Science posts stronger margins in Q2 2026",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-vext-science-posts-stronger-margins-in-q2-2026-93CH-4870591",
+    "summary": "",
+    "published_at": "2026-08-20T21:51:08+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "469403940ae539b51770339b",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Santacruz Silver posts strong Q2 2026 growth",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-santacruz-silver-posts-strong-q2-2026-growth-93CH-4870590",
+    "summary": "",
+    "published_at": "2026-08-20T21:50:11+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1bbe7a1afbf19db94cd06625",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin at $72k, highest since May after Trump calls for clear crypto legislation",
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-to-near-70k-on-trump-comments-falling-yields-4868746",
+    "summary": "",
+    "published_at": "2026-08-20T21:49:05+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "db0a169fce156e877c49d660",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Blue Moon Metals receives permits for Nevada tungsten project",
+    "url": "https://www.investing.com/news/company-news/blue-moon-metals-receives-permits-for-nevada-tungsten-project-93CH-4870589",
+    "summary": "",
+    "published_at": "2026-08-20T21:48:39+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "912032fe0fb8b605348c9f90",
     "source": "nikkei_asia",
     "tier": 3,
@@ -18201,6 +18502,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "8e38a330ffe2b2a9c8242c43",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Are Wall Street Analysts Predicting Steel Dynamics Stock Will Climb or Sink?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-steel-144227309.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:42:27+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "a1bf38a9e20b4fddc70e897d",
     "source": "coindesk",
     "tier": 3,
@@ -18215,6 +18546,32 @@
     "summary": "",
     "published_at": "2026-08-19T14:41:55+00:00",
     "collected_at": "2026-08-19T15:28:40.707155+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ab449d2471cc9d87876d75b0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "T. Rowe Price Group Stock: Analyst Estimates & Ratings",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/t-rowe-price-group-stock-144049511.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:40:49+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -18255,6 +18612,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "80d4487d84fa445a9a95e059",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Meta faces potential $200bn fine as US states pursue child safety trial",
+    "url": "https://finance.yahoo.com/media-advertising/articles/meta-faces-potential-200bn-fine-143954561.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:39:54+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0d7937253139a35b5ec6b8b7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Who Is on the Shortlist to Acquire Ziff Davis?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/shortlist-acquire-ziff-davis-143907045.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:39:07+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "6e0845b91610dcc131ef9384",
     "source": "yahoo_finance",
     "tier": 3,
@@ -18269,6 +18678,244 @@
     "summary": "",
     "published_at": "2026-08-19T14:38:46+00:00",
     "collected_at": "2026-08-19T15:28:40.707155+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8a0557432363058f7642da02",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SKK Holdings Wins Six Singapore Contracts Worth Up to $26.6 Million",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/skk-holdings-wins-six-singapore-143813926.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:38:13+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7dbdb759316eb727221267d9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "XRP Holds Above $1 as Ripple Signs Korea’s First Regional Bank. Will It Move XRP?",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/xrp-holds-above-1-ripple-143746296.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:37:46+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9f15c2058798b03864759435",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Broadcom Rival Marvell Surges After Google Strikes AI Chip Deal, Gets Option to Buy $12.2B Stake",
+    "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-rival-marvell-surges-google-143743171.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:37:43+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5f53c2d51f583feb4d2492eb",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dollar Slumps and Gold Rallies as US Treasury Ramps Up Buybacks",
+    "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-slumps-gold-rallies-us-143540311.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:35:40+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6bc927f3f6c056e93bf2e435",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Munich Re to acquire cyber insurtech company At-Bay for $575m",
+    "url": "https://finance.yahoo.com/healthcare/articles/munich-acquire-cyber-insurtech-company-143522657.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:35:22+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8f353e7a9088c77fbf02756a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jamie Dimon Has Run JPMorgan Chase for 2 Decades. What Happens to the Stock When He Steps Down?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jamie-dimon-run-jpmorgan-chase-143500449.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:35:00+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a984b98c0f125593b91c6f4a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Eshallgo Secures Exclusive North American Distribution Partnership With Zhongshan Senwei",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/eshallgo-secures-exclusive-north-american-143350337.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:33:50+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "652b835148a6c2de270dae67",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "What Are Wall Street Analysts' Target Price for Generac Holdings Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-143329998.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:33:29+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f1cb176f9ddbddf6d0c8f4d0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Avantium’s Green Plastic Dream Needs More Cash",
+    "url": "https://finance.yahoo.com/technology/articles/avantium-green-plastic-dream-needs-143157992.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:31:57+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -18300,6 +18947,69 @@
     ],
     "assets_effective": [
       "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b999179be03cdd27ec6270a0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Wynn Resorts Stock: Is Wall Street Bullish or Bearish?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wynn-resorts-stock-wall-street-143043210.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:30:43+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {
+      "crypto_favorable": 1.0,
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f0249949a113d26e64628362",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Are Wall Street Analysts Predicting Travelers Companies Stock Will Climb or Sink?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-travelers-142748536.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:27:48+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
     ],
     "has_decision_marker": false,
     "importance": 0.3,
@@ -18353,6 +19063,39 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2d18c277af628a23969f8144",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Is Wall Street Bullish or Bearish on PPG Industries Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-ppg-142221766.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:22:21+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {
+      "crypto_favorable": 1.0,
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -18435,6 +19178,38 @@
     "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2e9c99a19a43ff2dd4d53d33",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Are Wall Street Analysts Bullish on Leidos Holdings Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-leidos-141709601.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:17:09+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
     "is_stress": false,
     "tone": 0.0,
     "scored_by": "lexique"
@@ -18885,6 +19660,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "7dbe77ab43532a995925538a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Stocks Mixed on Lower Bond Yields and Chip Stock Weakness",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-mixed-lower-bond-yields-141337679.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:13:37+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "8b5994d2a9672997972be272",
     "source": "yahoo_finance",
     "tier": 3,
@@ -18988,6 +19789,32 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2a7db8f1d76f298ac9b6eeed",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "As Pressure on the Dollar Ramps Up, Make This 1 Trade Now",
+    "url": "https://finance.yahoo.com/markets/currencies/articles/pressure-dollar-ramps-1-trade-140306855.html",
+    "summary": "",
+    "published_at": "2026-08-19T14:03:06+00:00",
+    "collected_at": "2026-08-20T22:24:43.823843+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
