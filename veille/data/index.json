@@ -1,12 +1,20 @@
 {
   "2026-08-20": {
-    "articles_count": 71,
-    "signal_count": 13,
+    "articles_count": 83,
+    "signal_count": 15,
     "tone_cb": null,
-    "tone_global": 0.3013,
-    "regul_crypto": 0.25,
+    "tone_global": 0.3628,
+    "regul_crypto": 0.3932,
     "stress": 0.0,
     "top": [
+      {
+        "id": "1cef5f84771e342f768445e0",
+        "title": "Spot bitcoin ETFs report $517 million in net inflows, largest in 3.5 months",
+        "source": "theblock",
+        "score": 0.45,
+        "tone": 0.8047,
+        "url": "https://www.theblock.co/news/markets/2026-08-20-us-bitcoin-etf-517-million-inflows-412291"
+      },
       {
         "id": "a3549d2f6b2bd28a9a3e29ce",
         "title": "AI agents could make today’s billion-dollar crypto hacks look like ‘pennies,’ industry leaders warn",
@@ -38,14 +46,6 @@
         "score": 0.3,
         "tone": -0.6,
         "url": "https://www.coindesk.com/markets/2026/08/20/bearish-crypto-bets-lose-record-usd2-7-billion-as-bitcoin-surges-toward-usd70-000"
-      },
-      {
-        "id": "6a17020a7c0d7e205e28f219",
-        "title": "Oil gains on Middle East supply concerns amid impasse in US-Iran war",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/commodities-news/oil-prices-steady-as-investors-assess-usiran-war-outlook-4868535"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-18": {
-    "articles_count": 677,
-    "signal_count": 87,
+    "articles_count": 703,
+    "signal_count": 90,
     "tone_cb": null,
-    "tone_global": 0.1677,
+    "tone_global": 0.1676,
     "regul_crypto": 0.2824,
-    "stress": 0.0131,
+    "stress": 0.0126,
     "top": [
       {
         "id": "300caddfd632568e969502a7",
@@ -150,12 +150,12 @@
     ]
   },
   "2026-08-17": {
-    "articles_count": 751,
+    "articles_count": 754,
     "signal_count": 80,
     "tone_cb": 0.6667,
     "tone_global": 0.0858,
     "regul_crypto": null,
-    "stress": 0.0025,
+    "stress": 0.0024,
     "top": [
       {
         "id": "147d3b7976d9e35a414610b4",
