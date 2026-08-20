@@ -1,12 +1,20 @@
 {
   "2026-08-20": {
-    "articles_count": 25,
-    "signal_count": 6,
+    "articles_count": 36,
+    "signal_count": 8,
     "tone_cb": null,
-    "tone_global": 0.5278,
-    "regul_crypto": null,
+    "tone_global": 0.5521,
+    "regul_crypto": 0.75,
     "stress": 0.0,
     "top": [
+      {
+        "id": "a3549d2f6b2bd28a9a3e29ce",
+        "title": "AI agents could make today’s billion-dollar crypto hacks look like ‘pennies,’ industry leaders warn",
+        "source": "theblock",
+        "score": 0.3,
+        "tone": 0.75,
+        "url": "https://www.theblock.co/news/ecosystems/2026-08-19-ai-agents-todays-billion-dollar-crypto-hacks-look-like-pennies-industry-leaders-412278"
+      },
       {
         "id": "3519a9e2ff2567ff51d0183f",
         "title": "ASEAN headlines India's export expansion in April-June quarter",
@@ -14,6 +22,14 @@
         "score": 0.3,
         "tone": 0.6667,
         "url": "https://asia.nikkei.com/economy/trade/asean-headlines-india-s-export-expansion-in-april-june-quarter"
+      },
+      {
+        "id": "b0a7b7d1f8f60683c2db47cd",
+        "title": "Eureka FY26 slides: rental growth drives 29% EBITDA gain",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/company-news/eureka-fy26-slides-rental-growth-drives-29-ebitda-gain-93CH-4868648"
       },
       {
         "id": "7297b5e6603dc05378921da9",
@@ -30,22 +46,6 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.investing.com/news/company-news/cuscal-fy26-slides-payments-group-posts-20-growth-eyes-mid20s-gains-93CH-4868634"
-      },
-      {
-        "id": "94905e6c9a5358c2441902cb",
-        "title": "Goodman Group FY26 slides: data centres drive 10% profit growth",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/company-news/goodman-group-fy26-slides-data-centres-drive-10-profit-growth-93CH-4868497"
-      },
-      {
-        "id": "61575665a975398e53ac8357",
-        "title": "SK Hynix shares rebound 8% after record $28.6 billion buyback plan",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/stock-market-news/sk-hynix-shares-rebound-8-after-record-286-billion-buyback-plan-4868496"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-18": {
-    "articles_count": 593,
-    "signal_count": 78,
+    "articles_count": 603,
+    "signal_count": 79,
     "tone_cb": null,
-    "tone_global": 0.1793,
+    "tone_global": 0.1771,
     "regul_crypto": 0.2824,
-    "stress": 0.0132,
+    "stress": 0.013,
     "top": [
       {
         "id": "300caddfd632568e969502a7",
