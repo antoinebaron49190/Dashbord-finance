@@ -1,10 +1,10 @@
 {
   "2026-08-20": {
-    "articles_count": 36,
-    "signal_count": 8,
+    "articles_count": 47,
+    "signal_count": 9,
     "tone_cb": null,
-    "tone_global": 0.5521,
-    "regul_crypto": 0.75,
+    "tone_global": 0.4241,
+    "regul_crypto": 0.075,
     "stress": 0.0,
     "top": [
       {
@@ -24,6 +24,14 @@
         "url": "https://asia.nikkei.com/economy/trade/asean-headlines-india-s-export-expansion-in-april-june-quarter"
       },
       {
+        "id": "ed65142efa89bd7b486d45bc",
+        "title": "Bearish crypto bets lose record $2.7 billion as bitcoin surges toward $70,000",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.coindesk.com/markets/2026/08/20/bearish-crypto-bets-lose-record-usd2-7-billion-as-bitcoin-surges-toward-usd70-000"
+      },
+      {
         "id": "b0a7b7d1f8f60683c2db47cd",
         "title": "Eureka FY26 slides: rental growth drives 29% EBITDA gain",
         "source": "investing_com",
@@ -38,14 +46,6 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-aia-group-lifts-h1-2026-profit-outlook-as-growth-accelerates-93CH-4868638"
-      },
-      {
-        "id": "fda01bd0af8c701b90e37eb0",
-        "title": "Cuscal FY26 slides: payments group posts 20% growth, eyes mid-20s gains",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/company-news/cuscal-fy26-slides-payments-group-posts-20-growth-eyes-mid20s-gains-93CH-4868634"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-18": {
-    "articles_count": 603,
-    "signal_count": 79,
+    "articles_count": 623,
+    "signal_count": 81,
     "tone_cb": null,
-    "tone_global": 0.1771,
+    "tone_global": 0.1737,
     "regul_crypto": 0.2824,
-    "stress": 0.013,
+    "stress": 0.0142,
     "top": [
       {
         "id": "300caddfd632568e969502a7",
