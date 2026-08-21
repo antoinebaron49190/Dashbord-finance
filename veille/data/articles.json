@@ -1,5 +1,451 @@
 [
   {
+    "id": "ad7e9ddd3afa4898389627de",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Japan's busy PM had just one Saturday for personal errands: dentist visit",
+    "url": "https://asia.nikkei.com/politics/japan-s-busy-pm-had-just-one-saturday-for-personal-errands-dentist-visit",
+    "summary": "",
+    "published_at": "2026-08-21T18:33:07.417802+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "95bb49e846563d3299e5d666",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Japan muted on Putin's disputed-islands visit as US intentions remain murky",
+    "url": "https://asia.nikkei.com/politics/international-relations/japan-muted-on-putin-s-disputed-islands-visit-as-us-intentions-remain-murky",
+    "summary": "",
+    "published_at": "2026-08-21T18:33:07.417802+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "67040650eff970ca3ad0c426",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Trump, Vance and Bessent try to calm the bond market with ‘alternative facts’",
+    "url": "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378?mod=mw_rss_topstories",
+    "summary": "Maybe this stuff works on TV or on the stump. But it doesn’t work on Wall Street, where people can count.",
+    "published_at": "2026-08-21T18:29:00+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bba39d15d01e6bae54d8da79",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The Treasury, the Fed and the threat to your money",
+    "url": "https://www.marketwatch.com/story/the-treasury-the-fed-and-the-threat-to-your-money-774442ad?mod=mw_rss_topstories",
+    "summary": "Also in Weekend Reads: The Gen Z online sports-betting trend, what’s next for Apple as Tim Cook exits, and a bullish take on Nvidia heading into earnings.",
+    "published_at": "2026-08-21T18:15:00+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9fe9d2f1292c5b974e28e963",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Agilent Technologies stock hits 52-week high at 160.36 USD",
+    "url": "https://www.investing.com/news/company-news/agilent-technologies-stock-hits-52week-high-at-16036-usd-93CH-4872025",
+    "summary": "",
+    "published_at": "2026-08-21T18:14:39+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b74dcd19125cc4154e79890b",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "German state politician calls for EU tariffs on Chinese hybrid cars, letter shows",
+    "url": "https://www.investing.com/news/economy-news/german-state-politician-calls-for-eu-tariffs-on-chinese-hybrid-cars-letter-shows-4872022",
+    "summary": "",
+    "published_at": "2026-08-21T18:12:41+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2963e211efd2d9a7161e7ac2",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Canada’s Big Six banks head into Q3 2026 earnings on four-quarter beat streaks",
+    "url": "https://www.investing.com/news/stock-market-news/canadas-big-six-banks-head-into-q3-2026-earnings-on-fourquarter-beat-streaks-93CH-4872021",
+    "summary": "",
+    "published_at": "2026-08-21T18:11:19+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9565803155ba931ff663bfc8",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "CrowdStrike vs. Palo Alto Networks: valuation, growth, and profitability compared",
+    "url": "https://www.investing.com/news/stock-market-news/crowdstrike-vs-palo-alto-networks-valuation-growth-and-profitability-compared-93CH-4872020",
+    "summary": "",
+    "published_at": "2026-08-21T18:09:08+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "90f024295d2447184b484847",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Greenland approves rare earths license transfer to Greenland Mines",
+    "url": "https://www.investing.com/news/company-news/greenland-approves-rare-earths-license-transfer-to-greenland-mines-93CH-4872019",
+    "summary": "",
+    "published_at": "2026-08-21T18:08:39+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4c7d7be4b74423ca3aba1a64",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Virtu Financial stock hits all-time high at 68.08 USD",
+    "url": "https://www.investing.com/news/company-news/virtu-financial-stock-hits-alltime-high-at-6808-usd-93CH-4872018",
+    "summary": "",
+    "published_at": "2026-08-21T18:07:22+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "44e344ad02bbbb467bc44bc9",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Marvell, Palantir among market cap stock movers on Friday",
+    "url": "https://www.investing.com/news/stock-market-news/marvell-palantir-among-market-cap-stock-movers-on-friday-93CH-4872016",
+    "summary": "",
+    "published_at": "2026-08-21T18:06:35+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "aabfe09be67bd459a5d23203",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Besides Nvidia, what earnings should investors keep tabs on next week?",
+    "url": "https://www.investing.com/news/stock-market-news/besides-nvidia-what-earnings-should-investors-keep-tabs-on-next-week-93CH-4872015",
+    "summary": "",
+    "published_at": "2026-08-21T18:05:18+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d020d4eb26214e873262d4c2",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "BJ’s Wholesale Club earnings analysis: questions answered and next catalysts",
+    "url": "https://www.investing.com/news/stock-market-news/bjs-wholesale-club-earnings-analysis-questions-answered-and-next-catalysts-93CH-4872013",
+    "summary": "",
+    "published_at": "2026-08-21T18:02:30+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2ae3935f31306af65be59c03",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Chicago Atlantic REFI Co-CEO Peter Sack buys $52,220 in stock",
+    "url": "https://www.investing.com/news/insider-trading-news/chicago-atlantic-refi-coceo-peter-sack-buys-52220-in-stock-93CH-4872009",
+    "summary": "",
+    "published_at": "2026-08-21T18:01:09+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c0cca26121d6c7ce0e3fc23c",
+    "source": "cnbc_economy",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "statistiques",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bessent's bond gambit aimed at calming markets is instead stirring inflation worries",
+    "url": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html",
+    "summary": "The so-called breakeven rate hit its highest levels in more than two months.",
+    "published_at": "2026-08-21T17:51:10+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "36b8f8b5bd2e1397a394a157",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "BounceBit to sunset blockchain, migrate to BNB Chain after $3 million exploit",
+    "url": "https://www.theblock.co/news/ecosystems/2026-08-21-bouncebit-sunset-blockchain-migrate-bnb-chain-after-3-million-exploit-412485",
+    "summary": "The attacker transferred approximately 286.5 million BB from nine wallets before block production was eventually halted.",
+    "published_at": "2026-08-21T17:28:34+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
     "id": "469179df51eddaf167b321a7",
     "source": "nikkei_asia",
     "tier": 3,
@@ -18024,6 +18470,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "a8217345ab95dd6cba37ba03",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Rapid7 (RPD) Bets On A Sharper Focus To Reverse Its Slide",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/rapid7-rpd-bets-sharper-focus-095502766.html",
+    "summary": "",
+    "published_at": "2026-08-20T09:55:02+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "8dbcf8f487ee8efcdc513d1b",
     "source": "coindesk",
     "tier": 3,
@@ -18047,6 +18519,58 @@
       "btc",
       "eth"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d1dc33f077b5e4986abb0975",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "American Public Education (APEI) Proves Its Multi-Year Overhaul Finally Paid Off",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/american-public-education-apei-proves-093625716.html",
+    "summary": "",
+    "published_at": "2026-08-20T09:36:25+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "630411b9683b741a4bf189e8",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Alibaba profit falls 75% after ramping up AI infrastructure spending",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-beats-quarterly-revenue-estimates-093547658.html",
+    "summary": "",
+    "published_at": "2026-08-20T09:35:47+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -18130,6 +18654,84 @@
     "assets_effective": [
       "asie"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "73fc1b13e6277f5da0cc9d91",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Has Iranian Crude Become Irrelevant to Global Oil Supply?",
+    "url": "https://finance.yahoo.com/energy/articles/iranian-crude-become-irrelevant-global-093000290.html",
+    "summary": "",
+    "published_at": "2026-08-20T09:30:00+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "143eb34d08d9a929e65c1c55",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Meet Unitree, the 10-year-old robotics company whose shares jumped 600% in its stock market debut",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/meet-unitree-10-old-robotics-093000440.html",
+    "summary": "",
+    "published_at": "2026-08-20T09:30:00+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e68b0fd2f7b6eee429355163",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "IBM vs. Accenture: One Trades at a 52-Week Low. The Better Dividend Stock May Surprise You.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-vs-accenture-one-trades-092821736.html",
+    "summary": "",
+    "published_at": "2026-08-20T09:28:21+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -18285,6 +18887,34 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3f01f752ea72e00d1276b2f2",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Compass Diversified (CODI): Branded Consumer Growth Masks Industrial Drag in Q2",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/compass-diversified-codi-branded-consumer-092314564.html",
+    "summary": "",
+    "published_at": "2026-08-20T09:23:14+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
     "scored_by": "lexique"
   },
   {
@@ -18723,6 +19353,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "d3116b902e5c710d758b4bef",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "We're 63 With $1.5 Million in IRAs and $4,500 Monthly Social Security. How Much Can We Spend in Retirement?",
+    "url": "https://finance.yahoo.com/news/were-63-1-5-million-130000528.html",
+    "summary": "",
+    "published_at": "2026-08-20T09:00:00+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "29cba43f54695d460dd6d827",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "From Yellowcake to Commercial Scale: Can Ur-Energy (URG) Live Up to Its Uranium Hype?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/yellowcake-commercial-scale-ur-energy-085956708.html",
+    "summary": "",
+    "published_at": "2026-08-20T08:59:56+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "dae5355ee9b225abc78da96d",
     "source": "marketwatch",
     "tier": 3,
@@ -18737,6 +19419,194 @@
     "summary": "For peace of mind on the road and safety here’s what will keep you prepared for almost any scenario.",
     "published_at": "2026-08-20T08:58:00+00:00",
     "collected_at": "2026-08-20T09:31:51.578897+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "695b794a482a8c3dbb3d640f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "By the numbers: Inside Dutch Bros’ growth strategy",
+    "url": "https://finance.yahoo.com/small-business/articles/numbers-inside-dutch-bros-growth-083752542.html",
+    "summary": "",
+    "published_at": "2026-08-20T08:37:52+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5d43877e3c6cc9137e6bf759",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Wawa expands self-branded EV charging network",
+    "url": "https://finance.yahoo.com/energy/articles/wawa-expands-self-branded-ev-083631729.html",
+    "summary": "",
+    "published_at": "2026-08-20T08:36:31+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6ee0f02b5f617ffae5540dc8",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin Roars Past $70,000 as Yields Sink, Trump Sparks Optimism",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-roars-past-70000-as-yields-sink-trump-sparks-optimism-083507532.html",
+    "summary": "",
+    "published_at": "2026-08-20T08:35:07+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "faf9fe399300ffe0b5fde072",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "JD Sports Shares Tumble After Profit Guidance Cut",
+    "url": "https://www.wsj.com/business/retail/jd-sports-shares-tumble-after-profit-guidance-cut-bf9b8cbd?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-20T08:35:00+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a5cc54dae748db4586cff9ab",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Walmart Posts Healthy Quarter, Raises Its 2026 Outlook but Stock Falls",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-posts-healthy-quarter-raises-083500637.html",
+    "summary": "",
+    "published_at": "2026-08-20T08:35:00+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9ab8bf63a3927d10395aa37d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Panoro to acquire stake in Côte d’Ivoire’s Block CI-27 from DNO",
+    "url": "https://finance.yahoo.com/energy/articles/panoro-acquire-stake-c-te-083205141.html",
+    "summary": "",
+    "published_at": "2026-08-20T08:32:05+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "70e2dae337de6cd962b01097",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Billionaire Stanley Druckenmiller May Have Just Repeated His \"Big Mistake\" With Nvidia -- This Time With a Chip Stock That Rose 300% in the First Half of 2026",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-stanley-druckenmiller-may-just-083200857.html",
+    "summary": "",
+    "published_at": "2026-08-20T08:32:00+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -20299,6 +21169,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "f5fe21fa027516c8d8265132",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SK Hynix workers to get 60% of this year's bonuses in stock rather than cash",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-workers-to-get-60-of-this-years-bonuses-in-stock-rather-than-cash-052723081.html",
+    "summary": "",
+    "published_at": "2026-08-20T05:27:23+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "7380034e1068eeb4845834f3",
     "source": "yahoo_finance",
     "tier": 3,
@@ -20694,6 +21590,32 @@
     "crypto_tone": -0.6,
     "is_stress": false,
     "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "838ffdc703f71506b793b570",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Robots poised for 'ChatGPT moment,' Unitree CEO says",
+    "url": "https://finance.yahoo.com/technology/ai/articles/robots-poised-for-chatgpt-moment-unitree-ceo-says-042133208.html",
+    "summary": "",
+    "published_at": "2026-08-20T04:21:33+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
@@ -29355,6 +30277,32 @@
     "summary": "",
     "published_at": "2026-08-19T17:45:03+00:00",
     "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6a16eaa96b38c52cd4cc0bb3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The Treasury Department just pushed down long-term US bond yields. That could make Kevin Warsh's job harder.",
+    "url": "https://finance.yahoo.com/economy/policy/article/the-treasury-department-just-pushed-down-long-term-us-bond-yields-that-could-make-kevin-warshs-job-harder-174238269.html",
+    "summary": "",
+    "published_at": "2026-08-19T17:42:38+00:00",
+    "collected_at": "2026-08-21T18:33:07.417802+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
