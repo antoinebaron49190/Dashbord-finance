@@ -1,12 +1,28 @@
 {
   "2026-08-21": {
-    "articles_count": 91,
-    "signal_count": 12,
+    "articles_count": 105,
+    "signal_count": 16,
     "tone_cb": null,
-    "tone_global": -0.1,
-    "regul_crypto": -0.6,
-    "stress": 0.011,
+    "tone_global": 0.0563,
+    "regul_crypto": 0.0,
+    "stress": 0.0092,
     "top": [
+      {
+        "id": "946669543dc4bddcd633c518",
+        "title": "ECB Consumer Expectations Survey results – July 2026",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260821~a044fdddd9.en.html"
+      },
+      {
+        "id": "8f86d89e2ae99f64f7de5708",
+        "title": "Live updates: Bitcoin tops $77,000; BTC, ETH record $800 million inflows",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": 0.6,
+        "url": "https://www.coindesk.com/tech/2026/08/21/live-updates-bitcoin-ether-etfs-pull-in-usd800-million-as-inflows-surge-for-a-second-day"
+      },
       {
         "id": "0b70d4f5b5035a7a46a1aa62",
         "title": "MANTRA token plunges 18% to record low as blockchain halts after exploit",
@@ -24,28 +40,12 @@
         "url": "https://www.investing.com/news/stock-market-news/chinese-court-in-guangzhou-accepts-bankruptcy-case-of-evergrande-unit-4870826"
       },
       {
-        "id": "ab0e931212cabf22978bfea2",
-        "title": "Morgan Stanley upgrades Ternium stock rating on tariff outlook",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-upgrades-ternium-stock-rating-on-tariff-outlook-93CH-4870961"
-      },
-      {
-        "id": "8656829b32e9000d6f4f82cc",
-        "title": "Synsam Q2 EBITDA beats forecasts as subscription sales growth accelerates",
+        "id": "1776a7350ea88082a7e455d7",
+        "title": "Ross Stores shares rally as strong Q2 results drive outlook upgrade",
         "source": "investing_com",
         "score": 0.3,
         "tone": 0.5,
-        "url": "https://www.investing.com/news/earnings/synsam-q2-ebitda-beats-forecasts-as-subscription-sales-growth-accelerates-4870865"
-      },
-      {
-        "id": "97ff7a46b114127fd1c499ed",
-        "title": "Indonesia seeks expanded joint military exercises with China",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/politics/defense/indonesia-seeks-expanded-joint-military-exercises-with-china"
+        "url": "https://www.investing.com/news/earnings/ross-stores-raises-2026-outlook-after-strong-secondquarter-results-4870498"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-19": {
-    "articles_count": 781,
-    "signal_count": 94,
+    "articles_count": 809,
+    "signal_count": 95,
     "tone_cb": null,
-    "tone_global": 0.0677,
+    "tone_global": 0.074,
     "regul_crypto": -0.6,
-    "stress": 0.0113,
+    "stress": 0.0109,
     "top": [
       {
         "id": "981d22e6c8c6ddfe3e10d69d",
