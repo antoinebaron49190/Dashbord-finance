@@ -1,11 +1,11 @@
 {
   "2026-08-21": {
-    "articles_count": 76,
-    "signal_count": 10,
+    "articles_count": 91,
+    "signal_count": 12,
     "tone_cb": null,
-    "tone_global": -0.07,
+    "tone_global": -0.1,
     "regul_crypto": -0.6,
-    "stress": 0.0132,
+    "stress": 0.011,
     "top": [
       {
         "id": "0b70d4f5b5035a7a46a1aa62",
@@ -24,6 +24,14 @@
         "url": "https://www.investing.com/news/stock-market-news/chinese-court-in-guangzhou-accepts-bankruptcy-case-of-evergrande-unit-4870826"
       },
       {
+        "id": "ab0e931212cabf22978bfea2",
+        "title": "Morgan Stanley upgrades Ternium stock rating on tariff outlook",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-upgrades-ternium-stock-rating-on-tariff-outlook-93CH-4870961"
+      },
+      {
         "id": "8656829b32e9000d6f4f82cc",
         "title": "Synsam Q2 EBITDA beats forecasts as subscription sales growth accelerates",
         "source": "investing_com",
@@ -38,19 +46,11 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://asia.nikkei.com/politics/defense/indonesia-seeks-expanded-joint-military-exercises-with-china"
-      },
-      {
-        "id": "00c5c633f36e949d3348fe12",
-        "title": "India’s August private sector growth recovers slightly from over four-year low, PMI shows",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/economy-news/indias-august-private-sector-growth-recovers-slightly-from-over-fouryear-low-pmi-shows-4870833"
       }
     ]
   },
   "2026-08-20": {
-    "articles_count": 480,
+    "articles_count": 481,
     "signal_count": 71,
     "tone_cb": 0.1875,
     "tone_global": 0.2752,
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-19": {
-    "articles_count": 758,
-    "signal_count": 93,
+    "articles_count": 781,
+    "signal_count": 94,
     "tone_cb": null,
-    "tone_global": 0.0631,
+    "tone_global": 0.0677,
     "regul_crypto": -0.6,
-    "stress": 0.0116,
+    "stress": 0.0113,
     "top": [
       {
         "id": "981d22e6c8c6ddfe3e10d69d",
