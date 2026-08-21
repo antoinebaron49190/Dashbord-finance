@@ -1,12 +1,20 @@
 {
   "2026-08-21": {
-    "articles_count": 63,
-    "signal_count": 7,
+    "articles_count": 76,
+    "signal_count": 10,
     "tone_cb": null,
-    "tone_global": -0.0857,
-    "regul_crypto": null,
-    "stress": 0.0159,
+    "tone_global": -0.07,
+    "regul_crypto": -0.6,
+    "stress": 0.0132,
     "top": [
+      {
+        "id": "0b70d4f5b5035a7a46a1aa62",
+        "title": "MANTRA token plunges 18% to record low as blockchain halts after exploit",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.coindesk.com/tech/2026/08/21/mantra-token-plunges-18-to-record-low-as-blockchain-halts-after-exploit"
+      },
       {
         "id": "50146666194a4d7dd19dc8c8",
         "title": "Chinese court in Guangzhou accepts bankruptcy case of Evergrande unit",
@@ -14,6 +22,14 @@
         "score": 0.3,
         "tone": -0.6,
         "url": "https://www.investing.com/news/stock-market-news/chinese-court-in-guangzhou-accepts-bankruptcy-case-of-evergrande-unit-4870826"
+      },
+      {
+        "id": "8656829b32e9000d6f4f82cc",
+        "title": "Synsam Q2 EBITDA beats forecasts as subscription sales growth accelerates",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/earnings/synsam-q2-ebitda-beats-forecasts-as-subscription-sales-growth-accelerates-4870865"
       },
       {
         "id": "97ff7a46b114127fd1c499ed",
@@ -30,22 +46,6 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.investing.com/news/economy-news/indias-august-private-sector-growth-recovers-slightly-from-over-fouryear-low-pmi-shows-4870833"
-      },
-      {
-        "id": "6671422238854b90232ce5da",
-        "title": "Earnings call transcript: Hua Medicine posts 74% H1 2026 revenue growth",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-hua-medicine-posts-74-h1-2026-revenue-growth-93CH-4870834"
-      },
-      {
-        "id": "46910494eb96327107ff0afd",
-        "title": "Analysis-War-hit European markets are far from down and out",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/analysiswarhit-european-markets-are-far-from-down-and-out-4870818"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-19": {
-    "articles_count": 725,
-    "signal_count": 91,
+    "articles_count": 758,
+    "signal_count": 93,
     "tone_cb": null,
-    "tone_global": 0.0656,
+    "tone_global": 0.0631,
     "regul_crypto": -0.6,
-    "stress": 0.0108,
+    "stress": 0.0116,
     "top": [
       {
         "id": "981d22e6c8c6ddfe3e10d69d",
