@@ -1,5 +1,388 @@
 [
   {
+    "id": "5566263419f4e193e37d23e5",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin tops $77,000 as best week since 2023 pulls altcoins along for the ride",
+    "url": "https://www.coindesk.com/markets/2026/08/21/bitcoin-tops-usd77-000-as-best-week-since-2023-pulls-altcoins-along-for-the-ride",
+    "summary": "",
+    "published_at": "2026-08-21T10:15:36+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a6a8837e46637cf107f59b2b",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin jumps near $78k as Trump spurs U.S. regulatory hopes",
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-tests-75k-as-trump-spurs-us-regulatory-optimism-4870820",
+    "summary": "",
+    "published_at": "2026-08-21T10:05:02+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4888aa402d9c5539828e9ba5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Montea H1 2026 slides: 95% of growth plan secured, EPS up 5%",
+    "url": "https://www.investing.com/news/company-news/montea-h1-2026-slides-95-of-growth-plan-secured-eps-up-5-93CH-4871211",
+    "summary": "",
+    "published_at": "2026-08-21T10:05:00+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "09fb1ab403a428907303b584",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Borussia Dortmund reports €21.7m loss on lower UEFA revenue",
+    "url": "https://www.investing.com/news/company-news/borussia-dortmund-reports-217m-loss-on-lower-uefa-revenue-93CH-4871206",
+    "summary": "",
+    "published_at": "2026-08-21T10:04:40+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2f2d39918ed4b304da550ab6",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jefferies: 38% of Australian companies beat estimates this season",
+    "url": "https://www.investing.com/news/stock-market-news/jefferies-38-of-australian-companies-beat-estimates-this-season-93CH-4871205",
+    "summary": "",
+    "published_at": "2026-08-21T10:03:58+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f5445911f76125fe38e67d49",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Macquarie cuts Bally’s stock price target on financing concerns",
+    "url": "https://www.investing.com/news/analyst-ratings/macquarie-cuts-ballys-stock-price-target-on-financing-concerns-93CH-4871203",
+    "summary": "",
+    "published_at": "2026-08-21T10:02:59+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "951b451a5f21a0b6fd37e956",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "TD Cowen upgrades Lakefront Biotherapeutics stock rating to buy",
+    "url": "https://www.investing.com/news/analyst-ratings/td-cowen-upgrades-lakefront-biotherapeutics-stock-rating-to-buy-93CH-4871202",
+    "summary": "",
+    "published_at": "2026-08-21T10:02:57+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d02d7d6ff35657406d7f76ad",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "DA Davidson cuts Walmart stock price target on comp weakness",
+    "url": "https://www.investing.com/news/analyst-ratings/da-davidson-cuts-walmart-stock-price-target-on-comp-weakness-93CH-4871201",
+    "summary": "",
+    "published_at": "2026-08-21T10:02:55+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "34cf8b7d05a0fb601ae76755",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Wolfe Research reiterates Lumentum stock rating on M&A potential",
+    "url": "https://www.investing.com/news/analyst-ratings/wolfe-research-reiterates-lumentum-stock-rating-on-ma-potential-93CH-4871200",
+    "summary": "",
+    "published_at": "2026-08-21T10:02:52+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c636f9df8dc797f7b06d8d92",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Impact Coatings posts stronger margins in Q2 2026",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-impact-coatings-posts-stronger-margins-in-q2-2026-93CH-4871199",
+    "summary": "",
+    "published_at": "2026-08-21T10:01:22+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "319a89cc2e6ab74d7b725c06",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "UBS raises Eurozone earnings outlook on broadening profit growth",
+    "url": "https://www.investing.com/news/stock-market-news/ubs-raises-eurozone-earnings-outlook-on-broadening-profit-growth-4871198",
+    "summary": "",
+    "published_at": "2026-08-21T10:01:19+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "01304ba7ad9b4c262f938ab3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Mortgage and refinance interest rates today, Friday, August 21, 2026: Rates stand on high ground despite bond market buybacks",
+    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-friday-august-21-2026-rates-stand-on-high-ground-despite-bond-market-buybacks-100000222.html",
+    "summary": "",
+    "published_at": "2026-08-21T10:00:00+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "67b4341fc7f1c4bd35534ae7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Best CD rates today, Friday, August 21, 2026: Up to 4.35% APY return available to boost savings",
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-friday-august-21-2026-up-to-435-apy-return-available-to-boost-savings-100000741.html",
+    "summary": "",
+    "published_at": "2026-08-21T10:00:00+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a3ac01ef467860862efff5a7",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Daily News 21 / 08 / 2026",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1746",
+    "summary": "European Commission Daily news Brussels, 21 Aug 2026 Commission approves €4.5 million German State aid for fishing and aquaculture companies facing increased fuel prices The European Commission has approved a €4.5...",
+    "published_at": "2026-08-21T09:32:36+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.9,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "fee23bc57c4d1fd269841ef8",
     "source": "investing_com",
     "tier": 3,
@@ -3744,6 +4127,69 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e6c058ec4f2b7912106c1a2c",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Commission approves €4.5 million German State aid for fishing and aquaculture companies facing increased fuel prices",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1740",
+    "summary": "European Commission Press release Brussels, 21 Aug 2026 The European Commission has approved a €4.5 million German State aid scheme for fishing and aquaculture companies facing increased fuel prices due to the Middle East crisis.",
+    "published_at": "2026-08-20T22:00:00+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.9,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e4eb5a5485d83b552d331007",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Statement by Executive Vice-President Virkkunen and Commissioner McGrath ahead of the Europe-wide Day of Remembrance of the victims of all totalitarian and authoritarian regimes",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1743",
+    "summary": "European Commission Statement Brussels, 21 Aug 2026 On 23 August, we commemorate the anniversary of the Molotov-Ribbentrop Pact, signed in 1939 between Nazi Germany and the Soviet Union. That pact, and the war an...",
+    "published_at": "2026-08-20T22:00:00+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.9,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
     "scored_by": "lexique"
   },
   {
@@ -16100,6 +16546,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "1467abce3d14b0c6438cc8f3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "BP Just Returned to Venezuela. Brilliant Bet or a Big Mistake?",
+    "url": "https://finance.yahoo.com/energy/articles/bp-just-returned-venezuela-brilliant-011123057.html",
+    "summary": "",
+    "published_at": "2026-08-20T01:11:23+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fd00983d0c74d0050755fc01",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "L3Harris (LHX) Reaffirmed Guidance After Replacing Its CEO. Why Did Shares Fall 4.6%?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/l3harris-lhx-reaffirmed-guidance-replacing-010810321.html",
+    "summary": "",
+    "published_at": "2026-08-20T01:08:10+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "185ff66a7a38d46f502cc52b",
     "source": "nikkei_asia",
     "tier": 3,
@@ -16126,6 +16624,60 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9efaa8242112160126f8221d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Copper Just Overtook Iron Ore at BHP Group (BHP). Is Its Portfolio Finally Re-Rating?",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/copper-just-overtook-iron-ore-010149340.html",
+    "summary": "",
+    "published_at": "2026-08-20T01:01:49+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3697bd24bd671cabb898c27e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "XP Inc. (XP) Beat Estimates. Is a U.S. Banking Operation Growth or Distraction?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/xp-inc-xp-beat-estimates-005034022.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:50:34+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
     "scored_by": "lexique"
   },
   {
@@ -16185,6 +16737,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "6e4963199a82f46241afdc89",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Fabrinet (FN) Beat Earnings. Why Did Shares Fall 7% After Hours?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/fabrinet-fn-beat-earnings-why-004055309.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:40:55+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "74552f5ce40628a472368dc0",
     "source": "investing_com",
     "tier": 3,
@@ -16232,6 +16810,90 @@
     "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b4b62ad7980c6aeb2eb0ef38",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Reddit (RDDT) Jumped 13% on S&P 500 Inclusion. Will Index Demand Hold the Gain?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/reddit-rddt-jumped-13-p-003520140.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:35:20+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "40c1cf4ae4583f216ceb1efb",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bill.com Holdings, Inc. Q4 2026 Earnings Call Summary",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/bill-com-holdings-inc-q4-003150042.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:31:50+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f099eed20fecbec2e6207059",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Capricor (CAPR) Closed 58% Higher on an FDA Lifeline. Is Approval Really Back on Track?",
+    "url": "https://finance.yahoo.com/healthcare/articles/capricor-capr-closed-58-higher-003119064.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:31:19+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
     "is_stress": false,
     "tone": 0.0,
     "scored_by": "lexique"
@@ -16315,6 +16977,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "39354103bb9385541269c958",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Accuray Incorporated Q4 2026 Earnings Call Summary",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/accuray-incorporated-q4-2026-earnings-003031107.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:30:31+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "7d6181816b6d3bd086b6b6ea",
     "source": "investing_com",
     "tier": 3,
@@ -16383,6 +17071,164 @@
     "summary": "",
     "published_at": "2026-08-20T00:26:34+00:00",
     "collected_at": "2026-08-20T01:05:38.244874+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "87f6a0f78cfc4869ff03da90",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The 10 Most Popular AI ETFs of 2026",
+    "url": "https://finance.yahoo.com/markets/options/articles/10-most-popular-ai-etfs-002440472.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:24:40+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b525479d55a4d0534facdba2",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Beam Global Q2 2026 Earnings Call Summary",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/beam-global-q2-2026-earnings-002119380.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:21:19+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "52e57e8dd3b3472ef8f78139",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Coach’s Sales Grew 14%, Yet Tapestry (TPR) Fell as Much as 17%. Is Kate Spade the Real Problem?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/coach-sales-grew-14-yet-001914329.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:19:14+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7fb48626102fa85e1aef6bba",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Alibaba (BABA) is Selling Lingxi Games. Is AI Now Its Only Priority?",
+    "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-baba-selling-lingxi-games-001432922.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:14:32+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e032fc117a56e64907333e58",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Union Pacific (UNP) Reported a $91M Fuel Surcharge Surplus. Could That Hurt its Norfolk Southern Deal?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/union-pacific-unp-reported-91m-001015544.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:10:15+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ce5cb9598d7b5f3ea9fc587d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Coal Remains The Undisputed King Of Global Power",
+    "url": "https://finance.yahoo.com/energy/articles/coal-remains-undisputed-king-global-000000074.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:00:00+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -16871,6 +17717,86 @@
     "scored_by": "lexique"
   },
   {
+    "id": "ae44e7c51f24c03310116661",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bank of America makes bullish call on 77-year-old healthcare stock",
+    "url": "https://finance.yahoo.com/healthcare/articles/bank-america-makes-bullish-call-223300447.html",
+    "summary": "",
+    "published_at": "2026-08-19T22:33:00+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c98017afc672b1ec6c76d173",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Still Working at 67? Every Year You Wait on Social Security Locks In a Guaranteed 8% Raise",
+    "url": "https://finance.yahoo.com/markets/articles/still-working-67-every-wait-223247137.html",
+    "summary": "",
+    "published_at": "2026-08-19T22:32:47+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b9707f8efa688e9c6485f07f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "EXCLUSIVE: Ross Gerber Says Tesla Could ‘Double’ Sales Without Elon Musk, Warns Investors on SpaceX Merger",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/exclusive-ross-gerber-says-tesla-223141920.html",
+    "summary": "",
+    "published_at": "2026-08-19T22:31:41+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "fb16aa9a4e6899de909958f8",
     "source": "yahoo_finance",
     "tier": 3,
@@ -16897,6 +17823,112 @@
     "scored_by": "lexique"
   },
   {
+    "id": "781b60afa03edadcdbb835dc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Astera Labs vs. monday.com: Comparing Revenue Trends Between These High-Growth Tech Companies",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-vs-monday-com-222901980.html",
+    "summary": "",
+    "published_at": "2026-08-19T22:29:01+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2bb33bce2d32c6916be9b44d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Direct Digital (DRCT) Q2 2026 Earnings Call Transcript",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/direct-digital-drct-q2-2026-222834676.html",
+    "summary": "",
+    "published_at": "2026-08-19T22:28:34+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8743c97f599a102b7de7e144",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Knightscope (KSCP) Q2 2026 Earnings Call Transcript",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/knightscope-kscp-q2-2026-earnings-222834729.html",
+    "summary": "",
+    "published_at": "2026-08-19T22:28:34+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2f47b7b27ffb6ad99129689a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "FGI (FGI) Q2 2026 Earnings Call Transcript",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/fgi-fgi-q2-2026-earnings-222834708.html",
+    "summary": "",
+    "published_at": "2026-08-19T22:28:34+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "d88f1a5c18c1a2f9eea02d97",
     "source": "coindesk",
     "tier": 3,
@@ -16911,6 +17943,66 @@
     "summary": "",
     "published_at": "2026-08-19T22:26:01+00:00",
     "collected_at": "2026-08-19T23:20:15.134591+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a24674318e9be0710d51c81a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "NEOS’s ‘Boosted’ S&P Fund Pays 17% While the Nasdaq Version Pays 21%",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/neos-boosted-p-fund-pays-222542988.html",
+    "summary": "",
+    "published_at": "2026-08-19T22:25:42+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "95e284a8515d704b0b876323",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "US Debt Tops $40 Trillion: Will the Doom Loop Drive Bitcoin Demand?",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/us-debt-tops-40-trillion-222537908.html",
+    "summary": "",
+    "published_at": "2026-08-19T22:25:37+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
     "categories": {},
     "assets_detected": [
       "btc"
@@ -76065,6 +77157,58 @@
     "summary": "",
     "published_at": "2026-08-17T10:00:00+00:00",
     "collected_at": "2026-08-20T10:27:28.203743+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4339aa555db72dec6c340ef5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "HELOC and home equity loan rates today, Friday, August 21, 2026: Why understanding how rates work matters",
+    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-friday-august-21-2026-why-understanding-how-rates-work-matters-100000113.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:00:00+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "096e81912d82c7eb1e2bb11b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Best high-yield savings interest rates today, Friday, August 21, 2026: Earn up to 4.15% APY",
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-friday-august-21-2026-earn-up-to-415-apy-100000771.html",
+    "summary": "",
+    "published_at": "2026-08-17T10:00:00+00:00",
+    "collected_at": "2026-08-21T10:27:35.143945+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
