@@ -1,5 +1,397 @@
 [
   {
+    "id": "551ce9591ddd0112b8ca42f2",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Global investors use 'perp' bets to chase China tech stocks like Unitree",
+    "url": "https://asia.nikkei.com/business/markets/global-investors-use-perp-bets-to-chase-china-tech-stocks-like-unitree",
+    "summary": "",
+    "published_at": "2026-08-21T05:29:53.400865+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "97ff7a46b114127fd1c499ed",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Indonesia seeks expanded joint military exercises with China",
+    "url": "https://asia.nikkei.com/politics/defense/indonesia-seeks-expanded-joint-military-exercises-with-china",
+    "summary": "",
+    "published_at": "2026-08-21T05:29:53.400865+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "00c5c633f36e949d3348fe12",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "India’s August private sector growth recovers slightly from over four-year low, PMI shows",
+    "url": "https://www.investing.com/news/economy-news/indias-august-private-sector-growth-recovers-slightly-from-over-fouryear-low-pmi-shows-4870833",
+    "summary": "",
+    "published_at": "2026-08-21T05:12:35+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e0095dd2c6302276b6997858",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is NetEase HK stock rising today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-netease-hk-stock-rising-today-93CH-4870835",
+    "summary": "",
+    "published_at": "2026-08-21T05:10:23+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6671422238854b90232ce5da",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Hua Medicine posts 74% H1 2026 revenue growth",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-hua-medicine-posts-74-h1-2026-revenue-growth-93CH-4870834",
+    "summary": "",
+    "published_at": "2026-08-21T05:08:48+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b813a4c99e7415c43baadf37",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Alibaba shares fall after 75% profit plunge as AI spending weighs on earnings",
+    "url": "https://www.investing.com/news/stock-market-news/alibaba-shares-fall-despite-45-cloud-growth-as-ai-spending-weighs-4870723",
+    "summary": "",
+    "published_at": "2026-08-21T05:07:30+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "05b948ae3cd17ec1e6bd36cc",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Treasury buyback renews dollar-debasement fears",
+    "url": "https://www.investing.com/news/economy-news/treasury-buyback-renews-dollardebasement-fears-4870832",
+    "summary": "",
+    "published_at": "2026-08-21T05:06:39+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ae530cee5f84a9ab96762ddb",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SK Hynix tests SMA(200) after cloud breakout: Live levels",
+    "url": "https://www.investing.com/news/stock-market-news/sk-hynix-tests-200-sma-after-43-rally-live-levels-93CH-4864162",
+    "summary": "",
+    "published_at": "2026-08-21T05:04:49+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "42753d20d8a9f7eac23f7196",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "WISeKey names Alexander Hirsch as group chief marketing officer",
+    "url": "https://www.investing.com/news/company-news/wisekey-names-alexander-hirsch-as-group-chief-marketing-officer-93CH-4870831",
+    "summary": "",
+    "published_at": "2026-08-21T05:04:39+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fb794e9753463e1baf2cf59c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is Lintec stock sliding today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-lintec-stock-sliding-today-93CH-4870830",
+    "summary": "",
+    "published_at": "2026-08-21T05:02:41+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "de80fe4c20dffac97102eb6a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is Uniqlo owner Fast Retailing stock sliding today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-uniqlo-owner-fast-retailing-stock-sliding-today-93CH-4870829",
+    "summary": "",
+    "published_at": "2026-08-21T05:02:31+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c99ba6b6ab793e0ca0925c4c",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin, ether and solana climb as another $1 billion shorts get wiped out",
+    "url": "https://www.coindesk.com/markets/2026/08/21/bitcoin-ether-and-solana-climb-as-another-usd1-billion-shorts-get-wiped-out",
+    "summary": "",
+    "published_at": "2026-08-21T04:56:30+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "50146666194a4d7dd19dc8c8",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Chinese court in Guangzhou accepts bankruptcy case of Evergrande unit",
+    "url": "https://www.investing.com/news/stock-market-news/chinese-court-in-guangzhou-accepts-bankruptcy-case-of-evergrande-unit-4870826",
+    "summary": "",
+    "published_at": "2026-08-21T04:48:33+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "36d99429b7e353ab3d479179",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "MANTRA freezes all transactions and network following unspecified incident",
+    "url": "https://www.theblock.co/news/defi/2026-08-21-mantra-freezes-network-412416",
+    "summary": "MANTRA Chain has halted the network and all transactions after discovering an incident, the nature of which remains undisclosed.",
+    "published_at": "2026-08-21T04:47:29+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "37fb48cd70b467350e622906",
     "source": "investing_com",
     "tier": 3,
@@ -16470,6 +16862,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "91fb78f31292a1e977a15b9d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bridgewater Dramatically Trimmed Its Position in Micron During Q2. What This Means for MU Stock.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/bridgewater-dramatically-trimmed-position-micron-184433461.html",
+    "summary": "",
+    "published_at": "2026-08-19T18:44:33+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "8c9907627da7bf88b850ff69",
     "source": "investing_com",
     "tier": 3,
@@ -16486,6 +16904,34 @@
     "collected_at": "2026-08-19T19:22:51.224237+00:00",
     "categories": {
       "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dda44447ea8cfb10099fb08e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Several Fed officials wanted to raise rates last month. If inflation doesn't come down, more of them see hikes.",
+    "url": "https://finance.yahoo.com/economy/policy/article/several-fed-officials-wanted-to-raise-rates-last-month-if-inflation-doesnt-come-down-more-of-them-see-hikes-184112729.html",
+    "summary": "",
+    "published_at": "2026-08-19T18:41:12+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0
     },
     "assets_detected": [],
     "assets_effective": [],
@@ -16639,6 +17085,112 @@
     "scored_by": "lexique"
   },
   {
+    "id": "a721a1c758ddab6822812d19",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Here Is How to Play Tesla Stock After Its Robotaxi Breakthrough",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/play-tesla-stock-robotaxi-breakthrough-182118444.html",
+    "summary": "",
+    "published_at": "2026-08-19T18:21:18+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f3da0416579584e9a0e64bba",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Morgan Stanley Just Upgraded Honeywell Aerospace Stock. Here's Why.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-just-upgraded-honeywell-182101144.html",
+    "summary": "",
+    "published_at": "2026-08-19T18:21:01+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "902a2b5882cbc8e3648c989b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "These AI Companies Pile Up Massive Debt",
+    "url": "https://www.investors.com/news/ai-stocks-debt-whitefiber-nebius-neocloud/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-19T18:19:13+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a6f136486c75c64d0d3776c6",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Cerebras Positioned for Robust Growth on Manufacturing Expansion and Swelling RPO",
+    "url": "https://finance.yahoo.com/technology/ai/articles/cerebras-positioned-robust-growth-manufacturing-181055330.html",
+    "summary": "",
+    "published_at": "2026-08-19T18:10:55+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {
+      "croissance": 3.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.75,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.75,
+    "scored_by": "lexique"
+  },
+  {
     "id": "740efcf68516606c4f643ca8",
     "source": "coindesk",
     "tier": 3,
@@ -16662,6 +17214,32 @@
       "btc",
       "eth"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "89f5267b48e10efe4512c13f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dear Wolfspeed Stock Fans, Mark Your Calendars for August 19",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/dear-wolfspeed-stock-fans-mark-180752264.html",
+    "summary": "",
+    "published_at": "2026-08-19T18:07:52+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -16883,6 +17461,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "cc8f80e735d82fa6d4f34149",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Buy Signal Flashing for Surging Spotify Stock",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/buy-signal-flashing-surging-spotify-180431572.html",
+    "summary": "",
+    "published_at": "2026-08-19T18:04:31+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "5d6f69715aaf82cc1fc4e699",
     "source": "investing_com",
     "tier": 3,
@@ -17046,6 +17650,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "a710eeb3cb4a6dcab3696ec7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "HP earnings preview: BofA expects PC share gains but margin trough ahead",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/hp-earnings-preview-bofa-expects-174900033.html",
+    "summary": "",
+    "published_at": "2026-08-19T17:49:00+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f88deea74dcd050e8cdf7df9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Inside Google’s $12 Billion Stake in Marvell—and Why It’s Bad News for Broadcom.",
+    "url": "https://www.barrons.com/articles/marvell-stock-price-google-stake-warrants-broadcom-bd142033?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-19T17:48:00+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "7426c5cc3739597547df4526",
     "source": "marketwatch",
     "tier": 3,
@@ -17060,6 +17716,110 @@
     "summary": "Summer is winding down, and “spooky season” will soon be upon us. That’s just one cause for investor wariness.",
     "published_at": "2026-08-19T17:47:00+00:00",
     "collected_at": "2026-08-19T18:31:27.751950+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0920d716d4f127c1fba8e884",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Spencer Jakab | Take the Bad With the Good, or Not?",
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-19-2026/card/spencer-jakab-take-the-bad-with-the-good-or-not--YuqQ19yNZ68VTqqEQfqV?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-19T17:45:03+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a3b47c08457dd167264d9d7d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "VGLT vs TLT: Which Bond ETF Is the Better Value?",
+    "url": "https://finance.yahoo.com/markets/options/articles/vglt-vs-tlt-bond-etf-174101952.html",
+    "summary": "",
+    "published_at": "2026-08-19T17:41:01+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fd908103837cc4d046cff0f2",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Deere Q3 Preview: Is Tractor Maker an AI Data Center Play? Earnings Report Could Tell Investors 'Yes'",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/deere-q3-preview-tractor-maker-174004378.html",
+    "summary": "",
+    "published_at": "2026-08-19T17:40:04+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d528e6e32eaaf715fdefdb1b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "2 Reasons to Buy Warren Buffett's Favorite Artificial Intelligence (AI) Stock and Never Sell",
+    "url": "https://finance.yahoo.com/technology/ai/articles/2-reasons-buy-warren-buffetts-174000342.html",
+    "summary": "",
+    "published_at": "2026-08-19T17:40:00+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -17124,6 +17884,34 @@
     "scored_by": "lexique"
   },
   {
+    "id": "ae8121939e2fe4c1366c4a27",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bangladesh Gas Crisis Exposes RMG’s Decarbonization Catch-22",
+    "url": "https://finance.yahoo.com/energy/articles/bangladesh-gas-crisis-exposes-rmg-173805709.html",
+    "summary": "",
+    "published_at": "2026-08-19T17:38:05+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
     "id": "50bd7b47350eebf6d579a105",
     "source": "yahoo_finance",
     "tier": 3,
@@ -17169,6 +17957,32 @@
     "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "07282897747a3cc1d225086b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "EU approves Mercedes, BMW and Seres joint control of Ionchi",
+    "url": "https://finance.yahoo.com/energy/articles/eu-approves-mercedes-bmw-seres-173519418.html",
+    "summary": "",
+    "published_at": "2026-08-19T17:35:19+00:00",
+    "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": true,
+    "importance": 0.45,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
