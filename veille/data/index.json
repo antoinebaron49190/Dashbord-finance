@@ -1,11 +1,11 @@
 {
   "2026-08-21": {
-    "articles_count": 211,
-    "signal_count": 40,
+    "articles_count": 242,
+    "signal_count": 44,
     "tone_cb": null,
-    "tone_global": 0.2746,
-    "regul_crypto": 0.5026,
-    "stress": 0.0092,
+    "tone_global": 0.294,
+    "regul_crypto": 0.5148,
+    "stress": 0.0081,
     "top": [
       {
         "id": "946669543dc4bddcd633c518",
@@ -24,28 +24,28 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1746"
       },
       {
+        "id": "5cab1c7f1c2774bf0ffe5e97",
+        "title": "India regulator approves $731 million LPG pipeline expansion",
+        "source": "investing_com",
+        "score": 0.45,
+        "tone": 0.6667,
+        "url": "https://www.investing.com/news/stock-market-news/india-regulator-approves-731-million-lpg-pipeline-expansion-93CH-4871884"
+      },
+      {
+        "id": "6534cf338f77d5ff74929102",
+        "title": "Solana Company announces voting positions on governance proposals",
+        "source": "investing_com",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/company-news/solana-company-announces-voting-positions-on-governance-proposals-93CH-4871883"
+      },
+      {
         "id": "f97897444592391d00639d2d",
         "title": "Crypto is still in ‘winter’ price-wise but it’s an ‘institutional summer,’ STS Digital CEO says",
         "source": "theblock",
         "score": 0.3,
         "tone": 0.8182,
         "url": "https://www.theblock.co/news/markets/2026-08-21-crypto-is-still-in-winter-price-wise-but-an-institutional-summer-sts-digital-ceo-says-412454"
-      },
-      {
-        "id": "2d343d9a43dfdc70ff66d64d",
-        "title": "AI adoption in crypto crime rose 40% over the past year, TRM Labs says",
-        "source": "theblock",
-        "score": 0.3,
-        "tone": 0.75,
-        "url": "https://www.theblock.co/news/web3/2026-08-21-ai-adoption-in-crypto-crime-trm-412297"
-      },
-      {
-        "id": "e43137eafebbb1817957abc4",
-        "title": "Avalanche’s Nahas: Token prices are down, but ‘I’ve never seen more opportunities’ in crypto",
-        "source": "theblock",
-        "score": 0.3,
-        "tone": 0.75,
-        "url": "https://www.theblock.co/news/ecosystems/2026-08-21-avalanches-nahas-token-prices-are-down-but-ive-never-seen-more-opportunities-in-crypto-412431"
       }
     ]
   },
@@ -2586,6 +2586,24 @@
         "score": 0.9,
         "tone": -0.8517,
         "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/la-banque-de-france-lacpr-et-lamf-publient-un-rapport-methodologique-sur-leur-premier-test-de#xts=607212&xtor=RSS-3&type=RSS"
+      }
+    ]
+  },
+  "2026-06-16": {
+    "articles_count": 1,
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "44d7864e5286473a340dc15d",
+        "title": "Anthropic IPO: What to know before you buy the stock",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://finance.yahoo.com/personal-finance/investing/article/anthropic-ipo-what-to-know-before-you-buy-the-stock-170741665.html"
       }
     ]
   },
