@@ -1,5 +1,515 @@
 [
   {
+    "id": "b2dea6cc0450d56d1563ec97",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Global bond rout holds as buybacks fail to offset fiscal concerns",
+    "url": "https://www.investing.com/news/forex-news/global-yield-relief-evaporates-as-us-rates-push-back-toward-multidecade-peaks-4870903",
+    "summary": "",
+    "published_at": "2026-08-21T12:32:52+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b5b79e9b3382bea1855a5a8c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "US equity funds draw inflows despite market pressures",
+    "url": "https://www.investing.com/news/stock-market-news/us-equity-funds-draw-inflows-despite-market-pressures-4871516",
+    "summary": "",
+    "published_at": "2026-08-21T12:31:17+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "07b80827d38d85bf776327ec",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Fastly CEO Charles Compton sells $1.26m in company stock",
+    "url": "https://www.investing.com/news/insider-trading-news/fastly-ceo-charles-compton-sells-126m-in-company-stock-93CH-4871557",
+    "summary": "",
+    "published_at": "2026-08-21T12:31:13+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "316766c8f9374b5af95e0a55",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "ProKidney director Brian Pereira sells $1.07 million in shares",
+    "url": "https://www.investing.com/news/insider-trading-news/prokidney-director-brian-pereira-sells-107-million-in-shares-93CH-4871554",
+    "summary": "",
+    "published_at": "2026-08-21T12:31:04+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "29ea042ebe222aacfb6c2551",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "RBC Capital lowers Hershey stock price target on market share concerns",
+    "url": "https://www.investing.com/news/analyst-ratings/rbc-capital-lowers-hershey-stock-price-target-on-market-share-concerns-93CH-4871551",
+    "summary": "",
+    "published_at": "2026-08-21T12:30:56+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ffcf20d5097db628c1e0cd56",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "UBS cuts Walmart stock price target on core business concerns",
+    "url": "https://www.investing.com/news/analyst-ratings/ubs-cuts-walmart-stock-price-target-on-core-business-concerns-93CH-4871548",
+    "summary": "",
+    "published_at": "2026-08-21T12:30:53+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "05a4c8d8983f05274f9f2f08",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "UBS lowers Syndax Pharmaceuticals price target on revenue outlook",
+    "url": "https://www.investing.com/news/analyst-ratings/ubs-lowers-syndax-pharmaceuticals-price-target-on-revenue-outlook-93CH-4871549",
+    "summary": "",
+    "published_at": "2026-08-21T12:30:53+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "eda88cad16d4357b662e5f42",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Eric Trump-backed Space-Eyes to appoint ex-Delta Force officer and ex-banker, sources say",
+    "url": "https://www.investing.com/news/stock-market-news/eric-trumpbacked-spaceeyes-to-appoint-exdelta-force-officer-and-exbanker-sources-say-4871527",
+    "summary": "",
+    "published_at": "2026-08-21T12:30:49+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "885994a7221dcd5b2e30d949",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Aligned Launches $ALIGN, the Native Token of Its Full Ethereum Stack",
+    "url": "https://www.investing.com/news/cryptocurrency-news/aligned-launches-align-the-native-token-of-its-full-ethereum-stack-4871547",
+    "summary": "",
+    "published_at": "2026-08-21T12:30:47+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [
+      "eth"
+    ],
+    "assets_effective": [
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7d02621e790bc61dd834da43",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "ZKH Q2 2026 slides: first operating profit, fastest GMV growth",
+    "url": "https://www.investing.com/news/company-news/zkh-q2-2026-slides-first-operating-profit-fastest-gmv-growth-93CH-4871539",
+    "summary": "",
+    "published_at": "2026-08-21T12:25:43+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3b5d34cd50bd58f0c5e54fc8",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "When it comes to stock buybacks, anything SK Hynix can do, Samsung can do bigger",
+    "url": "https://www.marketwatch.com/story/when-it-comes-to-returning-cash-to-shareholders-anything-sk-hynix-can-do-samsung-can-do-bigger-87db6ef4?mod=mw_rss_topstories",
+    "summary": "As demand far outstrips supply in the memory-chip market, SK Hynix and Samsung Electronics are generating outsize profits and throwing off huge free cash flow. Now both companies plan to return lots of this to shareholders",
+    "published_at": "2026-08-21T12:15:00+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9f619affdf2a3d6db9da0728",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Coldcard ships firmware after $114 million bitcoin theft; says AI helped catch more bugs",
+    "url": "https://www.coindesk.com/tech/2026/08/21/coldcard-ships-firmware-after-usd114-million-bitcoin-theft-says-ai-helped-catch-more-bugs",
+    "summary": "",
+    "published_at": "2026-08-21T12:10:55+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2d343d9a43dfdc70ff66d64d",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "AI adoption in crypto crime rose 40% over the past year, TRM Labs says",
+    "url": "https://www.theblock.co/news/web3/2026-08-21-ai-adoption-in-crypto-crime-trm-412297",
+    "summary": "Crypto hackers are quickly picking up on AI developments to discover overlooked vulnerabilities and infiltrate IT firms, the report said.",
+    "published_at": "2026-08-21T12:00:00+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {
+      "crypto_favorable": 2.0
+    },
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.75,
+    "crypto_tone": 0.75,
+    "is_stress": false,
+    "tone": 0.75,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "96493c1e3a17d5f80ceab1f8",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "American consumers are delivering a retail reality check as they laser in on bargains",
+    "url": "https://www.marketwatch.com/story/american-consumers-are-delivering-a-retail-reality-check-as-they-laser-in-on-bargains-96816053?mod=mw_rss_topstories",
+    "summary": "Recent earnings results suggest that the typical shopper is ‘employed, still spending, and increasingly disciplined about it.’",
+    "published_at": "2026-08-21T12:00:00+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f97897444592391d00639d2d",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Crypto is still in ‘winter’ price-wise but it’s an ‘institutional summer,’ STS Digital CEO says",
+    "url": "https://www.theblock.co/news/markets/2026-08-21-crypto-is-still-in-winter-price-wise-but-an-institutional-summer-sts-digital-ceo-says-412454",
+    "summary": "STS Digital CEO Maxime Seiler says token prices have lagged institutional adoption as bitcoin futures basis converges toward risk-free rates.",
+    "published_at": "2026-08-21T11:58:06+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {
+      "crypto_favorable": 3.0
+    },
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.8182,
+    "crypto_tone": 0.8182,
+    "is_stress": false,
+    "tone": 0.8182,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "460bf4bf70efb9afec1647d8",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Analysts split on whether Bitcoin's surge past key levels signals a new bull run",
+    "url": "https://www.coindesk.com/markets/2026/08/21/analysts-split-on-whether-bitcoin-s-surge-past-key-levels-signals-a-new-bull-run",
+    "summary": "",
+    "published_at": "2026-08-21T11:31:30+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d014d9edcf17d9fa58d318ee",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "The hard truth is that the Clarity Act is an anti-crypto bill",
+    "url": "https://www.coindesk.com/opinion/2026/08/21/the-hard-truth-is-that-the-clarity-act-is-an-anti-crypto-bill",
+    "summary": "",
+    "published_at": "2026-08-21T11:30:00+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "07e7602db02de67d5a40f7ec",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin faces $80,000 test as thinner weekend liquidity looms",
+    "url": "https://www.coindesk.com/daybook-us/2026/08/21/bitcoin-faces-usd80-000-test-as-thinner-weekend-liquidity-looms",
+    "summary": "",
+    "published_at": "2026-08-21T11:26:27+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "858bf8adca8ea8736e8b9cb2",
     "source": "investing_com",
     "tier": 3,
@@ -342,6 +852,32 @@
     "summary": "Shares of Jensen Huang’s company have struggled to make headway since its previous results day.",
     "published_at": "2026-08-21T10:54:00+00:00",
     "collected_at": "2026-08-21T11:23:21.953223+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5281e654f878951a53cb11ce",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nvidia earnings could rescue a stalled-out stock market — if the AI chip maker breaks this trend",
+    "url": "https://www.marketwatch.com/story/nvidia-earnings-could-rescue-a-stalling-stock-market-if-the-ai-chip-maker-breaks-this-trend-9b6504bc?mod=mw_rss_topstories",
+    "summary": "Shares of Jensen Huang’s company have struggled to make headway since its previous results day.",
+    "published_at": "2026-08-21T10:54:00+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -2038,6 +2574,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "f21b299077b9d2b8aa5c550c",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Live updates: Bitcoin slips back to $77,000 after challenging $80,000 overnight",
+    "url": "https://www.coindesk.com/tech/2026/08/21/live-updates-bitcoin-ether-etfs-pull-in-usd800-million-as-inflows-surge-for-a-second-day",
+    "summary": "",
+    "published_at": "2026-08-21T06:43:24+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "7c82ef4dbd747d3444acacb3",
     "source": "nikkei_asia",
     "tier": 3,
@@ -2771,6 +3337,32 @@
     "summary": "MANTRA Chain has halted the network and all transactions after discovering an incident, the nature of which remains undisclosed.",
     "published_at": "2026-08-21T04:47:29+00:00",
     "collected_at": "2026-08-21T05:29:53.400865+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ab1893d6fe1862eacb293bbf",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "MANTRA freezes all transactions and network following incident",
+    "url": "https://www.theblock.co/news/defi/2026-08-21-mantra-freezes-network-412416",
+    "summary": "MANTRA Chain halted the network and all transactions after discovering an incident related to its Cosmos EVM module.",
+    "published_at": "2026-08-21T04:47:29+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -15629,6 +16221,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "b4a724fbef8667a2aabc5504",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Chinese Refiners Snap Up Iraqi Oil as Gulf Supply Routes Fracture",
+    "url": "https://finance.yahoo.com/energy/articles/chinese-refiners-snap-iraqi-oil-053000631.html",
+    "summary": "",
+    "published_at": "2026-08-20T05:30:00+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "ae0f818b491718ffca1e0ec2",
     "source": "nikkei_asia",
     "tier": 3,
@@ -15648,6 +16270,36 @@
     ],
     "assets_effective": [
       "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7380034e1068eeb4845834f3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The bond market swings back to worries and knocks US stocks lower",
+    "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-gain-south-koreas-051333460.html",
+    "summary": "",
+    "published_at": "2026-08-20T05:13:33+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
     ],
     "has_decision_marker": false,
     "importance": 0.3,
@@ -15878,6 +16530,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "b57122d4811fb3ff50e2fc20",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Applied Materials Delivered a Record Quarter. The Stock Fell Anyway",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-delivered-record-quarter-045343827.html",
+    "summary": "",
+    "published_at": "2026-08-20T04:53:43+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "345f18921515bc354b4eb7c7",
     "source": "investing_com",
     "tier": 3,
@@ -16000,6 +16678,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "fd676a4f65e85957596f80ba",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Robots poised for 'ChatGPT moment,' Unitree CEO says",
+    "url": "https://finance.yahoo.com/technology/ai/articles/robots-poised-chatgpt-moment-unitree-041838930.html",
+    "summary": "",
+    "published_at": "2026-08-20T04:18:38+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "fd970e4c9b68fdcdb2e90078",
     "source": "coindesk",
     "tier": 3,
@@ -16058,6 +16762,38 @@
     "scored_by": "lexique"
   },
   {
+    "id": "02ca54cc0737eaa3c24d3b38",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "What’s Behind the SEC’s New Crypto Proposal?",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/behind-sec-crypto-proposal-040300352.html",
+    "summary": "",
+    "published_at": "2026-08-20T04:03:00+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "21926682704977d383b1337a",
     "source": "investing_com",
     "tier": 3,
@@ -16072,6 +16808,84 @@
     "summary": "",
     "published_at": "2026-08-20T04:02:17+00:00",
     "collected_at": "2026-08-20T04:34:34.799388+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "51d311fa9cefad8ab458c4cf",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Just How Useful Are Human-Looking Robots? Very, Unitree Robotics Investors Hope",
+    "url": "https://finance.yahoo.com/technology/ai/articles/just-useful-human-looking-robots-040100158.html",
+    "summary": "",
+    "published_at": "2026-08-20T04:01:00+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fa77144a8185221d0415c9e4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "New Family Offices Prefer Direct Investing to Hedge Funds",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/family-offices-prefer-direct-investing-040100569.html",
+    "summary": "",
+    "published_at": "2026-08-20T04:01:00+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8491dc34d63aadd33d268c61",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Moderna Soars as Vaccine-Drug Combo Slows Recurrence of Melanoma",
+    "url": "https://finance.yahoo.com/healthcare/articles/moderna-soars-vaccine-drug-combo-040100258.html",
+    "summary": "",
+    "published_at": "2026-08-20T04:01:00+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -16261,6 +17075,38 @@
     "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1afef4806e6c2bea705e198b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Are Wall Street Analysts Bullish on Textron Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-textron-033226964.html",
+    "summary": "",
+    "published_at": "2026-08-20T03:32:26+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
     "is_stress": false,
     "tone": 0.0,
     "scored_by": "lexique"
@@ -16502,6 +17348,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "9b0287a15f632d3a840608a0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nielsen’s $2.15 Billion Bet on DoubleVerify: What It Means for Ad-Tech",
+    "url": "https://finance.yahoo.com/media-advertising/articles/nielsen-2-15-billion-bet-031046577.html",
+    "summary": "",
+    "published_at": "2026-08-20T03:10:46+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "a3549d2f6b2bd28a9a3e29ce",
     "source": "theblock",
     "tier": 3,
@@ -16550,6 +17422,32 @@
     "summary": "",
     "published_at": "2026-08-20T03:01:05+00:00",
     "collected_at": "2026-08-20T03:44:00.960606+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "65ca3bb6b0739d482c955e57",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Diesel Engines Meet the AI Boom: Inside Caterpillar and Cummins’ Record Quarters",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/diesel-engines-meet-ai-boom-030015033.html",
+    "summary": "",
+    "published_at": "2026-08-20T03:00:15+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -17229,6 +18127,140 @@
     "scored_by": "lexique"
   },
   {
+    "id": "a1c268d9bb3362ee713b1af2",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Costco's latest deal: Get Medicare with that $1.50 hot dog and soda",
+    "url": "https://finance.yahoo.com/healthcare/articles/costcos-latest-deal-medicare-1-010434929.html",
+    "summary": "",
+    "published_at": "2026-08-20T01:04:34+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0270a5394f33e1335e43ac77",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Anvil CEO says on-chain letters of credit make lending ‘virtually default proof’",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/anvil-ceo-says-chain-letters-010300099.html",
+    "summary": "",
+    "published_at": "2026-08-20T01:03:00+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "74b2c0c6e980a842a84d8d71",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Orion Energy Systems Reaffirms FY2027 Outlook After 32% Revenue Growth",
+    "url": "https://finance.yahoo.com/energy/articles/orion-energy-systems-reaffirms-fy2027-010227329.html",
+    "summary": "",
+    "published_at": "2026-08-20T01:02:27+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "557157d0cb8b06d4bc309d44",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Telix Pharmaceuticals H1 Earnings Call Highlights",
+    "url": "https://finance.yahoo.com/healthcare/articles/telix-pharmaceuticals-h1-earnings-call-010226115.html",
+    "summary": "",
+    "published_at": "2026-08-20T01:02:26+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ccc9fdcf3297ca44ae6c5e56",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Coty Q4 Earnings Call Highlights",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/coty-q4-earnings-call-highlights-010226802.html",
+    "summary": "",
+    "published_at": "2026-08-20T01:02:26+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "9efaa8242112160126f8221d",
     "source": "yahoo_finance",
     "tier": 3,
@@ -17246,6 +18278,36 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4a4549e8850258c56f7d58bb",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nvidia Guided to $91 Billion. Wall Street Penciled In $92 Billion.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-guided-91-billion-wall-005701182.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:57:01+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -17311,6 +18373,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "c68148d6e8757effbfb40820",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "TOYO (TOYO) Q2 2026 Earnings Call Transcript",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/toyo-toyo-q2-2026-earnings-004322144.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:43:22+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2c8c11117aa038cce1612e12",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Opera (OPRA) Q2 2026 Earnings Call Transcript",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/opera-opra-q2-2026-earnings-004322095.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:43:22+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "61575665a975398e53ac8357",
     "source": "investing_com",
     "tier": 3,
@@ -17353,6 +18467,32 @@
     "summary": "",
     "published_at": "2026-08-20T00:40:55+00:00",
     "collected_at": "2026-08-21T10:27:35.143945+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "051b3a6c824b150bf5a5a226",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Billionaire investor warns a 2027 recession could punish stocks",
+    "url": "https://finance.yahoo.com/economy/articles/billionaire-investor-warns-2027-recession-003700356.html",
+    "summary": "",
+    "published_at": "2026-08-20T00:37:00+00:00",
+    "collected_at": "2026-08-21T12:41:32.081835+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
