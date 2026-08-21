@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T21:22:14.209381+00:00",
+  "generated_at": "2026-08-21T22:22:26.469285+00:00",
   "regime": {
     "state": "favorable au risque",
     "favorable": 10,
@@ -12,35 +12,35 @@
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": true,
-      "value": "77 694 $",
-      "reference": "MM200 68 973 $"
+      "value": "78 465 $",
+      "reference": "MM200 68 977 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": true,
-      "value": "77 694 $",
-      "reference": "MM50 64 557 $"
+      "value": "78 465 $",
+      "reference": "MM50 64 572 $"
     },
     {
       "group": "Crypto",
       "label": "ETH au-dessus de sa MM200",
       "ok": true,
-      "value": "2 452 $",
-      "reference": "MM200 2 004 $"
+      "value": "2 533 $",
+      "reference": "MM200 2 005 $"
     },
     {
       "group": "Crypto",
       "label": "Décote BTC sur le plus haut 1 an",
       "ok": false,
-      "value": "-38 %",
+      "value": "-37 %",
       "reference": "moins de 25 %"
     },
     {
       "group": "Crypto",
       "label": "Volatilité BTC 30 jours",
       "ok": true,
-      "value": "42 %",
+      "value": "44 %",
       "reference": "moins de 60 %"
     },
     {
@@ -88,21 +88,21 @@
   ],
   "crypto": {
     "btc": {
-      "price": 77693.9,
-      "ma50": 64556.514000000025,
-      "ma200": 68972.87949999998,
-      "drawdown_1y": 0.37728556944372094,
-      "volatility_30d": 0.4245485029730677,
+      "price": 78464.8,
+      "ma50": 64571.93200000002,
+      "ma200": 68976.73399999998,
+      "drawdown_1y": 0.3711068275538706,
+      "volatility_30d": 0.4422324785277187,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "eth": {
-      "price": 2452.46,
-      "ma50": 1892.3024000000003,
-      "ma200": 2004.2386,
-      "drawdown_1y": 0.4922443064182195,
-      "volatility_30d": 0.6645780138394625,
+      "price": 2533.25,
+      "ma50": 1893.9182,
+      "ma200": 2004.6425499999998,
+      "drawdown_1y": 0.4755175983436853,
+      "volatility_30d": 0.7007532226883171,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
@@ -133,27 +133,27 @@
     },
     "eurostoxx": {
       "label": "Euro Stoxx 50",
-      "price": 6462.22021484375,
-      "ma50": 6347.331591796875,
-      "ma200": 5975.615441894532,
+      "price": 6422.06005859375,
+      "ma50": 6341.83978515625,
+      "ma200": 5971.8002416992185,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "cac40": {
       "label": "CAC 40",
-      "price": 8484.4296875,
-      "ma50": 8464.54859375,
-      "ma200": 8222.159792480468,
-      "above_ma50": true,
+      "price": 8453.08984375,
+      "ma50": 8461.87740234375,
+      "ma200": 8219.561494140626,
+      "above_ma50": false,
       "above_ma200": true,
-      "trend": "haussiere"
+      "trend": "indecise"
     },
     "dax": {
       "label": "DAX",
-      "price": 26136.560546875,
-      "ma50": 25444.8801953125,
-      "ma200": 24550.025419921876,
+      "price": 25983.0390625,
+      "ma50": 25414.855,
+      "ma200": 24539.0881640625,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
@@ -227,11 +227,11 @@
       "fear_greed": 72,
       "assets": {
         "btc": {
-          "close": 77693.9,
+          "close": 78464.8,
           "trend": "haussiere"
         },
         "eth": {
-          "close": 2452.46,
+          "close": 2533.25,
           "trend": "haussiere"
         },
         "sp500": {
@@ -243,15 +243,15 @@
           "trend": "haussiere"
         },
         "eurostoxx": {
-          "close": 6462.2202,
+          "close": 6422.0601,
           "trend": "haussiere"
         },
         "cac40": {
-          "close": 8484.4297,
-          "trend": "haussiere"
+          "close": 8453.0898,
+          "trend": "indecise"
         },
         "dax": {
-          "close": 26136.5605,
+          "close": 25983.0391,
           "trend": "haussiere"
         },
         "nikkei": {
