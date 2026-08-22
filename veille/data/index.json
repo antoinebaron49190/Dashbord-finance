@@ -1,12 +1,20 @@
 {
   "2026-08-22": {
-    "articles_count": 23,
-    "signal_count": 2,
+    "articles_count": 30,
+    "signal_count": 3,
     "tone_cb": null,
-    "tone_global": -0.25,
+    "tone_global": -0.3889,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "540dd73f77a4803ee72140a3",
+        "title": "Iran threatens military response to US sanctions",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.6667,
+        "url": "https://www.investing.com/news/economy-news/iran-threatens-military-response-to-us-sanctions-4872287"
+      },
       {
         "id": "32aded4485ca0daea7443fa4",
         "title": "Canadian minister LeBlanc says more work needed in talks with US before tariff deadline",
@@ -16,36 +24,28 @@
         "url": "https://www.investing.com/news/commodities-news/us-canadian-trade-teams-to-meet-again-as-tariffs-deadline-looms-4871745"
       },
       {
+        "id": "706a0b795162b99a4f57108b",
+        "title": "Trump says Iran not ready to make the ’right deal’",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/commodities-news/us-iran-keep-up-hostile-rhetoric-ahead-of-new-sanctions-4872246"
+      },
+      {
+        "id": "014db1af9c91f300b443908a",
+        "title": "Moderna cancer vaccine breakthrough revives hopes for biotech turnaround",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/company-news/moderna-cancer-vaccine-breakthrough-revives-hopes-for-biotech-turnaround-4872292"
+      },
+      {
         "id": "ad02ddea2b09c0993ddc9717",
         "title": "Japan's Kubota to boost exports from India, seeks price edge in Europe, US",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
         "url": "https://asia.nikkei.com/business/agriculture/japan-s-kubota-to-boost-exports-from-india-seeks-price-edge-in-europe-us"
-      },
-      {
-        "id": "7d4af2b840323382bcdd7363",
-        "title": "CoreWeave CSO Brian Venturo sells $542k class A stock",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/coreweave-cso-brian-venturo-sells-542k-class-a-stock-93CH-4872282"
-      },
-      {
-        "id": "4fc6038a9213fe4d2b452e6a",
-        "title": "GoodRx 10% owner Francisco Partners sells $4.2m in shares",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/goodrx-10-owner-francisco-partners-sells-42m-in-shares-93CH-4872281"
-      },
-      {
-        "id": "3691e6a996472e42fd9b2978",
-        "title": "Lumentum president Wupen Yuen sells $1.69 million LITE stock",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/lumentum-president-wupen-yuen-sells-169-million-lite-stock-93CH-4872280"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-20": {
-    "articles_count": 686,
-    "signal_count": 99,
+    "articles_count": 706,
+    "signal_count": 102,
     "tone_cb": 0.1875,
-    "tone_global": 0.229,
+    "tone_global": 0.2176,
     "regul_crypto": 0.4586,
-    "stress": 0.0083,
+    "stress": 0.0108,
     "top": [
       {
         "id": "f1bd96b8222ec1df09e1dea4",
