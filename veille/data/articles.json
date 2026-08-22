@@ -1,5 +1,381 @@
 [
   {
+    "id": "e12c6c04ce094196bd3e2e5c",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Web3 gaming network Sandbox stops Base and BNB chain bridging after exploit",
+    "url": "https://www.coindesk.com/web3/2026/08/22/web3-gaming-network-sandbox-stops-base-and-bnb-chain-bridging-after-exploit",
+    "summary": "",
+    "published_at": "2026-08-22T14:10:17+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "64d5e29624dfc8e45ab40085",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "CRE Borrowing Costs Stall as SOFR Finds a Floor in Q2",
+    "url": "https://finance.yahoo.com/real-estate/articles/cre-borrowing-costs-stall-sofr-140549424.html",
+    "summary": "",
+    "published_at": "2026-08-22T14:05:49+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2c2cb478665691a632cf0f33",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Madison Air Solutions to Buy ebm-papst in $5.8B Deal, Expanding Global Airflow Reach",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/madison-air-solutions-buy-ebm-140155631.html",
+    "summary": "",
+    "published_at": "2026-08-22T14:01:55+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "61cfc549ffd1068f93dacc1f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "This Stock Is Quietly Becoming an AI Powerhouse in 2026",
+    "url": "https://finance.yahoo.com/technology/ai/articles/stock-quietly-becoming-ai-powerhouse-140051503.html",
+    "summary": "",
+    "published_at": "2026-08-22T14:00:51+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bd56c848395513f2c8106240",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Arbor Realty, Icahn Enterprises and Herzfeld: 3 Unconventional High Yield Bets",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/arbor-realty-icahn-enterprises-herzfeld-140001614.html",
+    "summary": "",
+    "published_at": "2026-08-22T14:00:01+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d0b9174bd3a0b146bfd837a2",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Tokenized stocks risk repeating Wall Street’s 1960s ‘paper crisis,’ Fairmint CEO says",
+    "url": "https://www.coindesk.com/tech/2026/08/22/tokenized-stocks-risk-repeating-wall-street-s-1960s-paper-crisis-fairmint-ceo-says",
+    "summary": "",
+    "published_at": "2026-08-22T14:00:00+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "11e5fe5cdb43d0d6cbd09aa8",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "BlackRock CEO Larry Fink says a bank account is 'one of the worst financial decisions' — and urges Americans to invest",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/blackrock-ceo-larry-fink-says-140000827.html",
+    "summary": "",
+    "published_at": "2026-08-22T14:00:00+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e53e8f4fef7235a08fd5ddfb",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why I Think the Best Dividend Stock Isn't a Tech Name: It's Realty Income",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-think-best-dividend-stock-135000914.html",
+    "summary": "",
+    "published_at": "2026-08-22T13:50:00+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9ce07325516f6a8b34b7619b",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "CTA equity positioning back to pre-Iran levels: BofA",
+    "url": "https://www.investing.com/news/stock-market-news/cta-equity-positioning-back-to-preiran-levels-bofa-4872364",
+    "summary": "",
+    "published_at": "2026-08-22T13:47:56+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8c18cdd7c9cee47ab1a6f6dc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Rocket Lab Trades at 59 Times Revenue With Neutron Still Unflown",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-trades-59-times-134701934.html",
+    "summary": "",
+    "published_at": "2026-08-22T13:47:01+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "18f1adfbd3c1e7fdb9d2b622",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Upstart's CFO Sold Stock as the Company Returned to Profit. Here's What to Know",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/upstarts-cfo-sold-stock-company-134656705.html",
+    "summary": "",
+    "published_at": "2026-08-22T13:46:56+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "566a225e3467ad6ae5167c7d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Custom Health CEO explains pharmacy growth plan – ICYMI",
+    "url": "https://finance.yahoo.com/healthcare/articles/custom-health-ceo-explains-pharmacy-134100735.html",
+    "summary": "",
+    "published_at": "2026-08-22T13:41:00+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3454ef93fb995d70ab56cff7",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Kalshi off-limits in multiple states as prediction markets, CFTC team up for battle",
+    "url": "https://www.coindesk.com/news-analysis/2026/08/21/kalshi-off-limits-in-multiple-states-as-prediction-markets-cftc-team-up-for-battle",
+    "summary": "",
+    "published_at": "2026-08-22T13:30:00+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4c8222868a28b9f869703cd5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "U.S. Steel Stocks Nucor, Steel Dynamics: Big Winners As Canada Trade Talks Collapse?",
+    "url": "https://www.investors.com/news/u-s-steel-stocks-nucor-steel-dynamics-canada-trade-talks-collapse/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-22T13:26:57+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
     "id": "8213c8e932d5dd7743b79e49",
     "source": "yahoo_finance",
     "tier": 3,
@@ -864,6 +1240,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "7cdcd66c072acdb521ef5ff1",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "‘I’m really disgusted’: Ohio pair worth $40M want a lake house HELOC — Dave Ramsey says to change their advisor instead",
+    "url": "https://finance.yahoo.com/small-business/articles/m-really-disgusted-ohio-pair-111000109.html",
+    "summary": "",
+    "published_at": "2026-08-22T11:10:00+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "06b7133f53e756dce2e184b7",
     "source": "investing_com",
     "tier": 3,
@@ -904,6 +1306,32 @@
     "summary": "",
     "published_at": "2026-08-22T11:02:15+00:00",
     "collected_at": "2026-08-22T12:34:02.360450+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2e8d47238b46aee10a0e8e1b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Airbnb Just Hit a Four-Year High. The Downgrade Says That’s the Problem.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/airbnb-just-hit-four-high-110129364.html",
+    "summary": "",
+    "published_at": "2026-08-22T11:01:29+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -967,6 +1395,32 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a383b12eb026596306aafe50",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Intuitive Machines Misses Big on Earnings. Stifel Upgrades It Anyway",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-machines-misses-big-earnings-105201031.html",
+    "summary": "",
+    "published_at": "2026-08-22T10:52:01+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
@@ -8591,6 +9045,34 @@
     "scored_by": "lexique"
   },
   {
+    "id": "28110c65edec7298b273c275",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "UPS, FedEx and DHL are giving back billions in Trump tariffs to American customers — are you eligible for a fat refund?",
+    "url": "https://finance.yahoo.com/economy/policy/articles/ups-fedex-dhl-giving-back-123500871.html",
+    "summary": "",
+    "published_at": "2026-08-21T12:35:00+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b2dea6cc0450d56d1563ec97",
     "source": "investing_com",
     "tier": 3,
@@ -8831,6 +9313,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "100dbe8b14e5318151782a0e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Flowers Foods, Inc. Q2 2026 Earnings Call Summary",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/flowers-foods-inc-q2-2026-123000512.html",
+    "summary": "",
+    "published_at": "2026-08-21T12:30:00+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "522e5d248864b7bc467cbe4e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Prospect Capital Corporation Q4 2026 Earnings Call Summary",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/prospect-capital-corporation-q4-2026-123000511.html",
+    "summary": "",
+    "published_at": "2026-08-21T12:30:00+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "7d02621e790bc61dd834da43",
     "source": "investing_com",
     "tier": 3,
@@ -8859,6 +9393,69 @@
     "scored_by": "lexique"
   },
   {
+    "id": "81cc84cb28ea660d0f1276a7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Do Wall Street Analysts Like Veralto Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-veralto-stock-122255083.html",
+    "summary": "",
+    "published_at": "2026-08-21T12:22:55+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d093299f5038348ca97f7e48",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Cboe Global Markets Stock Outlook: Is Wall Street Bullish or Bearish?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/cboe-global-markets-stock-outlook-121853876.html",
+    "summary": "",
+    "published_at": "2026-08-21T12:18:53+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {
+      "crypto_favorable": 1.0,
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "3b5d34cd50bd58f0c5e54fc8",
     "source": "marketwatch",
     "tier": 3,
@@ -8876,6 +9473,68 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ef1e5c50da7a151c1b01b2cf",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Are Wall Street Analysts Bullish on Prudential Financial Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-bullish-prudential-121315406.html",
+    "summary": "",
+    "published_at": "2026-08-21T12:13:15+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d38c40443438b416c27887d3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "What Are Wall Street Analysts' Target Price for J. M. Smucker Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-121103165.html",
+    "summary": "",
+    "published_at": "2026-08-21T12:11:03+00:00",
+    "collected_at": "2026-08-22T14:18:47.728931+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
