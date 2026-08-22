@@ -1,11 +1,11 @@
 {
   "2026-08-22": {
-    "articles_count": 258,
-    "signal_count": 29,
+    "articles_count": 266,
+    "signal_count": 30,
     "tone_cb": null,
-    "tone_global": -0.2008,
+    "tone_global": -0.1778,
     "regul_crypto": 0.6,
-    "stress": 0.0193,
+    "stress": 0.0187,
     "top": [
       {
         "id": "b3785bb27dddf810b3c99186",
@@ -14,6 +14,14 @@
         "score": 0.45,
         "tone": -0.5858,
         "url": "https://www.marketwatch.com/story/canada-announces-retaliatory-tariffs-on-u-s-goods-after-trade-talks-break-down-45081c2f?mod=mw_rss_topstories"
+      },
+      {
+        "id": "9e76ef93126b70950623fac2",
+        "title": "Apple Announced Its Largest-Ever Stock Buyback Under Tim Cook's Leadership. Here's Why the Size of the Repurchase Program Matters for Shareholders.",
+        "source": "yahoo_finance",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://finance.yahoo.com/markets/stocks/articles/apple-announced-largest-ever-stock-222000154.html"
       },
       {
         "id": "b5fc3a85363a37d85c6214e4",
@@ -38,14 +46,6 @@
         "score": 0.3,
         "tone": -0.7143,
         "url": "https://www.investing.com/news/economy-news/canada-to-match-us-tariffs-dollar-for-dollar-after-trade-talks-collapse-4872372"
-      },
-      {
-        "id": "9bfaff99a92366ba1bdc311f",
-        "title": "U.S. tariffs on Canada take effect after trade talks collapse",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.7143,
-        "url": "https://www.investing.com/news/economy-news/us-tariffs-on-canada-take-effect-after-trade-talks-collapse-4872296"
       }
     ]
   },
