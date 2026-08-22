@@ -1,5 +1,83 @@
 [
   {
+    "id": "6a843ce906eb52c270c04d8f",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Where are central banks keeping their gold?",
+    "url": "https://www.investing.com/news/economy-news/where-are-central-banks-keeping-their-gold-4872312",
+    "summary": "",
+    "published_at": "2026-08-22T08:03:55+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f2b227dba17487793481d679",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Ukrainian drones hit warehouse of Russian online retailer Ozon in overnight strikes",
+    "url": "https://www.investing.com/news/stock-market-news/ukrainian-drones-hit-warehouse-of-russian-online-retailer-ozon-in-overnight-strikes-4872310",
+    "summary": "",
+    "published_at": "2026-08-22T07:42:29+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5bbb5187d7114014fc9240ae",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Vatican plans €100 million agrivoltaic energy plant near Rome",
+    "url": "https://www.investing.com/news/economy-news/vatican-plans-100-million-agrivoltaic-energy-plant-near-rome-4872309",
+    "summary": "",
+    "published_at": "2026-08-22T07:27:32+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "82e380bf455ddb545122a16b",
     "source": "investing_com",
     "tier": 3,
@@ -9261,6 +9339,68 @@
     "scored_by": "lexique"
   },
   {
+    "id": "2cd4cb77233f1685eca7e1ce",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "China’s Oil Imports Set to Rebound as Refiners Hunt for New Supply",
+    "url": "https://finance.yahoo.com/energy/articles/china-oil-imports-set-rebound-080000061.html",
+    "summary": "",
+    "published_at": "2026-08-21T08:00:00+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0b46651f3bc2bec33833cbb3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Are Wall Street Analysts Predicting DTE Energy Stock Will Climb or Sink?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-dte-075911349.html",
+    "summary": "",
+    "published_at": "2026-08-21T07:59:11+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b1d6ab139f651f4ba02dab70",
     "source": "nikkei_asia",
     "tier": 3,
@@ -9630,6 +9770,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "71582bfaa775676afae4d8db",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "I'm 55 With $900,000 in an IRA. Should I Convert $100,000 Annually to a Roth to Reduce RMDs?",
+    "url": "https://finance.yahoo.com/news/im-55-900-000-ira-122500700.html",
+    "summary": "",
+    "published_at": "2026-08-21T07:00:00+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "e52e80f3af2f2c488b0f409a",
     "source": "coindesk",
     "tier": 3,
@@ -9973,6 +10139,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "c2f7b73782baa8b1fafd2e8c",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "US Dollar Price Forecast: DXY Breaks 99.38 as EUR/USD and GBP/USD Extend Gain",
+    "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-061736696.html",
+    "summary": "",
+    "published_at": "2026-08-21T06:17:36+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "4354e4ebb53d72ce1163fe8f",
     "source": "investing_com",
     "tier": 3,
@@ -10044,6 +10236,36 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1f5d018205e158368a936c12",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "A date on the calendar could shape the BOJ's endgame on interest rates",
+    "url": "https://finance.yahoo.com/news/date-calendar-could-shape-bojs-060629014.html",
+    "summary": "",
+    "published_at": "2026-08-21T06:06:29+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -10363,6 +10585,64 @@
     "scored_by": "lexique"
   },
   {
+    "id": "666bd2130f57f387002c0dfc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Treasury buyback renews dollar-debasement fears",
+    "url": "https://finance.yahoo.com/markets/currencies/articles/treasury-buyback-renews-dollar-debasement-050436101.html",
+    "summary": "",
+    "published_at": "2026-08-21T05:04:36+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fa9b5e455031fa9df81dc470",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "India's August private sector growth recovers slightly from over four-year low, PMI shows",
+    "url": "https://finance.yahoo.com/economy/articles/indias-august-private-sector-growth-050243541.html",
+    "summary": "",
+    "published_at": "2026-08-21T05:02:43+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
     "id": "fb794e9753463e1baf2cf59c",
     "source": "investing_com",
     "tier": 3,
@@ -10531,6 +10811,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "35e869928fdd24b1fda2e4de",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "US stocks rise, even as the bond market applies more pressure",
+    "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mixed-following-wall-044644162.html",
+    "summary": "",
+    "published_at": "2026-08-21T04:46:44+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "37fb48cd70b467350e622906",
     "source": "investing_com",
     "tier": 3,
@@ -10675,6 +10985,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "da765b1a4ad521d49e47e9c4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "South Korea plans chip windfall fund to back youth, AI investment",
+    "url": "https://finance.yahoo.com/economy/policy/articles/south-korea-plans-chip-windfall-041053403.html",
+    "summary": "",
+    "published_at": "2026-08-21T04:10:53+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "f9fefff9eb8d9986af36d58e",
     "source": "investing_com",
     "tier": 3,
@@ -10698,6 +11038,34 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d06af017b36e94fa122d5f55",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Fabrinet Sees AI Optical Demand Fueling Years of Growth, Expands Capacity",
+    "url": "https://finance.yahoo.com/technology/ai/articles/fabrinet-sees-ai-optical-demand-040159980.html",
+    "summary": "",
+    "published_at": "2026-08-21T04:01:59+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
     "scored_by": "lexique"
   },
   {
@@ -10909,6 +11277,142 @@
     "scored_by": "lexique"
   },
   {
+    "id": "825f87a7703ca69c5cfca036",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Lument Finance (LFT) Q2 2026 Earnings Call Transcript",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/lument-finance-lft-q2-2026-034334172.html",
+    "summary": "",
+    "published_at": "2026-08-21T03:43:34+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e251cba0bc029070dfe6c028",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "MDxHealth (MDXH) Q2 2026 Earnings Call Transcript",
+    "url": "https://finance.yahoo.com/healthcare/articles/mdxhealth-mdxh-q2-2026-earnings-034334261.html",
+    "summary": "",
+    "published_at": "2026-08-21T03:43:34+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3290855baeb21e881a3ceced",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "BayFirst Financial (BAFN) Q2 2026 Earnings Call Transcript",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/bayfirst-financial-bafn-q2-2026-034334448.html",
+    "summary": "",
+    "published_at": "2026-08-21T03:43:34+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a48c07c71add9bbb7b7d2c7f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Asian Stocks Slide on Bond Stress: Will Safe Havens BTC and Gold Keep Rallying?",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/asian-stocks-slide-bond-stress-034331017.html",
+    "summary": "",
+    "published_at": "2026-08-21T03:43:31+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie",
+      "btc"
+    ],
+    "assets_effective": [
+      "asie",
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bdaa80b86db79827bf5c909b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Google's Marvell Warrant Doesn't Fully Vest Until Google Buys $120 Billion of Chips",
+    "url": "https://finance.yahoo.com/technology/articles/googles-marvell-warrant-doesnt-fully-033801123.html",
+    "summary": "",
+    "published_at": "2026-08-21T03:38:01+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b7d7011d2e7227dc4d1a2b51",
     "source": "investing_com",
     "tier": 3,
@@ -10932,6 +11436,32 @@
     "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "967d61110dcea6eb0348fbc9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "You’re Already Funding the AI Bubble — and You’ll Pay for the Bust",
+    "url": "https://finance.yahoo.com/technology/ai/articles/already-funding-ai-bubble-ll-033114528.html",
+    "summary": "",
+    "published_at": "2026-08-21T03:31:14+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
     "scored_by": "lexique"
@@ -17210,6 +17740,32 @@
     "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "93c8fc7144adf70788414bff",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "One day after doubling Treasury buybacks, Bessent says he's ready to boost them further to push down long-term yields",
+    "url": "https://finance.yahoo.com/economy/article/one-day-after-doubling-treasury-buybacks-bessent-says-hes-ready-to-boost-them-further-to-push-down-long-term-yields-181218236.html",
+    "summary": "",
+    "published_at": "2026-08-20T18:12:18+00:00",
+    "collected_at": "2026-08-22T08:26:30.450944+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
     "scored_by": "lexique"
