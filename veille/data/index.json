@@ -1,11 +1,11 @@
 {
   "2026-08-22": {
-    "articles_count": 39,
-    "signal_count": 5,
+    "articles_count": 43,
+    "signal_count": 7,
     "tone_cb": null,
-    "tone_global": -0.5262,
-    "regul_crypto": null,
-    "stress": 0.0256,
+    "tone_global": -0.3616,
+    "regul_crypto": 0.6,
+    "stress": 0.0233,
     "top": [
       {
         "id": "b849675e357246d8493b2d9c",
@@ -32,25 +32,25 @@
         "url": "https://www.investing.com/news/economy-news/iran-threatens-military-response-to-us-sanctions-4872287"
       },
       {
-        "id": "32aded4485ca0daea7443fa4",
-        "title": "Canadian minister LeBlanc says more work needed in talks with US before tariff deadline",
+        "id": "1c8d00a92d643ef41d65c92d",
+        "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": 0.6,
+        "url": "https://www.coindesk.com/markets/2026/08/22/zcash-tops-usd800-for-first-time-since-2016"
+      },
+      {
+        "id": "e4071f6471a7dbe1d705ed63",
+        "title": "US hits Canadian goods with 50% tariffs after trade talks fail",
         "source": "investing_com",
         "score": 0.3,
         "tone": -0.5,
         "url": "https://www.investing.com/news/commodities-news/us-canadian-trade-teams-to-meet-again-as-tariffs-deadline-looms-4871745"
-      },
-      {
-        "id": "359b4e7319d90b180bd65b81",
-        "title": "Thailand, Asia's gun ownership leader, cracks down after deadly shootings",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/society/crime/thailand-asia-s-gun-ownership-leader-cracks-down-after-deadly-shootings"
       }
     ]
   },
   "2026-08-21": {
-    "articles_count": 389,
+    "articles_count": 392,
     "signal_count": 59,
     "tone_cb": null,
     "tone_global": 0.235,
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-20": {
-    "articles_count": 727,
+    "articles_count": 740,
     "signal_count": 104,
     "tone_cb": 0.1875,
     "tone_global": 0.2181,
     "regul_crypto": 0.4586,
-    "stress": 0.0105,
+    "stress": 0.0103,
     "top": [
       {
         "id": "f1bd96b8222ec1df09e1dea4",
