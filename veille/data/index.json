@@ -1,11 +1,11 @@
 {
   "2026-08-22": {
-    "articles_count": 157,
-    "signal_count": 18,
+    "articles_count": 176,
+    "signal_count": 21,
     "tone_cb": null,
-    "tone_global": -0.361,
+    "tone_global": -0.3196,
     "regul_crypto": 0.6,
-    "stress": 0.0254,
+    "stress": 0.0283,
     "top": [
       {
         "id": "b5fc3a85363a37d85c6214e4",
@@ -24,6 +24,14 @@
         "url": "https://www.investing.com/news/commodities-news/us-canadian-trade-teams-to-meet-again-as-tariffs-deadline-looms-4871745"
       },
       {
+        "id": "e1d1c85a3b1585e155c9d920",
+        "title": "Canada to match U.S. tariffs dollar for dollar after trade talks collapse",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.7143,
+        "url": "https://www.investing.com/news/economy-news/canada-to-match-us-tariffs-dollar-for-dollar-after-trade-talks-collapse-4872372"
+      },
+      {
         "id": "9bfaff99a92366ba1bdc311f",
         "title": "U.S. tariffs on Canada take effect after trade talks collapse",
         "source": "investing_com",
@@ -38,14 +46,6 @@
         "score": 0.3,
         "tone": -0.6667,
         "url": "https://www.investing.com/news/economy-news/us-iran-trade-warnings-as-new-sanctions-loom-and-hormuz-oil-flows-stall-4872251"
-      },
-      {
-        "id": "540dd73f77a4803ee72140a3",
-        "title": "Iran threatens military response to US sanctions",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.6667,
-        "url": "https://www.investing.com/news/economy-news/iran-threatens-military-response-to-us-sanctions-4872287"
       }
     ]
   },
