@@ -1,11 +1,11 @@
 {
   "2026-08-22": {
-    "articles_count": 56,
-    "signal_count": 7,
+    "articles_count": 66,
+    "signal_count": 8,
     "tone_cb": null,
-    "tone_global": -0.3616,
+    "tone_global": -0.3997,
     "regul_crypto": 0.6,
-    "stress": 0.0179,
+    "stress": 0.0152,
     "top": [
       {
         "id": "b849675e357246d8493b2d9c",
@@ -24,6 +24,14 @@
         "url": "https://www.investing.com/news/economy-news/us-tariffs-on-canada-take-effect-after-trade-talks-collapse-4872296"
       },
       {
+        "id": "41bd1623ad193ce09c3c3461",
+        "title": "Iran leaders urge end to war as U.S. prepares tougher sanctions",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.6667,
+        "url": "https://www.investing.com/news/economy-news/us-iran-trade-warnings-as-new-sanctions-loom-and-hormuz-oil-flows-stall-4872251"
+      },
+      {
         "id": "540dd73f77a4803ee72140a3",
         "title": "Iran threatens military response to US sanctions",
         "source": "investing_com",
@@ -38,24 +46,16 @@
         "score": 0.3,
         "tone": 0.6,
         "url": "https://www.coindesk.com/markets/2026/08/22/zcash-tops-usd800-for-first-time-since-2016"
-      },
-      {
-        "id": "e4071f6471a7dbe1d705ed63",
-        "title": "US hits Canadian goods with 50% tariffs after trade talks fail",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/commodities-news/us-canadian-trade-teams-to-meet-again-as-tariffs-deadline-looms-4871745"
       }
     ]
   },
   "2026-08-21": {
-    "articles_count": 442,
-    "signal_count": 64,
+    "articles_count": 465,
+    "signal_count": 68,
     "tone_cb": null,
-    "tone_global": 0.2556,
+    "tone_global": 0.248,
     "regul_crypto": 0.3909,
-    "stress": 0.0044,
+    "stress": 0.0042,
     "top": [
       {
         "id": "946669543dc4bddcd633c518",
