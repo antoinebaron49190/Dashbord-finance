@@ -1,12 +1,20 @@
 {
   "2026-08-22": {
-    "articles_count": 83,
-    "signal_count": 9,
+    "articles_count": 103,
+    "signal_count": 10,
     "tone_cb": null,
-    "tone_global": -0.4109,
+    "tone_global": -0.3698,
     "regul_crypto": 0.6,
-    "stress": 0.012,
+    "stress": 0.0097,
     "top": [
+      {
+        "id": "b5fc3a85363a37d85c6214e4",
+        "title": "Why an announcement from the Treasury sparked a rally in gold and bitcoin this week",
+        "source": "marketwatch",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.marketwatch.com/story/why-an-announcement-from-the-treasury-sparked-a-rally-in-gold-and-bitcoin-this-week-d9d5972b?mod=mw_rss_topstories"
+      },
       {
         "id": "b849675e357246d8493b2d9c",
         "title": "US, Canada fail to reach a tariff deal, deepen trade war",
@@ -38,24 +46,16 @@
         "score": 0.3,
         "tone": -0.6667,
         "url": "https://www.investing.com/news/economy-news/iran-threatens-military-response-to-us-sanctions-4872287"
-      },
-      {
-        "id": "1c8d00a92d643ef41d65c92d",
-        "title": "Zcash jumps 48% to over $800 as Grayscale spot ETF push adds to ‘next bitcoin’ buzz",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": 0.6,
-        "url": "https://www.coindesk.com/markets/2026/08/22/zcash-tops-usd800-for-first-time-since-2016"
       }
     ]
   },
   "2026-08-21": {
-    "articles_count": 509,
-    "signal_count": 71,
+    "articles_count": 515,
+    "signal_count": 73,
     "tone_cb": null,
-    "tone_global": 0.2445,
+    "tone_global": 0.2379,
     "regul_crypto": 0.3909,
-    "stress": 0.0039,
+    "stress": 0.0038,
     "top": [
       {
         "id": "946669543dc4bddcd633c518",
