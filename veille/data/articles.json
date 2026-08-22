@@ -1,5 +1,116 @@
 [
   {
+    "id": "359b4e7319d90b180bd65b81",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Thailand, Asia's gun ownership leader, cracks down after deadly shootings",
+    "url": "https://asia.nikkei.com/spotlight/society/crime/thailand-asia-s-gun-ownership-leader-cracks-down-after-deadly-shootings",
+    "summary": "",
+    "published_at": "2026-08-22T05:24:32.662410+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a2fef4451fc05e53dff6039c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Breaking down the U.S.-Japan “currency alliance”",
+    "url": "https://www.investing.com/news/forex-news/breaking-down-the-usjapan-currency-alliance-4872302",
+    "summary": "",
+    "published_at": "2026-08-22T05:12:11+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bf6c8f0066f20f6c60e6525d",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
+    "url": "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days",
+    "summary": "",
+    "published_at": "2026-08-22T05:05:13+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6d47a3fae56a1fff7a256044",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Pentagon removes Stars and Stripes newspaper leadership",
+    "url": "https://www.investing.com/news/economy-news/pentagon-removes-stars-and-stripes-newspaper-leadership-4872300",
+    "summary": "",
+    "published_at": "2026-08-22T04:40:48+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "0a2a1c4523901584fe0b6b24",
     "source": "investing_com",
     "tier": 3,
@@ -11694,6 +11805,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "3ccf37f4b93722813a8018cb",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Apple Inc. (AAPL) Wants to Pay Publishers to Fix Siri. What’s the Catch?",
+    "url": "https://finance.yahoo.com/technology/ai/articles/apple-inc-aapl-wants-pay-231402505.html",
+    "summary": "",
+    "published_at": "2026-08-20T23:14:02+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "bbea0ea30ec1754a3fe42378",
     "source": "investing_com",
     "tier": 3,
@@ -11798,6 +11935,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "39d6a47f9ad41d06a0d15c60",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Can Abbott Laboratories (ABT)’s Instinct Sensor Give MiniMed Group (MMED) a Competitive Edge?",
+    "url": "https://finance.yahoo.com/healthcare/articles/abbott-laboratories-abt-instinct-sensor-230447435.html",
+    "summary": "",
+    "published_at": "2026-08-20T23:04:47+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "abd9aab7525a74c94e2ef117",
     "source": "investing_com",
     "tier": 3,
@@ -11812,6 +11975,62 @@
     "summary": "",
     "published_at": "2026-08-20T23:04:45+00:00",
     "collected_at": "2026-08-20T23:23:19.515745+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0cd5d27f1da9c237f30782b7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AI reshapes India's IT services sector contracts as clients demand more for less",
+    "url": "https://finance.yahoo.com/technology/ai/articles/ai-reshapes-indias-services-sector-230207528.html",
+    "summary": "",
+    "published_at": "2026-08-20T23:02:07+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8f5835c9ef10175543d61526",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Is AerCap Holdings N.V. (AER) a Better Aviation Investment Than The Boeing Company (BA)?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/aercap-holdings-n-v-aer-230100144.html",
+    "summary": "",
+    "published_at": "2026-08-20T23:01:00+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -11847,6 +12066,60 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e7e5c2f316fc37999417ecd8",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Can Trane Technologies plc (TT) and Eaton Corporation, PLC (ETN) Become Major Winners from the AI Data Center Boom?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/trane-technologies-plc-tt-eaton-225548421.html",
+    "summary": "",
+    "published_at": "2026-08-20T22:55:48+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c27e8cbfe60099d114984077",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oracle Corporation (ORCL) vs. Amazon.com (AMZN): Which AI Infrastructure Giant Is Better Positioned for Long-Term Growth?",
+    "url": "https://finance.yahoo.com/technology/ai/articles/oracle-corporation-orcl-vs-amazon-225036836.html",
+    "summary": "",
+    "published_at": "2026-08-20T22:50:36+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
     "scored_by": "lexique"
   },
   {
@@ -11904,6 +12177,86 @@
     "scored_by": "lexique"
   },
   {
+    "id": "a567af53b226626b1165a386",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Simons' Renaissance cuts $486 million from surging AI stock",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-simons-renaissance-cuts-486-223300362.html",
+    "summary": "",
+    "published_at": "2026-08-20T22:33:00+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9e15bc16e5980ed8246acc85",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Retired Couple, 66 And 68, Say Their Adult Son Moved Back In 'For A Few Months' — It's Been Two Years And They're $40,000 Deeper In Bills",
+    "url": "https://finance.yahoo.com/real-estate/articles/retired-couple-66-68-adult-223008047.html",
+    "summary": "",
+    "published_at": "2026-08-20T22:30:08+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "44bb810b4a575470e409b766",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Fashion tech founder sentenced to prison for $300m fraud scheme",
+    "url": "https://finance.yahoo.com/small-business/articles/fashion-tech-founder-sentenced-prison-222741157.html",
+    "summary": "",
+    "published_at": "2026-08-20T22:27:41+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "4357f4e615e79e4e2770b9d4",
     "source": "yahoo_finance",
     "tier": 3,
@@ -11918,6 +12271,32 @@
     "summary": "",
     "published_at": "2026-08-20T22:27:29+00:00",
     "collected_at": "2026-08-22T03:39:08.404198+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bec419ab1e6eca0f210060b3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Delay Your First RMD and the IRS Makes You Take Two in One Year. These 3 ETFs Keep the Tax Hit From Compounding",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/delay-first-rmd-irs-makes-222510544.html",
+    "summary": "",
+    "published_at": "2026-08-20T22:25:10+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -12001,6 +12380,84 @@
     "summary": "",
     "published_at": "2026-08-20T22:18:52+00:00",
     "collected_at": "2026-08-22T03:39:08.404198+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "67209d02612398066d5b79d0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Goldman Sachs sends strong message on AI and jobs",
+    "url": "https://finance.yahoo.com/technology/ai/articles/goldman-sachs-sends-strong-message-221700275.html",
+    "summary": "",
+    "published_at": "2026-08-20T22:17:00+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "69f96d9d7db5f05439ebd004",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The IRS Makes You Sell Whether the Market Is Up or Down. These 3 ETFs Fund the RMD Without Touching a Share",
+    "url": "https://finance.yahoo.com/markets/options/articles/irs-makes-sell-whether-market-221545127.html",
+    "summary": "",
+    "published_at": "2026-08-20T22:15:45+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "00b50383e4a4ae93930ac767",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Innventure (INV) Q2 2026 Earnings Call Transcript",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/innventure-inv-q2-2026-earnings-221433246.html",
+    "summary": "",
+    "published_at": "2026-08-20T22:14:33+00:00",
+    "collected_at": "2026-08-22T05:24:32.662410+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
