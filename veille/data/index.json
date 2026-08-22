@@ -1,12 +1,20 @@
 {
   "2026-08-22": {
-    "articles_count": 192,
-    "signal_count": 22,
+    "articles_count": 214,
+    "signal_count": 25,
     "tone_cb": null,
-    "tone_global": -0.3278,
+    "tone_global": -0.3107,
     "regul_crypto": 0.6,
-    "stress": 0.026,
+    "stress": 0.0233,
     "top": [
+      {
+        "id": "b3785bb27dddf810b3c99186",
+        "title": "Canada announces retaliatory tariffs on U.S. goods after trade talks break down",
+        "source": "marketwatch",
+        "score": 0.45,
+        "tone": -0.5858,
+        "url": "https://www.marketwatch.com/story/canada-announces-retaliatory-tariffs-on-u-s-goods-after-trade-talks-break-down-45081c2f?mod=mw_rss_topstories"
+      },
       {
         "id": "b5fc3a85363a37d85c6214e4",
         "title": "Why an announcement from the Treasury sparked a rally in gold and bitcoin this week",
@@ -38,14 +46,6 @@
         "score": 0.3,
         "tone": -0.7143,
         "url": "https://www.investing.com/news/economy-news/us-tariffs-on-canada-take-effect-after-trade-talks-collapse-4872296"
-      },
-      {
-        "id": "41bd1623ad193ce09c3c3461",
-        "title": "Iran leaders urge end to war as U.S. prepares tougher sanctions",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.6667,
-        "url": "https://www.investing.com/news/economy-news/us-iran-trade-warnings-as-new-sanctions-loom-and-hormuz-oil-flows-stall-4872251"
       }
     ]
   },
