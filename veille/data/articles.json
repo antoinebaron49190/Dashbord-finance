@@ -1,5 +1,35 @@
 [
   {
+    "id": "9669c23af528956c005bf2a7",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin surges past $76K with overbought RSI: Live levels",
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-coiled-at-63591-with-volatility-at-6month-lows-live-levels-93CH-4862234",
+    "summary": "",
+    "published_at": "2026-08-23T07:02:36+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "127ff88fed4b7e3d88b0e853",
     "source": "nikkei_asia",
     "tier": 3,
@@ -13,6 +43,36 @@
     "summary": "",
     "published_at": "2026-08-23T06:37:13.428206+00:00",
     "collected_at": "2026-08-23T06:37:13.428206+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "528c39d7177e18441d904d34",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Alibaba plans $10 billion Hong Kong share placement to fund AI spending",
+    "url": "https://www.investing.com/news/stock-market-news/alibaba-proposes-hong-kong-share-placement-worth-10-billion-4872416",
+    "summary": "",
+    "published_at": "2026-08-23T06:30:36+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
     "categories": {},
     "assets_detected": [
       "asie"
@@ -7260,6 +7320,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "1874f27f6c556c3b2727de78",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Lufax (LU) Narrowed Its Loss 86%. Was the Improvement Mostly Tax-Driven?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/lufax-lu-narrowed-loss-86-010120939.html",
+    "summary": "",
+    "published_at": "2026-08-22T01:01:20+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "88b385d47e277ccf18354591",
     "source": "yahoo_finance",
     "tier": 3,
@@ -7712,6 +7798,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "6d3f21224e56deb13917fb51",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Elon Musk Is No Longer a Trillionaire, but He Could Still Give Every Person on Earth $69.420 and Stay the World's Richest",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-no-longer-trillionaire-233204052.html",
+    "summary": "",
+    "published_at": "2026-08-21T23:32:04+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c8a56341c29db93591139ecb",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why Cardano Was on Fire Today",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/why-cardano-fire-today-233035048.html",
+    "summary": "",
+    "published_at": "2026-08-21T23:30:35+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "ea4669543d1ff05c5d7cb9e9",
     "source": "yahoo_finance",
     "tier": 3,
@@ -7740,6 +7878,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "4ebd05bb2828f6102607389b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "‘The Odyssey’ Isn’t a One-Off for IMAX, Analyst Says. Plus, Dell and 3 More Stocks.",
+    "url": "https://www.barrons.com/articles/the-odyssey-isnt-a-one-off-for-imax-analyst-says-plus-dell-and-3-more-stocks-d69b73e4?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-21T23:21:00+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "adeb8910439ae1d5848e0685",
     "source": "nikkei_asia",
     "tier": 3,
@@ -7760,6 +7924,192 @@
     "assets_effective": [
       "asie"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7eb4d8784ef9d6e1f6a31d10",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Saylor’s Bitcoin bet is no longer underwater",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/saylor-bitcoin-bet-no-longer-232000820.html",
+    "summary": "",
+    "published_at": "2026-08-21T23:20:00+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "749ea830ac1355799450951e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Celanese CFO Chuck Kyrish Buys 2,300 Shares for $105,000. What Is This Telling Investors?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/celanese-cfo-chuck-kyrish-buys-231901187.html",
+    "summary": "",
+    "published_at": "2026-08-21T23:19:01+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "418f48feb08660c50b9ea6d9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Largo (LGO) Q2 2026 Earnings Call Transcript",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/largo-lgo-q2-2026-earnings-231433303.html",
+    "summary": "",
+    "published_at": "2026-08-21T23:14:33+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7c78bca38a47419afd23f666",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Exelixis, Valaris, and 3 More Stocks See Action From Activist Investors",
+    "url": "https://www.barrons.com/articles/exelixis-valaris-and-3-more-stocks-see-action-from-activist-investors-c381de7d?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-21T23:14:00+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "da441321c5a1b27b25d0d3b7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Barfresh (BRFH) Q2 2026 Earnings Call Transcript",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/barfresh-brfh-q2-2026-earnings-231318363.html",
+    "summary": "",
+    "published_at": "2026-08-21T23:13:18+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "537b838f54645d8cbaef5203",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The Best Semiconductor Stock to Buy Isn't AMD or Qualcomm: It's Nvidia, and Our Data Proves It",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/best-semiconductor-stock-buy-isnt-231300431.html",
+    "summary": "",
+    "published_at": "2026-08-21T23:13:00+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f1f9d959da6067a3bc38b6bd",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Vanguard: Beware Mission Creep",
+    "url": "https://www.barrons.com/articles/vanguard-beware-mission-creep-46d37d60?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-21T23:10:00+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -7821,6 +8171,84 @@
     "scored_by": "lexique"
   },
   {
+    "id": "65fff578bcb69b9d6cc79cb1",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "He Earned Six Figures Running Heavy Equipment. At 61, His Body Retired Before Social Security Would Let Him.",
+    "url": "https://finance.yahoo.com/healthcare/articles/earned-six-figures-running-heavy-230326446.html",
+    "summary": "",
+    "published_at": "2026-08-21T23:03:26+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "90c75bf52a5e2cd4ed120708",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Baylin Technologies Backlog Hits Record C$61M After Kaelus Acquisition",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/baylin-technologies-backlog-hits-record-230156427.html",
+    "summary": "",
+    "published_at": "2026-08-21T23:01:56+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ac2f7f98fa6a0fd311b65999",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "“We’re Still Renting”: Couple Says Family Gatherings Have Become Miserable as Cousins Brag About Their Homes",
+    "url": "https://finance.yahoo.com/real-estate/articles/still-renting-couple-says-family-230106488.html",
+    "summary": "",
+    "published_at": "2026-08-21T23:01:06+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "89b0cbe1d088b9f57a03afbf",
     "source": "investing_com",
     "tier": 3,
@@ -7835,6 +8263,32 @@
     "summary": "",
     "published_at": "2026-08-21T23:00:59+00:00",
     "collected_at": "2026-08-21T23:20:46.202106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "50c29e16f887861bdfab9b0d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Single at 66 Means One Social Security Check and No Backup. These 4 ETFs Build the Second One",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/single-66-means-one-social-230057165.html",
+    "summary": "",
+    "published_at": "2026-08-21T23:00:57+00:00",
+    "collected_at": "2026-08-23T07:31:22.770098+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],

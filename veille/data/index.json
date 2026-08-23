@@ -1,6 +1,6 @@
 {
   "2026-08-23": {
-    "articles_count": 14,
+    "articles_count": 16,
     "signal_count": 2,
     "tone_cb": null,
     "tone_global": 0.0,
@@ -8,12 +8,28 @@
     "stress": 0.0,
     "top": [
       {
+        "id": "9669c23af528956c005bf2a7",
+        "title": "Bitcoin surges past $76K with overbought RSI: Live levels",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-coiled-at-63591-with-volatility-at-6month-lows-live-levels-93CH-4862234"
+      },
+      {
         "id": "127ff88fed4b7e3d88b0e853",
         "title": "Vietnam assembly ends, China oil and gas earnings, BOJ deputy speech",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
         "url": "https://asia.nikkei.com/spotlight/your-week-in-asia/vietnam-assembly-ends-china-oil-and-gas-earnings-boj-deputy-speech"
+      },
+      {
+        "id": "528c39d7177e18441d904d34",
+        "title": "Alibaba plans $10 billion Hong Kong share placement to fund AI spending",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/stock-market-news/alibaba-proposes-hong-kong-share-placement-worth-10-billion-4872416"
       },
       {
         "id": "8c2c324924cec96e0acc698f",
@@ -30,27 +46,11 @@
         "score": 0.3,
         "tone": 0.0,
         "url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-apple-upgraded-on-foldable-iphone-push-new-ai-strategy-4872396"
-      },
-      {
-        "id": "e7def0fa51f003bbcc87a6af",
-        "title": "Trump disclosure shows more than 1,000 securities trades in June - report",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/company-news/trump-disclosure-shows-more-than-1000-securities-trades-in-june--report-4872419"
-      },
-      {
-        "id": "d876b3d083a9b93f37255121",
-        "title": "Preservation of Japan's A-bombed buildings faces cost challenge",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/society/preservation-of-japan-s-a-bombed-buildings-faces-cost-challenge"
       }
     ]
   },
   "2026-08-22": {
-    "articles_count": 271,
+    "articles_count": 272,
     "signal_count": 30,
     "tone_cb": null,
     "tone_global": -0.1778,
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-21": {
-    "articles_count": 641,
+    "articles_count": 655,
     "signal_count": 90,
     "tone_cb": null,
     "tone_global": 0.2268,
     "regul_crypto": 0.3909,
-    "stress": 0.0046,
+    "stress": 0.0045,
     "top": [
       {
         "id": "946669543dc4bddcd633c518",
