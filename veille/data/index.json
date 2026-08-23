@@ -1,11 +1,11 @@
 {
   "2026-08-23": {
-    "articles_count": 91,
-    "signal_count": 12,
+    "articles_count": 107,
+    "signal_count": 13,
     "tone_cb": null,
-    "tone_global": -0.1833,
+    "tone_global": -0.2077,
     "regul_crypto": null,
-    "stress": 0.022,
+    "stress": 0.0187,
     "top": [
       {
         "id": "e80d16681c7b25a1225df215",
@@ -24,6 +24,14 @@
         "url": "https://www.investing.com/news/earnings/sinopec-reports-19-profit-jump-in-h1-2026-despite-middle-east-crisis-4872438"
       },
       {
+        "id": "2b2346868896867f8365fb54",
+        "title": "Dow Jones Futures Due; Nvidia Earnings, Canada Tariffs, Warsh In Focus",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-crowdstrike-warsh/?src=A00220&yptr=yahoo"
+      },
+      {
         "id": "b04d215c910703330a919177",
         "title": "Dow Jones Futures Due After Market Damage; Nvidia, Canada Tariffs, Warsh In Focus",
         "source": "yahoo_finance",
@@ -38,14 +46,6 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-crowdstrike-warsh/?src=A00220&yptr=yahoo"
-      },
-      {
-        "id": "87d239e9d7a5380e73a14b9f",
-        "title": "Organon earnings up next: Can drugmaker rebound after Q1 miss?",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/earnings/organon-earnings-up-next-can-drugmaker-rebound-after-q1-miss-93CH-4872453"
       }
     ]
   },
