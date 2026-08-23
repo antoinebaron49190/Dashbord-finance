@@ -1,5 +1,476 @@
 [
   {
+    "id": "d3b8e86b7a685068d24196c2",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "It's time for Vietnam to fend off China over its new oil discovery",
+    "url": "https://asia.nikkei.com/opinion/it-s-time-for-vietnam-to-fend-off-china-over-its-new-oil-discovery",
+    "summary": "",
+    "published_at": "2026-08-23T20:19:25.207050+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3f4e537c65074e8ca080cfe5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "After Buying Circle Through a 42% Drop, Cathie Wood Says Analysts Cannot Fathom It",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/buying-circle-42-drop-cathie-200021183.html",
+    "summary": "",
+    "published_at": "2026-08-23T20:00:21+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7919976153584309577ad863",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Gilead’s Revenue Is Accelerating, But are its Acquisitions Worth the Cost?",
+    "url": "https://finance.yahoo.com/healthcare/articles/gilead-revenue-accelerating-acquisitions-worth-195747159.html",
+    "summary": "",
+    "published_at": "2026-08-23T19:57:47+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "10c2f29cb9cde7402dd84d70",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Pfizer vs. Gilead: Which Drugmaker Has the Stronger Growth Story?",
+    "url": "https://finance.yahoo.com/healthcare/articles/pfizer-vs-gilead-drugmaker-stronger-195408536.html",
+    "summary": "",
+    "published_at": "2026-08-23T19:54:08+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b89e2e18528a206dc44c752b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Zoetis Earnings Reveal a Divided Business, But Can its Pipeline Restore Growth?",
+    "url": "https://finance.yahoo.com/healthcare/articles/zoetis-earnings-reveal-divided-business-194924344.html",
+    "summary": "",
+    "published_at": "2026-08-23T19:49:24+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ad29ee1a6ac2a1b879fa78cf",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Your mortgage rate has a growing problem in the bond market",
+    "url": "https://finance.yahoo.com/real-estate/articles/mortgage-rate-growing-problem-bond-194700578.html",
+    "summary": "",
+    "published_at": "2026-08-23T19:47:00+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d9c9d1d7db2271c8b0f69f1c",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Medtronic vs. Tenet Healthcare: Which Healthcare Stock Offers Better Long-Term Growth?",
+    "url": "https://finance.yahoo.com/healthcare/articles/medtronic-vs-tenet-healthcare-healthcare-194303713.html",
+    "summary": "",
+    "published_at": "2026-08-23T19:43:03+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0c1c851f54ad4e4399202d41",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "FHLC vs. PJP: Which Healthcare ETF Is the Better Buy for Investors?",
+    "url": "https://finance.yahoo.com/healthcare/articles/fhlc-vs-pjp-healthcare-etf-194003254.html",
+    "summary": "",
+    "published_at": "2026-08-23T19:40:03+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5d7766ddad3f82a8ad34f6ac",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Italy extends diesel tax cut to Wednesday amid rising fuel prices",
+    "url": "https://www.investing.com/news/commodities-news/italy-extends-diesel-tax-cut-to-wednesday-amid-rising-fuel-prices-93CH-4872473",
+    "summary": "",
+    "published_at": "2026-08-23T19:39:57+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "353d4961e31dccb113d0f817",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Vistra Is the Quietest Big Winner of the AI Power Boom. Here's Why.",
+    "url": "https://finance.yahoo.com/energy/articles/vistra-quietest-big-winner-ai-193900847.html",
+    "summary": "",
+    "published_at": "2026-08-23T19:39:00+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fe0a215567e6f55f737794ac",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AstraZeneca Made a $1.5 Billion Lung Cancer Bet, but Can Zegfrovy Strengthen its Oncology Growth?",
+    "url": "https://finance.yahoo.com/healthcare/articles/astrazeneca-made-1-5-billion-193855181.html",
+    "summary": "",
+    "published_at": "2026-08-23T19:38:55+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6e4402fe4a1cdc7cec45ba53",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Major alcohol company shrinks workforce by nearly 2,000",
+    "url": "https://finance.yahoo.com/small-business/articles/major-alcohol-company-shrinks-workforce-193700359.html",
+    "summary": "",
+    "published_at": "2026-08-23T19:37:00+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6e1b8a1080ba280f854a5754",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/company-raised-dividend-72-straight-192800860.html",
+    "summary": "",
+    "published_at": "2026-08-23T19:28:00+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "607000027aff76b9ae21562d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "This Chinese Tech Giant Quietly Cut Its Buyback 80% to Fund AI",
+    "url": "https://finance.yahoo.com/technology/ai/articles/chinese-tech-giant-quietly-cut-191745460.html",
+    "summary": "",
+    "published_at": "2026-08-23T19:17:45+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3fd76cfa8ff1c0905fb94acd",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Prediction: ExxonMobil Raises Its Dividend More Than Wall Street Expects",
+    "url": "https://finance.yahoo.com/energy/articles/prediction-exxonmobil-raises-dividend-more-191600348.html",
+    "summary": "",
+    "published_at": "2026-08-23T19:16:00+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4cdcd69ef3374f272c1e53a6",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Japan Borrowing Costs Reach 1996 Highs: Will the Weak Yen Hurt Bitcoin?",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/japan-borrowing-costs-reach-1996-191403685.html",
+    "summary": "",
+    "published_at": "2026-08-23T19:14:03+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie",
+      "btc"
+    ],
+    "assets_effective": [
+      "asie",
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c4f57ebb093ee4e7ca22cd9d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "DIVO Was the Quality-Income Pick. Its International Twin Yields 5.6% and Beat It by 5 Points",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/divo-quality-income-pick-international-191152226.html",
+    "summary": "",
+    "published_at": "2026-08-23T19:11:52+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "4de34415ed0815d82e7f0d05",
     "source": "investing_com",
     "tier": 3,
@@ -232,6 +703,32 @@
     "summary": "",
     "published_at": "2026-08-23T18:32:14+00:00",
     "collected_at": "2026-08-23T19:20:42.102714+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cb1c02fb065e6bb13a1dc5ea",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Trump’s Bond Buyback Push Puts Kevin Warsh in a Tough Spot — Peter Schiff Says Treasury ‘Pulled the Rug Out From Under’",
+    "url": "https://finance.yahoo.com/economy/policy/articles/trump-bond-buyback-push-puts-183139508.html",
+    "summary": "",
+    "published_at": "2026-08-23T18:31:39+00:00",
+    "collected_at": "2026-08-23T20:19:25.207050+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
