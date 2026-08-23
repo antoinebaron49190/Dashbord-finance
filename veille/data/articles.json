@@ -1,5 +1,175 @@
 [
   {
+    "id": "b2cde97586f1cef312318bb1",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dow Jones Futures Fall With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
+    "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-crowdstrike-warsh/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-23T22:11:38+00:00",
+    "collected_at": "2026-08-23T22:18:57.650063+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "273e704a5d484f309a7ab27a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Tesla Maintained Its Majority of the U.S. EV Market in Q2, but That's Not All You Need to Know",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-maintained-majority-u-ev-215600710.html",
+    "summary": "",
+    "published_at": "2026-08-23T21:56:00+00:00",
+    "collected_at": "2026-08-23T22:18:57.650063+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e43455b23d5030a9978d1992",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Does Billionaire Bill Ackman Know Something Wall Street Doesn’t? He Invested in These 2 Stocks That Have Dropped 33% and 18% Over the Past Year",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/does-billionaire-bill-ackman-know-213501557.html",
+    "summary": "",
+    "published_at": "2026-08-23T21:35:01+00:00",
+    "collected_at": "2026-08-23T22:18:57.650063+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ee96600c5ed0e8c9a8ef0e37",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Liquor industry struggles grow with another Chapter 7 filing",
+    "url": "https://finance.yahoo.com/small-business/articles/liquor-industry-struggles-grow-another-213300135.html",
+    "summary": "",
+    "published_at": "2026-08-23T21:33:00+00:00",
+    "collected_at": "2026-08-23T22:18:57.650063+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "27b32981f11bb607c30d723e",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
+    "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4872476",
+    "summary": "",
+    "published_at": "2026-08-23T21:20:04+00:00",
+    "collected_at": "2026-08-23T22:18:57.650063+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c24059868b133c7c445f168a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Axsome Therapeutics Stock Is Up 16% Year to Date. Why Wall Street Thinks It Has Even More Room to Run",
+    "url": "https://finance.yahoo.com/healthcare/articles/axsome-therapeutics-stock-16-date-212000545.html",
+    "summary": "",
+    "published_at": "2026-08-23T21:20:00+00:00",
+    "collected_at": "2026-08-23T22:18:57.650063+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "44e3f7c6bdbda7b9c0030451",
     "source": "nikkei_asia",
     "tier": 3,
@@ -108,6 +278,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "47012d0c576b53b0b7906948",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Pemex and Petrobras Bet Big on High-Risk High-Reward Drilling Off Mexico",
+    "url": "https://finance.yahoo.com/energy/articles/pemex-petrobras-bet-big-high-210000211.html",
+    "summary": "",
+    "published_at": "2026-08-23T21:00:00+00:00",
+    "collected_at": "2026-08-23T22:18:57.650063+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "6958a035b726aef20bb1efa5",
     "source": "yahoo_finance",
     "tier": 3,
@@ -181,6 +377,34 @@
     "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "814d48139dbbdbec6d97f3b3",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "DeFi lending protocol Term Finance loses an estimated $8.5 million to governance exploit",
+    "url": "https://www.theblock.co/news/defi/2026-08-23-defi-lending-protocol-term-finance-loses-an-estimated-8-5-million-to-governance-exploit-412543",
+    "summary": "Term vault proposals face a seven-day delay and can be vetoed by liquidity providers, yet those controls apparently did not stop the exploit.",
+    "published_at": "2026-08-23T20:50:45+00:00",
+    "collected_at": "2026-08-23T22:18:57.650063+00:00",
+    "categories": {
+      "crypto_defavorable": 1.4142
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6796,
     "is_stress": false,
     "tone": 0.0,
     "scored_by": "lexique"
@@ -285,6 +509,32 @@
     "assets_effective": [
       "asie"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ae4b67f9210be3a696e7b7f8",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Says Stocks and the Economy Are Telling Two Very Different Stories: ‘Jarring Gulf’",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-stocks-economy-203116548.html",
+    "summary": "",
+    "published_at": "2026-08-23T20:31:16+00:00",
+    "collected_at": "2026-08-23T22:18:57.650063+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -2454,6 +2704,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "40e033772197dddfd1ea2d18",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why Investing in IPOs Has Become a High-Stakes Coin Flip",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-investing-ipos-become-high-160002837.html",
+    "summary": "",
+    "published_at": "2026-08-23T16:00:02+00:00",
+    "collected_at": "2026-08-23T22:18:57.650063+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b04d215c910703330a919177",
     "source": "yahoo_finance",
     "tier": 3,
@@ -2662,6 +2938,58 @@
     "summary": "",
     "published_at": "2026-08-23T15:33:00+00:00",
     "collected_at": "2026-08-23T16:21:52.043587+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "133362b182bb24416c08c69d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Walmart Fell 9%. I’m Not Sure This Is Just a Walmart Problem",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-fell-9-m-not-153057565.html",
+    "summary": "",
+    "published_at": "2026-08-23T15:30:57+00:00",
+    "collected_at": "2026-08-23T22:18:57.650063+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "29e8883ab23f8ad737388300",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SoundHound Is Making a Big AI Bet That Could Be a Margin Game Changer",
+    "url": "https://finance.yahoo.com/technology/ai/articles/soundhound-making-big-ai-bet-153002501.html",
+    "summary": "",
+    "published_at": "2026-08-23T15:30:02+00:00",
+    "collected_at": "2026-08-23T22:18:57.650063+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],

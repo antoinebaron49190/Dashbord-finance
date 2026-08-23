@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T21:19:38.044755+00:00",
+  "generated_at": "2026-08-23T22:19:20.173270+00:00",
   "regime": {
     "state": "favorable au risque",
     "favorable": 10,
@@ -12,21 +12,21 @@
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": true,
-      "value": "77 960 $",
-      "reference": "MM200 69 008 $"
+      "value": "77 692 $",
+      "reference": "MM200 69 007 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": true,
-      "value": "77 960 $",
-      "reference": "MM50 65 157 $"
+      "value": "77 692 $",
+      "reference": "MM50 65 152 $"
     },
     {
       "group": "Crypto",
       "label": "ETH au-dessus de sa MM200",
       "ok": true,
-      "value": "2 472 $",
+      "value": "2 463 $",
       "reference": "MM200 2 007 $"
     },
     {
@@ -68,8 +68,8 @@
       "group": "Actions et devises",
       "label": "Dollar sous sa MM50",
       "ok": true,
-      "value": "98.80",
-      "reference": "MM50 100.48"
+      "value": "98.85",
+      "reference": "MM50 100.46"
     },
     {
       "group": "Actions et devises",
@@ -88,21 +88,21 @@
   ],
   "crypto": {
     "btc": {
-      "price": 77960.3,
-      "ma50": 65157.38600000001,
-      "ma200": 69007.88249999998,
-      "drawdown_1y": 0.37515038091154274,
-      "volatility_30d": 0.43323674235433945,
+      "price": 77692.3,
+      "ma50": 65152.02600000001,
+      "ma200": 69006.54249999998,
+      "drawdown_1y": 0.37729839339886906,
+      "volatility_30d": 0.4329238775985921,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "eth": {
-      "price": 2472.36,
-      "ma50": 1920.7584,
-      "ma200": 2007.16415,
-      "drawdown_1y": 0.4826811293987672,
-      "volatility_30d": 0.6959492990500787,
+      "price": 2463.16,
+      "ma50": 1920.5744,
+      "ma200": 2007.11815,
+      "drawdown_1y": 0.4846061458241791,
+      "volatility_30d": 0.6953484405620344,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
@@ -205,9 +205,9 @@
     },
     "dxy": {
       "label": "Dollar (DXY)",
-      "price": 98.80000305175781,
-      "ma50": 100.48320037841796,
-      "ma200": 99.18385021209717,
+      "price": 98.84500122070312,
+      "ma50": 100.462900390625,
+      "ma200": 99.17697521209716,
       "above_ma50": false,
       "above_ma200": false,
       "trend": "baissiere"
@@ -227,11 +227,11 @@
       "fear_greed": 66,
       "assets": {
         "btc": {
-          "close": 77960.3,
+          "close": 77692.3,
           "trend": "haussiere"
         },
         "eth": {
-          "close": 2472.36,
+          "close": 2463.16,
           "trend": "haussiere"
         },
         "sp500": {
@@ -275,7 +275,7 @@
           "trend": "baissiere"
         },
         "dxy": {
-          "close": 98.8,
+          "close": 98.845,
           "trend": "baissiere"
         }
       }
