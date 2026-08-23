@@ -1,11 +1,11 @@
 {
   "2026-08-23": {
-    "articles_count": 45,
-    "signal_count": 7,
+    "articles_count": 70,
+    "signal_count": 8,
     "tone_cb": null,
-    "tone_global": -0.0857,
+    "tone_global": -0.1375,
     "regul_crypto": null,
-    "stress": 0.0222,
+    "stress": 0.0143,
     "top": [
       {
         "id": "0607638e418c58238d7320f1",
@@ -14,6 +14,14 @@
         "score": 0.3,
         "tone": -0.6,
         "url": "https://www.investing.com/news/earnings/sinopec-reports-19-profit-jump-in-h1-2026-despite-middle-east-crisis-4872438"
+      },
+      {
+        "id": "352bd4711c029ca165c58f7f",
+        "title": "Dow Jones Futures Due After Market Damage; Nvidia, Canada Tariffs In Focus",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-crowdstrike-warsh/?src=A00220&yptr=yahoo"
       },
       {
         "id": "87d239e9d7a5380e73a14b9f",
@@ -38,24 +46,16 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://www.investing.com/news/commodities-news/iran-says-new-sanctions-threatened-by-desperate-us-will-fail-4872444"
-      },
-      {
-        "id": "fefa36cab3a8a46d8b0961e1",
-        "title": "Iran warns neighbours against joining U.S. sanctions as Hormuz stays closed",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/iran-warns-neighbours-against-joining-us-sanctions-as-hormuz-stays-closed-4872428"
       }
     ]
   },
   "2026-08-22": {
-    "articles_count": 364,
+    "articles_count": 365,
     "signal_count": 37,
     "tone_cb": null,
     "tone_global": -0.166,
     "regul_crypto": 0.6,
-    "stress": 0.0219,
+    "stress": 0.0218,
     "top": [
       {
         "id": "b3785bb27dddf810b3c99186",
