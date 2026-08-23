@@ -1,11 +1,11 @@
 {
   "2026-08-23": {
-    "articles_count": 193,
-    "signal_count": 22,
+    "articles_count": 219,
+    "signal_count": 29,
     "tone_cb": null,
-    "tone_global": -0.0697,
+    "tone_global": -0.0094,
     "regul_crypto": null,
-    "stress": 0.0103,
+    "stress": 0.0091,
     "top": [
       {
         "id": "a6f7589e85d759e9bd9e4741",
@@ -14,6 +14,14 @@
         "score": 0.45,
         "tone": 0.0,
         "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-vs-marvell-technology-1-172600511.html"
+      },
+      {
+        "id": "d2dfd970b61f5b45e225721a",
+        "title": "Stock futures flat as U.S. and Canada appear headed for trade war",
+        "source": "marketwatch",
+        "score": 0.3,
+        "tone": -0.7388,
+        "url": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories"
       },
       {
         "id": "1bd29f24d16b4a91ba3520da",
@@ -38,14 +46,6 @@
         "score": 0.3,
         "tone": -0.6,
         "url": "https://www.investing.com/news/earnings/sinopec-reports-19-profit-jump-in-h1-2026-despite-middle-east-crisis-4872438"
-      },
-      {
-        "id": "b2cde97586f1cef312318bb1",
-        "title": "Dow Jones Futures Fall With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-crowdstrike-warsh/?src=A00220&yptr=yahoo"
       }
     ]
   },
