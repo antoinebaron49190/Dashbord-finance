@@ -1,12 +1,20 @@
 {
   "2026-08-23": {
-    "articles_count": 70,
-    "signal_count": 8,
+    "articles_count": 91,
+    "signal_count": 12,
     "tone_cb": null,
-    "tone_global": -0.1375,
+    "tone_global": -0.1833,
     "regul_crypto": null,
-    "stress": 0.0143,
+    "stress": 0.022,
     "top": [
+      {
+        "id": "e80d16681c7b25a1225df215",
+        "title": "One of Exxon's Biggest Oil Fields Is Running Out of Room to Grow. Here's Why That's Not a Crisis.",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://finance.yahoo.com/energy/articles/one-exxons-biggest-oil-fields-160500654.html"
+      },
       {
         "id": "0607638e418c58238d7320f1",
         "title": "Sinopec reports 19% profit jump in H1 2026 despite Middle East crisis",
@@ -14,6 +22,14 @@
         "score": 0.3,
         "tone": -0.6,
         "url": "https://www.investing.com/news/earnings/sinopec-reports-19-profit-jump-in-h1-2026-despite-middle-east-crisis-4872438"
+      },
+      {
+        "id": "b04d215c910703330a919177",
+        "title": "Dow Jones Futures Due After Market Damage; Nvidia, Canada Tariffs, Warsh In Focus",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-rally-nvidia-crowdstrike-warsh/?src=A00220&yptr=yahoo"
       },
       {
         "id": "352bd4711c029ca165c58f7f",
@@ -30,22 +46,6 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.investing.com/news/earnings/organon-earnings-up-next-can-drugmaker-rebound-after-q1-miss-93CH-4872453"
-      },
-      {
-        "id": "d757cfaa106307f5d6c44a61",
-        "title": "Hub Group earnings up next as freight recovery meets execution risk",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/earnings/hub-group-earnings-up-next-as-freight-recovery-meets-execution-risk-93CH-4872449"
-      },
-      {
-        "id": "1a6edb81e7b775262ba2de83",
-        "title": "Iran says new sanctions threatened by ’desperate’ US will fail",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/commodities-news/iran-says-new-sanctions-threatened-by-desperate-us-will-fail-4872444"
       }
     ]
   },
