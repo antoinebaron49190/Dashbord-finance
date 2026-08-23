@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T07:31:47.291947+00:00",
+  "generated_at": "2026-08-23T08:26:57.212323+00:00",
   "regime": {
     "state": "favorable au risque",
     "favorable": 10,
@@ -12,21 +12,21 @@
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": true,
-      "value": "76 166 $",
+      "value": "76 211 $",
       "reference": "MM200 68 999 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": true,
-      "value": "76 166 $",
-      "reference": "MM50 65 121 $"
+      "value": "76 211 $",
+      "reference": "MM50 65 122 $"
     },
     {
       "group": "Crypto",
       "label": "ETH au-dessus de sa MM200",
       "ok": true,
-      "value": "2 391 $",
+      "value": "2 406 $",
       "reference": "MM200 2 007 $"
     },
     {
@@ -88,21 +88,21 @@
   ],
   "crypto": {
     "btc": {
-      "price": 76165.8,
-      "ma50": 65121.496000000014,
-      "ma200": 68998.90999999997,
-      "drawdown_1y": 0.3895332481074647,
-      "volatility_30d": 0.4375885415695878,
+      "price": 76210.6,
+      "ma50": 65122.39200000002,
+      "ma200": 68999.13399999998,
+      "drawdown_1y": 0.3891741773633146,
+      "volatility_30d": 0.43729354621930205,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "eth": {
-      "price": 2391.1,
-      "ma50": 1919.1332,
-      "ma200": 2006.75785,
-      "drawdown_1y": 0.4996840462171335,
-      "volatility_30d": 0.6992312016685908,
+      "price": 2405.8,
+      "ma50": 1919.4272,
+      "ma200": 2006.8313500000002,
+      "drawdown_1y": 0.49660820475479056,
+      "volatility_30d": 0.6971724995931794,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
@@ -227,11 +227,11 @@
       "fear_greed": 66,
       "assets": {
         "btc": {
-          "close": 76165.8,
+          "close": 76210.6,
           "trend": "haussiere"
         },
         "eth": {
-          "close": 2391.1,
+          "close": 2405.8,
           "trend": "haussiere"
         },
         "sp500": {
