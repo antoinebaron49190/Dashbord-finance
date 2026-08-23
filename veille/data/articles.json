@@ -1,5 +1,90 @@
 [
   {
+    "id": "d876b3d083a9b93f37255121",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Preservation of Japan's A-bombed buildings faces cost challenge",
+    "url": "https://asia.nikkei.com/spotlight/society/preservation-of-japan-s-a-bombed-buildings-faces-cost-challenge",
+    "summary": "",
+    "published_at": "2026-08-23T05:27:16.493730+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "93880a89dcd06d1b99e784dc",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Alibaba proposes Hong Kong share placement worth $10 billion",
+    "url": "https://www.investing.com/news/stock-market-news/alibaba-proposes-hong-kong-share-placement-worth-10-billion-4872416",
+    "summary": "",
+    "published_at": "2026-08-23T05:18:30+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2bc0d7b98fda4dbdba6c4b2c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Robots can outrun humans, but can they plug in a cable?",
+    "url": "https://www.investing.com/news/stock-market-news/robots-can-outrun-humans-but-can-they-plug-in-a-cable-4872417",
+    "summary": "",
+    "published_at": "2026-08-23T05:06:31+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "d9c8896b6656d10431b2582d",
     "source": "nikkei_asia",
     "tier": 3,
@@ -7445,6 +7530,60 @@
     "scored_by": "lexique"
   },
   {
+    "id": "1d408b34feedb8f777dff183",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "La-Z-Boy (LZB) Fell 16% After Hours. Is Retail Growth Hiding a Wholesale Problem?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/la-z-boy-lzb-fell-225733519.html",
+    "summary": "",
+    "published_at": "2026-08-21T22:57:33+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bdfc181844e60f5c840952a4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Toll Brothers (TOL) Beat Estimates. Can Affluent Buyers Offset Falling Home Deliveries?",
+    "url": "https://finance.yahoo.com/real-estate/articles/toll-brothers-tol-beat-estimates-225100392.html",
+    "summary": "",
+    "published_at": "2026-08-21T22:51:00+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "2c71bf67e411e7b872db9bae",
     "source": "investing_com",
     "tier": 3,
@@ -7485,6 +7624,112 @@
     "summary": "",
     "published_at": "2026-08-21T22:46:06+00:00",
     "collected_at": "2026-08-21T23:20:46.202106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "97a6b87f20a9e7a0d472013c",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Keysight (KEYS) Raised Its Outlook. Is AI Testing Becoming a Durable Growth Engine?",
+    "url": "https://finance.yahoo.com/technology/ai/articles/keysight-keys-raised-outlook-ai-224547726.html",
+    "summary": "",
+    "published_at": "2026-08-21T22:45:47+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "52f114eefe3d523000f53a99",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Should you be worried about Walmart's latest U.S. sales? 1 analyst calls it a 'worst case scenario'",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/worried-walmarts-latest-u-sales-224500696.html",
+    "summary": "",
+    "published_at": "2026-08-21T22:45:00+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "399f3dd62d2927e4f535def2",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Klarna (KLAR) Posted a $9 Million Quarterly Profit. Why Did Its Stock Crash 23%?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/klarna-klar-posted-9-million-223925369.html",
+    "summary": "",
+    "published_at": "2026-08-21T22:39:25+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "012fde51d0c06f7ca0f9fc82",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Amer Sports (AS) Revenue Grew 32% Last Quarter. Can Arc’teryx and Salomon Sustain the Pace?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/amer-sports-revenue-grew-32-223708007.html",
+    "summary": "",
+    "published_at": "2026-08-21T22:37:08+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -7821,6 +8066,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "79ff8329d064884feaa23ff9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why Ross Stores Stock Is Up Today",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-ross-stores-stock-today-215752415.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:57:52+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "77a5e92f9093d9f471b8f152",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The WSJ Dollar Index Falls 0.74% This Week to 95.33",
+    "url": "https://www.wsj.com/finance/currencies/thai-baht-likely-to-stay-weak-in-near-term-d8814445?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-21T21:57:00+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "3f3b4b8516ac55796bdbd082",
     "source": "yahoo_finance",
     "tier": 3,
@@ -7846,6 +8143,36 @@
     "crypto_tone": 0.0,
     "is_stress": true,
     "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "de7eb6c8d3788d1e10ddb86d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "VTV’s 0.03% Fee Hides the Real Cost: $250,000 Trails the S&P 500 by $229,000 Over a Decade",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/vtv-0-03-fee-hides-215501769.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:55:01+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
@@ -7875,6 +8202,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "ec33b07b09cda53488403fc7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Warren Buffett Successor Greg Abel Cut Berkshire's Bank of America Stake by $1.7 Billion. He Added $1.6 Billion of Delta Air Lines.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-successor-greg-abel-215301919.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:53:01+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "4095ea99f256ab30d5def7c6",
     "source": "investing_com",
     "tier": 3,
@@ -7889,6 +8242,32 @@
     "summary": "",
     "published_at": "2026-08-21T21:52:54+00:00",
     "collected_at": "2026-08-21T22:22:03.857706+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6f11314c8826190b467e250b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The Wild Swings of Earnings Season Continue",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wild-swings-earnings-season-continue-215034811.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:50:34+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -7955,6 +8334,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "9689ea40f78ed725fdff6639",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "How a 72-Year-Old’s $400,000 in QYLD Now Pays $3,901 a Month, Down From a Steadily Shrinking Peak",
+    "url": "https://finance.yahoo.com/markets/options/articles/72-old-400-000-qyld-214554919.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:45:54+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "2923a01ba0c8b46ba13921b7",
     "source": "investing_com",
     "tier": 3,
@@ -7969,6 +8374,32 @@
     "summary": "",
     "published_at": "2026-08-21T21:43:35+00:00",
     "collected_at": "2026-08-21T22:22:03.857706+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1525225c6fc91bcd6fc65443",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Motorsport Games (MSGM) Q2 2026 Earnings Call Transcript",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/motorsport-games-msgm-q2-2026-214313701.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:43:13+00:00",
+    "collected_at": "2026-08-23T05:27:16.493730+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
