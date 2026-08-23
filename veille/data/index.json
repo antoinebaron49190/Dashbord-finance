@@ -1,12 +1,36 @@
 {
   "2026-08-23": {
-    "articles_count": 3,
-    "signal_count": 0,
+    "articles_count": 7,
+    "signal_count": 2,
     "tone_cb": null,
-    "tone_global": null,
+    "tone_global": 0.0,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "d9c8896b6656d10431b2582d",
+        "title": "India's 'cockroach' movement exposes cracks in Modi's political machine",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/spotlight/comment/india-s-cockroach-movement-exposes-cracks-in-modi-s-political-machine"
+      },
+      {
+        "id": "7f3eb93f265da3b19eb9bace",
+        "title": "Manila airport aims to shed 'world's worst' label with upgrades",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/transportation/manila-airport-aims-to-shed-world-s-worst-label-with-upgrades"
+      },
+      {
+        "id": "6f18c31c735f212eb3fcd4af",
+        "title": "XRP Falls 11% In Bearish Trade",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/cryptocurrency-news/xrp-falls-11-in-bearish-trade-4872415"
+      },
       {
         "id": "f7ae895d5a018ec4821280bd",
         "title": "Taiwan's security council quietly steps up as architect of China strategy",
@@ -16,20 +40,12 @@
         "url": "https://asia.nikkei.com/politics/international-relations/taiwan-tensions/taiwan-s-security-council-quietly-steps-up-as-architect-of-china-strategy"
       },
       {
-        "id": "8635924a2b9724ae36ad4d07",
-        "title": "Less sea urchin, more tuna: Change comes for Japan's seafood bowls",
-        "source": "nikkei_asia",
+        "id": "9781dd47fb5a28fd02c23080",
+        "title": "Cardano Falls 10% In Bearish Trade",
+        "source": "investing_com",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/food-beverage/less-sea-urchin-more-tuna-change-comes-for-japan-s-seafood-bowls"
-      },
-      {
-        "id": "4a7d0ab71a2892570369cf6e",
-        "title": "Footloose in Baku: East meets West in Azerbaijan's capital",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/life-arts/life/destinations/footloose-in-baku-east-meets-west-in-azerbaijan-s-capital"
+        "url": "https://www.investing.com/news/cryptocurrency-news/cardano-falls-10-in-bearish-trade-4872414"
       }
     ]
   },
@@ -84,12 +100,12 @@
     ]
   },
   "2026-08-21": {
-    "articles_count": 597,
-    "signal_count": 82,
+    "articles_count": 615,
+    "signal_count": 87,
     "tone_cb": null,
-    "tone_global": 0.218,
+    "tone_global": 0.2174,
     "regul_crypto": 0.3909,
-    "stress": 0.0033,
+    "stress": 0.0048,
     "top": [
       {
         "id": "946669543dc4bddcd633c518",
@@ -116,20 +132,20 @@
         "url": "https://www.investing.com/news/stock-market-news/india-regulator-approves-731-million-lpg-pipeline-expansion-93CH-4871884"
       },
       {
+        "id": "8753c519cfacf58e2dd0753a",
+        "title": "H World (HTHT) Approved a $2.5 Billion Return Plan. Is Growth Being Sacrificed?",
+        "source": "yahoo_finance",
+        "score": 0.45,
+        "tone": 0.5,
+        "url": "https://finance.yahoo.com/markets/stocks/articles/h-world-htht-approved-2-213802135.html"
+      },
+      {
         "id": "90f024295d2447184b484847",
         "title": "Greenland approves rare earths license transfer to Greenland Mines",
         "source": "investing_com",
         "score": 0.45,
         "tone": 0.0,
         "url": "https://www.investing.com/news/company-news/greenland-approves-rare-earths-license-transfer-to-greenland-mines-93CH-4872019"
-      },
-      {
-        "id": "a6aeaac6b431bbe85fd170aa",
-        "title": "Bitcoin and ethereum prices today, Friday, August 21, 2026: Cryptos continue rally sparked by Treasury repurchase announcement",
-        "source": "yahoo_finance",
-        "score": 0.45,
-        "tone": 0.0,
-        "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-21-2026-cryptos-continue-rally-sparked-by-treasury-repurchase-announcement-161633891.html"
       }
     ]
   },

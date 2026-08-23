@@ -1,5 +1,87 @@
 [
   {
+    "id": "d9c8896b6656d10431b2582d",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "India's 'cockroach' movement exposes cracks in Modi's political machine",
+    "url": "https://asia.nikkei.com/spotlight/comment/india-s-cockroach-movement-exposes-cracks-in-modi-s-political-machine",
+    "summary": "",
+    "published_at": "2026-08-23T04:38:04.684634+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7f3eb93f265da3b19eb9bace",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Manila airport aims to shed 'world's worst' label with upgrades",
+    "url": "https://asia.nikkei.com/business/transportation/manila-airport-aims-to-shed-world-s-worst-label-with-upgrades",
+    "summary": "",
+    "published_at": "2026-08-23T04:38:04.684634+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6f18c31c735f212eb3fcd4af",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "XRP Falls 11% In Bearish Trade",
+    "url": "https://www.investing.com/news/cryptocurrency-news/xrp-falls-11-in-bearish-trade-4872415",
+    "summary": "",
+    "published_at": "2026-08-23T04:01:01+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "f7ae895d5a018ec4821280bd",
     "source": "nikkei_asia",
     "tier": 3,
@@ -24,6 +106,34 @@
     "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9781dd47fb5a28fd02c23080",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Cardano Falls 10% In Bearish Trade",
+    "url": "https://www.investing.com/news/cryptocurrency-news/cardano-falls-10-in-bearish-trade-4872414",
+    "summary": "",
+    "published_at": "2026-08-23T03:40:55+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
     "is_stress": false,
     "tone": 0.0,
     "scored_by": "lexique"
@@ -7555,6 +7665,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "ed4818c9707e6992e479a8f3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "ARS Pharma (SPRY) Cuts Spending As It Chases Neffy Market Share",
+    "url": "https://finance.yahoo.com/healthcare/articles/ars-pharma-spry-cuts-spending-220832511.html",
+    "summary": "",
+    "published_at": "2026-08-21T22:08:32+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1f3a65e5b440ee3bff16dae8",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Brookfield (BN) Pivots Toward AI and Nuclear Power in Record-Breaking Quarter",
+    "url": "https://finance.yahoo.com/technology/ai/articles/brookfield-bn-pivots-toward-ai-220206558.html",
+    "summary": "",
+    "published_at": "2026-08-21T22:02:06+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "9078aa31d1cfe8cbbff0dca1",
     "source": "investing_com",
     "tier": 3,
@@ -7633,6 +7795,86 @@
     "scored_by": "lexique"
   },
   {
+    "id": "3e96dff8611e341e8661d4a6",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Amylyx (AMLX) Faces a Binary Phase 3 Test. Can Avexitide Rebuild the Company?",
+    "url": "https://finance.yahoo.com/healthcare/articles/amylyx-amlx-faces-binary-phase-215808575.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:58:08+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3f3b4b8516ac55796bdbd082",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "BitFuFu (FUFU) Increased Hashrate Allocated to Self-Mining 47%. Why Did Revenue Collapse 63%?",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bitfufu-fufu-increased-hashrate-allocated-215607748.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:56:07+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "624f85a14cdeacc5919714c4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Tapestry (TPR) Delivers On Its Boldest Promise Early",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/tapestry-tpr-delivers-boldest-promise-215429793.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:54:29+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "4095ea99f256ab30d5def7c6",
     "source": "investing_com",
     "tier": 3,
@@ -7656,6 +7898,34 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cf08b8cb0c2864d32a41f139",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Ascendis Pharma (ASND): Three New Drugs Are Turning This Biotech Into A Growth Machine",
+    "url": "https://finance.yahoo.com/healthcare/articles/ascendis-pharma-asnd-three-drugs-214640196.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:46:40+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
     "scored_by": "lexique"
   },
   {
@@ -7699,6 +7969,84 @@
     "summary": "",
     "published_at": "2026-08-21T21:43:35+00:00",
     "collected_at": "2026-08-21T22:22:03.857706+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "867f091f9c1798f1ad0a4db7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Cotton Closes Steady on Friday",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/cotton-closes-steady-friday-214232301.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:42:32+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "54d794b9b5cb9a5f740d36c7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Corn Rallies into Friday’s Close Following Week of Weaker Tour Yields",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/corn-rallies-friday-close-following-214232375.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:42:32+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fdfccbf06169bbb92fde703f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Soybeans Firm Higher Late on Friday",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-firm-higher-friday-214232038.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:42:32+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -7792,6 +8140,62 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8753c519cfacf58e2dd0753a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "H World (HTHT) Approved a $2.5 Billion Return Plan. Is Growth Being Sacrificed?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/h-world-htht-approved-2-213802135.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:38:02+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f1fdc26bfca219356b595e6e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "High Growth, High Cash Burn: Decoding the Split Narrative on Ondas (ONDS)",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/high-growth-high-cash-burn-213535172.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:35:35+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
     "scored_by": "lexique"
   },
   {
@@ -7894,6 +8298,34 @@
     "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a0d51750b1b8762f1055d3e9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Stock Market Today, Aug. 21: Tesla Gains on Nevada Robotaxi Permit Approval",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-aug-21-212200649.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:22:00+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
     "is_stress": false,
     "tone": 0.0,
     "scored_by": "lexique"
@@ -8010,6 +8442,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "53775672f7b2577f1ec34d2f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "You Do Not Need $1 Million to Retire: These 3 ETFs Pay About $49,000 a Year on $600,000",
+    "url": "https://finance.yahoo.com/markets/options/articles/not-1-million-retire-3-211513656.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:15:13+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ad90fecf9386fe8710589852",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Reading (RDI) Q2 2026 Earnings Call Transcript",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/reading-rdi-q2-2026-earnings-211308460.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:13:08+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "99ac42cf5caf51304adae04f",
     "source": "yahoo_finance",
     "tier": 3,
@@ -8062,6 +8546,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "3133d332935ea5d041b0bcc5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Get Paid 16% A Year To Hold INTU Stock You Already Own",
+    "url": "https://finance.yahoo.com/markets/options/articles/paid-16-hold-intu-stock-211153929.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:11:53+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e01dccc312391a752eeb41f6",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Fannie Mae Stock Dips on Report of High-Ranking Departures at Mortgage Giant",
+    "url": "https://www.barrons.com/articles/fannie-mae-stock-mortgages-departures-99f3fe9e?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-21T21:08:00+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b23b98e99ebf293e61e942d7",
     "source": "yahoo_finance",
     "tier": 3,
@@ -8076,6 +8612,58 @@
     "summary": "",
     "published_at": "2026-08-21T21:07:30+00:00",
     "collected_at": "2026-08-23T03:56:43.296300+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "af629c5f4e0fe26e2daa81c7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "ConocoPhillips Snaps Five-Day Winning Streak",
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-21-2026/card/conocophillips-fuels-up-for-record-closing-high-vnVD8ve4G2fvqhcGKZC7?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-21T21:06:57+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4884db4c9fb0c5b115aaf44d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "What Separates DE Stock From Its Peers Right Now",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/separates-stock-peers-now-210636783.html",
+    "summary": "",
+    "published_at": "2026-08-21T21:06:36+00:00",
+    "collected_at": "2026-08-23T04:38:04.684634+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
