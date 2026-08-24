@@ -1,5 +1,359 @@
 [
   {
+    "id": "8376ae3f05ac41520493ad0f",
+    "source": "cnbc_economy",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "statistiques",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Singapore inflation hits highest in nearly two years, but undershoots expectations",
+    "url": "https://www.cnbc.com/2026/08/24/singapore-inflation-budget-iran-war.html",
+    "summary": "Consumer prices rose 2.2% last month, compared with the 2.3% expected by economists polled by Reuters",
+    "published_at": "2026-08-24T05:24:43+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e487874c7d8d69ac11d1c7e0",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dollar trading near multi-month lows, restrained by debt nerves",
+    "url": "https://www.investing.com/news/economy-news/dollar-trading-near-multimonth-lows-restrained-by-debt-nerves-4872572",
+    "summary": "",
+    "published_at": "2026-08-24T05:18:41+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3990c213287a2abc0282deb6",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Hanmi Pharm shares jump 30% on Genentech obesity drug deal",
+    "url": "https://www.investing.com/news/stock-market-news/hanmi-pharm-shares-jump-30-on-genentech-obesity-drug-deal-93CH-4872635",
+    "summary": "",
+    "published_at": "2026-08-24T05:16:46+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d3c0ae4e67e6aaeea5b8df6a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: GDI posts strong FY 2025 growth as Perth market tightens",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-gdi-posts-strong-fy-2025-growth-as-perth-market-tightens-93CH-4872634",
+    "summary": "",
+    "published_at": "2026-08-24T05:16:22+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "957d22b34618cf48f5823ea4",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Up +28% ahead of Q2 earnings, this software giant still has 49%+ upside",
+    "url": "https://www.investing.com/news/stock-market-news/up-28-mtd-ahead-of-q2-earnings-this-software-giant-still-has-49-upside-4872500",
+    "summary": "",
+    "published_at": "2026-08-24T05:13:47+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bc67a4470089a3a5e9bb9421",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Ray Dalio says investors should own ‘a bit of Bitcoin’ as U.S. debt risks rise",
+    "url": "https://www.coindesk.com/markets/2026/08/24/ray-dalio-says-investors-should-own-a-bit-of-bitcoin-as-u-s-debt-risks-rise",
+    "summary": "",
+    "published_at": "2026-08-24T05:13:19+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f91e862d5b46849d53b87f02",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bessent's $4 billion bond buyback wanted lower yields. It got a bitcoin surge instead.",
+    "url": "https://www.coindesk.com/markets/2026/08/24/bessent-s-usd4-billion-bond-buyback-wanted-lower-yields-it-got-a-bitcoin-surge-instead",
+    "summary": "",
+    "published_at": "2026-08-24T05:12:56+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3c0c126217612a9cd9251755",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Norway will drill in Arctic regardless of EU’s position, says energy minister",
+    "url": "https://www.investing.com/news/stock-market-news/norway-will-drill-in-arctic-regardless-of-eus-position-says-energy-minister-4872633",
+    "summary": "",
+    "published_at": "2026-08-24T05:12:52+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e64cd1324c0dcdbb886cb114",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is Xiaomi stock sliding today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-xiaomi-stock-sliding-today-93CH-4872631",
+    "summary": "",
+    "published_at": "2026-08-24T05:08:42+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f2df94d0cae60777282fd7cc",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "UAW members reject Deere contract extension offer",
+    "url": "https://www.investing.com/news/stock-market-news/uaw-members-reject-deere-contract-extension-offer-93CH-4872630",
+    "summary": "",
+    "published_at": "2026-08-24T05:08:00+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "14423606d5b79bf47b464582",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Singapore core inflation at 2.0% year-on-year in July, lower than expected",
+    "url": "https://www.investing.com/news/economy-news/singapore-core-inflation-at-20-yearonyear-in-july-lower-than-expected-4872629",
+    "summary": "",
+    "published_at": "2026-08-24T05:06:29+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "efd52263788816bc6dd44d6d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SK Hynix tests SuperTrend resistance at KRW 1,701,000: Live",
+    "url": "https://www.investing.com/news/stock-market-news/sk-hynix-stalls-below-200ma-in-bull-trap-test-live-levels-93CH-4872532",
+    "summary": "",
+    "published_at": "2026-08-24T05:06:02+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "45f50d7f177d618af70ada20",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Stablecoin neobank Fasset lands $1 billion valuation as SBI backs its payments push",
+    "url": "https://www.coindesk.com/business/2026/08/22/stablecoin-neobank-fasset-lands-usd1-billion-valuation-as-sbi-backs-its-payments-push",
+    "summary": "",
+    "published_at": "2026-08-24T04:45:00+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "6f35290ec65ad39104d13803",
     "source": "nikkei_asia",
     "tier": 3,
@@ -43,6 +397,38 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d42f6161a5929169f26ffdd4",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Crypto holds big weekly rally as Warsh’s Jackson Hole debut comes into focus",
+    "url": "https://www.coindesk.com/markets/2026/08/24/crypto-holds-big-weekly-rally-as-warsh-s-jackson-hole-debut-comes-into-focus",
+    "summary": "",
+    "published_at": "2026-08-24T04:41:28+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -227,6 +613,36 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "27873f0c74be94def45358c0",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin records largest weekly dollar gain in history; Strive CEO predicts ‘strongest’ cycle ever",
+    "url": "https://www.theblock.co/news/markets/2026-08-23-bitcoin-record-weekly-dollar-gain-412547",
+    "summary": "Strive CEO said the next bitcoin cycle will be the strongest ever, citing its strong performance against both the dollar and gold.",
+    "published_at": "2026-08-24T03:52:31+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -6847,6 +7263,234 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "84eb1d15ede4b3d7acd4e81b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Wasn’t Happy About Chevron Corporation (NYSE:CVX) Price Target Cut",
+    "url": "https://finance.yahoo.com/energy/articles/jim-cramer-wasn-t-happy-002542783.html",
+    "summary": "",
+    "published_at": "2026-08-23T00:25:42+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8b5e47b179e1883bf311baed",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Wants You To Look At The Bigger Picture For Apple Inc. (NASDAQ:AAPL)",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-wants-look-bigger-002325692.html",
+    "summary": "",
+    "published_at": "2026-08-23T00:23:25+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4899d34962cb5840d587d579",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Said NVIDIA Corp. (NASDAQ:NVDA) Doesn’t Need Anyone But Elon Musk",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-nvidia-corp-002234481.html",
+    "summary": "",
+    "published_at": "2026-08-23T00:22:34+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "52d5a7429b6bb2189d68c9c9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Shared Insights Into Space Exploration Technologies Corp. (NASDAQ:SPCX) Short Selling",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-shared-insights-space-002141262.html",
+    "summary": "",
+    "published_at": "2026-08-23T00:21:41+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ef4b6137ab01fca644e417e5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Argued It’s A New World For Palo Alto Networks & CrowdStrike Holdings",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-argued-world-palo-001602176.html",
+    "summary": "",
+    "published_at": "2026-08-23T00:16:02+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "94d6b3fd8caa3ef2f02587d6",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Dismissed Market Reaction To Cisco Systems, Inc. (NASDAQ:CSCO) Following Earnings",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-dismissed-market-reaction-001240299.html",
+    "summary": "",
+    "published_at": "2026-08-23T00:12:40+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8d16984117e8ff4175651b3e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Doesn’t Think Home Depot Is Expensive Enough To Be Avoided",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-doesn-t-think-000711550.html",
+    "summary": "",
+    "published_at": "2026-08-23T00:07:11+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c667577a7ddab84a032ec6d1",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Advised Being Patient & Buying Walmart Inc. (NASDAQ:WMT)’s Shares",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-advised-being-patient-000533730.html",
+    "summary": "",
+    "published_at": "2026-08-23T00:05:33+00:00",
+    "collected_at": "2026-08-24T05:36:17.877379+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
