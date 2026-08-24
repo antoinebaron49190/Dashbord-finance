@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-08-24T08:49:37.885738+00:00",
-  "pending": [],
+  "updated_at": "2026-08-24T13:50:08.592155+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:nasdaq:haussiere->indecise:2026-08-24",
+      "title": "Nasdaq : tendance sans direction nette",
+      "body": "Nasdaq passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-08-24.",
+      "kind": "tendance",
+      "detected_at": "2026-08-24T13:50:08.592083+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -34,7 +42,8 @@
     "trend:cac40:indecise->haussiere:2026-08-22",
     "trend:hangseng:indecise->haussiere:2026-08-22",
     "trend:hangseng:haussiere->indecise:2026-08-24",
-    "trend:cac40:haussiere->indecise:2026-08-24"
+    "trend:cac40:haussiere->indecise:2026-08-24",
+    "trend:nasdaq:haussiere->indecise:2026-08-24"
   ],
   "extremes_active": []
 }
