@@ -1,12 +1,20 @@
 {
   "2026-08-24": {
-    "articles_count": 75,
+    "articles_count": 93,
     "signal_count": 16,
     "tone_cb": null,
     "tone_global": -0.005,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "5efe8a09f81603288708f584",
+        "title": "Japanese Government Bonds Held by the Bank of Japan",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260820.xlsx"
+      },
       {
         "id": "02cecf491082419c2442dfdd",
         "title": "Piero Cipollone: Interview with ilsussidiario.net",
@@ -38,24 +46,16 @@
         "score": 0.45,
         "tone": -0.5,
         "url": "https://www.investing.com/news/commodities-news/oil-falls-1-ahead-of-us-announcement-to-impose-further-sanctions-on-iran-4872489"
-      },
-      {
-        "id": "c1c03cb9c4a72fc0f2de22d3",
-        "title": "Alibaba to raise $10 bln via share placement to fund AI expansion; shares plunge",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://www.investing.com/news/stock-market-news/alibaba-to-raise-10-bln-via-share-placement-to-fund-ai-expansion-4872557"
       }
     ]
   },
   "2026-08-23": {
-    "articles_count": 236,
-    "signal_count": 30,
+    "articles_count": 238,
+    "signal_count": 31,
     "tone_cb": null,
-    "tone_global": 0.0076,
+    "tone_global": 0.0235,
     "regul_crypto": null,
-    "stress": 0.0084,
+    "stress": 0.0083,
     "top": [
       {
         "id": "00b4fa8f13f35aec68e5b997",
