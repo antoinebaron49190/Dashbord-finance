@@ -1,4 +1,54 @@
 {
+  "2026-08-24": {
+    "articles_count": 12,
+    "signal_count": 2,
+    "tone_cb": null,
+    "tone_global": -0.5,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "a51ca20fe577c888fa1bb39a",
+        "title": "Bank of Japan Accounts (August 20)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260820.htm"
+      },
+      {
+        "id": "8d9dd39cf528aba1cdba17c2",
+        "title": "Oil falls ahead of US announcement on new Iran sanctions",
+        "source": "investing_com",
+        "score": 0.45,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/commodities-news/oil-falls-1-ahead-of-us-announcement-to-impose-further-sanctions-on-iran-4872489"
+      },
+      {
+        "id": "b51439158e0ca8bbdd79a6bc",
+        "title": "Shares flat in Asia before Iran sanctions news, Nvidia results",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/shares-flat-in-asia-before-iran-sanctions-news-nvidia-results-4872527"
+      },
+      {
+        "id": "3d72ffb4485275f487b04fa4",
+        "title": "Shein launches IPO at valuation of up to $27bn, far below past figure",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/markets/ipo/shein-launches-ipo-at-valuation-of-up-to-27bn-far-below-past-figure"
+      },
+      {
+        "id": "4a33406f3ae4aa8148e97a47",
+        "title": "Blackout tests Central Asia push for deeper power grid, data centers",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/energy/blackout-tests-central-asia-push-for-deeper-power-grid-data-centers"
+      }
+    ]
+  },
   "2026-08-23": {
     "articles_count": 219,
     "signal_count": 29,
@@ -50,12 +100,12 @@
     ]
   },
   "2026-08-22": {
-    "articles_count": 366,
-    "signal_count": 37,
+    "articles_count": 375,
+    "signal_count": 38,
     "tone_cb": null,
-    "tone_global": -0.166,
+    "tone_global": -0.1487,
     "regul_crypto": 0.6,
-    "stress": 0.0217,
+    "stress": 0.0212,
     "top": [
       {
         "id": "b3785bb27dddf810b3c99186",
