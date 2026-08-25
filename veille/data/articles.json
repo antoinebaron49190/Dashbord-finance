@@ -1,5 +1,333 @@
 [
   {
+    "id": "ac82e5c3f2d28708ea859a67",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin takes a beat after debasement trade sparks best week in over three years",
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rallies-past-80k-as-debasement-trade-dents-dollar-4874510",
+    "summary": "",
+    "published_at": "2026-08-25T22:11:50+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4415627d9528b4d41da00c20",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Box tops revenue in Q2 2026, lifts full-year outlook",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-box-tops-revenue-in-q2-2026-lifts-fullyear-outlook-93CH-4876011",
+    "summary": "",
+    "published_at": "2026-08-25T22:10:56+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d847a506545d43885cc365f5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "nCino Q2 FY27 slides reveal subscription reacceleration, margin gains",
+    "url": "https://www.investing.com/news/company-news/ncino-q2-fy27-slides-reveal-subscription-reacceleration-margin-gains-93CH-4876010",
+    "summary": "",
+    "published_at": "2026-08-25T22:10:45+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "383cde3cfdf3495b5b11321d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "BOJ to speed up its tightening campaign, raise key rate to 1.25% in September: Reuters poll",
+    "url": "https://www.investing.com/news/economy-news/boj-to-speed-up-its-tightening-campaign-raise-key-rate-to-125-in-september-reuters-poll-4876009",
+    "summary": "",
+    "published_at": "2026-08-25T22:06:49+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "69c877a5c99e9650daf40723",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "electroCore CFO Joshua Lev sells $200,120 in company stock",
+    "url": "https://www.investing.com/news/insider-trading-news/electrocore-cfo-joshua-lev-sells-200120-in-company-stock-93CH-4876008",
+    "summary": "",
+    "published_at": "2026-08-25T22:01:20+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "020876e1299149cf0ba83ab9",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "US appeals court blocks FCC plan to expand discounted political advertising rates",
+    "url": "https://www.investing.com/news/stock-market-news/fcc-expands-discounted-tv-advertising-rates-to-party-committees-4875919",
+    "summary": "",
+    "published_at": "2026-08-25T22:00:53+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fdc10741f34f7d1beb8728ff",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SpaceX to build $100 billion Starship rocket complex in Louisiana",
+    "url": "https://www.investing.com/news/stock-market-news/spacex-to-build-starship-spaceport-in-louisiana-4875762",
+    "summary": "",
+    "published_at": "2026-08-25T22:00:34+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8a9f305612ca878930d40a62",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: nCino Q2 2026 profit miss sends shares lower",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-ncino-q2-2026-profit-miss-sends-shares-lower-93CH-4876007",
+    "summary": "",
+    "published_at": "2026-08-25T22:00:27+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6a8fc100e33d919ad2a0e0c2",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Semtech Q2’27 slides: data center, LoRa drive record revenue",
+    "url": "https://www.investing.com/news/company-news/semtech-q227-slides-data-center-lora-drive-record-revenue-93CH-4876006",
+    "summary": "",
+    "published_at": "2026-08-25T22:00:11+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "def64c538979d1ba8e26c578",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Semtech Q2’27 slides: data center hits record, shares jump 9%",
+    "url": "https://www.investing.com/news/company-news/semtech-q227-slides-data-center-hits-record-shares-jump-9-93CH-4876005",
+    "summary": "",
+    "published_at": "2026-08-25T21:57:32+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a192db285d9b0f039213bfaa",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "U.S. state banking associations plan to launch their own nationwide blockchain network",
+    "url": "https://www.coindesk.com/policy/2026/08/25/u-s-state-banking-associations-plan-to-launch-their-own-nationwide-blockchain-network",
+    "summary": "",
+    "published_at": "2026-08-25T21:56:57+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e47d4394ba020fca22ca3333",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Zerohash back for second effort at OCC trust bank charter",
+    "url": "https://www.coindesk.com/policy/2026/08/25/zerohash-back-for-second-effort-at-occ-trust-bank-charter",
+    "summary": "",
+    "published_at": "2026-08-25T21:38:28+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "50c122b6682ec42b31dbcb2c",
     "source": "nikkei_asia",
     "tier": 3,
@@ -20659,6 +20987,62 @@
     "scored_by": "lexique"
   },
   {
+    "id": "f921fcd949389154a78fcd9b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Ares Management Stock: Analyst Estimates & Ratings",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/ares-management-stock-analyst-estimates-143325128.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:33:25+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3e356a820e11ce43747b0555",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Are Wall Street Analysts Predicting Westinghouse Air Brake Technologies Stock Will Climb or Sink?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-predicting-westinghouse-143319962.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:33:19+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "15761739e0b8f76b8da7cefa",
     "source": "investing_com",
     "tier": 3,
@@ -20701,6 +21085,32 @@
     "summary": "",
     "published_at": "2026-08-24T14:32:54+00:00",
     "collected_at": "2026-08-24T14:39:16.351160+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e98c2b115459a40ba1d6f178",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dollar Gains on Weak Stocks",
+    "url": "https://finance.yahoo.com/markets/currencies/articles/dollar-gains-weak-stocks-143245773.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:32:45+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -20847,6 +21257,39 @@
     "scored_by": "lexique"
   },
   {
+    "id": "b9113d2f1aee2c7c12a6f85a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Revvity Stock: Is Wall Street Bullish or Bearish?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/revvity-stock-wall-street-bullish-143003277.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:30:03+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {
+      "crypto_favorable": 1.0,
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "18c7a79c483a920406f7995d",
     "source": "investing_com",
     "tier": 3,
@@ -20927,6 +21370,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "8b3a4fee44c4fc13a8e2f385",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Do Wall Street Analysts Like Charter Communications Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-charter-communications-142226667.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:22:26+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "28edb53771e5e8a8cd500eed",
     "source": "yahoo_finance",
     "tier": 3,
@@ -20941,6 +21414,62 @@
     "summary": "",
     "published_at": "2026-08-24T14:20:00+00:00",
     "collected_at": "2026-08-24T14:39:16.351160+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b22e871dcad82924eedd3757",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "What Are Wall Street Analysts' Target Price for Synopsys Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-141714731.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:17:14+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3835bf862b2086952d3872f5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Shein Owes Investors the Same Amount it Hopes to Raise in the IPO",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/shein-owes-investors-same-amount-141643034.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:16:43+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -21035,6 +21564,116 @@
     "scored_by": "lexique"
   },
   {
+    "id": "73d96434c3f535c24a5f0144",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "American Fusion Reaches 100 Pending Patent Applications for Texatron Fusion Platform",
+    "url": "https://finance.yahoo.com/energy/articles/american-fusion-reaches-100-pending-141237821.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:12:37+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f1eda2c51f90242e3f2f518d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "BioNTech Moved Higher as the Broader Biotech Sector Hit a Post-Pandemic Peak, but BNTX Stock Needs Stronger Fundamentals to Keep Climbing",
+    "url": "https://finance.yahoo.com/healthcare/articles/biontech-moved-higher-broader-biotech-141115749.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:11:15+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "99ba8f9fbb3cc3256b514f5b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Week ahead: Nvidia, inflation and Jackson Hole set the tone for Wall Street",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/week-ahead-nvidia-inflation-jackson-141100649.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:11:00+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "664de79625772c03497e1a2b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Steel Stocks Jump as U.S.-Canada Tariff Fight Escalates",
+    "url": "https://www.barrons.com/articles/steel-stocks-canada-trump-tariffs-cfa640fa?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-24T14:10:00+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
     "id": "86c956c5e869423452b40679",
     "source": "yahoo_finance",
     "tier": 3,
@@ -21084,6 +21723,34 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "39f887fb4a34f421d93b96bd",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "American EcoFuels Launches Phase 2 Patent Expansion for GTL and CTL Technologies",
+    "url": "https://finance.yahoo.com/energy/articles/american-ecofuels-launches-phase-2-140900958.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:09:00+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {
+      "croissance": 2.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6667,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.6667,
     "scored_by": "lexique"
   },
   {
@@ -21165,6 +21832,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "4df34c3058a190e9630271ff",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Kentucky approves 482 MW power agreement for TeraWulf’s Justified campus",
+    "url": "https://finance.yahoo.com/energy/articles/kentucky-approves-482-mw-power-140701149.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:07:01+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "61e3405fb1364e2caa19505d",
     "source": "yahoo_finance",
     "tier": 3,
@@ -21179,6 +21872,32 @@
     "summary": "",
     "published_at": "2026-08-24T14:07:00+00:00",
     "collected_at": "2026-08-24T14:39:16.351160+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3c44ef7027c835923cdaf6da",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Eva Live Expands Into International Gaming Through Majority-Owned IGA",
+    "url": "https://finance.yahoo.com/technology/ai/articles/eva-live-expands-international-gaming-140629405.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:06:29+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -21243,6 +21962,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "041592ca1ebdc2a806a9c102",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Better Than Nvidia: 3 AI Dividend Stocks Leaving It in the Dust",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/better-nvidia-3-ai-dividend-140502053.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:05:02+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "221400ff8994e66b53488fee",
     "source": "yahoo_finance",
     "tier": 3,
@@ -21286,6 +22031,62 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4010408f57e1633943947ed7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-pressured-weakness-chipmakers-ai-140322604.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:03:22+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "552f99b32a807a31295ded4b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why the China-Led Weakness in NXP Semiconductors Stock Could Open Doors for Speculators",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-china-led-weakness-nxp-140310893.html",
+    "summary": "",
+    "published_at": "2026-08-24T14:03:10+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -21489,6 +22290,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "2406d55ecfa33e5961df01a6",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Intel Stock Has Soared 140% YTD. The Next Catalyst May Be Hiding in GPU Prices.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/intel-stock-soared-140-ytd-135610889.html",
+    "summary": "",
+    "published_at": "2026-08-24T13:56:10+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "37e94ff95f4b626223f6a8f8",
     "source": "yahoo_finance",
     "tier": 3,
@@ -21651,6 +22478,39 @@
     "scored_by": "lexique"
   },
   {
+    "id": "8b07ab1d9aceeffb36296a55",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Is Wall Street Bullish or Bearish on KLA Corporation Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-kla-134112535.html",
+    "summary": "",
+    "published_at": "2026-08-24T13:41:12+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
+    "categories": {
+      "crypto_favorable": 1.0,
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "6787e5f5697c02729e55569b",
     "source": "yahoo_finance",
     "tier": 3,
@@ -21665,6 +22525,32 @@
     "summary": "",
     "published_at": "2026-08-24T13:41:06+00:00",
     "collected_at": "2026-08-24T13:49:41.693629+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2e888e5e695b1cba0e844264",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Amazon’s Drone Bet Is Getting Serious: Nearly 500 Cities Could Change the AMZN Story",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-drone-bet-getting-serious-134047806.html",
+    "summary": "",
+    "published_at": "2026-08-24T13:40:47+00:00",
+    "collected_at": "2026-08-25T22:24:25.555065+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
