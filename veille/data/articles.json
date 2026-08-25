@@ -1,5 +1,481 @@
 [
   {
+    "id": "4281e1e1ff63fc48f51f1ba0",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Indonesia's commodity export 'intermediary' continues to sow confusion",
+    "url": "https://asia.nikkei.com/business/markets/commodities/indonesia-s-commodity-export-intermediary-continues-to-sow-confusion",
+    "summary": "",
+    "published_at": "2026-08-25T07:41:40.864941+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1669c21d86aead37a2214d4e",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Live updates: Bitcoin ETFs draw a seventh straight day of inflows as the rally holds above $80,000",
+    "url": "https://www.coindesk.com/business/2026/08/25/live-updates-bitcoin-etfs-draw-a-seventh-straight-day-of-inflows-as-the-rally-holds-above-usd80-000",
+    "summary": "",
+    "published_at": "2026-08-25T07:40:11+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1a2847ae493e1b307973ea4a",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Treasury’s bond buyback plan fights the market and heightens the danger, billionaire Druckenmiller says",
+    "url": "https://www.coindesk.com/markets/2026/08/25/governments-defending-prices-against-fundamentals-always-lose-billionaire-investor-druckenmiller-says",
+    "summary": "",
+    "published_at": "2026-08-25T07:32:32+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "98e39dd96f1b5c889d3c590c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Tungsten West grants share options to executives",
+    "url": "https://www.investing.com/news/company-news/tungsten-west-grants-share-options-to-executives-93CH-4874564",
+    "summary": "",
+    "published_at": "2026-08-25T07:32:31+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2f005dcacefa0776be48c59a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Shein’s up to $1.8 billion Hong Kong IPO order book covered, sources say",
+    "url": "https://www.investing.com/news/stock-market-news/sheins-up-to-18-billion-hong-kong-ipo-order-book-covered-sources-say-4874486",
+    "summary": "",
+    "published_at": "2026-08-25T07:30:27+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "77eb628effa1304935f52e60",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "National Bank downgrades Nutrien stock rating on valuation",
+    "url": "https://www.investing.com/news/analyst-ratings/national-bank-downgrades-nutrien-stock-rating-on-valuation-93CH-4874561",
+    "summary": "",
+    "published_at": "2026-08-25T07:27:00+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "03a2b63dbf3050b26233ea5b",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Siemens Energy hires Goldman for steam turbine unit stake sale; shares climb",
+    "url": "https://www.investing.com/news/stock-market-news/siemens-energy-hires-goldman-for-steam-turbine-unit-stake-sale-stock-up-premarket-4874527",
+    "summary": "",
+    "published_at": "2026-08-25T07:24:55+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "31af687cce9d41968dfcb845",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "FTSE 100 today: Stocks edge higher as bitcoin extends surge",
+    "url": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-edge-higher-as-bitcoin-extends-surge-4874559",
+    "summary": "",
+    "published_at": "2026-08-25T07:23:38+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe",
+      "btc"
+    ],
+    "assets_effective": [
+      "europe",
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "88be7404fc9d67e84c5aee52",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is Siemens Energy stock climbing today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-siemens-energy-stock-climbing-today-93CH-4874558",
+    "summary": "",
+    "published_at": "2026-08-25T07:23:25+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "007674a87e772ae9ec72f550",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is Vistry stock surging today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-vistry-stock-surging-today-93CH-4874557",
+    "summary": "",
+    "published_at": "2026-08-25T07:21:32+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "89f84205dec2b2599b24435d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Glenstone urges AIRE shareholders to accept 70p cash offer",
+    "url": "https://www.investing.com/news/company-news/glenstone-urges-aire-shareholders-to-accept-70p-cash-offer-93CH-4874556",
+    "summary": "",
+    "published_at": "2026-08-25T07:20:39+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "99324751e3e06103e1990767",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Goldman Sachs initiates Jersey Mike’s stock at neutral on valuation",
+    "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-initiates-jersey-mikes-stock-at-neutral-on-valuation-93CH-4874554",
+    "summary": "",
+    "published_at": "2026-08-25T07:18:51+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f4cdeaba9883f72e42986ab1",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Germany’s Q2 economic growth surpasses initial estimate on exports",
+    "url": "https://www.investing.com/news/economic-indicators/german-economy-grows-by-03-in-q2-stats-office-says-4874492",
+    "summary": "",
+    "published_at": "2026-08-25T07:18:49+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8586f28a4276f14212c4d80d",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Monad proposes wallet upgrade that could survive lost keys and quantum attacks",
+    "url": "https://www.coindesk.com/tech/2026/08/25/monad-proposes-wallet-upgrade-that-could-survive-lost-keys-and-quantum-attacks",
+    "summary": "",
+    "published_at": "2026-08-25T07:01:49+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "93adba094f77be2ba73c18c0",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Speech by Commissioner Kos at the Conference of Ambassadors, Consuls General, Consuls and Military Attachés",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1756",
+    "summary": "European Commission Speech Zagreb, 25 Aug 2026 Why is EU enlargement today more than enlarging our Union? What do we need to do to get ready for new members? How can we reconcile the need for time for delive...",
+    "published_at": "2026-08-25T06:47:24+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f4ecf79b0061447aa1a3cd81",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin holds above $80,000 backed by ETF flows; bull market case ‘early but optimistic,’ analyst says",
+    "url": "https://www.theblock.co/news/markets/2026-08-25-bitcoin-holds-above-80000-412674",
+    "summary": "Analysts say it's still too early to tell if this will translate into a bull market, given sticky inflation and geopolitical uncertainty.",
+    "published_at": "2026-08-25T06:46:31+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e203cd022ef1fcdbda47bd70",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Franklin Templeton partners with HashKey to offer tokenized money market fund in Asia",
+    "url": "https://www.theblock.co/news/business/2026-08-25-franklin-templeton-hashkey-tokenized-fund-412675",
+    "summary": "HashKey said it has launched the Franklin OnChain US Government Liquidity Fund on the platform's Earn channel.",
+    "published_at": "2026-08-25T06:39:12+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "cdf5a22fa16015a32a34fa8f",
     "source": "coindesk",
     "tier": 3,
@@ -17109,6 +17585,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "3594744f51bc75806baf9257",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Ampol Profit Surges as Middle East Disruption Boosts Refining Margins",
+    "url": "https://finance.yahoo.com/energy/articles/ampol-profit-surges-middle-east-022752166.html",
+    "summary": "",
+    "published_at": "2026-08-24T02:27:52+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "c1c03cb9c4a72fc0f2de22d3",
     "source": "investing_com",
     "tier": 3,
@@ -17294,6 +17796,36 @@
     ],
     "has_decision_marker": false,
     "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e4b7dd93c381f05dea055c19",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Alibaba shares fall 8% after $10 billion Hong Kong share sale",
+    "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-shares-fall-8-10-015142834.html",
+    "summary": "",
+    "published_at": "2026-08-24T01:57:43+00:00",
+    "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,

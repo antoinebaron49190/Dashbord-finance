@@ -1,56 +1,56 @@
 {
   "2026-08-25": {
-    "articles_count": 55,
-    "signal_count": 10,
+    "articles_count": 72,
+    "signal_count": 15,
     "tone_cb": null,
-    "tone_global": 0.1,
-    "regul_crypto": null,
+    "tone_global": 0.0688,
+    "regul_crypto": 0.6,
     "stress": 0.0,
     "top": [
       {
-        "id": "7a7ca3ec39ce90a16065581b",
-        "title": "Oil steadies as investors weigh impact of latest US sanctions on Iran",
+        "id": "93adba094f77be2ba73c18c0",
+        "title": "Speech by Commissioner Kos at the Conference of Ambassadors, Consuls General, Consuls and Military Attachés",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": -0.5,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1756"
+      },
+      {
+        "id": "1669c21d86aead37a2214d4e",
+        "title": "Live updates: Bitcoin ETFs draw a seventh straight day of inflows as the rally holds above $80,000",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": 0.6,
+        "url": "https://www.coindesk.com/business/2026/08/25/live-updates-bitcoin-etfs-draw-a-seventh-straight-day-of-inflows-as-the-rally-holds-above-usd80-000"
+      },
+      {
+        "id": "f4cdeaba9883f72e42986ab1",
+        "title": "Germany’s Q2 economic growth surpasses initial estimate on exports",
         "source": "investing_com",
         "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/commodities-news/oil-prices-steady-as-investors-weigh-impact-of-expanded-us-sanctions-against-iran-4874373"
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/economic-indicators/german-economy-grows-by-03-in-q2-stats-office-says-4874492"
       },
       {
-        "id": "d1ccee05d1e153e4b987625d",
-        "title": "Iran vows to retaliate after US widens sanctions",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/commodities-news/iran-vows-to-retaliate-after-us-widens-sanctions-4874350"
-      },
-      {
-        "id": "66935608022c24867f287ba5",
-        "title": "US scrutiny deters some Chinese tariff refund claims as others cash in",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-scrutiny-deters-some-chinese-tariff-refund-claims-as-others-cash-in"
-      },
-      {
-        "id": "84228015e55f4d442ca0b754",
-        "title": "Bitcoin hits $80,000 for the first time since May as crypto recovery accelerates",
+        "id": "8586f28a4276f14212c4d80d",
+        "title": "Monad proposes wallet upgrade that could survive lost keys and quantum attacks",
         "source": "coindesk",
         "score": 0.3,
         "tone": 0.5,
-        "url": "https://www.coindesk.com/markets/2026/08/24/bitcoin-hits-usd80-000-for-the-first-time-since-may-as-crypto-recovery-accelerates"
+        "url": "https://www.coindesk.com/tech/2026/08/25/monad-proposes-wallet-upgrade-that-could-survive-lost-keys-and-quantum-attacks"
       },
       {
-        "id": "3b695c6a0b3c4419f2ce11dd",
-        "title": "Earnings call transcript: Australian Ethical posts strong FY 2026 growth, shares jump 13%",
-        "source": "investing_com",
+        "id": "f4ecf79b0061447aa1a3cd81",
+        "title": "Bitcoin holds above $80,000 backed by ETF flows; bull market case ‘early but optimistic,’ analyst says",
+        "source": "theblock",
         "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-australian-ethical-posts-strong-fy-2026-growth-shares-jump-13-93CH-4874340"
+        "tone": -0.5,
+        "url": "https://www.theblock.co/news/markets/2026-08-25-bitcoin-holds-above-80000-412674"
       }
     ]
   },
   "2026-08-24": {
-    "articles_count": 602,
+    "articles_count": 604,
     "signal_count": 85,
     "tone_cb": null,
     "tone_global": -0.0101,
