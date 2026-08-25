@@ -1,5 +1,851 @@
 [
   {
+    "id": "68a4478dbd090fcd95941680",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "US robot curbs lay bare industry's dependence on Chinese parts",
+    "url": "https://asia.nikkei.com/business/technology/us-robot-curbs-lay-bare-industry-s-dependence-on-chinese-parts",
+    "summary": "",
+    "published_at": "2026-08-25T13:47:54.710201+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "25b0e5416db5fffc81a8411a",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Indonesia's Prabowo launches 100 GW solar power program",
+    "url": "https://asia.nikkei.com/business/energy/indonesia-s-prabowo-launches-100-gw-solar-power-program",
+    "summary": "",
+    "published_at": "2026-08-25T13:47:54.710201+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f924fcc88eca96d8f0288a24",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AMD upgraded, Five Below downgraded: Wall Street's top analyst calls",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/moderna-upgraded-baidu-downgraded-wall-133822050.html",
+    "summary": "",
+    "published_at": "2026-08-25T13:34:04+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b1e904f24eecbaf573102b3c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Scotiabank tops Q3 2026 estimates on record results",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-scotiabank-tops-q3-2026-estimates-on-record-results-93CH-4875494",
+    "summary": "",
+    "published_at": "2026-08-25T13:30:56+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dc1601bcbd0eab2667075f9f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Vnet Group (VNET) Q2 2026 Earnings Call Transcript",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/vnet-group-vnet-q2-2026-132905866.html",
+    "summary": "",
+    "published_at": "2026-08-25T13:29:05+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "af06f6bb9d8be45d05231aa7",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: SelectQuote Q4 2026 misses estimates, shares fall premarket",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-selectquote-q4-2026-misses-estimates-shares-fall-premarket-93CH-4875485",
+    "summary": "",
+    "published_at": "2026-08-25T13:28:56+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e2ead86a86aada9d4ab40032",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nvidia’s Groq Chip Will Shape AI Agent Usability",
+    "url": "https://www.wsj.com/cio-journal/nvidias-groq-chip-will-shape-ai-agent-usability-b2e076cd?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-25T13:27:00+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f3a604e26c76c2b6d08f65fd",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "“Give Me Anything But Tech”: Jim Cramer’s Bold Call on the Market’s Next Big Rotation",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/anything-tech-jim-cramer-bold-132505655.html",
+    "summary": "",
+    "published_at": "2026-08-25T13:25:05+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b72249a9a3edf411814bdbfb",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Option Traders Bet On Bitcoin’s Price Topping $82,000",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/option-traders-bet-bitcoin-price-132500757.html",
+    "summary": "",
+    "published_at": "2026-08-25T13:25:00+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "982a8754bec04c96a8a42988",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Cathie Wood's Ark Innovation Fund Returned 17% Over the Past Year. Is It Still a Buy After Years of Underperformance?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-woods-ark-innovation-fund-132500535.html",
+    "summary": "",
+    "published_at": "2026-08-25T13:25:00+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9a2e786170a9c5776d4558e7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Home prices rose 2.1% in June, even as high mortgage rates keep the market 'under pressure'",
+    "url": "https://finance.yahoo.com/real-estate/article/home-prices-rose-21-in-june-even-as-high-mortgage-rates-keep-the-market-under-pressure-132414534.html",
+    "summary": "",
+    "published_at": "2026-08-25T13:24:14+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2d8208a44f34adfd92b5484e",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Kanzhun posts stronger Q2 2026 growth, shares slip premarket",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-kanzhun-posts-stronger-q2-2026-growth-shares-slip-premarket-93CH-4875458",
+    "summary": "",
+    "published_at": "2026-08-25T13:23:20+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "de8142c0d6894006feea08c3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Vanguard Growth Index Fund Admiral Shares (VIGAX): What Investors Should Know",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/vanguard-growth-index-fund-admiral-132053449.html",
+    "summary": "",
+    "published_at": "2026-08-25T13:20:53+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "20714f434e2e06e272213afa",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Alibaba’s $10 Billion Stock Sale Was Nearly 3 Times Oversubscribed. Should You Follow the Smart Money?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-10-billion-stock-sale-132008623.html",
+    "summary": "",
+    "published_at": "2026-08-25T13:20:08+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d0080d75245f3708f04e7e25",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Teradyne CEO Gregory Smith Sells 4,000 Shares for $1.7 Million",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/teradyne-ceo-gregory-smith-sells-132001218.html",
+    "summary": "",
+    "published_at": "2026-08-25T13:20:01+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "542c9d6aa5d068b5e2f8eee5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AMD and Intel Rise 3% on a Strong Buy Upgrade and a Pelosi Disclosure, NVIDIA and Broadcom Tick Up",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/amd-intel-rise-3-strong-131800376.html",
+    "summary": "",
+    "published_at": "2026-08-25T13:18:00+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f97f288e09a339c233fe2255",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: DICK’S Sporting Goods Q2 2026 results miss as shares sink",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-dicks-sporting-goods-q2-2026-results-miss-as-shares-sink-93CH-4875453",
+    "summary": "",
+    "published_at": "2026-08-25T13:17:19+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "67f9253c3ec3c479bb9ec41f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "XRP’s Old SWIFT Advantage Is Disappearing as Banks Move Tokenized Money Onchain",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/xrp-old-swift-advantage-disappearing-131715948.html",
+    "summary": "",
+    "published_at": "2026-08-25T13:17:15+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cf0b6f86a2e998b7348ce1e0",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: EHang posts Q2 2026 profit but misses on revenue",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-ehang-posts-q2-2026-profit-but-misses-on-revenue-93CH-4875450",
+    "summary": "",
+    "published_at": "2026-08-25T13:15:42+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ba7b074a8a84237cb07be387",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Disney offering early retirement packages to veteran executives",
+    "url": "https://finance.yahoo.com/small-business/articles/disney-offering-early-retirement-packages-131515119.html",
+    "summary": "",
+    "published_at": "2026-08-25T13:15:15+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "26e9be5a2deaf4b96c8398a4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Wall Street Set to Open Higher as Crude Oil Extends Sharp Retreat: Dow Jones, S&P, Nasdaq, Futures",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-set-open-higher-131414978.html",
+    "summary": "",
+    "published_at": "2026-08-25T13:14:14+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9ef1cb27cb3ab3ace15c8deb",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Gold wavers as investors await U.S. inflation, Warsh speech",
+    "url": "https://www.investing.com/news/commodities-news/gold-rises-to-3month-high-as-treasury-moves-trade-tensions-lift-bullion-demand-4874364",
+    "summary": "",
+    "published_at": "2026-08-25T13:13:27+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "637026a433977a21bba6a63e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin Rides ‘Debasement Trade’ Wave",
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-25-2026/card/bitcoin-rides-debasement-trade-wave-Cq8YWHcAH8vR1k2neNak?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-25T13:11:32+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "aee9866b48f8454c6d99b91c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Cadeler posts strong H1 2026 results, shares jump 8%",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-cadeler-posts-strong-h1-2026-results-shares-jump-8-93CH-4875444",
+    "summary": "",
+    "published_at": "2026-08-25T13:09:03+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cdadcbb21f1c2c29e714aedb",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Magnum welcomes pruning of Ben & Jerry’s lawsuit",
+    "url": "https://finance.yahoo.com/media-advertising/articles/magnum-welcomes-pruning-ben-jerry-130817523.html",
+    "summary": "",
+    "published_at": "2026-08-25T13:08:17+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "664b21440b60deea78c6c3ea",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Good Good Golf and Callaway Apologize for ‘Scary’ Ad",
+    "url": "https://www.wsj.com/cmo-today/good-good-golf-and-callaway-apologize-for-scary-ad-826702ba?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-25T13:07:00+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "96d91bfbc53d63af8b7562c4",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Canada to announce retaliatory tariffs on US goods today",
+    "url": "https://www.investing.com/news/economy-news/canada-to-announce-retaliatory-tariffs-on-us-goods-today-4875422",
+    "summary": "",
+    "published_at": "2026-08-25T13:04:11+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d758eef27098d6c9e9e9d27d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Cantor Fitzgerald reiterates Overweight on CrowdStrike stock at $250",
+    "url": "https://www.investing.com/news/analyst-ratings/cantor-fitzgerald-reiterates-overweight-on-crowdstrike-stock-at-250-93CH-4873410",
+    "summary": "",
+    "published_at": "2026-08-25T13:02:06+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b2523b87d019b90e3a252a08",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "MiCA revolutionised European crypto, and left Poland licking its wounds",
+    "url": "https://www.coindesk.com/opinion/2026/08/24/mica-revolutionised-european-crypto-and-left-poland-licking-its-wounds",
+    "summary": "",
+    "published_at": "2026-08-25T13:00:00+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "116b23ae016ce68f19cfaf29",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Chainalysis-run sting targets child exploitation networks with aid of Binance, Coinbase",
+    "url": "https://www.coindesk.com/policy/2026/08/24/chainalysis-run-sting-targets-child-exploitation-networks-with-aid-of-binance-coinbase",
+    "summary": "",
+    "published_at": "2026-08-25T13:00:00+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "47f11d71f1dc33853722a56d",
+    "source": "cnbc_economy",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "statistiques",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "China needs U.S. dollars but is building a hedge against Washington’s sanctions",
+    "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html",
+    "summary": "The U.S. can pressure Chinese banks over Iran through access to its financial system, while Beijing is building alternatives such as CIPS.",
+    "published_at": "2026-08-25T12:42:15+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
     "id": "d402338088d1d6863f9c189d",
     "source": "marketwatch",
     "tier": 3,
@@ -20,6 +866,66 @@
     ],
     "assets_effective": [
       "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e052987a38f3e40dd5f46ca9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dollar fragile as investors weigh Iran sanctions, Treasury buybacks",
+    "url": "https://finance.yahoo.com/news/dollar-struggles-traction-markets-weigh-013056238.html",
+    "summary": "",
+    "published_at": "2026-08-25T12:39:59+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e4aed231756209f7597936bc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin and ethereum prices today, Tuesday, August 25, 2026: Highest opening for bitcoin in over three months",
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-august-25-2026-highest-opening-for-bitcoin-in-over-three-months-123338376.html",
+    "summary": "",
+    "published_at": "2026-08-25T12:33:38+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
     ],
     "has_decision_marker": false,
     "importance": 0.3,
@@ -98,6 +1004,32 @@
     "summary": "",
     "published_at": "2026-08-25T12:27:47+00:00",
     "collected_at": "2026-08-25T12:42:33.587352+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1630a938d3406718c79df84d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Tesla Hikes Prices For Struggling Cybertruck; Stock Faces Key Test",
+    "url": "https://www.investors.com/news/tesla-hikes-cybertruck-prices-stock-key-test/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-25T12:26:59+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -369,6 +1301,32 @@
     "assets_effective": [
       "sp500"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0ff3ec4d98052d141262bd29",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Equinor Eyes Major Oil Discovery Offshore Namibia",
+    "url": "https://finance.yahoo.com/energy/articles/equinor-eyes-major-oil-discovery-121500331.html",
+    "summary": "",
+    "published_at": "2026-08-25T12:15:00+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -1039,6 +1997,38 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "56dc98386bb2218b85b27282",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Grayscale debuts first Zcash ETF of its kind as privacy coin surges",
+    "url": "https://www.theblock.co/news/regulation/2026-08-25-grayscale-debuts-zcash-etf-412654",
+    "summary": "On Tuesday morning, Grayscale launched the first ETF to offer direct exposure to Zcash, the privacy-focused cryptocurrency.",
+    "published_at": "2026-08-25T12:00:00+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -5019,6 +6009,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "0ee31f8cfb36e8566bbea66e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Stock market today: Dow, S&P 500, Nasdaq gain as oil, Treasury yields fall",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-25-dow-sp-500-nasdaq-080527092.html",
+    "summary": "",
+    "published_at": "2026-08-25T08:05:27+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "c54013e2037d5bb09304318e",
     "source": "marketwatch",
     "tier": 3,
@@ -8830,6 +9850,32 @@
     "summary": "",
     "published_at": "2026-08-24T19:17:38+00:00",
     "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1d8f1d16a0e1362633eacc9e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Stanley Druckenmiller and Cathie Wood agree on 2 tech giant stocks",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stanley-druckenmiller-cathie-wood-agree-191300323.html",
+    "summary": "",
+    "published_at": "2026-08-24T19:13:00+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -30520,6 +31566,32 @@
     "summary": "",
     "published_at": "2026-08-23T11:25:02+00:00",
     "collected_at": "2026-08-24T09:44:05.799135+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5e733945443371c9af9da97d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nvidia's Q2 earnings to test resurgent AI trade",
+    "url": "https://finance.yahoo.com/markets/stocks/article/nvidias-q2-earnings-to-test-resurgent-ai-trade-112502189.html",
+    "summary": "",
+    "published_at": "2026-08-23T11:25:02+00:00",
+    "collected_at": "2026-08-25T13:47:54.710201+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
