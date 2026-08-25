@@ -1,5 +1,171 @@
 [
   {
+    "id": "9f0874914ee474df300bce89",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Gold and bitcoin jump as investors shift capital away from dollar",
+    "url": "https://asia.nikkei.com/business/markets/gold-and-bitcoin-jump-as-investors-shift-capital-away-from-dollar",
+    "summary": "",
+    "published_at": "2026-08-25T05:29:17.736275+00:00",
+    "collected_at": "2026-08-25T05:29:17.736275+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d6463c9b9b6d59eeba9ca815",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Google waves goodbye to China",
+    "url": "https://asia.nikkei.com/spotlight/podcasts/podcast-tech-latest/google-waves-goodbye-to-china",
+    "summary": "",
+    "published_at": "2026-08-25T05:29:17.736275+00:00",
+    "collected_at": "2026-08-25T05:29:17.736275+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c02f4ac64868ddfd9c330fa9",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin tops $80,000, solana jumps 8% but rally now runs into overbought warning",
+    "url": "https://www.coindesk.com/markets/2026/08/25/bitcoin-tops-usd80-000-solana-jumps-8-but-rally-now-runs-into-overbought-warning",
+    "summary": "",
+    "published_at": "2026-08-25T05:25:11+00:00",
+    "collected_at": "2026-08-25T05:29:17.736275+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d0f0dced9d05db876ba42a28",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Morning Bid: Waiting on Nvidia for next leg of AI rally",
+    "url": "https://www.investing.com/news/economy-news/morning-bid-waiting-on-nvidia-for-next-leg-of-ai-rally-4874462",
+    "summary": "",
+    "published_at": "2026-08-25T04:42:30+00:00",
+    "collected_at": "2026-08-25T05:29:17.736275+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6e25feab92a41786aa8a70c5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is SK Hynix stock falling today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-sk-hynix-stock-falling-today-93CH-4874461",
+    "summary": "",
+    "published_at": "2026-08-25T04:37:07+00:00",
+    "collected_at": "2026-08-25T05:29:17.736275+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "04f7c0c3ffbd8a71b958f907",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is Xpeng stock tumbling today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-xpeng-stock-tumbling-today-93CH-4874460",
+    "summary": "",
+    "published_at": "2026-08-25T04:36:48+00:00",
+    "collected_at": "2026-08-25T05:29:17.736275+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "f96a709a80ac89b5ee1e6bcc",
     "source": "nikkei_asia",
     "tier": 3,
@@ -17415,6 +17581,136 @@
     "scored_by": "lexique"
   },
   {
+    "id": "af53c2aa52ca319a27c5251f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Novo Nordisk Expands Its AI Push With AWS, But Can It Accelerate Drug Discovery?",
+    "url": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-expands-ai-push-234353024.html",
+    "summary": "",
+    "published_at": "2026-08-23T23:43:53+00:00",
+    "collected_at": "2026-08-25T05:29:17.736275+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d278910774a95da9db8eee14",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Abbott vs. Intuitive Surgical: Which MedTech Stock Offers Better Long-Term Upside?",
+    "url": "https://finance.yahoo.com/healthcare/articles/abbott-vs-intuitive-surgical-medtech-232811319.html",
+    "summary": "",
+    "published_at": "2026-08-23T23:28:11+00:00",
+    "collected_at": "2026-08-25T05:29:17.736275+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "eca9759b006b25fc67c42048",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Fabrinet Just Lost Billions in Market Value Due to Nvidia. Here’s Why the Reaction Is Overdone.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/fabrinet-just-lost-billions-market-232736801.html",
+    "summary": "",
+    "published_at": "2026-08-23T23:27:36+00:00",
+    "collected_at": "2026-08-25T05:29:17.736275+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bea5467332f08a354d821abb",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Gilead’s HIV Business is Surging, but is the Company Too Dependent on One Franchise?",
+    "url": "https://finance.yahoo.com/healthcare/articles/gilead-hiv-business-surging-company-231505800.html",
+    "summary": "",
+    "published_at": "2026-08-23T23:15:05+00:00",
+    "collected_at": "2026-08-25T05:29:17.736275+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "df64aea732ad0d9f8cb497c4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Pfizer’s Turnaround is Gaining Traction, but Can New Products Offset its Patent Cliff?",
+    "url": "https://finance.yahoo.com/healthcare/articles/pfizer-turnaround-gaining-traction-products-231313770.html",
+    "summary": "",
+    "published_at": "2026-08-23T23:13:13+00:00",
+    "collected_at": "2026-08-25T05:29:17.736275+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "d2dfd970b61f5b45e225721a",
     "source": "marketwatch",
     "tier": 3,
@@ -19699,6 +19995,32 @@
       "btc",
       "eth"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0fe3b0ef77cb9b2040bfb25a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bond Market Won't Affect the Fed: Kashkari",
+    "url": "https://www.barrons.com/livecoverage/sunday0823/card/the-fed-s-kashkari-breaks-down-bond-moves-qFsBHVClRPH811m7ykgD?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-23T18:28:30+00:00",
+    "collected_at": "2026-08-25T05:29:17.736275+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
