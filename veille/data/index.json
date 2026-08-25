@@ -1,12 +1,28 @@
 {
   "2026-08-25": {
-    "articles_count": 35,
-    "signal_count": 8,
+    "articles_count": 46,
+    "signal_count": 10,
     "tone_cb": null,
-    "tone_global": 0.25,
+    "tone_global": 0.1,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "7a7ca3ec39ce90a16065581b",
+        "title": "Oil steadies as investors weigh impact of latest US sanctions on Iran",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/commodities-news/oil-prices-steady-as-investors-weigh-impact-of-expanded-us-sanctions-against-iran-4874373"
+      },
+      {
+        "id": "d1ccee05d1e153e4b987625d",
+        "title": "Iran vows to retaliate after US widens sanctions",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/commodities-news/iran-vows-to-retaliate-after-us-widens-sanctions-4874350"
+      },
       {
         "id": "66935608022c24867f287ba5",
         "title": "US scrutiny deters some Chinese tariff refund claims as others cash in",
@@ -30,27 +46,11 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-australian-ethical-posts-strong-fy-2026-growth-shares-jump-13-93CH-4874340"
-      },
-      {
-        "id": "940406caa7820a8efb070343",
-        "title": "Scentre H1 2026 slides: record traffic drives guidance upgrade",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/company-news/scentre-h1-2026-slides-record-traffic-drives-guidance-upgrade-93CH-4874339"
-      },
-      {
-        "id": "dd8a3258910b91744fa336f1",
-        "title": "Scentre Group H1 2026 slides: record traffic drives earnings upgrade",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/company-news/scentre-group-h1-2026-slides-record-traffic-drives-earnings-upgrade-93CH-4874337"
       }
     ]
   },
   "2026-08-24": {
-    "articles_count": 592,
+    "articles_count": 595,
     "signal_count": 84,
     "tone_cb": null,
     "tone_global": -0.016,
@@ -64,6 +64,14 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260820.xlsx"
+      },
+      {
+        "id": "b04fa8be27fd600a4fdb1454",
+        "title": "Japanese Government Bonds Held by the Bank of Japan",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260820.xlsx"
       },
       {
         "id": "02cecf491082419c2442dfdd",
@@ -82,30 +90,22 @@
         "url": "http://www.boj.or.jp/en/research/brp/fsr/fsrb260824.htm"
       },
       {
-        "id": "a51ca20fe577c888fa1bb39a",
-        "title": "Bank of Japan Accounts (August 20)",
+        "id": "97a074bfe4d489ae76b48df2",
+        "title": "Financial System Report Annex \"Use and Risk Management of Generative AI by Japanese Financial Institutions\"",
         "source": "boj_news",
         "score": 1.3,
         "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260820.htm"
-      },
-      {
-        "id": "b1338c5a3fa9c269f639c524",
-        "title": "Daily News 24 / 08 / 2026",
-        "source": "ec_press",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1753"
+        "url": "https://www.boj.or.jp/en/research/brp/fsr/fsrb260824.htm"
       }
     ]
   },
   "2026-08-23": {
-    "articles_count": 329,
-    "signal_count": 37,
+    "articles_count": 330,
+    "signal_count": 38,
     "tone_cb": null,
-    "tone_global": 0.0467,
+    "tone_global": 0.0267,
     "regul_crypto": null,
-    "stress": 0.006,
+    "stress": 0.009,
     "top": [
       {
         "id": "00b4fa8f13f35aec68e5b997",
@@ -140,12 +140,12 @@
         "url": "https://www.marketwatch.com/story/stock-futures-slip-as-u-s-and-canada-appear-headed-for-trade-war-a9814b24?mod=mw_rss_topstories"
       },
       {
-        "id": "1bd29f24d16b4a91ba3520da",
-        "title": "Itochu, Taiwan IT firm support Taiwanese chip expansion into southern Japan",
-        "source": "nikkei_asia",
+        "id": "874c52f258a8a4990d279825",
+        "title": "Diesel Crisis Threatens to Outlast the Middle East War",
+        "source": "yahoo_finance",
         "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://asia.nikkei.com/spotlight/supply-chain/itochu-taiwan-it-firm-support-taiwanese-chip-expansion-into-southern-japan"
+        "tone": -0.7143,
+        "url": "https://finance.yahoo.com/energy/articles/diesel-crisis-threatens-outlast-middle-230000974.html"
       }
     ]
   },
