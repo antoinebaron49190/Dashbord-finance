@@ -1,5 +1,413 @@
 [
   {
+    "id": "79bc53772408782548787b90",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "JD.com, Chinese state firms swoop into Hong Kong's border megaproject",
+    "url": "https://asia.nikkei.com/business/markets/property/jd.com-chinese-state-firms-swoop-into-hong-kong-s-border-megaproject",
+    "summary": "",
+    "published_at": "2026-08-25T08:38:57.564719+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e2510d0f4b459f923d859aef",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "China denounces 'economic wars' as US starts campaign to cut off Iran",
+    "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/china-denounces-economic-wars-as-us-starts-campaign-to-cut-off-iran",
+    "summary": "",
+    "published_at": "2026-08-25T08:38:57.564719+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "81ebf4aed6f81eb8b141ada5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: SMG Swiss Marketplace Group H1 2026 stock jumps on strong growth",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-smg-swiss-marketplace-group-h1-2026-stock-jumps-on-strong-growth-93CH-4874655",
+    "summary": "",
+    "published_at": "2026-08-25T08:32:33+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4d7e94e78b9b09467531f9a7",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "PACS group CEO Jason Hulse sells $6.61M in company shares",
+    "url": "https://www.investing.com/news/insider-trading-news/pacs-group-ceo-jason-hulse-sells-661m-in-company-shares-93CH-4874653",
+    "summary": "",
+    "published_at": "2026-08-25T08:31:15+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "60bb24eac099a5a66e314466",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "EssilorLuxottica founder’s son quits management roles after reported rift with CEO",
+    "url": "https://www.investing.com/news/stock-market-news/leonardo-maria-del-vecchio-quits-essilux-management-roles-4874524",
+    "summary": "",
+    "published_at": "2026-08-25T08:30:35+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5038bb77195443501d76cee1",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Raymond James upgrades AMD stock rating on AI server growth outlook",
+    "url": "https://www.investing.com/news/analyst-ratings/raymond-james-upgrades-amd-stock-rating-on-ai-server-growth-outlook-93CH-4874651",
+    "summary": "",
+    "published_at": "2026-08-25T08:28:55+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0fe2902047ed1f6b2e61db42",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Chesnara shares jump 3% on stronger capital generation, dividend growth",
+    "url": "https://www.investing.com/news/earnings/chesnara-shares-jump-3-on-stronger-capital-generation-dividend-growth-4874650",
+    "summary": "",
+    "published_at": "2026-08-25T08:28:27+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9f8acf0492c25d18469ae935",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Loyal Solutions posts profit milestone in H2 2026",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-loyal-solutions-posts-profit-milestone-in-h2-2026-93CH-4874631",
+    "summary": "",
+    "published_at": "2026-08-25T08:25:24+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2da9404b27583f787aebea4d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Terranor Q2 2026 revenue beats forecast, shares fall 6.7%",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-terranor-q2-2026-revenue-beats-forecast-shares-fall-67-93CH-4874630",
+    "summary": "",
+    "published_at": "2026-08-25T08:25:15+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "06283fa7b64ec069eceb7653",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "German business sentiment rises more than expected in August, Ifo survey finds",
+    "url": "https://www.investing.com/news/economic-indicators/german-business-sentiment-rises-more-than-expected-in-august-ifo-survey-finds-4874620",
+    "summary": "",
+    "published_at": "2026-08-25T08:24:52+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b406f3890eac1021adaa80b0",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Gunsynd announces drilling program at Eagle Lake gold project",
+    "url": "https://www.investing.com/news/company-news/gunsynd-announces-drilling-program-at-eagle-lake-gold-project-93CH-4874629",
+    "summary": "",
+    "published_at": "2026-08-25T08:22:55+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "15c87f14b790aa9b15b18e53",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bernstein reiterates Alnylam stock rating on nucresiran outlook",
+    "url": "https://www.investing.com/news/analyst-ratings/bernstein-reiterates-alnylam-stock-rating-on-nucresiran-outlook-93CH-4874628",
+    "summary": "",
+    "published_at": "2026-08-25T08:22:53+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c54013e2037d5bb09304318e",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin has beaten stocks and gold over six months. Now it’s crossed the $80,000 mark.",
+    "url": "https://www.marketwatch.com/story/bitcoin-has-beaten-stocks-and-gold-over-six-months-now-its-closing-in-on-80-000-b8aa48f9?mod=mw_rss_topstories",
+    "summary": "Bitcoin was hovering around the $80,000 level Tuesday after the cryptocurrency surged last week on the Treasury Department’s plans to double its buy back of longer-dated Treasurys.",
+    "published_at": "2026-08-25T08:00:00+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2f9445732401259daf5bb168",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Investors poured into Canadian ETFs right before trade talks broke down",
+    "url": "https://www.marketwatch.com/story/investors-poured-into-canadian-etfs-right-before-trade-talks-broke-down-c8bea8ee?mod=mw_rss_topstories",
+    "summary": "Investors misread the mood music on U.S.-Canadian talks, in a big way.",
+    "published_at": "2026-08-25T07:57:00+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b54327adfbb67896f56f14d0",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Franklin Templeton and Hashkey roll out U.S. tokenized money fund in Asia",
+    "url": "https://www.coindesk.com/business/2026/08/25/franklin-templeton-and-hashkey-roll-out-u-s-tokenized-money-fund-in-asia",
+    "summary": "",
+    "published_at": "2026-08-25T07:55:18+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "4281e1e1ff63fc48f51f1ba0",
     "source": "nikkei_asia",
     "tier": 3,
@@ -39,6 +447,38 @@
     "summary": "",
     "published_at": "2026-08-25T07:40:11+00:00",
     "collected_at": "2026-08-25T07:41:40.864941+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3b3a7c980912e6b430a2a469",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Live updates: Bitcoin ETFs draw a sixth straight day of inflows as the rally holds above $80,000",
+    "url": "https://www.coindesk.com/business/2026/08/25/live-updates-bitcoin-etfs-draw-a-seventh-straight-day-of-inflows-as-the-rally-holds-above-usd80-000",
+    "summary": "",
+    "published_at": "2026-08-25T07:40:11+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
     "categories": {
       "crypto_favorable": 1.0
     },
@@ -2914,6 +3354,35 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b891284682b8713b68529a30",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Eiropas komisāra Valda Dombrovska runa Rīgas Tehniskajā universitātē, atklājot Talantu programmas 2026./2027. m.g.",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/lv/speech_26_1755",
+    "summary": "European Commission Runa Riga, 25 Aug 2026 Augsti godātais rektora kungs, cienījamā Rīgas Tehniskās universitātes un Talantu programmas vadība, dārgie Talantu programmas dalībnieki! Man ir gandarījums ...",
+    "published_at": "2026-08-24T21:00:00+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
@@ -17175,6 +17644,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "b6b82e1b88d946f23582949f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "T. Rowe Price Bets Big on Fixed Income With F/m Deal",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/t-rowe-price-bets-big-040300632.html",
+    "summary": "",
+    "published_at": "2026-08-24T04:03:00+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "8caa52fc9d1a8a52a504674f",
     "source": "investing_com",
     "tier": 3,
@@ -17189,6 +17684,60 @@
     "summary": "",
     "published_at": "2026-08-24T04:02:21+00:00",
     "collected_at": "2026-08-24T04:41:54.725889+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2dc03b75f6d5583f8b397cac",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why Passive Inflows May be Pulling Down Active Fund Performance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-passive-inflows-may-pulling-040200015.html",
+    "summary": "",
+    "published_at": "2026-08-24T04:02:00+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "38fdf1a3c9a49963762b1528",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dimensional, Allspring Latest Firms to Tack on ETF Share Classes",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/dimensional-allspring-latest-firms-tack-040100778.html",
+    "summary": "",
+    "published_at": "2026-08-24T04:01:00+00:00",
+    "collected_at": "2026-08-25T08:38:57.564719+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],

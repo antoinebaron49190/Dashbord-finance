@@ -1,9 +1,9 @@
 {
   "2026-08-25": {
-    "articles_count": 72,
-    "signal_count": 15,
+    "articles_count": 88,
+    "signal_count": 19,
     "tone_cb": null,
-    "tone_global": 0.0688,
+    "tone_global": 0.16,
     "regul_crypto": 0.6,
     "stress": 0.0,
     "top": [
@@ -16,6 +16,14 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1756"
       },
       {
+        "id": "b406f3890eac1021adaa80b0",
+        "title": "Gunsynd announces drilling program at Eagle Lake gold project",
+        "source": "investing_com",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/company-news/gunsynd-announces-drilling-program-at-eagle-lake-gold-project-93CH-4874629"
+      },
+      {
         "id": "1669c21d86aead37a2214d4e",
         "title": "Live updates: Bitcoin ETFs draw a seventh straight day of inflows as the rally holds above $80,000",
         "source": "coindesk",
@@ -24,36 +32,28 @@
         "url": "https://www.coindesk.com/business/2026/08/25/live-updates-bitcoin-etfs-draw-a-seventh-straight-day-of-inflows-as-the-rally-holds-above-usd80-000"
       },
       {
-        "id": "f4cdeaba9883f72e42986ab1",
-        "title": "Germany’s Q2 economic growth surpasses initial estimate on exports",
+        "id": "3b3a7c980912e6b430a2a469",
+        "title": "Live updates: Bitcoin ETFs draw a sixth straight day of inflows as the rally holds above $80,000",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": 0.6,
+        "url": "https://www.coindesk.com/business/2026/08/25/live-updates-bitcoin-etfs-draw-a-seventh-straight-day-of-inflows-as-the-rally-holds-above-usd80-000"
+      },
+      {
+        "id": "81ebf4aed6f81eb8b141ada5",
+        "title": "Earnings call transcript: SMG Swiss Marketplace Group H1 2026 stock jumps on strong growth",
         "source": "investing_com",
         "score": 0.3,
         "tone": 0.5,
-        "url": "https://www.investing.com/news/economic-indicators/german-economy-grows-by-03-in-q2-stats-office-says-4874492"
-      },
-      {
-        "id": "8586f28a4276f14212c4d80d",
-        "title": "Monad proposes wallet upgrade that could survive lost keys and quantum attacks",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.coindesk.com/tech/2026/08/25/monad-proposes-wallet-upgrade-that-could-survive-lost-keys-and-quantum-attacks"
-      },
-      {
-        "id": "f4ecf79b0061447aa1a3cd81",
-        "title": "Bitcoin holds above $80,000 backed by ETF flows; bull market case ‘early but optimistic,’ analyst says",
-        "source": "theblock",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.theblock.co/news/markets/2026-08-25-bitcoin-holds-above-80000-412674"
+        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-smg-swiss-marketplace-group-h1-2026-stock-jumps-on-strong-growth-93CH-4874655"
       }
     ]
   },
   "2026-08-24": {
-    "articles_count": 604,
-    "signal_count": 85,
+    "articles_count": 608,
+    "signal_count": 86,
     "tone_cb": null,
-    "tone_global": -0.0101,
+    "tone_global": -0.01,
     "regul_crypto": 0.2,
     "stress": 0.0031,
     "top": [
