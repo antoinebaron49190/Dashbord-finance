@@ -1,9 +1,9 @@
 {
   "2026-08-25": {
-    "articles_count": 121,
-    "signal_count": 27,
+    "articles_count": 166,
+    "signal_count": 33,
     "tone_cb": null,
-    "tone_global": 0.0893,
+    "tone_global": 0.1029,
     "regul_crypto": 0.0,
     "stress": 0.0,
     "top": [
@@ -16,47 +16,63 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1756"
       },
       {
+        "id": "47f925f97d8878750691f706",
+        "title": "Visite dans les Hautes Fagnes",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/fr/speech_26_1758"
+      },
+      {
+        "id": "e1b7a55f9d465fd88a1644de",
+        "title": "Daily News 25 / 08 / 2026",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1757"
+      },
+      {
+        "id": "b5c2c5ed61381177c90d4ea0",
+        "title": "A Trading Plan Adopted in March Just Moved Block Shares at $80.80. Here's What Changed at the Company in Between",
+        "source": "yahoo_finance",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://finance.yahoo.com/markets/stocks/articles/trading-plan-adopted-march-just-095404366.html"
+      },
+      {
         "id": "b406f3890eac1021adaa80b0",
         "title": "Gunsynd announces drilling program at Eagle Lake gold project",
         "source": "investing_com",
         "score": 0.45,
         "tone": 0.0,
         "url": "https://www.investing.com/news/company-news/gunsynd-announces-drilling-program-at-eagle-lake-gold-project-93CH-4874629"
-      },
-      {
-        "id": "62374f81dc2186fcf765307d",
-        "title": "U.S. widens Iran crackdown to encompass crypto, gold, shipping and technology",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://www.coindesk.com/policy/2026/08/25/u-s-widens-iran-crackdown-to-encompass-crypto-gold-shipping-and-technology"
-      },
-      {
-        "id": "a89c3f93b8d0ae102e0eb7c7",
-        "title": "Las Vegas businessman faces 280 years in prison after $24 million crypto fraud conviction",
-        "source": "theblock",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://www.theblock.co/news/regulation/2026-08-25-las-vegas-businessman-24-million-crypto-fraud-412690"
-      },
-      {
-        "id": "1669c21d86aead37a2214d4e",
-        "title": "Live updates: Bitcoin ETFs draw a seventh straight day of inflows as the rally holds above $80,000",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": 0.6,
-        "url": "https://www.coindesk.com/business/2026/08/25/live-updates-bitcoin-etfs-draw-a-seventh-straight-day-of-inflows-as-the-rally-holds-above-usd80-000"
       }
     ]
   },
   "2026-08-24": {
-    "articles_count": 610,
-    "signal_count": 86,
-    "tone_cb": null,
-    "tone_global": -0.01,
+    "articles_count": 614,
+    "signal_count": 87,
+    "tone_cb": -0.7836,
+    "tone_global": -0.0459,
     "regul_crypto": 0.2,
-    "stress": 0.0031,
+    "stress": 0.0096,
     "top": [
+      {
+        "id": "041ed217b60e16a17191507f",
+        "title": "Learning probability of default and stress testing",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": -0.7836,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3277~46bd788158.en.pdf"
+      },
+      {
+        "id": "b94b87240c9fb991c07b6bd9",
+        "title": "When the Crowd Speaks: AI-based retail investor sentiment indicator with Reddit data",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3276~3ba8565a13.en.pdf"
+      },
       {
         "id": "5efe8a09f81603288708f584",
         "title": "Japanese Government Bonds Held by the Bank of Japan",
@@ -80,22 +96,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260824~fa5acbddea.en.html"
-      },
-      {
-        "id": "5d7f648dde3f6b8bbd2e08bf",
-        "title": "Financial System Report Annex \"Use and Risk Management of Generative AI by Japanese Financial Institutions\"",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/research/brp/fsr/fsrb260824.htm"
-      },
-      {
-        "id": "97a074bfe4d489ae76b48df2",
-        "title": "Financial System Report Annex \"Use and Risk Management of Generative AI by Japanese Financial Institutions\"",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.boj.or.jp/en/research/brp/fsr/fsrb260824.htm"
       }
     ]
   },
