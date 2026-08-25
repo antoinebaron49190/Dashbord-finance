@@ -1,12 +1,20 @@
 {
   "2026-08-25": {
-    "articles_count": 490,
-    "signal_count": 71,
+    "articles_count": 507,
+    "signal_count": 75,
     "tone_cb": null,
-    "tone_global": 0.0876,
+    "tone_global": 0.0702,
     "regul_crypto": 0.12,
-    "stress": 0.004,
+    "stress": 0.0039,
     "top": [
+      {
+        "id": "9091d0ed3d5f5cb37121fe9a",
+        "title": "Minutes of the Board's discount rate meetings on July 20 and July 29, 2026",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm"
+      },
       {
         "id": "9c3032cf13920428203cad3a",
         "title": "Opening address by Commissioner Šuica on the \"Current Issues in the European Union and the Priorities of the Republic of Croatia” at the Conference of Ambassadors, Consuls General, Consuls and Military Attachés of the Republic of Croatia",
@@ -38,24 +46,16 @@
         "score": 0.6,
         "tone": 0.0,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1757"
-      },
-      {
-        "id": "4f44a42797bb0bac89c52561",
-        "title": "Canada announces retaliatory tariffs on $20 billion worth of US goods, unveils support measures",
-        "source": "investing_com",
-        "score": 0.45,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/canada-announces-20-billion-retaliatory-tariffs-on-us-goods-unveils-support-measures-4875679"
       }
     ]
   },
   "2026-08-24": {
-    "articles_count": 617,
-    "signal_count": 87,
+    "articles_count": 633,
+    "signal_count": 90,
     "tone_cb": -0.7836,
-    "tone_global": -0.0459,
+    "tone_global": -0.0445,
     "regul_crypto": 0.2,
-    "stress": 0.0095,
+    "stress": 0.0093,
     "top": [
       {
         "id": "041ed217b60e16a17191507f",
