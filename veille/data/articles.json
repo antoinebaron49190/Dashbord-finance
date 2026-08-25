@@ -1,5 +1,67 @@
 [
   {
+    "id": "cdf5a22fa16015a32a34fa8f",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Crypto rally spills into dog and cat memecoins as smaller tokens double in a week",
+    "url": "https://www.coindesk.com/markets/2026/08/25/crypto-rally-spills-into-dog-and-cat-memecoins-as-smaller-tokens-double-in-a-week",
+    "summary": "",
+    "published_at": "2026-08-25T06:26:29+00:00",
+    "collected_at": "2026-08-25T06:42:03.342594+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "37862869a5bf598a21e4a915",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin traders place $2.9 million bet on a rapid price jump above $82,000",
+    "url": "https://www.coindesk.com/markets/2026/08/25/bitcoin-traders-place-usd2-9-million-bet-on-a-rapid-price-jump-above-usd82-000",
+    "summary": "",
+    "published_at": "2026-08-25T05:51:52+00:00",
+    "collected_at": "2026-08-25T06:42:03.342594+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "9f0874914ee474df300bce89",
     "source": "nikkei_asia",
     "tier": 3,
@@ -78,6 +140,38 @@
     ],
     "assets_effective": [
       "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b9ade35f46595322f474c9b5",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Blockchain Association backs Treasury’s proposed GENIUS Act rules for stablecoin issuers",
+    "url": "https://www.theblock.co/news/regulation/2026-08-25-blockchain-association-backs-genius-act-412668",
+    "summary": "It backs limiting client ID requirements to direct issuer-customer transactions in the primary market, while calling for clearer definitions.",
+    "published_at": "2026-08-25T05:24:15+00:00",
+    "collected_at": "2026-08-25T06:42:03.342594+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
     ],
     "has_decision_marker": false,
     "importance": 0.3,
@@ -17233,6 +17327,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "d0b4eea1c865fab1b385e2b0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Alibaba shares slide after $10.2 billion AI share sale offered at sharp discount",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-set-open-down-8-013210207.html",
+    "summary": "",
+    "published_at": "2026-08-24T01:32:10+00:00",
+    "collected_at": "2026-08-25T06:42:03.342594+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "3d72ffb4485275f487b04fa4",
     "source": "nikkei_asia",
     "tier": 3,
@@ -17280,6 +17400,34 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dd1c576df61abc0afef02f6b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AbbVie’s Humira Replacement Strategy Is Working, But Could Growth Be Too Concentrated?",
+    "url": "https://finance.yahoo.com/healthcare/articles/abbvie-humira-replacement-strategy-working-010120760.html",
+    "summary": "",
+    "published_at": "2026-08-24T01:01:20+00:00",
+    "collected_at": "2026-08-25T06:42:03.342594+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
     "scored_by": "lexique"
   },
   {
@@ -17529,6 +17677,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "ca653d7add91c9a5291d4db6",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Pfizer vs. Johnson & Johnson: Which Pharma Giant Is Better Prepared for Its Patent Cliff?",
+    "url": "https://finance.yahoo.com/healthcare/articles/pfizer-vs-johnson-johnson-pharma-004627834.html",
+    "summary": "",
+    "published_at": "2026-08-24T00:46:27+00:00",
+    "collected_at": "2026-08-25T06:42:03.342594+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "12797028dbd6f35ce5e88fd2",
     "source": "investing_com",
     "tier": 3,
@@ -17569,6 +17743,140 @@
     "summary": "",
     "published_at": "2026-08-24T00:36:34+00:00",
     "collected_at": "2026-08-24T01:08:31.692274+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4dcf526fcd3e16c20a9a5f3a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Duos Technologies’ AI Transformation Has Wall Street’s Attention. Here’s How Big This $300 Million Market Cap Company Could Get.",
+    "url": "https://finance.yahoo.com/technology/ai/articles/duos-technologies-ai-transformation-wall-003513372.html",
+    "summary": "",
+    "published_at": "2026-08-24T00:35:13+00:00",
+    "collected_at": "2026-08-25T06:42:03.342594+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "466acdc5fde2cb5be51f1eef",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Zoetis Wins Emergency Authorization for Simparica Trio, Can It Support a Slowing U.S. Business?",
+    "url": "https://finance.yahoo.com/healthcare/articles/zoetis-wins-emergency-authorization-simparica-002957471.html",
+    "summary": "",
+    "published_at": "2026-08-24T00:29:57+00:00",
+    "collected_at": "2026-08-25T06:42:03.342594+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "597a1fb964f42c09bc4ad49b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Samsung Electronics shares skid as record shareholder returns disappoint",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-shares-fall-shareholder-001849405.html",
+    "summary": "",
+    "published_at": "2026-08-24T00:18:49+00:00",
+    "collected_at": "2026-08-25T06:42:03.342594+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "05d91291592c8467ec28108d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Gilead’s Core Business Is Accelerating, But Will Its $11 Billion Pipeline Bet Pay Off?",
+    "url": "https://finance.yahoo.com/healthcare/articles/gilead-core-business-accelerating-11-001115346.html",
+    "summary": "",
+    "published_at": "2026-08-24T00:11:15+00:00",
+    "collected_at": "2026-08-25T06:42:03.342594+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dcfdb4414c9e146f062dd49d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AstraZeneca’s Earnings Beat Shows Momentum, But Can its Pipeline Deliver $80 Billion in Revenue?",
+    "url": "https://finance.yahoo.com/healthcare/articles/astrazeneca-earnings-beat-shows-momentum-235417335.html",
+    "summary": "",
+    "published_at": "2026-08-23T23:54:17+00:00",
+    "collected_at": "2026-08-25T06:42:03.342594+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
