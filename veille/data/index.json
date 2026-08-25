@@ -1,10 +1,10 @@
 {
   "2026-08-25": {
-    "articles_count": 88,
-    "signal_count": 19,
+    "articles_count": 121,
+    "signal_count": 27,
     "tone_cb": null,
-    "tone_global": 0.16,
-    "regul_crypto": 0.6,
+    "tone_global": 0.0893,
+    "regul_crypto": 0.0,
     "stress": 0.0,
     "top": [
       {
@@ -24,33 +24,33 @@
         "url": "https://www.investing.com/news/company-news/gunsynd-announces-drilling-program-at-eagle-lake-gold-project-93CH-4874629"
       },
       {
+        "id": "62374f81dc2186fcf765307d",
+        "title": "U.S. widens Iran crackdown to encompass crypto, gold, shipping and technology",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.coindesk.com/policy/2026/08/25/u-s-widens-iran-crackdown-to-encompass-crypto-gold-shipping-and-technology"
+      },
+      {
+        "id": "a89c3f93b8d0ae102e0eb7c7",
+        "title": "Las Vegas businessman faces 280 years in prison after $24 million crypto fraud conviction",
+        "source": "theblock",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.theblock.co/news/regulation/2026-08-25-las-vegas-businessman-24-million-crypto-fraud-412690"
+      },
+      {
         "id": "1669c21d86aead37a2214d4e",
         "title": "Live updates: Bitcoin ETFs draw a seventh straight day of inflows as the rally holds above $80,000",
         "source": "coindesk",
         "score": 0.3,
         "tone": 0.6,
         "url": "https://www.coindesk.com/business/2026/08/25/live-updates-bitcoin-etfs-draw-a-seventh-straight-day-of-inflows-as-the-rally-holds-above-usd80-000"
-      },
-      {
-        "id": "3b3a7c980912e6b430a2a469",
-        "title": "Live updates: Bitcoin ETFs draw a sixth straight day of inflows as the rally holds above $80,000",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": 0.6,
-        "url": "https://www.coindesk.com/business/2026/08/25/live-updates-bitcoin-etfs-draw-a-seventh-straight-day-of-inflows-as-the-rally-holds-above-usd80-000"
-      },
-      {
-        "id": "81ebf4aed6f81eb8b141ada5",
-        "title": "Earnings call transcript: SMG Swiss Marketplace Group H1 2026 stock jumps on strong growth",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-smg-swiss-marketplace-group-h1-2026-stock-jumps-on-strong-growth-93CH-4874655"
       }
     ]
   },
   "2026-08-24": {
-    "articles_count": 608,
+    "articles_count": 610,
     "signal_count": 86,
     "tone_cb": null,
     "tone_global": -0.01,

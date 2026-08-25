@@ -1,5 +1,799 @@
 [
   {
+    "id": "0dd9f00ec24384e7776a62c8",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "PDD Holdings’ net profit falls 12% despite revenue growth in Q2",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/pdd-holdings-net-profit-falls-092444399.html",
+    "summary": "",
+    "published_at": "2026-08-25T09:24:44+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a5e65ae22e17a8258dabf437",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SoFi vs. Sezzle: Which Fintech Stock Is the Better Buy?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/sofi-vs-sezzle-fintech-stock-092000719.html",
+    "summary": "",
+    "published_at": "2026-08-25T09:20:00+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a75f839d3bb7629bc6712991",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dollar edges higher as investors weigh Iran sanctions, Treasury buybacks",
+    "url": "https://finance.yahoo.com/news/dollar-struggles-traction-markets-weigh-013056238.html",
+    "summary": "",
+    "published_at": "2026-08-25T09:18:51+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d4aedec0a65de08156a09102",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "He once mentored Scott Bessent. Now Stanley Druckenmiller is criticizing the treasury secretary.",
+    "url": "https://www.marketwatch.com/story/he-once-mentored-scott-bessent-now-stanley-druckenmiller-is-criticizing-the-treasury-secretary-c229d410?mod=mw_rss_topstories",
+    "summary": "Treasury Secretary Scott Bessent’s recent maneuvers in the bond market have come in for some searing criticism from illustrious investor Stanley Druckenmiller — his long-time ally and mentor.",
+    "published_at": "2026-08-25T09:17:00+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4f108df659ab50e2da98aa3e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Investors shrug off US sanctions plan for Iran, bitcoin powers on",
+    "url": "https://finance.yahoo.com/markets/articles/asia-shares-fall-tech-nerves-012957160.html",
+    "summary": "",
+    "published_at": "2026-08-25T09:16:30+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d2305c0e3e8b62c2d1b1034f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "What Investors Should Know as Reddit's Chief Accounting Officer Files a New Insider Transaction",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/investors-know-reddits-chief-accounting-091510786.html",
+    "summary": "",
+    "published_at": "2026-08-25T09:15:10+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a6574e8a9c7ec1daae65295e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "TCS to acquire Porsche’s MHP subsidiary in $373m deal",
+    "url": "https://finance.yahoo.com/technology/ai/articles/tcs-acquire-porsche-mhp-subsidiary-091509912.html",
+    "summary": "",
+    "published_at": "2026-08-25T09:15:09+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1bacbe213f7e4caff7e66e14",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Am I too old for Roth conversions? I’m 84 and my wife is 77. We have $8 million saved.",
+    "url": "https://www.marketwatch.com/story/am-i-too-old-for-roth-conversions-im-84-and-my-wife-is-77-we-have-8-million-saved-fb08fccd?mod=mw_rss_topstories",
+    "summary": "“We are reluctant to pay a financial adviser 2% of assets — roughly $160,000 per year.”",
+    "published_at": "2026-08-25T09:15:00+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a54c500b850bdd41db79747f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Kroger partners with Instacart on combined delivery service",
+    "url": "https://finance.yahoo.com/healthcare/articles/kroger-partners-instacart-combined-delivery-091346798.html",
+    "summary": "",
+    "published_at": "2026-08-25T09:13:46+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f1b68628024e4c9375314d59",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin has just wiped out three months of losses in 1 week",
+    "url": "https://finance.yahoo.com/markets/crypto/article/bitcoin-has-just-wiped-out-three-months-of-losses-in-1-week-091208677.html",
+    "summary": "",
+    "published_at": "2026-08-25T09:12:08+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b9e652546d27ce5f22f5dfc2",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Hedge funds cut Asia tech holdings in second-largest selloff",
+    "url": "https://www.investing.com/news/stock-market-news/hedge-funds-cut-asia-tech-holdings-in-secondlargest-selloff-93CH-4874729",
+    "summary": "",
+    "published_at": "2026-08-25T09:09:15+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dc6bfc768df8060b8afdc1e9",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is Chesnara stock surging today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-chesnara-stock-surging-today-93CH-4874727",
+    "summary": "",
+    "published_at": "2026-08-25T09:09:03+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a18c4577ce7768ea79e7a546",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Prediction: Marvell Technology Stock Could Go Parabolic After Its Next Custom Chip Deal. Here's Why.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-marvell-technology-stock-could-090900238.html",
+    "summary": "",
+    "published_at": "2026-08-25T09:09:00+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "127532ce118bf9999170131c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Citizens reiterates Uber stock rating on Waymo data analysis",
+    "url": "https://www.investing.com/news/analyst-ratings/citizens-reiterates-uber-stock-rating-on-waymo-data-analysis-93CH-4874724",
+    "summary": "",
+    "published_at": "2026-08-25T09:08:51+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ae084bb9b53873a7a05be448",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nvidia Stock Is a Screaming Buy Before Aug. 26, According to Wall Street",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-screaming-buy-aug-090800607.html",
+    "summary": "",
+    "published_at": "2026-08-25T09:08:00+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "970cdfae6793b994a347c133",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "QleanAir Q2 2026 slides: FX masks underlying growth momentum",
+    "url": "https://www.investing.com/news/company-news/qleanair-q2-2026-slides-fx-masks-underlying-growth-momentum-93CH-4874722",
+    "summary": "",
+    "published_at": "2026-08-25T09:08:00+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a7df100d3f4d68246b0c41d5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "US lawmakers question Health Secretary Kennedy on vaccine settlement disclosures",
+    "url": "https://www.investing.com/news/stock-market-news/us-lawmakers-question-health-secretary-kennedy-on-vaccine-settlement-disclosures-4874720",
+    "summary": "",
+    "published_at": "2026-08-25T09:06:27+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "faf59235c28147e092ee5d70",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Volex shares surge nearly 21% on strong trading, upgraded profit outlook",
+    "url": "https://www.investing.com/news/earnings/volex-shares-surge-nearly-21-on-strong-trading-upgraded-profit-outlook-4874710",
+    "summary": "",
+    "published_at": "2026-08-25T09:04:05+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "eff3488d541a791717c6030a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Billionaire Stanley Druckenmiller Continues to Load Up on Revolution Medicines. Does He Know Something Wall Street Doesn't?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-stanley-druckenmiller-continues-load-090400080.html",
+    "summary": "",
+    "published_at": "2026-08-25T09:04:00+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "07b9521293098613d12e30c2",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "A Data Center Developer Paid Him $75,000 to Keep His Farm Available. Social Security Did Not Treat the Option Check as Farm Earnings.",
+    "url": "https://finance.yahoo.com/small-business/articles/data-center-developer-paid-him-090313136.html",
+    "summary": "",
+    "published_at": "2026-08-25T09:03:13+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "94a07087415b206369a728bf",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "At 62, He Put a 1915 Harley in His IRA. The Tax Risk Started Before the Engine Did.",
+    "url": "https://finance.yahoo.com/markets/options/articles/62-put-1915-harley-ira-090310174.html",
+    "summary": "",
+    "published_at": "2026-08-25T09:03:10+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3afc89edcb889e6bd2f22210",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Gift Nifty 50 tests $24,140 support amid bearish squeeze: Live",
+    "url": "https://www.investing.com/news/stock-market-news/gift-nifty-50-hits-major-resistance-cluster-live-levels-93CH-4872604",
+    "summary": "",
+    "published_at": "2026-08-25T09:03:10+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5fac0b2d79d5a40e94fc0b51",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Wolfe Research upgrades Bread Financial stock rating on growth outlook",
+    "url": "https://www.investing.com/news/analyst-ratings/wolfe-research-upgrades-bread-financial-stock-rating-on-growth-outlook-93CH-4874705",
+    "summary": "",
+    "published_at": "2026-08-25T09:02:52+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fd15a4bbf39ceebcd1895440",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Citizens reiterates Four Corners Property Trust stock rating on acquisition momentum",
+    "url": "https://www.investing.com/news/analyst-ratings/citizens-reiterates-four-corners-property-trust-stock-rating-on-acquisition-momentum-93CH-4874703",
+    "summary": "",
+    "published_at": "2026-08-25T09:02:51+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6abd6842498aa0c9790fe586",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Wolfe Research downgrades Klarna stock rating on visibility concerns",
+    "url": "https://www.investing.com/news/analyst-ratings/wolfe-research-downgrades-klarna-stock-rating-on-visibility-concerns-93CH-4874704",
+    "summary": "",
+    "published_at": "2026-08-25T09:02:51+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c892d60b9f2c5083b8a95b86",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "In US-Canada trade spat, Washington left out a key lever: Canadian oil",
+    "url": "https://finance.yahoo.com/energy/article/in-us-canada-trade-spat-washington-left-out-a-key-lever-canadian-oil-090000999.html",
+    "summary": "",
+    "published_at": "2026-08-25T09:00:00+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a79770896b68bb1607a860a5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "RTO mandates for S&P 500 companies have no effect on stock performance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/rto-mandates-p-500-companies-090000532.html",
+    "summary": "",
+    "published_at": "2026-08-25T09:00:00+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "20e772b96ac42803a77517d9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Reddit's Chief Legal Officer Reported a Disposition as AI Legal Battle Drags On. Here's What to Make of It",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/reddits-chief-legal-officer-reported-085842239.html",
+    "summary": "",
+    "published_at": "2026-08-25T08:58:42+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "62374f81dc2186fcf765307d",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "U.S. widens Iran crackdown to encompass crypto, gold, shipping and technology",
+    "url": "https://www.coindesk.com/policy/2026/08/25/u-s-widens-iran-crackdown-to-encompass-crypto-gold-shipping-and-technology",
+    "summary": "",
+    "published_at": "2026-08-25T08:47:18+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
     "id": "79bc53772408782548787b90",
     "source": "nikkei_asia",
     "tier": 3,
@@ -324,6 +1118,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "57a06bd10624474fda584716",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Stock market today: S&P 500, Nasdaq futures recover in countdown to Nvidia earnings, Fed Jackson Hole summit",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-25-dow-sp-500-nasdaq-080527092.html",
+    "summary": "",
+    "published_at": "2026-08-25T08:05:27+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "c54013e2037d5bb09304318e",
     "source": "marketwatch",
     "tier": 3,
@@ -382,6 +1206,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "77833e5558dae4ce0eb96bb6",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Melrose shares climb on Garden Grove plant reopening timeline",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/melrose-shares-climb-garden-grove-075648142.html",
+    "summary": "",
+    "published_at": "2026-08-25T07:56:48+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b54327adfbb67896f56f14d0",
     "source": "coindesk",
     "tier": 3,
@@ -405,6 +1255,40 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a89c3f93b8d0ae102e0eb7c7",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Las Vegas businessman faces 280 years in prison after $24 million crypto fraud conviction",
+    "url": "https://www.theblock.co/news/regulation/2026-08-25-las-vegas-businessman-24-million-crypto-fraud-412690",
+    "summary": "A federal jury convicted Las Vegas businessman Brent Kovar in a $24 million cryptocurrency scheme involving at least 400 investors.",
+    "published_at": "2026-08-25T07:53:23+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": -0.6,
     "scored_by": "lexique"
   },
   {
@@ -796,6 +1680,38 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ee7adfabba138b8e4976dd74",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Stablecoin card spending forecast to hit $50 billion a year by 2028 - RedotPay",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/stablecoin-card-spending-forecast-hit-070656894.html",
+    "summary": "",
+    "published_at": "2026-08-25T07:06:56+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
@@ -2424,6 +3340,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "137419270f781542f873c4eb",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AI Cloud Provider Lambda in Talks for $3 Billion Pre-IPO Round",
+    "url": "https://finance.yahoo.com/technology/ai/articles/ai-cloud-provider-lambda-in-talks-for-3-billion-pre-ipo-round-234205946.html",
+    "summary": "",
+    "published_at": "2026-08-24T23:42:05+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "89f55c2f2d8c5b6dd6b29cd0",
     "source": "nikkei_asia",
     "tier": 3,
@@ -3940,6 +4882,32 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b07323296da0ab05c8db4ed6",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nvidia's valuation looks surprisingly cheap heading into earnings. Could it be an issue for the stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/article/nvidias-valuation-looks-surprisingly-cheap-heading-into-earnings-could-it-be-an-issue-for-the-stock-191738544.html",
+    "summary": "",
+    "published_at": "2026-08-24T19:17:38+00:00",
+    "collected_at": "2026-08-25T09:33:06.053664+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
