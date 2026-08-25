@@ -1,12 +1,20 @@
 {
   "2026-08-25": {
-    "articles_count": 24,
-    "signal_count": 7,
+    "articles_count": 35,
+    "signal_count": 8,
     "tone_cb": null,
-    "tone_global": 0.3571,
+    "tone_global": 0.25,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "66935608022c24867f287ba5",
+        "title": "US scrutiny deters some Chinese tariff refund claims as others cash in",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/us-scrutiny-deters-some-chinese-tariff-refund-claims-as-others-cash-in"
+      },
       {
         "id": "84228015e55f4d442ca0b754",
         "title": "Bitcoin hits $80,000 for the first time since May as crypto recovery accelerates",
@@ -38,14 +46,6 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.investing.com/news/company-news/scentre-group-h1-2026-slides-record-traffic-drives-earnings-upgrade-93CH-4874337"
-      },
-      {
-        "id": "540779e32b55d2548ea09ba7",
-        "title": "Beforepay FY26 slides: profit surges 57% on loan growth",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/company-news/beforepay-fy26-slides-profit-surges-57-on-loan-growth-93CH-4874334"
       }
     ]
   },
@@ -100,10 +100,10 @@
     ]
   },
   "2026-08-23": {
-    "articles_count": 328,
-    "signal_count": 36,
+    "articles_count": 329,
+    "signal_count": 37,
     "tone_cb": null,
-    "tone_global": 0.048,
+    "tone_global": 0.0467,
     "regul_crypto": null,
     "stress": 0.006,
     "top": [
