@@ -1,6 +1,21 @@
 {
-  "updated_at": "2026-08-24T14:39:41.937830+00:00",
-  "pending": [],
+  "updated_at": "2026-08-25T02:56:57.554553+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:cac40:haussiere->indecise:2026-08-25",
+      "title": "CAC 40 : tendance sans direction nette",
+      "body": "CAC 40 passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-08-25.",
+      "kind": "tendance",
+      "detected_at": "2026-08-25T02:56:57.554492+00:00"
+    },
+    {
+      "fingerprint": "trend:hangseng:haussiere->indecise:2026-08-25",
+      "title": "Hang Seng : tendance sans direction nette",
+      "body": "Hang Seng passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-08-25.",
+      "kind": "tendance",
+      "detected_at": "2026-08-25T02:56:57.554507+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -35,7 +50,9 @@
     "trend:hangseng:indecise->haussiere:2026-08-22",
     "trend:hangseng:haussiere->indecise:2026-08-24",
     "trend:cac40:haussiere->indecise:2026-08-24",
-    "trend:nasdaq:haussiere->indecise:2026-08-24"
+    "trend:nasdaq:haussiere->indecise:2026-08-24",
+    "trend:cac40:haussiere->indecise:2026-08-25",
+    "trend:hangseng:haussiere->indecise:2026-08-25"
   ],
   "extremes_active": []
 }

@@ -1,12 +1,20 @@
 {
   "2026-08-25": {
-    "articles_count": 10,
-    "signal_count": 5,
+    "articles_count": 24,
+    "signal_count": 7,
     "tone_cb": null,
-    "tone_global": 0.4,
+    "tone_global": 0.3571,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "84228015e55f4d442ca0b754",
+        "title": "Bitcoin hits $80,000 for the first time since May as crypto recovery accelerates",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.coindesk.com/markets/2026/08/24/bitcoin-hits-usd80-000-for-the-first-time-since-may-as-crypto-recovery-accelerates"
+      },
       {
         "id": "3b695c6a0b3c4419f2ce11dd",
         "title": "Earnings call transcript: Australian Ethical posts strong FY 2026 growth, shares jump 13%",
@@ -38,14 +46,6 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.investing.com/news/company-news/beforepay-fy26-slides-profit-surges-57-on-loan-growth-93CH-4874334"
-      },
-      {
-        "id": "c83ff3ae7e97137454e0ff4d",
-        "title": "Earnings call transcript: Abacus Group posts steady H2 2026 amid reset",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-abacus-group-posts-steady-h2-2026-amid-reset-93CH-4874342"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-23": {
-    "articles_count": 324,
+    "articles_count": 328,
     "signal_count": 36,
     "tone_cb": null,
     "tone_global": 0.048,
     "regul_crypto": null,
-    "stress": 0.0061,
+    "stress": 0.006,
     "top": [
       {
         "id": "00b4fa8f13f35aec68e5b997",
