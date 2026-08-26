@@ -1,12 +1,28 @@
 {
   "2026-08-26": {
-    "articles_count": 22,
-    "signal_count": 2,
+    "articles_count": 36,
+    "signal_count": 3,
     "tone_cb": null,
-    "tone_global": 0.0,
+    "tone_global": 0.1667,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "4f350c83bc57ac08aecb2819",
+        "title": "Australian Indigenous group appeals compensation ruling over Fortescue’s mining impact",
+        "source": "investing_com",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/stock-market-news/australian-indigenous-group-appeals-compensation-ruling-over-fortescues-mining-impact-4876243"
+      },
+      {
+        "id": "e85ccbb797dde30e1a2144f9",
+        "title": "Laopu Gold stresses bright outlook and global plans as growth slows",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/business/retail/laopu-gold-stresses-bright-outlook-and-global-plans-as-growth-slows"
+      },
       {
         "id": "0baaef63cfe75e3e9776f975",
         "title": "Australia inflation runs hot in July, adding to rate hike risk",
@@ -24,28 +40,12 @@
         "url": "https://www.investing.com/news/company-news/woolworths-fy2026-slides-profit-surges-127-ai-drives-growth-93CH-4876214"
       },
       {
-        "id": "0c01507b325984b445d3fc73",
-        "title": "South Korean police scandals test Lee's justice reforms",
+        "id": "201d03d251c384e981d5ccd1",
+        "title": "Japan finance minister calls for investment from Australia",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/politics/south-korean-police-scandals-test-lee-s-justice-reforms"
-      },
-      {
-        "id": "cf58db9b42ccf19d4cca4624",
-        "title": "Huawei licenses key Wi-Fi tech to HP ahead of Trump-Xi meeting",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/china-tech/huawei-licenses-key-wi-fi-tech-to-hp-ahead-of-trump-xi-meeting"
-      },
-      {
-        "id": "9c1b69790e93a3b873caed9f",
-        "title": "Earnings call transcript: FWD Group posts record H1 2026 profit as shares rise 6.6%",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-fwd-group-posts-record-h1-2026-profit-as-shares-rise-66-93CH-4876217"
+        "url": "https://asia.nikkei.com/politics/international-relations/japan-finance-minister-calls-for-investment-from-australia"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-24": {
-    "articles_count": 760,
-    "signal_count": 110,
+    "articles_count": 784,
+    "signal_count": 113,
     "tone_cb": -0.7836,
-    "tone_global": -0.032,
+    "tone_global": -0.027,
     "regul_crypto": 0.12,
-    "stress": 0.0091,
+    "stress": 0.0088,
     "top": [
       {
         "id": "041ed217b60e16a17191507f",
