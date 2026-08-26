@@ -1,9 +1,9 @@
 {
   "2026-08-26": {
-    "articles_count": 63,
-    "signal_count": 8,
+    "articles_count": 73,
+    "signal_count": 10,
     "tone_cb": null,
-    "tone_global": 0.125,
+    "tone_global": 0.225,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
@@ -24,28 +24,28 @@
         "url": "https://www.investing.com/news/stock-market-news/australian-indigenous-group-appeals-compensation-ruling-over-fortescues-mining-impact-4876243"
       },
       {
+        "id": "fe76fde2a06e6cf25792a261",
+        "title": "SoftwareOne shares rise 9% on strong H1 growth, margin expansion",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.75,
+        "url": "https://www.investing.com/news/earnings/softwareone-shares-rise-9-on-strong-h1-growth-margin-expansion-4876405"
+      },
+      {
+        "id": "7f6537ba342e5b57a4479f38",
+        "title": "Nordic Aqua Q2 2026 slides: record harvest, China growth accelerate",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/company-news/nordic-aqua-q2-2026-slides-record-harvest-china-growth-accelerate-93CH-4876406"
+      },
+      {
         "id": "f22db9526f545fef9bf59ba0",
         "title": "Geopolitical risks bring out our strengths: Mitsubishi Corp. chief",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": -0.5,
         "url": "https://asia.nikkei.com/editor-s-picks/interview/geopolitical-risks-bring-out-our-strengths-mitsubishi-corp.-chief"
-      },
-      {
-        "id": "4e26177382b5aca4760b2374",
-        "title": "Bitcoin falls to $79k as rebound rally cools ahead of U.S. inflation data",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-to-79k-as-rebound-rally-cools-ahead-of-us-inflation-data-4876359"
-      },
-      {
-        "id": "4c7c77530613f13ed90a8bba",
-        "title": "Asian stocks rebound as oil slide eases inflation fears ahead of Nvidia results",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/stock-market-news/asian-stocks-rebound-as-oil-slides-nvidia-earnings-loom-thai-rate-decision-due-4876256"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-24": {
-    "articles_count": 843,
+    "articles_count": 862,
     "signal_count": 121,
     "tone_cb": -0.7836,
     "tone_global": -0.0468,
     "regul_crypto": 0.12,
-    "stress": 0.0094,
+    "stress": 0.0092,
     "top": [
       {
         "id": "041ed217b60e16a17191507f",
