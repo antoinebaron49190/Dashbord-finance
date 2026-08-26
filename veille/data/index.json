@@ -1,12 +1,20 @@
 {
   "2026-08-26": {
-    "articles_count": 49,
-    "signal_count": 5,
+    "articles_count": 63,
+    "signal_count": 8,
     "tone_cb": null,
-    "tone_global": 0.1,
+    "tone_global": 0.125,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "ee1b5b8d262ed12e11451ca5",
+        "title": "Japan to work on blockchain-based stock settlement system, details expected early 2027: Nikkei",
+        "source": "theblock",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.theblock.co/news/regulation/2026-08-26-japan-blockchain-stock-settlement-system-412755"
+      },
       {
         "id": "4f350c83bc57ac08aecb2819",
         "title": "Australian Indigenous group appeals compensation ruling over Fortescue’s mining impact",
@@ -16,36 +24,28 @@
         "url": "https://www.investing.com/news/stock-market-news/australian-indigenous-group-appeals-compensation-ruling-over-fortescues-mining-impact-4876243"
       },
       {
-        "id": "2d4cc6177b01e6206edf4a2b",
-        "title": "As war strands Qatari gas for 6 months, US sales rise and European stocks plummet",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/stock-market-news/as-war-strands-qatari-gas-for-6-months-us-sales-rise-and-european-stocks-plummet-4876264"
-      },
-      {
-        "id": "3e9043e2acbbd93c136d6762",
-        "title": "Indonesia’s Destry says she will back growth policies if confirmed as central bank chief",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/economy-news/indonesias-destry-says-she-will-back-growth-policies-if-confirmed-as-central-bank-chief-4876260"
-      },
-      {
-        "id": "e85ccbb797dde30e1a2144f9",
-        "title": "Laopu Gold stresses bright outlook and global plans as growth slows",
+        "id": "f22db9526f545fef9bf59ba0",
+        "title": "Geopolitical risks bring out our strengths: Mitsubishi Corp. chief",
         "source": "nikkei_asia",
         "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/business/retail/laopu-gold-stresses-bright-outlook-and-global-plans-as-growth-slows"
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/editor-s-picks/interview/geopolitical-risks-bring-out-our-strengths-mitsubishi-corp.-chief"
       },
       {
-        "id": "0baaef63cfe75e3e9776f975",
-        "title": "Australia inflation runs hot in July, adding to rate hike risk",
+        "id": "4e26177382b5aca4760b2374",
+        "title": "Bitcoin falls to $79k as rebound rally cools ahead of U.S. inflation data",
         "source": "investing_com",
         "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/australia-inflation-tops-forecasts-in-july-adds-to-rate-risk-4876166"
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-falls-to-79k-as-rebound-rally-cools-ahead-of-us-inflation-data-4876359"
+      },
+      {
+        "id": "4c7c77530613f13ed90a8bba",
+        "title": "Asian stocks rebound as oil slide eases inflation fears ahead of Nvidia results",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/stock-market-news/asian-stocks-rebound-as-oil-slides-nvidia-earnings-loom-thai-rate-decision-due-4876256"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-24": {
-    "articles_count": 812,
-    "signal_count": 116,
+    "articles_count": 843,
+    "signal_count": 121,
     "tone_cb": -0.7836,
-    "tone_global": -0.0277,
+    "tone_global": -0.0468,
     "regul_crypto": 0.12,
-    "stress": 0.0085,
+    "stress": 0.0094,
     "top": [
       {
         "id": "041ed217b60e16a17191507f",
