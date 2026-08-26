@@ -1,5 +1,327 @@
 [
   {
+    "id": "0c01507b325984b445d3fc73",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "South Korean police scandals test Lee's justice reforms",
+    "url": "https://asia.nikkei.com/politics/south-korean-police-scandals-test-lee-s-justice-reforms",
+    "summary": "",
+    "published_at": "2026-08-26T03:02:26.901964+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cf58db9b42ccf19d4cca4624",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Huawei licenses key Wi-Fi tech to HP ahead of Trump-Xi meeting",
+    "url": "https://asia.nikkei.com/business/china-tech/huawei-licenses-key-wi-fi-tech-to-hp-ahead-of-trump-xi-meeting",
+    "summary": "",
+    "published_at": "2026-08-26T03:02:26.901964+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0baaef63cfe75e3e9776f975",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Australia inflation runs hot in July, adding to rate hike risk",
+    "url": "https://www.investing.com/news/economy-news/australia-inflation-tops-forecasts-in-july-adds-to-rate-risk-4876166",
+    "summary": "",
+    "published_at": "2026-08-26T02:43:12+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9c1b69790e93a3b873caed9f",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: FWD Group posts record H1 2026 profit as shares rise 6.6%",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-fwd-group-posts-record-h1-2026-profit-as-shares-rise-66-93CH-4876217",
+    "summary": "",
+    "published_at": "2026-08-26T02:43:01+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "62251b912445272c67757c36",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "BOJ chief Ueda to skip Jackson Hole, shifts market focus to G20",
+    "url": "https://www.investing.com/news/economy-news/boj-chief-ueda-to-skip-jackson-hole-shifts-market-focus-to-g20-4876207",
+    "summary": "",
+    "published_at": "2026-08-26T02:42:55+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c71e7631551a011216a14862",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Ingenia posts strong H2 2026 but shares fall",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-ingenia-posts-strong-h2-2026-but-shares-fall-93CH-4876216",
+    "summary": "",
+    "published_at": "2026-08-26T02:42:30+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a2273ecbf1e5cc077d3581e2",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Duratec posts higher profit in H2 2026 on record backlog",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-duratec-posts-higher-profit-in-h2-2026-on-record-backlog-93CH-4876215",
+    "summary": "",
+    "published_at": "2026-08-26T02:41:36+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "62419d54f9f36bbd1a84cb0a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Woolworths FY2026 slides: profit surges 12.7%, AI drives growth",
+    "url": "https://www.investing.com/news/company-news/woolworths-fy2026-slides-profit-surges-127-ai-drives-growth-93CH-4876214",
+    "summary": "",
+    "published_at": "2026-08-26T02:35:15+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2f4e2de32b20129518ebb862",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Symbotic CTO James Kuffner sells $160,421 in stock",
+    "url": "https://www.investing.com/news/insider-trading-news/symbotic-cto-james-kuffner-sells-160421-in-stock-93CH-4876213",
+    "summary": "",
+    "published_at": "2026-08-26T02:32:32+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dfdaf8bbbd893f062c78019a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Helloworld FY26 slides: EBITDA rises 8% despite Middle East disruption",
+    "url": "https://www.investing.com/news/company-news/helloworld-fy26-slides-ebitda-rises-8-despite-middle-east-disruption-93CH-4876212",
+    "summary": "",
+    "published_at": "2026-08-26T02:32:10+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8a4c8ab40ed1e539796c5ea6",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Helloworld FY26 slides: EBITDA rises 8% despite Middle East shock",
+    "url": "https://www.investing.com/news/company-news/helloworld-fy26-slides-ebitda-rises-8-despite-middle-east-shock-93CH-4876211",
+    "summary": "",
+    "published_at": "2026-08-26T02:31:42+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9cdf92620199dd8ad22a5b97",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Asian stocks hesitant before Nvidia, oil slips on Hormuz hopes",
+    "url": "https://www.investing.com/news/stock-market-news/asian-stocks-hesitant-before-nvidia-oil-slips-on-hormuz-hopes-4876210",
+    "summary": "",
+    "published_at": "2026-08-26T02:25:18+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "8a5383080c94a4d887ada048",
     "source": "investing_com",
     "tier": 3,
@@ -19229,6 +19551,34 @@
     "scored_by": "lexique"
   },
   {
+    "id": "a54ae095acc99138cacff9c5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Blue-Chip Visa Stock Just Hit a New All-Time High",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/blue-chip-visa-stock-just-163502197.html",
+    "summary": "",
+    "published_at": "2026-08-24T16:35:02+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "4b5abeb716af0c6e17b6b57a",
     "source": "yahoo_finance",
     "tier": 3,
@@ -19547,6 +19897,36 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cf10aad11b8b1191f9d7b192",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Do Wall Street Analysts Like The Trade Desk Stock?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-trade-desk-160841144.html",
+    "summary": "",
+    "published_at": "2026-08-24T16:08:41+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -20705,6 +21085,38 @@
     "scored_by": "lexique"
   },
   {
+    "id": "36bc524c28de40d3abebae62",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "1 New Way to Invest in Cryptocurrency That Could Turn Your Crypto Portfolio Around in 2026",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/1-way-invest-cryptocurrency-could-152500940.html",
+    "summary": "",
+    "published_at": "2026-08-24T15:25:00+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "84c458cab65e276cbeb61a2c",
     "source": "yahoo_finance",
     "tier": 3,
@@ -21620,6 +22032,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "e3842b42cb3e2539905cab59",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin hashprice nears $40 as forward market holds above $35 into January",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-hashprice-nears-40-forward-150038646.html",
+    "summary": "",
+    "published_at": "2026-08-24T15:00:38+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "0efdded7bd704c8ab42b4f03",
     "source": "yahoo_finance",
     "tier": 3,
@@ -21692,6 +22134,32 @@
     "summary": "",
     "published_at": "2026-08-24T14:59:56+00:00",
     "collected_at": "2026-08-24T15:36:56.415762+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0d056c297dc510f698234375",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Global Bond Yields Fall on Declining Oil, Prospects of Further Treasury Action",
+    "url": "https://www.wsj.com/finance/investing/global-bond-yields-fall-on-declining-oil-prospects-of-further-treasury-steps-to-tackle-recent-highs-d3794894?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-24T14:59:00+00:00",
+    "collected_at": "2026-08-26T03:02:26.901964+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
