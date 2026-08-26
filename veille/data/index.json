@@ -1,11 +1,11 @@
 {
   "2026-08-26": {
-    "articles_count": 178,
-    "signal_count": 20,
+    "articles_count": 227,
+    "signal_count": 25,
     "tone_cb": null,
-    "tone_global": 0.1875,
+    "tone_global": 0.126,
     "regul_crypto": null,
-    "stress": 0.0,
+    "stress": 0.0043,
     "top": [
       {
         "id": "83fe60e606526a73ca0b617a",
@@ -24,6 +24,14 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1761"
       },
       {
+        "id": "0c004191d25b7ec6cc8c6479",
+        "title": "Volition sepsis biomarker study published in medical journal",
+        "source": "investing_com",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/company-news/volition-sepsis-biomarker-study-published-in-medical-journal-93CH-4877129"
+      },
+      {
         "id": "ee1b5b8d262ed12e11451ca5",
         "title": "Japan to work on blockchain-based stock settlement system, details expected early 2027: Nikkei",
         "source": "theblock",
@@ -38,19 +46,11 @@
         "score": 0.45,
         "tone": 0.0,
         "url": "https://www.investing.com/news/stock-market-news/australian-indigenous-group-appeals-compensation-ruling-over-fortescues-mining-impact-4876243"
-      },
-      {
-        "id": "fe76fde2a06e6cf25792a261",
-        "title": "SoftwareOne shares rise 9% on strong H1 growth, margin expansion",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.75,
-        "url": "https://www.investing.com/news/earnings/softwareone-shares-rise-9-on-strong-h1-growth-margin-expansion-4876405"
       }
     ]
   },
   "2026-08-25": {
-    "articles_count": 596,
+    "articles_count": 597,
     "signal_count": 88,
     "tone_cb": null,
     "tone_global": 0.0609,
