@@ -1,9 +1,9 @@
 {
   "2026-08-26": {
-    "articles_count": 73,
-    "signal_count": 10,
+    "articles_count": 87,
+    "signal_count": 11,
     "tone_cb": null,
-    "tone_global": 0.225,
+    "tone_global": 0.25,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
@@ -32,30 +32,30 @@
         "url": "https://www.investing.com/news/earnings/softwareone-shares-rise-9-on-strong-h1-growth-margin-expansion-4876405"
       },
       {
+        "id": "d8097deb8a997b5c50116b08",
+        "title": "Earnings call transcript: BioArctic Q2 2026 revenue growth offsets softer profit",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-bioarctic-q2-2026-revenue-growth-offsets-softer-profit-93CH-4876460"
+      },
+      {
         "id": "7f6537ba342e5b57a4479f38",
         "title": "Nordic Aqua Q2 2026 slides: record harvest, China growth accelerate",
         "source": "investing_com",
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.investing.com/news/company-news/nordic-aqua-q2-2026-slides-record-harvest-china-growth-accelerate-93CH-4876406"
-      },
-      {
-        "id": "f22db9526f545fef9bf59ba0",
-        "title": "Geopolitical risks bring out our strengths: Mitsubishi Corp. chief",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/editor-s-picks/interview/geopolitical-risks-bring-out-our-strengths-mitsubishi-corp.-chief"
       }
     ]
   },
   "2026-08-25": {
-    "articles_count": 579,
+    "articles_count": 580,
     "signal_count": 83,
     "tone_cb": null,
     "tone_global": 0.054,
     "regul_crypto": 0.12,
-    "stress": 0.0034,
+    "stress": 0.0033,
     "top": [
       {
         "id": "eba2b27ea332ede3e720c009",
@@ -74,6 +74,14 @@
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260825a.htm"
       },
       {
+        "id": "c2a7b18fd503ffb3206281c5",
+        "title": "Commission sends Statement of Objections over proposed joint venture between UPM and Sappi",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1747"
+      },
+      {
         "id": "9c3032cf13920428203cad3a",
         "title": "Opening address by Commissioner Šuica on the \"Current Issues in the European Union and the Priorities of the Republic of Croatia” at the Conference of Ambassadors, Consuls General, Consuls and Military Attachés of the Republic of Croatia",
         "source": "ec_press",
@@ -88,24 +96,16 @@
         "score": 0.6,
         "tone": -0.5,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1756"
-      },
-      {
-        "id": "47f925f97d8878750691f706",
-        "title": "Visite dans les Hautes Fagnes",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/fr/speech_26_1758"
       }
     ]
   },
   "2026-08-24": {
-    "articles_count": 862,
-    "signal_count": 121,
+    "articles_count": 886,
+    "signal_count": 122,
     "tone_cb": -0.7836,
-    "tone_global": -0.0468,
+    "tone_global": -0.0503,
     "regul_crypto": 0.12,
-    "stress": 0.0092,
+    "stress": 0.0089,
     "top": [
       {
         "id": "041ed217b60e16a17191507f",
@@ -3292,7 +3292,7 @@
     ]
   },
   "2026-05-28": {
-    "articles_count": 5,
+    "articles_count": 4,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
@@ -3306,14 +3306,6 @@
         "score": 0.9,
         "tone": 0.0,
         "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-publie-son-rapport-annuel-2025#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "fa8cdb6715dc695ac458ed2c",
-        "title": "Décision relative aux modifications des règles de fonctionnement du système multilatéral de négociation (SMN) Aquis Exchange Europe, concernant le lancement d’une seconde phase d’enchère de clôture « MaC + », la création d’un type d’ordre « au marché »...",
-        "source": "amf_news",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/reglementation/regles-professionnelles-approuvees/decision-relative-aux-modifications-des-regles-de-fonctionnement-du-systeme-multilateral-de-0#xts=607212&xtor=RSS-3&type=RSS"
       },
       {
         "id": "93fde234dc682a901258ebae",
