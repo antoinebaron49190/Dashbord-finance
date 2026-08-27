@@ -1,11 +1,61 @@
 {
-  "2026-08-26": {
-    "articles_count": 402,
-    "signal_count": 47,
+  "2026-08-27": {
+    "articles_count": 19,
+    "signal_count": 3,
     "tone_cb": null,
-    "tone_global": 0.1259,
+    "tone_global": 0.0,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "a0c44c8a88640ad4d0efb274",
+        "title": "test270826",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/test-folder/test270826"
+      },
+      {
+        "id": "f0d9e4711cd6e5ea7ddac008",
+        "title": "Speech by Deputy Governor HIMINO in Saitama (Japan's Economy and Monetary Policy)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko260827a.htm"
+      },
+      {
+        "id": "8abb6c6edc5ef8fd58ea2761",
+        "title": "Bank of Korea delivers back-to-back rate hikes to cope with inflation",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/economy/bank-of-korea-delivers-back-to-back-rate-hikes-to-cope-with-inflation"
+      },
+      {
+        "id": "99df441d460c9cdfd12acaa1",
+        "title": "First quantum-resistant Bitcoin transaction successfully executed, StarkWare says",
+        "source": "theblock",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.theblock.co/news/defi/2026-08-26-first-quantum-resistant-bitcoin-transaction-starkware-412863"
+      },
+      {
+        "id": "f5e7836bb9ab69f737ec946d",
+        "title": "Malaysian ex-PM Ismail Sabri charged with failing to declare assets",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/spotlight/society/malaysian-ex-pm-ismail-sabri-charged-with-failing-to-declare-assets"
+      }
+    ]
+  },
+  "2026-08-26": {
+    "articles_count": 405,
+    "signal_count": 48,
+    "tone_cb": null,
+    "tone_global": 0.1358,
     "regul_crypto": 0.6,
-    "stress": 0.0025,
+    "stress": 0.0024,
     "top": [
       {
         "id": "83fe60e606526a73ca0b617a",
@@ -50,12 +100,12 @@
     ]
   },
   "2026-08-25": {
-    "articles_count": 625,
-    "signal_count": 92,
+    "articles_count": 638,
+    "signal_count": 93,
     "tone_cb": null,
-    "tone_global": 0.0584,
+    "tone_global": 0.0578,
     "regul_crypto": 0.12,
-    "stress": 0.0047,
+    "stress": 0.0046,
     "top": [
       {
         "id": "eba2b27ea332ede3e720c009",
