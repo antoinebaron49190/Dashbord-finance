@@ -1,12 +1,28 @@
 {
   "2026-08-27": {
-    "articles_count": 19,
-    "signal_count": 3,
+    "articles_count": 102,
+    "signal_count": 14,
     "tone_cb": null,
-    "tone_global": 0.0,
-    "regul_crypto": null,
-    "stress": 0.0,
+    "tone_global": -0.0607,
+    "regul_crypto": 0.25,
+    "stress": 0.0083,
     "top": [
+      {
+        "id": "67f1d32ba17577e38c1c6da6",
+        "title": "Delay to the November 2026 RTGS standards release",
+        "source": "boe_news",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/august/delay-to-the-november-2026-rtgs-standards-release"
+      },
+      {
+        "id": "c9887e52e406f0120f7719d5",
+        "title": "Meeting of 22-23 July 2026",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg260827~f06c21fd54.en.html"
+      },
       {
         "id": "a0c44c8a88640ad4d0efb274",
         "title": "test270826",
@@ -24,33 +40,17 @@
         "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko260827a.htm"
       },
       {
-        "id": "8abb6c6edc5ef8fd58ea2761",
-        "title": "Bank of Korea delivers back-to-back rate hikes to cope with inflation",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/economy/bank-of-korea-delivers-back-to-back-rate-hikes-to-cope-with-inflation"
-      },
-      {
-        "id": "99df441d460c9cdfd12acaa1",
-        "title": "First quantum-resistant Bitcoin transaction successfully executed, StarkWare says",
-        "source": "theblock",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.theblock.co/news/defi/2026-08-26-first-quantum-resistant-bitcoin-transaction-starkware-412863"
-      },
-      {
-        "id": "f5e7836bb9ab69f737ec946d",
-        "title": "Malaysian ex-PM Ismail Sabri charged with failing to declare assets",
-        "source": "nikkei_asia",
-        "score": 0.3,
+        "id": "a56ced4ce504510284252926",
+        "title": "Speech by President von der Leyen at the annual conference ‘La Rencontre des Entrepreneurs de France 2026'",
+        "source": "ec_press",
+        "score": 0.6,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/society/malaysian-ex-pm-ismail-sabri-charged-with-failing-to-declare-assets"
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1765"
       }
     ]
   },
   "2026-08-26": {
-    "articles_count": 405,
+    "articles_count": 406,
     "signal_count": 48,
     "tone_cb": null,
     "tone_global": 0.1358,
@@ -64,6 +64,14 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260826~3641116314.en.html"
+      },
+      {
+        "id": "163f0ae79550390d033ab554",
+        "title": "Commission endorses Greece's €4.8 billion Social Climate Plan to support vulnerable households, transport users and micro-enterprises in the clean transition",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1762"
       },
       {
         "id": "788785d96bb2fd4d3894e508",
@@ -88,19 +96,11 @@
         "score": 0.45,
         "tone": 0.0,
         "url": "https://www.theblock.co/news/regulation/2026-08-26-japan-blockchain-stock-settlement-system-412755"
-      },
-      {
-        "id": "4f350c83bc57ac08aecb2819",
-        "title": "Australian Indigenous group appeals compensation ruling over Fortescue’s mining impact",
-        "source": "investing_com",
-        "score": 0.45,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/stock-market-news/australian-indigenous-group-appeals-compensation-ruling-over-fortescues-mining-impact-4876243"
       }
     ]
   },
   "2026-08-25": {
-    "articles_count": 638,
+    "articles_count": 639,
     "signal_count": 93,
     "tone_cb": null,
     "tone_global": 0.0578,
@@ -150,12 +150,12 @@
     ]
   },
   "2026-08-24": {
-    "articles_count": 915,
+    "articles_count": 917,
     "signal_count": 123,
     "tone_cb": -0.7836,
     "tone_global": -0.0461,
     "regul_crypto": 0.12,
-    "stress": 0.0087,
+    "stress": 0.0086,
     "top": [
       {
         "id": "041ed217b60e16a17191507f",
@@ -3316,21 +3316,13 @@
     ]
   },
   "2026-05-29": {
-    "articles_count": 2,
+    "articles_count": 1,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
-      {
-        "id": "e3882b6e0b27cb613220efc5",
-        "title": "Bowman, A Framework for Practical Monetary Policy Decision Making",
-        "source": "fed_speeches",
-        "score": 1.95,
-        "tone": 0.0,
-        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260529a.htm"
-      },
       {
         "id": "e86fe176824f819575b1e5e8",
         "title": "SEC Proposes Rescission of Climate-Related Disclosure Rules",
