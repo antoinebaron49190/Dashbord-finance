@@ -1,6 +1,56 @@
 {
+  "2026-08-28": {
+    "articles_count": 38,
+    "signal_count": 8,
+    "tone_cb": null,
+    "tone_global": 0.0784,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "e6ff30b58e6852a151603924",
+        "title": "(BOJ Review) Expanding and Revising the Application of Hedonic Quality Adjustment in the Corporate Goods Price Index",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/research/wps_rev/rev_2026/rev26e11.htm"
+      },
+      {
+        "id": "9562ad84cdde99cfb7227217",
+        "title": "L'AMF publie désormais les déclarations des dirigeants en français et en anglais",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-desormais-les-declarations-des-dirigeants-en-francais-et-en-anglais#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "90d180e8aa7d5106029c11b5",
+        "title": "XRP treasury firm Evernorth says SEC registration now effective, clearing way for Nasdaq listing",
+        "source": "theblock",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.theblock.co/news/deals/2026-08-27-evernorth-xrp-sec-effective-412981"
+      },
+      {
+        "id": "67d3210a198adb2c6edb0de6",
+        "title": "Russia’s Sberbank sees more rate cuts, higher growth this year despite Ukrainian attacks",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.6667,
+        "url": "https://www.investing.com/news/economy-news/russias-sberbank-sees-more-rate-cuts-higher-growth-this-year-despite-ukrainian-attacks-4880743"
+      },
+      {
+        "id": "91996abf44f2f2a18a3627c6",
+        "title": "Japan, South Korea and US to hold joint military drills, Seoul says",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/politics/defense/japan-south-korea-and-us-to-hold-joint-military-drills-seoul-says"
+      }
+    ]
+  },
   "2026-08-27": {
-    "articles_count": 162,
+    "articles_count": 163,
     "signal_count": 17,
     "tone_cb": 0.0,
     "tone_global": -0.009,
@@ -50,12 +100,12 @@
     ]
   },
   "2026-08-26": {
-    "articles_count": 430,
-    "signal_count": 54,
+    "articles_count": 454,
+    "signal_count": 56,
     "tone_cb": null,
-    "tone_global": 0.1503,
+    "tone_global": 0.1432,
     "regul_crypto": 0.6,
-    "stress": 0.0023,
+    "stress": 0.0043,
     "top": [
       {
         "id": "83fe60e606526a73ca0b617a",
@@ -82,20 +132,20 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1761"
       },
       {
+        "id": "a00f276631f39f56b83f620a",
+        "title": "Nvidia Announces Expanded Amazon Partnership on Earnings Call",
+        "source": "yahoo_finance",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-today-08-26-2026/card/nvidia-announces-expanded-aws-partnership-on-earnings-call-pKFoCkNGif1qSUZjVs5R?siteid=yhoof2&yptr=yahoo"
+      },
+      {
         "id": "0c004191d25b7ec6cc8c6479",
         "title": "Volition sepsis biomarker study published in medical journal",
         "source": "investing_com",
         "score": 0.45,
         "tone": 0.0,
         "url": "https://www.investing.com/news/company-news/volition-sepsis-biomarker-study-published-in-medical-journal-93CH-4877129"
-      },
-      {
-        "id": "ee1b5b8d262ed12e11451ca5",
-        "title": "Japan to work on blockchain-based stock settlement system, details expected early 2027: Nikkei",
-        "source": "theblock",
-        "score": 0.45,
-        "tone": 0.0,
-        "url": "https://www.theblock.co/news/regulation/2026-08-26-japan-blockchain-stock-settlement-system-412755"
       }
     ]
   },
