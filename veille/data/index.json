@@ -1,12 +1,28 @@
 {
   "2026-08-28": {
-    "articles_count": 38,
-    "signal_count": 8,
+    "articles_count": 107,
+    "signal_count": 13,
     "tone_cb": null,
-    "tone_global": 0.0784,
+    "tone_global": 0.0494,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "8803e9f44fe1e160b94b32f2",
+        "title": "Isabel Schnabel: Central banks on-chain",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260828~fe9afc86e8.en.html"
+      },
+      {
+        "id": "9131df86a028c865c83b4411",
+        "title": "Warsh, In Our Time",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
+      },
       {
         "id": "e6ff30b58e6852a151603924",
         "title": "(BOJ Review) Expanding and Revising the Application of Hedonic Quality Adjustment in the Corporate Goods Price Index",
@@ -24,38 +40,22 @@
         "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-desormais-les-declarations-des-dirigeants-en-francais-et-en-anglais#xts=607212&xtor=RSS-3&type=RSS"
       },
       {
-        "id": "90d180e8aa7d5106029c11b5",
-        "title": "XRP treasury firm Evernorth says SEC registration now effective, clearing way for Nasdaq listing",
-        "source": "theblock",
-        "score": 0.45,
+        "id": "855f125da0bd1198e9768bb0",
+        "title": "SEC Proposes Amendments to Exchange Act Rule 3a12-8 to Add European Union Debt Obligations",
+        "source": "sec_press",
+        "score": 0.6,
         "tone": 0.0,
-        "url": "https://www.theblock.co/news/deals/2026-08-27-evernorth-xrp-sec-effective-412981"
-      },
-      {
-        "id": "67d3210a198adb2c6edb0de6",
-        "title": "Russia’s Sberbank sees more rate cuts, higher growth this year despite Ukrainian attacks",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://www.investing.com/news/economy-news/russias-sberbank-sees-more-rate-cuts-higher-growth-this-year-despite-ukrainian-attacks-4880743"
-      },
-      {
-        "id": "91996abf44f2f2a18a3627c6",
-        "title": "Japan, South Korea and US to hold joint military drills, Seoul says",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/politics/defense/japan-south-korea-and-us-to-hold-joint-military-drills-seoul-says"
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-79-sec-proposes-amendments-exchange-act-rule-3a12-8-add-european-union-debt-obligations"
       }
     ]
   },
   "2026-08-27": {
-    "articles_count": 163,
+    "articles_count": 176,
     "signal_count": 17,
     "tone_cb": 0.0,
     "tone_global": -0.009,
     "regul_crypto": 0.25,
-    "stress": 0.0054,
+    "stress": 0.005,
     "top": [
       {
         "id": "67f1d32ba17577e38c1c6da6",
@@ -200,7 +200,7 @@
     ]
   },
   "2026-08-24": {
-    "articles_count": 917,
+    "articles_count": 919,
     "signal_count": 123,
     "tone_cb": -0.7836,
     "tone_global": -0.0461,
