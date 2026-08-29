@@ -1,5 +1,364 @@
 [
   {
+    "id": "4d6765aac75194bbd07bf1de",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Suzuki launches 'kei'-sized model in Brunei, made in Pakistan",
+    "url": "https://asia.nikkei.com/business/automobiles/suzuki-launches-kei-sized-model-in-brunei-made-in-pakistan",
+    "summary": "",
+    "published_at": "2026-08-29T10:46:41.096946+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9b84c4afa9cefb8724a8b564",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Best CD rates today, Saturday, August 29, 2026: Lock in up to 4.30% APY with a 16- or 18-month CD",
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-29-2026-lock-in-up-to-430-apy-with-a-16--or-18-month-cd-100000220.html",
+    "summary": "",
+    "published_at": "2026-08-29T10:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d960086147f121e47aa52c9b",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Russian strike kills 27 near Kyiv as Moscow militarizes schools",
+    "url": "https://www.investing.com/news/economy-news/russian-strike-kills-27-near-kyiv-as-moscow-militarizes-schools-4881964",
+    "summary": "",
+    "published_at": "2026-08-29T09:54:19+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "78671d42ef87b3d5c3f23e15",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "EOS Climbs 12% In Bullish Trade",
+    "url": "https://www.investing.com/news/cryptocurrency-news/eos-climbs-12-in-bullish-trade-4881962",
+    "summary": "",
+    "published_at": "2026-08-29T09:43:01+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6e6bf62c3e8cb4527aad67cb",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin price slips below $78,000 as ‘digital gold’ narrative faces fresh test",
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-slips-below-78000-as-digital-gold-narrative-faces-fresh-test-4881960",
+    "summary": "",
+    "published_at": "2026-08-29T09:19:14+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5fc461562bd5ec56d6287dcb",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Lower Saxony premier urges agreement on VW restructuring before board meeting",
+    "url": "https://www.investing.com/news/stock-market-news/lower-saxony-premier-urges-agreement-on-vw-restructuring-before-board-meeting-4881958",
+    "summary": "",
+    "published_at": "2026-08-29T08:31:26+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b4f18be251e5d3b6ee7cb8b5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Turkey tightens hedge fund rules amid concerns over market manipulation",
+    "url": "https://www.investing.com/news/stock-market-news/turkey-tightens-hedge-fund-rules-amid-concerns-over-market-manipulation-4881956",
+    "summary": "",
+    "published_at": "2026-08-29T08:03:34+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "98b8e6aeb79c8f7280eee5c5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Niutech signs waste plastic pyrolysis deal with energy major",
+    "url": "https://www.investing.com/news/company-news/niutech-signs-waste-plastic-pyrolysis-deal-with-energy-major-93CH-4881955",
+    "summary": "",
+    "published_at": "2026-08-29T08:00:44+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d38c8e5100064b975cb520fd",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "China’s massive oil reserves give Beijing leverage during Iran war",
+    "url": "https://www.investing.com/news/economy-news/chinas-massive-oil-reserves-give-beijing-leverage-during-iran-war-4881952",
+    "summary": "",
+    "published_at": "2026-08-29T07:23:59+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "47f0911ec800498beeba3c25",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "OpenAI to cut off AI models for SpaceX-owned Cursor, escalating feud with Musk",
+    "url": "https://www.investing.com/news/stock-market-news/openai-to-end-partnership-with-spacexs-cursor-4881924",
+    "summary": "",
+    "published_at": "2026-08-29T07:06:29+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6950a164341200f6b31dbeb0",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin stalls at $77,465 with bearish momentum: Live levels",
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-stalls-below-78500-resistance-live-hourly-levels-93CH-4872743",
+    "summary": "",
+    "published_at": "2026-08-29T07:02:53+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "516b1483c3e92eeea00cbb61",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "How networking became the critical layer of AI",
+    "url": "https://www.investing.com/news/stock-market-news/how-networking-became-the-critical-layer-of-ai-4881950",
+    "summary": "",
+    "published_at": "2026-08-29T06:46:54+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "62811322b4d74ba285d74a2e",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
+    "url": "https://www.coindesk.com/markets/2026/08/28/bitcoin-wallets-untouched-for-10-years-moved-usd40-million-most-avoided-exchanges",
+    "summary": "",
+    "published_at": "2026-08-29T04:30:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "998b6ae209c023593124aabd",
     "source": "nikkei_asia",
     "tier": 3,
@@ -1978,6 +2337,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "c7b5bee072f919b6f6a559cc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Silver price today, Friday, August 28, 2026: Silver rising before Warsh takes the stage",
+    "url": "https://finance.yahoo.com/personal-finance/investing/article/silver-price-today-friday-august-28-2026-silver-rising-before-warsh-takes-the-stage-120957222.html",
+    "summary": "",
+    "published_at": "2026-08-28T12:09:57+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "d0c71f2077029d069bde2cca",
     "source": "yahoo_finance",
     "tier": 3,
@@ -2311,6 +2696,32 @@
     "summary": "",
     "published_at": "2026-08-28T10:00:00+00:00",
     "collected_at": "2026-08-28T21:05:12.861404+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "78c7edfc9685f9f0a81cdfd8",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Charles Barkley says he was an 'idiot' for owning 3 or 4 luxury cars when he got rich",
+    "url": "https://finance.yahoo.com/markets/articles/charles-barkley-says-idiot-owning-094500941.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:45:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -2666,6 +3077,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "be198a3e4e3d9af9881acc20",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "'I'm a billionaire. A real one': Lawyer claims only about 20 people actually have $1B in the bank and he's one of them",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/im-billionaire-real-one-lawyer-093000135.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:30:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "652be45728f1f38c74a12735",
     "source": "marketwatch",
     "tier": 3,
@@ -2723,6 +3160,420 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "63cb900fd8c366fb0afbc878",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Gold Supported by U.S. Debt Worries",
+    "url": "https://www.barrons.com/livecoverage/stock-market-news-today-082826/card/gold-supported-by-u-s-debt-worries-0Vfwf2qNOWGhgiqzvz0I?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-08-28T09:18:40+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a7af2bbca86b6e7673f95315",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Said Micron Technology, Inc. (NASDAQ:MU) Fell Because Of Samsung’s Share Buybacks",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-micron-technology-091630456.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:16:30+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5dffd52e503e43d588729469",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "ABP's possible PE sale could extend transportation's mega-deal run",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/abps-possible-pe-sale-could-091605330.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:16:05+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2b8ea0e1a4af5b4e8f0cfbbe",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Explained Adobe Inc. (NASDAQ:ADBE)’s Share Price Movement",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explained-adobe-inc-091600295.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:16:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b182bf1cd834222c05ed3126",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "GE Vernova Inc. (NYSE:GEV) Isn’t A Great Short, Jim Cramer Said",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/ge-vernova-inc-nyse-gev-091536022.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:15:36+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "69a24d71f5084ab822dfbcb6",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Revealed What Made NVIDIA Corporation (NASDAQ:NVDA)’s Shares Move Post-Earnings",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-revealed-made-nvidia-091509280.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:15:09+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "23bc6b984bd176ec03fb8f29",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Own VOO and SCHD? Here's How Much You're Really Diversifying.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/own-voo-schd-heres-much-091500288.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:15:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "03e2f11345129f6541466654",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Cavendish reiterates 'buy' rating on Shield Therapeutics after US deal with Viatris",
+    "url": "https://finance.yahoo.com/healthcare/articles/cavendish-reiterates-buy-rating-shield-091500652.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:15:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5fe8c058389d81a7fced10dc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Said He Thinks Jersey Mike’s Subs Inc. (NASDAQ:JMKE)’s Shares Will Go Up “Substantially”",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-said-thinks-jersey-091439424.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:14:39+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dab0ce5474117098d9ad2648",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Explained Why Salesforce Inc. (NYSE:CRM)’s Shares Rose Ahead Of Earnings",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explained-why-salesforce-091412869.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:14:12+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b7e6c30b52ba5a5dfe5dc45b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Uniphore and Tech Mahindra launch Agentic AI Factory partnership",
+    "url": "https://finance.yahoo.com/technology/ai/articles/uniphore-tech-mahindra-launch-agentic-091341301.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:13:41+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6c8309e74f95bcfdd2393f0a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Was Left Frustrated By Deere & Company (NYSE:DE)’s Share Price Rise",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-left-frustrated-deere-091331488.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:13:31+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "11cde6038e5de9cd4c049111",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bank Plans on CLARITY Act Send Circle and Coinbase Shares Lower",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/bank-plans-clarity-act-send-091159072.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:11:59+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f9cafc76ae059d4216c36e0f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Shared What Apple Inc. (NASDAQ:AAPL) CEO Tim Cook Told Him About Shortages & iPhone Price",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-shared-apple-inc-091148298.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:11:48+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "df464d5e48710d4dccb8d337",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Was Left Surprised By Movement In Meta Platforms, Inc. (NASDAQ:META)’s Shares",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-left-surprised-movement-091119174.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:11:19+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
@@ -2867,6 +3718,142 @@
     "assets_effective": [
       "sp500"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1da30e917f98b861ff126d30",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Cathie Wood Invested Roughly $1.4 Billion of Ark Invest's Flagship ETF in Just 3 Artificial Intelligence (AI) Stocks",
+    "url": "https://finance.yahoo.com/technology/ai/articles/cathie-wood-invested-roughly-1-090500756.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:05:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "48d8b509d157d0bb445c4878",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Crypto’s Anonymous Era Just Ended: Form 1099-DA Now Tells the IRS What You Sold and Its Cost-Basis Math May Not Match Yours",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-anonymous-era-just-ended-090437909.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:04:37+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f068548dc81421ff1d2d2d0e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The Stock Market Is Flashing a Warning Seen Just Once Before. History Says This Will Happen Next.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-flashing-warning-seen-090400317.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:04:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "59945c64f751173104352404",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Ask an Advisor: My Advisor Sold Nvidia Stock and I Missed $50k in Gains. What Should I Do Now?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/ask-advisor-advisor-sold-nvidia-120000769.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fb86caba42c45402d950a9cd",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Woman says a Wendy’s burger led to nearly $100K in medical bills, and she’s suing. How other fast food suits have fared",
+    "url": "https://finance.yahoo.com/healthcare/articles/woman-says-wendy-burger-led-090000534.html",
+    "summary": "",
+    "published_at": "2026-08-28T09:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -3127,6 +4114,62 @@
     "summary": "",
     "published_at": "2026-08-28T08:42:02+00:00",
     "collected_at": "2026-08-28T09:31:37.343306+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "57540ca6435f890077bc65de",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "How Shein had to make peace with China to finally go public​",
+    "url": "https://finance.yahoo.com/news/shein-had-peace-china-finally-074725316.html",
+    "summary": "",
+    "published_at": "2026-08-28T07:53:39+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d126dd157251e446b36d3941",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "How Is Microsoft’s Stock Performance Compared to Other Software Services Stocks?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-performance-compared-other-072434228.html",
+    "summary": "",
+    "published_at": "2026-08-28T07:24:34+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -3404,6 +4447,34 @@
     "crypto_tone": 0.6796,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "27b3419a8ad54e6d80bcf0cb",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Goldman Says Hormuz Oil Flows at Two-Thirds of Pre-War Levels",
+    "url": "https://finance.yahoo.com/energy/articles/goldman-says-hormuz-oil-flows-012118583.html",
+    "summary": "",
+    "published_at": "2026-08-28T01:21:18+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
     "scored_by": "lexique"
   },
   {
@@ -5782,6 +6853,32 @@
       "btc",
       "eth"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4056249082cda468830d8418",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nvidia could hit a $13 trillion market cap, analyst says",
+    "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-could-hit-a-13-trillion-market-cap-analyst-says-180519193.html",
+    "summary": "",
+    "published_at": "2026-08-27T18:05:19+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -185303,6 +186400,317 @@
     "scored_by": "lexique"
   },
   {
+    "id": "e3a809486e8e25096f7a8c09",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "The cooperative spirit at the heart of the digital euro",
+    "url": "https://www.bis.org/speeches/20260817-cooperative-spirit-heart-digital-euro",
+    "summary": "Lecture by Mr Piero Cipollone, Member of the Executive Board of the European Central Bank, at the annual meeting of the Federation of Italian Cooperative Credit Banks (Federcasse), Rome, 17 July 2026.",
+    "published_at": "2026-08-17T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "16ef10d54e6e9cc2ba86ee4a",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Remarks - annual dinner for the Heads of Foreign Missions accredited in South Africa",
+    "url": "https://www.bis.org/speeches/20260817-remarks-annual-dinner-heads-foreign-missions-accredited-south-africa",
+    "summary": "Remarks by Lesetja Kganyago, Governor of the South African Reserve Bank, at the annual dinner for the Heads of Foreign Missions accredited in South Africa, South African Reserve Bank, Pretoria, 9 July 2026.",
+    "published_at": "2026-08-17T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2814f246b168c23c5af88dba",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Remarks on the MAS Annual Report 2025/2026",
+    "url": "https://www.bis.org/speeches/20260817-remarks-mas-annual-report-20252026",
+    "summary": "Opening address by Mr Chia Der Jiun, Managing Director of the Monetary Authority of Singapore, at the MAS Annual Report 2025/2026 Media Conference, Singapore, 28 July 2026.",
+    "published_at": "2026-08-17T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f66d9154c3e5d8293da76de1",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Opportunities and risks for CCPs and their overseers in a changing environment",
+    "url": "https://www.bis.org/speeches/20260817-opportunities-and-risks-ccps-and-their-overseers-changing-environment",
+    "summary": "Keynote speech by Mr Denis Beau, First Deputy Governor of the Bank of France, at the CCP Global Annual Meeting 2026, Amsterdam, 23 June 2026.",
+    "published_at": "2026-08-17T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "546b53ec02be3ae4f430c875",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "40 years of the Deutsche Bundesbank's Representative Office in New York",
+    "url": "https://www.bis.org/speeches/20260817-40-years-deutsche-bundesbanks-representative-office-new-york",
+    "summary": "Speech by Mr Burkhard Balz, Member of the Executive Board of the Deutsche Bundesbank, at the reception marking 40 years of the Representative Office of the Deutsche Bundesbank in the United States, New York City, 7 July 2026.",
+    "published_at": "2026-08-17T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1b796f0be25c65cd51491ee7",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Monetary policy in an era of shocks",
+    "url": "https://www.bis.org/speeches/20260817-monetary-policy-era-shocks",
+    "summary": "Speech by Ms Michele Bullock, Governor of the Reserve Bank of Australia, at the Anika Foundation Fundraising Lunch, Sydney, 28 July 2026.",
+    "published_at": "2026-08-17T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "01967f390ca6b44511cf861b",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Outlook for the US and Alaskan economies",
+    "url": "https://www.bis.org/speeches/20260817-outlook-us-and-alaskan-economies",
+    "summary": "Speech by Ms Lisa D Cook, Member of the Board of Governors of the Federal Reserve System, at the 2026 Economic Luncheon of the Anchorage Economic Development Corporation, Anchorage, Alaska, 5 August 2026.",
+    "published_at": "2026-08-17T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ed5dd6ff6e2d762489005801",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Building deep and resilient financial markets for a Viksit Bharat",
+    "url": "https://www.bis.org/speeches/20260817-building-deep-and-resilient-financial-markets-viksit-bharat",
+    "summary": "Keynote address by Mr Rohit Jain, Deputy Governor of the Reserve Bank of India, at the Financial Institutions Leadership conference, organised by the Standard Chartered Bank, Mumbai, 24 July 2026.",
+    "published_at": "2026-08-17T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {
+      "croissance": 2.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.6667,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.6667,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "420e6b59ce7efe17015b7577",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "The global economy in 2026 and beyond - financing Europe and Greece's future",
+    "url": "https://www.bis.org/speeches/20260817-global-economy-2026-and-beyond-financing-europe-and-greeces-future",
+    "summary": "Speech by Mr Yannis Stournaras, Governor of the Bank of Greece, at the 30th Annual Economist Government Roundtable \"The global economy in 2026 and beyond – financing Europe and Greece's future\", Athens, 10 July 2026.",
+    "published_at": "2026-08-17T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4abbb6cadd404e00b34ee968",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "AI and monetary policy",
+    "url": "https://www.bis.org/speeches/20260817-ai-and-monetary-policy",
+    "summary": "Dinner speech by Philip R. Lane, Member of the Executive Board of the European Central Bank, at the closing conference of the European System of Central Banks Research Network on Challenges for Monetary Policy Transmission in a Changing World (ChaMP), Rome, 6 July 2026.",
+    "published_at": "2026-08-17T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "65b7d9de7f5fe2533d00c53e",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Overview of the South African economy",
+    "url": "https://www.bis.org/speeches/20260817-overview-south-african-economy",
+    "summary": "Address by Lesetja Kganyago, Governor of the South African Reserve Bank, at the 106th Ordinary Annual General Meeting, South African Reserve Bank, Pretoria, 31 July 2026.",
+    "published_at": "2026-08-17T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "26d407082b42d4cf2bdf4188",
     "source": "nikkei_asia",
     "tier": 3,
@@ -256253,6 +257661,205 @@
     "scored_by": "lexique"
   },
   {
+    "id": "df45f78686beecf9a65f8eb6",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Strengthening customer grievance redress - the role of the internal ombudsman",
+    "url": "https://www.bis.org/speeches/20260810-strengthening-customer-grievance-redress-role-internal-ombudsman",
+    "summary": "Keynote address by Mr Swaminathan J, Deputy Governor of the Reserve Bank of India, at the Internal Ombudsman Conference, organised by the Reserve Bank of India, Mumbai, 13 July 2026.",
+    "published_at": "2026-08-10T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fb07683fd2aad5c3da4a49ca",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Acting together for a sovereign and competitive Europe",
+    "url": "https://www.bis.org/speeches/20260810-acting-together-sovereign-and-competitive-europe",
+    "summary": "Speech by Dr Joachim Nagel, President of the Deutsche Bundesbank, at the meeting with the European ambassadors' delegation on the occasion of Ireland's Presidency of the Council of the European Union, Frankfurt am Main, 21 July 2026.",
+    "published_at": "2026-08-10T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c11dfd3cc348b479f62ac1f7",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Playing the long game - how should monetary policy adapt to the Great Reconfiguration?",
+    "url": "https://www.bis.org/speeches/20260810-playing-long-game-how-should-monetary-policy-adapt-great-reconfiguration",
+    "summary": "Speech by Mr Fabio Panetta, Governor of the Bank of Italy, at the closing conference of the ESCB Research Network on \"Challenges for Monetary Policy Transmission in a Changing World (ChaMP)\", hosted by the Bank of Italy, Rome, 7 July 2026.",
+    "published_at": "2026-08-10T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "31d9736459bdfe4ccbbc39c4",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Reinforcing the foundations - openness through resilience in the face of change",
+    "url": "https://www.bis.org/speeches/20260810-reinforcing-foundations-openness-through-resilience-face-change",
+    "summary": "Speech by Ms Mary-Elizabeth McMunn, Deputy Governor of the Central Bank of Ireland, at PWC, Dublin, 23 July 2026.",
+    "published_at": "2026-08-10T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "20679ccf93020758f34b57e7",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Opening remarks on Sound Practices for Artificial Intelligence",
+    "url": "https://www.bis.org/speeches/20260810-opening-remarks-sound-practices-artificial-intelligence",
+    "summary": "Opening remarks (virtual) by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the Financial Stability Board Virtual Outreach Event, 7 July 2026.",
+    "published_at": "2026-08-10T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0b6f855d0292712192999176",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Opening remarks - CMA Governors Meeting",
+    "url": "https://www.bis.org/speeches/20260810-opening-remarks-cma-governors-meeting",
+    "summary": "Opening remarks by Mr Phil Mnisi, Governor of the Central Bank of Eswatini, at the CMA Governors Meeting, Ezulwini, 3 July 2026.",
+    "published_at": "2026-08-10T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4a6c87ab63ceb8c263d78bfa",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Opening remarks - Hong Kong Monetary Authority (HKMA)-Hong Kong Association of Banks (HKAB) seminar",
+    "url": "https://www.bis.org/speeches/20260810-opening-remarks-hong-kong-monetary-authority-hkma-hong-kong-association-banks-hkab-seminar",
+    "summary": "Opening remarks by Mr Arthur Yuen, Deputy Chief Executive of the Hong Kong Monetary Authority, at the Hong Kong Monetary Authority (HKMA)-Hong Kong Association of Banks (HKAB) seminar on \"Quantum computing and quantum resilience for banking industry\", Hong Kong, 6 July 2026.",
+    "published_at": "2026-08-10T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "a92b399a997ed94c83a89062",
     "source": "boj_news",
     "tier": 1,
@@ -289948,6 +291555,33 @@
     "scored_by": "lexique"
   },
   {
+    "id": "05eece485278b5c50bf9b05e",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "National Bank of Ukraine press briefing - monetary policy decisions",
+    "url": "https://www.bis.org/speeches/20260806-national-bank-ukraine-press-briefing-monetary-policy-decisions",
+    "summary": "Speech by Mr Andriy Pyshnyy, Governor of the National Bank of Ukraine, at a press briefing on monetary policy decisions, Kyiv, 30 July 2026.",
+    "published_at": "2026-08-06T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "985540a21ddbaf7b7f6168a4",
     "source": "yahoo_finance",
     "tier": 3,
@@ -310466,6 +312100,93 @@
     "scored_by": "lexique"
   },
   {
+    "id": "bd6c017ce521e2ab327da889",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Stability of Thy Times",
+    "url": "https://www.bis.org/speeches/20260803-stability-thy-times",
+    "summary": "Remarks by Mr John C Williams, President and Chief Executive Officer of the Federal Reserve Bank of New York, at the Partnership for New York City, New York City, 15 July 2026.",
+    "published_at": "2026-08-03T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "326548ec742154f3e79ffd8d",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Navigating economic shocks - a monetary policymaker's perspective",
+    "url": "https://www.bis.org/speeches/20260803-navigating-economic-shocks-monetary-policymakers-perspective",
+    "summary": "Speech by Mr Philip N Jefferson, Vice Chair of the Board of Governors of the Federal Reserve System, at the Stanford Institute for Economic Policy Research, Stanford University, Stanford, California, 16 July 2026.",
+    "published_at": "2026-08-03T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fc01e427b46f731f4b768167",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Responsible innovation and financial inclusion",
+    "url": "https://www.bis.org/speeches/20260803-responsible-innovation-and-financial-inclusion",
+    "summary": "Speech (via pre-recorded video) by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at \"Next-gen financial inclusion\", the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington DC, 14 July 2026.",
+    "published_at": "2026-08-03T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "24e5a5cc14a8bd2f9234c2a8",
     "source": "ec_press",
     "tier": 2,
@@ -326358,6 +328079,319 @@
     "scored_by": "lexique"
   },
   {
+    "id": "333b5d429f9aa1ed0ca02b25",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Speech - Hong Kong FIC and Bond Connect Summit",
+    "url": "https://www.bis.org/speeches/20260731-speech-hong-kong-fic-and-bond-connect-summit",
+    "summary": "Speech by Mr Pan Gongsheng, Governor of the People's Bank of China, at the Hong Kong FIC and Bond Connect Summit, jointly hosted by the Hong Kong Monetary Authority, the Securities and Futures Commission, Hong Kong Exchanges and Clearing Limited and Bond Connect Company Limited, Hong Kong, 7 July 2026.",
+    "published_at": "2026-07-31T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5dcc9b8118f45ae221ea4d97",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Growth and regulation",
+    "url": "https://www.bis.org/speeches/20260731-growth-and-regulation",
+    "summary": "Speech by Mr Andrew Bailey, Governor of the Bank of England, at the Mansion House Financial and Professional Services Dinner, London, 14 July 2026.",
+    "published_at": "2026-07-31T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "40213a9869c52a77150e9d0e",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Modernizing financial regulation",
+    "url": "https://www.bis.org/speeches/20260731-modernizing-financial-regulation",
+    "summary": "Speech by Ms Michelle W Bowman, Vice Chair for Supervision of the Board of Governors of the Federal Reserve System, at the Bank Policy Institute London Conference, London, 13 July 2026.",
+    "published_at": "2026-07-31T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1409d4a2479ef038241e2e9d",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Opening remarks - Joint Workshop \"Global interconnections and financial stability\"",
+    "url": "https://www.bis.org/speeches/20260731-opening-remarks-joint-workshop-global-interconnections-and-financial-stability",
+    "summary": "Opening remarks by Mr Darryl Chan, Deputy Chief Executive of the Hong Kong Monetary Authority, at the Hong Kong Institute for Monetary and Financial Research (HKIMR) – Bank for International Settlements (BIS) – International Monetary Fund (IMF) Joint Workshop \"Global interconnections and financial stability\", Hong Kong, 13 July 2026.",
+    "published_at": "2026-07-31T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ac1e4cc4b46aa3dea5914170",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "The euro in a fragmented world - stability, sovereignty, and global responsibility",
+    "url": "https://www.bis.org/speeches/20260731-euro-fragmented-world-stability-sovereignty-and-global-responsibility",
+    "summary": "Speech by Dr Joachim Nagel, President of the Deutsche Bundesbank, to the Hohenheimer Kreis – Corporate Governance, Stuttgart, 15 July 2026.",
+    "published_at": "2026-07-31T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "438f90b182864165bacf8e63",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Monetary policy at a crossroads",
+    "url": "https://www.bis.org/speeches/20260731-monetary-policy-crossroads",
+    "summary": "Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at the New York Association for Business Economics, New York City, 13 July 2026.",
+    "published_at": "2026-07-31T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a3e423f4a5643bfc2d731c3e",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Economic outlook",
+    "url": "https://www.bis.org/speeches/20260731-economic-outlook",
+    "summary": "Speech by Ms Lisa D Cook, Member of the Board of Governors of the Federal Reserve System, at The Exchequer Club of Washington DC, Washington DC, 15 July 2026.",
+    "published_at": "2026-07-31T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "60193484439fffa6929f2e47",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Release of the Monetary Policy Report",
+    "url": "https://www.bis.org/speeches/20260731-release-monetary-policy-report",
+    "summary": "Opening statement by Mr Tiff Macklem, Governor of the Bank of Canada and Ms Carolyn Rogers, Senior Deputy Governor of the Bank of Canada, at the press conference following the monetary policy decision, Ottawa, Ontario, 15 July 2026.",
+    "published_at": "2026-07-31T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": true,
+    "importance": 1.95,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4083a24fe36ed40b0628a355",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Understanding supply shocks and their implications for monetary policy",
+    "url": "https://www.bis.org/speeches/20260731-understanding-supply-shocks-and-their-implications-monetary-policy",
+    "summary": "Address by Ms Sarah Hunter, Assistant Governor (Economic) of the Reserve Bank of Australia, to the Australian Conference of Economists, Canberra, 8 July 2026.",
+    "published_at": "2026-07-31T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e2107ea9f249be3c2833e2c2",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "The economic and financial system amidst uncertainty and innovation",
+    "url": "https://www.bis.org/speeches/20260731-economic-and-financial-system-amidst-uncertainty-and-innovation",
+    "summary": "Speech by Mr Fabio Panetta, Governor of the Bank of Italy, at the annual meeting of the Italian Banking Association (ABI), Rome, 15 July 2026.",
+    "published_at": "2026-07-31T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3f3917c4b882c1acfbc5bdef",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Will artificial intelligence broadly raise living standards or drive income and wealth inequality?",
+    "url": "https://www.bis.org/speeches/20260731-will-artificial-intelligence-broadly-raise-living-standards-or-drive-income-and-wealth-inequality",
+    "summary": "Speech by Mr Michael S Barr, Member of the Board of Governors of the Federal Reserve System, at \"Next-gen financial inclusion\", the third annual Financial Inclusion Conference hosted by the Federal Reserve Board, Washington DC, 14 July 2026.",
+    "published_at": "2026-07-31T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "47232ee9032fd29d5321c40c",
     "source": "ec_press",
     "tier": 2,
@@ -330431,6 +332465,238 @@
     ],
     "has_decision_marker": false,
     "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ba59e2c43ad723139bca9f9e",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Additional monetary policy tools - reflections and a new framework",
+    "url": "https://www.bis.org/speeches/20260730-additional-monetary-policy-tools-reflections-and-new-framework",
+    "summary": "Speech by Mr Christopher Kent, Assistant Governor (Financial Markets) of the Reserve Bank of Australia, at the Reserve Bank of Australia, Sydney, 29 June 2026.",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a44d125ce5928975d2be2a97",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Two thoughts on the transmission of monetary policy",
+    "url": "https://www.bis.org/speeches/20260730-two-thoughts-transmission-monetary-policy",
+    "summary": "Speech by Mr Christopher J Waller, Member of the Board of Governors of the Federal Reserve System, at the ChaMP Conference \"Challenges for monetary policy transmission in a changing world\", hosted by the Bank of Italy for the research network initiated by the European System of Central Banks, Rome, 6 July 2026.",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500",
+      "europe"
+    ],
+    "assets_effective": [
+      "sp500",
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e5b15fe7cde5bd05a094801e",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Agents of change",
+    "url": "https://www.bis.org/speeches/20260730-agents-change",
+    "summary": "Speech by Ms Sarah Breeden, Deputy Governor for Financial Stability of the Bank of England, at the ECB Forum on Central Banking 2026 \"Shaping Europe's future: innovation, growth and stability\", Sintra, 29 June 2026.",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "896b476ad7ab79ec04b7bb9b",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Finance for innovation and artificial intelligence as drivers of development",
+    "url": "https://www.bis.org/speeches/20260730-finance-innovation-and-artificial-intelligence-drivers-development",
+    "summary": "Opening remarks by Mr Fabio Panetta, Governor of the Bank of Italy, at a conference organised by the Bank of Italy and the European Investment Bank, Rome, 2 July 2026.",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3306d87309dafab9d8a30d9a",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "The green transition - benefits and barriers",
+    "url": "https://www.bis.org/speeches/20260730-green-transition-benefits-and-barriers",
+    "summary": "Keynote speech by Mr Frank Elderson, Member of the Executive Board of the European Central Bank and Vice-Chair of the Supervisory Board of the European Central Bank, at the 7th World Congress of Environmental and Resource Economists, Lisbon, 2 July 2026.",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6ea3e381bcd84d6a7a82e9bd",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Response to media regarding the new measures announced by People Bank of China's Governor Pan Gongsheng",
+    "url": "https://www.bis.org/speeches/20260730-response-media-regarding-new-measures-announced-people-bank-chinas-governor-pan-gongsheng",
+    "summary": "Response by Mr Eddie Yue, Chief Executive of the Hong Kong Monetary Authority, to media regarding the new measures announced by People Bank of China's Governor Pan Gongsheng at the Hong Kong FIC & Bond Connect Summit, jointly hosted by the Hong Kong Monetary Authority, the Securities and Futures Commission, Hong Kong Exchanges and Clearing Limited and Bond Connect Company Limited, Hong Kong, 7 July 2026.",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": true,
+    "importance": 1.95,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ebdc6c59cddac24a1f64677b",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+    "url": "https://www.bis.org/speeches/20260730-hearing-committee-economic-and-monetary-affairs-european-parliament",
+    "summary": "Introductory statement by Prof Claudia Buch, Chair of the Supervisory Board of the European Central Bank, at the Hearing of the Committee on Economic and Monetary Affairs of the European Parliament, Brussels, 2 July 2026.",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": true,
+    "importance": 1.95,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2d8691167091e8fcbda202cc",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Understanding your lane, managing turning points",
+    "url": "https://www.bis.org/speeches/20260730-understanding-your-lane-managing-turning-points",
+    "summary": "Speech by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at \"Les Rencontres Économiques d'Aix-en-Provence 2026 \"Navigating a world of uncertainty\", Aix-en-Provence, 3 July 2026.",
+    "published_at": "2026-07-30T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
@@ -336498,6 +338764,176 @@
     "scored_by": "lexique"
   },
   {
+    "id": "7e13ecce15ca42ebe52a1cd9",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "The straight line belongs to man, the curved line belongs to God",
+    "url": "https://www.bis.org/speeches/20260701-straight-line-belongs-man-curved-line-belongs-god",
+    "summary": "Text of the Sir Douglas Copland Memorial Lecture to the Economic Society of Australia (Victoria) by Mr Andrew Hauser, Deputy Governor of the Reserve Bank of Australia, Melbourne, 24 June 2026.",
+    "published_at": "2026-07-01T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0e5aba55ed68bdf3a315cadb",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "New landscape of global capital flows and China's high-level opening-up",
+    "url": "https://www.bis.org/speeches/20260701-new-landscape-global-capital-flows-and-chinas-high-level-opening-up",
+    "summary": "Keynote speech by Mr Zhu Hexin, Deputy Governor of the People's Bank of China and SAFE Administrator, at the 2026 Lujiazui Forum, Shanghai, 17 June 2026.",
+    "published_at": "2026-07-01T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b98a6b481aade921b70f2883",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "From the Winter Olympics to the digital euro. A dialogue between academia and central banks",
+    "url": "https://www.bis.org/speeches/20260701-winter-olympics-digital-euro-dialogue-between-academia-and-central-banks",
+    "summary": "Speech by Ms Chiara Scotti, Deputy Governor of the Bank of Italy, at the \"6th Dolomiti Macro Meeting\", organised by Free University of Bozen, BI Norwegian Business School, Centre for Applied Macroeconomics and Commodity Prices (CAMP), Bozen, 20 June 2026.",
+    "published_at": "2026-07-01T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "abe4528d56ec2f22c1cd1fa8",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Economic activity, prices and monetary policy in Japan",
+    "url": "https://www.bis.org/speeches/20260701-economic-activity-prices-and-monetary-policy-japan",
+    "summary": "Speech by Mr Naoki Tamura, Member of the Policy Board of the Bank of Japan, at a meeting with local leaders, Hyogo, 25 June 2026.",
+    "published_at": "2026-07-01T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "97204b3fcecd4d7d7551fb7b",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Welcome remarks - State of Small Business Symposium",
+    "url": "https://www.bis.org/speeches/20260701-welcome-remarks-state-small-business-symposium",
+    "summary": "Welcome remarks (via pre-recorded video) by Ms Lisa D Cook, Member of the Board of Governors of the Federal Reserve System, at the State of Small Business Symposium, hosted by the Federal Reserve Bank of Cleveland, 24 June 2026.",
+    "published_at": "2026-07-01T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2d67ed89aa758079c9c801f7",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Statement - base rate of the National Bank of Kazakhstan",
+    "url": "https://www.bis.org/speeches/20260701-statement-base-rate-national-bank-kazakhstan",
+    "summary": "Statement by Mr Timur M Suleimenov, Governor of the National Bank of Kazakhstan, on the base rate of the National Bank of Kazakhstan, Astana, 5 June 2026.",
+    "published_at": "2026-07-01T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": true,
+    "importance": 1.95,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "970094f950d9731e6697bb92",
     "source": "sec_press",
     "tier": 2,
@@ -336730,6 +339166,93 @@
     ],
     "has_decision_marker": true,
     "importance": 0.9,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "16216712a6afd3f560cdd645",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Global imbalances, growth and stability",
+    "url": "https://www.bis.org/speeches/20260630-global-imbalances-growth-and-stability",
+    "summary": "Remarks by Mr Tiff Macklem, Governor of the Bank of Canada, at Paris Europlace – Chambre de commerce France-Canada, Paris, 23 June 2026.",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c9d7ce7b632e09ce60410903",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Mundell's plan for a European currency - from theory to history",
+    "url": "https://www.bis.org/speeches/20260630-mundells-plan-european-currency-theory-history",
+    "summary": "Welcome address by Mr Fabio Panetta, Governor of the Bank of Italy, at the \"International macroeconomics in a changing world - old questions, new realities\" workshop, organised by the Bank of Italy, Centre for Economic Policy Research (CEPR) and LUISS (Libera Università Internazionale degli Studi Sociali), in honour of Robert Mundell, Rome, 22 June 2026.",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a413e8bebdbf6f88a01aa1e1",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Opening remarks - \"10th Annual Macroprudential Conference\"",
+    "url": "https://www.bis.org/speeches/20260630-opening-remarks-10th-annual-macroprudential-conference",
+    "summary": "Opening remarks by Mr Gabriel Makhlouf, Governor of the Central Bank of Ireland, at the 10th Annual Macroprudential Conference, jointly organised with the Deutsche Bundesbank, the Nederlandsche Bank, and the Sveriges Riksbank, Dublin, 22 June 2026.",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "collected_at": "2026-08-29T10:46:41.096946+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
