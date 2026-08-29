@@ -1,11 +1,11 @@
 {
   "2026-08-29": {
-    "articles_count": 29,
-    "signal_count": 5,
+    "articles_count": 76,
+    "signal_count": 11,
     "tone_cb": null,
-    "tone_global": -0.4733,
+    "tone_global": -0.1255,
     "regul_crypto": -0.6,
-    "stress": 0.0,
+    "stress": 0.0132,
     "top": [
       {
         "id": "d7cbd10988324556be23371d",
@@ -14,6 +14,14 @@
         "score": 0.3,
         "tone": -0.6667,
         "url": "https://www.investing.com/news/stock-market-news/war-weighs-on-irans-economy-as-us-intensifies-sanctions-4881923"
+      },
+      {
+        "id": "ac1279cb14ef4cc81267292a",
+        "title": "Peter Schiff says Trump’s ‘numbing the pain’ of America’s $40T debt problem — protect your retirement before crisis hits",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://finance.yahoo.com/economy/policy/articles/peter-schiff-says-trump-numbing-111500280.html"
       },
       {
         "id": "6950a164341200f6b31dbeb0",
@@ -32,25 +40,17 @@
         "url": "https://asia.nikkei.com/spotlight/cryptocurrencies/hong-kong-bitcoin-event-sparks-ego-check-after-bearish-run"
       },
       {
-        "id": "d38c8e5100064b975cb520fd",
-        "title": "China’s massive oil reserves give Beijing leverage during Iran war",
-        "source": "investing_com",
+        "id": "54f8b10c8a0f5dcf6fa4bb83",
+        "title": "Where are all the new jobs? Hiring slows again — and it probably won’t speed up soon.",
+        "source": "marketwatch",
         "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/chinas-massive-oil-reserves-give-beijing-leverage-during-iran-war-4881952"
-      },
-      {
-        "id": "4d6765aac75194bbd07bf1de",
-        "title": "Suzuki launches 'kei'-sized model in Brunei, made in Pakistan",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/automobiles/suzuki-launches-kei-sized-model-in-brunei-made-in-pakistan"
+        "tone": 0.5858,
+        "url": "https://www.marketwatch.com/story/where-are-all-the-new-jobs-hiring-slows-again-and-it-probably-wont-speed-up-soon-66920f1d?mod=mw_rss_topstories"
       }
     ]
   },
   "2026-08-28": {
-    "articles_count": 135,
+    "articles_count": 139,
     "signal_count": 14,
     "tone_cb": null,
     "tone_global": 0.0115,
@@ -2562,13 +2562,21 @@
     ]
   },
   "2026-06-30": {
-    "articles_count": 11,
-    "signal_count": 1,
-    "tone_cb": 0.5,
-    "tone_global": 0.5,
+    "articles_count": 13,
+    "signal_count": 2,
+    "tone_cb": -0.05,
+    "tone_global": -0.05,
     "regul_crypto": null,
-    "stress": 0.0,
+    "stress": 0.1,
     "top": [
+      {
+        "id": "69485a0871bb75f3b688c78c",
+        "title": "Introductory remarks",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": -0.6,
+        "url": "https://www.bis.org/speeches/20260630-introductory-remarks"
+      },
       {
         "id": "16216712a6afd3f560cdd645",
         "title": "Global imbalances, growth and stability",
@@ -2600,14 +2608,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.bis.org/speeches/20260630-mundells-plan-european-currency-theory-history"
-      },
-      {
-        "id": "a413e8bebdbf6f88a01aa1e1",
-        "title": "Opening remarks - \"10th Annual Macroprudential Conference\"",
-        "source": "bis_cb_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bis.org/speeches/20260630-opening-remarks-10th-annual-macroprudential-conference"
       }
     ]
   },
