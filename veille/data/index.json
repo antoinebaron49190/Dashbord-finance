@@ -1,11 +1,11 @@
 {
   "2026-08-30": {
-    "articles_count": 34,
-    "signal_count": 7,
+    "articles_count": 86,
+    "signal_count": 10,
     "tone_cb": null,
-    "tone_global": -0.3254,
-    "regul_crypto": null,
-    "stress": 0.0294,
+    "tone_global": -0.2878,
+    "regul_crypto": -0.6,
+    "stress": 0.0116,
     "top": [
       {
         "id": "187e87760cdd09b485e010d3",
@@ -14,6 +14,14 @@
         "score": 0.3,
         "tone": -0.7778,
         "url": "https://www.investing.com/news/forex-news/us-treasurys-bessent-faces-g20-diplomacy-test-amid-tariffs-iran-war-bond-turmoil-4882036"
+      },
+      {
+        "id": "84ead74a756e41416482fd73",
+        "title": "Chainalysis accuses ICE of unfairly steering $95 million blockchain contract to TRM Labs",
+        "source": "theblock",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.theblock.co/news/business/2026-08-30-chainalysis-accuses-ice-of-unfairly-steering-95-million-blockchain-contract-to-trm-labs-413066"
       },
       {
         "id": "80e4d54bdc6ca9987954c749",
@@ -38,24 +46,16 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.marketwatch.com/story/ai-isnt-eating-software-after-all-and-the-sectors-epic-rally-could-run-through-october-a4610583?mod=mw_rss_topstories"
-      },
-      {
-        "id": "8e1cb4831ba0b0bf403654db",
-        "title": "Iran insists Strait of Hormuz remains closed as war enters seventh month",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/iran-insists-strait-of-hormuz-remains-closed-as-war-enters-seventh-month-4882018"
       }
     ]
   },
   "2026-08-29": {
-    "articles_count": 223,
+    "articles_count": 224,
     "signal_count": 38,
     "tone_cb": null,
     "tone_global": 0.1645,
     "regul_crypto": -0.6,
-    "stress": 0.009,
+    "stress": 0.0089,
     "top": [
       {
         "id": "3f0d361ca3a21693b4837a43",
