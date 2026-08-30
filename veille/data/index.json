@@ -1,12 +1,20 @@
 {
   "2026-08-30": {
-    "articles_count": 4,
-    "signal_count": 1,
+    "articles_count": 16,
+    "signal_count": 3,
     "tone_cb": null,
-    "tone_global": -0.5,
+    "tone_global": -0.3333,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "8e1cb4831ba0b0bf403654db",
+        "title": "Iran insists Strait of Hormuz remains closed as war enters seventh month",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/iran-insists-strait-of-hormuz-remains-closed-as-war-enters-seventh-month-4882018"
+      },
       {
         "id": "c0e1b1efac4b662fb4c5d34c",
         "title": "GM plans C$1.1 billion Canada investment as U.S. tariff pressure mounts",
@@ -16,38 +24,38 @@
         "url": "https://www.investing.com/news/company-news/gm-plans-c11-billion-canada-investment-as-us-tariff-pressure-mounts-4882005"
       },
       {
-        "id": "eff3c5adc43da28b6e1eaeb7",
-        "title": "Tokyo brewer challenges sake's fixation on famous water",
+        "id": "1b9d34af779715eb45cd7687",
+        "title": "Shanghai Cooperation Organization summit, Semicon Taiwan, Shein listing",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/food-beverage/tokyo-brewer-challenges-sake-s-fixation-on-famous-water"
+        "url": "https://asia.nikkei.com/spotlight/your-week-in-asia/shanghai-cooperation-organization-summit-semicon-taiwan-shein-listing"
       },
       {
-        "id": "4645b4536a9510474cc11b13",
-        "title": "Iceland starts counting EU talks referendum; ’yes’ votes have slim early lead",
+        "id": "3958a1857c358c062940e0e9",
+        "title": "A purple yam from the Philippines gives matcha a run for its money in Japan",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/food-beverage/a-purple-yam-from-the-philippines-gives-matcha-a-run-for-its-money-in-japan"
+      },
+      {
+        "id": "a78d1529e79841aae977640b",
+        "title": "Icelanders edge closer to ’no’ on EU-accession talks, vote count ongoing",
         "source": "investing_com",
         "score": 0.3,
         "tone": 0.0,
         "url": "https://www.investing.com/news/economy-news/iceland-votes-in-tight-referendum-on-whether-to-start-eu-membership-talks-4881985"
-      },
-      {
-        "id": "e790a2d65152820ba89336c1",
-        "title": "Korean day traders flee leveraged chip ETFs as regulatory curbs bite",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/stock-market-news/korean-day-traders-flee-leveraged-chip-etfs-as-regulatory-curbs-bite-4882006"
       }
     ]
   },
   "2026-08-29": {
-    "articles_count": 158,
-    "signal_count": 22,
+    "articles_count": 201,
+    "signal_count": 34,
     "tone_cb": null,
-    "tone_global": 0.0009,
+    "tone_global": 0.1672,
     "regul_crypto": -0.6,
-    "stress": 0.0063,
+    "stress": 0.005,
     "top": [
       {
         "id": "3f0d361ca3a21693b4837a43",
@@ -66,6 +74,14 @@
         "url": "https://www.investing.com/news/economy-news/iranian-trade-plunges-35-as-us-steps-up-economic-pressure-4881926"
       },
       {
+        "id": "fd2479475fe0d94daad8b5ca",
+        "title": "Veeva (VEEV) Grew Subscription Revenue 16% as GAAP Operating Income Increased 40%. Is the Margin Expansion Sustainable?",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": 0.6667,
+        "url": "https://finance.yahoo.com/technology/ai/articles/veeva-veev-grew-subscription-revenue-024322293.html"
+      },
+      {
         "id": "d7cbd10988324556be23371d",
         "title": "War weighs on Iran’s economy as US intensifies sanctions",
         "source": "investing_com",
@@ -80,24 +96,16 @@
         "score": 0.3,
         "tone": -0.6,
         "url": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49"
-      },
-      {
-        "id": "ac1279cb14ef4cc81267292a",
-        "title": "Peter Schiff says Trump’s ‘numbing the pain’ of America’s $40T debt problem — protect your retirement before crisis hits",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://finance.yahoo.com/economy/policy/articles/peter-schiff-says-trump-numbing-111500280.html"
       }
     ]
   },
   "2026-08-28": {
-    "articles_count": 183,
-    "signal_count": 17,
+    "articles_count": 189,
+    "signal_count": 19,
     "tone_cb": null,
-    "tone_global": -0.019,
+    "tone_global": -0.0821,
     "regul_crypto": null,
-    "stress": 0.0,
+    "stress": 0.0049,
     "top": [
       {
         "id": "8803e9f44fe1e160b94b32f2",
@@ -2604,12 +2612,12 @@
     ]
   },
   "2026-06-30": {
-    "articles_count": 13,
+    "articles_count": 15,
     "signal_count": 2,
     "tone_cb": -0.05,
     "tone_global": -0.05,
     "regul_crypto": null,
-    "stress": 0.1,
+    "stress": 0.0833,
     "top": [
       {
         "id": "69485a0871bb75f3b688c78c",
