@@ -1,12 +1,44 @@
 {
   "2026-08-30": {
-    "articles_count": 16,
-    "signal_count": 3,
+    "articles_count": 34,
+    "signal_count": 7,
     "tone_cb": null,
-    "tone_global": -0.3333,
+    "tone_global": -0.3254,
     "regul_crypto": null,
-    "stress": 0.0,
+    "stress": 0.0294,
     "top": [
+      {
+        "id": "187e87760cdd09b485e010d3",
+        "title": "US Treasury’s Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.7778,
+        "url": "https://www.investing.com/news/forex-news/us-treasurys-bessent-faces-g20-diplomacy-test-amid-tariffs-iran-war-bond-turmoil-4882036"
+      },
+      {
+        "id": "80e4d54bdc6ca9987954c749",
+        "title": "Learning about war via Minecraft: Bringing the Great Tokyo Air Raid to life",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/spotlight/society/learning-about-war-via-minecraft-bringing-the-great-tokyo-air-raid-to-life"
+      },
+      {
+        "id": "2ead378b81c4bb6885d34b28",
+        "title": "Party balloons could become a ‘luxury’ as the Iran war spurs a helium shortage",
+        "source": "marketwatch",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.marketwatch.com/story/party-balloons-could-become-a-luxury-as-the-iran-war-spurs-a-helium-shortage-89e3f86e?mod=mw_rss_topstories"
+      },
+      {
+        "id": "cc20d008cf9327f8068321bb",
+        "title": "AI isn’t eating software after all — and the sector’s ‘epic’ rally could run through October",
+        "source": "marketwatch",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.marketwatch.com/story/ai-isnt-eating-software-after-all-and-the-sectors-epic-rally-could-run-through-october-a4610583?mod=mw_rss_topstories"
+      },
       {
         "id": "8e1cb4831ba0b0bf403654db",
         "title": "Iran insists Strait of Hormuz remains closed as war enters seventh month",
@@ -14,48 +46,16 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://www.investing.com/news/economy-news/iran-insists-strait-of-hormuz-remains-closed-as-war-enters-seventh-month-4882018"
-      },
-      {
-        "id": "c0e1b1efac4b662fb4c5d34c",
-        "title": "GM plans C$1.1 billion Canada investment as U.S. tariff pressure mounts",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/company-news/gm-plans-c11-billion-canada-investment-as-us-tariff-pressure-mounts-4882005"
-      },
-      {
-        "id": "1b9d34af779715eb45cd7687",
-        "title": "Shanghai Cooperation Organization summit, Semicon Taiwan, Shein listing",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/your-week-in-asia/shanghai-cooperation-organization-summit-semicon-taiwan-shein-listing"
-      },
-      {
-        "id": "3958a1857c358c062940e0e9",
-        "title": "A purple yam from the Philippines gives matcha a run for its money in Japan",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/food-beverage/a-purple-yam-from-the-philippines-gives-matcha-a-run-for-its-money-in-japan"
-      },
-      {
-        "id": "a78d1529e79841aae977640b",
-        "title": "Icelanders edge closer to ’no’ on EU-accession talks, vote count ongoing",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/economy-news/iceland-votes-in-tight-referendum-on-whether-to-start-eu-membership-talks-4881985"
       }
     ]
   },
   "2026-08-29": {
-    "articles_count": 201,
-    "signal_count": 34,
+    "articles_count": 223,
+    "signal_count": 38,
     "tone_cb": null,
-    "tone_global": 0.1672,
+    "tone_global": 0.1645,
     "regul_crypto": -0.6,
-    "stress": 0.005,
+    "stress": 0.009,
     "top": [
       {
         "id": "3f0d361ca3a21693b4837a43",
@@ -74,6 +74,14 @@
         "url": "https://www.investing.com/news/economy-news/iranian-trade-plunges-35-as-us-steps-up-economic-pressure-4881926"
       },
       {
+        "id": "735698163c1d45cf3a74f12a",
+        "title": "Project Tetromino Likely to Drive Operational Efficiency and Margin Expansion for Amazon Stock",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": 0.6667,
+        "url": "https://finance.yahoo.com/markets/stocks/articles/project-tetromino-likely-drive-operational-130002737.html"
+      },
+      {
         "id": "fd2479475fe0d94daad8b5ca",
         "title": "Veeva (VEEV) Grew Subscription Revenue 16% as GAAP Operating Income Increased 40%. Is the Margin Expansion Sustainable?",
         "source": "yahoo_finance",
@@ -88,14 +96,6 @@
         "score": 0.3,
         "tone": -0.6667,
         "url": "https://www.investing.com/news/stock-market-news/war-weighs-on-irans-economy-as-us-intensifies-sanctions-4881923"
-      },
-      {
-        "id": "edf34c8516eee754bf1939ac",
-        "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49"
       }
     ]
   },
@@ -3416,7 +3416,7 @@
     ]
   },
   "2026-06-01": {
-    "articles_count": 4,
+    "articles_count": 1,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
@@ -3430,30 +3430,6 @@
         "score": 0.9,
         "tone": 0.0,
         "url": "https://www.sec.gov/newsroom/press-releases/2026-50-sec-announces-four-new-members-investor-advisory-committee"
-      },
-      {
-        "id": "9e131281131aa4672369c0aa",
-        "title": "L'AMF accompagne les sociétés cotées dans la mise en œuvre de leur déclaration des informations relatives à la parité au sein des organes collégiaux",
-        "source": "amf_news",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-accompagne-les-societes-cotees-dans-la-mise-en-oeuvre-de-leur-declaration-des-informations#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "874ea0437ea7f48d4f4bb62d",
-        "title": "La Directive « Women on Boards »",
-        "source": "amf_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/dossiers-thematiques/women-boards#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "a872641893390373887fe9da",
-        "title": "Arrêté du 11 mai 2026 portant homologation d'une modification du règlement général de l'Autorité des marchés financiers",
-        "source": "amf_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/reglementation/reglement-general/arretes-dhomologation/arrete-du-11-mai-2026-portant-homologation-dune-modification-du-reglement-general-de-lautorite-des#xts=607212&xtor=RSS-3&type=RSS"
       }
     ]
   },
