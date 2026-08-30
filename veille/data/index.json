@@ -1,11 +1,11 @@
 {
   "2026-08-30": {
-    "articles_count": 86,
-    "signal_count": 10,
+    "articles_count": 131,
+    "signal_count": 14,
     "tone_cb": null,
-    "tone_global": -0.2878,
-    "regul_crypto": -0.6,
-    "stress": 0.0116,
+    "tone_global": -0.2056,
+    "regul_crypto": -0.675,
+    "stress": 0.0076,
     "top": [
       {
         "id": "187e87760cdd09b485e010d3",
@@ -16,6 +16,22 @@
         "url": "https://www.investing.com/news/forex-news/us-treasurys-bessent-faces-g20-diplomacy-test-amid-tariffs-iran-war-bond-turmoil-4882036"
       },
       {
+        "id": "3022a10c07822a2316122db5",
+        "title": "Miniso (MNSO) Booming Membership Growth Collides With A Struggling Global Expansion",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": 0.75,
+        "url": "https://finance.yahoo.com/markets/stocks/articles/miniso-mnso-booming-membership-growth-184952315.html"
+      },
+      {
+        "id": "3cf868c2592f541f8d25b99e",
+        "title": "Crypto.com-linked Cronos network halts after Tectonic exploit estimated at $75 million",
+        "source": "theblock",
+        "score": 0.3,
+        "tone": -0.75,
+        "url": "https://www.theblock.co/news/defi/2026-08-30-crypto-com-linked-cronos-network-halts-after-tectonic-exploit-estimated-at-75-million-413069"
+      },
+      {
         "id": "84ead74a756e41416482fd73",
         "title": "Chainalysis accuses ICE of unfairly steering $95 million blockchain contract to TRM Labs",
         "source": "theblock",
@@ -24,28 +40,12 @@
         "url": "https://www.theblock.co/news/business/2026-08-30-chainalysis-accuses-ice-of-unfairly-steering-95-million-blockchain-contract-to-trm-labs-413066"
       },
       {
-        "id": "80e4d54bdc6ca9987954c749",
-        "title": "Learning about war via Minecraft: Bringing the Great Tokyo Air Raid to life",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/spotlight/society/learning-about-war-via-minecraft-bringing-the-great-tokyo-air-raid-to-life"
-      },
-      {
-        "id": "2ead378b81c4bb6885d34b28",
-        "title": "Party balloons could become a ‘luxury’ as the Iran war spurs a helium shortage",
-        "source": "marketwatch",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.marketwatch.com/story/party-balloons-could-become-a-luxury-as-the-iran-war-spurs-a-helium-shortage-89e3f86e?mod=mw_rss_topstories"
-      },
-      {
-        "id": "cc20d008cf9327f8068321bb",
-        "title": "AI isn’t eating software after all — and the sector’s ‘epic’ rally could run through October",
-        "source": "marketwatch",
+        "id": "5ca0c9135d7e2363bf1231d6",
+        "title": "Pinterest’s (PINS) CFO Exit Tests Whether The Growth Story Holds",
+        "source": "yahoo_finance",
         "score": 0.3,
         "tone": 0.5,
-        "url": "https://www.marketwatch.com/story/ai-isnt-eating-software-after-all-and-the-sectors-epic-rally-could-run-through-october-a4610583?mod=mw_rss_topstories"
+        "url": "https://finance.yahoo.com/markets/stocks/articles/pinterest-pins-cfo-exit-tests-182159557.html"
       }
     ]
   },
