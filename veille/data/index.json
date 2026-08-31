@@ -1,11 +1,11 @@
 {
   "2026-08-31": {
-    "articles_count": 183,
-    "signal_count": 22,
+    "articles_count": 216,
+    "signal_count": 26,
     "tone_cb": null,
-    "tone_global": -0.2746,
-    "regul_crypto": -0.6,
-    "stress": 0.0196,
+    "tone_global": -0.19,
+    "regul_crypto": 0.0,
+    "stress": 0.0167,
     "top": [
       {
         "id": "6a46336ec2c3f6f28be1ccab",
@@ -32,30 +32,30 @@
         "url": "http://www.boj.or.jp/en/statistics/sj/sjhiq.pdf"
       },
       {
+        "id": "cd9f438329f836fc89719cb3",
+        "title": "SEC and FDA Announce MOU to Bolster Cooperation and Ensure Market Integrity",
+        "source": "sec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-80-sec-fda-announce-mou-bolster-cooperation-ensure-market-integrity"
+      },
+      {
         "id": "ae2f93bf8dd69c978960b933",
         "title": "Statement in context of G20 Finance Ministers and Central Bank Governors meetings on 31 August and 1 September, in Asheville, US",
         "source": "ec_press",
         "score": 0.9,
         "tone": 0.0,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1777"
-      },
-      {
-        "id": "f5da3e73c8d72dddeb56018e",
-        "title": "Statement by President von der Leyen following her visit to the Emergency Response Coordination Centre",
-        "source": "ec_press",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1776"
       }
     ]
   },
   "2026-08-30": {
-    "articles_count": 171,
+    "articles_count": 195,
     "signal_count": 18,
     "tone_cb": null,
     "tone_global": -0.1901,
     "regul_crypto": -0.675,
-    "stress": 0.0113,
+    "stress": 0.01,
     "top": [
       {
         "id": "e7bfe3b3562c3c31646d6715",
