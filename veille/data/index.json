@@ -1,11 +1,11 @@
 {
   "2026-08-31": {
-    "articles_count": 95,
-    "signal_count": 12,
+    "articles_count": 183,
+    "signal_count": 22,
     "tone_cb": null,
-    "tone_global": -0.3034,
+    "tone_global": -0.2746,
     "regul_crypto": -0.6,
-    "stress": 0.0,
+    "stress": 0.0196,
     "top": [
       {
         "id": "6a46336ec2c3f6f28be1ccab",
@@ -40,12 +40,12 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1777"
       },
       {
-        "id": "1b3e6d41957f23e942751935",
-        "title": "Daily News 31 / 08 / 2026",
+        "id": "f5da3e73c8d72dddeb56018e",
+        "title": "Statement by President von der Leyen following her visit to the Emergency Response Coordination Centre",
         "source": "ec_press",
-        "score": 0.6,
+        "score": 0.9,
         "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1775"
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1776"
       }
     ]
   },
@@ -3440,7 +3440,7 @@
     ]
   },
   "2026-06-02": {
-    "articles_count": 2,
+    "articles_count": 1,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
@@ -3454,14 +3454,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.bankofengland.co.uk/news/2026/june/wildlife-new-banknote-series"
-      },
-      {
-        "id": "06aa28b3fc4554da2a5e05de",
-        "title": "SEC Publishes Draft Strategic Plan for Public Comment",
-        "source": "sec_press",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-51-sec-publishes-draft-strategic-plan-public-comment"
       }
     ]
   },
