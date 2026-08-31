@@ -1,12 +1,70 @@
 {
-  "2026-08-30": {
-    "articles_count": 165,
-    "signal_count": 15,
+  "2026-08-31": {
+    "articles_count": 20,
+    "signal_count": 4,
     "tone_cb": null,
-    "tone_global": -0.2309,
-    "regul_crypto": -0.675,
-    "stress": 0.0061,
+    "tone_global": -0.1768,
+    "regul_crypto": null,
+    "stress": 0.0,
     "top": [
+      {
+        "id": "43b84c010e82dc82c6003f8c",
+        "title": "Payment and Settlement Statistics (July)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/set/kess/release/2026/kess2607.pdf"
+      },
+      {
+        "id": "3e4f5afc8426aa6e57791f64",
+        "title": "Flow of Funds (Overview of Japan, US, and the Euro area)(1st Quarter 2026)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/sj/sjhiq.pdf"
+      },
+      {
+        "id": "cc4d09abe5137094f88886bf",
+        "title": "U.S. stock futures slip as chances of rate hike rise after Warsh’s Jackson Hole comments",
+        "source": "marketwatch",
+        "score": 0.3,
+        "tone": -0.7071,
+        "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories"
+      },
+      {
+        "id": "64a8f2782e9a6c219b785c38",
+        "title": "Bessent expects new US secondary sanctions weekly, aiming to increase pressure on Iran",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/bessent-expects-new-us-secondary-sanctions-weekly-aiming-to-increase-pressure-on-iran-4882080"
+      },
+      {
+        "id": "bdc0f570404df501f095ab0c",
+        "title": "China's factory activity shrinks for second straight month, contracting less than expected",
+        "source": "cnbc_economy",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.cnbc.com/2026/08/31/china-pmi-august-economy-slowdown.html"
+      }
+    ]
+  },
+  "2026-08-30": {
+    "articles_count": 168,
+    "signal_count": 16,
+    "tone_cb": null,
+    "tone_global": -0.254,
+    "regul_crypto": -0.675,
+    "stress": 0.0117,
+    "top": [
+      {
+        "id": "e7bfe3b3562c3c31646d6715",
+        "title": "Average Contract Interest Rates on Loans and Discounts (July)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/dl/loan/yaku/yaku2607.pdf"
+      },
       {
         "id": "187e87760cdd09b485e010d3",
         "title": "US Treasury’s Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil",
@@ -32,30 +90,22 @@
         "url": "https://www.theblock.co/news/defi/2026-08-30-crypto-com-linked-cronos-network-halts-after-tectonic-exploit-estimated-at-75-million-413069"
       },
       {
-        "id": "84ead74a756e41416482fd73",
-        "title": "Chainalysis accuses ICE of unfairly steering $95 million blockchain contract to TRM Labs",
-        "source": "theblock",
+        "id": "e0729fa392392143a8c5e86d",
+        "title": "Singapore tackles finances and culture to avert a demographic crisis",
+        "source": "cnbc_economy",
         "score": 0.3,
         "tone": -0.6,
-        "url": "https://www.theblock.co/news/business/2026-08-30-chainalysis-accuses-ice-of-unfairly-steering-95-million-blockchain-contract-to-trm-labs-413066"
-      },
-      {
-        "id": "48643771b3a1a96f94f05571",
-        "title": "U.S. stock futures flat as chances of rate hike rise after Warsh’s Jackson Hole comments",
-        "source": "marketwatch",
-        "score": 0.3,
-        "tone": -0.5858,
-        "url": "https://www.marketwatch.com/story/u-s-stock-futures-flat-as-chances-of-rate-hike-rise-after-warshs-jackson-hole-comments-1f5287f2?mod=mw_rss_topstories"
+        "url": "https://www.cnbc.com/2026/08/31/singapore-ndr-childcare-incentives-demographic-crisis-.html"
       }
     ]
   },
   "2026-08-29": {
-    "articles_count": 224,
-    "signal_count": 38,
+    "articles_count": 256,
+    "signal_count": 40,
     "tone_cb": null,
-    "tone_global": 0.1645,
+    "tone_global": 0.1688,
     "regul_crypto": -0.6,
-    "stress": 0.0089,
+    "stress": 0.0078,
     "top": [
       {
         "id": "3f0d361ca3a21693b4837a43",
