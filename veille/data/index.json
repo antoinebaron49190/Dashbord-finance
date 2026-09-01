@@ -1,61 +1,61 @@
 {
   "2026-09-01": {
-    "articles_count": 11,
-    "signal_count": 1,
+    "articles_count": 41,
+    "signal_count": 8,
     "tone_cb": null,
-    "tone_global": -0.5,
+    "tone_global": -0.1667,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
-        "id": "7ffb667abea70615c02f59d1",
-        "title": "JBS co-owner lobbied Trump to lower beef import tariffs, WSJ reports",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/stock-market-news/jbs-coowner-lobbied-trump-to-lower-beef-import-tariffs-wsj-reports-4883419"
+        "id": "c0fa5bb58f8834470fa4da3f",
+        "title": "Bond Market Survey (August 2026)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/paym/bond/bond_list/bond2608.pdf"
       },
       {
-        "id": "e984a94e34656534184017e0",
-        "title": "Sushiro bets on affordable sushi as Japan restaurant chains expand in US",
+        "id": "56291bc89671e8a201dd0fca",
+        "title": "Sources of Changes in Current Account Balances and Market Operations (Aug.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/boj/fm/juqf/juqf08.xlsx"
+      },
+      {
+        "id": "455251be09b5f49fdd0c69f6",
+        "title": "Jollibee announces plan to list international spinoff in Hong Kong",
+        "source": "nikkei_asia",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/companies/jollibee-announces-plan-to-list-international-spinoff-in-hong-kong"
+      },
+      {
+        "id": "9162f51c818e362e7779ddb4",
+        "title": "Morgan Stanley upgrades Robinhood stock rating on product expansion",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.6667,
+        "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-upgrades-robinhood-stock-rating-on-product-expansion-93CH-4883544"
+      },
+      {
+        "id": "cd7ac0e4d843bbdf29d895b9",
+        "title": "US, China debate 'nonsensitive' tariff cuts ahead of Trump-Xi summit",
         "source": "nikkei_asia",
         "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/food-beverage/sushiro-bets-on-affordable-sushi-as-japan-restaurant-chains-expand-in-us"
-      },
-      {
-        "id": "4967461eceecede7ef68911c",
-        "title": "Earnings call transcript: BetMakers posts FY26 profit gains despite revenue miss",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-betmakers-posts-fy26-profit-gains-despite-revenue-miss-93CH-4883420"
-      },
-      {
-        "id": "1fc912fef7629efd5d53c61f",
-        "title": "Nikkei 225 trapped in JPY 65500-66500 range: Live levels",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/stock-market-news/nikkei-225-threatens-breakdown-at-65035-support-live-levels-93CH-4882095"
-      },
-      {
-        "id": "19b10fccdbe83ca9de19a13e",
-        "title": "SK Hynix stuck at KRW 1,700,000 resistance: Hourly levels",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/stock-market-news/sk-hynix-trapped-in-krw-range-live-breakout-levels-93CH-4882096"
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/spotlight/trump-xi-summit/us-china-debate-nonsensitive-tariff-cuts-ahead-of-trump-xi-summit"
       }
     ]
   },
   "2026-08-31": {
-    "articles_count": 216,
-    "signal_count": 26,
+    "articles_count": 221,
+    "signal_count": 29,
     "tone_cb": null,
-    "tone_global": -0.19,
+    "tone_global": -0.191,
     "regul_crypto": 0.0,
-    "stress": 0.0167,
+    "stress": 0.0204,
     "top": [
       {
         "id": "6a46336ec2c3f6f28be1ccab",
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-30": {
-    "articles_count": 216,
+    "articles_count": 224,
     "signal_count": 20,
     "tone_cb": null,
     "tone_global": -0.1501,
     "regul_crypto": -0.675,
-    "stress": 0.009,
+    "stress": 0.0087,
     "top": [
       {
         "id": "e7bfe3b3562c3c31646d6715",
@@ -3464,7 +3464,7 @@
     ]
   },
   "2026-06-03": {
-    "articles_count": 2,
+    "articles_count": 1,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
@@ -3478,14 +3478,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-05"
-      },
-      {
-        "id": "a1761b09650c55daf492b87a",
-        "title": "Résilience cyber : l'AMF appelle les acteurs financiers à renforcer leurs dispositifs face à l’évolution rapide des menaces liées à l’intelligence artificielle",
-        "source": "amf_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/resilience-cyber-lamf-appelle-les-acteurs-financiers-renforcer-leurs-dispositifs-face-levolution#xts=607212&xtor=RSS-3&type=RSS"
       }
     ]
   },
