@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-08-28T21:05:50.099537+00:00",
-  "pending": [],
+  "updated_at": "2026-09-01T17:36:22.747675+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:eurostoxx:haussiere->indecise:2026-09-01",
+      "title": "Euro Stoxx 50 : tendance sans direction nette",
+      "body": "Euro Stoxx 50 passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-01.",
+      "kind": "tendance",
+      "detected_at": "2026-09-01T17:36:22.747621+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -41,7 +49,8 @@
     "trend:hangseng:indecise->haussiere:2026-08-26",
     "trend:cac40:indecise->haussiere:2026-08-26",
     "trend:shanghai:baissiere->indecise:2026-08-27",
-    "trend:shanghai:baissiere->indecise:2026-08-28"
+    "trend:shanghai:baissiere->indecise:2026-08-28",
+    "trend:eurostoxx:haussiere->indecise:2026-09-01"
   ],
   "extremes_active": []
 }

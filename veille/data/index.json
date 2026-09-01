@@ -1,11 +1,11 @@
 {
   "2026-09-01": {
-    "articles_count": 117,
-    "signal_count": 23,
+    "articles_count": 189,
+    "signal_count": 36,
     "tone_cb": -0.5,
-    "tone_global": -0.1215,
-    "regul_crypto": -0.6,
-    "stress": 0.0066,
+    "tone_global": -0.0025,
+    "regul_crypto": 0.2,
+    "stress": 0.0085,
     "top": [
       {
         "id": "58b57a054827a68d69ee9ebd",
@@ -24,33 +24,33 @@
         "url": "https://www.bis.org/speeches/20260901-restrictive-stance-monetary-policy"
       },
       {
+        "id": "04c474fbeebf960140fbbe12",
+        "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html"
+      },
+      {
+        "id": "96bde00d0b7f22b7057bdd87",
+        "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm"
+      },
+      {
         "id": "c0fa5bb58f8834470fa4da3f",
         "title": "Bond Market Survey (August 2026)",
         "source": "boj_news",
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/paym/bond/bond_list/bond2608.pdf"
-      },
-      {
-        "id": "56291bc89671e8a201dd0fca",
-        "title": "Sources of Changes in Current Account Balances and Market Operations (Aug.)",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/boj/fm/juqf/juqf08.xlsx"
-      },
-      {
-        "id": "1a8354aa6fbd041d1296715d",
-        "title": "The everyday work of inclusion",
-        "source": "bis_cb_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bis.org/speeches/20260901-everyday-work-inclusion"
       }
     ]
   },
   "2026-08-31": {
-    "articles_count": 224,
+    "articles_count": 225,
     "signal_count": 29,
     "tone_cb": null,
     "tone_global": -0.191,
