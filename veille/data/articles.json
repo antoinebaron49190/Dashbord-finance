@@ -1,5 +1,300 @@
 [
   {
+    "id": "e984a94e34656534184017e0",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Sushiro bets on affordable sushi as Japan restaurant chains expand in US",
+    "url": "https://asia.nikkei.com/business/food-beverage/sushiro-bets-on-affordable-sushi-as-japan-restaurant-chains-expand-in-us",
+    "summary": "",
+    "published_at": "2026-09-01T01:38:03.178218+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4967461eceecede7ef68911c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: BetMakers posts FY26 profit gains despite revenue miss",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-betmakers-posts-fy26-profit-gains-despite-revenue-miss-93CH-4883420",
+    "summary": "",
+    "published_at": "2026-09-01T01:10:35+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1fc912fef7629efd5d53c61f",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nikkei 225 trapped in JPY 65500-66500 range: Live levels",
+    "url": "https://www.investing.com/news/stock-market-news/nikkei-225-threatens-breakdown-at-65035-support-live-levels-93CH-4882095",
+    "summary": "",
+    "published_at": "2026-09-01T01:07:44+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "19b10fccdbe83ca9de19a13e",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SK Hynix stuck at KRW 1,700,000 resistance: Hourly levels",
+    "url": "https://www.investing.com/news/stock-market-news/sk-hynix-trapped-in-krw-range-live-breakout-levels-93CH-4882096",
+    "summary": "",
+    "published_at": "2026-09-01T01:07:24+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7ffb667abea70615c02f59d1",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "JBS co-owner lobbied Trump to lower beef import tariffs, WSJ reports",
+    "url": "https://www.investing.com/news/stock-market-news/jbs-coowner-lobbied-trump-to-lower-beef-import-tariffs-wsj-reports-4883419",
+    "summary": "",
+    "published_at": "2026-09-01T01:01:13+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "406142808947f962d4257974",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oil prices rise as latest fighting resurrects Middle East supply disruption risks",
+    "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-latest-fighting-resurrects-middle-east-supply-disruption-risks-4883418",
+    "summary": "",
+    "published_at": "2026-09-01T01:00:55+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0e838d75624b544151cc55e9",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "White House releases terms of oil deal with North American Blue Energy Partners",
+    "url": "https://www.investing.com/news/commodities-news/white-house-releases-terms-of-oil-deal-with-north-american-blue-energy-partners-4883415",
+    "summary": "",
+    "published_at": "2026-09-01T00:55:20+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a7b78307ef82f57e6ac50b7d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Firms including Chevron, ONGC, GE Vernova on track to sign final pacts in Venezuela, sources say",
+    "url": "https://www.investing.com/news/commodities-news/firms-including-chevron-ongc-ge-vernova-on-track-to-sign-final-pacts-in-venezuela-sources-say-4883383",
+    "summary": "",
+    "published_at": "2026-09-01T00:55:01+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7cb26f6b04e699d0870b9551",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Anthropic signs $35 billion cloud deal with Nvidia-backed Lambda, source says",
+    "url": "https://www.investing.com/news/stock-market-news/anthropic-signs-35-billion-cloud-deal-with-nvidiabacked-lambda-source-says-4883414",
+    "summary": "",
+    "published_at": "2026-09-01T00:54:41+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3db5dd4fc17b4b5c253d44fa",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Traeger chief sales officer Cole VandenAkker sells $152,069 in stock",
+    "url": "https://www.investing.com/news/insider-trading-news/traeger-chief-sales-officer-cole-vandenakker-sells-152069-in-stock-93CH-4883413",
+    "summary": "",
+    "published_at": "2026-09-01T00:45:51+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3691b2c1a9fde264c06ae607",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oil extends gains as Trump threatens further Iran strikes",
+    "url": "https://www.investing.com/news/commodities-news/oil-extends-gains-as-trump-threatens-further-iran-strikes-4883412",
+    "summary": "",
+    "published_at": "2026-09-01T00:43:30+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "267b8e76ae41e2f66308e034",
     "source": "nikkei_asia",
     "tier": 3,
@@ -7675,6 +7970,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "b8e9e3e216cf79ed7a1ca0c8",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Wu-Tang Clan Member Raekwon Is a Palantir ‘OG,’ Visiting Headquarters 16 Years After Receiving His Custom PLTR Jacket",
+    "url": "https://finance.yahoo.com/technology/ai/articles/wu-tang-clan-member-raekwon-183002606.html",
+    "summary": "",
+    "published_at": "2026-08-30T18:30:02+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "834dc892bd7e11c8939f33d1",
     "source": "yahoo_finance",
     "tier": 3,
@@ -7715,6 +8036,32 @@
     "summary": "",
     "published_at": "2026-08-30T18:27:01+00:00",
     "collected_at": "2026-08-30T20:33:25.717816+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "978a58bce9c845f2aea7ca1f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "PepsiCo Stock: Is PEP Underperforming the Consumer Defensive Sector?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/pepsico-stock-pep-underperforming-consumer-182650291.html",
+    "summary": "",
+    "published_at": "2026-08-30T18:26:50+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -7854,6 +8201,36 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c1c59687665d7d048e653055",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Is Netflix Stock Underperforming the S&P 500?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/netflix-stock-underperforming-p-500-180731110.html",
+    "summary": "",
+    "published_at": "2026-08-30T18:07:31+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -8263,6 +8640,58 @@
     "summary": "",
     "published_at": "2026-08-30T17:33:00+00:00",
     "collected_at": "2026-08-30T17:54:10.089500+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "75910bd0791424044912808a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Alibaba’s Chairman Just Bought Shares After a Major AI Funding Deal. How Investors Should View the Move.",
+    "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-chairman-just-bought-shares-173002285.html",
+    "summary": "",
+    "published_at": "2026-08-30T17:30:02+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a940c5cd906da2efaddae8db",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SpaceX Has an Emerging Challenger in Space. Here’s the One Thing Rivals Can’t Copy.",
+    "url": "https://finance.yahoo.com/technology/ai/articles/spacex-emerging-challenger-space-one-172828623.html",
+    "summary": "",
+    "published_at": "2026-08-30T17:28:28+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -9431,6 +9860,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "dbac67a94607bb0abb15f84b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Where Retirees Can Avoid Paying State Taxes on Their Retirement Income",
+    "url": "https://finance.yahoo.com/small-business/articles/where-retirees-avoid-paying-state-150224971.html",
+    "summary": "",
+    "published_at": "2026-08-30T15:02:24+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "75a5cf4c954bcacc721328e5",
     "source": "yahoo_finance",
     "tier": 3,
@@ -9509,6 +9964,120 @@
     "scored_by": "lexique"
   },
   {
+    "id": "4030bfc54292c6089736d21d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The S&P 500 Keeps Hitting Highs — But It’s Just Microsoft and Nvidia Carrying the Entire Market",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-keeps-hitting-highs-145500277.html",
+    "summary": "",
+    "published_at": "2026-08-30T14:55:00+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f8213e7b74b80e11d66127bc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Trump’s New Oil Deal With Venezuela Is Insane — U.S. Now Controls 7.1% of Proven Global Reserves",
+    "url": "https://finance.yahoo.com/energy/articles/trump-oil-deal-venezuela-insane-164936558.html",
+    "summary": "",
+    "published_at": "2026-08-30T14:52:52+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cde794011929ab5ec5f5b4df",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Digital Euro Adoption Hinges on Speed—Can the ECB Make It Easy Enough to Use?",
+    "url": "https://finance.yahoo.com/markets/currencies/articles/digital-euro-adoption-hinges-speed-145133013.html",
+    "summary": "",
+    "published_at": "2026-08-30T14:51:33+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {
+      "crypto_favorable": 2.0
+    },
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.75,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "40173e9386655e42fc2b890f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bull Markets Rise, Bear Markets Fall: Here's How I Use Each to Build Wealth",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/bull-markets-rise-bear-markets-145000231.html",
+    "summary": "",
+    "published_at": "2026-08-30T14:50:00+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "3808786e5663cc32325d4f4b",
     "source": "yahoo_finance",
     "tier": 3,
@@ -9530,6 +10099,88 @@
     "assets_effective": [
       "sp500"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6ded138e3bbfe6db3a9f80a2",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer delivers unmistakable verdict on vital tech giant",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-delivers-unmistakable-verdict-143700553.html",
+    "summary": "",
+    "published_at": "2026-08-30T14:37:00+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7e7fe39c9288bb3123b41cf5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Amazon Has Badly Underperformed the S&P 500 and Nasdaq-100 Since Jeff Bezos Stepped Down as CEO. Could Apple Do the Same Starting Sept. 1 When Tim Cook Steps Down?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/amazon-badly-underperformed-p-500-143500321.html",
+    "summary": "",
+    "published_at": "2026-08-30T14:35:00+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8ca519dc31ad3ee0fb30ce6c",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "We Offered to Buy My Parents an Apartment so They Wouldn't Have to Live in a Basement. Now They Want $300K in Cash Instead",
+    "url": "https://finance.yahoo.com/real-estate/articles/offered-buy-parents-apartment-wouldnt-143109030.html",
+    "summary": "",
+    "published_at": "2026-08-30T14:31:09+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -9591,6 +10242,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "4bfc229f97d46b991d68caf8",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Prediction: This Is What a $5,000 Investment in SpaceX Will Be Worth by 2030",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-5-000-investment-spacex-142500856.html",
+    "summary": "",
+    "published_at": "2026-08-30T14:25:00+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1c68480193f8819396a5028f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "How a 68-Year-Old Collects $3,300 a Month From a Single Fund: JEPQ",
+    "url": "https://finance.yahoo.com/markets/options/articles/68-old-collects-3-300-142305231.html",
+    "summary": "",
+    "published_at": "2026-08-30T14:23:05+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "bd2fb229c542d630896c9881",
     "source": "yahoo_finance",
     "tier": 3,
@@ -9605,6 +10308,58 @@
     "summary": "",
     "published_at": "2026-08-30T14:20:00+00:00",
     "collected_at": "2026-08-30T17:54:10.089500+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "33d9688044cb6acd3b137dea",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Here's How Much You'd Have if You Invested $1,000 in NVIDIA Stock in 2010",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-youd-invested-1-141747252.html",
+    "summary": "",
+    "published_at": "2026-08-30T14:17:47+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1a2f51d470ed2a70cf7e4dc0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bill Gates just said what no tech leader will about AI",
+    "url": "https://finance.yahoo.com/technology/ai/articles/bill-gates-just-said-no-141700474.html",
+    "summary": "",
+    "published_at": "2026-08-30T14:17:00+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -9643,6 +10398,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "f174657cc30c7918a85af0dc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "3 Social Security Rules Too Many Retirees Don't Know About",
+    "url": "https://finance.yahoo.com/healthcare/articles/3-social-security-rules-too-141400566.html",
+    "summary": "",
+    "published_at": "2026-08-30T14:14:00+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bacd01603f196416f935ac93",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Healey tax grab ‘would inflict lasting damage on North Sea’, business chiefs warn",
+    "url": "https://finance.yahoo.com/economy/policy/articles/healey-tax-grab-inflict-lasting-141243719.html",
+    "summary": "",
+    "published_at": "2026-08-30T14:12:43+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "6a57915002aab7d8a106a6d9",
     "source": "investing_com",
     "tier": 3,
@@ -9657,6 +10464,32 @@
     "summary": "",
     "published_at": "2026-08-30T14:12:23+00:00",
     "collected_at": "2026-08-30T17:54:10.089500+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3a772a496544b09e253687de",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Where Will Nvidia Stock Be 6 Months After the Latest Explosive Earnings Report? Here’s What History Says.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/where-nvidia-stock-6-months-141101375.html",
+    "summary": "",
+    "published_at": "2026-08-30T14:11:01+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -9692,6 +10525,40 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "792be61b78029a71f1aabf18",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "How sustainable is the crypto rebound? Needham sees further momentum",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/sustainable-crypto-rebound-needham-sees-140600114.html",
+    "summary": "",
+    "published_at": "2026-08-30T14:06:00+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
     "scored_by": "lexique"
   },
   {
@@ -358185,6 +359052,62 @@
     "scored_by": "lexique"
   },
   {
+    "id": "1db0f2eb35e99ce5d850e0bf",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Serbian banks well-capitalised and profitable, maintaining high liquidity buffers",
+    "url": "https://www.bis.org/speeches/20260630-serbian-banks-well-capitalised-and-profitable-maintaining-high-liquidity-buffers",
+    "summary": "Speech by Dr Jorgovanka Tabaković, Governor of the National Bank of Serbia, at the Annual Assembly of the Association of Serbian Banks, Belgrade, 19 June 2026.",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ea166427ee876760e713a918",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "The Bank of Japan's Semiannual Report on Currency and Monetary Control",
+    "url": "https://www.bis.org/speeches/20260630-bank-japans-semiannual-report-currency-and-monetary-control",
+    "summary": "Statement by Mr Ryozo Himino, Deputy Governor of the Bank of Japan, before the Committee on Financial Affairs, House of Representatives, Tokyo, 19 June 2026.",
+    "published_at": "2026-06-30T00:00:00+00:00",
+    "collected_at": "2026-09-01T01:38:03.178218+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": true,
+    "importance": 1.95,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "25f93d489a0bad854f47ea89",
     "source": "fsb_news",
     "tier": 2,
@@ -360706,35 +361629,6 @@
     ],
     "has_decision_marker": false,
     "importance": 0.6,
-    "tone_lexical": 0.0,
-    "crypto_tone": 0.0,
-    "is_stress": false,
-    "tone": 0.0,
-    "scored_by": "lexique"
-  },
-  {
-    "id": "a4b4b01365bdace002bfc2d4",
-    "source": "boe_news",
-    "tier": 1,
-    "weight": 1.0,
-    "category": "politique_monetaire",
-    "assets": [
-      "europe",
-      "msci_world"
-    ],
-    "title": "Public asked to help select UK wildlife to appear on new banknote series",
-    "url": "https://www.bankofengland.co.uk/news/2026/june/wildlife-new-banknote-series",
-    "summary": "The public are being asked to give their views on a selection of wildlife, native to the UK, that will appear on the next series of banknotes in a consultation launched today.",
-    "published_at": "2026-06-02T23:01:00+00:00",
-    "collected_at": "2026-07-31T16:01:54.092103+00:00",
-    "categories": {},
-    "assets_detected": [],
-    "assets_effective": [
-      "europe",
-      "msci_world"
-    ],
-    "has_decision_marker": false,
-    "importance": 1.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,

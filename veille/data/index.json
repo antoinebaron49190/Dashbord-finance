@@ -1,4 +1,54 @@
 {
+  "2026-09-01": {
+    "articles_count": 11,
+    "signal_count": 1,
+    "tone_cb": null,
+    "tone_global": -0.5,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "7ffb667abea70615c02f59d1",
+        "title": "JBS co-owner lobbied Trump to lower beef import tariffs, WSJ reports",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/stock-market-news/jbs-coowner-lobbied-trump-to-lower-beef-import-tariffs-wsj-reports-4883419"
+      },
+      {
+        "id": "e984a94e34656534184017e0",
+        "title": "Sushiro bets on affordable sushi as Japan restaurant chains expand in US",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/food-beverage/sushiro-bets-on-affordable-sushi-as-japan-restaurant-chains-expand-in-us"
+      },
+      {
+        "id": "4967461eceecede7ef68911c",
+        "title": "Earnings call transcript: BetMakers posts FY26 profit gains despite revenue miss",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-betmakers-posts-fy26-profit-gains-despite-revenue-miss-93CH-4883420"
+      },
+      {
+        "id": "1fc912fef7629efd5d53c61f",
+        "title": "Nikkei 225 trapped in JPY 65500-66500 range: Live levels",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/stock-market-news/nikkei-225-threatens-breakdown-at-65035-support-live-levels-93CH-4882095"
+      },
+      {
+        "id": "19b10fccdbe83ca9de19a13e",
+        "title": "SK Hynix stuck at KRW 1,700,000 resistance: Hourly levels",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/stock-market-news/sk-hynix-trapped-in-krw-range-live-breakout-levels-93CH-4882096"
+      }
+    ]
+  },
   "2026-08-31": {
     "articles_count": 216,
     "signal_count": 26,
@@ -50,12 +100,12 @@
     ]
   },
   "2026-08-30": {
-    "articles_count": 195,
-    "signal_count": 18,
+    "articles_count": 216,
+    "signal_count": 20,
     "tone_cb": null,
-    "tone_global": -0.1901,
+    "tone_global": -0.1501,
     "regul_crypto": -0.675,
-    "stress": 0.01,
+    "stress": 0.009,
     "top": [
       {
         "id": "e7bfe3b3562c3c31646d6715",
@@ -2662,13 +2712,21 @@
     ]
   },
   "2026-06-30": {
-    "articles_count": 16,
+    "articles_count": 18,
     "signal_count": 2,
     "tone_cb": -0.05,
     "tone_global": -0.05,
     "regul_crypto": null,
-    "stress": 0.0769,
+    "stress": 0.0645,
     "top": [
+      {
+        "id": "ea166427ee876760e713a918",
+        "title": "The Bank of Japan's Semiannual Report on Currency and Monetary Control",
+        "source": "bis_cb_speeches",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20260630-bank-japans-semiannual-report-currency-and-monetary-control"
+      },
       {
         "id": "69485a0871bb75f3b688c78c",
         "title": "Introductory remarks",
@@ -2700,14 +2758,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-06"
-      },
-      {
-        "id": "c9d7ce7b632e09ce60410903",
-        "title": "Mundell's plan for a European currency - from theory to history",
-        "source": "bis_cb_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bis.org/speeches/20260630-mundells-plan-european-currency-theory-history"
       }
     ]
   },
