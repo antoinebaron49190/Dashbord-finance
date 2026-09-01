@@ -1,12 +1,28 @@
 {
   "2026-09-01": {
-    "articles_count": 41,
-    "signal_count": 8,
-    "tone_cb": null,
-    "tone_global": -0.1667,
-    "regul_crypto": null,
-    "stress": 0.0,
+    "articles_count": 117,
+    "signal_count": 23,
+    "tone_cb": -0.5,
+    "tone_global": -0.1215,
+    "regul_crypto": -0.6,
+    "stress": 0.0066,
     "top": [
+      {
+        "id": "58b57a054827a68d69ee9ebd",
+        "title": "Policy rate kept unchanged at this meeting",
+        "source": "bis_cb_speeches",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20260901-policy-rate-kept-unchanged-meeting"
+      },
+      {
+        "id": "17c5c135321e90f4e6dc31bb",
+        "title": "The restrictive stance of monetary policy",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": -0.5,
+        "url": "https://www.bis.org/speeches/20260901-restrictive-stance-monetary-policy"
+      },
       {
         "id": "c0fa5bb58f8834470fa4da3f",
         "title": "Bond Market Survey (August 2026)",
@@ -24,39 +40,31 @@
         "url": "http://www.boj.or.jp/en/statistics/boj/fm/juqf/juqf08.xlsx"
       },
       {
-        "id": "455251be09b5f49fdd0c69f6",
-        "title": "Jollibee announces plan to list international spinoff in Hong Kong",
-        "source": "nikkei_asia",
-        "score": 0.45,
+        "id": "1a8354aa6fbd041d1296715d",
+        "title": "The everyday work of inclusion",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/companies/jollibee-announces-plan-to-list-international-spinoff-in-hong-kong"
-      },
-      {
-        "id": "9162f51c818e362e7779ddb4",
-        "title": "Morgan Stanley upgrades Robinhood stock rating on product expansion",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-upgrades-robinhood-stock-rating-on-product-expansion-93CH-4883544"
-      },
-      {
-        "id": "cd7ac0e4d843bbdf29d895b9",
-        "title": "US, China debate 'nonsensitive' tariff cuts ahead of Trump-Xi summit",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/spotlight/trump-xi-summit/us-china-debate-nonsensitive-tariff-cuts-ahead-of-trump-xi-summit"
+        "url": "https://www.bis.org/speeches/20260901-everyday-work-inclusion"
       }
     ]
   },
   "2026-08-31": {
-    "articles_count": 221,
+    "articles_count": 224,
     "signal_count": 29,
     "tone_cb": null,
     "tone_global": -0.191,
     "regul_crypto": 0.0,
-    "stress": 0.0204,
+    "stress": 0.0199,
     "top": [
+      {
+        "id": "114fc68a73d40bfc51d8513c",
+        "title": "Environmental policy uncertainty and cleantech FDI",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3278~42c60efb87.en.pdf"
+      },
       {
         "id": "6a46336ec2c3f6f28be1ccab",
         "title": "Quarterly Schedule of Outright Purchases of Japanese Government Bonds (Competitive Auction Method) (July-September 2026) (Schedule Updates)",
@@ -88,14 +96,6 @@
         "score": 0.9,
         "tone": 0.0,
         "url": "https://www.sec.gov/newsroom/press-releases/2026-80-sec-fda-announce-mou-bolster-cooperation-ensure-market-integrity"
-      },
-      {
-        "id": "ae2f93bf8dd69c978960b933",
-        "title": "Statement in context of G20 Finance Ministers and Central Bank Governors meetings on 31 August and 1 September, in Asheville, US",
-        "source": "ec_press",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1777"
       }
     ]
   },
@@ -400,7 +400,7 @@
     ]
   },
   "2026-08-24": {
-    "articles_count": 919,
+    "articles_count": 922,
     "signal_count": 123,
     "tone_cb": -0.7836,
     "tone_global": -0.0461,
