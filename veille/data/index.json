@@ -1,9 +1,9 @@
 {
   "2026-09-02": {
-    "articles_count": 16,
-    "signal_count": 1,
+    "articles_count": 39,
+    "signal_count": 4,
     "tone_cb": null,
-    "tone_global": -0.5,
+    "tone_global": 0.125,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
@@ -24,28 +24,28 @@
         "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260831.htm"
       },
       {
+        "id": "63bf92954be0478abc1e0832",
+        "title": "AI capital expenditure forecast to exceed the cost of building railways in both the U.S. and the U.K. — with the internet added on top",
+        "source": "marketwatch",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.marketwatch.com/story/ai-capital-expenditure-forecasted-to-exceed-the-cost-of-building-railways-in-both-the-u-s-and-the-u-k-with-the-internet-added-on-top-765b927f?mod=mw_rss_topstories"
+      },
+      {
+        "id": "870b9f80acae3df1ed32a0d9",
+        "title": "G20 finance leaders vow to establish ‘clear pathways’ for digital assets innovation",
+        "source": "theblock",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.theblock.co/news/regulation/2026-09-02-g20-finance-leaders-digital-assets-413310"
+      },
+      {
         "id": "8240507183c7c7a4b39f76de",
         "title": "BOJ chief says rate hikes on table at every meeting, including this month's",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": -0.5,
         "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-chief-says-rate-hikes-on-table-at-every-meeting-including-this-month-s"
-      },
-      {
-        "id": "97a471f5eaf69f7bd4c30085",
-        "title": "Hong Kong activist Joshua Wong pleads guilty to foreign collusion",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/hong-kong-security-law/hong-kong-activist-joshua-wong-pleads-guilty-to-foreign-collusion"
-      },
-      {
-        "id": "ee8d00171af71a7057fc4d73",
-        "title": "The cost of Indonesia's economic overreach",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/comment/the-cost-of-indonesia-s-economic-overreach"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-31": {
-    "articles_count": 317,
-    "signal_count": 37,
+    "articles_count": 347,
+    "signal_count": 41,
     "tone_cb": null,
-    "tone_global": -0.1687,
+    "tone_global": -0.1766,
     "regul_crypto": 0.0,
-    "stress": 0.0203,
+    "stress": 0.0187,
     "top": [
       {
         "id": "114fc68a73d40bfc51d8513c",
