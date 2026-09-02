@@ -1,12 +1,28 @@
 {
   "2026-09-02": {
-    "articles_count": 39,
-    "signal_count": 4,
+    "articles_count": 118,
+    "signal_count": 16,
     "tone_cb": null,
-    "tone_global": 0.125,
+    "tone_global": 0.0616,
     "regul_crypto": null,
-    "stress": 0.0,
+    "stress": 0.0074,
     "top": [
+      {
+        "id": "72503ecc64e2de1f6bb5d5f0",
+        "title": "Japanese Government Bonds Held by the Bank of Japan",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260831.xlsx"
+      },
+      {
+        "id": "8f9a2be47bf35145aee7af4f",
+        "title": "Collateral Accepted by the Bank of Japan (End of Aug.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/boj/other/col/col2608.xlsx"
+      },
       {
         "id": "16d878c4978c14a1e66a6dce",
         "title": "Speech by Board Member TAKATA in Sapporo (Economic Activity, Prices, and Monetary Policy in Japan)",
@@ -24,38 +40,22 @@
         "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260831.htm"
       },
       {
-        "id": "63bf92954be0478abc1e0832",
-        "title": "AI capital expenditure forecast to exceed the cost of building railways in both the U.S. and the U.K. — with the internet added on top",
-        "source": "marketwatch",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.marketwatch.com/story/ai-capital-expenditure-forecasted-to-exceed-the-cost-of-building-railways-in-both-the-u-s-and-the-u-k-with-the-internet-added-on-top-765b927f?mod=mw_rss_topstories"
-      },
-      {
-        "id": "870b9f80acae3df1ed32a0d9",
-        "title": "G20 finance leaders vow to establish ‘clear pathways’ for digital assets innovation",
-        "source": "theblock",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.theblock.co/news/regulation/2026-09-02-g20-finance-leaders-digital-assets-413310"
-      },
-      {
-        "id": "8240507183c7c7a4b39f76de",
-        "title": "BOJ chief says rate hikes on table at every meeting, including this month's",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-chief-says-rate-hikes-on-table-at-every-meeting-including-this-month-s"
+        "id": "23ff2f934bf42f6c8a633503",
+        "title": "Statement by President von der Leyen with NATO Secretary-General Mark Rutte",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1790"
       }
     ]
   },
   "2026-09-01": {
-    "articles_count": 236,
-    "signal_count": 45,
+    "articles_count": 240,
+    "signal_count": 46,
     "tone_cb": -0.5,
-    "tone_global": -0.0243,
+    "tone_global": -0.0573,
     "regul_crypto": -0.18,
-    "stress": 0.0104,
+    "stress": 0.0202,
     "top": [
       {
         "id": "58b57a054827a68d69ee9ebd",
@@ -100,12 +100,12 @@
     ]
   },
   "2026-08-31": {
-    "articles_count": 347,
+    "articles_count": 349,
     "signal_count": 41,
     "tone_cb": null,
     "tone_global": -0.1766,
     "regul_crypto": 0.0,
-    "stress": 0.0187,
+    "stress": 0.0186,
     "top": [
       {
         "id": "114fc68a73d40bfc51d8513c",
@@ -3488,21 +3488,13 @@
     ]
   },
   "2026-06-04": {
-    "articles_count": 2,
+    "articles_count": 1,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
-      {
-        "id": "3f704ac7ecedacf9f42bf5e0",
-        "title": "Minutes of the Synchronisation thematic engagement working group - 30 April 2026",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/minutes/2026/april/synchronisation-thematic-engagement-working-group"
-      },
       {
         "id": "a2ced37d4274b51f81953726",
         "title": "SEC Announces New Members of Small Business Capital Formation Advisory Committee",
