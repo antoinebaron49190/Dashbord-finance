@@ -1,11 +1,61 @@
 {
+  "2026-09-02": {
+    "articles_count": 16,
+    "signal_count": 1,
+    "tone_cb": null,
+    "tone_global": -0.5,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "16d878c4978c14a1e66a6dce",
+        "title": "Speech by Board Member TAKATA in Sapporo (Economic Activity, Prices, and Monetary Policy in Japan)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko260902a.htm"
+      },
+      {
+        "id": "18fe6908886e6651ab946e73",
+        "title": "Bank of Japan Accounts (August 31)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260831.htm"
+      },
+      {
+        "id": "8240507183c7c7a4b39f76de",
+        "title": "BOJ chief says rate hikes on table at every meeting, including this month's",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-chief-says-rate-hikes-on-table-at-every-meeting-including-this-month-s"
+      },
+      {
+        "id": "97a471f5eaf69f7bd4c30085",
+        "title": "Hong Kong activist Joshua Wong pleads guilty to foreign collusion",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/spotlight/hong-kong-security-law/hong-kong-activist-joshua-wong-pleads-guilty-to-foreign-collusion"
+      },
+      {
+        "id": "ee8d00171af71a7057fc4d73",
+        "title": "The cost of Indonesia's economic overreach",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/spotlight/comment/the-cost-of-indonesia-s-economic-overreach"
+      }
+    ]
+  },
   "2026-09-01": {
-    "articles_count": 234,
+    "articles_count": 236,
     "signal_count": 45,
     "tone_cb": -0.5,
     "tone_global": -0.0243,
     "regul_crypto": -0.18,
-    "stress": 0.0106,
+    "stress": 0.0104,
     "top": [
       {
         "id": "58b57a054827a68d69ee9ebd",
@@ -24,6 +74,14 @@
         "url": "https://www.bis.org/speeches/20260901-restrictive-stance-monetary-policy"
       },
       {
+        "id": "0eaac473bb80e58e146130a4",
+        "title": "Monetary Base (Aug.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/boj/other/mb/mb.htm"
+      },
+      {
         "id": "04c474fbeebf960140fbbe12",
         "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
         "source": "bce_press",
@@ -38,24 +96,16 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm"
-      },
-      {
-        "id": "c0fa5bb58f8834470fa4da3f",
-        "title": "Bond Market Survey (August 2026)",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/paym/bond/bond_list/bond2608.pdf"
       }
     ]
   },
   "2026-08-31": {
-    "articles_count": 294,
-    "signal_count": 34,
+    "articles_count": 317,
+    "signal_count": 37,
     "tone_cb": null,
-    "tone_global": -0.1835,
+    "tone_global": -0.1687,
     "regul_crypto": 0.0,
-    "stress": 0.0218,
+    "stress": 0.0203,
     "top": [
       {
         "id": "114fc68a73d40bfc51d8513c",
