@@ -1,10 +1,10 @@
 {
   "2026-09-03": {
-    "articles_count": 161,
-    "signal_count": 26,
+    "articles_count": 189,
+    "signal_count": 30,
     "tone_cb": null,
-    "tone_global": 0.1366,
-    "regul_crypto": -0.6,
+    "tone_global": 0.1384,
+    "regul_crypto": -0.2,
     "stress": 0.0,
     "top": [
       {
@@ -32,30 +32,30 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1795"
       },
       {
+        "id": "bc31994e6efa2f1190cd2756",
+        "title": "SEC Proposes Rescission of Political Contribution Rule for Investment Advisers",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-85-sec-proposes-rescission-political-contribution-rule-investment-advisers"
+      },
+      {
         "id": "4d2a71a3c7cfc62c7bff9a51",
         "title": "SEC Investor Advisory Committee to Host Sept. 10 Meeting",
         "source": "sec_press",
         "score": 0.6,
         "tone": 0.0,
         "url": "https://www.sec.gov/newsroom/press-releases/2026-84-sec-investor-advisory-committee-host-sept-10-meeting"
-      },
-      {
-        "id": "e3cf9f0c5613b2694ccc2db6",
-        "title": "Commissioner Roswall's speech at the Environment Ireland Conference 2026",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1796"
       }
     ]
   },
   "2026-09-02": {
-    "articles_count": 265,
-    "signal_count": 35,
+    "articles_count": 295,
+    "signal_count": 39,
     "tone_cb": null,
-    "tone_global": 0.1095,
+    "tone_global": 0.1029,
     "regul_crypto": -0.6,
-    "stress": 0.0035,
+    "stress": 0.0031,
     "top": [
       {
         "id": "4d5efaae81244c1b3a7dc179",
