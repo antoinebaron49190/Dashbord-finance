@@ -1,9 +1,9 @@
 {
   "2026-09-03": {
-    "articles_count": 34,
-    "signal_count": 6,
+    "articles_count": 61,
+    "signal_count": 11,
     "tone_cb": null,
-    "tone_global": -0.0167,
+    "tone_global": 0.0727,
     "regul_crypto": -0.6,
     "stress": 0.0,
     "top": [
@@ -16,6 +16,22 @@
         "url": "http://www.boj.or.jp/en/paym/market/mkt260903a.pdf"
       },
       {
+        "id": "01f4c7f0bdd613978620bffa",
+        "title": "Daily News 03 / 09 / 2026",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1795"
+      },
+      {
+        "id": "178a7f09b499145a3f756f2e",
+        "title": "CFTC asks judge to dismiss CME lawsuit over crypto perpetual futures",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.coindesk.com/policy/2026/09/03/cftc-asks-judge-to-dismiss-cme-lawsuit-over-crypto-perpetual-futures"
+      },
+      {
         "id": "20e47ee058e06a09a4fbd12e",
         "title": "‘Much ado about nothing’: CFTC files to dismiss CME’s lawsuit over crypto perpetual futures",
         "source": "theblock",
@@ -24,28 +40,12 @@
         "url": "https://www.theblock.co/news/regulation/2026-09-02-cftc-dismiss-cme-413416"
       },
       {
-        "id": "c411091378b0569bb9ea7f78",
-        "title": "Yen gets boost from hawkish BOJ repricing of rate expectations",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/yen-in-the-spotlight-after-sudden-jump-4886913"
-      },
-      {
-        "id": "1a9df202f4f1430dcb81ad2d",
-        "title": "India’s services growth picks up in August but stays near four-year low, PMI shows",
+        "id": "3bff4a06ee1a6361e055240e",
+        "title": "Impala Platinum FY2026 slides: stellar profit growth, reserves surge 9%",
         "source": "investing_com",
         "score": 0.3,
         "tone": 0.5,
-        "url": "https://www.investing.com/news/economy-news/indias-services-growth-picks-up-in-august-but-stays-near-fouryear-low-pmi-shows-4886979"
-      },
-      {
-        "id": "5b73724f7719a4f526967816",
-        "title": "BOJ set to hike rates further: These stocks are best-positioned for higher rates",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/stock-market-news/boj-set-to-hike-rates-further-these-stocks-are-bestpositioned-for-higher-rates-93CH-4886977"
+        "url": "https://www.investing.com/news/company-news/impala-platinum-fy2026-slides-stellar-profit-growth-reserves-surge-9-93CH-4887434"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-09-01": {
-    "articles_count": 345,
+    "articles_count": 356,
     "signal_count": 63,
     "tone_cb": -0.5,
     "tone_global": 0.0313,
     "regul_crypto": -0.1286,
-    "stress": 0.0149,
+    "stress": 0.0145,
     "top": [
       {
         "id": "58b57a054827a68d69ee9ebd",
