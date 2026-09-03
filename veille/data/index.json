@@ -1,12 +1,70 @@
 {
+  "2026-09-03": {
+    "articles_count": 11,
+    "signal_count": 1,
+    "tone_cb": null,
+    "tone_global": 0.5,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "050cdb48b5ffa88792db1836",
+        "title": "Japan services growth hits five-month high, PMI shows",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/economic-indicators/japan-services-growth-hits-fivemonth-high-pmi-shows-4886903"
+      },
+      {
+        "id": "7f7538fad9efeddcc036226c",
+        "title": "Japan Airlines CEO says aviation alliances taking on broader role",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/transportation/japan-airlines-ceo-says-aviation-alliances-taking-on-broader-role"
+      },
+      {
+        "id": "0d754e054c5fcd88860da220",
+        "title": "From hunger to obesity: Developing world faces growing threat to child health",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/stock-market-news/from-hunger-to-obesity-developing-world-faces-growing-threat-to-child-health-4886871"
+      },
+      {
+        "id": "87f0aa80fb4f32d99a3edabe",
+        "title": "IMF’s Georgieva says rising bond yields threaten progress on developing country debt",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/economy-news/imfs-georgieva-says-rising-bond-yields-threaten-progress-on-developing-country-debt-4886901"
+      },
+      {
+        "id": "84d61ee0ae52a180fea0cffb",
+        "title": "Matrix earnings missed by $0.14, revenue fell short of estimates",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/earnings/matrix-earnings-missed-by-014-revenue-fell-short-of-estimates-4886900"
+      }
+    ]
+  },
   "2026-09-02": {
-    "articles_count": 231,
+    "articles_count": 232,
     "signal_count": 32,
     "tone_cb": null,
     "tone_global": 0.0954,
     "regul_crypto": -0.6,
-    "stress": 0.004,
+    "stress": 0.0039,
     "top": [
+      {
+        "id": "4d5efaae81244c1b3a7dc179",
+        "title": "Sources of Changes in Current Account Balances (Projections for Sept.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/boj/fm/juqp/juqp2609.xlsx"
+      },
       {
         "id": "72503ecc64e2de1f6bb5d5f0",
         "title": "Japanese Government Bonds Held by the Bank of Japan",
@@ -38,24 +96,16 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260831.htm"
-      },
-      {
-        "id": "17178a31404ef0b5c98f8434",
-        "title": "Guide RDT sur les modalités de déclaration des transactions via le système de reporting direct des transactions",
-        "source": "amf_news",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/publications/guides/guides-professionnels/guide-rdt-sur-les-modalites-de-declaration-des-transactions-le-systeme-de-reporting-direct-des#xts=607212&xtor=RSS-3&type=RSS"
       }
     ]
   },
   "2026-09-01": {
-    "articles_count": 290,
-    "signal_count": 55,
+    "articles_count": 318,
+    "signal_count": 58,
     "tone_cb": -0.5,
-    "tone_global": -0.0071,
+    "tone_global": 0.001,
     "regul_crypto": -0.25,
-    "stress": 0.0173,
+    "stress": 0.016,
     "top": [
       {
         "id": "58b57a054827a68d69ee9ebd",
