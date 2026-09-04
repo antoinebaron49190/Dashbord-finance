@@ -1,6 +1,56 @@
 {
+  "2026-09-04": {
+    "articles_count": 13,
+    "signal_count": 3,
+    "tone_cb": null,
+    "tone_global": -0.1111,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "fc0ae01a2750659471d1d4e1",
+        "title": "Heineken pours Asia-Pacific beer efforts into Vietnam expansion",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.6667,
+        "url": "https://asia.nikkei.com/business/food-beverage/heineken-pours-asia-pacific-beer-efforts-into-vietnam-expansion"
+      },
+      {
+        "id": "8226c05c3fc8c39a8d83187b",
+        "title": "UK urged to overhaul military procurement to remove China-made parts",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/politics/defense/uk-urged-to-overhaul-military-procurement-to-remove-china-made-parts"
+      },
+      {
+        "id": "de12ceed49caca9b4d21b93c",
+        "title": "Milei vows tougher sanctions, defense push over Falklands oil drilling",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/stock-market-news/milei-vows-tougher-sanctions-defense-push-over-falklands-oil-drilling-4888756"
+      },
+      {
+        "id": "0f9e83ccd13b43edbbc5acb7",
+        "title": "Yen continues rise to 155 range on speculation of carry trade reversal",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/markets/currencies/yen-continues-rise-to-155-range-on-speculation-of-carry-trade-reversal"
+      },
+      {
+        "id": "ac931035002737b78bc126b9",
+        "title": "Pacific islands leaders express concern over China's missile launch",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/politics/international-relations/pacific-islands-leaders-express-concern-over-china-s-missile-launch"
+      }
+    ]
+  },
   "2026-09-03": {
-    "articles_count": 204,
+    "articles_count": 205,
     "signal_count": 30,
     "tone_cb": null,
     "tone_global": 0.1384,
@@ -50,12 +100,12 @@
     ]
   },
   "2026-09-02": {
-    "articles_count": 314,
-    "signal_count": 42,
+    "articles_count": 333,
+    "signal_count": 45,
     "tone_cb": null,
-    "tone_global": 0.0845,
+    "tone_global": 0.1146,
     "regul_crypto": -0.6,
-    "stress": 0.003,
+    "stress": 0.0028,
     "top": [
       {
         "id": "4d5efaae81244c1b3a7dc179",
@@ -100,7 +150,7 @@
     ]
   },
   "2026-09-01": {
-    "articles_count": 356,
+    "articles_count": 357,
     "signal_count": 63,
     "tone_cb": -0.5,
     "tone_global": 0.0313,
