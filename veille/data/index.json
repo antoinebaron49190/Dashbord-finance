@@ -1,12 +1,20 @@
 {
   "2026-09-04": {
-    "articles_count": 77,
-    "signal_count": 9,
+    "articles_count": 150,
+    "signal_count": 23,
     "tone_cb": null,
-    "tone_global": -0.0926,
-    "regul_crypto": null,
-    "stress": 0.0,
+    "tone_global": 0.0284,
+    "regul_crypto": -0.075,
+    "stress": 0.0059,
     "top": [
+      {
+        "id": "d611cda4d653c32838f2d325",
+        "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
+        "source": "fed_press_all",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260904a.htm"
+      },
       {
         "id": "377e30f9db1e426429acc051",
         "title": "Philip R. Lane: Diversity at the European Central Bank",
@@ -24,33 +32,25 @@
         "url": "http://www.boj.or.jp/en/research/brp/fsr/fsrb260904.htm"
       },
       {
+        "id": "0f15cec4e1b0c5c72f9d9513",
+        "title": "ESMA signs Memorandum of Understanding with the Securities and Exchange Board of India",
+        "source": "esma_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.esma.europa.eu/press-news/esma-news/esma-signs-memorandum-understanding-securities-and-exchange-board-india"
+      },
+      {
         "id": "4bab0f8775f66117b303ac72",
         "title": "ESMA to host Data Day 2026: ‘Data in the Savings and Investment Union – from burden to opportunity’",
         "source": "esma_news",
         "score": 0.6,
         "tone": 0.0,
         "url": "https://www.esma.europa.eu/press-news/esma-news/esma-host-data-day-2026-data-savings-and-investment-union-burden-opportunity"
-      },
-      {
-        "id": "a4fbec55ee065dd7cfe71d5d",
-        "title": "FSB Annual Financial Report: 2025-26",
-        "source": "fsb_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.fsb.org/2026/09/fsb-annual-financial-report-2025-26/"
-      },
-      {
-        "id": "db41d5c2671b7868b8eee6d8",
-        "title": "Report of the auditor to FSB Plenary on the financial statements 2025-2026",
-        "source": "fsb_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.fsb.org/uploads/P040926-2.pdf"
       }
     ]
   },
   "2026-09-03": {
-    "articles_count": 243,
+    "articles_count": 245,
     "signal_count": 36,
     "tone_cb": null,
     "tone_global": 0.1755,
@@ -150,12 +150,12 @@
     ]
   },
   "2026-09-01": {
-    "articles_count": 357,
+    "articles_count": 358,
     "signal_count": 63,
     "tone_cb": -0.5,
     "tone_global": 0.0313,
     "regul_crypto": -0.1286,
-    "stress": 0.0145,
+    "stress": 0.0144,
     "top": [
       {
         "id": "58b57a054827a68d69ee9ebd",
@@ -200,7 +200,7 @@
     ]
   },
   "2026-08-31": {
-    "articles_count": 350,
+    "articles_count": 351,
     "signal_count": 41,
     "tone_cb": null,
     "tone_global": -0.1766,
@@ -1950,12 +1950,12 @@
     ]
   },
   "2026-07-27": {
-    "articles_count": 16,
-    "signal_count": 2,
+    "articles_count": 17,
+    "signal_count": 3,
     "tone_cb": -0.6667,
-    "tone_global": -0.6394,
+    "tone_global": -0.5627,
     "regul_crypto": null,
-    "stress": 0.0783,
+    "stress": 0.0763,
     "top": [
       {
         "id": "8ec7b98ed30470cec4690273",
