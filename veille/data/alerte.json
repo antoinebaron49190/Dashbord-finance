@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-04T02:55:44.080953+00:00",
+  "updated_at": "2026-09-04T07:43:23.991534+00:00",
   "pending": [
     {
-      "fingerprint": "trend:hangseng:indecise->haussiere:2026-09-04",
-      "title": "Hang Seng : tendance haussière",
-      "body": "Hang Seng passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-04.",
+      "fingerprint": "trend:eurostoxx:indecise->haussiere:2026-09-04",
+      "title": "Euro Stoxx 50 : tendance haussière",
+      "body": "Euro Stoxx 50 passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-04.",
       "kind": "tendance",
-      "detected_at": "2026-09-04T02:55:44.080883+00:00"
+      "detected_at": "2026-09-04T07:43:23.991466+00:00"
     }
   ],
   "sent": [
@@ -53,7 +53,8 @@
     "trend:eurostoxx:haussiere->indecise:2026-09-01",
     "trend:eurostoxx:haussiere->indecise:2026-09-02",
     "trend:eurostoxx:haussiere->indecise:2026-09-03",
-    "trend:hangseng:indecise->haussiere:2026-09-04"
+    "trend:hangseng:indecise->haussiere:2026-09-04",
+    "trend:eurostoxx:indecise->haussiere:2026-09-04"
   ],
   "extremes_active": []
 }

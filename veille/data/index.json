@@ -1,12 +1,28 @@
 {
   "2026-09-04": {
-    "articles_count": 13,
-    "signal_count": 3,
+    "articles_count": 38,
+    "signal_count": 6,
     "tone_cb": null,
-    "tone_global": -0.1111,
+    "tone_global": -0.3055,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "565f3e8db84b3acf27d1a313",
+        "title": "Financial Results of Japan's Banks for Fiscal 2025",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/research/brp/fsr/fsrb260904.htm"
+      },
+      {
+        "id": "d544678b7371b3cfdcf44155",
+        "title": "Volkswagen shares rally after board approves radical restructuring plan",
+        "source": "investing_com",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/stock-market-news/volkswagen-shares-rally-after-board-approves-radical-restructuring-plan-4888881"
+      },
       {
         "id": "fc0ae01a2750659471d1d4e1",
         "title": "Heineken pours Asia-Pacific beer efforts into Vietnam expansion",
@@ -16,36 +32,20 @@
         "url": "https://asia.nikkei.com/business/food-beverage/heineken-pours-asia-pacific-beer-efforts-into-vietnam-expansion"
       },
       {
-        "id": "8226c05c3fc8c39a8d83187b",
-        "title": "UK urged to overhaul military procurement to remove China-made parts",
+        "id": "62ea0902f139c588032e8259",
+        "title": "Trump's Canada tariffs likely to hit Toyota and Honda profits, analysts say",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": -0.5,
-        "url": "https://asia.nikkei.com/politics/defense/uk-urged-to-overhaul-military-procurement-to-remove-china-made-parts"
+        "url": "https://asia.nikkei.com/business/automobiles/trump-s-canada-tariffs-likely-to-hit-toyota-and-honda-profits-analysts-say"
       },
       {
-        "id": "de12ceed49caca9b4d21b93c",
-        "title": "Milei vows tougher sanctions, defense push over Falklands oil drilling",
+        "id": "f459607ba0ccaa5f9dbe9ab8",
+        "title": "China rare earth firms halt some US shipments over geopolitical worries, sources say",
         "source": "investing_com",
         "score": 0.3,
         "tone": -0.5,
-        "url": "https://www.investing.com/news/stock-market-news/milei-vows-tougher-sanctions-defense-push-over-falklands-oil-drilling-4888756"
-      },
-      {
-        "id": "0f9e83ccd13b43edbbc5acb7",
-        "title": "Yen continues rise to 155 range on speculation of carry trade reversal",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/markets/currencies/yen-continues-rise-to-155-range-on-speculation-of-carry-trade-reversal"
-      },
-      {
-        "id": "ac931035002737b78bc126b9",
-        "title": "Pacific islands leaders express concern over China's missile launch",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/politics/international-relations/pacific-islands-leaders-express-concern-over-china-s-missile-launch"
+        "url": "https://www.investing.com/news/stock-market-news/china-rare-earth-firms-halt-some-us-shipments-over-geopolitical-worries-sources-say-4888882"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-09-02": {
-    "articles_count": 333,
-    "signal_count": 45,
+    "articles_count": 365,
+    "signal_count": 46,
     "tone_cb": null,
-    "tone_global": 0.1146,
+    "tone_global": 0.1226,
     "regul_crypto": -0.6,
-    "stress": 0.0028,
+    "stress": 0.0026,
     "top": [
       {
         "id": "4d5efaae81244c1b3a7dc179",
