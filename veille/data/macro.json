@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T09:57:41.684392+00:00",
+  "generated_at": "2026-09-05T13:18:11.905382+00:00",
   "regime": {
     "state": "favorable au risque",
     "favorable": 9,
@@ -12,15 +12,15 @@
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": true,
-      "value": "79 611 $",
-      "reference": "MM200 69 684 $"
+      "value": "79 721 $",
+      "reference": "MM200 69 685 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": true,
-      "value": "79 611 $",
-      "reference": "MM50 69 088 $"
+      "value": "79 721 $",
+      "reference": "MM50 69 090 $"
     },
     {
       "group": "Crypto",
@@ -47,7 +47,7 @@
       "group": "Crypto",
       "label": "Financement des perpétuels BTC",
       "ok": false,
-      "value": "-0.0027 %",
+      "value": "-0.0042 %",
       "reference": "positif"
     },
     {
@@ -88,27 +88,27 @@
   ],
   "crypto": {
     "btc": {
-      "price": 79610.7,
-      "ma50": 69087.66200000001,
-      "ma200": 69684.44249999998,
-      "drawdown_1y": 0.3619224711761571,
-      "volatility_30d": 0.4646938838583059,
+      "price": 79720.6,
+      "ma50": 69089.86000000002,
+      "ma200": 69684.99199999997,
+      "drawdown_1y": 0.36104162575691384,
+      "volatility_30d": 0.4644210851959187,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "eth": {
-      "price": 2458.41,
-      "ma50": 2089.4928,
-      "ma200": 2036.0978999999998,
-      "drawdown_1y": 0.4788114303159047,
-      "volatility_30d": 0.7042612039905185,
+      "price": 2458.27,
+      "ma50": 2089.49,
+      "ma200": 2036.0972,
+      "drawdown_1y": 0.47884111063763934,
+      "volatility_30d": 0.7042690465699292,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "spot_venue": "kraken",
-    "funding_btc": -2.7030995761e-05,
+    "funding_btc": -4.23512019026e-05,
     "funding_venue": "okx"
   },
   "equities": {
@@ -227,11 +227,11 @@
       "fear_greed": 73,
       "assets": {
         "btc": {
-          "close": 79610.7,
+          "close": 79720.6,
           "trend": "haussiere"
         },
         "eth": {
-          "close": 2458.41,
+          "close": 2458.27,
           "trend": "haussiere"
         },
         "sp500": {
