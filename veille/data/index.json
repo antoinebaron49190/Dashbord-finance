@@ -1,12 +1,28 @@
 {
   "2026-09-05": {
-    "articles_count": 75,
-    "signal_count": 7,
+    "articles_count": 111,
+    "signal_count": 10,
     "tone_cb": null,
-    "tone_global": -0.0476,
-    "regul_crypto": null,
+    "tone_global": 0.0267,
+    "regul_crypto": 0.6,
     "stress": 0.0,
     "top": [
+      {
+        "id": "626c40720b7be453efdc7772",
+        "title": "'They're going to need to hike rates': Wall Street weighs in on Fed's next policy decision after blowout jobs report",
+        "source": "yahoo_finance",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://finance.yahoo.com/news/theyre-going-to-need-to-hike-rates-wall-street-weighs-in-on-feds-next-policy-decision-after-blowout-jobs-report-142243899.html"
+      },
+      {
+        "id": "84c93e6866e7a1a7ba601e30",
+        "title": "LeBron James teases Polymarket partnership in new social media video",
+        "source": "theblock",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.theblock.co/news/deals/2026-09-05-lebron-james-teases-polymarket-partnership-in-new-social-media-video-413608"
+      },
       {
         "id": "0c3639e0ba68c389d2126704",
         "title": "Documents You’ll Need to Get Approved for a Mortgage",
@@ -30,22 +46,6 @@
         "score": 0.3,
         "tone": 0.6667,
         "url": "https://www.investing.com/news/stock-market-news/citi-pushes-fed-ratecut-forecast-to-june-2027-after-resilient-jobs-market-4890197"
-      },
-      {
-        "id": "4990b51dce1dfcf088f2614a",
-        "title": "US embassy issues health alert for Cuba amid oil blockade, sanctions",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.6667,
-        "url": "https://www.investing.com/news/commodities-news/us-embassy-issues-health-alert-for-cuba-amid-oil-blockade-sanctions-4890152"
-      },
-      {
-        "id": "51efbd71fd7c117827550063",
-        "title": "Qualys (QLYS) Posts Double-Digit Growth And Still Raises The Bar",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://finance.yahoo.com/markets/stocks/articles/qualys-qlys-posts-double-digit-115235022.html"
       }
     ]
   },
