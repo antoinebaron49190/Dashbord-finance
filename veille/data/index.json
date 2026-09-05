@@ -1,9 +1,9 @@
 {
   "2026-09-05": {
-    "articles_count": 111,
-    "signal_count": 10,
+    "articles_count": 137,
+    "signal_count": 15,
     "tone_cb": null,
-    "tone_global": 0.0267,
+    "tone_global": 0.101,
     "regul_crypto": 0.6,
     "stress": 0.0,
     "top": [
@@ -32,25 +32,25 @@
         "url": "https://finance.yahoo.com/real-estate/articles/documents-ll-approved-mortgage-130051473.html"
       },
       {
-        "id": "7f8ced76e0a4cfb060b7291d",
-        "title": "Expansion of Commercial Operations in Focus for BWX Technologies (BWXT)",
+        "id": "e04f72f04e93294c8c54f805",
+        "title": "Five Below Plans Puerto Rico Stores for 2027 Expansion",
         "source": "yahoo_finance",
         "score": 0.3,
         "tone": 0.6667,
-        "url": "https://finance.yahoo.com/markets/stocks/articles/expansion-commercial-operations-focus-bwx-124456110.html"
+        "url": "https://finance.yahoo.com/real-estate/articles/five-below-plans-puerto-rico-174637906.html"
       },
       {
-        "id": "ec25ba2d71f3d8c2cebaef48",
-        "title": "Citi pushes Fed rate-cut forecast to June 2027 after resilient jobs market",
-        "source": "investing_com",
+        "id": "7ad158d5238689f235866d15",
+        "title": "GE Appliance Park Gets $1B Louisville Expansion Plan",
+        "source": "yahoo_finance",
         "score": 0.3,
         "tone": 0.6667,
-        "url": "https://www.investing.com/news/stock-market-news/citi-pushes-fed-ratecut-forecast-to-june-2027-after-resilient-jobs-market-4890197"
+        "url": "https://finance.yahoo.com/real-estate/articles/ge-appliance-park-gets-1b-174310275.html"
       }
     ]
   },
   "2026-09-04": {
-    "articles_count": 228,
+    "articles_count": 229,
     "signal_count": 34,
     "tone_cb": null,
     "tone_global": 0.0705,
@@ -82,25 +82,25 @@
         "url": "http://www.boj.or.jp/en/research/brp/fsr/fsrb260904.htm"
       },
       {
+        "id": "eee54cd9ced6ea3f9748549e",
+        "title": "Financial Results of Japan's Banks for Fiscal 2025",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/research/brp/fsr/fsrb260904.htm"
+      },
+      {
         "id": "0f15cec4e1b0c5c72f9d9513",
         "title": "ESMA signs Memorandum of Understanding with the Securities and Exchange Board of India",
         "source": "esma_news",
         "score": 0.6,
         "tone": 0.0,
         "url": "https://www.esma.europa.eu/press-news/esma-news/esma-signs-memorandum-understanding-securities-and-exchange-board-india"
-      },
-      {
-        "id": "4bab0f8775f66117b303ac72",
-        "title": "ESMA to host Data Day 2026: ‘Data in the Savings and Investment Union – from burden to opportunity’",
-        "source": "esma_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.esma.europa.eu/press-news/esma-news/esma-host-data-day-2026-data-savings-and-investment-union-burden-opportunity"
       }
     ]
   },
   "2026-09-03": {
-    "articles_count": 370,
+    "articles_count": 372,
     "signal_count": 58,
     "tone_cb": null,
     "tone_global": 0.1635,
@@ -124,6 +124,14 @@
         "url": "http://www.boj.or.jp/en/paym/market/mkt260903a.pdf"
       },
       {
+        "id": "685cfd85086a13c9081e9f73",
+        "title": "Notice of the \"Meeting on Market Operations\"",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/paym/market/mkt260903a.pdf"
+      },
+      {
         "id": "01f4c7f0bdd613978620bffa",
         "title": "Daily News 03 / 09 / 2026",
         "source": "ec_press",
@@ -138,24 +146,16 @@
         "score": 0.6,
         "tone": 0.0,
         "url": "https://www.sec.gov/newsroom/press-releases/2026-85-sec-proposes-rescission-political-contribution-rule-investment-advisers"
-      },
-      {
-        "id": "4d2a71a3c7cfc62c7bff9a51",
-        "title": "SEC Investor Advisory Committee to Host Sept. 10 Meeting",
-        "source": "sec_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-84-sec-investor-advisory-committee-host-sept-10-meeting"
       }
     ]
   },
   "2026-09-02": {
-    "articles_count": 365,
+    "articles_count": 369,
     "signal_count": 46,
     "tone_cb": null,
     "tone_global": 0.1226,
     "regul_crypto": -0.6,
-    "stress": 0.0026,
+    "stress": 0.0025,
     "top": [
       {
         "id": "4d5efaae81244c1b3a7dc179",
@@ -164,6 +164,14 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/statistics/boj/fm/juqp/juqp2609.xlsx"
+      },
+      {
+        "id": "63a498eb70eeaa3ce3c25ae0",
+        "title": "Sources of Changes in Current Account Balances (Projections for Sept.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/boj/fm/juqp/juqp2609.xlsx"
       },
       {
         "id": "72503ecc64e2de1f6bb5d5f0",
@@ -182,30 +190,22 @@
         "url": "http://www.boj.or.jp/en/statistics/boj/other/col/col2608.xlsx"
       },
       {
-        "id": "16d878c4978c14a1e66a6dce",
-        "title": "Speech by Board Member TAKATA in Sapporo (Economic Activity, Prices, and Monetary Policy in Japan)",
+        "id": "22469b003d52726968713ec8",
+        "title": "Japanese Government Bonds Held by the Bank of Japan",
         "source": "boj_news",
         "score": 1.3,
         "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko260902a.htm"
-      },
-      {
-        "id": "18fe6908886e6651ab946e73",
-        "title": "Bank of Japan Accounts (August 31)",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260831.htm"
+        "url": "https://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260831.xlsx"
       }
     ]
   },
   "2026-09-01": {
-    "articles_count": 358,
+    "articles_count": 361,
     "signal_count": 63,
     "tone_cb": -0.5,
     "tone_global": 0.0313,
     "regul_crypto": -0.1286,
-    "stress": 0.0144,
+    "stress": 0.014,
     "top": [
       {
         "id": "58b57a054827a68d69ee9ebd",
@@ -232,30 +232,30 @@
         "url": "http://www.boj.or.jp/en/statistics/boj/other/mb/mb.htm"
       },
       {
+        "id": "0da3cd5433628f246eb45c85",
+        "title": "Monetary Base (Aug.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/boj/other/mb/mb.htm"
+      },
+      {
         "id": "04c474fbeebf960140fbbe12",
         "title": "Boris Vujčić: Listening to households: expectations, behaviour and monetary policy",
         "source": "bce_press",
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260901~bb28f33f54.en.html"
-      },
-      {
-        "id": "96bde00d0b7f22b7057bdd87",
-        "title": "Barr, Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record",
-        "source": "fed_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm"
       }
     ]
   },
   "2026-08-31": {
-    "articles_count": 353,
+    "articles_count": 356,
     "signal_count": 41,
     "tone_cb": null,
     "tone_global": -0.1766,
     "regul_crypto": 0.0,
-    "stress": 0.0184,
+    "stress": 0.0178,
     "top": [
       {
         "id": "114fc68a73d40bfc51d8513c",
@@ -274,6 +274,14 @@
         "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260831a.pdf"
       },
       {
+        "id": "20e1a070ec785c63f415e7ab",
+        "title": "Quarterly Schedule of Outright Purchases of Japanese Government Bonds (Competitive Auction Method) (July-September 2026) (Schedule Updates)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260831a.pdf"
+      },
+      {
         "id": "43b84c010e82dc82c6003f8c",
         "title": "Payment and Settlement Statistics (July)",
         "source": "boj_news",
@@ -282,30 +290,22 @@
         "url": "http://www.boj.or.jp/en/statistics/set/kess/release/2026/kess2607.pdf"
       },
       {
-        "id": "3e4f5afc8426aa6e57791f64",
-        "title": "Flow of Funds (Overview of Japan, US, and the Euro area)(1st Quarter 2026)",
+        "id": "815ebdbc5f576a1e362bd998",
+        "title": "Payment and Settlement Statistics (July)",
         "source": "boj_news",
         "score": 1.3,
         "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/sj/sjhiq.pdf"
-      },
-      {
-        "id": "cd9f438329f836fc89719cb3",
-        "title": "SEC and FDA Announce MOU to Bolster Cooperation and Ensure Market Integrity",
-        "source": "sec_press",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-80-sec-fda-announce-mou-bolster-cooperation-ensure-market-integrity"
+        "url": "https://www.boj.or.jp/en/statistics/set/kess/release/2026/kess2607.pdf"
       }
     ]
   },
   "2026-08-30": {
-    "articles_count": 224,
+    "articles_count": 225,
     "signal_count": 20,
     "tone_cb": null,
     "tone_global": -0.1501,
     "regul_crypto": -0.675,
-    "stress": 0.0087,
+    "stress": 0.0086,
     "top": [
       {
         "id": "e7bfe3b3562c3c31646d6715",
@@ -314,6 +314,14 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/statistics/dl/loan/yaku/yaku2607.pdf"
+      },
+      {
+        "id": "dc820957e55ace0895617313",
+        "title": "Average Contract Interest Rates on Loans and Discounts (July)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/dl/loan/yaku/yaku2607.pdf"
       },
       {
         "id": "38a423df6ff1964d0163182d",
@@ -338,14 +346,6 @@
         "score": 0.3,
         "tone": -0.7778,
         "url": "https://www.investing.com/news/forex-news/us-treasurys-bessent-faces-g20-diplomacy-test-amid-tariffs-iran-war-bond-turmoil-4882036"
-      },
-      {
-        "id": "3022a10c07822a2316122db5",
-        "title": "Miniso (MNSO) Booming Membership Growth Collides With A Struggling Global Expansion",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": 0.75,
-        "url": "https://finance.yahoo.com/markets/stocks/articles/miniso-mnso-booming-membership-growth-184952315.html"
       }
     ]
   },
@@ -400,12 +400,12 @@
     ]
   },
   "2026-08-28": {
-    "articles_count": 189,
+    "articles_count": 190,
     "signal_count": 19,
     "tone_cb": null,
     "tone_global": -0.0821,
     "regul_crypto": null,
-    "stress": 0.0049,
+    "stress": 0.0048,
     "top": [
       {
         "id": "8803e9f44fe1e160b94b32f2",
@@ -432,20 +432,20 @@
         "url": "http://www.boj.or.jp/en/research/wps_rev/rev_2026/rev26e11.htm"
       },
       {
+        "id": "ff6b37c6c247e5614590b528",
+        "title": "(BOJ Review) Expanding and Revising the Application of Hedonic Quality Adjustment in the Corporate Goods Price Index",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/research/wps_rev/rev_2026/rev26e11.htm"
+      },
+      {
         "id": "9562ad84cdde99cfb7227217",
         "title": "L'AMF publie désormais les déclarations des dirigeants en français et en anglais",
         "source": "amf_news",
         "score": 0.9,
         "tone": 0.0,
         "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-desormais-les-declarations-des-dirigeants-en-francais-et-en-anglais#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "855f125da0bd1198e9768bb0",
-        "title": "SEC Proposes Amendments to Exchange Act Rule 3a12-8 to Add European Union Debt Obligations",
-        "source": "sec_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-79-sec-proposes-amendments-exchange-act-rule-3a12-8-add-european-union-debt-obligations"
       }
     ]
   },
@@ -550,12 +550,12 @@
     ]
   },
   "2026-08-25": {
-    "articles_count": 639,
+    "articles_count": 640,
     "signal_count": 93,
     "tone_cb": null,
     "tone_global": 0.0578,
     "regul_crypto": 0.12,
-    "stress": 0.0046,
+    "stress": 0.0045,
     "top": [
       {
         "id": "eba2b27ea332ede3e720c009",
@@ -564,6 +564,14 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/statistics/pi/cspi_release/sppi2607.pdf"
+      },
+      {
+        "id": "3b8ba8124c688011fb9a504e",
+        "title": "Services Producer Price Index (July)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/pi/cspi_release/sppi2607.pdf"
       },
       {
         "id": "9091d0ed3d5f5cb37121fe9a",
@@ -588,14 +596,6 @@
         "score": 0.6,
         "tone": -0.5,
         "url": "https://ec.europa.eu/commission/presscorner/detail/hr/speech_26_1759"
-      },
-      {
-        "id": "93adba094f77be2ba73c18c0",
-        "title": "Speech by Commissioner Kos at the Conference of Ambassadors, Consuls General, Consuls and Military Attachés",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": -0.5,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1756"
       }
     ]
   },

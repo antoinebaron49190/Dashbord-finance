@@ -1,5 +1,714 @@
 [
   {
+    "id": "5a3a8e5ec4ed3848a899dcbc",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Japan to step up scrutiny of bank loans to overseas nonbank lenders",
+    "url": "https://asia.nikkei.com/business/finance/japan-to-step-up-scrutiny-of-bank-loans-to-overseas-nonbank-lenders",
+    "summary": "",
+    "published_at": "2026-09-05T18:46:42.122199+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1102f47dbffebfc8f92996df",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Clear Secure’s (YOU) Profits Are Soaring While Growth Signals Cool",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/clear-secure-profits-soaring-while-182450116.html",
+    "summary": "",
+    "published_at": "2026-09-05T18:24:50+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "20dde2635a19fa3b0b189e22",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Half of Retirees Have a Savings Target. Fewer Than 1 in 5 Have a Withdrawal Plan. The Second Number Is the One That Runs Out.",
+    "url": "https://finance.yahoo.com/markets/articles/half-retirees-savings-target-fewer-182232912.html",
+    "summary": "",
+    "published_at": "2026-09-05T18:22:32+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ff2d6a42e03174eecd4050c7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dow Jones Futures: U.S., Iran Exchange Attacks; Nvidia, Micron, Sandisk Flash Buy Signals",
+    "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-micron-sandisk-buy-signals-apple-inflation-reports/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-09-05T18:22:09+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "24f0be62549ef645f6580681",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Costco kills member perk that saved customers money",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/costco-kills-member-perk-saved-182047414.html",
+    "summary": "",
+    "published_at": "2026-09-05T18:20:47+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2ed9df5d9ad30a65fa54b2e6",
+    "source": "cnbc_economy",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "statistiques",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
+    "url": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html",
+    "summary": "Ten days ahead of the next Federal Reserve meeting, the Trump administration looks to be in a full-court press to halt a rate hike in its tracks.",
+    "published_at": "2026-09-05T18:18:22+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.4142
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5858,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5858,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a13b1b0e449ea2b7e5b305c7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Valaris (VAL) Swings Back to Profit, but Middle East Costs Linger",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/valaris-val-swings-back-profit-181758119.html",
+    "summary": "",
+    "published_at": "2026-09-05T18:17:58+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "21262ebb9e5886da66bace4c",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why I Just Added to My Chevron Position Despite Trump Criticism",
+    "url": "https://finance.yahoo.com/energy/articles/why-just-added-chevron-position-181300131.html",
+    "summary": "",
+    "published_at": "2026-09-05T18:13:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "032260af2d518e03289ec863",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Management Reiterates Optimistic FY26 Guidance for Intuitive Machines (LUNR)",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/management-reiterates-optimistic-fy26-guidance-181230241.html",
+    "summary": "",
+    "published_at": "2026-09-05T18:12:30+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e8dff806fe9ee751bc100ef3",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Greek PM unveils plan to boost incomes ahead of elections",
+    "url": "https://www.investing.com/news/economy-news/greek-pm-unveilsplan-to-boost-incomes-ahead-of-elections-4890230",
+    "summary": "",
+    "published_at": "2026-09-05T18:12:28+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5a6424bf2f709b4a39732ef3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Profits Slide At Red Rock Resorts (RRR) Even As Dividends Hold",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/profits-slide-red-rock-resorts-180949235.html",
+    "summary": "",
+    "published_at": "2026-09-05T18:09:49+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "adb7b1e27a1f4d7dd12791aa",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Why crypto experts say buying and holding bitcoin easily beats trying to time the market",
+    "url": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market",
+    "summary": "",
+    "published_at": "2026-09-05T18:05:11+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6b36cd76a961ac788dd4788c",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AerCap Holdings (AER) Inspires Confidence with 100th Boeing 787 Delivery",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/aercap-holdings-aer-inspires-confidence-180405092.html",
+    "summary": "",
+    "published_at": "2026-09-05T18:04:05+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "79dc728938be1237fe564eed",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "EOS Climbs 14% In Bullish Trade",
+    "url": "https://www.investing.com/news/cryptocurrency-news/eos-climbs-14-in-bullish-trade-4890229",
+    "summary": "",
+    "published_at": "2026-09-05T18:01:01+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6132f68f6cfe379b78b3355a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Extended Strategic Agreements to Support Management’s Full-Year 2026 Guidance Raise for ATI Inc. (ATI)",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/extended-strategic-agreements-support-management-175418389.html",
+    "summary": "",
+    "published_at": "2026-09-05T17:54:18+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d18bb8b5f46b9de0b83681b7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "High-Yield Dividend Investors Could Be Making This Expensive Tax Mistake",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/high-yield-dividend-investors-could-175233783.html",
+    "summary": "",
+    "published_at": "2026-09-05T17:52:33+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "752c191fcf0a2735b14e88a7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jim Cramer Shares His Playbook for Buying Applied Materials (AMAT)",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-shares-playbook-buying-175046599.html",
+    "summary": "",
+    "published_at": "2026-09-05T17:50:46+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d321f2485ed7afd39029a806",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "UBS sees better bond carry in 3-5 year debt after global selloff",
+    "url": "https://www.investing.com/news/stock-market-news/ubs-sees-better-bond-carry-in-35-year-debt-after-global-selloff-4890225",
+    "summary": "",
+    "published_at": "2026-09-05T17:50:46+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "845a7483cd1617552150bde3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Office Sales Jump 31% as CBD Transactions Accelerate",
+    "url": "https://finance.yahoo.com/real-estate/articles/office-sales-jump-31-cbd-174826785.html",
+    "summary": "",
+    "published_at": "2026-09-05T17:48:26+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3edc80523ae0f99d7801e802",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "T-Mobile drops new phone plan for customers after raising prices",
+    "url": "https://finance.yahoo.com/technology/articles/t-mobile-drops-phone-plan-174700708.html",
+    "summary": "",
+    "published_at": "2026-09-05T17:47:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e04f72f04e93294c8c54f805",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Five Below Plans Puerto Rico Stores for 2027 Expansion",
+    "url": "https://finance.yahoo.com/real-estate/articles/five-below-plans-puerto-rico-174637906.html",
+    "summary": "",
+    "published_at": "2026-09-05T17:46:37+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {
+      "croissance": 2.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6667,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.6667,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7dd3804a35d2e0d24b7131d4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "With AI Revenue Set to Surge 400% Over the Next 2 Years, Broadcom Stock Looks Like a Buy on Recent Dip",
+    "url": "https://finance.yahoo.com/technology/ai/articles/ai-revenue-set-surge-400-174500769.html",
+    "summary": "",
+    "published_at": "2026-09-05T17:45:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7ad158d5238689f235866d15",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "GE Appliance Park Gets $1B Louisville Expansion Plan",
+    "url": "https://finance.yahoo.com/real-estate/articles/ge-appliance-park-gets-1b-174310275.html",
+    "summary": "",
+    "published_at": "2026-09-05T17:43:10+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {
+      "croissance": 2.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6667,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.6667,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7b89af4f01c198d1077a441f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Lululemon (LULU) Struggles as Analysts Cut Targets, But Is the Story Over?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/lululemon-lulu-struggles-analysts-cut-174243651.html",
+    "summary": "",
+    "published_at": "2026-09-05T17:42:43+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a44ebeea406354dd9db1d4ea",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Data Center Demand Doubles as Frontier Markets Surge",
+    "url": "https://finance.yahoo.com/real-estate/articles/data-center-demand-doubles-frontier-174107729.html",
+    "summary": "",
+    "published_at": "2026-09-05T17:41:07+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "95ee4dfde011b11830380631",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Dollar-backed stablecoins can push local currencies lower, Bank of Korea study finds",
+    "url": "https://www.coindesk.com/business/2026/09/05/dollar-backed-stablecoins-can-push-local-currencies-lower-bank-of-korea-study-finds",
+    "summary": "",
+    "published_at": "2026-09-05T16:43:13+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "6e63ec9ef580e2234f0e8821",
     "source": "nikkei_asia",
     "tier": 3,
@@ -8510,6 +9219,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "eee54cd9ced6ea3f9748549e",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Financial Results of Japan's Banks for Fiscal 2025",
+    "url": "https://www.boj.or.jp/en/research/brp/fsr/fsrb260904.htm",
+    "summary": "",
+    "published_at": "2026-09-04T07:00:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b4cc3b34b1023fba566edecf",
     "source": "yahoo_finance",
     "tier": 3,
@@ -10872,6 +11611,36 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ab2391c7be9269348764f570",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Divide over yields: Fed officials see a stronger economy, Wall Street frets over oil prices and deficits.",
+    "url": "https://finance.yahoo.com/economy/policy/article/divide-over-yields-fed-officials-see-a-stronger-economy-wall-street-frets-over-oil-prices-and-deficits-193739245.html",
+    "summary": "",
+    "published_at": "2026-09-03T19:37:39+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -18338,6 +19107,35 @@
     "scored_by": "lexique"
   },
   {
+    "id": "685cfd85086a13c9081e9f73",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Notice of the \"Meeting on Market Operations\"",
+    "url": "https://www.boj.or.jp/en/paym/market/mkt260903a.pdf",
+    "summary": "",
+    "published_at": "2026-09-03T02:00:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "89970a1e982bfc77323bd95c",
     "source": "yahoo_finance",
     "tier": 3,
@@ -19279,6 +20077,35 @@
     "summary": "",
     "published_at": "2026-09-02T23:50:00+00:00",
     "collected_at": "2026-09-03T00:56:17.505604+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "63a498eb70eeaa3ce3c25ae0",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Sources of Changes in Current Account Balances (Projections for Sept.)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/juqp/juqp2609.xlsx",
+    "summary": "",
+    "published_at": "2026-09-02T23:50:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -27658,6 +28485,66 @@
     "scored_by": "lexique"
   },
   {
+    "id": "22469b003d52726968713ec8",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Japanese Government Bonds Held by the Bank of Japan",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260831.xlsx",
+    "summary": "",
+    "published_at": "2026-09-02T08:00:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f5c0aaa238bbef9ad03c0899",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Collateral Accepted by the Bank of Japan (End of Aug.)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/col/col2608.xlsx",
+    "summary": "",
+    "published_at": "2026-09-02T08:00:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "ad74e9bbdfd42cf74273ccc5",
     "source": "yahoo_finance",
     "tier": 3,
@@ -29135,6 +30022,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "fcc3168c6ad1ea6372f1d246",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Bank of Japan Accounts (August 31)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260831.htm",
+    "summary": "",
+    "published_at": "2026-09-02T01:00:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "ed3ca14b475dad4563bfd718",
     "source": "coindesk",
     "tier": 3,
@@ -29175,6 +30092,35 @@
     "summary": "",
     "published_at": "2026-09-01T23:50:00+00:00",
     "collected_at": "2026-09-02T02:52:15.123740+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0da3cd5433628f246eb45c85",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Monetary Base (Aug.)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/mb/mb.htm",
+    "summary": "",
+    "published_at": "2026-09-01T23:50:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -37978,6 +38924,35 @@
     "scored_by": "lexique"
   },
   {
+    "id": "fe033e937a25921564f8120a",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Bond Market Survey (August 2026)",
+    "url": "https://www.boj.or.jp/en/paym/bond/bond_list/bond2608.pdf",
+    "summary": "",
+    "published_at": "2026-09-01T07:00:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "9162f51c818e362e7779ddb4",
     "source": "investing_com",
     "tier": 3,
@@ -38370,6 +39345,35 @@
     "summary": "",
     "published_at": "2026-09-01T04:00:00+00:00",
     "collected_at": "2026-09-01T07:15:23.541512+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8fd879f6625070c509cb9dff",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Sources of Changes in Current Account Balances and Market Operations (Aug.)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/juqf/juqf08.xlsx",
+    "summary": "",
+    "published_at": "2026-09-01T04:00:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -47493,6 +48497,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "20e1a070ec785c63f415e7ab",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Quarterly Schedule of Outright Purchases of Japanese Government Bonds (Competitive Auction Method) (July-September 2026) (Schedule Updates)",
+    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260831a.pdf",
+    "summary": "",
+    "published_at": "2026-08-31T08:00:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "41f8f84f1861a017fb8abe50",
     "source": "ec_press",
     "tier": 2,
@@ -48512,6 +49546,35 @@
     "scored_by": "lexique"
   },
   {
+    "id": "815ebdbc5f576a1e362bd998",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Payment and Settlement Statistics (July)",
+    "url": "https://www.boj.or.jp/en/statistics/set/kess/release/2026/kess2607.pdf",
+    "summary": "",
+    "published_at": "2026-08-31T02:00:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "dd5d5bafde02005ca2caa305",
     "source": "yahoo_finance",
     "tier": 3,
@@ -48572,6 +49635,38 @@
     "scored_by": "lexique"
   },
   {
+    "id": "5ecbbf2c51f6665cef4cf452",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Flow of Funds (Overview of Japan, US, and the Euro area)(1st Quarter 2026)",
+    "url": "https://www.boj.or.jp/en/statistics/sj/sjhiq.pdf",
+    "summary": "",
+    "published_at": "2026-08-31T01:00:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe",
+      "asie"
+    ],
+    "assets_effective": [
+      "europe",
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "f51c80099121a4abe1f1b786",
     "source": "yahoo_finance",
     "tier": 3,
@@ -48612,6 +49707,35 @@
     "summary": "",
     "published_at": "2026-08-30T23:50:00+00:00",
     "collected_at": "2026-08-31T03:37:47.386016+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dc820957e55ace0895617313",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Average Contract Interest Rates on Loans and Discounts (July)",
+    "url": "https://www.boj.or.jp/en/statistics/dl/loan/yaku/yaku2607.pdf",
+    "summary": "",
+    "published_at": "2026-08-30T23:50:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -66475,6 +67599,36 @@
     "summary": "",
     "published_at": "2026-08-28T05:00:00+00:00",
     "collected_at": "2026-08-28T09:31:37.343306+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ff6b37c6c247e5614590b528",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "(BOJ Review) Expanding and Revising the Application of Hedonic Quality Adjustment in the Corporate Goods Price Index",
+    "url": "https://www.boj.or.jp/en/research/wps_rev/rev_2026/rev26e11.htm",
+    "summary": "",
+    "published_at": "2026-08-28T05:00:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
     "categories": {},
     "assets_detected": [
       "asie"
@@ -85138,6 +86292,35 @@
     "summary": "",
     "published_at": "2026-08-25T23:50:00+00:00",
     "collected_at": "2026-08-26T01:09:36.854730+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3b8ba8124c688011fb9a504e",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Services Producer Price Index (July)",
+    "url": "https://www.boj.or.jp/en/statistics/pi/cspi_release/sppi2607.pdf",
+    "summary": "",
+    "published_at": "2026-08-25T23:50:00+00:00",
+    "collected_at": "2026-09-05T18:46:42.122199+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
