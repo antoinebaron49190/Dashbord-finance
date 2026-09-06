@@ -1,12 +1,20 @@
 {
   "2026-09-06": {
-    "articles_count": 26,
-    "signal_count": 4,
+    "articles_count": 38,
+    "signal_count": 5,
     "tone_cb": null,
-    "tone_global": -0.375,
+    "tone_global": -0.1667,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "64dd06b5c5b866f6592c906f",
+        "title": "SpaceX’s European rival Isar Aerospace plans rapid expansion after first orbital launch",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.6667,
+        "url": "https://www.investing.com/news/stock-market-news/spacexs-european-rival-isar-aerospace-plans-rapid-expansion-after-first-orbital-launch-93CH-4890288"
+      },
       {
         "id": "9129e6cd17398c2ee745f4d2",
         "title": "U.S.-Iran tanker war escalates as Hormuz disruption deepens",
@@ -32,25 +40,17 @@
         "url": "https://www.investing.com/news/economy-news/billions-in-iranian-funds-are-passing-through-us-banks-despite-sanctions--wsj-4890248"
       },
       {
-        "id": "f3f0550a8da5aea98bac36ef",
-        "title": "Ho Chi Minh City delays low-emission zone rollout by 6 months",
-        "source": "nikkei_asia",
+        "id": "2886bc7ebcbeb758a79dbaf1",
+        "title": "Investors to pore over inflation data for signals on rate trajectory",
+        "source": "investing_com",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/environment/ho-chi-minh-city-delays-low-emission-zone-rollout-by-6-months"
-      },
-      {
-        "id": "d716c0d4c25e5a02f7472e25",
-        "title": "BRICS Summit, Okinawa election, Philippines AI plan",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/your-week-in-asia/brics-summit-okinawa-election-philippines-ai-plan"
+        "url": "https://www.investing.com/news/economy-news/investors-to-pore-over-inflation-data-for-signals-on-rate-trajectory-4890293"
       }
     ]
   },
   "2026-09-05": {
-    "articles_count": 223,
+    "articles_count": 235,
     "signal_count": 27,
     "tone_cb": null,
     "tone_global": 0.1487,
