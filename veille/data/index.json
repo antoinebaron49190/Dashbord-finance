@@ -1,12 +1,20 @@
 {
   "2026-09-06": {
-    "articles_count": 13,
-    "signal_count": 3,
+    "articles_count": 26,
+    "signal_count": 4,
     "tone_cb": null,
-    "tone_global": -0.3333,
+    "tone_global": -0.375,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "9129e6cd17398c2ee745f4d2",
+        "title": "U.S.-Iran tanker war escalates as Hormuz disruption deepens",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/usiran-tanker-war-escalates-as-hormuz-disruption-deepens-4890259"
+      },
       {
         "id": "af6f8e37d17a72351d6a235c",
         "title": "Ukraine weighs new tax revenue source to help fund war effort - WSJ",
@@ -24,36 +32,28 @@
         "url": "https://www.investing.com/news/economy-news/billions-in-iranian-funds-are-passing-through-us-banks-despite-sanctions--wsj-4890248"
       },
       {
-        "id": "d24526f55aed1cbd2f648aa9",
-        "title": "Taiwan's mortgage curbs squeeze middle class, spare cash-rich buyers",
+        "id": "f3f0550a8da5aea98bac36ef",
+        "title": "Ho Chi Minh City delays low-emission zone rollout by 6 months",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/markets/property/taiwan-s-mortgage-curbs-squeeze-middle-class-spare-cash-rich-buyers"
+        "url": "https://asia.nikkei.com/spotlight/environment/ho-chi-minh-city-delays-low-emission-zone-rollout-by-6-months"
       },
       {
-        "id": "7be7b399c42a1d993dc03d6d",
-        "title": "Japan's Kumamoto Airport plans flights to Thailand",
+        "id": "d716c0d4c25e5a02f7472e25",
+        "title": "BRICS Summit, Okinawa election, Philippines AI plan",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/transportation/japan-s-kumamoto-airport-plans-flights-to-thailand"
-      },
-      {
-        "id": "4b8f260fb4e59202252bebd6",
-        "title": "Chiang Mai district seeks harmony between 'digital nomads' and locals",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/travel-leisure/chiang-mai-district-seeks-harmony-between-digital-nomads-and-locals"
+        "url": "https://asia.nikkei.com/spotlight/your-week-in-asia/brics-summit-okinawa-election-philippines-ai-plan"
       }
     ]
   },
   "2026-09-05": {
-    "articles_count": 185,
-    "signal_count": 23,
+    "articles_count": 223,
+    "signal_count": 27,
     "tone_cb": null,
-    "tone_global": 0.1745,
+    "tone_global": 0.1487,
     "regul_crypto": 0.6,
     "stress": 0.0,
     "top": [
@@ -3602,37 +3602,13 @@
     ]
   },
   "2026-06-08": {
-    "articles_count": 7,
-    "signal_count": 1,
+    "articles_count": 1,
+    "signal_count": 0,
     "tone_cb": null,
-    "tone_global": -0.6,
+    "tone_global": null,
     "regul_crypto": null,
-    "stress": 0.125,
+    "stress": 0.0,
     "top": [
-      {
-        "id": "f8d8342d188de894de80be9f",
-        "title": "L'OICV publie son rapport final sur la valorisation des organismes de placement collectif, renforçant ainsi les normes internationales en matière de valorisation des fonds ouverts",
-        "source": "amf_news",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/loicv-publie-son-rapport-final-sur-la-valorisation-des-organismes-de-placement-collectif-renforcant#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "6a5dc1c556eb00d3950447a4",
-        "title": "Edition spéciale du Baromètre AMF : encore peu utilisée dans les pratiques d’investissement, l’intelligence artificielle séduit davantage les jeunes investisseurs",
-        "source": "amf_news",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/edition-speciale-du-barometre-amf-encore-peu-utilisee-dans-les-pratiques-dinvestissement#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "db38efee42f18e0c4d0253d1",
-        "title": "Award of the 2026 Ieke van den Burg Prize for research on systemic risk",
-        "source": "esrb_press",
-        "score": 0.6,
-        "tone": -0.6,
-        "url": "https://www.esrb.europa.eu//news/pr/date/2026/html/esrb.pr260608~6d896ea6ce.en.html"
-      },
       {
         "id": "47e200c4a90b21a294c351d1",
         "title": "SEC Establishes Joint Data Standards as Required Under the Financial Data Transparency Act of 2022",
@@ -3640,14 +3616,6 @@
         "score": 0.6,
         "tone": 0.0,
         "url": "https://www.sec.gov/newsroom/press-releases/2026-53-sec-establishes-joint-data-standards-required-under-financial-data-transparency-act-2022"
-      },
-      {
-        "id": "f88b4bc9ab4049729da5d117",
-        "title": "L'AMF lance une consultation sur un projet de recommandation concernant la liquidité des fonds monétaires",
-        "source": "amf_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-lance-une-consultation-sur-un-projet-de-recommandation-concernant-la-liquidite-des-fonds#xts=607212&xtor=RSS-3&type=RSS"
       }
     ]
   },
