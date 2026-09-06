@@ -1,35 +1,51 @@
 {
   "2026-09-06": {
-    "articles_count": 3,
-    "signal_count": 0,
+    "articles_count": 13,
+    "signal_count": 3,
     "tone_cb": null,
-    "tone_global": null,
+    "tone_global": -0.3333,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
-        "id": "6d723c6f70a36b2920934505",
-        "title": "Thai small businesses should add value to beat China imports: official",
+        "id": "af6f8e37d17a72351d6a235c",
+        "title": "Ukraine weighs new tax revenue source to help fund war effort - WSJ",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/ukraine-weighs-new-tax-revenue-source-to-help-fund-war-effort--wsj-4890250"
+      },
+      {
+        "id": "9355710e2717544ff4572568",
+        "title": "Billions in Iranian funds are passing through U.S. banks despite sanctions - WSJ",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/billions-in-iranian-funds-are-passing-through-us-banks-despite-sanctions--wsj-4890248"
+      },
+      {
+        "id": "d24526f55aed1cbd2f648aa9",
+        "title": "Taiwan's mortgage curbs squeeze middle class, spare cash-rich buyers",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/economy/trade/thai-small-businesses-should-add-value-to-beat-china-imports-official"
+        "url": "https://asia.nikkei.com/business/markets/property/taiwan-s-mortgage-curbs-squeeze-middle-class-spare-cash-rich-buyers"
       },
       {
-        "id": "23f432691d0253646a8c40ae",
-        "title": "Imperial Petroleum earnings missed, revenue fell short of estimates",
-        "source": "investing_com",
+        "id": "7be7b399c42a1d993dc03d6d",
+        "title": "Japan's Kumamoto Airport plans flights to Thailand",
+        "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/earnings/imperial-petroleum-earnings-missed-revenue-fell-short-of-estimates-4890246"
+        "url": "https://asia.nikkei.com/business/transportation/japan-s-kumamoto-airport-plans-flights-to-thailand"
       },
       {
-        "id": "c98f1b7e178ced11b4b95735",
-        "title": "Europe’s satellite launch ambitions take off as German rocket reaches orbit",
-        "source": "investing_com",
+        "id": "4b8f260fb4e59202252bebd6",
+        "title": "Chiang Mai district seeks harmony between 'digital nomads' and locals",
+        "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/economy-news/europes-satellite-launch-ambitions-take-off-as-german-rocket-reaches-orbit-4890245"
+        "url": "https://asia.nikkei.com/business/travel-leisure/chiang-mai-district-seeks-harmony-between-digital-nomads-and-locals"
       }
     ]
   },
@@ -84,12 +100,12 @@
     ]
   },
   "2026-09-04": {
-    "articles_count": 253,
-    "signal_count": 39,
+    "articles_count": 301,
+    "signal_count": 42,
     "tone_cb": null,
-    "tone_global": 0.0844,
+    "tone_global": 0.0878,
     "regul_crypto": 0.15,
-    "stress": 0.0073,
+    "stress": 0.0093,
     "top": [
       {
         "id": "d611cda4d653c32838f2d325",
