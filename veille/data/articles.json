@@ -1,5 +1,144 @@
 [
   {
+    "id": "7f97fc5838835d35b052e6b6",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Principal Figures of Financial Institutions (Aug.)",
+    "url": "http://www.boj.or.jp/en/statistics/dl/depo/kashi/kasi2608.pdf",
+    "summary": "",
+    "published_at": "2026-09-07T23:50:00+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e3578400b8929518e0eee665",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Japan July real wages rise 2.4%, biggest gain since 2021",
+    "url": "https://www.investing.com/news/economy-news/japan-july-real-wages-rise-24-biggest-gain-since-2021-4890748",
+    "summary": "",
+    "published_at": "2026-09-07T23:36:31+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6eee35d56bbcdfe6e3a69fa9",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Colombia 12-month inflation edges up more than expected in August",
+    "url": "https://www.investing.com/news/economy-news/colombia-12month-inflation-edges-up-more-than-expected-in-august-4890747",
+    "summary": "",
+    "published_at": "2026-09-07T23:30:29+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b63c99d403fe37ddfcdefa58",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "UK retail sales growth slows to 4-month low in August, BRC says",
+    "url": "https://www.investing.com/news/economic-indicators/uk-retail-sales-growth-slows-to-4month-low-in-august-brc-says-4890744",
+    "summary": "",
+    "published_at": "2026-09-07T23:06:30+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "35e92170ee794efcd987e179",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Metaplanet CEO breaks silence but shareholders say the hard questions remain unanswered",
+    "url": "https://www.coindesk.com/markets/2026/09/08/metaplanet-ceo-breaks-silence-but-shareholders-say-the-hard-questions-remain-unanswered",
+    "summary": "",
+    "published_at": "2026-09-07T23:01:00+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "e43c723072d87522f5e3bc34",
     "source": "nikkei_asia",
     "tier": 3,
@@ -45,6 +184,32 @@
     "assets_effective": [
       "asie"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3c51918037acdbcd6ddba41e",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "EverBank to combine with WaFd in $3.9 billion reverse merger",
+    "url": "https://www.investing.com/news/stock-market-news/everbank-to-combine-with-wafd-in-39-billion-reverse-merger-4890735",
+    "summary": "",
+    "published_at": "2026-09-07T21:54:33+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -2336,6 +2501,32 @@
     "summary": "Since troughing on July 29, the semiconductor sector has been recovering steadily with the OpenAI ChatGPT-6 Astra release bolstering sentiment further",
     "published_at": "2026-09-07T11:36:00+00:00",
     "collected_at": "2026-09-07T13:59:01.269334+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3bb4b11273394a341aea3686",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why the launch of OpenAI’s latest Astra model reignited the memory-chip trade",
+    "url": "https://www.marketwatch.com/story/why-the-launch-of-openais-latest-astra-model-reignited-the-memory-chip-trade-809e2edb?mod=mw_rss_topstories",
+    "summary": "Since troughing on July 29, the semiconductor sector has been recovering steadily with the OpenAI ChatGPT-6 Astra release bolstering sentiment further",
+    "published_at": "2026-09-07T11:36:00+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -6911,6 +7102,34 @@
     "scored_by": "lexique"
   },
   {
+    "id": "990a5e0ff17230b24681a125",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dell Stock Exploded Over 300% — Its 150% EPS Growth Could Send It Even Higher",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/dell-stock-exploded-over-300-173002921.html",
+    "summary": "",
+    "published_at": "2026-09-06T17:30:02+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
     "id": "445066cc6551769b43178153",
     "source": "yahoo_finance",
     "tier": 3,
@@ -7488,6 +7707,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "4356b27a92cd0d7016889efd",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "3 ETFs That Could Move as Rate Expectations Shift",
+    "url": "https://finance.yahoo.com/markets/options/articles/3-etfs-could-move-rate-161000110.html",
+    "summary": "",
+    "published_at": "2026-09-06T16:10:00+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "46c33ef2fae021a665830693",
     "source": "yahoo_finance",
     "tier": 3,
@@ -7540,6 +7785,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "41c0b67302d1ad35e6162ece",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Elon Musk's Tesla Cybertruck Has A New Ford Rival That Wants To Outsell It 5-To-1",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musks-tesla-cybertruck-ford-160016241.html",
+    "summary": "",
+    "published_at": "2026-09-06T16:00:16+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "b4e9103eb52dc840476a7803",
     "source": "coindesk",
     "tier": 3,
@@ -7562,6 +7833,36 @@
     "assets_effective": [
       "btc",
       "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4429b1fdce800cacdefc6c2e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The US Dollar Has Lost 97% of Its Value Since 1913: Is Bitcoin the Way Out?",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/us-dollar-lost-97-value-155758790.html",
+    "summary": "",
+    "published_at": "2026-09-06T15:57:58+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
     ],
     "has_decision_marker": false,
     "importance": 0.3,
@@ -7650,6 +7951,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "aecfcf565d76f09a6fc8ab34",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dell COO Jeff Clarke Reveals AI Boom Runs on Endless Scrambling for Scarce Parts: 'This Is What We Do' and 'We Love It' (CORRECTED)",
+    "url": "https://finance.yahoo.com/technology/ai/articles/dell-coo-jeff-clarke-reveals-154506925.html",
+    "summary": "",
+    "published_at": "2026-09-06T15:45:06+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "3003b3fcf220208d8e561d2b",
     "source": "yahoo_finance",
     "tier": 3,
@@ -7719,6 +8046,64 @@
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "534645cf89d8251ff770001e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "No bailout for Jaguar Land Rover, says minister",
+    "url": "https://finance.yahoo.com/economy/policy/articles/no-bailout-jaguar-land-rover-153126678.html",
+    "summary": "",
+    "published_at": "2026-09-06T15:31:26+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7edba12b82c01c43f4df2a9d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "South Korea Just Bet $20 Billion on SK hynix Stock",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/south-korea-just-bet-20-153002546.html",
+    "summary": "",
+    "published_at": "2026-09-06T15:30:02+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -7894,6 +8279,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "d95c6f9dcb0b6ac9881fbe81",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "3 Stocks With September Catalysts Investors Shouldn’t Ignore",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-september-catalysts-investors-152000959.html",
+    "summary": "",
+    "published_at": "2026-09-06T15:20:00+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "7920308eb5fdb9b98bdc9deb",
     "source": "yahoo_finance",
     "tier": 3,
@@ -7950,6 +8361,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "5427e6ec0897e94d2a7cafea",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Will Alphabet Break Warren Buffett's Cardinal Rule of Investing?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-break-warren-buffetts-cardinal-151500923.html",
+    "summary": "",
+    "published_at": "2026-09-06T15:15:00+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "e32f1d98d73304fc1519e01c",
     "source": "investing_com",
     "tier": 3,
@@ -7964,6 +8401,58 @@
     "summary": "",
     "published_at": "2026-09-06T15:12:44+00:00",
     "collected_at": "2026-09-06T16:42:10.202598+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "200e7bfeb72637381e6d207e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Automotive giant’s stock surges amid plan to cut 50,000 jobs",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/automotive-giant-stock-surges-amid-150700579.html",
+    "summary": "",
+    "published_at": "2026-09-06T15:07:00+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7ea7fe18838f787b7488e08c",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Prediction: This Is What Sandisk Stock Will Be Worth in 12 Months",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-sandisk-stock-worth-12-150101668.html",
+    "summary": "",
+    "published_at": "2026-09-06T15:01:01+00:00",
+    "collected_at": "2026-09-07T23:59:09.723264+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
