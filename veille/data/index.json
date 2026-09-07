@@ -1,9 +1,9 @@
 {
   "2026-09-07": {
-    "articles_count": 37,
-    "signal_count": 5,
+    "articles_count": 122,
+    "signal_count": 14,
     "tone_cb": null,
-    "tone_global": 0.0,
+    "tone_global": 0.0609,
     "regul_crypto": 0.0,
     "stress": 0.0,
     "top": [
@@ -16,46 +16,46 @@
         "url": "http://www.boj.or.jp/en/statistics/market/short/call/call.xlsx"
       },
       {
-        "id": "3f289184d495c59305bcbd99",
-        "title": "Bitcoin network used by exchanges hit by $320 million exploit. Hackers claim they're the 'good guys'",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://www.coindesk.com/markets/2026/09/07/bitcoin-network-used-by-exchanges-hit-by-usd320-million-exploit-hackers-claim-they-re-the-good-guys"
+        "id": "6a9d21fcc9a4bf310916ecc4",
+        "title": "Joint Declaration by the European Union, on the one hand, and the Government of Greenland and the Government of Denmark, on the other, on relations between the European Union and Greenland",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1804"
       },
       {
-        "id": "1eafe87cc43b31863e090c4a",
-        "title": "Spot bitcoin ETFs pull in $987 million last week as institutional demand recovers",
-        "source": "theblock",
-        "score": 0.3,
-        "tone": 0.6,
-        "url": "https://www.theblock.co/news/markets/2026-09-06-bitcoin-etfs-987-million-weekly-inflow-413639"
+        "id": "918165212276a0b30820dbe4",
+        "title": "Statement by President von der Leyen at the signing of the EU-Greenland Joint Declaration",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1803"
       },
       {
-        "id": "b6a4f2149c4c63e1b3098219",
-        "title": "FTSE 100 today: Stocks slip as U.S.-Iran Gulf conflict escalates",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-slip-as-usiran-gulf-conflict-escalates-4890487"
-      },
-      {
-        "id": "93236fd5387efba57a1e470f",
-        "title": "Thai PM Anutin, 1 year on, prioritizes Chinese capital to buoy growth",
-        "source": "nikkei_asia",
-        "score": 0.3,
+        "id": "926eb76f1676b6ee25f4bf7a",
+        "title": "Commission greenlights the Netherlands' fourth payment request for €661 million under NextGenerationEU",
+        "source": "ec_press",
+        "score": 0.6,
         "tone": 0.5,
-        "url": "https://asia.nikkei.com/politics/thai-pm-anutin-1-year-on-prioritizes-chinese-capital-to-buoy-growth"
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1801"
+      },
+      {
+        "id": "e43d795c7c2b1531f1939063",
+        "title": "Keynote Speech by Executive Vice-President Teresa Ribera at the OECD Conference ‘Modernising merger control for an evolving world'",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1807"
       }
     ]
   },
   "2026-09-06": {
-    "articles_count": 192,
+    "articles_count": 194,
     "signal_count": 20,
     "tone_cb": null,
     "tone_global": 0.1783,
     "regul_crypto": null,
-    "stress": 0.0049,
+    "stress": 0.0048,
     "top": [
       {
         "id": "aeaa5fb67b64ca7392547488",
@@ -82,20 +82,20 @@
         "url": "http://www.boj.or.jp/en/statistics/boj/fm/ope/m_release/2026/ope2608.xlsx"
       },
       {
+        "id": "4271a585a46a6367f5380bdc",
+        "title": "EU and Greenland strengthen partnership and engagement, backed by €200 million in EU investment",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1800"
+      },
+      {
         "id": "9e270381e3cdd2d0c2ade4a5",
         "title": "XRP Trades at $1.41 With a $1.43 Wall Overhead. Can It Break $1.50 Before the Fed Decides on September 16?",
         "source": "yahoo_finance",
         "score": 0.45,
         "tone": 0.0,
         "url": "https://finance.yahoo.com/markets/crypto/articles/xrp-trades-1-41-1-215632544.html"
-      },
-      {
-        "id": "64dd06b5c5b866f6592c906f",
-        "title": "SpaceX’s European rival Isar Aerospace plans rapid expansion after first orbital launch",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://www.investing.com/news/stock-market-news/spacexs-european-rival-isar-aerospace-plans-rapid-expansion-after-first-orbital-launch-93CH-4890288"
       }
     ]
   },
