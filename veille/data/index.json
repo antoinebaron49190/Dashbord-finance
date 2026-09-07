@@ -1,12 +1,86 @@
 {
+  "2026-09-07": {
+    "articles_count": 15,
+    "signal_count": 2,
+    "tone_cb": null,
+    "tone_global": 0.55,
+    "regul_crypto": 0.6,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "1eafe87cc43b31863e090c4a",
+        "title": "Spot bitcoin ETFs pull in $987 million last week as institutional demand recovers",
+        "source": "theblock",
+        "score": 0.3,
+        "tone": 0.6,
+        "url": "https://www.theblock.co/news/markets/2026-09-06-bitcoin-etfs-987-million-weekly-inflow-413639"
+      },
+      {
+        "id": "93236fd5387efba57a1e470f",
+        "title": "Thai PM Anutin, 1 year on, prioritizes Chinese capital to buoy growth",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/politics/thai-pm-anutin-1-year-on-prioritizes-chinese-capital-to-buoy-growth"
+      },
+      {
+        "id": "e39c4033eb5637e7adef0ce9",
+        "title": "Jakarta airports remain closed for 2nd day after volcanic eruptions",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/transportation/jakarta-airports-remain-closed-for-2nd-day-after-volcanic-eruptions"
+      },
+      {
+        "id": "65b04409db5e279fa9aa7cbd",
+        "title": "Bangladesh PM spurns Delhi BRICS summit amid new diplomatic approach",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/politics/international-relations/bangladesh-pm-spurns-delhi-brics-summit-amid-new-diplomatic-approach"
+      },
+      {
+        "id": "0b5e6ab2c78288d6f05fa163",
+        "title": "US and China eye Trump-Xi talks on AI guardrails despite tech rift",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-and-china-eye-trump-xi-talks-on-ai-guardrails-despite-tech-rift"
+      }
+    ]
+  },
   "2026-09-06": {
-    "articles_count": 185,
+    "articles_count": 188,
     "signal_count": 20,
     "tone_cb": null,
     "tone_global": 0.1783,
     "regul_crypto": null,
-    "stress": 0.0054,
+    "stress": 0.005,
     "top": [
+      {
+        "id": "aeaa5fb67b64ca7392547488",
+        "title": "Monetary Base and the Bank of Japan's Transactions (Aug.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/boj/other/mbt/mbt2608.pdf"
+      },
+      {
+        "id": "247af6cda180ff379936e08b",
+        "title": "Bank of Japan's Transactions with the Government (Aug.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/boj/other/tseifu/release/2026/seifu2608.pdf"
+      },
+      {
+        "id": "c7e7502f981012f581a3ab75",
+        "title": "Market Operations by the Bank of Japan (Aug.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/boj/fm/ope/m_release/2026/ope2608.xlsx"
+      },
       {
         "id": "9e270381e3cdd2d0c2ade4a5",
         "title": "XRP Trades at $1.41 With a $1.43 Wall Overhead. Can It Break $1.50 Before the Fed Decides on September 16?",
@@ -22,35 +96,11 @@
         "score": 0.3,
         "tone": 0.6667,
         "url": "https://www.investing.com/news/stock-market-news/spacexs-european-rival-isar-aerospace-plans-rapid-expansion-after-first-orbital-launch-93CH-4890288"
-      },
-      {
-        "id": "1743f5ff7063fcead3afe7d8",
-        "title": "39-year-old ammunition manufacturer files Chapter 11 bankruptcy",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://finance.yahoo.com/small-business/articles/39-old-major-bullet-manufacturer-023300278.html"
-      },
-      {
-        "id": "55d9e623d0abbfaa13adba06",
-        "title": "UK recruiters see first rise in permanent role hiring since 2022",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/forex-news/uk-recruiters-see-first-rise-in-permanent-role-hiring-since-2022-4890324"
-      },
-      {
-        "id": "2cf9275274df8cae285a0690",
-        "title": "Workday (WDAY)’s AI Push is Easing Investor Fears, but its Own Guidance Tells a More Cautious Story",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://finance.yahoo.com/technology/ai/articles/workday-wday-ai-push-easing-231129347.html"
       }
     ]
   },
   "2026-09-05": {
-    "articles_count": 239,
+    "articles_count": 243,
     "signal_count": 27,
     "tone_cb": null,
     "tone_global": 0.1487,

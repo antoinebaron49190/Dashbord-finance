@@ -1,5 +1,521 @@
 [
   {
+    "id": "e39c4033eb5637e7adef0ce9",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Jakarta airports remain closed for 2nd day after volcanic eruptions",
+    "url": "https://asia.nikkei.com/business/transportation/jakarta-airports-remain-closed-for-2nd-day-after-volcanic-eruptions",
+    "summary": "",
+    "published_at": "2026-09-07T02:53:28.536569+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "65b04409db5e279fa9aa7cbd",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Bangladesh PM spurns Delhi BRICS summit amid new diplomatic approach",
+    "url": "https://asia.nikkei.com/politics/international-relations/bangladesh-pm-spurns-delhi-brics-summit-amid-new-diplomatic-approach",
+    "summary": "",
+    "published_at": "2026-09-07T02:53:28.536569+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "93236fd5387efba57a1e470f",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Thai PM Anutin, 1 year on, prioritizes Chinese capital to buoy growth",
+    "url": "https://asia.nikkei.com/politics/thai-pm-anutin-1-year-on-prioritizes-chinese-capital-to-buoy-growth",
+    "summary": "",
+    "published_at": "2026-09-07T02:53:28.536569+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0b5e6ab2c78288d6f05fa163",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "US and China eye Trump-Xi talks on AI guardrails despite tech rift",
+    "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-and-china-eye-trump-xi-talks-on-ai-guardrails-despite-tech-rift",
+    "summary": "",
+    "published_at": "2026-09-07T02:53:28.536569+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b19f0d1beaaf82f441503c36",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Taiwan flexes chip diplomacy muscles as it faces pressure to share AI wealth with allies",
+    "url": "https://www.investing.com/news/stock-market-news/taiwan-flexes-chip-diplomacy-muscles-as-it-faces-pressure-to-share-ai-wealth-with-allies-4890346",
+    "summary": "",
+    "published_at": "2026-09-07T02:36:33+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f4d65f168f8f78a501e4fd70",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Harmony to fully sunset Layer 1, proposes token migration to Ethereum for AI video initiative",
+    "url": "https://www.theblock.co/news/web3/2026-09-06-harmony-sunset-network-413635",
+    "summary": "Harmony said it would help validators transition to its proposed new initiative, a 'remix economy' with AI video creators.",
+    "published_at": "2026-09-07T02:28:47+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [
+      "eth"
+    ],
+    "assets_effective": [
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "769ba490a3a5446d2d9d502b",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Australia’s right-wing One Nation party proposes pension shake-up to boost take-home pay",
+    "url": "https://www.investing.com/news/economy-news/australias-rightwing-one-nation-party-proposes-pension-shakeup-to-boost-takehome-pay-4890345",
+    "summary": "",
+    "published_at": "2026-09-07T02:24:09+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1eafe87cc43b31863e090c4a",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Spot bitcoin ETFs pull in $987 million last week as institutional demand recovers",
+    "url": "https://www.theblock.co/news/markets/2026-09-06-bitcoin-etfs-987-million-weekly-inflow-413639",
+    "summary": "Spot bitcoin ETFs drew in $3.52 billion in net inflows in August, their largest monthly positive flows since September 2025.",
+    "published_at": "2026-09-07T02:15:55+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b5b47610a1aea5d7e531b47d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Wall Street futures mixed after jobs data lifts Sept Fed hike odds",
+    "url": "https://www.investing.com/news/stock-market-news/wall-street-futures-mixed-after-jobs-data-lifts-sept-fed-hike-odds-4890344",
+    "summary": "",
+    "published_at": "2026-09-07T02:14:08+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b07562d50d10dbaaef500aac",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Hang Seng trapped in 24,950-26,200 range: Hourly levels",
+    "url": "https://www.investing.com/news/stock-market-news/hang-seng-trapped-in-2495026200-range-hourly-levels-93CH-4890343",
+    "summary": "",
+    "published_at": "2026-09-07T02:02:45+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ba1f9309101058d9bae89410",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oil extends gains after US and Iran strike ships",
+    "url": "https://www.investing.com/news/commodities-news/oil-extends-gains-after-us-and-iran-strike-ships-4890330",
+    "summary": "",
+    "published_at": "2026-09-07T02:00:27+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "11d3c1ea74f208410ca9e9aa",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Japan reserves plunge record $79.6 billion after massive yen intervention",
+    "url": "https://www.investing.com/news/economic-indicators/japan-reserves-plunge-record-796-billion-after-massive-yen-intervention-4890341",
+    "summary": "",
+    "published_at": "2026-09-07T01:59:36+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2de11c2e1ed24de55dd9f894",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dollar gets little lift from boost in Fed hike expectations",
+    "url": "https://www.investing.com/news/economy-news/dollar-gets-little-lift-from-boost-in-fed-hike-expectations-4890340",
+    "summary": "",
+    "published_at": "2026-09-07T01:37:07+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c845a134da493dc0ffae12e5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oil extends sharp weekly gains after U.S.-Iran tanker attacks in Hormuz",
+    "url": "https://www.investing.com/news/commodities-news/oil-extends-sharp-weekly-gains-after-usiran-tanker-attacks-in-hormuz-4890339",
+    "summary": "",
+    "published_at": "2026-09-07T01:30:58+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "91f29482c9d7d22d6620fb24",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Japan’s August foreign reserves post largest-ever drop after record intervention",
+    "url": "https://www.investing.com/news/economic-indicators/japans-august-foreign-reserves-post-largestever-drop-after-record-intervention-4890332",
+    "summary": "",
+    "published_at": "2026-09-07T01:24:26+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "aeaa5fb67b64ca7392547488",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Monetary Base and the Bank of Japan's Transactions (Aug.)",
+    "url": "http://www.boj.or.jp/en/statistics/boj/other/mbt/mbt2608.pdf",
+    "summary": "",
+    "published_at": "2026-09-06T23:50:00+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "247af6cda180ff379936e08b",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Bank of Japan's Transactions with the Government (Aug.)",
+    "url": "http://www.boj.or.jp/en/statistics/boj/other/tseifu/release/2026/seifu2608.pdf",
+    "summary": "",
+    "published_at": "2026-09-06T23:50:00+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c7e7502f981012f581a3ab75",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Market Operations by the Bank of Japan (Aug.)",
+    "url": "http://www.boj.or.jp/en/statistics/boj/fm/ope/m_release/2026/ope2608.xlsx",
+    "summary": "",
+    "published_at": "2026-09-06T23:50:00+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "7a99a3b185b3abacece455d0",
     "source": "nikkei_asia",
     "tier": 3,
@@ -6319,6 +6835,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "ba70757fe827967d2316b3c6",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Tesla’s Mixed European Sales Send Clear Signal on Regional Demand",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-mixed-european-sales-send-183002623.html",
+    "summary": "",
+    "published_at": "2026-09-05T18:30:02+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "1102f47dbffebfc8f92996df",
     "source": "yahoo_finance",
     "tier": 3,
@@ -6997,6 +7539,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "f92784bd9b23b86b61acfa47",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "A $1.4 Billion Reason to Buy GameStop Stock Now",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/1-4-billion-reason-buy-173002581.html",
+    "summary": "",
+    "published_at": "2026-09-05T17:30:02+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "95ee4dfde011b11830380631",
     "source": "coindesk",
     "tier": 3,
@@ -7333,6 +7901,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "8a943dbd41fb7f1385876b81",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Albemarle’s Next CEO Inherits A $250 Million Swing Per Dollar",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/albemarle-next-ceo-inherits-250-160025670.html",
+    "summary": "",
+    "published_at": "2026-09-05T16:00:25+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "28f620756ccdefdfd19326a9",
     "source": "yahoo_finance",
     "tier": 3,
@@ -7451,6 +8045,32 @@
     "summary": "",
     "published_at": "2026-09-05T15:45:33+00:00",
     "collected_at": "2026-09-05T16:31:53.065131+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b28ccb50a8e09a2dd13d3b50",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "How To Earn $500 A Month From Caleres Stock Ahead Of Q2 Earnings",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/earn-500-month-caleres-stock-154508291.html",
+    "summary": "",
+    "published_at": "2026-09-05T15:45:08+00:00",
+    "collected_at": "2026-09-07T02:53:28.536569+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
