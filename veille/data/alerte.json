@@ -1,6 +1,21 @@
 {
-  "updated_at": "2026-09-07T13:59:29.196962+00:00",
-  "pending": [],
+  "updated_at": "2026-09-08T04:20:50.669339+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:nikkei:indecise->haussiere:2026-09-08",
+      "title": "Nikkei 225 : tendance haussière",
+      "body": "Nikkei 225 passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-08.",
+      "kind": "tendance",
+      "detected_at": "2026-09-08T04:20:50.669262+00:00"
+    },
+    {
+      "fingerprint": "agenda:2026-09-10:BCE",
+      "title": "Conseil des gouverneurs de la BCE — décision de taux — dans 2 jours",
+      "body": "Conseil des gouverneurs de la BCE — décision de taux, jeudi 10 septembre. Une date de réunion est un fait, pas une prévision : l'outil ne dit pas ce qui en sortira.",
+      "kind": "agenda",
+      "detected_at": "2026-09-08T04:20:50.669284+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -47,7 +62,9 @@
     "trend:eurostoxx:haussiere->indecise:2026-09-03",
     "trend:hangseng:indecise->haussiere:2026-09-04",
     "trend:eurostoxx:indecise->haussiere:2026-09-04",
-    "trend:eurostoxx:haussiere->indecise:2026-09-07"
+    "trend:eurostoxx:haussiere->indecise:2026-09-07",
+    "trend:nikkei:indecise->haussiere:2026-09-08",
+    "agenda:2026-09-10:BCE"
   ],
   "extremes_active": []
 }

@@ -1,4 +1,54 @@
 {
+  "2026-09-08": {
+    "articles_count": 19,
+    "signal_count": 3,
+    "tone_cb": null,
+    "tone_global": 0.1667,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "8a93070dbe53070d844f1f60",
+        "title": "China's exports soar 25% in August; trade surplus tops $800bn for year",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/economy/trade/china-s-exports-soar-25-in-august-trade-surplus-tops-800bn-for-year"
+      },
+      {
+        "id": "5a8bea8a8e5bf428e609101a",
+        "title": "Myanmar military intensifies operations to retake China project areas",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/spotlight/myanmar-crisis/myanmar-military-intensifies-operations-to-retake-china-project-areas"
+      },
+      {
+        "id": "b3a15a3f05789546ee41b587",
+        "title": "Ethereum aims for quantum-safe L1 by 2029 as Hegotá upgrade takes form",
+        "source": "theblock",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.theblock.co/news/ecosystems/2026-09-08-ethereum-foundation-quantum-resistance-2029-413716"
+      },
+      {
+        "id": "f0f56551d2f9d33104afbb44",
+        "title": "China's exit from utility sales hints at declining interest in Pakistan",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/business-deals/china-s-exit-from-utility-sales-hints-at-declining-interest-in-pakistan"
+      },
+      {
+        "id": "67ef7ead2ff40029f634ed93",
+        "title": "Australia's Firmus inks compute deal with OpenAI for Malaysian data centers",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/technology/australia-s-firmus-inks-compute-deal-with-openai-for-malaysian-data-centers"
+      }
+    ]
+  },
   "2026-09-07": {
     "articles_count": 163,
     "signal_count": 17,
@@ -50,12 +100,12 @@
     ]
   },
   "2026-09-06": {
-    "articles_count": 250,
-    "signal_count": 27,
+    "articles_count": 253,
+    "signal_count": 28,
     "tone_cb": null,
-    "tone_global": 0.1617,
+    "tone_global": 0.156,
     "regul_crypto": null,
-    "stress": 0.0114,
+    "stress": 0.0113,
     "top": [
       {
         "id": "aeaa5fb67b64ca7392547488",
