@@ -1,19 +1,12 @@
 {
-  "updated_at": "2026-09-08T04:20:50.669339+00:00",
+  "updated_at": "2026-09-08T09:22:19.711030+00:00",
   "pending": [
     {
-      "fingerprint": "trend:nikkei:indecise->haussiere:2026-09-08",
-      "title": "Nikkei 225 : tendance haussière",
-      "body": "Nikkei 225 passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-08.",
+      "fingerprint": "trend:eurostoxx:haussiere->indecise:2026-09-08",
+      "title": "Euro Stoxx 50 : tendance sans direction nette",
+      "body": "Euro Stoxx 50 passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-08.",
       "kind": "tendance",
-      "detected_at": "2026-09-08T04:20:50.669262+00:00"
-    },
-    {
-      "fingerprint": "agenda:2026-09-10:BCE",
-      "title": "Conseil des gouverneurs de la BCE — décision de taux — dans 2 jours",
-      "body": "Conseil des gouverneurs de la BCE — décision de taux, jeudi 10 septembre. Une date de réunion est un fait, pas une prévision : l'outil ne dit pas ce qui en sortira.",
-      "kind": "agenda",
-      "detected_at": "2026-09-08T04:20:50.669284+00:00"
+      "detected_at": "2026-09-08T09:22:19.710957+00:00"
     }
   ],
   "sent": [
@@ -64,7 +57,8 @@
     "trend:eurostoxx:indecise->haussiere:2026-09-04",
     "trend:eurostoxx:haussiere->indecise:2026-09-07",
     "trend:nikkei:indecise->haussiere:2026-09-08",
-    "agenda:2026-09-10:BCE"
+    "agenda:2026-09-10:BCE",
+    "trend:eurostoxx:haussiere->indecise:2026-09-08"
   ],
   "extremes_active": []
 }
