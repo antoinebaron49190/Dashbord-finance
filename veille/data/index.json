@@ -1,12 +1,44 @@
 {
   "2026-09-08": {
-    "articles_count": 69,
-    "signal_count": 9,
+    "articles_count": 149,
+    "signal_count": 18,
     "tone_cb": null,
-    "tone_global": 0.0926,
+    "tone_global": 0.1204,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "b59d01ca1d459543c2b666ee",
+        "title": "Statement by President von der Leyen on the derogation for Ukraine to purchase crucial products for Patriot air defence systems",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1818"
+      },
+      {
+        "id": "57f19bcf83c5b152f3392e2c",
+        "title": "L’AMF publie un guide pédagogique à destination des professionnels pour des documents d’informations clés (DIC) plus lisibles pour les épargnants",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-un-guide-pedagogique-destination-des-professionnels-pour-des-documents-dinformations#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "ab4a45d38d5250d075e67a88",
+        "title": "Speech by Commissioner Šefčovič at BoKoWiTa, the Conference of the Heads of German Missions Abroad Business Forum",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1816"
+      },
+      {
+        "id": "dfe9e6d767d1179ba054b8bd",
+        "title": "Daily News 08 / 09 / 2026",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1813"
+      },
       {
         "id": "97de41ccc2ca8fbd60d04fa6",
         "title": "Commissioner Roswall's speech at the conference, “World Lake Day in the Lake Balaton Region”",
@@ -14,43 +46,11 @@
         "score": 0.6,
         "tone": 0.0,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1812"
-      },
-      {
-        "id": "e1fe4b958994cda183d36323",
-        "title": "Guide pour améliorer la lisibilité des documents d'information destinés aux épargnants",
-        "source": "amf_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/publications/guides/guides-epargnants/guide-pour-ameliorer-la-lisibilite-des-documents-dinformation-destines-aux-epargnants#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "e22391de96e7661d1e65ca55",
-        "title": "Canada's retaliatory tariffs worth $27.6 billion take effect as trade rift with U.S. deepens",
-        "source": "cnbc_economy",
-        "score": 0.3,
-        "tone": -0.6667,
-        "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html"
-      },
-      {
-        "id": "6d630569584380da58aa45cb",
-        "title": "Earnings call transcript: Uniphar H1 2026 profit rises as growth plan stays on track",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-uniphar-h1-2026-profit-rises-as-growth-plan-stays-on-track-93CH-4891001"
-      },
-      {
-        "id": "7527569f4cf56b48d17273d2",
-        "title": "Rubis H1 2026 slides: guidance lifted on broad-based growth",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/company-news/rubis-h1-2026-slides-guidance-lifted-on-broadbased-growth-93CH-4890987"
       }
     ]
   },
   "2026-09-07": {
-    "articles_count": 170,
+    "articles_count": 174,
     "signal_count": 17,
     "tone_cb": null,
     "tone_global": 0.023,
@@ -74,6 +74,14 @@
         "url": "http://www.boj.or.jp/en/statistics/market/short/call/call.xlsx"
       },
       {
+        "id": "681433e2367867ffc0f84853",
+        "title": "Commission approves €400 million German State aid to enhance insulin supply resilience",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1798"
+      },
+      {
         "id": "6a9d21fcc9a4bf310916ecc4",
         "title": "Joint Declaration by the European Union, on the one hand, and the Government of Greenland and the Government of Denmark, on the other, on relations between the European Union and Greenland",
         "source": "ec_press",
@@ -88,14 +96,6 @@
         "score": 0.9,
         "tone": 0.0,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1803"
-      },
-      {
-        "id": "926eb76f1676b6ee25f4bf7a",
-        "title": "Commission greenlights the Netherlands' fourth payment request for €661 million under NextGenerationEU",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": 0.5,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1801"
       }
     ]
   },
