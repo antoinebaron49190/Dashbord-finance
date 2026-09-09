@@ -1,12 +1,19 @@
 {
-  "updated_at": "2026-09-09T08:37:41.429170+00:00",
+  "updated_at": "2026-09-09T13:23:51.663726+00:00",
   "pending": [
     {
-      "fingerprint": "trend:eurostoxx:haussiere->indecise:2026-09-09",
-      "title": "Euro Stoxx 50 : tendance sans direction nette",
-      "body": "Euro Stoxx 50 passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-09.",
+      "fingerprint": "trend:cac40:indecise->baissiere:2026-09-09",
+      "title": "CAC 40 : tendance baissière",
+      "body": "CAC 40 passe de « sans direction nette » à « baissière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-09.",
       "kind": "tendance",
-      "detected_at": "2026-09-09T08:37:41.429108+00:00"
+      "detected_at": "2026-09-09T13:23:51.663676+00:00"
+    },
+    {
+      "fingerprint": "trend:dax:haussiere->indecise:2026-09-09",
+      "title": "DAX : tendance sans direction nette",
+      "body": "DAX passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-09.",
+      "kind": "tendance",
+      "detected_at": "2026-09-09T13:23:51.663679+00:00"
     }
   ],
   "sent": [
@@ -59,7 +66,9 @@
     "trend:nikkei:indecise->haussiere:2026-09-08",
     "agenda:2026-09-10:BCE",
     "trend:eurostoxx:haussiere->indecise:2026-09-08",
-    "trend:eurostoxx:haussiere->indecise:2026-09-09"
+    "trend:eurostoxx:haussiere->indecise:2026-09-09",
+    "trend:cac40:indecise->baissiere:2026-09-09",
+    "trend:dax:haussiere->indecise:2026-09-09"
   ],
   "extremes_active": []
 }
