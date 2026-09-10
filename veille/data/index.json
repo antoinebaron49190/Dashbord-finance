@@ -1,15 +1,23 @@
 {
   "2026-09-10": {
-    "articles_count": 220,
-    "signal_count": 33,
+    "articles_count": 249,
+    "signal_count": 36,
     "tone_cb": null,
-    "tone_global": 0.0849,
-    "regul_crypto": 0.6,
-    "stress": 0.0038,
+    "tone_global": 0.0459,
+    "regul_crypto": -0.2,
+    "stress": 0.0033,
     "top": [
       {
         "id": "f069c02dff87ed771f089fc2",
         "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
+        "source": "bce_press",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html"
+      },
+      {
+        "id": "3a50cb89fecb7547067961e5",
+        "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
         "source": "bce_press",
         "score": 1.95,
         "tone": 0.0,
@@ -24,36 +32,28 @@
         "url": "https://www.bankofengland.co.uk/news/2026/september/statement-announcing-governors-interview"
       },
       {
+        "id": "9a51b7cba5c4732d3d351bba",
+        "title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm"
+      },
+      {
         "id": "2d7f6da7f8740e0a8b7117ae",
         "title": "ECB staff macroeconomic projections for the euro area, September 2026",
         "source": "bce_pub",
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//press/projections/html/ecb.projections202609_ecbstaff~8e340fc69d.en.html"
-      },
-      {
-        "id": "3f0df33a9c8e393cf373745f",
-        "title": "Monetary policy decisions",
-        "source": "bce_press",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260910~314e508016.en.html"
-      },
-      {
-        "id": "476fa35631215f0dae40cf3a",
-        "title": "Basic Figures on Fails (Aug.)",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/set/bffail/sjgb2608.pdf"
       }
     ]
   },
   "2026-09-09": {
-    "articles_count": 231,
-    "signal_count": 38,
+    "articles_count": 255,
+    "signal_count": 40,
     "tone_cb": null,
-    "tone_global": 0.1805,
+    "tone_global": 0.1957,
     "regul_crypto": 0.36,
     "stress": 0.0,
     "top": [
