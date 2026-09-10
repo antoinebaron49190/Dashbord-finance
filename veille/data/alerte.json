@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-10T14:49:13.448116+00:00",
+  "updated_at": "2026-09-10T18:05:48.267067+00:00",
   "pending": [
     {
-      "fingerprint": "trend:sp500:haussiere->indecise:2026-09-10",
-      "title": "S&P 500 : tendance sans direction nette",
-      "body": "S&P 500 passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-10.",
+      "fingerprint": "trend:msci_world:haussiere->indecise:2026-09-10",
+      "title": "MSCI World : tendance sans direction nette",
+      "body": "MSCI World passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-10.",
       "kind": "tendance",
-      "detected_at": "2026-09-10T14:49:13.448027+00:00"
+      "detected_at": "2026-09-10T18:05:48.266997+00:00"
     }
   ],
   "sent": [
@@ -66,7 +66,8 @@
     "trend:cac40:indecise->baissiere:2026-09-10",
     "trend:dax:haussiere->indecise:2026-09-10",
     "trend:hangseng:indecise->baissiere:2026-09-10",
-    "trend:sp500:haussiere->indecise:2026-09-10"
+    "trend:sp500:haussiere->indecise:2026-09-10",
+    "trend:msci_world:haussiere->indecise:2026-09-10"
   ],
   "extremes_active": []
 }
