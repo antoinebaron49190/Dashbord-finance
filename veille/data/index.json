@@ -1,12 +1,20 @@
 {
   "2026-09-10": {
-    "articles_count": 71,
-    "signal_count": 15,
+    "articles_count": 150,
+    "signal_count": 26,
     "tone_cb": null,
-    "tone_global": 0.1428,
-    "regul_crypto": null,
-    "stress": 0.0,
+    "tone_global": 0.0589,
+    "regul_crypto": 0.6,
+    "stress": 0.0053,
     "top": [
+      {
+        "id": "f069c02dff87ed771f089fc2",
+        "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
+        "source": "bce_press",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260910~6a45359cfc.en.html"
+      },
       {
         "id": "48208476ff95177aef5b9273",
         "title": "Announcement of the publication of the Governor's interview transcript",
@@ -16,41 +24,33 @@
         "url": "https://www.bankofengland.co.uk/news/2026/september/statement-announcing-governors-interview"
       },
       {
+        "id": "2d7f6da7f8740e0a8b7117ae",
+        "title": "ECB staff macroeconomic projections for the euro area, September 2026",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/projections/html/ecb.projections202609_ecbstaff~8e340fc69d.en.html"
+      },
+      {
+        "id": "3f0df33a9c8e393cf373745f",
+        "title": "Monetary policy decisions",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260910~314e508016.en.html"
+      },
+      {
         "id": "476fa35631215f0dae40cf3a",
         "title": "Basic Figures on Fails (Aug.)",
         "source": "boj_news",
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/statistics/set/bffail/sjgb2608.pdf"
-      },
-      {
-        "id": "14472659891758068ffea1ea",
-        "title": "Speech by Board Member MASU in Fukui (Economic Activity, Prices, and Monetary Policy in Japan)",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko260910a.htm"
-      },
-      {
-        "id": "dfc91ef605803e72221d6e5f",
-        "title": "Ongoing geopolitical and economic vulnerabilities masked by strong investor optimism",
-        "source": "esma_news",
-        "score": 0.9,
-        "tone": 0.5591,
-        "url": "https://www.esma.europa.eu/press-news/esma-news/ongoing-geopolitical-and-economic-vulnerabilities-masked-strong-investor"
-      },
-      {
-        "id": "9951e6e11d432b9f3c08f92a",
-        "title": "Opening remarks by Commissioner Albuquerque at the structured dialogue with the Committee on Economic and Monetary Affairs and presentation of the Report on the competitiveness of the EU banking sector",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1840"
       }
     ]
   },
   "2026-09-09": {
-    "articles_count": 230,
+    "articles_count": 231,
     "signal_count": 38,
     "tone_cb": null,
     "tone_global": 0.1805,
@@ -100,7 +100,7 @@
     ]
   },
   "2026-09-08": {
-    "articles_count": 374,
+    "articles_count": 375,
     "signal_count": 41,
     "tone_cb": null,
     "tone_global": -0.0122,
@@ -150,7 +150,7 @@
     ]
   },
   "2026-09-07": {
-    "articles_count": 315,
+    "articles_count": 317,
     "signal_count": 28,
     "tone_cb": null,
     "tone_global": 0.0184,

@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-09-10T10:37:18.779982+00:00",
-  "pending": [],
+  "updated_at": "2026-09-10T14:49:13.448116+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:sp500:haussiere->indecise:2026-09-10",
+      "title": "S&P 500 : tendance sans direction nette",
+      "body": "S&P 500 passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-10.",
+      "kind": "tendance",
+      "detected_at": "2026-09-10T14:49:13.448027+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -57,7 +65,8 @@
     "trend:eurostoxx:haussiere->indecise:2026-09-10",
     "trend:cac40:indecise->baissiere:2026-09-10",
     "trend:dax:haussiere->indecise:2026-09-10",
-    "trend:hangseng:indecise->baissiere:2026-09-10"
+    "trend:hangseng:indecise->baissiere:2026-09-10",
+    "trend:sp500:haussiere->indecise:2026-09-10"
   ],
   "extremes_active": []
 }
