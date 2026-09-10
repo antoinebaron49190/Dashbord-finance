@@ -1,6 +1,35 @@
 {
-  "updated_at": "2026-09-09T17:33:35.442732+00:00",
-  "pending": [],
+  "updated_at": "2026-09-10T05:35:57.109685+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:eurostoxx:haussiere->indecise:2026-09-10",
+      "title": "Euro Stoxx 50 : tendance sans direction nette",
+      "body": "Euro Stoxx 50 passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-10.",
+      "kind": "tendance",
+      "detected_at": "2026-09-10T05:35:57.109599+00:00"
+    },
+    {
+      "fingerprint": "trend:cac40:indecise->baissiere:2026-09-10",
+      "title": "CAC 40 : tendance baissière",
+      "body": "CAC 40 passe de « sans direction nette » à « baissière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-10.",
+      "kind": "tendance",
+      "detected_at": "2026-09-10T05:35:57.109612+00:00"
+    },
+    {
+      "fingerprint": "trend:dax:haussiere->indecise:2026-09-10",
+      "title": "DAX : tendance sans direction nette",
+      "body": "DAX passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-10.",
+      "kind": "tendance",
+      "detected_at": "2026-09-10T05:35:57.109616+00:00"
+    },
+    {
+      "fingerprint": "trend:hangseng:indecise->baissiere:2026-09-10",
+      "title": "Hang Seng : tendance baissière",
+      "body": "Hang Seng passe de « sans direction nette » à « baissière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-10.",
+      "kind": "tendance",
+      "detected_at": "2026-09-10T05:35:57.109622+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -53,7 +82,11 @@
     "trend:eurostoxx:haussiere->indecise:2026-09-08",
     "trend:eurostoxx:haussiere->indecise:2026-09-09",
     "trend:cac40:indecise->baissiere:2026-09-09",
-    "trend:dax:haussiere->indecise:2026-09-09"
+    "trend:dax:haussiere->indecise:2026-09-09",
+    "trend:eurostoxx:haussiere->indecise:2026-09-10",
+    "trend:cac40:indecise->baissiere:2026-09-10",
+    "trend:dax:haussiere->indecise:2026-09-10",
+    "trend:hangseng:indecise->baissiere:2026-09-10"
   ],
   "extremes_active": []
 }

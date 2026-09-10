@@ -1,12 +1,44 @@
 {
   "2026-09-10": {
-    "articles_count": 11,
-    "signal_count": 3,
+    "articles_count": 34,
+    "signal_count": 8,
     "tone_cb": null,
-    "tone_global": 0.5,
+    "tone_global": 0.125,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "14472659891758068ffea1ea",
+        "title": "Speech by Board Member MASU in Fukui (Economic Activity, Prices, and Monetary Policy in Japan)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko260910a.htm"
+      },
+      {
+        "id": "77366c8626d61c7ecb5ca623",
+        "title": "Huawei denies stealing secrets, violating Iran sanctions as US trial begins",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/huawei-denies-stealing-secrets-violating-iran-sanctions-as-us-trial-begins"
+      },
+      {
+        "id": "e2f88e5dfcf8742cb4a532a1",
+        "title": "Portugal debt upgrade seals PIIGS passage from pariahs to pin-ups",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/economy-news/portugal-debt-upgrade-seals-piigs-passage-from-pariahs-to-pinups-4894949"
+      },
+      {
+        "id": "daa2374b7b6df7a8857cc219",
+        "title": "Trump promises $5,000 checks if Republicans win the midterms. He also teased tariff and ‘DOGE’ dividends last year that never came.",
+        "source": "marketwatch",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.marketwatch.com/story/trump-promises-5-000-checks-if-republicans-win-the-midterms-but-he-also-promised-tariff-dividends-last-year-that-never-came-d062c602?mod=mw_rss_topstories"
+      },
       {
         "id": "a31208f4e26107a6104ddc60",
         "title": "C.H. Robinson at Jefferies conference: lean ai, legal risk, growth",
@@ -14,38 +46,6 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.investing.com/news/transcripts/ch-robinson-at-jefferies-conference-lean-ai-legal-risk-growth-93CH-4894819"
-      },
-      {
-        "id": "21a410f31138e45de27112b6",
-        "title": "Charter at Goldman Sachs conference: growth push after Cox deal",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/transcripts/charter-at-goldman-sachs-conference-growth-push-after-cox-deal-93CH-4894818"
-      },
-      {
-        "id": "f787e1be986fe3ef3dd599ad",
-        "title": "Chime at Goldman Sachs Communacopia + Technology Conference 2026: growth quickens",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/transcripts/chime-at-goldman-sachs-communacopia--technology-conference-2026-growth-quickens-93CH-4894815"
-      },
-      {
-        "id": "0cda711b5be69e19f229d517",
-        "title": "US business confidence in China rebounds from record low: report",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/us-business-confidence-in-china-rebounds-from-record-low-report"
-      },
-      {
-        "id": "ea61e4a667fd0ba4fc696846",
-        "title": "Saturn Metals at resources rising stars: Apollo Hill builds scale",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/transcripts/saturn-metals-at-resources-rising-stars-apollo-hill-builds-scale-93CH-4894820"
       }
     ]
   },
@@ -100,12 +100,12 @@
     ]
   },
   "2026-09-08": {
-    "articles_count": 331,
-    "signal_count": 38,
+    "articles_count": 352,
+    "signal_count": 40,
     "tone_cb": null,
-    "tone_global": 0.0122,
+    "tone_global": -0.0004,
     "regul_crypto": null,
-    "stress": 0.0097,
+    "stress": 0.0091,
     "top": [
       {
         "id": "44317a5f59196bd75a8c0da0",
