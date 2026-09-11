@@ -1,5 +1,563 @@
 [
   {
+    "id": "8c067fdb6e916acc045d8983",
+    "source": "sec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "reglementation",
+    "assets": [
+      "sp500",
+      "btc",
+      "eth"
+    ],
+    "title": "Municipal Securities Underwriters Pay a Total of $325,000 in Fines",
+    "url": "https://www.sec.gov/newsroom/press-releases/97-114-municipal-securities-underwriters-pay-total-325000-fines",
+    "summary": "The Securitiesand Exchange Commission announced today that NASD RegulationInc. censured and fined 21 securities firms for violationsof Rule G-36 of the Municipal Securities Rulemaking Board.At the same time, the Comptroller of the Currency sanctioneda…",
+    "published_at": "2026-12-16T12:00:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "sp500",
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.9,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f8532c8dc7ddeb6550f317d9",
+    "source": "sec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "reglementation",
+    "assets": [
+      "sp500",
+      "btc",
+      "eth"
+    ],
+    "title": "SEC CHAIRMAN ARTHUR LEVITT, IOWA OFFICIALS TO HOLD INVESTORS’ TOWN MEETING IN DES MOINES",
+    "url": "https://www.sec.gov/newsroom/press-releases/97-99-sec-chairman-arthur-levitt-iowa-officials-hold-investors-town-meeting-des-moines",
+    "summary": "On Friday, November 21, U.S.Securities and Exchange Commission Chairman Arthur Levitt, U.S.Representative Greg Ganske, and Craig Goettsch, Iowa’sSuperintendent of Securities, will hold an Investors’ TownMeeting at the Embassy Suites Hotel in…",
+    "published_at": "2026-11-05T12:00:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "sp500",
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1487c23cbf5799676ac6b0ca",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Yasuchika Hasegawa, ex-Takeda CEO and globalization champion, dies at 80",
+    "url": "https://asia.nikkei.com/life-arts/obituaries/yasuchika-hasegawa-ex-takeda-ceo-and-globalization-champion-dies-at-80",
+    "summary": "",
+    "published_at": "2026-09-11T03:00:23.149656+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "601ac0cfb4a509578d96de6c",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Japan's hotel industry checks out of big projects as costs soar",
+    "url": "https://asia.nikkei.com/business/travel-leisure/japan-s-hotel-industry-checks-out-of-big-projects-as-costs-soar2",
+    "summary": "",
+    "published_at": "2026-09-11T03:00:23.149656+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1523245a13ef38907e26c691",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Chinese Nvidia challenger Enflame jumps 188% in Shanghai market debut",
+    "url": "https://asia.nikkei.com/business/markets/ipo/chinese-nvidia-challenger-enflame-jumps-188-in-shanghai-market-debut",
+    "summary": "",
+    "published_at": "2026-09-11T03:00:23.149656+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1e838300183facfaf2f73992",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "China automaker BYD scraps plans for Malaysian assembly plant",
+    "url": "https://asia.nikkei.com/business/automobiles/china-automaker-byd-scraps-plans-for-malaysian-assembly-plant",
+    "summary": "",
+    "published_at": "2026-09-11T03:00:23.149656+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8fe1dd5ee2ed1b387a9d3a75",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Ukraine set for 5G bids but legal gap invites China risks, critics say",
+    "url": "https://asia.nikkei.com/politics/ukraine-war/ukraine-set-for-5g-bids-but-legal-gap-invites-china-risks-critics-say",
+    "summary": "",
+    "published_at": "2026-09-11T03:00:23.149656+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "71372967889027acd5c50010",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dollar holds gains, yen slips as Mideast energy shock deepens",
+    "url": "https://www.investing.com/news/economy-news/dollar-holds-gains-yen-slips-as-mideast-energy-shock-deepens-4897147",
+    "summary": "",
+    "published_at": "2026-09-11T01:12:28+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "eb6e7c7118c1d47cb4256c0d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SK Hynix coils mid-range after bearish engulfing: Live levels",
+    "url": "https://www.investing.com/news/stock-market-news/sk-hynix-tests-krw-1750000-resistance-live-levels-93CH-4890335",
+    "summary": "",
+    "published_at": "2026-09-11T01:06:18+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6bc478c752cfcb2b5866a8a7",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nikkei 225 tests 62,880 support in bearish standoff: Live levels",
+    "url": "https://www.investing.com/news/stock-market-news/nikkei-225-hits-200-sma-resistance-live-levels-93CH-4890337",
+    "summary": "",
+    "published_at": "2026-09-11T01:06:16+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0a5b5d89e40693db26d9733d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Neurocrine Biosciences CCO Eric Benevich sells $333k in stock",
+    "url": "https://www.investing.com/news/insider-trading-news/neurocrine-biosciences-cco-eric-benevich-sells-333k-in-stock-93CH-4897145",
+    "summary": "",
+    "published_at": "2026-09-11T01:05:04+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "464c0b26b07bb4922744c3c8",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oil prices rise, Brent tests $110 a barrel as M.East supply risks grow",
+    "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-brent-tests-110-a-barrel-as-meast-supply-risks-grow-4897144",
+    "summary": "",
+    "published_at": "2026-09-11T01:01:03+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ae516ae91356cd8454483312",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "CoreWeave CEO Michael Intrator sells over $30.7m in stock",
+    "url": "https://www.investing.com/news/insider-trading-news/coreweave-ceo-michael-intrator-sells-over-307m-in-stock-93CH-4897143",
+    "summary": "",
+    "published_at": "2026-09-11T01:01:02+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fbe32b4b6e402c7c7b37df7f",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "CoreWeave GC McVeety sells $9.1M in stock",
+    "url": "https://www.investing.com/news/insider-trading-news/coreweave-gc-mcveety-sells-91m-in-stock-93CH-4897142",
+    "summary": "",
+    "published_at": "2026-09-11T01:01:01+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ef96dd056c13620e76e800ee",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Symbotic director Todd Krasnow sells $87,139 in stock",
+    "url": "https://www.investing.com/news/insider-trading-news/symbotic-director-todd-krasnow-sells-87139-in-stock-93CH-4897141",
+    "summary": "",
+    "published_at": "2026-09-11T01:00:57+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0789a77a36cef6c27da5df0e",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Arcutis Biotherapeutics EVP Masaru Matsuda sells $249,985 stock",
+    "url": "https://www.investing.com/news/insider-trading-news/arcutis-biotherapeutics-evp-masaru-matsuda-sells-249985-stock-93CH-4897140",
+    "summary": "",
+    "published_at": "2026-09-11T01:00:56+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "aec139c0d91c37b439e56797",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Global bonds fall as surging oil prices inflame inflation risks",
+    "url": "https://www.investing.com/news/economy-news/global-bonds-fall-as-surging-oil-prices-inflame-inflation-risks-4897139",
+    "summary": "",
+    "published_at": "2026-09-11T01:00:29+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "55152b0637aee94b6a62bdfc",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Central Bank Digital Currency Experiments: Progress Report on the Pilot Program (June 2026)",
+    "url": "https://www.boj.or.jp/en/paym/digital/dig260911a.pdf",
+    "summary": "",
+    "published_at": "2026-09-11T01:00:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3753e13ac9507f1a25e4e61d",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Sixth General Meeting of the CBDC Forum",
+    "url": "https://www.boj.or.jp/en/paym/digital/d_forum/dfo260911a.pdf",
+    "summary": "",
+    "published_at": "2026-09-11T01:00:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d5104ffb07f2ef89e694d067",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Corporate Goods Price Index (Aug.)",
+    "url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2608.pdf",
+    "summary": "",
+    "published_at": "2026-09-10T23:50:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "7c41e80e7bf135501f5c2df4",
     "source": "marketwatch",
     "tier": 3,
@@ -2662,6 +3220,34 @@
     "importance": 0.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "059b9e7100427f56f2cc7dd8",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Monument Bank delays retail tokenized deposits while onboarding custody partner",
+    "url": "https://www.coindesk.com/business/2026/09/10/monument-bank-delays-retail-tokenized-deposits-cites-regulatory-issues-in-the-uk",
+    "summary": "",
+    "published_at": "2026-09-10T15:53:24+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
     "is_stress": false,
     "tone": 0.0,
     "scored_by": "lexique"
@@ -6198,6 +6784,35 @@
     "scored_by": "lexique"
   },
   {
+    "id": "452129ddee65447a608b0292",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Basic Figures on Fails (Aug.)",
+    "url": "https://www.boj.or.jp/en/statistics/set/bffail/sjgb2608.pdf",
+    "summary": "",
+    "published_at": "2026-09-10T07:30:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "f53d4b6b5a8f384edd7aa9b0",
     "source": "marketwatch",
     "tier": 3,
@@ -6946,6 +7561,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "457ecf84cea230137c5d204d",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Speech by Board Member MASU in Fukui (Economic Activity, Prices, and Monetary Policy in Japan)",
+    "url": "https://www.boj.or.jp/en/about/press/koen_2026/ko260910a.htm",
+    "summary": "",
+    "published_at": "2026-09-10T01:30:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "0cda711b5be69e19f229d517",
     "source": "nikkei_asia",
     "tier": 3,
@@ -7259,6 +7904,36 @@
     "summary": "",
     "published_at": "2026-09-09T23:50:00+00:00",
     "collected_at": "2026-09-10T00:50:25.991852+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e27c8b845b8c49bbb3f121d2",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Regular Derivatives Market Statistics in Japan",
+    "url": "https://www.boj.or.jp/en/statistics/bis/yoshi/index.htm",
+    "summary": "",
+    "published_at": "2026-09-09T23:50:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
     "categories": {},
     "assets_detected": [
       "asie"
@@ -10425,6 +11100,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "92f99475c1ab3980f44ca7ef",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "ExxonMobil, ANPG Notch 20th Discovery in Angola's Block 15",
+    "url": "https://finance.yahoo.com/energy/articles/exxonmobil-anpg-notch-20th-discovery-153000621.html",
+    "summary": "",
+    "published_at": "2026-09-09T15:30:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a5b146dcd28cfa30dace2d46",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why Broadcom Providing 2028 Guidance Is a Big Deal for AVGO Stock Bulls",
+    "url": "https://finance.yahoo.com/technology/ai/articles/why-broadcom-providing-2028-guidance-152952096.html",
+    "summary": "",
+    "published_at": "2026-09-09T15:29:52+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "95e060d40f43b15e3101033c",
     "source": "coindesk",
     "tier": 3,
@@ -10439,6 +11166,32 @@
     "summary": "",
     "published_at": "2026-09-09T15:24:01+00:00",
     "collected_at": "2026-09-09T17:33:03.432203+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4443ade224ee9d94a50f9569",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jersey Mike’s Profit Falls a Third in First Public Quarter, But It’s Not All Bad",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jersey-mike-profit-falls-third-152150828.html",
+    "summary": "",
+    "published_at": "2026-09-09T15:21:50+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -10477,6 +11230,58 @@
     "scored_by": "lexique"
   },
   {
+    "id": "3d6ede60e58a7c8ed8ef1707",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Live Cattle Prices Are Moving Up and Just Hit a 2-Week High",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/live-cattle-prices-moving-just-152026043.html",
+    "summary": "",
+    "published_at": "2026-09-09T15:20:26+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "eaf6581915b634258267b184",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Stocks and Bonds Fall as Crude Oil Surges",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-bonds-fall-crude-oil-151630911.html",
+    "summary": "",
+    "published_at": "2026-09-09T15:16:30+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "0de45e4b28ac875305000526",
     "source": "marketwatch",
     "tier": 3,
@@ -10491,6 +11296,112 @@
     "summary": "Oil prices rose above $100 a barrel on Wednesday for the first time in seven weeks, reviving concerns about global energy supply disruptions and a fresh inflationary shock just as major central banks prepare to make key interest-rate decisions later this month.",
     "published_at": "2026-09-09T15:14:00+00:00",
     "collected_at": "2026-09-09T17:33:03.432203+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "79000cba6dd03e2ebbe72886",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Greg Abel Says Berkshire Is Bullish on Hyperscaler Stocks as It Doubles Down on Google",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/greg-abel-says-berkshire-bullish-151308100.html",
+    "summary": "",
+    "published_at": "2026-09-09T15:13:08+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1ee1d4e9fcb74462dd137b6b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Victrex Finds Its High-Performance Groove Again",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/victrex-finds-high-performance-groove-151203545.html",
+    "summary": "",
+    "published_at": "2026-09-09T15:12:03+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d96d79e754e64c8556093634",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Top 5 Stocks Poised to Profit From the CHIPS Quantum Incentive Wave",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/top-5-stocks-poised-profit-150513070.html",
+    "summary": "",
+    "published_at": "2026-09-09T15:05:13+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d872e46fac9240a3598f92d0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "American Workers Are Staying Put",
+    "url": "https://www.wsj.com/lifestyle/careers/american-workers-are-staying-put-1c84a1d0?siteid=yhoof2&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-09-09T15:05:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -10561,6 +11472,204 @@
     "scored_by": "lexique"
   },
   {
+    "id": "9f68e1765ca5058cea7e0cb0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "4 AI Stocks Are Joining the S&P 500: Buy, Hold, or Pass?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/4-ai-stocks-joining-p-150300778.html",
+    "summary": "",
+    "published_at": "2026-09-09T15:03:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8abdbbe5b52b668aedd31ec7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Casey's shares slide despite earnings beat as inside sales growth disappoints",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/caseys-shares-slide-despite-earnings-150200709.html",
+    "summary": "",
+    "published_at": "2026-09-09T15:02:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e81101764eb648d827fe4d6e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Pho extends UK delivery partnership with Deliveroo",
+    "url": "https://finance.yahoo.com/media-advertising/articles/pho-extends-uk-delivery-partnership-150149747.html",
+    "summary": "",
+    "published_at": "2026-09-09T15:01:49+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "694ae9918934fa8bc9c210cc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "UBS expects Bank of England to hold rates but strike more hawkish tone",
+    "url": "https://finance.yahoo.com/economy/policy/articles/ubs-expects-bank-england-hold-150100550.html",
+    "summary": "",
+    "published_at": "2026-09-09T15:01:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "60b0af9ca262e20a76980961",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Gold Doubled. Gold-Miner Profits Tripled — Guess Which One Wall Street Is Sleeping On",
+    "url": "https://finance.yahoo.com/markets/commodities/articles/gold-doubled-gold-miner-profits-150052375.html",
+    "summary": "",
+    "published_at": "2026-09-09T15:00:52+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "88511d245e0402891b3add0f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oracle Stock: Wall Street Sees Massive Upside. Here’s My Price Target",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-stock-wall-street-sees-150052759.html",
+    "summary": "",
+    "published_at": "2026-09-09T15:00:52+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a90dc53cca532d3486fb6970",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Adult film studio says a Meta exec torrented nearly 20K files on his home internet — wants it folded into a $446M case",
+    "url": "https://finance.yahoo.com/media-advertising/articles/adult-film-studio-says-meta-150000902.html",
+    "summary": "",
+    "published_at": "2026-09-09T15:00:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "f6ddfbd7e7055939766d15c8",
     "source": "coindesk",
     "tier": 3,
@@ -10584,6 +11693,32 @@
       "btc",
       "eth"
     ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "19182e298d2ebc8deeb5c629",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SanDisk at $1,740: The Price of Momentum.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-1-740-price-momentum-145638575.html",
+    "summary": "",
+    "published_at": "2026-09-09T14:56:38+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
     "tone_lexical": 0.0,
@@ -14756,6 +15891,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "4c19b7c1e8fee6c972adf4bd",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Warning against Scams Using the Bank of Japan's Name",
+    "url": "https://www.boj.or.jp/en/about/organization/notice/index.htm",
+    "summary": "",
+    "published_at": "2026-09-09T01:00:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "44317a5f59196bd75a8c0da0",
     "source": "boj_news",
     "tier": 1,
@@ -14770,6 +15935,35 @@
     "summary": "",
     "published_at": "2026-09-08T23:50:00+00:00",
     "collected_at": "2026-09-09T03:04:40.108554+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a788f9df87f2cb00ae4a996c",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Money Stock (Aug.)",
+    "url": "https://www.boj.or.jp/en/statistics/money/ms/ms2608.pdf",
+    "summary": "",
+    "published_at": "2026-09-08T23:50:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -25009,6 +26203,35 @@
     "scored_by": "lexique"
   },
   {
+    "id": "234766a5abc65cf431de92c1",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Principal Figures of Financial Institutions (Aug.)",
+    "url": "https://www.boj.or.jp/en/statistics/dl/depo/kashi/kasi2608.pdf",
+    "summary": "",
+    "published_at": "2026-09-07T23:50:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "bca139d7384f65e2c4e2f716",
     "source": "yahoo_finance",
     "tier": 3,
@@ -30246,6 +31469,37 @@
     "scored_by": "lexique"
   },
   {
+    "id": "e1dd3b5dca853dd5758e63de",
+    "source": "sec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "reglementation",
+    "assets": [
+      "sp500",
+      "btc",
+      "eth"
+    ],
+    "title": "President’s Year 2000 Council, SEC, NYSE, NASD, ICI, SIA Outline Securities Industry Efforts For Smooth Transition Into Year 2000",
+    "url": "https://www.sec.gov/newsroom/press-releases/99-110-presidents-year-2000-council-sec-nyse-nasd-ici-sia-outline-securities-industry-efforts-smooth",
+    "summary": "The President’s Council onYear 2000 Conversion, the Securities and Exchange Commission(SEC), the National Association of Securities Dealers(NASD), the New York Stock Exchange (NYSE), the InvestmentCompany Institute (ICI), and the Securities…",
+    "published_at": "2026-09-07T12:00:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "sp500",
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "d6fdc97c9f265c136ad8259b",
     "source": "marketwatch",
     "tier": 3,
@@ -32928,6 +34182,35 @@
     "scored_by": "lexique"
   },
   {
+    "id": "9d1d9a43a1188bb71e721208",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Amounts Outstanding in the Call Money Market (Aug.)",
+    "url": "https://www.boj.or.jp/en/statistics/market/short/call/call.xlsx",
+    "summary": "",
+    "published_at": "2026-09-07T06:00:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "26fa86fc94b18645da2d90cd",
     "source": "coindesk",
     "tier": 3,
@@ -33754,6 +35037,96 @@
     "summary": "",
     "published_at": "2026-09-06T23:50:00+00:00",
     "collected_at": "2026-09-07T02:53:28.536569+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "742086ee8ab2c0264034ac43",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Monetary Base and the Bank of Japan's Transactions (Aug.)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/mbt/mbt2608.pdf",
+    "summary": "",
+    "published_at": "2026-09-06T23:50:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "233c78f19be5d2fe17fb9bc9",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Bank of Japan's Transactions with the Government (Aug.)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/other/tseifu/release/2026/seifu2608.pdf",
+    "summary": "",
+    "published_at": "2026-09-06T23:50:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "72ba8c681b832466c445160d",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Market Operations by the Bank of Japan (Aug.)",
+    "url": "https://www.boj.or.jp/en/statistics/boj/fm/ope/m_release/2026/ope2608.xlsx",
+    "summary": "",
+    "published_at": "2026-09-06T23:50:00+00:00",
+    "collected_at": "2026-09-11T03:00:23.149656+00:00",
     "categories": {},
     "assets_detected": [
       "asie"

@@ -1,6 +1,21 @@
 {
-  "updated_at": "2026-09-10T21:24:19.473223+00:00",
-  "pending": [],
+  "updated_at": "2026-09-11T03:00:51.522440+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:hangseng:indecise->baissiere:2026-09-11",
+      "title": "Hang Seng : tendance baissière",
+      "body": "Hang Seng passe de « sans direction nette » à « baissière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-11.",
+      "kind": "tendance",
+      "detected_at": "2026-09-11T03:00:51.522356+00:00"
+    },
+    {
+      "fingerprint": "trend:shanghai:indecise->baissiere:2026-09-11",
+      "title": "Shanghai : tendance baissière",
+      "body": "Shanghai passe de « sans direction nette » à « baissière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-11.",
+      "kind": "tendance",
+      "detected_at": "2026-09-11T03:00:51.522370+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -59,7 +74,9 @@
     "trend:dax:haussiere->indecise:2026-09-10",
     "trend:hangseng:indecise->baissiere:2026-09-10",
     "trend:sp500:haussiere->indecise:2026-09-10",
-    "trend:msci_world:haussiere->indecise:2026-09-10"
+    "trend:msci_world:haussiere->indecise:2026-09-10",
+    "trend:hangseng:indecise->baissiere:2026-09-11",
+    "trend:shanghai:indecise->baissiere:2026-09-11"
   ],
   "extremes_active": []
 }

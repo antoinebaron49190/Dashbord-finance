@@ -1,11 +1,97 @@
 {
-  "2026-09-10": {
-    "articles_count": 263,
-    "signal_count": 42,
+  "2026-12-16": {
+    "articles_count": 1,
+    "signal_count": 0,
     "tone_cb": null,
-    "tone_global": 0.0618,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "8c067fdb6e916acc045d8983",
+        "title": "Municipal Securities Underwriters Pay a Total of $325,000 in Fines",
+        "source": "sec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/97-114-municipal-securities-underwriters-pay-total-325000-fines"
+      }
+    ]
+  },
+  "2026-11-05": {
+    "articles_count": 1,
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "f8532c8dc7ddeb6550f317d9",
+        "title": "SEC CHAIRMAN ARTHUR LEVITT, IOWA OFFICIALS TO HOLD INVESTORS’ TOWN MEETING IN DES MOINES",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/97-99-sec-chairman-arthur-levitt-iowa-officials-hold-investors-town-meeting-des-moines"
+      }
+    ]
+  },
+  "2026-09-11": {
+    "articles_count": 17,
+    "signal_count": 2,
+    "tone_cb": null,
+    "tone_global": 0.0,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "55152b0637aee94b6a62bdfc",
+        "title": "Central Bank Digital Currency Experiments: Progress Report on the Pilot Program (June 2026)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/paym/digital/dig260911a.pdf"
+      },
+      {
+        "id": "3753e13ac9507f1a25e4e61d",
+        "title": "Sixth General Meeting of the CBDC Forum",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/paym/digital/d_forum/dfo260911a.pdf"
+      },
+      {
+        "id": "1487c23cbf5799676ac6b0ca",
+        "title": "Yasuchika Hasegawa, ex-Takeda CEO and globalization champion, dies at 80",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/life-arts/obituaries/yasuchika-hasegawa-ex-takeda-ceo-and-globalization-champion-dies-at-80"
+      },
+      {
+        "id": "601ac0cfb4a509578d96de6c",
+        "title": "Japan's hotel industry checks out of big projects as costs soar",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/travel-leisure/japan-s-hotel-industry-checks-out-of-big-projects-as-costs-soar2"
+      },
+      {
+        "id": "1523245a13ef38907e26c691",
+        "title": "Chinese Nvidia challenger Enflame jumps 188% in Shanghai market debut",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/markets/ipo/chinese-nvidia-challenger-enflame-jumps-188-in-shanghai-market-debut"
+      }
+    ]
+  },
+  "2026-09-10": {
+    "articles_count": 267,
+    "signal_count": 43,
+    "tone_cb": null,
+    "tone_global": 0.0605,
     "regul_crypto": -0.2,
-    "stress": 0.0031,
+    "stress": 0.003,
     "top": [
       {
         "id": "f069c02dff87ed771f089fc2",
@@ -32,28 +118,28 @@
         "url": "https://www.bankofengland.co.uk/news/2026/september/statement-announcing-governors-interview"
       },
       {
+        "id": "d5104ffb07f2ef89e694d067",
+        "title": "Corporate Goods Price Index (Aug.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2608.pdf"
+      },
+      {
         "id": "9a51b7cba5c4732d3d351bba",
         "title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
         "source": "fed_press_all",
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm"
-      },
-      {
-        "id": "2d7f6da7f8740e0a8b7117ae",
-        "title": "ECB staff macroeconomic projections for the euro area, September 2026",
-        "source": "bce_pub",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/projections/html/ecb.projections202609_ecbstaff~8e340fc69d.en.html"
       }
     ]
   },
   "2026-09-09": {
-    "articles_count": 274,
-    "signal_count": 41,
+    "articles_count": 293,
+    "signal_count": 44,
     "tone_cb": null,
-    "tone_global": 0.1795,
+    "tone_global": 0.1678,
     "regul_crypto": 0.36,
     "stress": 0.0,
     "top": [
@@ -64,6 +150,14 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/statistics/bis/yoshi/index.htm"
+      },
+      {
+        "id": "e27c8b845b8c49bbb3f121d2",
+        "title": "Regular Derivatives Market Statistics in Japan",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/bis/yoshi/index.htm"
       },
       {
         "id": "9e79b3cdf38677cdd48e4720",
@@ -82,30 +176,22 @@
         "url": "http://www.boj.or.jp/en/about/organization/notice/index.htm"
       },
       {
-        "id": "78a4421ff43083bebb900f4f",
-        "title": "ESMA consults on disclosure requirements and updates guidelines and Q&As under the Prospectus Regulation",
-        "source": "esma_news",
-        "score": 0.9,
-        "tone": 0.6,
-        "url": "https://www.esma.europa.eu/press-news/esma-news/esma-consults-disclosure-requirements-and-updates-guidelines-and-qas-under"
-      },
-      {
-        "id": "d020e6939880a8279805fc90",
-        "title": "A new strategic vision for the outermost regions, strengthening the EU's global reach",
-        "source": "ec_press",
-        "score": 0.9,
+        "id": "4c19b7c1e8fee6c972adf4bd",
+        "title": "Warning against Scams Using the Bank of Japan's Name",
+        "source": "boj_news",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1827"
+        "url": "https://www.boj.or.jp/en/about/organization/notice/index.htm"
       }
     ]
   },
   "2026-09-08": {
-    "articles_count": 375,
+    "articles_count": 376,
     "signal_count": 41,
     "tone_cb": null,
     "tone_global": -0.0122,
     "regul_crypto": null,
-    "stress": 0.0086,
+    "stress": 0.0085,
     "top": [
       {
         "id": "44317a5f59196bd75a8c0da0",
@@ -114,6 +200,14 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/statistics/money/ms/ms2608.pdf"
+      },
+      {
+        "id": "a788f9df87f2cb00ae4a996c",
+        "title": "Money Stock (Aug.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/money/ms/ms2608.pdf"
       },
       {
         "id": "ff53f74c51a07ed3e69fc062",
@@ -138,24 +232,16 @@
         "score": 0.9,
         "tone": 0.0,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1799"
-      },
-      {
-        "id": "c03d5f433c303587993caf67",
-        "title": "Press remarks by Executive Vice-President Ribera and Commissioner Jørgensen on the Affordable Housing Act",
-        "source": "ec_press",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1820"
       }
     ]
   },
   "2026-09-07": {
-    "articles_count": 317,
+    "articles_count": 320,
     "signal_count": 28,
     "tone_cb": null,
     "tone_global": 0.0184,
     "regul_crypto": 0.0,
-    "stress": 0.003,
+    "stress": 0.0029,
     "top": [
       {
         "id": "7f97fc5838835d35b052e6b6",
@@ -166,6 +252,14 @@
         "url": "http://www.boj.or.jp/en/statistics/dl/depo/kashi/kasi2608.pdf"
       },
       {
+        "id": "234766a5abc65cf431de92c1",
+        "title": "Principal Figures of Financial Institutions (Aug.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/dl/depo/kashi/kasi2608.pdf"
+      },
+      {
         "id": "241781b98f38018adf911240",
         "title": "Amounts Outstanding in the Call Money Market (Aug.)",
         "source": "boj_news",
@@ -174,38 +268,30 @@
         "url": "http://www.boj.or.jp/en/statistics/market/short/call/call.xlsx"
       },
       {
+        "id": "9d1d9a43a1188bb71e721208",
+        "title": "Amounts Outstanding in the Call Money Market (Aug.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.boj.or.jp/en/statistics/market/short/call/call.xlsx"
+      },
+      {
         "id": "681433e2367867ffc0f84853",
         "title": "Commission approves €400 million German State aid to enhance insulin supply resilience",
         "source": "ec_press",
         "score": 0.9,
         "tone": 0.0,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1798"
-      },
-      {
-        "id": "d126514d1c2bcfa0145a6ffe",
-        "title": "Commission approves €400 million German State aid to enhance insulin supply resilience*",
-        "source": "ec_press",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1798"
-      },
-      {
-        "id": "6a9d21fcc9a4bf310916ecc4",
-        "title": "Joint Declaration by the European Union, on the one hand, and the Government of Greenland and the Government of Denmark, on the other, on relations between the European Union and Greenland",
-        "source": "ec_press",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1804"
       }
     ]
   },
   "2026-09-06": {
-    "articles_count": 257,
+    "articles_count": 260,
     "signal_count": 28,
     "tone_cb": null,
     "tone_global": 0.156,
     "regul_crypto": null,
-    "stress": 0.0111,
+    "stress": 0.0106,
     "top": [
       {
         "id": "aeaa5fb67b64ca7392547488",
@@ -232,20 +318,20 @@
         "url": "http://www.boj.or.jp/en/statistics/boj/fm/ope/m_release/2026/ope2608.xlsx"
       },
       {
-        "id": "4271a585a46a6367f5380bdc",
-        "title": "EU and Greenland strengthen partnership and engagement, backed by €200 million in EU investment",
-        "source": "ec_press",
-        "score": 0.9,
+        "id": "742086ee8ab2c0264034ac43",
+        "title": "Monetary Base and the Bank of Japan's Transactions (Aug.)",
+        "source": "boj_news",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1800"
+        "url": "https://www.boj.or.jp/en/statistics/boj/other/mbt/mbt2608.pdf"
       },
       {
-        "id": "9e270381e3cdd2d0c2ade4a5",
-        "title": "XRP Trades at $1.41 With a $1.43 Wall Overhead. Can It Break $1.50 Before the Fed Decides on September 16?",
-        "source": "yahoo_finance",
-        "score": 0.45,
+        "id": "233c78f19be5d2fe17fb9bc9",
+        "title": "Bank of Japan's Transactions with the Government (Aug.)",
+        "source": "boj_news",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://finance.yahoo.com/markets/crypto/articles/xrp-trades-1-41-1-215632544.html"
+        "url": "https://www.boj.or.jp/en/statistics/boj/other/tseifu/release/2026/seifu2608.pdf"
       }
     ]
   },
