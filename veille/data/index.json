@@ -36,13 +36,21 @@
     ]
   },
   "2026-09-12": {
-    "articles_count": 133,
-    "signal_count": 16,
+    "articles_count": 153,
+    "signal_count": 17,
     "tone_cb": null,
-    "tone_global": -0.0147,
+    "tone_global": 0.0139,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "71ebe5860282f2de365ca210",
+        "title": "Christine Lagarde: Interview with Ouest-France",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260912~3cc706f4d6.en.html"
+      },
       {
         "id": "d5cf8a95cd83009089d23eca",
         "title": "Christine Lagarde: Europe seen from Normandy",
@@ -74,14 +82,6 @@
         "score": 0.45,
         "tone": 0.0,
         "url": "https://www.investing.com/news/commodities-news/brics-agrees-on-joint-declaration-before-new-delhi-summit-sources-say-4898638"
-      },
-      {
-        "id": "302973f3893f7acbb9fa43e2",
-        "title": "BRICS summit begins in India; Iran-UAE dynamic key to joint statement",
-        "source": "nikkei_asia",
-        "score": 0.45,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/politics/international-relations/brics-summit-begins-in-india-iran-uae-dynamic-key-to-joint-statement"
       }
     ]
   },

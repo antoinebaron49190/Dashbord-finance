@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T18:56:58.121378+00:00",
+  "generated_at": "2026-09-12T21:16:13.124275+00:00",
   "regime": {
     "state": "favorable au risque",
     "favorable": 10,
@@ -12,21 +12,21 @@
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": true,
-      "value": "77 142 $",
+      "value": "77 152 $",
       "reference": "MM200 70 093 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": true,
-      "value": "77 142 $",
+      "value": "77 152 $",
       "reference": "MM50 70 905 $"
     },
     {
       "group": "Crypto",
       "label": "ETH au-dessus de sa MM200",
       "ok": true,
-      "value": "2 522 $",
+      "value": "2 525 $",
       "reference": "MM200 2 056 $"
     },
     {
@@ -88,21 +88,21 @@
   ],
   "crypto": {
     "btc": {
-      "price": 77141.6,
-      "ma50": 70904.91,
-      "ma200": 70092.59799999998,
-      "drawdown_1y": 0.3817122384614459,
-      "volatility_30d": 0.4760294628289895,
+      "price": 77152.2,
+      "ma50": 70905.122,
+      "ma200": 70092.65099999998,
+      "drawdown_1y": 0.38162727975858907,
+      "volatility_30d": 0.47600272939861604,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "eth": {
-      "price": 2521.96,
-      "ma50": 2173.8706,
-      "ma200": 2055.8141499999997,
-      "drawdown_1y": 0.46214938920357607,
-      "volatility_30d": 0.7085702212823758,
+      "price": 2525.17,
+      "ma50": 2173.9348,
+      "ma200": 2055.8301999999994,
+      "drawdown_1y": 0.4614648024295366,
+      "volatility_30d": 0.7084182212698041,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
@@ -227,11 +227,11 @@
       "fear_greed": 63,
       "assets": {
         "btc": {
-          "close": 77141.6,
+          "close": 77152.2,
           "trend": "haussiere"
         },
         "eth": {
-          "close": 2521.96,
+          "close": 2525.17,
           "trend": "haussiere"
         },
         "sp500": {
