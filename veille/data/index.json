@@ -36,13 +36,21 @@
     ]
   },
   "2026-09-12": {
-    "articles_count": 10,
-    "signal_count": 1,
+    "articles_count": 21,
+    "signal_count": 2,
     "tone_cb": null,
     "tone_global": -0.5,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "41245a115e26eee3d4d63104",
+        "title": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/commodities-news/saudis-shut-down-oil-pipeline-as-houthis-tighten-grip-on-red-sea-shipping-4898593"
+      },
       {
         "id": "ada6917050a37384719309a2",
         "title": "US consumer prices accelerate in August, push Fed closer to rate hike",
@@ -52,36 +60,28 @@
         "url": "https://www.investing.com/news/economy-news/us-consumer-inflation-picks-up-in-august-4897901"
       },
       {
-        "id": "905e66f468a3b83f7a091100",
-        "title": "PVH CEO Stefan Larsson purchases $1 million in PVH stock",
-        "source": "investing_com",
+        "id": "127ba1a15c3d74992d54d297",
+        "title": "Bandai finds right recipe to turn toothbrushes into Gundam models",
+        "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/pvh-ceo-stefan-larsson-purchases-1-million-in-pvh-stock-93CH-4898583"
+        "url": "https://asia.nikkei.com/business/media-entertainment/bandai-finds-right-recipe-to-turn-toothbrushes-into-gundam-models"
       },
       {
-        "id": "a52eae519e3d645e8320184b",
-        "title": "Nvidia in talks to invest up to $10 billion in Anthropic IPO - Reuters",
+        "id": "fa436c62f8b874079058b96d",
+        "title": "AnaptysBio earnings missed by $0.34, revenue fell short of estimates",
         "source": "investing_com",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/company-news/nvidia-in-talks-to-invest-up-to-10-billion-in-anthropic-ipo--reuters-4898582"
+        "url": "https://www.investing.com/news/earnings/anaptysbio-earnings-missed-by-034-revenue-fell-short-of-estimates-4898623"
       },
       {
-        "id": "9fdfb555ee0222820a10bf0f",
-        "title": "BillionToOne SVP John ten Bosch sells $138,116 in shares",
+        "id": "9e5283285e1c461007f4340a",
+        "title": "UBS sees Chinese carmakers reach 37% globally by 2030",
         "source": "investing_com",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/billiontoone-svp-john-ten-bosch-sells-138116-in-shares-93CH-4898580"
-      },
-      {
-        "id": "d1f3b77e545aacc82ef939c4",
-        "title": "BillionToOne CTO David Tsao sells $1.97 million in stock",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/billiontoone-cto-david-tsao-sells-197-million-in-stock-93CH-4898581"
+        "url": "https://www.investing.com/news/economy-news/ubs-sees-chinese-carmakers-reach-37-globally-by-2030-4898622"
       }
     ]
   },
@@ -136,12 +136,12 @@
     ]
   },
   "2026-09-10": {
-    "articles_count": 364,
-    "signal_count": 55,
+    "articles_count": 388,
+    "signal_count": 60,
     "tone_cb": null,
-    "tone_global": 0.0311,
+    "tone_global": 0.0592,
     "regul_crypto": -0.2,
-    "stress": 0.0046,
+    "stress": 0.0043,
     "top": [
       {
         "id": "f069c02dff87ed771f089fc2",
