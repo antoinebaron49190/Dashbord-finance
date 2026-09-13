@@ -36,13 +36,21 @@
     ]
   },
   "2026-09-13": {
-    "articles_count": 104,
-    "signal_count": 11,
+    "articles_count": 132,
+    "signal_count": 15,
     "tone_cb": null,
-    "tone_global": -0.2348,
-    "regul_crypto": -0.75,
+    "tone_global": -0.0956,
+    "regul_crypto": -0.675,
     "stress": 0.0,
     "top": [
+      {
+        "id": "fc8e3d2646c3fbfb870f4342",
+        "title": "Ulta Beauty Sees Resilient Demand, Eyes Fragrance, Wellness Growth After Target Exit",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": 0.75,
+        "url": "https://finance.yahoo.com/markets/stocks/articles/ulta-beauty-sees-resilient-demand-210157617.html"
+      },
       {
         "id": "59e946caae8e3d4854c23d08",
         "title": "Mexican authorities raid hidden crypto mine, suspecting power theft and money laundering",
@@ -60,28 +68,20 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/3-most-resilient-high-yield-161652798.html"
       },
       {
-        "id": "7161583b59e42bdcc1e56461",
-        "title": "T-Mobile US CEO Maps 5G, Broadband and AI Growth Strategy at Goldman Sachs Conference",
+        "id": "07860514d4c41ad22ba892fe",
+        "title": "Symbiosis says it recovered 15 BTC after Bitcoin bridge exploit, offers attacker 20% bounty",
+        "source": "theblock",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568"
+      },
+      {
+        "id": "1d33209d0df20fe60a6cb0c1",
+        "title": "DocuSign's 2026 Outlook: Artificial Intelligence Drives Future Revenue Growth",
         "source": "yahoo_finance",
         "score": 0.3,
         "tone": 0.5,
-        "url": "https://finance.yahoo.com/technology/ai/articles/t-mobile-us-ceo-maps-190200025.html"
-      },
-      {
-        "id": "f7209282b4d1ac9f4eaeeff1",
-        "title": "Fed rate hikes won’t bring down gas prices. Why the bond market is pushing for them anyway.",
-        "source": "marketwatch",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.marketwatch.com/story/fed-rate-hikes-wont-bring-down-gas-prices-why-the-bond-market-is-pushing-for-them-anyway-98f2c7e3?mod=mw_rss_topstories"
-      },
-      {
-        "id": "f3d0b92fdc5d1e8bbcf84cce",
-        "title": "Trump says he is lifting tariffs on Irish whiskey",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/stock-market-news/trump-says-he-is-lifting-tariffs-on-irish-whiskey-4898747"
+        "url": "https://finance.yahoo.com/technology/ai/articles/docusigns-2026-outlook-artificial-intelligence-215816259.html"
       }
     ]
   },
