@@ -36,13 +36,21 @@
     ]
   },
   "2026-09-13": {
-    "articles_count": 57,
-    "signal_count": 6,
+    "articles_count": 104,
+    "signal_count": 11,
     "tone_cb": null,
-    "tone_global": -0.1389,
-    "regul_crypto": null,
+    "tone_global": -0.2348,
+    "regul_crypto": -0.75,
     "stress": 0.0,
     "top": [
+      {
+        "id": "59e946caae8e3d4854c23d08",
+        "title": "Mexican authorities raid hidden crypto mine, suspecting power theft and money laundering",
+        "source": "theblock",
+        "score": 0.3,
+        "tone": -0.75,
+        "url": "https://www.theblock.co/news/ecosystems/2026-09-13-mexican-authorities-raid-hidden-crypto-mine-suspecting-power-theft-and-money-laundering-414564"
+      },
       {
         "id": "bbccef24db952f35cbd0c924",
         "title": "3 of the Most Resilient High-Yield Dividend Stocks in the Chemical Sector: A Safety Deep Dive",
@@ -52,36 +60,28 @@
         "url": "https://finance.yahoo.com/markets/stocks/articles/3-most-resilient-high-yield-161652798.html"
       },
       {
-        "id": "390b803dfeadb32876a83c3a",
-        "title": "Trump Urges Federal Reserve To Cut Rates As Market Bets On Warsh Hike",
+        "id": "7161583b59e42bdcc1e56461",
+        "title": "T-Mobile US CEO Maps 5G, Broadband and AI Growth Strategy at Goldman Sachs Conference",
         "source": "yahoo_finance",
         "score": 0.3,
         "tone": 0.5,
-        "url": "https://www.investors.com/news/trump-urges-federal-reserve-to-cut-rates-market-bets-warsh-hike/?src=A00220&yptr=yahoo"
+        "url": "https://finance.yahoo.com/technology/ai/articles/t-mobile-us-ceo-maps-190200025.html"
       },
       {
-        "id": "b5f48e8f5ff6535eb4810a65",
-        "title": "Fed rate hike is about Wall Street, not inflation, says economist",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.coindesk.com/markets/2026/09/13/fed-rate-hike-is-about-wall-street-not-inflation-says-economist"
-      },
-      {
-        "id": "6238d35f7300fd4d1b5f33a6",
-        "title": "The price of almost everything on your dinner table is climbing at once — and Wall Street is taking notice",
+        "id": "f7209282b4d1ac9f4eaeeff1",
+        "title": "Fed rate hikes won’t bring down gas prices. Why the bond market is pushing for them anyway.",
         "source": "marketwatch",
         "score": 0.3,
         "tone": -0.5,
-        "url": "https://www.marketwatch.com/story/the-price-of-almost-everything-on-your-dinner-table-is-climbing-at-once-and-wall-street-is-taking-notice-9623d1fc?mod=mw_rss_topstories"
+        "url": "https://www.marketwatch.com/story/fed-rate-hikes-wont-bring-down-gas-prices-why-the-bond-market-is-pushing-for-them-anyway-98f2c7e3?mod=mw_rss_topstories"
       },
       {
-        "id": "3c53a3e5c47704437bad6b6c",
-        "title": "U.S. equity ETFs see outflows of $4.5 billion as traders price in Fed rate hike",
+        "id": "f3d0b92fdc5d1e8bbcf84cce",
+        "title": "Trump says he is lifting tariffs on Irish whiskey",
         "source": "investing_com",
         "score": 0.3,
         "tone": -0.5,
-        "url": "https://www.investing.com/news/stock-market-news/us-equity-etfs-see-outflows-of-45-billion-as-traders-price-in-fed-rate-hike-4898731"
+        "url": "https://www.investing.com/news/stock-market-news/trump-says-he-is-lifting-tariffs-on-irish-whiskey-4898747"
       }
     ]
   },
