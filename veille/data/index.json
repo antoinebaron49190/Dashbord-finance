@@ -36,36 +36,60 @@
     ]
   },
   "2026-09-13": {
-    "articles_count": 2,
-    "signal_count": 0,
+    "articles_count": 15,
+    "signal_count": 1,
     "tone_cb": null,
-    "tone_global": null,
+    "tone_global": -0.5,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
-        "id": "1bb837c632f864dc0ed11af2",
-        "title": "China's 'red tourism' boom draws families to Communist Party landmarks",
-        "source": "nikkei_asia",
+        "id": "f5ad7e7beef56613b56d7554",
+        "title": "New Strait of Hormuz ship attack raises oil supply fears as Iran war widens",
+        "source": "investing_com",
         "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/travel-leisure/china-s-red-tourism-boom-draws-families-to-communist-party-landmarks"
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/new-strait-of-hormuz-ship-attack-raises-oil-supply-fears-as-iran-war-widens-4898703"
       },
       {
-        "id": "cbeb7c7542273c659c003b3a",
-        "title": "Liechtenstein, friendly to Japan's imperial family, gives women path to rule",
+        "id": "9d3ef302d289a02bdb5bd939",
+        "title": "Asian air-con makers prepare for hotter Germany after bumper summer",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/editor-s-picks/interview/liechtenstein-friendly-to-japan-s-imperial-family-gives-women-path-to-rule"
+        "url": "https://asia.nikkei.com/spotlight/environment/climate-change/asian-air-con-makers-prepare-for-hotter-germany-after-bumper-summer"
+      },
+      {
+        "id": "3f94fd4201a3bcdf03de59bf",
+        "title": "BOJ meeting, Semicon India, Hong Kong's first five-year plan",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/spotlight/your-week-in-asia/boj-meeting-semicon-india-hong-kong-s-first-five-year-plan"
+      },
+      {
+        "id": "272701987c8b4bb85d01189f",
+        "title": "Japan lags behind major countries in creating safe bike lanes",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/spotlight/datawatch/japan-lags-behind-major-countries-in-creating-safe-bike-lanes"
+      },
+      {
+        "id": "607235a336698379adf248df",
+        "title": "Bitcoin slips to $77,200 as rate pressure clashes with diversification case",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-to-77200-as-rate-pressure-clashes-with-diversification-case-4898694"
       }
     ]
   },
   "2026-09-12": {
-    "articles_count": 183,
-    "signal_count": 21,
+    "articles_count": 217,
+    "signal_count": 24,
     "tone_cb": null,
-    "tone_global": 0.1068,
+    "tone_global": 0.114,
     "regul_crypto": 0.6,
     "stress": 0.0,
     "top": [
@@ -112,12 +136,12 @@
     ]
   },
   "2026-09-11": {
-    "articles_count": 254,
+    "articles_count": 263,
     "signal_count": 31,
     "tone_cb": null,
     "tone_global": -0.2332,
     "regul_crypto": -0.6796,
-    "stress": 0.007,
+    "stress": 0.0068,
     "top": [
       {
         "id": "e092768b867ba85be9cd0c3c",
@@ -3770,11 +3794,11 @@
     ]
   },
   "2026-06-15": {
-    "articles_count": 9,
-    "signal_count": 2,
+    "articles_count": 2,
+    "signal_count": 0,
     "tone_cb": null,
-    "tone_global": -0.7825,
-    "regul_crypto": -0.7221,
+    "tone_global": null,
+    "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
@@ -3792,30 +3816,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.bankofengland.co.uk/minutes/2025/december/banknote-advisory-minutes-15-december"
-      },
-      {
-        "id": "239b9617dd0fe64abacaa2e4",
-        "title": "Banknote imagery expert panel minutes – 10 March 2026",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/minutes/2026/march/banknote-expert-minutes-10-march"
-      },
-      {
-        "id": "5f331dc80fe903c7257bad83",
-        "title": "Banknote imagery expert panel minutes – 15 April 2026",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-advisory-minutes-15-april"
-      },
-      {
-        "id": "b96510ea9cf66ab29c6c160c",
-        "title": "Banknote imagery expert panel minutes – 24 April 2026",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/minutes/2026/april/banknote-expert-minutes-24-april"
       }
     ]
   },
