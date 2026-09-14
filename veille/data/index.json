@@ -36,12 +36,12 @@
     ]
   },
   "2026-09-14": {
-    "articles_count": 91,
-    "signal_count": 7,
-    "tone_cb": 0.6667,
-    "tone_global": -0.0256,
+    "articles_count": 183,
+    "signal_count": 13,
+    "tone_cb": 0.5834,
+    "tone_global": 0.168,
     "regul_crypto": -0.6,
-    "stress": 0.0087,
+    "stress": 0.0038,
     "top": [
       {
         "id": "349a620f5ce2339156bfda39",
@@ -50,6 +50,22 @@
         "score": 1.3,
         "tone": 0.6667,
         "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3279~c0a22d29e1.en.pdf"
+      },
+      {
+        "id": "c533f0d1597e96ee71cdc982",
+        "title": "Christine Lagarde: A new age of capital: growth, sovereignty and AI",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.5,
+        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_2~a3f0efbee4.en.html"
+      },
+      {
+        "id": "a3418c18053ca1644b45b4c2",
+        "title": "Piero Cipollone: The future of euro cash: trusted today, designed for tomorrow",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260914_1~91d3436449.en.html"
       },
       {
         "id": "23cffeab456557cd12105870",
@@ -66,32 +82,16 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3280~503ba7d4b0.en.pdf"
-      },
-      {
-        "id": "a71feeace751787a30339304",
-        "title": "Japanese Government Bonds Held by the Bank of Japan",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260910.xlsx"
-      },
-      {
-        "id": "8a9a4d67d2edf665c31b48b3",
-        "title": "IMES Discussion Paper Series (2026)",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/research/imes/dps/dps26.htm"
       }
     ]
   },
   "2026-09-13": {
-    "articles_count": 144,
+    "articles_count": 146,
     "signal_count": 18,
     "tone_cb": null,
     "tone_global": -0.1617,
     "regul_crypto": -0.675,
-    "stress": 0.0205,
+    "stress": 0.02,
     "top": [
       {
         "id": "10a4570a008e34d9b45e9d27",
@@ -100,6 +100,14 @@
         "score": 0.9,
         "tone": -0.6,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1835"
+      },
+      {
+        "id": "992df2a12a4bbeac114760a4",
+        "title": "Joint statement by Executive Vice-President Virkkunen, High Representative Kallas and Commissioner McGrath ahead of International Day of Democracy",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1861"
       },
       {
         "id": "fc8e3d2646c3fbfb870f4342",
@@ -124,14 +132,6 @@
         "score": 0.3,
         "tone": 0.6667,
         "url": "https://finance.yahoo.com/markets/stocks/articles/3-most-resilient-high-yield-161652798.html"
-      },
-      {
-        "id": "07860514d4c41ad22ba892fe",
-        "title": "Symbiosis says it recovered 15 BTC after Bitcoin bridge exploit, offers attacker 20% bounty",
-        "source": "theblock",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568"
       }
     ]
   },
