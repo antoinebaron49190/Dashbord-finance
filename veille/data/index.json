@@ -35,11 +35,29 @@
       }
     ]
   },
-  "2026-09-13": {
-    "articles_count": 132,
-    "signal_count": 15,
+  "2026-09-14": {
+    "articles_count": 1,
+    "signal_count": 1,
     "tone_cb": null,
-    "tone_global": -0.0956,
+    "tone_global": -0.6,
+    "regul_crypto": null,
+    "stress": 1.0,
+    "top": [
+      {
+        "id": "40fc78229cb68d224b3fc7ff",
+        "title": "Kennedy Center on brink of bankruptcy, could close as early as Tuesday, Washington Post reports",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.investing.com/news/stock-market-news/kennedy-center-on-brink-of-bankruptcy-could-close-as-early-as-tuesday-washington-post-reports-4898776"
+      }
+    ]
+  },
+  "2026-09-13": {
+    "articles_count": 141,
+    "signal_count": 16,
+    "tone_cb": null,
+    "tone_global": -0.1208,
     "regul_crypto": -0.675,
     "stress": 0.0,
     "top": [
@@ -76,22 +94,22 @@
         "url": "https://www.theblock.co/news/defi/2026-09-13-symbiosis-says-it-recovered-15-btc-after-bitcoin-bridge-exploit-offers-attacker-20-bounty-414568"
       },
       {
-        "id": "1d33209d0df20fe60a6cb0c1",
-        "title": "DocuSign's 2026 Outlook: Artificial Intelligence Drives Future Revenue Growth",
-        "source": "yahoo_finance",
+        "id": "31b0fd9c3e5534101e789132",
+        "title": "Shares slip in Asia as oil climbs, rate hikes loom",
+        "source": "investing_com",
         "score": 0.3,
-        "tone": 0.5,
-        "url": "https://finance.yahoo.com/technology/ai/articles/docusigns-2026-outlook-artificial-intelligence-215816259.html"
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/stock-market-news/shares-slip-in-asia-as-oil-climbs-rate-hikes-loom-4898763"
       }
     ]
   },
   "2026-09-12": {
-    "articles_count": 265,
-    "signal_count": 30,
+    "articles_count": 274,
+    "signal_count": 32,
     "tone_cb": null,
-    "tone_global": 0.121,
+    "tone_global": 0.149,
     "regul_crypto": 0.6,
-    "stress": 0.0036,
+    "stress": 0.0035,
     "top": [
       {
         "id": "71ebe5860282f2de365ca210",

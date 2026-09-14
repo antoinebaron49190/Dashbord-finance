@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-09-12T10:06:12.453780+00:00",
-  "pending": [],
+  "updated_at": "2026-09-14T00:43:27.068964+00:00",
+  "pending": [
+    {
+      "fingerprint": "agenda:2026-09-16:Federal Reserve",
+      "title": "Réunion du FOMC (Fed) — décision de taux — dans 2 jours",
+      "body": "Réunion du FOMC (Fed) — décision de taux, mercredi 16 septembre. Une date de réunion est un fait, pas une prévision : l'outil ne dit pas ce qui en sortira.",
+      "kind": "agenda",
+      "detected_at": "2026-09-14T00:43:27.068890+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -65,7 +73,8 @@
     "trend:sp500:indecise->haussiere:2026-09-11",
     "trend:msci_world:indecise->haussiere:2026-09-11",
     "trend:msci_world:haussiere->indecise:2026-09-12",
-    "trend:shanghai:indecise->baissiere:2026-09-12"
+    "trend:shanghai:indecise->baissiere:2026-09-12",
+    "agenda:2026-09-16:Federal Reserve"
   ],
   "extremes_active": []
 }
