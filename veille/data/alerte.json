@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-09-14T05:47:35.445685+00:00",
-  "pending": [],
+  "updated_at": "2026-09-15T00:17:16.014457+00:00",
+  "pending": [
+    {
+      "fingerprint": "agenda:2026-09-17:Bank of England",
+      "title": "Comité de politique monétaire (BoE) — décision de taux — dans 2 jours",
+      "body": "Comité de politique monétaire (BoE) — décision de taux, jeudi 17 septembre. Une date de réunion est un fait, pas une prévision : l'outil ne dit pas ce qui en sortira.",
+      "kind": "agenda",
+      "detected_at": "2026-09-15T00:17:16.014400+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -66,7 +74,8 @@
     "trend:msci_world:indecise->haussiere:2026-09-11",
     "trend:msci_world:haussiere->indecise:2026-09-12",
     "trend:shanghai:indecise->baissiere:2026-09-12",
-    "agenda:2026-09-16:Federal Reserve"
+    "agenda:2026-09-16:Federal Reserve",
+    "agenda:2026-09-17:Bank of England"
   ],
   "extremes_active": []
 }
