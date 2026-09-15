@@ -36,62 +36,62 @@
     ]
   },
   "2026-09-15": {
-    "articles_count": 7,
-    "signal_count": 0,
+    "articles_count": 30,
+    "signal_count": 4,
     "tone_cb": null,
-    "tone_global": null,
+    "tone_global": 0.375,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
-        "id": "8fd43375a44608ffc049f9f0",
-        "title": "Japanese DOGE's cost-cutting push finds meager $110m in savings",
+        "id": "1605cf6ad3bee99bbf0e26f7",
+        "title": "China growth outlook dims as real estate, retail pressure worsens",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/economy/china-growth-outlook-dims-as-real-estate-retail-pressure-worsens"
+      },
+      {
+        "id": "c990044a5cd300c4491996fa",
+        "title": "Vietnam's To Lam taps global diplomacy to fuel growth drive",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/politics/international-relations/vietnam-s-to-lam-taps-global-diplomacy-to-fuel-growth-drive"
+      },
+      {
+        "id": "ceab6c361d905287ff510004",
+        "title": "Softbank Group shares rebound as data center unit SB Energy pushes ahead with IPO",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/stock-market-news/softbank-group-shares-rebound-as-data-center-unit-sb-energy-pushes-ahead-with-ipo-4900775"
+      },
+      {
+        "id": "4518968303c279f63079bd50",
+        "title": "China applies sweeping new entry and exit rules tied to national security",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/politics/japanese-doge-s-cost-cutting-push-finds-meager-110m-in-savings"
+        "url": "https://asia.nikkei.com/spotlight/immigration/china-applies-sweeping-new-entry-and-exit-rules-tied-to-national-security"
       },
       {
-        "id": "f1d835cf905df9b3b19a4e7d",
-        "title": "Toyota sees Europe commercial vehicles as way out of hydrogen cost quagmire",
+        "id": "dce5bd1616bae98cebe74227",
+        "title": "Japan's Nagoya pins hopes on Asian Games boosting city's competitiveness",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/automobiles/toyota-sees-europe-commercial-vehicles-as-way-out-of-hydrogen-cost-quagmire"
-      },
-      {
-        "id": "3f3d8bca8e3809d373d72362",
-        "title": "Moody’s to acquire minority stake in Philippine rating agency",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/company-news/moodys-to-acquire-minority-stake-in-philippine-rating-agency-93CH-4900682"
-      },
-      {
-        "id": "5586ea64e5ba2f03a852a45e",
-        "title": "Pro Dex CEO Richard Van Kirk sells $45,412 in PDEX stock",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/pro-dex-ceo-richard-van-kirk-sells-45412-in-pdex-stock-93CH-4900679"
-      },
-      {
-        "id": "4dd02de521cdd0effbec778d",
-        "title": "Oportun financial SVP-controller Schueller sells $22,300 in shares",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/oportun-financial-svpcontroller-schueller-sells-22300-in-shares-93CH-4900678"
+        "url": "https://asia.nikkei.com/spotlight/sports/japan-s-nagoya-pins-hopes-on-asian-games-boosting-city-s-competitiveness"
       }
     ]
   },
   "2026-09-14": {
-    "articles_count": 228,
-    "signal_count": 19,
+    "articles_count": 230,
+    "signal_count": 20,
     "tone_cb": 0.5834,
-    "tone_global": 0.1486,
+    "tone_global": 0.1211,
     "regul_crypto": -0.6,
-    "stress": 0.0032,
+    "stress": 0.0064,
     "top": [
       {
         "id": "349a620f5ce2339156bfda39",
@@ -136,12 +136,12 @@
     ]
   },
   "2026-09-13": {
-    "articles_count": 192,
-    "signal_count": 24,
+    "articles_count": 206,
+    "signal_count": 27,
     "tone_cb": null,
-    "tone_global": -0.1018,
+    "tone_global": -0.0913,
     "regul_crypto": -0.675,
-    "stress": 0.0153,
+    "stress": 0.0143,
     "top": [
       {
         "id": "10a4570a008e34d9b45e9d27",
