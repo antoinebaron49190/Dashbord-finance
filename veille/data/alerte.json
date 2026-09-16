@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-09-16T07:13:50.501786+00:00",
-  "pending": [],
+  "updated_at": "2026-09-16T17:58:16.678153+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:nasdaq:indecise->haussiere:2026-09-16",
+      "title": "Nasdaq : tendance haussière",
+      "body": "Nasdaq passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-16.",
+      "kind": "tendance",
+      "detected_at": "2026-09-16T17:58:16.678067+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -72,7 +80,8 @@
     "trend:nasdaq:haussiere->indecise:2026-09-15",
     "trend:msci_world:haussiere->indecise:2026-09-15",
     "trend:msci_world:indecise->haussiere:2026-09-16",
-    "agenda:2026-09-18:Banque du Japon"
+    "agenda:2026-09-18:Banque du Japon",
+    "trend:nasdaq:indecise->haussiere:2026-09-16"
   ],
   "extremes_active": []
 }
