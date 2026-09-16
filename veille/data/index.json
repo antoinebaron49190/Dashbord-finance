@@ -36,62 +36,62 @@
     ]
   },
   "2026-09-16": {
-    "articles_count": 37,
-    "signal_count": 3,
-    "tone_cb": null,
-    "tone_global": 0.1667,
-    "regul_crypto": null,
-    "stress": 0.0,
+    "articles_count": 130,
+    "signal_count": 26,
+    "tone_cb": 0.1667,
+    "tone_global": 0.093,
+    "regul_crypto": 0.6398,
+    "stress": 0.0054,
     "top": [
       {
-        "id": "5d62bc68640b6291b6434a90",
-        "title": "Gold rebounds toward $4,350 ahead of Fed decision as hike bets stay elevated",
-        "source": "investing_com",
-        "score": 0.45,
+        "id": "dbc91cb59f030cb81ae8535a",
+        "title": "Monetary Policy Decision",
+        "source": "bis_cb_speeches",
+        "score": 1.95,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/commodities-news/gold-slips-ahead-of-fed-decision-as-oil-yields-keep-ratehike-bets-elevated-4902839"
+        "url": "https://www.bis.org/speeches/20260916-monetary-policy-decision"
       },
       {
-        "id": "1ff2a587db66ded582f90322",
-        "title": "Brazil’s top court postpones ruling on probe of justice in politically charged case",
-        "source": "investing_com",
-        "score": 0.45,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/economy-news/brazils-top-court-to-decide-on-unprecedented-probe-of-sitting-justice-4901333"
-      },
-      {
-        "id": "1b639c38b51aa69ae525fb64",
-        "title": "Quadrise receives update on Valkor oil recovery project in Utah",
-        "source": "investing_com",
-        "score": 0.3,
+        "id": "c726612590b45addb3077023",
+        "title": "ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth",
+        "source": "bce_press",
+        "score": 1.3,
         "tone": 0.5,
-        "url": "https://www.investing.com/news/company-news/quadrise-receives-update-on-valkor-oil-recovery-project-in-utah-93CH-4902943"
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html"
       },
       {
-        "id": "530ce872c8813715900ba592",
-        "title": "Hong Kong unveils first-ever five-year plan to align goals with Beijing",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/politics/hong-kong-unveils-first-ever-five-year-plan-to-align-goals-with-beijing"
+        "id": "beb418beda745af22a6fe9c4",
+        "title": "Bank resilience and sustainable growth - two sides of the same coin",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.5,
+        "url": "https://www.bis.org/speeches/20260916-bank-resilience-and-sustainable-growth-two-sides-same-coin"
       },
       {
-        "id": "a3a2bce2c765eb22550486fb",
-        "title": "Can India's data center boom create enough jobs?",
-        "source": "nikkei_asia",
-        "score": 0.3,
+        "id": "d77aef3f2994e82235aeebb8",
+        "title": "Challenges in building foreign reserves amidst geopolitical uncertainties",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": -0.5,
+        "url": "https://www.bis.org/speeches/20260915-challenges-building-foreign-reserves-amidst-geopolitical-uncertainties"
+      },
+      {
+        "id": "2778b555de0828386da30798",
+        "title": "When firms do not take the money and run: evidence from corporate loan moratoria",
+        "source": "bce_pub",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/technology/can-india-s-data-center-boom-create-enough-jobs"
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3282~b3fc21f7c5.en.pdf"
       }
     ]
   },
   "2026-09-15": {
-    "articles_count": 252,
+    "articles_count": 255,
     "signal_count": 32,
     "tone_cb": 0.6667,
     "tone_global": 0.168,
     "regul_crypto": 0.0,
-    "stress": 0.0064,
+    "stress": 0.0063,
     "top": [
       {
         "id": "eb913fa6017e0f5b9085cf5f",
@@ -136,12 +136,12 @@
     ]
   },
   "2026-09-14": {
-    "articles_count": 343,
+    "articles_count": 346,
     "signal_count": 26,
     "tone_cb": 0.5834,
     "tone_global": 0.1193,
     "regul_crypto": -0.6,
-    "stress": 0.0047,
+    "stress": 0.0046,
     "top": [
       {
         "id": "349a620f5ce2339156bfda39",
@@ -3826,7 +3826,7 @@
     ]
   },
   "2026-06-18": {
-    "articles_count": 7,
+    "articles_count": 4,
     "signal_count": 1,
     "tone_cb": 0.0,
     "tone_global": 0.0,
@@ -3842,36 +3842,28 @@
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm"
       },
       {
-        "id": "80cf1677c4bf86318139c9e3",
-        "title": "Minutes of the Meeting of the Court of Directors held on 23 April 2026",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/minutes/2026/june/court-minutes-23-april-2026"
-      },
-      {
-        "id": "5306f891b3eb6d435fbe9072",
-        "title": "Transcript of the Governor's pooled broadcast interview given on 18 June 2026",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/news/2026/june/the-governor-interview-transcript-18-june-2026"
-      },
-      {
-        "id": "bbca603d83d667b385f6d332",
-        "title": "Bank Rate maintained at 3.75% - June 2026 Monetary Policy Summary and Minutes",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/june-2026"
-      },
-      {
         "id": "e54d796215df5d7c24dff50f",
         "title": "SEC, CFTC Seek Public Comment to Further Clarify and Harmonize Derivatives Product Definitions",
         "source": "sec_press",
         "score": 0.6,
         "tone": 0.0,
         "url": "https://www.sec.gov/newsroom/press-releases/2026-57-sec-cftc-seek-public-comment-further-clarify-harmonize-derivatives-product-definitions"
+      },
+      {
+        "id": "7020646394e7b8db73a4bc84",
+        "title": "SEC, CFTC Seek Public Input on Data Reporting Frameworks for Security-Based Swap and Swap Markets",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-56-sec-cftc-seek-public-input-data-reporting-frameworks-security-based-swap-swap-markets"
+      },
+      {
+        "id": "0ecbd7b5cf8833b46890917d",
+        "title": "FSB holds a roundtable on audit quality and structural shifts in the global audit industry",
+        "source": "fsb_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.fsb.org/2026/06/fsb-holds-a-roundtable-on-audit-quality-and-structural-shifts-in-the-global-audit-industry/"
       }
     ]
   },
