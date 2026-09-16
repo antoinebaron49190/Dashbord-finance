@@ -1,6 +1,21 @@
 {
-  "updated_at": "2026-09-15T20:00:02.587686+00:00",
-  "pending": [],
+  "updated_at": "2026-09-16T01:05:42.544331+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:msci_world:indecise->haussiere:2026-09-16",
+      "title": "MSCI World : tendance haussière",
+      "body": "MSCI World passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-16.",
+      "kind": "tendance",
+      "detected_at": "2026-09-16T01:05:42.544228+00:00"
+    },
+    {
+      "fingerprint": "agenda:2026-09-18:Banque du Japon",
+      "title": "Réunion de politique monétaire (BoJ) — décision de taux — dans 2 jours",
+      "body": "Réunion de politique monétaire (BoJ) — décision de taux, vendredi 18 septembre. Une date de réunion est un fait, pas une prévision : l'outil ne dit pas ce qui en sortira.",
+      "kind": "agenda",
+      "detected_at": "2026-09-16T01:05:42.544263+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -70,7 +85,9 @@
     "agenda:2026-09-17:Bank of England",
     "trend:sp500:haussiere->indecise:2026-09-15",
     "trend:nasdaq:haussiere->indecise:2026-09-15",
-    "trend:msci_world:haussiere->indecise:2026-09-15"
+    "trend:msci_world:haussiere->indecise:2026-09-15",
+    "trend:msci_world:indecise->haussiere:2026-09-16",
+    "agenda:2026-09-18:Banque du Japon"
   ],
   "extremes_active": []
 }
