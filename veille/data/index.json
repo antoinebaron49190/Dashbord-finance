@@ -36,28 +36,52 @@
     ]
   },
   "2026-09-17": {
-    "articles_count": 2,
-    "signal_count": 0,
+    "articles_count": 26,
+    "signal_count": 5,
     "tone_cb": null,
-    "tone_global": null,
+    "tone_global": -0.3,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
-        "id": "05823452ab130797e4641656",
-        "title": "Fujifilm breaks into top 3 digital camera makers, buoyed by female fans",
+        "id": "65f9b2f8d4346b76df5173b6",
+        "title": "Yen weakens to 156-level as Fed fulfills rate hike expectations",
         "source": "nikkei_asia",
         "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/electronics/fujifilm-breaks-into-top-3-digital-camera-makers-buoyed-by-female-fans"
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/business/markets/currencies/yen-weakens-to-156-level-as-fed-fulfills-rate-hike-expectations"
       },
       {
-        "id": "c5d0aea5382e989df3f22c4e",
-        "title": "1 in 4 listed Chinese companies post losses as AI, rest of economy diverge",
+        "id": "352ee2fc40e5d90b8385801a",
+        "title": "India pins hopes on data center ecosystems amid 'jobless' growth worries",
         "source": "nikkei_asia",
         "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/companies/1-in-4-listed-chinese-companies-post-losses-as-ai-rest-of-economy-diverge"
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/business/technology/india-pins-hopes-on-data-center-ecosystems-amid-jobless-growth-worries"
+      },
+      {
+        "id": "02c7ae3dfb7dfe8ace8c076d",
+        "title": "Analysis-Fed builds credibility, but hawkish turn leaves investors edgy",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/analysisfed-builds-credibility-but-hawkish-turn-leaves-investors-edgy-4904805"
+      },
+      {
+        "id": "46ab1086e69c6bae239b5d99",
+        "title": "BOJ rate hike on tap: Watch these Japanese stocks for bull and bear cases",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/stock-market-news/boj-rate-hike-on-tap-watch-these-japanese-stocks-for-bull-and-bear-cases-93CH-4904801"
+      },
+      {
+        "id": "59a8a5a24c9a390d5aef0e1a",
+        "title": "Goldman pivots, now forecasts Fed rate hike in October",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.coindesk.com/markets/2026/09/17/goldman-expects-another-fed-rate-hike-in-october"
       }
     ]
   },
@@ -112,12 +136,12 @@
     ]
   },
   "2026-09-15": {
-    "articles_count": 304,
-    "signal_count": 36,
+    "articles_count": 326,
+    "signal_count": 40,
     "tone_cb": 0.6667,
-    "tone_global": 0.1764,
+    "tone_global": 0.1716,
     "regul_crypto": 0.0,
-    "stress": 0.0054,
+    "stress": 0.0051,
     "top": [
       {
         "id": "eb913fa6017e0f5b9085cf5f",
