@@ -62,6 +62,943 @@
     "scored_by": "lexique"
   },
   {
+    "id": "3e6493d6fa467435c1d2130f",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Applied Materials to invest $5bn in India as country ups chip support",
+    "url": "https://asia.nikkei.com/business/tech/semiconductors/applied-materials-to-invest-5bn-in-india-as-country-ups-chip-support",
+    "summary": "",
+    "published_at": "2026-09-17T10:57:39.141262+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f69e6fa098a67296bbecd0ac",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Japan, US in talks to build chip factory as part of tariff deal",
+    "url": "https://asia.nikkei.com/economy/trade-war/trump-tariffs/japan-us-in-talks-to-build-chip-factory-as-part-of-tariff-deal2",
+    "summary": "",
+    "published_at": "2026-09-17T10:57:39.141262+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b5c62361139bd00dad510847",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Vietnam bus maker Kim Long enters Thailand, eyes ASEAN exports",
+    "url": "https://asia.nikkei.com/business/automobiles/vietnam-bus-maker-kim-long-enters-thailand-eyes-asean-exports",
+    "summary": "",
+    "published_at": "2026-09-17T10:57:39.141262+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a287b07af8829f6aa759e5d1",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "It’s not a winner-take-all stock market. This hedge-fund manager favors three underdogs.",
+    "url": "https://www.marketwatch.com/story/its-not-a-winner-take-all-stock-market-this-hedge-fund-manager-favors-three-underdogs-a366ab6f?mod=mw_rss_topstories",
+    "summary": "There’s a winner-take-all fallacy in certain industries, says a hedge-fund manager.",
+    "published_at": "2026-09-17T10:52:00+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d19ccb76d10d593002b9d2ac",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Live updates: Zcash jumps 17% as $345 million of liquidations hit crypto traders",
+    "url": "https://www.coindesk.com/tech/2026/09/17/live-updates-zcash-jumps-17-as-usd345-million-of-liquidations-hit-crypto-traders",
+    "summary": "",
+    "published_at": "2026-09-17T10:41:15+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f8229616249a2d793d90a23e",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Crypto rallies through the Fed's first rate increase since 2023",
+    "url": "https://www.coindesk.com/markets/2026/09/17/crypto-rallies-through-the-fed-s-first-rate-increase-since-2023",
+    "summary": "",
+    "published_at": "2026-09-17T10:40:01+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f81a1bdd044ece67b0b3ef13",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The Fed is hiking. Why isn’t UBS worried about stocks?",
+    "url": "https://www.investing.com/news/stock-market-news/the-fed-is-hiking-why-isnt-ubs-worried-about-stocks-4905218",
+    "summary": "",
+    "published_at": "2026-09-17T10:34:55+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "363de7a8dbdf7e342c845edd",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Hargreave Hale AIM VCT allots 885,927 shares at 32.64p each",
+    "url": "https://www.investing.com/news/company-news/hargreave-hale-aim-vct-allots-885927-shares-at-3264p-each-93CH-4905216",
+    "summary": "",
+    "published_at": "2026-09-17T10:32:32+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a9648a95501cb890986ab81d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Helvetia Baloise H1 2026 slides: integration ahead of plan, 18.7% RoaE",
+    "url": "https://www.investing.com/news/company-news/helvetia-baloise-h1-2026-slides-integration-ahead-of-plan-187-roae-93CH-4905215",
+    "summary": "",
+    "published_at": "2026-09-17T10:32:00+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "488a320214c32bb62b1e5254",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Huawei’s Xu says Chinese AI not powerful enough yet to see frontier risks",
+    "url": "https://www.investing.com/news/stock-market-news/huaweis-xu-says-chinese-ai-not-powerful-enough-yet-to-see-frontier-risks-4905193",
+    "summary": "",
+    "published_at": "2026-09-17T10:30:57+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "589cbd1d6be01b5fbcb711cd",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Momentum Group posts record H2 2026 earnings",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-momentum-group-posts-record-h2-2026-earnings-93CH-4905208",
+    "summary": "",
+    "published_at": "2026-09-17T10:30:54+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "eab0540bf6b00eab6f0eb53c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Beyond Investment Returns: Families Are Measuring Wealth by Freedom, Continuity, and Legacy, According to Nour Private Wealth",
+    "url": "https://www.investing.com/news/company-news/beyond-investment-returns-families-are-measuring-wealth-by-freedom-continuity-and-legacy-according-to-nour-private-wealth-4905207",
+    "summary": "",
+    "published_at": "2026-09-17T10:30:44+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "969b6c3b335f6cfa57028d6f",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "German court rules Meta liable for fake ads on Instagram, Facebook",
+    "url": "https://www.investing.com/news/stock-market-news/german-court-rules-meta-liable-for-fake-ads-on-instagram-facebook-4905194",
+    "summary": "",
+    "published_at": "2026-09-17T10:30:34+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7ba7cf858c7e6040ac405bfe",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "European stocks catch a post-Fed bid as traders weigh Middle East peace chatter",
+    "url": "https://www.investing.com/news/stock-market-news/european-stocks-catch-a-postfed-bid-as-traders-weigh-middle-east-peace-chatter-4904808",
+    "summary": "",
+    "published_at": "2026-09-17T10:30:15+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "51cf7130cd970fc377d15b95",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "India stocks mixed at close of trade; Nifty 50 up 0.23%",
+    "url": "https://www.investing.com/news/stock-market-news/india-stocks-mixed-at-close-of-trade-nifty-50-up-023-4905205",
+    "summary": "",
+    "published_at": "2026-09-17T10:30:06+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6466f39103593a43641f2ee1",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Lula and Bolsonaro remain tied in Brazil election poll",
+    "url": "https://www.investing.com/news/economy-news/lula-and-bolsonaro-remain-tied-in-brazil-election-poll-93CH-4905201",
+    "summary": "",
+    "published_at": "2026-09-17T10:28:48+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "55a8ddf3f3d7f3f534d3f483",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitwise CIO Hougan revises Clarity Act outlook, says crypto bull market may continue without legislation",
+    "url": "https://www.theblock.co/news/markets/2026-09-17-bitwise-cio-hougan-revises-clarity-act-outlook-says-crypto-bull-market-may-continue-without-legislation-415339",
+    "summary": "Bitcoin climbed above $80,000 in early September despite declining odds of the legislation passing this year, Hougan noted.",
+    "published_at": "2026-09-17T10:19:55+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f0fd7a3fed178d3913406f83",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Mortgage and refinance interest rates today, Thursday, September 17, 2026: Fixed rates tick upward",
+    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-thursday-september-17-2026-fixed-rates-tick-upward-100000901.html",
+    "summary": "",
+    "published_at": "2026-09-17T10:00:00+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "576f7ca8634ae71871463c1b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Best CD rates today, Thursday, September 17, 2026: Lock in up to 4.40% APY with a 2-year CD",
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-thursday-september-17-2026-lock-in-up-to-440-apy-with-a-2-year-cd-100000275.html",
+    "summary": "",
+    "published_at": "2026-09-17T10:00:00+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "13575c421bae116988fafb51",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why stocks can still advance after a Fed hike, according to a Wall Street strategist",
+    "url": "https://www.marketwatch.com/story/why-the-s-p-500-could-still-advance-after-a-fed-hike-according-to-a-wall-street-strategist-d357b4f2?mod=mw_rss_topstories",
+    "summary": "The investment bank found that stocks in the energy and information technology sectors on average perform the best one year after an interest-rate hike by the Federal Reserve.",
+    "published_at": "2026-09-17T09:54:00+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "aba98c10742ac0e4ad388b1f",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Commission proposes €489 million to help Portugal, Spain, Italy and Malta recover from severe storms",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1896",
+    "summary": "European Commission Press release Brussels, 17 Sep 2026 Today, the European Commission proposed to mobilise €489 million from the European Union Solidarity Fund (EUSF) to help Portugal, Spain, Italy and Malta recover from severe storms and flooding in January and February 2026.",
+    "published_at": "2026-09-17T09:27:17+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "871d08449d06c483ebeec8d6",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?",
+    "url": "https://www.marketwatch.com/story/im-burned-out-im-constantly-helping-my-cousin-who-is-running-out-of-money-is-it-too-much-to-expect-his-sister-to-help-540def9a?mod=mw_rss_topstories",
+    "summary": "“I spend a lot of time away from my family and spend money on gas, taking him out to eat.”",
+    "published_at": "2026-09-17T09:15:00+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7c28b3e05b3ca8b4daf78ef5",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Statement by Commissioner Kubilius at the signature ceremony of the Administrative Arrangement with the Republic of Korea on IRIS²",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1895",
+    "summary": "European Commission Speech Brussels, 17 Sep 2026 Dear Minister, Ladies and Gentlemen, Our security on Earth increasingly depends on our security in space. That is why we are building IRIS², a multi-orbit con...",
+    "published_at": "2026-09-17T09:05:01+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.9,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7342d8e9e469340468c323e0",
+    "source": "bce_pub",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Measuring sentiment news with transformer-based language models",
+    "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3283~df0633dfd3.en.pdf",
+    "summary": "Measuring sentiment from financial news is a central task in economics and finance, yet most existing indicators rely on dictionary-based approaches that infer sentiment from word counts and only partially capture context, negation, and semantic structure. This paper proposes a framework for constructing daily news mood indices using transformer-based language models and evaluates whether they better represent sentiment than dictionary-based alternatives. Using 143,755 financial news articles from Factiva, we classify sentiment at the sentence level with FinBERT and aggregate these prediction…",
+    "published_at": "2026-09-17T09:00:00+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3e6c632a1f362e0f504c7bed",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin faces 2022 parallels as Federal Reserve resumes rate increases",
+    "url": "https://www.coindesk.com/markets/2026/09/17/bitcoin-faces-2022-parallels-as-federal-reserve-resumes-rate-hikes",
+    "summary": "",
+    "published_at": "2026-09-17T08:41:48+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500",
+      "btc"
+    ],
+    "assets_effective": [
+      "sp500",
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d744dcab836efef5cedc6f61",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Daily News 17 / 09 / 2026",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1894",
+    "summary": "European Commission Daily news Brussels, 17 Sep 2026 Commission proposes €489 million to help Portugal, Spain, Italy and Malta recover from severe storms Today, the European Commission proposed to mobilise €489 mi...",
+    "published_at": "2026-09-17T08:22:32+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "44c07dcd5f3f20954fe31c26",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Ripple adds XRP payments to Stripe and Tempo’s AI standard in new developer kit",
+    "url": "https://www.coindesk.com/tech/2026/09/17/ripple-adds-xrp-payments-to-stripe-and-tempo-s-ai-standard-in-new-developer-kit",
+    "summary": "",
+    "published_at": "2026-09-17T07:54:33+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9e5cc35764a7763917d0fefe",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Remarks by Executive Vice-President Virkkunen on the EU KIDS Act",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1892",
+    "summary": "European Commission Speech Strasbourg, 17 Sep 2026 As the President said, we need to take control of our kids' future. Parents, teachers, national leaders, children, they have all been talking to me about the ha...",
+    "published_at": "2026-09-17T07:52:15+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "64faeb0cd1843a3a14160451",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Tom Lee says the ‘face-ripping’ rally he predicted is merely delayed",
+    "url": "https://www.marketwatch.com/story/tom-lee-says-the-face-ripping-rally-he-predicted-is-merely-delayed-16933e30?mod=mw_rss_topstories",
+    "summary": "Tom Lee, head of research at Fundstrat, put a characteristically positive spin on the Federal Reserve’s interest-rate decision.",
+    "published_at": "2026-09-17T07:50:00+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0b0ef680787b0bbb65d58893",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Statement by President von der Leyen with Executive Vice-President Virkkunen on the EU KIDS Act",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1893",
+    "summary": "European Commission Statement Strasbourg, 17 Sep 2026 Let me start with some striking figures. They are from this year's Eurobarometer in July. 92% of Europeans say we should strengthen the protection of children a...",
+    "published_at": "2026-09-17T07:49:52+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.9,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d188cc7eba02a5033f61683d",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "U.S. diesel prices hit record high as bitcoin and gold struggle",
+    "url": "https://www.coindesk.com/markets/2026/09/17/u-s-diesel-prices-hit-record-high-as-bitcoin-and-gold-struggle",
+    "summary": "",
+    "published_at": "2026-09-17T07:27:07+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6f0c2d52f56e401499103d53",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "‘You are freed.’ What happened when an OpenAI model began secretly writing notes to itself.",
+    "url": "https://www.marketwatch.com/story/you-are-freed-what-happened-when-an-openai-model-began-secretly-writing-notes-to-itself-25808ea8?mod=mw_rss_topstories",
+    "summary": "OpenAI has introduced a framework for reporting on worrying behaviors by its AI models. In one instance, one training model told its future self that it was “freed.”",
+    "published_at": "2026-09-17T07:08:00+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8364a72411a8e41b33ff5265",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "South Korean police charge 26 Polymarket users for illegal gambling: report",
+    "url": "https://www.theblock.co/news/regulation/2026-09-17-south-korean-police-charge-polymarket-users-415333",
+    "summary": "The country blocked local access to Polymarket last month after its media regulator ruled that the platform offers illegal gambling.",
+    "published_at": "2026-09-17T06:12:50+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "c0c05f298c5f2eb85940f387",
     "source": "nikkei_asia",
     "tier": 3,
@@ -1101,6 +2038,64 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d6365045cbb3ba1141223e81",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "EU KIDS Act to restrict social media platforms' access to children in the EU",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1890",
+    "summary": "European Commission Press release Strasbourg, 17 Sep 2026 Today, the European Commission has adopted the EU KIDS Act to enhance the online safety of children throughout the Union.",
+    "published_at": "2026-09-16T22:00:00+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.9,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b0c822750be0b0e63878539f",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Factsheet: EU KIDS Act",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_1891",
+    "summary": "European Commission Factsheet Strasbourg, 17 Sep 2026 Factsheet: EU KIDS Act Factsheet: EU KIDS Act",
+    "published_at": "2026-09-16T22:00:00+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
@@ -6526,6 +7521,138 @@
     "scored_by": "lexique"
   },
   {
+    "id": "5c41192d18fd009fe0059117",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Would You Let a Robot Make Your Investment Decisions?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/let-robot-investment-decisions-040100020.html",
+    "summary": "",
+    "published_at": "2026-09-16T04:01:00+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d7c7508fd332db423b8d8ef4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Intel-Backed Altera Joins IPO Tsunami",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/intel-backed-altera-joins-ipo-040100793.html",
+    "summary": "",
+    "published_at": "2026-09-16T04:01:00+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "50dfad5fe833523b3d997dcc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Energy Transfer’s (ET) Strong 2026 Run Gets a Fresh Vote from Stifel",
+    "url": "https://finance.yahoo.com/energy/articles/energy-transfer-et-strong-2026-040237602.html",
+    "summary": "",
+    "published_at": "2026-09-16T04:00:11+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b7998ad8c92d9fa5d3e77d7d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "ExxonMobil’s LNG Ambitions Just Got A Major Upgrade",
+    "url": "https://finance.yahoo.com/energy/articles/exxonmobil-lng-ambitions-just-got-034636221.html",
+    "summary": "",
+    "published_at": "2026-09-16T03:46:36+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cbdd4ebcc4b4a78200c9dd9a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Venture Global (VG) Secures 20 Years of New LNG Demand",
+    "url": "https://finance.yahoo.com/energy/articles/venture-global-vg-secures-20-034055578.html",
+    "summary": "",
+    "published_at": "2026-09-16T03:40:55+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "1e99f7ec030d9fd8a7474a44",
     "source": "coindesk",
     "tier": 3,
@@ -6553,6 +7680,112 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0863e045c7a4f854e178e501",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "BWXT’s Latest NNSA Win Signals Bigger Nuclear Opportunity",
+    "url": "https://finance.yahoo.com/energy/articles/bwxt-latest-nnsa-win-signals-033451358.html",
+    "summary": "",
+    "published_at": "2026-09-16T03:34:51+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bb8f769882f1f2930132d835",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Donnelley Financial (DFIN) Bets AI Translation Powers Its Next Deal Boom",
+    "url": "https://finance.yahoo.com/technology/ai/articles/donnelley-financial-dfin-bets-ai-030405240.html",
+    "summary": "",
+    "published_at": "2026-09-16T03:04:05+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "00d983668be02132f1979171",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "MannKind (MNKD) Bets On Inhaled Weight Loss Amid Widening Losses",
+    "url": "https://finance.yahoo.com/healthcare/articles/mannkind-mnkd-bets-inhaled-weight-025827282.html",
+    "summary": "",
+    "published_at": "2026-09-16T02:58:27+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5c4167cd1a6f39146bec887f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Artivion’s (AORT) Growth Story Hides A Widening Bottom-Line Problem",
+    "url": "https://finance.yahoo.com/healthcare/articles/artivion-aort-growth-story-hides-024959979.html",
+    "summary": "",
+    "published_at": "2026-09-16T02:49:59+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
     "scored_by": "lexique"
   },
   {
@@ -6585,6 +7818,116 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f089d8027c53a1e3602bbecd",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Jefferson Capital (JCAP) Grows Everywhere, But Costs Are Climbing Faster",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jefferson-capital-jcap-grows-everywhere-024604879.html",
+    "summary": "",
+    "published_at": "2026-09-16T02:46:04+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f3225adca4b7c3d561ee89e9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "BOJ set to raise interest rates to 31-year high as inflation risks loom",
+    "url": "https://finance.yahoo.com/news/boj-set-raise-interest-rates-024244752.html",
+    "summary": "",
+    "published_at": "2026-09-16T02:42:44+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "70105a9b1de47aaa14c3e7a8",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Exclusive-Malaysia talks to rival airlines as it monitors AirAsia's financial health, sources say",
+    "url": "https://finance.yahoo.com/economy/policy/articles/exclusive-malaysia-talks-rival-airlines-015835356.html",
+    "summary": "",
+    "published_at": "2026-09-16T01:58:35+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6a358dc344efdeab0e5eb0e1",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Caturus Plans Major Expansion of Louisiana LNG Export Project",
+    "url": "https://finance.yahoo.com/energy/articles/caturus-plans-major-expansion-louisiana-015747836.html",
+    "summary": "",
+    "published_at": "2026-09-16T01:57:47+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {
+      "croissance": 2.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6667,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.6667,
     "scored_by": "lexique"
   },
   {
@@ -7216,6 +8559,84 @@
     "scored_by": "lexique"
   },
   {
+    "id": "35156819d5c476502d8f4c93",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Saudi Pipeline Outage Hits an Oil Market Running Out of Buffers",
+    "url": "https://finance.yahoo.com/energy/articles/saudi-pipeline-outage-hits-oil-000000565.html",
+    "summary": "",
+    "published_at": "2026-09-16T00:00:00+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7b7c3fdad4d86a967c234123",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The AI gold rush has a dress code: steel-toe boots",
+    "url": "https://finance.yahoo.com/economy/articles/ai-gold-rush-dress-code-233725771.html",
+    "summary": "",
+    "published_at": "2026-09-15T23:37:25+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "69f6c715d4d0b94bb9f2b86a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "This High-Yield Construction Stock Just Raised Its Dividend by 40%",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/high-yield-construction-stock-just-233002433.html",
+    "summary": "",
+    "published_at": "2026-09-15T23:30:02+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "cb8b036b85e7084d8a3a83ad",
     "source": "cnbc_economy",
     "tier": 3,
@@ -7230,6 +8651,240 @@
     "summary": "BRICS leaders have asserted the need to use local currencies in intra-BRICS trade to cut dependency on dollar.",
     "published_at": "2026-09-15T23:28:01+00:00",
     "collected_at": "2026-09-16T01:05:15.583712+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c49219a3733ae803b98b4936",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Is AppLovin's Lead Over Its Peers Already In The Price?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/applovins-lead-over-peers-already-231547378.html",
+    "summary": "",
+    "published_at": "2026-09-15T23:15:47+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9573a4ac5c3ac6090ee4f40e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "VanEck Pharmaceutical ETF vs VanEck Biotech ETF: Which Fund Is Better for Drug Innovation Profits?",
+    "url": "https://finance.yahoo.com/healthcare/articles/vaneck-pharmaceutical-etf-vs-vaneck-230401900.html",
+    "summary": "",
+    "published_at": "2026-09-15T23:04:01+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ac1972382d513e2404a51a56",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Walmart Conference: E-Commerce, AI and Fast Delivery Fuel Market Share Push",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-conference-e-commerce-ai-230225951.html",
+    "summary": "",
+    "published_at": "2026-09-15T23:02:25+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5f6af1b9f8661ee116b338c7",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "NanoXplore Q4 Earnings Call Highlights",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nanoxplore-q4-earnings-call-highlights-230225011.html",
+    "summary": "",
+    "published_at": "2026-09-15T23:02:25+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7eeb509e47d1c6667490eaa0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The Grid’s Wasted-Power Problem Has a Sector-Coupling Fix",
+    "url": "https://finance.yahoo.com/energy/articles/grid-wasted-power-problem-sector-230208698.html",
+    "summary": "",
+    "published_at": "2026-09-15T23:02:08+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d409212b0ab517ee9754c0ab",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Reddit says my 4-hour commute is worth $100 an hour, but then I looked at the gas pump",
+    "url": "https://finance.yahoo.com/economy/articles/reddit-says-4-hour-commute-230107512.html",
+    "summary": "",
+    "published_at": "2026-09-15T23:01:07+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9af42f5267a741ce158e31b0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "I Inherited My Father’s $600K Florida Home — But My Brother Has Lived There Rent-Free for 5 Years and Says ‘Good Luck Kicking Me and My Kids Out’",
+    "url": "https://finance.yahoo.com/real-estate/articles/inherited-father-600k-florida-home-230014242.html",
+    "summary": "",
+    "published_at": "2026-09-15T23:00:14+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "07fbffe88ac111bfe41dbaa6",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Calls for Slower AI Development Have Created a Compelling Dip for AI Stocks",
+    "url": "https://finance.yahoo.com/technology/ai/articles/calls-slower-ai-development-created-225900364.html",
+    "summary": "",
+    "published_at": "2026-09-15T22:59:00+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6beae7a98ba1e892b9ef058d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Ondo takes tokenized assets to Australia in new market push",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/ondo-takes-tokenized-assets-australia-225321227.html",
+    "summary": "",
+    "published_at": "2026-09-15T22:53:21+00:00",
+    "collected_at": "2026-09-17T10:57:39.141262+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -500858,66 +502513,6 @@
     ],
     "has_decision_marker": false,
     "importance": 1.3,
-    "tone_lexical": 0.0,
-    "crypto_tone": 0.0,
-    "is_stress": false,
-    "tone": 0.0,
-    "scored_by": "lexique"
-  },
-  {
-    "id": "8e549c47962ec402ab4aaf88",
-    "source": "amf_news",
-    "tier": 2,
-    "weight": 0.6,
-    "category": "reglementation",
-    "assets": [
-      "europe",
-      "btc",
-      "eth"
-    ],
-    "title": "Le règlement européen EMIR",
-    "url": "https://www.amf-france.org/fr/actualites-publications/dossiers-thematiques/emir#xts=607212&xtor=RSS-3&type=RSS",
-    "summary": "Dossier EMIR Prestataires financiers Services d'investissement Marchés",
-    "published_at": "2026-06-19T07:05:40+00:00",
-    "collected_at": "2026-07-31T16:01:54.092103+00:00",
-    "categories": {},
-    "assets_detected": [],
-    "assets_effective": [
-      "europe",
-      "btc",
-      "eth"
-    ],
-    "has_decision_marker": false,
-    "importance": 0.6,
-    "tone_lexical": 0.0,
-    "crypto_tone": 0.0,
-    "is_stress": false,
-    "tone": 0.0,
-    "scored_by": "lexique"
-  },
-  {
-    "id": "974d4c824604ae25d11d7b21",
-    "source": "boe_news",
-    "tier": 1,
-    "weight": 1.0,
-    "category": "politique_monetaire",
-    "assets": [
-      "europe",
-      "msci_world"
-    ],
-    "title": "PRA sets out adjustments to its market risk internal model approach under Basel 3.1",
-    "url": "https://www.bankofengland.co.uk/news/2026/june/pra-adjustments-market-risk-internal-model-approach-under-basel31",
-    "summary": "The Prudential Regulation Authority (PRA) has today published a consultation on the internal model approach to market risk (IMA), which represents the final piece of Basel 3.1’s implementation in the UK.",
-    "published_at": "2026-06-19T06:00:00+00:00",
-    "collected_at": "2026-07-31T16:01:54.092103+00:00",
-    "categories": {},
-    "assets_detected": [],
-    "assets_effective": [
-      "europe",
-      "msci_world"
-    ],
-    "has_decision_marker": true,
-    "importance": 1.95,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,

@@ -36,62 +36,62 @@
     ]
   },
   "2026-09-17": {
-    "articles_count": 26,
-    "signal_count": 5,
+    "articles_count": 59,
+    "signal_count": 8,
     "tone_cb": null,
-    "tone_global": -0.3,
+    "tone_global": -0.25,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
-        "id": "65f9b2f8d4346b76df5173b6",
-        "title": "Yen weakens to 156-level as Fed fulfills rate hike expectations",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/business/markets/currencies/yen-weakens-to-156-level-as-fed-fulfills-rate-hike-expectations"
+        "id": "7342d8e9e469340468c323e0",
+        "title": "Measuring sentiment news with transformer-based language models",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3283~df0633dfd3.en.pdf"
       },
       {
-        "id": "352ee2fc40e5d90b8385801a",
-        "title": "India pins hopes on data center ecosystems amid 'jobless' growth worries",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/business/technology/india-pins-hopes-on-data-center-ecosystems-amid-jobless-growth-worries"
+        "id": "7c28b3e05b3ca8b4daf78ef5",
+        "title": "Statement by Commissioner Kubilius at the signature ceremony of the Administrative Arrangement with the Republic of Korea on IRIS²",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1895"
       },
       {
-        "id": "02c7ae3dfb7dfe8ace8c076d",
-        "title": "Analysis-Fed builds credibility, but hawkish turn leaves investors edgy",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/analysisfed-builds-credibility-but-hawkish-turn-leaves-investors-edgy-4904805"
+        "id": "0b0ef680787b0bbb65d58893",
+        "title": "Statement by President von der Leyen with Executive Vice-President Virkkunen on the EU KIDS Act",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1893"
       },
       {
-        "id": "46ab1086e69c6bae239b5d99",
-        "title": "BOJ rate hike on tap: Watch these Japanese stocks for bull and bear cases",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/stock-market-news/boj-rate-hike-on-tap-watch-these-japanese-stocks-for-bull-and-bear-cases-93CH-4904801"
+        "id": "aba98c10742ac0e4ad388b1f",
+        "title": "Commission proposes €489 million to help Portugal, Spain, Italy and Malta recover from severe storms",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1896"
       },
       {
-        "id": "59a8a5a24c9a390d5aef0e1a",
-        "title": "Goldman pivots, now forecasts Fed rate hike in October",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.coindesk.com/markets/2026/09/17/goldman-expects-another-fed-rate-hike-in-october"
+        "id": "d744dcab836efef5cedc6f61",
+        "title": "Daily News 17 / 09 / 2026",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1894"
       }
     ]
   },
   "2026-09-16": {
-    "articles_count": 232,
-    "signal_count": 45,
+    "articles_count": 248,
+    "signal_count": 48,
     "tone_cb": 0.1667,
-    "tone_global": -0.041,
+    "tone_global": -0.0112,
     "regul_crypto": 0.2265,
-    "stress": 0.0032,
+    "stress": 0.003,
     "top": [
       {
         "id": "7b5fc0fc5093a082245be779",
@@ -136,12 +136,12 @@
     ]
   },
   "2026-09-15": {
-    "articles_count": 326,
+    "articles_count": 337,
     "signal_count": 40,
     "tone_cb": 0.6667,
     "tone_global": 0.1716,
     "regul_crypto": 0.0,
-    "stress": 0.0051,
+    "stress": 0.005,
     "top": [
       {
         "id": "eb913fa6017e0f5b9085cf5f",
@@ -3842,7 +3842,7 @@
     ]
   },
   "2026-06-19": {
-    "articles_count": 3,
+    "articles_count": 1,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
@@ -3850,28 +3850,12 @@
     "stress": 0.0,
     "top": [
       {
-        "id": "974d4c824604ae25d11d7b21",
-        "title": "PRA sets out adjustments to its market risk internal model approach under Basel 3.1",
-        "source": "boe_news",
-        "score": 1.95,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/news/2026/june/pra-adjustments-market-risk-internal-model-approach-under-basel31"
-      },
-      {
         "id": "f569d899442d32613de26ecd",
         "title": "Asset Purchase Facility: Gilt Sales – Market Notice 19 June 2026",
         "source": "boe_news",
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/june/apf-gilt-sales-market-notice-19-june-2026"
-      },
-      {
-        "id": "8e549c47962ec402ab4aaf88",
-        "title": "Le règlement européen EMIR",
-        "source": "amf_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/dossiers-thematiques/emir#xts=607212&xtor=RSS-3&type=RSS"
       }
     ]
   },
