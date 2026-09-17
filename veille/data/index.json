@@ -36,60 +36,60 @@
     ]
   },
   "2026-09-17": {
-    "articles_count": 59,
-    "signal_count": 8,
+    "articles_count": 137,
+    "signal_count": 17,
     "tone_cb": null,
-    "tone_global": -0.25,
-    "regul_crypto": null,
+    "tone_global": -0.1412,
+    "regul_crypto": 0.6,
     "stress": 0.0,
     "top": [
       {
-        "id": "7342d8e9e469340468c323e0",
-        "title": "Measuring sentiment news with transformer-based language models",
-        "source": "bce_pub",
+        "id": "4b57efdd3017967280e9513d",
+        "title": "Asset Purchase Facility: Gilt Sales – Market Notice 17 September 2026",
+        "source": "boe_news",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/asset-purchase-facility-gilt-sales-market-notice-17-september-2026"
+      },
+      {
+        "id": "fa32be7f9a38bead02e27fc6",
+        "title": "Transcript of the Governor's pooled broadcast interview given on 17 September 2026",
+        "source": "boe_news",
         "score": 1.3,
         "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3283~df0633dfd3.en.pdf"
+        "url": "https://www.bankofengland.co.uk/news/2026/september/the-governor-interview-transcript-17-september-2026"
       },
       {
-        "id": "7c28b3e05b3ca8b4daf78ef5",
-        "title": "Statement by Commissioner Kubilius at the signature ceremony of the Administrative Arrangement with the Republic of Korea on IRIS²",
-        "source": "ec_press",
-        "score": 0.9,
+        "id": "9300447a6a49d7fcd89b6324",
+        "title": "Monetary Policy Committee dates for 2027",
+        "source": "boe_news",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1895"
+        "url": "https://www.bankofengland.co.uk/news/2026/september/mpc-dates-for-2027"
       },
       {
-        "id": "0b0ef680787b0bbb65d58893",
-        "title": "Statement by President von der Leyen with Executive Vice-President Virkkunen on the EU KIDS Act",
-        "source": "ec_press",
-        "score": 0.9,
+        "id": "a8a12e1a3eb7368497ce708a",
+        "title": "Exchange of letters between the Governor and the Chancellor regarding CPI Inflation - September 2026",
+        "source": "boe_news",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1893"
+        "url": "https://www.bankofengland.co.uk/letter/2026/cpi-inflation-september-2026"
       },
       {
-        "id": "aba98c10742ac0e4ad388b1f",
-        "title": "Commission proposes €489 million to help Portugal, Spain, Italy and Malta recover from severe storms",
-        "source": "ec_press",
-        "score": 0.6,
+        "id": "56dafee270ae6079d9ca859e",
+        "title": "Exchange of letters between the Governor and the Chancellor regarding QT and the APF - September 2026",
+        "source": "boe_news",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1896"
-      },
-      {
-        "id": "d744dcab836efef5cedc6f61",
-        "title": "Daily News 17 / 09 / 2026",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1894"
+        "url": "https://www.bankofengland.co.uk/letter/2026/exchange-of-letters-between-the-governor-and-the-chancellor-regarding-qt-and-the-apf"
       }
     ]
   },
   "2026-09-16": {
-    "articles_count": 248,
-    "signal_count": 48,
-    "tone_cb": 0.1667,
-    "tone_global": -0.0112,
+    "articles_count": 250,
+    "signal_count": 49,
+    "tone_cb": 0.25,
+    "tone_global": 0.0232,
     "regul_crypto": 0.2265,
     "stress": 0.003,
     "top": [
@@ -118,20 +118,20 @@
         "url": "https://www.bis.org/speeches/20260916-monetary-policy-decision"
       },
       {
+        "id": "44c8b0ef6cdafeaebb8a3843",
+        "title": "The factors behind output gap revisions",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.5,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpops/ecb.op399.en.pdf"
+      },
+      {
         "id": "c726612590b45addb3077023",
         "title": "ECB wage tracker at 2.7% in H1 2027, pointing to a modest uptick in negotiated wage growth",
         "source": "bce_press",
         "score": 1.3,
         "tone": 0.5,
         "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260916~7bc58ebef4.en.html"
-      },
-      {
-        "id": "beb418beda745af22a6fe9c4",
-        "title": "Bank resilience and sustainable growth - two sides of the same coin",
-        "source": "bis_cb_speeches",
-        "score": 1.3,
-        "tone": 0.5,
-        "url": "https://www.bis.org/speeches/20260916-bank-resilience-and-sustainable-growth-two-sides-same-coin"
       }
     ]
   },
@@ -186,7 +186,7 @@
     ]
   },
   "2026-09-14": {
-    "articles_count": 347,
+    "articles_count": 348,
     "signal_count": 26,
     "tone_cb": 0.5834,
     "tone_global": 0.1193,

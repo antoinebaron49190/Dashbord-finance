@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-09-16T21:04:43.087458+00:00",
-  "pending": [],
+  "updated_at": "2026-09-17T15:28:57.307183+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:sp500:indecise->haussiere:2026-09-17",
+      "title": "S&P 500 : tendance haussière",
+      "body": "S&P 500 passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-17.",
+      "kind": "tendance",
+      "detected_at": "2026-09-17T15:28:57.307080+00:00"
+    },
+    {
+      "fingerprint": "trend:nasdaq:indecise->haussiere:2026-09-17",
+      "title": "Nasdaq : tendance haussière",
+      "body": "Nasdaq passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-17.",
+      "kind": "tendance",
+      "detected_at": "2026-09-17T15:28:57.307096+00:00"
+    },
+    {
+      "fingerprint": "trend:msci_world:indecise->haussiere:2026-09-17",
+      "title": "MSCI World : tendance haussière",
+      "body": "MSCI World passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-17.",
+      "kind": "tendance",
+      "detected_at": "2026-09-17T15:28:57.307106+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -73,7 +95,10 @@
     "trend:msci_world:haussiere->indecise:2026-09-15",
     "trend:msci_world:indecise->haussiere:2026-09-16",
     "agenda:2026-09-18:Banque du Japon",
-    "trend:nasdaq:indecise->haussiere:2026-09-16"
+    "trend:nasdaq:indecise->haussiere:2026-09-16",
+    "trend:sp500:indecise->haussiere:2026-09-17",
+    "trend:nasdaq:indecise->haussiere:2026-09-17",
+    "trend:msci_world:indecise->haussiere:2026-09-17"
   ],
   "extremes_active": []
 }
