@@ -36,13 +36,45 @@
     ]
   },
   "2026-09-18": {
-    "articles_count": 81,
-    "signal_count": 10,
-    "tone_cb": null,
-    "tone_global": -0.0331,
+    "articles_count": 149,
+    "signal_count": 18,
+    "tone_cb": 0.0,
+    "tone_global": -0.0353,
     "regul_crypto": -0.15,
     "stress": 0.0,
     "top": [
+      {
+        "id": "bbfeeec78b01a0a9127b453e",
+        "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
+        "source": "fed_press_all",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm"
+      },
+      {
+        "id": "ccc83a193207262d1ae3f655",
+        "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm"
+      },
+      {
+        "id": "afaa93643e5a6c153c3f24ea",
+        "title": "Bowman, Initial Findings from Independent Review of Silicon Valley Bank",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm"
+      },
+      {
+        "id": "592675539a5279d653c7fcd4",
+        "title": "Bowman, The Final Chapter on Modernizing Bank Regulatory Stress Testing",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm"
+      },
       {
         "id": "a44618f094266bfb2688709d",
         "title": "Minutes of the Transaction and Post-trade Reporting Harmonisation Taskforce - July 2026",
@@ -50,48 +82,16 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.bankofengland.co.uk/minutes/2026/july/minutes-of-the-transaction-and-post-trade-reporting-harmonisation-taskforce-july-2026"
-      },
-      {
-        "id": "06399ca4e66d691dbcb045e2",
-        "title": "Out with the new, in with the old? Supranational bank supervision and the composition of firm investment",
-        "source": "bce_pub",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3286~f4202ab618.en.pdf"
-      },
-      {
-        "id": "49ba6bfd36fd5700cc65db60",
-        "title": "Bank competition and credit risk: the conditioning role of capital",
-        "source": "bce_pub",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3285~6f253764af.en.pdf"
-      },
-      {
-        "id": "ab88ab8f888fdabd4e68c2d1",
-        "title": "ECB Consumer Expectations Survey results – August 2026",
-        "source": "bce_press",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html"
-      },
-      {
-        "id": "c42962f96962abdfd30f07bb",
-        "title": "Boris Vujčić: Interview with Reuters",
-        "source": "bce_press",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html"
       }
     ]
   },
   "2026-09-17": {
-    "articles_count": 227,
+    "articles_count": 232,
     "signal_count": 31,
     "tone_cb": null,
     "tone_global": -0.1564,
     "regul_crypto": 0.6,
-    "stress": 0.0074,
+    "stress": 0.0073,
     "top": [
       {
         "id": "4b57efdd3017967280e9513d",
