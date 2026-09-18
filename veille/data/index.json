@@ -36,13 +36,45 @@
     ]
   },
   "2026-09-18": {
-    "articles_count": 41,
-    "signal_count": 3,
+    "articles_count": 81,
+    "signal_count": 10,
     "tone_cb": null,
-    "tone_global": -0.2,
-    "regul_crypto": -0.6,
+    "tone_global": -0.0331,
+    "regul_crypto": -0.15,
     "stress": 0.0,
     "top": [
+      {
+        "id": "a44618f094266bfb2688709d",
+        "title": "Minutes of the Transaction and Post-trade Reporting Harmonisation Taskforce - July 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/july/minutes-of-the-transaction-and-post-trade-reporting-harmonisation-taskforce-july-2026"
+      },
+      {
+        "id": "06399ca4e66d691dbcb045e2",
+        "title": "Out with the new, in with the old? Supranational bank supervision and the composition of firm investment",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3286~f4202ab618.en.pdf"
+      },
+      {
+        "id": "49ba6bfd36fd5700cc65db60",
+        "title": "Bank competition and credit risk: the conditioning role of capital",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3285~6f253764af.en.pdf"
+      },
+      {
+        "id": "ab88ab8f888fdabd4e68c2d1",
+        "title": "ECB Consumer Expectations Survey results – August 2026",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html"
+      },
       {
         "id": "c42962f96962abdfd30f07bb",
         "title": "Boris Vujčić: Interview with Reuters",
@@ -50,48 +82,16 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260918~33f023fe26.en.html"
-      },
-      {
-        "id": "f1baedca948da0bcd9ff3263",
-        "title": "Change in the Guideline for Money Market Operations",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918a.pdf"
-      },
-      {
-        "id": "48d28f09971e4b6c6d22a947",
-        "title": "Amendment to \"Principal Terms and Conditions of Complementary Deposit Facility\"",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260918b.pdf"
-      },
-      {
-        "id": "5d0a91182ef7b1a4cd1352fe",
-        "title": "Amendment to \"Principal Terms and Conditions of the Funds-Supplying Operations to Support Financing for Climate Change Responses\"",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260918a.pdf"
-      },
-      {
-        "id": "7f28d876c7b9cdaa60082369",
-        "title": "(Reference) Change in the Guideline for Money Market Operations (September 2026 MPM)",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k260918b.pdf"
       }
     ]
   },
   "2026-09-17": {
-    "articles_count": 191,
-    "signal_count": 26,
+    "articles_count": 227,
+    "signal_count": 31,
     "tone_cb": null,
-    "tone_global": -0.1505,
+    "tone_global": -0.1564,
     "regul_crypto": 0.6,
-    "stress": 0.0043,
+    "stress": 0.0074,
     "top": [
       {
         "id": "4b57efdd3017967280e9513d",
@@ -186,7 +186,7 @@
     ]
   },
   "2026-09-15": {
-    "articles_count": 337,
+    "articles_count": 338,
     "signal_count": 40,
     "tone_cb": 0.6667,
     "tone_global": 0.1716,
