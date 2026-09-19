@@ -1,23 +1,13 @@
 {
-  "generated_at": "2026-09-18T22:17:20.231062+00:00",
+  "generated_at": "2026-09-19T00:58:03.556850+00:00",
   "upcoming": [
-    {
-      "date": "2026-09-18",
-      "label": "Réunion de politique monétaire (BoJ) — décision de taux",
-      "source": "Banque du Japon",
-      "importance": 2,
-      "when": "aujourd'hui",
-      "days": 0,
-      "imminent": true,
-      "date_fr": "vendredi 18 septembre"
-    },
     {
       "date": "2026-09-30",
       "label": "Conseil des gouverneurs de la BCE — décision de taux",
       "source": "BCE",
       "importance": 3,
-      "when": "dans 12 jours",
-      "days": 12,
+      "when": "dans 11 jours",
+      "days": 11,
       "imminent": false,
       "date_fr": "mercredi 30 septembre"
     },
@@ -26,8 +16,8 @@
       "label": "Réunion du FOMC (Fed) — décision de taux",
       "source": "Federal Reserve",
       "importance": 3,
-      "when": "dans 40 jours",
-      "days": 40,
+      "when": "dans 39 jours",
+      "days": 39,
       "imminent": false,
       "date_fr": "mercredi 28 octobre"
     },
@@ -36,10 +26,20 @@
       "label": "Conseil des gouverneurs de la BCE — décision de taux",
       "source": "BCE",
       "importance": 3,
+      "when": "dans 40 jours",
+      "days": 40,
+      "imminent": false,
+      "date_fr": "jeudi 29 octobre"
+    },
+    {
+      "date": "2026-10-30",
+      "label": "Réunion de politique monétaire (BoJ) — décision de taux",
+      "source": "Banque du Japon",
+      "importance": 2,
       "when": "dans 41 jours",
       "days": 41,
       "imminent": false,
-      "date_fr": "jeudi 29 octobre"
+      "date_fr": "vendredi 30 octobre"
     }
   ],
   "all_known": 114,
