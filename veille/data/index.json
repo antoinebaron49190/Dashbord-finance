@@ -36,13 +36,21 @@
     ]
   },
   "2026-09-19": {
-    "articles_count": 36,
-    "signal_count": 2,
+    "articles_count": 94,
+    "signal_count": 7,
     "tone_cb": null,
-    "tone_global": -0.6333,
+    "tone_global": -0.1952,
     "regul_crypto": null,
-    "stress": 0.0274,
+    "stress": 0.0211,
     "top": [
+      {
+        "id": "0b01a91d01d2daa918e5e528",
+        "title": "Mitt Romney warned a billionaire tax triggers demand for 2 assets — now California decides. Get in before the super-rich",
+        "source": "yahoo_finance",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://finance.yahoo.com/economy/policy/articles/mitt-romney-warned-billionaire-tax-122500287.html"
+      },
       {
         "id": "7c85de8d76398acc268314f1",
         "title": "U.S. approves potential $2.7 billion air defense sale to Ukraine",
@@ -60,38 +68,30 @@
         "url": "https://www.investing.com/news/commodities-news/analysisrussia-sanctions-bill-gives-trump-sweeping-new-tariff-powers-4907872"
       },
       {
+        "id": "460eb91356270649af23b36f",
+        "title": "Robinhood Chain fees collapse 97% even as transactions stay near record highs",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.coindesk.com/business/2026/09/19/robinhood-chain-fees-collapse-97-even-as-transactions-stay-near-record-highs"
+      },
+      {
         "id": "37366d19310028945c8160c6",
         "title": "Turkey moves to calm nervous markets after fund crisis sparks selloff",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": -0.6,
         "url": "https://asia.nikkei.com/business/markets/turkey-moves-to-calm-nervous-markets-after-fund-crisis-sparks-selloff"
-      },
-      {
-        "id": "34829d905f25ee3908ed4393",
-        "title": "Japan supermarket begins training for 100-store Vietnam push",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/companies/japan-supermarket-begins-training-for-100-store-vietnam-push"
-      },
-      {
-        "id": "2b0a1ee802ee500b26bcaa45",
-        "title": "A cornered Putin might recklessly provoke NATO",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/comment/a-cornered-putin-might-recklessly-provoke-nato"
       }
     ]
   },
   "2026-09-18": {
-    "articles_count": 216,
-    "signal_count": 22,
+    "articles_count": 225,
+    "signal_count": 23,
     "tone_cb": 0.0,
-    "tone_global": -0.1099,
+    "tone_global": -0.0892,
     "regul_crypto": -0.15,
-    "stress": 0.0037,
+    "stress": 0.0036,
     "top": [
       {
         "id": "bbfeeec78b01a0a9127b453e",
