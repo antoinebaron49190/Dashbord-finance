@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-09-18T12:42:23.854055+00:00",
-  "pending": [],
+  "updated_at": "2026-09-19T05:34:24.304200+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:shanghai:baissiere->indecise:2026-09-19",
+      "title": "Shanghai : tendance sans direction nette",
+      "body": "Shanghai passe de « baissière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-19.",
+      "kind": "tendance",
+      "detected_at": "2026-09-19T05:34:24.304126+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -78,7 +86,8 @@
     "trend:nasdaq:indecise->haussiere:2026-09-17",
     "trend:msci_world:indecise->haussiere:2026-09-17",
     "trend:msci_world:haussiere->indecise:2026-09-18",
-    "trend:shanghai:baissiere->indecise:2026-09-18"
+    "trend:shanghai:baissiere->indecise:2026-09-18",
+    "trend:shanghai:baissiere->indecise:2026-09-19"
   ],
   "extremes_active": []
 }
