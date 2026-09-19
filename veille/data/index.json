@@ -36,13 +36,21 @@
     ]
   },
   "2026-09-19": {
-    "articles_count": 131,
-    "signal_count": 11,
+    "articles_count": 173,
+    "signal_count": 17,
     "tone_cb": null,
-    "tone_global": -0.0788,
+    "tone_global": 0.0078,
     "regul_crypto": null,
-    "stress": 0.0152,
+    "stress": 0.0115,
     "top": [
+      {
+        "id": "7bec6c419643063bb914b387",
+        "title": "Brazil’s Petrobras board approves joining diesel subsidy program",
+        "source": "investing_com",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/commodities-news/brazils-petrobras-board-approves-joining-diesel-subsidy-program-4908111"
+      },
       {
         "id": "0b01a91d01d2daa918e5e528",
         "title": "Mitt Romney warned a billionaire tax triggers demand for 2 assets — now California decides. Get in before the super-rich",
@@ -74,14 +82,6 @@
         "score": 0.3,
         "tone": -0.6,
         "url": "https://www.coindesk.com/business/2026/09/19/robinhood-chain-fees-collapse-97-even-as-transactions-stay-near-record-highs"
-      },
-      {
-        "id": "37366d19310028945c8160c6",
-        "title": "Turkey moves to calm nervous markets after fund crisis sparks selloff",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://asia.nikkei.com/business/markets/turkey-moves-to-calm-nervous-markets-after-fund-crisis-sparks-selloff"
       }
     ]
   },
