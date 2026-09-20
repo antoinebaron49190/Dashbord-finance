@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T05:42:50.316060+00:00",
+  "generated_at": "2026-09-20T10:38:08.702933+00:00",
   "regime": {
     "state": "favorable au risque",
     "favorable": 9,
@@ -12,21 +12,21 @@
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": true,
-      "value": "80 473 $",
-      "reference": "MM200 70 502 $"
+      "value": "80 314 $",
+      "reference": "MM200 70 501 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": true,
-      "value": "80 473 $",
-      "reference": "MM50 73 192 $"
+      "value": "80 314 $",
+      "reference": "MM50 73 189 $"
     },
     {
       "group": "Crypto",
       "label": "ETH au-dessus de sa MM200",
       "ok": true,
-      "value": "2 575 $",
+      "value": "2 573 $",
       "reference": "MM200 2 076 $"
     },
     {
@@ -88,21 +88,21 @@
   ],
   "crypto": {
     "btc": {
-      "price": 80473.3,
-      "ma50": 73192.27600000001,
-      "ma200": 70502.12999999996,
-      "drawdown_1y": 0.3550087563568746,
-      "volatility_30d": 0.373398104941882,
+      "price": 80314.5,
+      "ma50": 73189.1,
+      "ma200": 70501.33599999995,
+      "drawdown_1y": 0.3562815339053352,
+      "volatility_30d": 0.3741411971239782,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "eth": {
-      "price": 2575.21,
-      "ma50": 2271.9702000000007,
-      "ma200": 2075.88495,
-      "drawdown_1y": 0.45079292636320206,
-      "volatility_30d": 0.46342201213873574,
+      "price": 2573.46,
+      "ma50": 2271.9352000000003,
+      "ma200": 2075.8762,
+      "drawdown_1y": 0.45116614345185285,
+      "volatility_30d": 0.463841836661751,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
@@ -227,11 +227,11 @@
       "fear_greed": 71,
       "assets": {
         "btc": {
-          "close": 80473.3,
+          "close": 80314.5,
           "trend": "haussiere"
         },
         "eth": {
-          "close": 2575.21,
+          "close": 2573.46,
           "trend": "haussiere"
         },
         "sp500": {
