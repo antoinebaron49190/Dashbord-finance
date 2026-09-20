@@ -36,13 +36,21 @@
     ]
   },
   "2026-09-20": {
-    "articles_count": 31,
-    "signal_count": 6,
+    "articles_count": 48,
+    "signal_count": 7,
     "tone_cb": null,
-    "tone_global": 0.1111,
+    "tone_global": 0.0238,
     "regul_crypto": 0.6,
-    "stress": 0.0323,
+    "stress": 0.0206,
     "top": [
+      {
+        "id": "6370529f76d72c53980eb038",
+        "title": "Multi-Asset Trading Venue Monochrome Exchange Announces IEO of Its Native Token, $MCR",
+        "source": "investing_com",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/cryptocurrency-news/multiasset-trading-venue-monochrome-exchange-announces-ieo-of-its-native-token-mcr-4908176"
+      },
       {
         "id": "709068235f8eacb27d46b8ef",
         "title": "China keeps lending rates on hold as room for monetary easing narrows",
@@ -68,30 +76,22 @@
         "url": "https://www.cnbc.com/2026/09/20/france-wine-production-70-year-low-heatwaves-drought.html"
       },
       {
-        "id": "b59c2045e897500701686d7d",
-        "title": "Foreign envoys in Taiwan warn rules of game at sea are being challenged",
-        "source": "nikkei_asia",
+        "id": "c5e81d18dd8124f4a69f8dfa",
+        "title": "Iran warns against new escalation by US and allies",
+        "source": "investing_com",
         "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/politics/international-relations/taiwan-tensions/foreign-envoys-in-taiwan-warn-rules-of-game-at-sea-are-being-challenged"
-      },
-      {
-        "id": "c678987a5ae1539069ec6934",
-        "title": "Xi visits Washington, NSE listing, UN General Assembly debate",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/your-week-in-asia/xi-visits-washington-nse-listing-un-general-assembly-debate"
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/commodities-news/iran-warns-against-new-escalation-by-us-and-allies-4908175"
       }
     ]
   },
   "2026-09-19": {
-    "articles_count": 216,
-    "signal_count": 22,
+    "articles_count": 231,
+    "signal_count": 24,
     "tone_cb": null,
-    "tone_global": 0.1197,
+    "tone_global": 0.1514,
     "regul_crypto": null,
-    "stress": 0.0092,
+    "stress": 0.0086,
     "top": [
       {
         "id": "7bec6c419643063bb914b387",
