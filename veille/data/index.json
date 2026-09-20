@@ -36,12 +36,12 @@
     ]
   },
   "2026-09-20": {
-    "articles_count": 126,
-    "signal_count": 18,
+    "articles_count": 169,
+    "signal_count": 25,
     "tone_cb": null,
-    "tone_global": 0.1352,
+    "tone_global": 0.2107,
     "regul_crypto": 0.6,
-    "stress": 0.0157,
+    "stress": 0.0117,
     "top": [
       {
         "id": "70fe1feba31a7410b751dd69",
@@ -60,28 +60,28 @@
         "url": "https://www.investing.com/news/cryptocurrency-news/multiasset-trading-venue-monochrome-exchange-announces-ieo-of-its-native-token-mcr-4908176"
       },
       {
+        "id": "10eb2416b11df17a55f4b361",
+        "title": "Willis Lease Finance (WLFC) Bets on Malaysia for Next Phase of Global Expansion",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": 0.6667,
+        "url": "https://finance.yahoo.com/markets/stocks/articles/willis-lease-finance-wlfc-bets-205718056.html"
+      },
+      {
+        "id": "3d73179ffce18c6f9564d07e",
+        "title": "Semtech’s (SMTC) LoRa Plus Expansion Is Bigger Than Two New Chips",
+        "source": "yahoo_finance",
+        "score": 0.3,
+        "tone": 0.6667,
+        "url": "https://finance.yahoo.com/technology/articles/semtech-smtc-lora-plus-expansion-205447567.html"
+      },
+      {
         "id": "709068235f8eacb27d46b8ef",
         "title": "China keeps lending rates on hold as room for monetary easing narrows",
         "source": "investing_com",
         "score": 0.3,
         "tone": 0.6667,
         "url": "https://www.investing.com/news/economy-news/china-keeps-lending-rates-on-hold-as-room-for-monetary-easing-narrows-4908136"
-      },
-      {
-        "id": "e6f8f48850de003a058da97c",
-        "title": "Bitcoin slips 1% but above $80,000 as ETF inflows revive institutional demand",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.6,
-        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-80000-as-etf-inflows-revive-institutional-demand-4908141"
-      },
-      {
-        "id": "c479352a2b9d1c6800605612",
-        "title": "Bitcoin holds above $80,000 as ETF inflows revive institutional demand",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.6,
-        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-80000-as-etf-inflows-revive-institutional-demand-4908141"
       }
     ]
   },
