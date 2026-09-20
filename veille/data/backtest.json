@@ -1,6 +1,6 @@
 {
   "schema": 4,
-  "generated_at": "2026-09-19T05:34:24.115318+00:00",
+  "generated_at": "2026-09-20T05:42:58.285463+00:00",
   "horizon_days": 20,
   "assets": {
     "btc": {
@@ -10,18 +10,18 @@
       "current": {
         "trend": "haussiere",
         "since": "2026-08-19",
-        "days": 31,
-        "sessions": 32,
+        "days": 32,
+        "sessions": 33,
         "longer_than_pct": 75,
         "median_sessions": 10,
         "past_phases": 8
       },
       "states": {
         "haussiere": {
-          "days": 153,
-          "mean_pct": 1.28,
-          "median_pct": 0.17,
-          "positive_pct": 51.0
+          "days": 154,
+          "mean_pct": 1.29,
+          "median_pct": 0.34,
+          "positive_pct": 51.3
         },
         "baissiere": {
           "days": 187,
@@ -30,34 +30,34 @@
           "positive_pct": 45.5
         },
         "indecise": {
-          "days": 161,
-          "mean_pct": -0.58,
-          "median_pct": -0.5,
-          "positive_pct": 48.4
+          "days": 160,
+          "mean_pct": -0.67,
+          "median_pct": -0.52,
+          "positive_pct": 48.1
         }
       },
       "baseline": {
         "days": 501,
-        "mean_pct": -0.15,
+        "mean_pct": -0.17,
         "median_pct": -0.44,
         "positive_pct": 48.1
       },
       "analogues": {
-        "current_stretch": 15.04,
+        "current_stretch": 14.14,
         "bucket": 5,
         "buckets": 5,
         "range_pct": [
-          12.1,
+          12.3,
           23.4
         ],
         "outcome": {
           "days": 100,
-          "mean_pct": -1.06,
+          "mean_pct": -1.14,
           "median_pct": -1.35,
           "positive_pct": 36.0
         }
       },
-      "edge_pct": 2.22,
+      "edge_pct": 2.23,
       "verdict": "signal utile",
       "sentence": "Le signal a séparé les deux cas. Après un signal haussier, +1,3 % en moyenne sur 20 séances ; après un signal baissier, -0,9 %."
     },
@@ -68,24 +68,24 @@
       "current": {
         "trend": "haussiere",
         "since": "2026-08-19",
-        "days": 31,
-        "sessions": 32,
+        "days": 32,
+        "sessions": 33,
         "longer_than_pct": 75,
         "median_sessions": 5,
         "past_phases": 4
       },
       "states": {
         "haussiere": {
-          "days": 102,
-          "mean_pct": 6.33,
-          "median_pct": 2.42,
-          "positive_pct": 54.9
+          "days": 103,
+          "mean_pct": 6.31,
+          "median_pct": 2.56,
+          "positive_pct": 55.3
         },
         "baissiere": {
-          "days": 192,
-          "mean_pct": 3.45,
-          "median_pct": 1.97,
-          "positive_pct": 58.9
+          "days": 191,
+          "mean_pct": 3.39,
+          "median_pct": 1.93,
+          "positive_pct": 58.6
         },
         "indecise": {
           "days": 207,
@@ -96,12 +96,12 @@
       },
       "baseline": {
         "days": 501,
-        "mean_pct": 2.91,
+        "mean_pct": 2.89,
         "median_pct": 0.29,
         "positive_pct": 52.5
       },
       "analogues": {
-        "current_stretch": 26.83,
+        "current_stretch": 24.05,
         "bucket": 5,
         "buckets": 5,
         "range_pct": [
@@ -115,9 +115,9 @@
           "positive_pct": 39.0
         }
       },
-      "edge_pct": 2.88,
+      "edge_pct": 2.92,
       "verdict": "signal utile",
-      "sentence": "Le signal a séparé les deux cas. Après un signal haussier, +6,3 % en moyenne sur 20 séances ; après un signal baissier, +3,5 %."
+      "sentence": "Le signal a séparé les deux cas. Après un signal haussier, +6,3 % en moyenne sur 20 séances ; après un signal baissier, +3,4 %."
     },
     "sp500": {
       "label": "S&P 500",
@@ -677,15 +677,15 @@
     },
     {
       "label": "Volatilité du Bitcoin sur 30 jours",
-      "value": "44 %",
-      "percentile": 62,
-      "sentence": "plus agité que 62 % des 2 dernières années"
+      "value": "37 %",
+      "percentile": 41,
+      "sentence": "plus calme que 59 % des 2 dernières années"
     },
     {
       "label": "Décote du Bitcoin sous son plus haut",
-      "value": "−35 %",
-      "percentile": 67,
-      "sentence": "plus loin du sommet que 67 % des 2 dernières années"
+      "value": "−36 %",
+      "percentile": 68,
+      "sentence": "plus loin du sommet que 68 % des 2 dernières années"
     }
   ],
   "failures": []

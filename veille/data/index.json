@@ -36,30 +36,62 @@
     ]
   },
   "2026-09-20": {
-    "articles_count": 1,
-    "signal_count": 0,
+    "articles_count": 17,
+    "signal_count": 5,
     "tone_cb": null,
-    "tone_global": null,
-    "regul_crypto": null,
-    "stress": 0.0,
+    "tone_global": 0.1333,
+    "regul_crypto": 0.6,
+    "stress": 0.0588,
     "top": [
       {
-        "id": "187bf26c6ca3563004862972",
-        "title": "Saigon joe: A highly caffeinated tour of Ho Chi Minh City",
+        "id": "709068235f8eacb27d46b8ef",
+        "title": "China keeps lending rates on hold as room for monetary easing narrows",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.6667,
+        "url": "https://www.investing.com/news/economy-news/china-keeps-lending-rates-on-hold-as-room-for-monetary-easing-narrows-4908136"
+      },
+      {
+        "id": "c479352a2b9d1c6800605612",
+        "title": "Bitcoin holds above $80,000 as ETF inflows revive institutional demand",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.6,
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-80000-as-etf-inflows-revive-institutional-demand-4908141"
+      },
+      {
+        "id": "b00790548624eb76fafdd1cf",
+        "title": "France’s wine production nears a 70-year low, leaving winemakers with tough choices",
+        "source": "cnbc_economy",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.cnbc.com/2026/09/20/france-wine-production-70-year-low-heatwaves-drought.html"
+      },
+      {
+        "id": "17050a1fb87ec4c4bd402078",
+        "title": "Asia's AI adoption outpaces perception, says Google executive",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/life-arts/life/eat-drink/saigon-joe-a-highly-caffeinated-tour-of-ho-chi-minh-city"
+        "url": "https://asia.nikkei.com/business/technology/asia-s-ai-adoption-outpaces-perception-says-google-executive"
+      },
+      {
+        "id": "aa22b83655d852bbad8d96b3",
+        "title": "Hyundai Department Store looks to bring South Korean fashion abroad",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/retail/hyundai-department-store-looks-to-bring-south-korean-fashion-abroad"
       }
     ]
   },
   "2026-09-19": {
-    "articles_count": 195,
+    "articles_count": 196,
     "signal_count": 18,
     "tone_cb": null,
     "tone_global": 0.0352,
     "regul_crypto": null,
-    "stress": 0.0102,
+    "stress": 0.0101,
     "top": [
       {
         "id": "7bec6c419643063bb914b387",
@@ -104,12 +136,12 @@
     ]
   },
   "2026-09-18": {
-    "articles_count": 252,
-    "signal_count": 28,
+    "articles_count": 285,
+    "signal_count": 31,
     "tone_cb": 0.0,
-    "tone_global": -0.0618,
-    "regul_crypto": -0.15,
-    "stress": 0.0033,
+    "tone_global": -0.019,
+    "regul_crypto": 0.075,
+    "stress": 0.0029,
     "top": [
       {
         "id": "bbfeeec78b01a0a9127b453e",
