@@ -36,12 +36,12 @@
     ]
   },
   "2026-09-20": {
-    "articles_count": 48,
-    "signal_count": 7,
+    "articles_count": 97,
+    "signal_count": 14,
     "tone_cb": null,
-    "tone_global": 0.0238,
+    "tone_global": 0.1262,
     "regul_crypto": 0.6,
-    "stress": 0.0206,
+    "stress": 0.0103,
     "top": [
       {
         "id": "6370529f76d72c53980eb038",
@@ -60,6 +60,14 @@
         "url": "https://www.investing.com/news/economy-news/china-keeps-lending-rates-on-hold-as-room-for-monetary-easing-narrows-4908136"
       },
       {
+        "id": "e6f8f48850de003a058da97c",
+        "title": "Bitcoin slips 1% but above $80,000 as ETF inflows revive institutional demand",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.6,
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-80000-as-etf-inflows-revive-institutional-demand-4908141"
+      },
+      {
         "id": "c479352a2b9d1c6800605612",
         "title": "Bitcoin holds above $80,000 as ETF inflows revive institutional demand",
         "source": "investing_com",
@@ -74,14 +82,6 @@
         "score": 0.3,
         "tone": -0.6,
         "url": "https://www.cnbc.com/2026/09/20/france-wine-production-70-year-low-heatwaves-drought.html"
-      },
-      {
-        "id": "c5e81d18dd8124f4a69f8dfa",
-        "title": "Iran warns against new escalation by US and allies",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/commodities-news/iran-warns-against-new-escalation-by-us-and-allies-4908175"
       }
     ]
   },
