@@ -36,13 +36,21 @@
     ]
   },
   "2026-09-20": {
-    "articles_count": 97,
-    "signal_count": 14,
+    "articles_count": 126,
+    "signal_count": 18,
     "tone_cb": null,
-    "tone_global": 0.1262,
+    "tone_global": 0.1352,
     "regul_crypto": 0.6,
-    "stress": 0.0103,
+    "stress": 0.0157,
     "top": [
+      {
+        "id": "70fe1feba31a7410b751dd69",
+        "title": "UN Private Sector Forum - UN Global Compact",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1912"
+      },
       {
         "id": "6370529f76d72c53980eb038",
         "title": "Multi-Asset Trading Venue Monochrome Exchange Announces IEO of Its Native Token, $MCR",
@@ -74,14 +82,6 @@
         "score": 0.3,
         "tone": 0.6,
         "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-above-80000-as-etf-inflows-revive-institutional-demand-4908141"
-      },
-      {
-        "id": "b00790548624eb76fafdd1cf",
-        "title": "France’s wine production nears a 70-year low, leaving winemakers with tough choices",
-        "source": "cnbc_economy",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://www.cnbc.com/2026/09/20/france-wine-production-70-year-low-heatwaves-drought.html"
       }
     ]
   },
