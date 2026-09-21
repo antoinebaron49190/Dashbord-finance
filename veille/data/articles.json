@@ -62,6 +62,2320 @@
     "scored_by": "lexique"
   },
   {
+    "id": "8a516b870f3b7161e672f064",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Saudi Central Bank leaves China-led digital currency initiative",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/saudi-central-bank-leaves-china-121900552.html",
+    "summary": "",
+    "published_at": "2026-09-21T12:19:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "225003cc51d6e43f2e2c9fa6",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails",
+    "url": "https://www.coindesk.com/business/2026/09/21/google-and-apple-seek-crypto-talent-as-big-tech-eyes-stablecoin-and-tokenization-rails",
+    "summary": "",
+    "published_at": "2026-09-21T12:17:48+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6fad3930c43965d0101c385a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "MicroStrategy Ends Two-Week Pause With 950 Bitcoin: Is the Buying Engine Stalling?",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/microstrategy-ends-two-week-pause-121459967.html",
+    "summary": "",
+    "published_at": "2026-09-21T12:14:59+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "724a87dfb3c6f398bf993eeb",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Is the M&A Boom Real? BCG Says Yes at the Top, Not Below $1 Billion",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/m-boom-real-bcg-says-121227320.html",
+    "summary": "",
+    "published_at": "2026-09-21T12:12:27+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bf51bf19945f0958278c0961",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Worried About Hugging Face? Microsoft and Amazon Got Exposed Most Among Hyperscalers",
+    "url": "https://finance.yahoo.com/technology/ai/articles/worried-hugging-face-microsoft-amazon-121222004.html",
+    "summary": "",
+    "published_at": "2026-09-21T12:12:22+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "11eb6d801c58bb277b8388d9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Down 47% From Its All-Time High, This Is the Most Undervalued Cryptocurrency to Buy Right Now",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/down-47-time-high-most-121200807.html",
+    "summary": "",
+    "published_at": "2026-09-21T12:12:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a16b1504e46e5e999031681c",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "‘A little more orange’: Strategy buys 950 bitcoin for $76 million, bringing total holdings to 846,000 BTC",
+    "url": "https://www.theblock.co/news/business/2026-09-21-a-little-more-orange-strategy-bitcoin-michael-saylor-415893",
+    "summary": "Strategy's total holdings account for around 4% of the 21 million bitcoin supply cap — worth roughly $72 billion.",
+    "published_at": "2026-09-21T12:09:48+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5f97f73f60501482e055cd1a",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Strategy returns to bitcoin buys, adding $75 million of BTC last week",
+    "url": "https://www.coindesk.com/markets/2026/09/21/strategy-returns-to-bitcoin-buys-adding-usd75-million-of-btc-last-week",
+    "summary": "",
+    "published_at": "2026-09-21T12:08:02+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1704398f0060df9bc7477658",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "U.S. Treasury yields ease on crude pull-back ; rate hike bets stay",
+    "url": "https://www.investing.com/news/forex-news/euro-zone-yields-ease-as-markets-await-of-ecbs-lagarde-speech-4908370",
+    "summary": "",
+    "published_at": "2026-09-21T12:07:57+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f484ed1f0e65816c4d0eae84",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oura targets $15.62 billion valuation in US IPO, setting stage for fall listings",
+    "url": "https://www.investing.com/news/stock-market-news/smart-ring-maker-oura-shareholders-look-to-raise-up-to-22-billion-in-us-ipo-4908799",
+    "summary": "",
+    "published_at": "2026-09-21T12:07:12+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3a4692b29357bf8e345c06d0",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Yen slips as intervention threat persists, dollar steady",
+    "url": "https://www.investing.com/news/economy-news/volatile-yen-draws-intervention-watch-other-currencies-subdued-4908219",
+    "summary": "",
+    "published_at": "2026-09-21T12:06:57+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2b542ea3493e669409ec42a4",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "CNN, MS NOW and Politico to sue over White House ban",
+    "url": "https://www.investing.com/news/stock-market-news/cnn-ms-now-and-politico-file-lawsuit-against-trump-administration-over-white-house-access-4908656",
+    "summary": "",
+    "published_at": "2026-09-21T12:06:34+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "48b0a2140b82b085f7f2acc2",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Supertanker shortage sends oil shipping rates to records",
+    "url": "https://finance.yahoo.com/energy/articles/supertanker-shortage-sends-oil-shipping-120626653.html",
+    "summary": "",
+    "published_at": "2026-09-21T12:06:26+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b3e0c18a4f33cb85ed2c8b3b",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Novo Nordisk’s stock tumbles as doubts persist about Ozempic maker’s goals for 2030",
+    "url": "https://www.marketwatch.com/story/novo-nordisk-stock-tumbles-as-ozempic-maker-sets-out-2030-goals-8a5a8d2d?mod=mw_rss_topstories",
+    "summary": "The weight-loss-drug manufacturer failed to excite investors hoping for a turnaround.",
+    "published_at": "2026-09-21T12:06:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a17fc56de095fb2e5d997b52",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Warren Buffett’s Succession Triggers Search for His Spiritual Successors",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/warren-buffett-succession-triggers-search-120533484.html",
+    "summary": "",
+    "published_at": "2026-09-21T12:05:33+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "66a92f8e0ca8d64014e511ea",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "The Stock Market Looks More Expensive Than Ever Before Based on Certain Measures, and Warren Buffett's Timeless Advice Has Never Been More Valuable",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-looks-more-expensive-120500895.html",
+    "summary": "",
+    "published_at": "2026-09-21T12:05:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a183676a150a64a32fb9a915",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "American Resources’ EMCO unit to acquire Blackion for $13.2m",
+    "url": "https://www.investing.com/news/company-news/american-resources-emco-unit-to-acquire-blackion-for-132m-93CH-4908958",
+    "summary": "",
+    "published_at": "2026-09-21T12:04:35+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b0e5e6f3ba4f0d4187cb92fc",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "National CineMedia completes Captivate acquisition for $275m",
+    "url": "https://www.investing.com/news/company-news/national-cinemedia-completes-captivate-acquisition-for-275m-93CH-4908956",
+    "summary": "",
+    "published_at": "2026-09-21T12:04:31+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f3760a9cab5ca1f49545126b",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Innventure cuts parent costs 56%, names new CFO and director",
+    "url": "https://www.investing.com/news/company-news/innventure-cuts-parent-costs-56-names-new-cfo-and-director-93CH-4908957",
+    "summary": "",
+    "published_at": "2026-09-21T12:04:31+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4b82187cdcd90be4ed37cf7b",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Fastly launches AI security and control tools for enterprises",
+    "url": "https://www.investing.com/news/company-news/fastly-launches-ai-security-and-control-tools-for-enterprises-93CH-4908954",
+    "summary": "",
+    "published_at": "2026-09-21T12:04:30+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f4265fa518429dd9136f2e62",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Kodiak AI partners with PrePass for autonomous truck inspections",
+    "url": "https://www.investing.com/news/company-news/kodiak-ai-partners-with-prepass-for-autonomous-truck-inspections-93CH-4908955",
+    "summary": "",
+    "published_at": "2026-09-21T12:04:30+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5f37c3dfe032c4341c801ab0",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Enphase meter collar gains approval from 80 US, Canada utilities",
+    "url": "https://www.investing.com/news/company-news/enphase-meter-collar-gains-approval-from-80-us-canada-utilities-93CH-4908951",
+    "summary": "",
+    "published_at": "2026-09-21T12:04:29+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "76e9e2fca1d09f871bf483cc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Should You Buy Netflix Stock Before Oct. 20?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/buy-netflix-stock-oct-20-120428201.html",
+    "summary": "",
+    "published_at": "2026-09-21T12:04:28+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fc3fd3878ab528fed629d7b0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "RingCentral Sees AI Driving Upsell, Growth and Stronger Customer Retention",
+    "url": "https://finance.yahoo.com/technology/ai/articles/ringcentral-sees-ai-driving-upsell-120202841.html",
+    "summary": "",
+    "published_at": "2026-09-21T12:02:02+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ffb66a9b7d3667d14d23f397",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "High Earners Cannot Contribute to a Roth IRA Directly. Here’s the Legal Workaround",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/high-earners-cannot-contribute-roth-120058136.html",
+    "summary": "",
+    "published_at": "2026-09-21T12:00:58+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "604af0056eab71f2814e9413",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Legend launches sale of Banque Internationale à Luxembourg – report",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/legend-launches-sale-banque-internationale-120035482.html",
+    "summary": "",
+    "published_at": "2026-09-21T12:00:35+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "17e6161c577f84076e6f65f4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Prediction: Lucid Stock Could Double in 12 Months",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-lucid-stock-could-double-120011402.html",
+    "summary": "",
+    "published_at": "2026-09-21T12:00:11+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1dc1d3a804bd729f4ef23a88",
+    "source": "bce_pub",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Navigating uncertainty: how the Middle East conflict is shaping expectations and coping strategies of firms",
+    "url": "https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202606_02~b97ea4e6de.en.html",
+    "summary": "In the Survey on the Access to Financing of Enterprises (SAFE) for the second quarter of 2026, firms were asked about their exposure to the conflict in the Middle East, how the conflict has influenced their expectations, and what coping strategies they have adopted. It found that exposure to the conflict is higher for small and medium-sized enterprises, for exporters and in the trade sector. The conflict has primarily affected firms’ expectations for nominal variables and demand, while the impact on expectations for other real variables is small. The main coping strategies reported by firms i…",
+    "published_at": "2026-09-21T12:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "geopolitique": 2.2361
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": true,
+    "importance": 1.95,
+    "tone_lexical": -0.691,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.691,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e70afe0a342460f1528dd3d6",
+    "source": "boe_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Bank of England announces new office space in Leeds",
+    "url": "https://www.bankofengland.co.uk/news/2026/september/bank-of-england-announces-new-office-space-in-leeds",
+    "summary": "The Bank of England has secured a new long-term premises in Leeds, marking a major milestone in its commitment to build its presence in the region.",
+    "published_at": "2026-09-21T12:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": true,
+    "importance": 1.95,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "97c0d451ef41680d0fe87e78",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Stock Market Today: Dow Rallies 450 Points As Oil Prices, Treasury Yields Fall; Nvidia Extends Gains (Live Coverage)",
+    "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-oil-prices-treasury-yields-nvidia-stock-nvda-buy-point/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-09-21T11:59:26+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "43c7d67efec67f59003c0c93",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Lockheed Martin vs. RTX: Which Defense Dividend Is the Better Income Buy",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/lockheed-martin-vs-rtx-defense-115721256.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:57:21+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "70331f5999d7573917c3da1e",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Kevin O'Leary sold his software company for $4.2 billion, so why did he only walk away with about $11 million?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/kevin-oleary-sold-software-company-115500725.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:55:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0fc3f03ac81a2cf8973e019f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Wealth manager Allspring considers sale – report",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wealth-manager-allspring-considers-sale-115442819.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:54:42+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0d4a7726024435b8427165f4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SoftBank launches $11 billion junk bond deal for OpenAI bet",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/softbank-launches-11-billion-junk-115346334.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:53:46+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3511858ec50fa253a4c9b87f",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nscale, Rival Of CoreWeave And Nebius, Files For IPO",
+    "url": "https://www.investors.com/news/technology/nscale-rival-of-coreweave-nebius-files-for-ipo/?src=A00220&yptr=yahoo",
+    "summary": "",
+    "published_at": "2026-09-21T11:53:06+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fe5c04beb037f01dd9868fc3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Credo Technology Crashed for 3 Months: This Wall Street Pro Says It’s About to Double",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/credo-technology-crashed-3-months-115135647.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:51:35+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a73b34c64de066c8c17d7f6a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Deutsche Bank weighs closer asset and private banking alignment – report",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-weighs-closer-asset-115119235.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:51:19+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ae46e03cb3888d4d8c1b4a82",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Four Launches From 100: Rocket Lab Gets a Bullish New Call, With Iridium and Mynaric Along for the Ride",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/four-launches-100-rocket-lab-115117949.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:51:17+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c0406fa8ae82137cb4ad3116",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "This Popular eVTOL Stock Could Still Turn $7,500 Into a Fortune",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/popular-evtol-stock-could-still-115000353.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:50:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b7c5f4901b7c13ae5919224d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Meritage Hospitality Group files Chapter 11 bankruptcy over Wendy's struggles",
+    "url": "https://finance.yahoo.com/small-business/articles/meritage-hospitality-group-files-chapter-114934454.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:49:34+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "80f19057232cde66ef46e1cf",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying.",
+    "url": "https://finance.yahoo.com/energy/articles/sudden-end-iran-war-strike-120000404.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:49:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f38364c414acbadeeb49ffe1",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Ripple’s Banking Edge Shrinks as OCC Approves Three Crypto Rivals",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/ripple-banking-edge-shrinks-occ-114715855.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:47:15+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5f0f3791f4b3539ddadf02dc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Boeing and Lockheed Martin Both Cash In on the Pentagon’s Contract Calendar",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/boeing-lockheed-martin-both-cash-114654499.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:46:54+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c08cb05f8761e7f98c57d410",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "CATL develops US-specific battery despite trade restrictions – report",
+    "url": "https://finance.yahoo.com/technology/articles/catl-develops-us-specific-battery-114524219.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:45:24+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "512cce6b182d249ff6e3fc6d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bank7 to acquire Century Financial Services in $137.3m deal",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/bank7-acquire-century-financial-services-114134386.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:41:34+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b6b9264494b37c43ce8ae359",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin's 44% gain in third quarter teases full-blown crypto bull run",
+    "url": "https://www.coindesk.com/daybook-us/2026/09/21/bitcoin-s-44-gain-in-third-quarter-teases-full-blown-crypto-bull-run",
+    "summary": "",
+    "published_at": "2026-09-21T11:36:11+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ef95caa3045a36a6d8593a8c",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "“Who Can Imagine What Action One Might Take”: Musk’s Latest Non-Answer Sends Tesla and SpaceX Higher",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/imagine-action-one-might-musk-113510252.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:35:10+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2f0b6e79a2f2a012df50af15",
+    "source": "boe_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Foreign Currency Reserves 2026 – Market Notice 21 September 2026",
+    "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/september/foreign-currency-reserves-2026-market-notice-21-september-2026",
+    "summary": "Not for distribution, directly or indirectly, in or into the United States, Canada, Australia, Japan or any other jurisdiction where it is unlawful to distribute this announcement",
+    "published_at": "2026-09-21T11:30:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500",
+      "asie"
+    ],
+    "assets_effective": [
+      "sp500",
+      "asie"
+    ],
+    "has_decision_marker": true,
+    "importance": 1.95,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a522a15c92e699e40790ad25",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Perp futures linked to 'bitcoin VIX' debut on Hyperliquid",
+    "url": "https://www.coindesk.com/markets/2026/09/21/perp-futures-linked-to-bitcoin-vix-debut-on-hyperliquid",
+    "summary": "",
+    "published_at": "2026-09-21T11:30:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b4a2bf33cbc0ec9d9ace99c4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "‘I just want out’: Billionaire Jeffrey Gundlach says you should have ‘almost nothing’ in AI stocks — what to buy instead",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/just-want-billionaire-jeffrey-gundlach-113000010.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:30:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "aafd361f8cae881f3cb850e7",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why one Warren Buffett–inspired fund manager is betting big on Chinese stocks",
+    "url": "https://www.marketwatch.com/story/why-one-buffett-inspired-fund-manager-is-betting-big-on-chinese-stocks-b7b8a51e?mod=mw_rss_topstories",
+    "summary": "Low valuations and founder management are attractive to RV Capital’s Rob Vinall.",
+    "published_at": "2026-09-21T11:30:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f31f43335397ac74e0c5bb5b",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "“Our Targets Haven’t Changed”: Broadcom’s CEO Pushes Back on the AI Slowdown Scare",
+    "url": "https://finance.yahoo.com/technology/ai/articles/targets-haven-t-changed-broadcom-112507800.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:25:07+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9aced365f1efc2e7089b6152",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "ECB deploys Pontes platform to settle wholesale tokenized assets in central-bank money",
+    "url": "https://www.coindesk.com/business/2026/09/21/ecb-deploys-pontes-platform-to-settle-wholesale-tokenized-assets-in-central-bank-money",
+    "summary": "",
+    "published_at": "2026-09-21T11:18:55+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5c420a7a7ea531a4b1e7c2a6",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "5 easy ways US boomers become poor in retirement (after having a fairly fat nest egg) — are you making these mistakes?",
+    "url": "https://finance.yahoo.com/markets/articles/5-easy-ways-us-boomers-110500674.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:05:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5a44e679c80fd79a52c6b3be",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Peter Schiff's father sold $4.2 million in books claiming income tax is illegal. He died in federal prison",
+    "url": "https://finance.yahoo.com/economy/policy/articles/peter-schiffs-father-sold-4-110000968.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4c8e05534a2e1c60603aabcb",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Another aspect of Montgomery: it might make human brokers more valuable",
+    "url": "https://finance.yahoo.com/small-business/articles/another-aspect-montgomery-might-human-110000308.html",
+    "summary": "",
+    "published_at": "2026-09-21T11:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0d92a639eefec1edd6661d19",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin taps $85,000 for first time since January as crypto short liquidations surge",
+    "url": "https://www.theblock.co/news/markets/2026-09-21-bitcoin-taps-85000-for-first-time-since-january-as-crypto-short-liquidations-surge-415905",
+    "summary": "CoinGlass recorded at least $750 million in crypto liquidations over 24 hours, most of them short positions.",
+    "published_at": "2026-09-21T10:56:54+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "76a43bd4c8483de628b33799",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Forget the growth-stage funding gap, Europe is facing an early-stage crisis",
+    "url": "https://finance.yahoo.com/small-business/articles/forget-growth-stage-funding-gap-104940880.html",
+    "summary": "",
+    "published_at": "2026-09-21T10:49:40+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "stress_financier": 1.0,
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.3333,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.3333,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "13a77d761b3663a1a9c78184",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin hits $85,000 as short squeeze forces out $648 million of bearish bets",
+    "url": "https://www.coindesk.com/markets/2026/09/21/bitcoin-hits-usd85-000-as-short-squeeze-forces-out-usd648-million-of-bearish-bets",
+    "summary": "",
+    "published_at": "2026-09-21T10:30:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "82697cd6d2d5cf18de7b2123",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.",
+    "url": "https://www.marketwatch.com/story/she-says-its-just-money-my-friend-pays-for-everything-i-should-be-grateful-but-i-cant-stand-her-anymore-2e7c5c10?mod=mw_rss_topstories",
+    "summary": "“On each of these weekends away, she’s probably spending $500.”",
+    "published_at": "2026-09-21T10:16:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1d65d1722d51e6df93f2cb11",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "X sues its own users for running a fake bitcoin news bot farm",
+    "url": "https://www.coindesk.com/markets/2026/09/21/x-sues-its-won-users-for-running-a-fake-bitcoin-news-bot-farm",
+    "summary": "",
+    "published_at": "2026-09-21T10:15:44+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b6a6d3d70e63d8aa8c1b7fa1",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Corporate earnings are growing much faster than the economy. What Goldman strategists say about bubble concerns.",
+    "url": "https://www.marketwatch.com/story/corporate-earnings-are-growing-much-faster-than-the-economy-what-goldman-strategists-say-about-bubble-concerns-1f625fb3?mod=mw_rss_topstories",
+    "summary": "A team at the bank, led by Ben Snider, wrote in a recent note that they see S&P 500 earnings per share growth slowing to 11% in 2027 and 2028.",
+    "published_at": "2026-09-21T10:13:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2be868dd56cc52e50ab9e982",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Daily News 21 / 09 / 2026",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1918",
+    "summary": "European Commission Daily news Brussels, 21 Sep 2026 Commission enhances energy efficiency and sustainability of data centres in the EU The European Commission proposed today a common rating scheme for data centre...",
+    "published_at": "2026-09-21T10:02:15+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d2fa3cee70dcb86bac5c0830",
+    "source": "bce_press",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "ECB to invest part of own funds in tokenised securities, with settlement via Pontes",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921_1~5a011ecbea.en.html",
+    "summary": "",
+    "published_at": "2026-09-21T10:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2558d77bfd9dbb4b106a9828",
+    "source": "bce_press",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Eurosystem brings central bank money to tokenised finance",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html",
+    "summary": "",
+    "published_at": "2026-09-21T10:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d4f68eb9fcaf2980a6cdffdc",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Best CD rates today, Monday, September 21, 2026: Lock in up to 4.40% APY",
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-monday-september-21-2026-lock-in-up-to-440-apy-100000956.html",
+    "summary": "",
+    "published_at": "2026-09-21T10:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1b7ee769c8d4b5c8b9471886",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "HELOC and home equity loan rates today, Monday, September 21, 2026: A 33-basis-point differential",
+    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-monday-september-21-2026-a-33-basis-point-differential-100000210.html",
+    "summary": "",
+    "published_at": "2026-09-21T10:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bb34aeb26258050ab1fdf7f4",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Best high-yield savings interest rates today, Monday, September 21, 2026: Earn up to 4.10% APY",
+    "url": "https://finance.yahoo.com/personal-finance/banking/article/best-high-yield-savings-interest-rates-today-monday-september-21-2026-earn-up-to-410-apy-100000921.html",
+    "summary": "",
+    "published_at": "2026-09-21T10:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "34a1dd4549369ec6c5d35569",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Mortgage and refinance interest rates today, Monday, September 21, 2026: Refinance rates mostly lower",
+    "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-monday-september-21-2026-refinance-rates-mostly-lower-100000495.html",
+    "summary": "",
+    "published_at": "2026-09-21T10:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7a7fbab379844a05a92937ec",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "X sues UK duo over alleged $277K crypto account payout fraud",
+    "url": "https://www.theblock.co/news/regulation/2026-09-21-x-sues-uk-duo-over-alleged-277k-crypto-account-payout-fraud-415889",
+    "summary": "X alleges two UK users manipulated crypto-focused accounts to obtain $277,000 through its creator revenue-sharing program.",
+    "published_at": "2026-09-21T09:24:27+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9a3534ff5343f43f1e8bd115",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "My husband and I are in our 50s and have no kids. We have $2 million. Do we need a will?",
+    "url": "https://www.marketwatch.com/story/my-husband-and-i-are-in-our-50s-and-have-no-kids-we-have-2-million-do-we-need-a-will-62fb422f?mod=mw_rss_topstories",
+    "summary": "“We have no debt and own our primary home, a vacation home, as well as my mother’s home in another state.”",
+    "published_at": "2026-09-21T09:15:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9edf7130e4eac272c7d0ecc6",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Crypto enjoys bullish bounce post-Fed rate hike: Crypto Week Ahead",
+    "url": "https://www.coindesk.com/markets/2026/09/21/crypto-week-ahead",
+    "summary": "",
+    "published_at": "2026-09-21T09:12:42+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0,
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.3333,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.3333,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "aa17983fd2bb2bcaee3a7856",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Kylie Jenner sells California mansion for $5 million below asking",
+    "url": "https://www.marketwatch.com/story/kylie-jenner-sells-california-mansion-for-5-million-below-asking-a6f2bb38?mod=mw_rss_topstories",
+    "summary": "Reality TV superstar and fashion mogul Kylie Jenner has finally found a buyer for her longtime California mansion, offloading the home for $15.3 million.",
+    "published_at": "2026-09-21T09:05:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8adb8ac63006d3de60d5bb08",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Steven Spielberg lists longtime L.A. equestrian ranch for $30 million",
+    "url": "https://www.marketwatch.com/story/steven-spielberg-lists-longtime-l-a-equestrian-ranch-for-30-million-2209cbb4?mod=mw_rss_topstories",
+    "summary": "Filmmaker Steven Spielberg has listed the sprawling Los Angeles ranch where he housed his horses for nearly $30 million—decades after abandoning controversial plans to transform the property with an enormous five-story riding facility.",
+    "published_at": "2026-09-21T09:03:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2455e8b90343da6dbb700dc2",
+    "source": "bce_pub",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Inflation narratives and risk premia",
+    "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3288~e05b586456.en.pdf",
+    "summary": "Theory suggests inflation risk premia are positive when supply shocks are expected to dominate demand shocks and negative otherwise. We measure these beliefs using demand and supply narratives derived from inflation news via Causality Extraction, which identifies causal relations between inflation and its drivers. Using narrative extracted from inflation news from the Financial Times for the Euro Area and the Wall Street Journal for the US, our key variable, NetDemand, measures the difference in articles attributing inflation to demand versus supply factors. Consistent with asset pricing theo…",
+    "published_at": "2026-09-21T09:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500",
+      "europe"
+    ],
+    "assets_effective": [
+      "sp500",
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2c250d168563ba57b1646b4b",
+    "source": "bce_pub",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "The impact of macroprudential policy fragmentation on corporate lending – evidence from a novel indicator",
+    "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3287~f3a9c1695b.en.pdf",
+    "summary": "We construct a novel bank-level index that quantifies fragmentation in the capital buffer framework faced by euro area banks. Defined at quarterly frequency, it measures fragmentation by looking at the number of simultaneously active buffers, their geographical dispersion, and the frequency of buffer rate changes within the preceding year. The index is orthogonalised with respect to the level of capital requirements, bank size, and the financial cycle, thus controlling for these factors when measuring fragmentation as defined above. We then show that a one standard deviation increase in the i…",
+    "published_at": "2026-09-21T09:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8ccbc22fbeeb8869c2f01cee",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Hana Bank issues South Korea’s first digital bond using Euroclear’s blockchain",
+    "url": "https://www.coindesk.com/business/2026/09/21/hana-bank-issues-south-korea-s-first-digital-bond-using-euroclear-s-blockchain",
+    "summary": "",
+    "published_at": "2026-09-21T08:49:59+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie",
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "asie",
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b1ed6826a722397ce96e3ce0",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Live updates: Bitcoin hits $85,000 as short liquidations hit $300 million in an hour",
+    "url": "https://www.coindesk.com/business/2026/09/21/live-updates-bitcoin-rises-above-usd82-000-as-falling-oil-lifts-risk-assets",
+    "summary": "",
+    "published_at": "2026-09-21T08:39:26+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "30c3ad757e9212e5f5a66660",
+    "source": "amf_news",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "reglementation",
+    "assets": [
+      "europe",
+      "btc",
+      "eth"
+    ],
+    "title": "France FinTech, l'ACPR et l'AMF annoncent la 6ème édition des French FinTech Weeks",
+    "url": "https://www.amf-france.org/fr/actualites-publications/actualites/france-fintech-lacpr-et-lamf-annoncent-la-6eme-edition-des-french-fintech-weeks#xts=607212&xtor=RSS-3&type=RSS",
+    "summary": "Actualité Innovation France FinTech, l'ACPR et l'AMF annoncent la 6ème édition des French FinTech Weeks",
+    "published_at": "2026-09-21T08:11:12+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2ab8c0e7a8f4a6d958d8d95a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures rise as oil falls, anticipation builds for Trump-Xi summit",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-september-21-dow-sp-500-nasdaq-080214605.html",
+    "summary": "",
+    "published_at": "2026-09-21T08:02:14+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3221bcd976b27ff51ca52cac",
+    "source": "bce_pub",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "The uneven journey of wholesale gas and electricity prices to consumer bills",
+    "url": "https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202606_04~5f026ee8e2.en.html",
+    "summary": "The sharp rise in energy prices in the first half of 2026 evoked memories of the 2021-22 energy price shock. However, the 2026 energy price shock has so far been smaller in scale. This reflects more limited growth in wholesale gas prices and an increased share of electricity generated from renewables, which has dampened the pass-through of gas prices to wholesale electricity prices. The transmission of wholesale prices to retail prices has also changed, becoming somewhat faster for gas prices. These developments imply that shifts in wholesale gas prices may be feeding through to HICP gas infl…",
+    "published_at": "2026-09-21T08:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a3be83ae641294a5dcf8b682",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Kalshi faces ‘fake crypto volume’ allegations as critic flags identical $5,500 trades",
+    "url": "https://www.coindesk.com/markets/2026/09/21/kalshi-s-crypto-chief-responds-to-fake-crypto-volume-allegations-as-critic-flags-identical-usd5-500-trades",
+    "summary": "",
+    "published_at": "2026-09-21T06:20:47+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "f6b9a1faa168eb26165fa4dd",
     "source": "nikkei_asia",
     "tier": 3,
@@ -756,6 +3070,120 @@
     "scored_by": "lexique"
   },
   {
+    "id": "77743253c71d2b4b274cc1b3",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "What is money?",
+    "url": "https://www.bis.org/speeches/20260921-what-money",
+    "summary": "Speech by Ms Anna Seim, Deputy Governor of the Sveriges Riksbank, at the Economy Museum, Stockholm, 9 September 2026.",
+    "published_at": "2026-09-21T00:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "40667e29da8fcd828988aa2d",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Building the financial system of the future - trusted, connected and resilient",
+    "url": "https://www.bis.org/speeches/20260921-building-financial-system-future-trusted-connected-and-resilient",
+    "summary": "Special address by Mr Chia Der Jiun, Managing Director of the Monetary Authority of Singapore, at the Global Fintech Festival 2026, Mumbai, 11 September 2026.",
+    "published_at": "2026-09-21T00:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {
+      "croissance": 2.0
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.6667,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.6667,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b93c6c9908b5cc82707befb0",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Shaping the next decade of finance - technology, trust and innovation",
+    "url": "https://www.bis.org/speeches/20260921-shaping-next-decade-finance-technology-trust-and-innovation",
+    "summary": "Keynote address by Mr Sanjay Malhotra, Governor of the Reserve Bank of India, at the Global Fintech Festival 2026, Mumbai, 10 September 2026.",
+    "published_at": "2026-09-21T00:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2a81e0746c34e68487ec91fa",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Economic activity, prices, and monetary policy in Japan",
+    "url": "https://www.bis.org/speeches/20260921-economic-activity-prices-and-monetary-policy-japan",
+    "summary": "Speech by Mr Kazuyuki Masu, Member of the Policy Board of the Bank of Japan, at a meeting with local leaders, Fukui, 10 September 2026.",
+    "published_at": "2026-09-21T00:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "c4df95c00038467f92b0f1fe",
     "source": "investing_com",
     "tier": 3,
@@ -1083,6 +3511,64 @@
     "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "83450975d4356aa1d5858ed1",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Commission enhances energy efficiency and sustainability of data centres in the EU",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1667",
+    "summary": "European Commission Press release Brussels, 21 Sep 2026 The European Commission proposed today a common rating scheme for data centres aimed at increasing transparency on their energy use and supporting their sustainable integration into Europe's energy system.",
+    "published_at": "2026-09-20T22:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f84565ab10caa721694e0a25",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "EU Customs Reform marks a new era for customs in Europe",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1904",
+    "summary": "European Commission Press release Brussels, 21 Sep 2026 The EU Customs Reform has entered into force, marking the start of a better, smarter and simpler customs system across the EU.",
+    "published_at": "2026-09-20T22:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
@@ -20014,6 +22500,33 @@
     ],
     "has_decision_marker": false,
     "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fcc6822993415504857046c4",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "National Bank of Ukraine press briefing - monetary policy decisions",
+    "url": "https://www.bis.org/speeches/20260921-national-bank-ukraine-press-briefing-monetary-policy-decisions",
+    "summary": "Speech by Mr Andriy Pyshnyy, Governor of the National Bank of Ukraine, at a press briefing on monetary policy decisions, Kyiv, 17 September 2026.",
+    "published_at": "2026-09-18T00:00:00+00:00",
+    "collected_at": "2026-09-21T12:36:40.058860+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,

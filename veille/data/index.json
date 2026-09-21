@@ -36,63 +36,79 @@
     ]
   },
   "2026-09-21": {
-    "articles_count": 25,
-    "signal_count": 4,
-    "tone_cb": null,
-    "tone_global": -0.125,
-    "regul_crypto": null,
-    "stress": 0.0,
+    "articles_count": 111,
+    "signal_count": 21,
+    "tone_cb": 0.0372,
+    "tone_global": -0.0162,
+    "regul_crypto": 0.12,
+    "stress": 0.0125,
     "top": [
       {
-        "id": "2171ea82b6579939b8e97a2f",
-        "title": "US says China talks yield progress on tariff carve-outs, AI dialogue",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/us-says-china-talks-yield-progress-on-tariff-carve-outs-ai-dialogue"
+        "id": "1dc1d3a804bd729f4ef23a88",
+        "title": "Navigating uncertainty: how the Middle East conflict is shaping expectations and coping strategies of firms",
+        "source": "bce_pub",
+        "score": 1.95,
+        "tone": -0.691,
+        "url": "https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202606_02~b97ea4e6de.en.html"
       },
       {
-        "id": "21d18c9065a9bfff64d85d3f",
-        "title": "Oil slips as investors assess Saudi export recovery",
-        "source": "investing_com",
-        "score": 0.3,
+        "id": "e70afe0a342460f1528dd3d6",
+        "title": "Bank of England announces new office space in Leeds",
+        "source": "boe_news",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/september/bank-of-england-announces-new-office-space-in-leeds"
+      },
+      {
+        "id": "2f0b6e79a2f2a012df50af15",
+        "title": "Foreign Currency Reserves 2026 – Market Notice 21 September 2026",
+        "source": "boe_news",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/september/foreign-currency-reserves-2026-market-notice-21-september-2026"
+      },
+      {
+        "id": "40667e29da8fcd828988aa2d",
+        "title": "Building the financial system of the future - trusted, connected and resilient",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.6667,
+        "url": "https://www.bis.org/speeches/20260921-building-financial-system-future-trusted-connected-and-resilient"
+      },
+      {
+        "id": "3221bcd976b27ff51ca52cac",
+        "title": "The uneven journey of wholesale gas and electricity prices to consumer bills",
+        "source": "bce_pub",
+        "score": 1.3,
         "tone": 0.5,
-        "url": "https://www.investing.com/news/commodities-news/oil-rises-after-houthi-attack-on-saudi-capital-4908199"
-      },
-      {
-        "id": "8b83ec1d457d38204edce2a4",
-        "title": "U.S. stock index futures rise with China summit, Iran escalation in focus",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/stock-market-news/us-stock-index-futures-rise-with-china-summit-iran-escalation-in-focus-4908205"
-      },
-      {
-        "id": "f6b9a1faa168eb26165fa4dd",
-        "title": "Japan-China ties wither as Trump readies red carpet for Xi Jinping",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/politics/international-relations/japan-china-tensions/japan-china-ties-wither-as-trump-readies-red-carpet-for-xi-jinping"
-      },
-      {
-        "id": "6938b28f571d7f3b6cd5eda3",
-        "title": "Pakistan eyes cheaper, faster Persian Gulf remittance with Arab Buna link",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/finance/pakistan-eyes-cheaper-faster-persian-gulf-remittance-with-arab-buna-link"
+        "url": "https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202606_04~5f026ee8e2.en.html"
       }
     ]
   },
   "2026-09-20": {
-    "articles_count": 172,
+    "articles_count": 174,
     "signal_count": 25,
     "tone_cb": null,
     "tone_global": 0.2107,
     "regul_crypto": 0.6,
-    "stress": 0.0115,
+    "stress": 0.0113,
     "top": [
+      {
+        "id": "83450975d4356aa1d5858ed1",
+        "title": "Commission enhances energy efficiency and sustainability of data centres in the EU",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1667"
+      },
+      {
+        "id": "f84565ab10caa721694e0a25",
+        "title": "EU Customs Reform marks a new era for customs in Europe",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1904"
+      },
       {
         "id": "70fe1feba31a7410b751dd69",
         "title": "UN Private Sector Forum - UN Global Compact",
@@ -116,22 +132,6 @@
         "score": 0.3,
         "tone": 0.6667,
         "url": "https://finance.yahoo.com/markets/stocks/articles/willis-lease-finance-wlfc-bets-205718056.html"
-      },
-      {
-        "id": "3d73179ffce18c6f9564d07e",
-        "title": "Semtech’s (SMTC) LoRa Plus Expansion Is Bigger Than Two New Chips",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://finance.yahoo.com/technology/articles/semtech-smtc-lora-plus-expansion-205447567.html"
-      },
-      {
-        "id": "709068235f8eacb27d46b8ef",
-        "title": "China keeps lending rates on hold as room for monetary easing narrows",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://www.investing.com/news/economy-news/china-keeps-lending-rates-on-hold-as-room-for-monetary-easing-narrows-4908136"
       }
     ]
   },
@@ -186,7 +186,7 @@
     ]
   },
   "2026-09-18": {
-    "articles_count": 285,
+    "articles_count": 286,
     "signal_count": 31,
     "tone_cb": 0.0,
     "tone_global": -0.019,
