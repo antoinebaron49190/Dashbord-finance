@@ -62,6 +62,204 @@
     "scored_by": "lexique"
   },
   {
+    "id": "b7da1287e1b5e831cea5b2af",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oil extends decline amid U.S.-Iran diplomacy hopes",
+    "url": "https://www.investing.com/news/commodities-news/oil-extends-decline-amid-usiran-diplomacy-hopes-4908212",
+    "summary": "",
+    "published_at": "2026-09-21T00:49:45+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "21d18c9065a9bfff64d85d3f",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oil slips as investors assess Saudi export recovery",
+    "url": "https://www.investing.com/news/commodities-news/oil-rises-after-houthi-attack-on-saudi-capital-4908199",
+    "summary": "",
+    "published_at": "2026-09-21T00:42:50+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f44cbbeecc88a1028df5615c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Tech leads shares higher in Asia, oil eases",
+    "url": "https://www.investing.com/news/stock-market-news/tech-leads-shares-higher-in-asia-oil-eases-4908206",
+    "summary": "",
+    "published_at": "2026-09-21T00:42:30+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8b83ec1d457d38204edce2a4",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "U.S. stock index futures rise with China summit, Iran escalation in focus",
+    "url": "https://www.investing.com/news/stock-market-news/us-stock-index-futures-rise-with-china-summit-iran-escalation-in-focus-4908205",
+    "summary": "",
+    "published_at": "2026-09-21T00:12:42+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4aae4ecc3cbf8734ee65a831",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Europe faces Q4 jet fuel supply deficit even as South Korea becomes latest big supplier",
+    "url": "https://www.investing.com/news/commodities-news/europe-faces-q4-jet-fuel-supply-deficit-even-as-south-korea-becomes-latest-big-supplier-4908204",
+    "summary": "",
+    "published_at": "2026-09-21T00:06:24+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c4df95c00038467f92b0f1fe",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Australia’s Telix agrees to buy Germany’s ITM Isotope for $1.65 bln",
+    "url": "https://www.investing.com/news/stock-market-news/australias-telix-agrees-to-buy-germanys-itm-isotope-for-165-bln-4908202",
+    "summary": "",
+    "published_at": "2026-09-20T23:48:10+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dfb2f80a9e664f663f55c334",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "UK property asking prices rise for first time since May, Rightmove says",
+    "url": "https://www.investing.com/news/economic-indicators/uk-property-asking-prices-rise-for-first-time-since-may-rightmove-says-4908200",
+    "summary": "",
+    "published_at": "2026-09-20T23:06:24+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "d9d027001b9395874c14b6f0",
     "source": "nikkei_asia",
     "tier": 3,
@@ -7015,6 +7213,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "c2ab837a30bf94d2de90a8bf",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "IonQ's Options Are the Cheapest They've Been All Year. Here's the Trade That Takes Advantage.",
+    "url": "https://finance.yahoo.com/markets/options/articles/ionqs-options-cheapest-theyve-heres-155811959.html",
+    "summary": "",
+    "published_at": "2026-09-19T15:58:11+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "c7c7d02ed881a934fcd14e1c",
     "source": "yahoo_finance",
     "tier": 3,
@@ -7147,6 +7371,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "59e1c1cc4e6665178755f2a0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "No Degree, No Problem: Why the Job Market Is Booming for Americans Without College Degrees",
+    "url": "https://finance.yahoo.com/economy/articles/no-degree-no-problem-why-153002314.html",
+    "summary": "",
+    "published_at": "2026-09-19T15:30:02+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "beb4eae9859fc56b36210247",
     "source": "marketwatch",
     "tier": 3,
@@ -7225,6 +7475,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "9d29949f8921073af62c79ef",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Before You Conclude the AI Era Won’t End Like the Dot-Com Era Did, Check Out These 2 Charts",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/conclude-ai-era-won-t-150002323.html",
+    "summary": "",
+    "published_at": "2026-09-19T15:00:02+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "1384621c044b671d293ac818",
     "source": "investing_com",
     "tier": 3,
@@ -7283,6 +7559,166 @@
     "scored_by": "lexique"
   },
   {
+    "id": "3cd54b5d28b730a0af803dc3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "1 Year Into the Microsoft Deal, IREN Is Delivering and a Rally May Follow Soon",
+    "url": "https://finance.yahoo.com/technology/ai/articles/1-microsoft-deal-iren-delivering-142734921.html",
+    "summary": "",
+    "published_at": "2026-09-19T14:27:34+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5a9066809acaf3a832e64326",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SpaceX’s Nasdaq 100 Weight Is Confirmed at 2.82% in Rebalance",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-nasdaq-100-weight-confirmed-141701836.html",
+    "summary": "",
+    "published_at": "2026-09-19T14:17:01+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ffa8aec8b1cc543b89ef623a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Hims & Hers Chief Legal Officer Soleil Boughton Sells 6,236 Shares",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/hims-hers-chief-legal-officer-141501875.html",
+    "summary": "",
+    "published_at": "2026-09-19T14:15:01+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7c6e4e144bb3977e287f5f34",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Lennar’s Earnings Miss May Be Sending a Bigger Warning About U.S. Housing",
+    "url": "https://finance.yahoo.com/real-estate/articles/lennar-earnings-miss-may-sending-141500617.html",
+    "summary": "",
+    "published_at": "2026-09-19T14:15:00+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a84e53e501c45ac4dfd9e7d0",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Trader With 89% Win Rate Loses $10.68 Million Shorting Zcash",
+    "url": "https://finance.yahoo.com/markets/crypto/articles/trader-89-win-rate-loses-141115721.html",
+    "summary": "",
+    "published_at": "2026-09-19T14:11:15+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ec7caaba9ad8f259ad2f6ec9",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Is Xometry Stock Still a Buy After a 144% Six-Month Run?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/xometry-stock-still-buy-144-140811229.html",
+    "summary": "",
+    "published_at": "2026-09-19T14:08:11+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "0d30d970eabfabdc69b0d54a",
     "source": "yahoo_finance",
     "tier": 3,
@@ -7297,6 +7733,142 @@
     "summary": "",
     "published_at": "2026-09-19T14:07:25+00:00",
     "collected_at": "2026-09-20T14:28:59.514485+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "11ac46b02e602bdedebda29a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Anthropic's IPO Is Coming. Here's What That Means for S&P 500 Investors.",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/anthropics-ipo-coming-heres-means-140500319.html",
+    "summary": "",
+    "published_at": "2026-09-19T14:05:00+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "155466a7feea21c8e9a0c71a",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Moody’s Just Delivered Its Best Quarter in Years. Is Its Stock Still Undervalued?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/moody-just-delivered-best-quarter-140354571.html",
+    "summary": "",
+    "published_at": "2026-09-19T14:03:54+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6398d1c09c02badeae8d99c3",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "IBM Has Raised Its Dividend for 31 Years. Inflation Is Still Winning",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/ibm-raised-dividend-31-years-140251592.html",
+    "summary": "",
+    "published_at": "2026-09-19T14:02:51+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bfb5dd0b86080b37f887af40",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Keysight Technologies Sees AI Data-Center Boom, Targets 6G and Defense Growth",
+    "url": "https://finance.yahoo.com/technology/ai/articles/keysight-technologies-sees-ai-data-140206897.html",
+    "summary": "",
+    "published_at": "2026-09-19T14:02:06+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7386f910ca07efad9270ba69",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Texas Data Centers ‘Dug Their Own Grave,’ Gov Says. At 63, a Rancher Can Lease His Land and Give Social Security More Time to Grow.",
+    "url": "https://finance.yahoo.com/real-estate/articles/texas-data-centers-dug-own-140139976.html",
+    "summary": "",
+    "published_at": "2026-09-19T14:01:39+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [],
@@ -7383,6 +7955,88 @@
     "assets_effective": [
       "btc",
       "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0e68d6e3088e3794c70852d5",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Schwab Treasury ETF vs SPDR Corporate Bond ETF. Which Bond Fund Is the Better Insurance Policy for Your Portfolio?",
+    "url": "https://finance.yahoo.com/markets/options/articles/schwab-treasury-etf-vs-spdr-135701711.html",
+    "summary": "",
+    "published_at": "2026-09-19T13:57:01+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "47f1b2b51782b9ceafc4a857",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Has AGNC's Monthly Dividend Made Up for What Its Share Price Did?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/agncs-monthly-dividend-made-share-135000769.html",
+    "summary": "",
+    "published_at": "2026-09-19T13:50:00+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "967ef66ee0959d69394a748d",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bank of America Sets 12-Month S&P 500 Target at 7,800, Sees 2% Upside",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sets-12-month-134200044.html",
+    "summary": "",
+    "published_at": "2026-09-19T13:42:00+00:00",
+    "collected_at": "2026-09-21T00:57:21.673648+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
     ],
     "has_decision_marker": false,
     "importance": 0.3,
