@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-09-19T10:18:58.254131+00:00",
-  "pending": [],
+  "updated_at": "2026-09-22T07:18:49.649836+00:00",
+  "pending": [
+    {
+      "fingerprint": "extreme:Fear & Greed crypto:haut",
+      "title": "Fear & Greed crypto : 78/100",
+      "body": "Fear & Greed crypto à 78/100 — plus optimiste que 93 % de toute l'histoire de l'indice. Un extrême historique décrit le présent ; il ne dit rien de la suite.",
+      "kind": "extreme",
+      "detected_at": "2026-09-22T07:18:49.649756+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -81,5 +89,7 @@
     "trend:shanghai:baissiere->indecise:2026-09-18",
     "trend:shanghai:baissiere->indecise:2026-09-19"
   ],
-  "extremes_active": []
+  "extremes_active": [
+    "extreme:Fear & Greed crypto:haut"
+  ]
 }

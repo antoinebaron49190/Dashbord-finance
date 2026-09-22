@@ -36,13 +36,37 @@
     ]
   },
   "2026-09-22": {
-    "articles_count": 12,
-    "signal_count": 2,
+    "articles_count": 34,
+    "signal_count": 5,
     "tone_cb": null,
-    "tone_global": -0.5,
-    "regul_crypto": null,
+    "tone_global": -0.0667,
+    "regul_crypto": -0.6,
     "stress": 0.0,
     "top": [
+      {
+        "id": "6b70342d969d399485e8b6c3",
+        "title": "Philip R. Lane: Interview with Le Temps",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html"
+      },
+      {
+        "id": "c95317cc85aa72c6510cf2c9",
+        "title": "Singapore maps out more land reclamation for industrial growth",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/business/markets/property/singapore-maps-out-more-land-reclamation-for-industrial-growth"
+      },
+      {
+        "id": "7b83fe83f0982164f3a7d218",
+        "title": "Dogecoin leads market rebound with 15% pump, bitcoin steady above $85,000",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.coindesk.com/markets/2026/09/22/dogecoin-leads-market-rebound-with-15-pump-bitcoin-steady-above-usd85-000"
+      },
       {
         "id": "9b8fc6af97049f885b30bdb7",
         "title": "Binance faces U.S. probe over potential Iran sanctions violations- Bloomberg",
@@ -58,40 +82,16 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://www.investing.com/news/economy-news/yen-squeezed-as-hawkish-turn-grips-central-banks-4909801"
-      },
-      {
-        "id": "d421511d490906b813e6c4e9",
-        "title": "EU chamber urges China to curb overcapacity ahead of crunch talks",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/economy/trade-war/eu-chamber-urges-china-to-curb-overcapacity-ahead-of-crunch-talks"
-      },
-      {
-        "id": "c26b01b8cd4973617b7d125b",
-        "title": "Seoul 'Central Park' plan faces pressure from housing supply crunch",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/society/seoul-central-park-plan-faces-pressure-from-housing-supply-crunch"
-      },
-      {
-        "id": "c01d82c8c005269dd48227fe",
-        "title": "SK Hynix tests 200 SMA at KRW 1,960,000: Live levels",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/stock-market-news/sk-hynix-squeezed-below-1911000-resistance-live-levels-93CH-4908215"
       }
     ]
   },
   "2026-09-21": {
-    "articles_count": 181,
+    "articles_count": 183,
     "signal_count": 26,
     "tone_cb": 0.0372,
     "tone_global": -0.0018,
     "regul_crypto": 0.12,
-    "stress": 0.0168,
+    "stress": 0.0165,
     "top": [
       {
         "id": "1dc1d3a804bd729f4ef23a88",
@@ -136,12 +136,12 @@
     ]
   },
   "2026-09-20": {
-    "articles_count": 231,
-    "signal_count": 29,
+    "articles_count": 243,
+    "signal_count": 30,
     "tone_cb": null,
-    "tone_global": 0.1874,
+    "tone_global": 0.1811,
     "regul_crypto": 0.6,
-    "stress": 0.0085,
+    "stress": 0.0081,
     "top": [
       {
         "id": "83450975d4356aa1d5858ed1",
@@ -168,20 +168,20 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1912"
       },
       {
+        "id": "95022e8ad82731901a87d238",
+        "title": "He Converted $40,000 a Year for Ten Years. His Brother Left the Same $450,000 Alone and Watched It Grow to $730,000. Only One of Them Owns What the Statement Says",
+        "source": "yahoo_finance",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://finance.yahoo.com/markets/options/articles/converted-40-000-ten-years-200332413.html"
+      },
+      {
         "id": "6370529f76d72c53980eb038",
         "title": "Multi-Asset Trading Venue Monochrome Exchange Announces IEO of Its Native Token, $MCR",
         "source": "investing_com",
         "score": 0.45,
         "tone": 0.0,
         "url": "https://www.investing.com/news/cryptocurrency-news/multiasset-trading-venue-monochrome-exchange-announces-ieo-of-its-native-token-mcr-4908176"
-      },
-      {
-        "id": "10eb2416b11df17a55f4b361",
-        "title": "Willis Lease Finance (WLFC) Bets on Malaysia for Next Phase of Global Expansion",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://finance.yahoo.com/markets/stocks/articles/willis-lease-finance-wlfc-bets-205718056.html"
       }
     ]
   },
