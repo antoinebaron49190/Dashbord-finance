@@ -36,13 +36,21 @@
     ]
   },
   "2026-09-22": {
-    "articles_count": 198,
-    "signal_count": 30,
-    "tone_cb": -0.5,
-    "tone_global": -0.0068,
+    "articles_count": 225,
+    "signal_count": 33,
+    "tone_cb": -0.2,
+    "tone_global": 0.01,
     "regul_crypto": 0.0,
     "stress": 0.0,
     "top": [
+      {
+        "id": "3a8967e20d17dcf72674fee5",
+        "title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
+        "source": "fed_press_all",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm"
+      },
       {
         "id": "25babb8e87744a530b7bfcb0",
         "title": "Foreign Currency Reserves 2026 – Market Notice 22 September 2026",
@@ -74,24 +82,16 @@
         "score": 1.3,
         "tone": -0.5,
         "url": "https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202606_06~ef276e3f80.en.html"
-      },
-      {
-        "id": "d910d1733151ded471abab1a",
-        "title": "Jefferson, Discount Window Modernization and Treasury Market Functioning",
-        "source": "fed_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260922a.htm"
       }
     ]
   },
   "2026-09-21": {
-    "articles_count": 189,
+    "articles_count": 213,
     "signal_count": 26,
     "tone_cb": 0.0372,
     "tone_global": -0.0018,
     "regul_crypto": 0.12,
-    "stress": 0.0157,
+    "stress": 0.0143,
     "top": [
       {
         "id": "1dc1d3a804bd729f4ef23a88",
