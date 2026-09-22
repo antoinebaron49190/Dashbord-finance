@@ -62,6 +62,328 @@
     "scored_by": "lexique"
   },
   {
+    "id": "d421511d490906b813e6c4e9",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "EU chamber urges China to curb overcapacity ahead of crunch talks",
+    "url": "https://asia.nikkei.com/economy/trade-war/eu-chamber-urges-china-to-curb-overcapacity-ahead-of-crunch-talks",
+    "summary": "",
+    "published_at": "2026-09-22T01:26:02.242163+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c26b01b8cd4973617b7d125b",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Seoul 'Central Park' plan faces pressure from housing supply crunch",
+    "url": "https://asia.nikkei.com/spotlight/society/seoul-central-park-plan-faces-pressure-from-housing-supply-crunch",
+    "summary": "",
+    "published_at": "2026-09-22T01:26:02.242163+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c01d82c8c005269dd48227fe",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SK Hynix tests 200 SMA at KRW 1,960,000: Live levels",
+    "url": "https://www.investing.com/news/stock-market-news/sk-hynix-squeezed-below-1911000-resistance-live-levels-93CH-4908215",
+    "summary": "",
+    "published_at": "2026-09-22T01:04:13+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8c46ea6b5fd8d54bedfa6822",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nikkei 225 overbought at 66,837 with MFI at 100: Live levels",
+    "url": "https://www.investing.com/news/stock-market-news/nikkei-225-tests-200-sma-resistance-at-65337-live-levels-93CH-4908214",
+    "summary": "",
+    "published_at": "2026-09-22T01:04:09+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9b8fc6af97049f885b30bdb7",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Binance faces U.S. probe over potential Iran sanctions violations- Bloomberg",
+    "url": "https://www.investing.com/news/stock-market-news/binance-faces-us-probe-over-potential-iran-sanctions-violations-bloomberg-93CH-4909807",
+    "summary": "",
+    "published_at": "2026-09-22T01:02:31+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c8658f20dd0d40af1079fed5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Paramount wins Warner Bros takeover after settling states, union lawsuits",
+    "url": "https://www.investing.com/news/stock-market-news/paramountsettles-with-california-other-states-clearing-major-hurdle-for-warner-bros-merger-source-says-4909370",
+    "summary": "",
+    "published_at": "2026-09-22T01:01:15+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "36b60392b7ba0fbaac139f48",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Better home & finance CCO Paula Tuffin sells $38,413 in shares",
+    "url": "https://www.investing.com/news/insider-trading-news/better-home--finance-cco-paula-tuffin-sells-38413-in-shares-93CH-4909806",
+    "summary": "",
+    "published_at": "2026-09-22T01:00:58+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2385f2461ab26b101ab0a9c8",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is AnaptysBio stock rising afterhours today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-anaptysbio-stock-rising-afterhours-today-93CH-4909804",
+    "summary": "",
+    "published_at": "2026-09-22T00:57:29+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2fb0c5c42ab04092426cac5d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Canada aims to cut time needed for project reviews, and address strikes",
+    "url": "https://www.investing.com/news/commodities-news/canada-aims-to-cut-time-needed-for-project-reviews-and-address-strikes-4909803",
+    "summary": "",
+    "published_at": "2026-09-22T00:55:16+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0435e64ec681f2c373ca639c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "U.S. stock futures upbeat after AI rally, falling oil boost Wall St",
+    "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-upbeat-after-ai-rally-falling-oil-boost-wall-st-4909802",
+    "summary": "",
+    "published_at": "2026-09-22T00:55:11+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ec41f6801331a563fab48ac4",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Yen squeezed as hawkish turn grips central banks",
+    "url": "https://www.investing.com/news/economy-news/yen-squeezed-as-hawkish-turn-grips-central-banks-4909801",
+    "summary": "",
+    "published_at": "2026-09-22T00:54:33+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a86894dd3d11612074a40e58",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Isq global fund II gp llc sells $14.3m Kinetik Holdings (KNTK) stock",
+    "url": "https://www.investing.com/news/insider-trading-news/isq-global-fund-ii-gp-llc-sells-143m-kinetik-holdings-kntk-stock-93CH-4909800",
+    "summary": "",
+    "published_at": "2026-09-22T00:49:55+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "3a7fde1f55475b7c9683d8eb",
     "source": "nikkei_asia",
     "tier": 3,
@@ -145,6 +467,35 @@
     "scored_by": "lexique"
   },
   {
+    "id": "f9682790e5a03f6d4d3700b6",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Ceremonial Signature event of the Global Green Bond Initiative launch (GGBI)",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1931",
+    "summary": "European Commission Speech New York, 22 Sep 2026 Excellencies, Ladies and gentlemen. Good evening. This is a big evening for us and for our Global Gateway strategy. So thank you for joining. Let me start with ...",
+    "published_at": "2026-09-21T22:25:22+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "2e390c733ac09cf4273dc977",
     "source": "investing_com",
     "tier": 3,
@@ -164,6 +515,35 @@
     "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "924c8dcd709ad095eda81512",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Speech by President von der Leyen at the Summit in Support of Multilateralism",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1926",
+    "summary": "European Commission Speech New York, 22 Sep 2026 President Costa, President Ruto, thank you for bringing us together today. Excellencies, Much has already been said on the need for multilateralism. I can fully...",
+    "published_at": "2026-09-21T22:00:00+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
@@ -1285,6 +1665,35 @@
     "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "610b675772dcbc715fd62878",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Readout of the call between President von der Leyen and President Marcos of the Philippines",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/read_26_1927",
+    "summary": "European Commission Read-out New York, 22 Sep 2026 President von der Leyen spoke today with President Ferdinand R. Marcos Jr. of the Philippines, as the EU and the Philippines are about to conclude talks on a Fr...",
+    "published_at": "2026-09-21T15:48:48+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
@@ -7579,6 +7988,36 @@
     "scored_by": "lexique"
   },
   {
+    "id": "9b39374b0f04b7142e145175",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "U.S.-China Summit, PMI and Other Can't Miss Items this Week",
+    "url": "https://finance.yahoo.com/economy/policy/articles/u-china-summit-pmi-other-170002981.html",
+    "summary": "",
+    "published_at": "2026-09-20T17:00:02+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "09329cef04343f76e286c59c",
     "source": "yahoo_finance",
     "tier": 3,
@@ -8978,6 +9417,32 @@
     "scored_by": "lexique"
   },
   {
+    "id": "1a961fa7e91233beaa540415",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Is a Recession Coming in 2026? History Has Good and Bad News for Investors.",
+    "url": "https://finance.yahoo.com/economy/articles/recession-coming-2026-history-good-132500703.html",
+    "summary": "",
+    "published_at": "2026-09-20T13:25:00+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "c5e81d18dd8124f4a69f8dfa",
     "source": "investing_com",
     "tier": 3,
@@ -9003,6 +9468,32 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c1a4ede3ff182e4222ebdace",
+    "source": "yahoo_finance",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Could $5,000 Invested in SpaceX Help You Retire a Millionaire?",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/could-5-000-invested-spacex-132300546.html",
+    "summary": "",
+    "published_at": "2026-09-20T13:23:00+00:00",
+    "collected_at": "2026-09-22T01:26:02.242163+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
     "scored_by": "lexique"
   },
   {
