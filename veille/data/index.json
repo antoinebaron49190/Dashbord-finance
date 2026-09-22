@@ -36,13 +36,29 @@
     ]
   },
   "2026-09-22": {
-    "articles_count": 34,
-    "signal_count": 5,
-    "tone_cb": null,
-    "tone_global": -0.0667,
-    "regul_crypto": -0.6,
+    "articles_count": 118,
+    "signal_count": 16,
+    "tone_cb": -0.5,
+    "tone_global": -0.1672,
+    "regul_crypto": 0.0,
     "stress": 0.0,
     "top": [
+      {
+        "id": "3fb383aa9900c690d5d7556c",
+        "title": "US equity market developments during the AI boom",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": -0.5,
+        "url": "https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202606_06~ef276e3f80.en.html"
+      },
+      {
+        "id": "6e96df104557b6adf9734f0c",
+        "title": "Which countries are most vulnerable to the industrial rise of China? Mapping Europe’s uneven exposure",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202606_01~5db7b925ff.en.html"
+      },
       {
         "id": "6b70342d969d399485e8b6c3",
         "title": "Philip R. Lane: Interview with Le Temps",
@@ -52,46 +68,30 @@
         "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260922~5f89d300ee.en.html"
       },
       {
-        "id": "c95317cc85aa72c6510cf2c9",
-        "title": "Singapore maps out more land reclamation for industrial growth",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/business/markets/property/singapore-maps-out-more-land-reclamation-for-industrial-growth"
+        "id": "a596dc063f482b457a28ba60",
+        "title": "Europeans are doing more physical activity, new Eurobarometer shows",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1934"
       },
       {
-        "id": "7b83fe83f0982164f3a7d218",
-        "title": "Dogecoin leads market rebound with 15% pump, bitcoin steady above $85,000",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.coindesk.com/markets/2026/09/22/dogecoin-leads-market-rebound-with-15-pump-bitcoin-steady-above-usd85-000"
-      },
-      {
-        "id": "9b8fc6af97049f885b30bdb7",
-        "title": "Binance faces U.S. probe over potential Iran sanctions violations- Bloomberg",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/stock-market-news/binance-faces-us-probe-over-potential-iran-sanctions-violations-bloomberg-93CH-4909807"
-      },
-      {
-        "id": "ec41f6801331a563fab48ac4",
-        "title": "Yen squeezed as hawkish turn grips central banks",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/yen-squeezed-as-hawkish-turn-grips-central-banks-4909801"
+        "id": "1959c730169dd21ccc65d436",
+        "title": "Daily News 22 / 09 / 2026",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1939"
       }
     ]
   },
   "2026-09-21": {
-    "articles_count": 183,
+    "articles_count": 189,
     "signal_count": 26,
     "tone_cb": 0.0372,
     "tone_global": -0.0018,
     "regul_crypto": 0.12,
-    "stress": 0.0165,
+    "stress": 0.0157,
     "top": [
       {
         "id": "1dc1d3a804bd729f4ef23a88",
@@ -136,12 +136,12 @@
     ]
   },
   "2026-09-20": {
-    "articles_count": 243,
+    "articles_count": 244,
     "signal_count": 30,
     "tone_cb": null,
     "tone_global": 0.1811,
     "regul_crypto": 0.6,
-    "stress": 0.0081,
+    "stress": 0.008,
     "top": [
       {
         "id": "83450975d4356aa1d5858ed1",
@@ -160,6 +160,14 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1904"
       },
       {
+        "id": "f4920e022168784b45d104bb",
+        "title": "Speech by Commissioner Lahbib at the Ministerial-Level Side Event on Sudan at the UN General Assembly",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1933"
+      },
+      {
         "id": "70fe1feba31a7410b751dd69",
         "title": "UN Private Sector Forum - UN Global Compact",
         "source": "ec_press",
@@ -174,14 +182,6 @@
         "score": 0.45,
         "tone": 0.0,
         "url": "https://finance.yahoo.com/markets/options/articles/converted-40-000-ten-years-200332413.html"
-      },
-      {
-        "id": "6370529f76d72c53980eb038",
-        "title": "Multi-Asset Trading Venue Monochrome Exchange Announces IEO of Its Native Token, $MCR",
-        "source": "investing_com",
-        "score": 0.45,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/cryptocurrency-news/multiasset-trading-venue-monochrome-exchange-announces-ieo-of-its-native-token-mcr-4908176"
       }
     ]
   },
@@ -3966,21 +3966,13 @@
     ]
   },
   "2026-06-24": {
-    "articles_count": 6,
+    "articles_count": 3,
     "signal_count": 1,
     "tone_cb": -0.6796,
     "tone_global": -0.6796,
     "regul_crypto": null,
-    "stress": 0.1955,
+    "stress": 0.4062,
     "top": [
-      {
-        "id": "b76ff175bcfbc9eaa16e5cb5",
-        "title": "Megan Greene's CV and questionnaire for the Treasury Select Committee",
-        "source": "boe_news",
-        "score": 1.95,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/news/2026/june/megan-greene-tsc-reappointment"
-      },
       {
         "id": "6d00bdbdbcca2b26c9efd043",
         "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
@@ -3996,14 +3988,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/speech/cook20260624a.htm"
-      },
-      {
-        "id": "9b1cb2b5feeb3be5443e7d0b",
-        "title": "Le Pôle commun de l’AMF et de l’ACPR publie son rapport annuel 2025",
-        "source": "amf_news",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/le-pole-commun-de-lamf-et-de-lacpr-publie-son-rapport-annuel-2025#xts=607212&xtor=RSS-3&type=RSS"
       },
       {
         "id": "615add561c3ca3c0a87dffdc",
