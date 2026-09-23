@@ -36,57 +36,57 @@
     ]
   },
   "2026-09-23": {
-    "articles_count": 12,
-    "signal_count": 1,
+    "articles_count": 43,
+    "signal_count": 7,
     "tone_cb": null,
-    "tone_global": 0.5,
+    "tone_global": 0.4792,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
-        "id": "d466efd75b43b5f1c56606b8",
-        "title": "El Nino, AI to widen economic growth gap in developing Asia: ADB",
-        "source": "nikkei_asia",
+        "id": "f8c86ae933898d5b7d80968c",
+        "title": "Almost ten million people took part in ECB survey on new euro banknotes",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html"
+      },
+      {
+        "id": "6da2cedc398c46d464792b48",
+        "title": "Opening address by Commissioner Kubilius at the 2nd Access to Space Conference \"Ready to Launch: Building Europe's Competitive, Resilient and Responsive Access to Space\"",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.6667,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1945"
+      },
+      {
+        "id": "29aa6e9af9c19e7037774578",
+        "title": "Le nombre d’investisseurs particuliers sur les marchés atteint un nouveau record au premier semestre 2026",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/le-nombre-dinvestisseurs-particuliers-sur-les-marches-atteint-un-nouveau-record-au-premier-semestre#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "49bee74f8e114fc409b588cb",
+        "title": "Tableau de bord des investisseurs particuliers actifs - n°22 - Septembre 2026",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/publications/observatoire-de-lepargne/tableau-de-bord-des-investisseurs-particuliers/tableau-de-bord-des-investisseurs-particuliers-actifs-ndeg22-septembre-2026#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "e4ce021dfc63fd010084770b",
+        "title": "Oil holds near two-week lows on easing supply concerns",
+        "source": "investing_com",
         "score": 0.3,
         "tone": 0.5,
-        "url": "https://asia.nikkei.com/economy/el-nino-ai-to-widen-economic-growth-gap-in-developing-asia-adb"
-      },
-      {
-        "id": "94a5c47688badf407305fffa",
-        "title": "In Indonesia's West Kalimantan, prolonged fires and haze choke residents",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/environment/in-indonesia-s-west-kalimantan-prolonged-fires-and-haze-choke-residents"
-      },
-      {
-        "id": "a9058af752fd0b2528c0f9dc",
-        "title": "Asia FX flat, dollar creeps higher ahead of U.S.-China summit",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/forex-news/asia-fx-flat-dollar-creeps-higher-ahead-of-uschina-summit-4912043"
-      },
-      {
-        "id": "e5be9a8fd158d400398832b4",
-        "title": "Asia stocks struggle for direction ahead of Trump-Xi meeting; China shares down",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/stock-market-news/asia-stocks-struggle-for-direction-ahead-of-trumpxi-meeting-china-shares-down-4912042"
-      },
-      {
-        "id": "9c4cee85c91a47bd9e731471",
-        "title": "South Korea’s Lee, Trump welcome progress in US strategic investment projects",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/economy-news/south-koreas-lee-trump-welcome-progress-in-us-strategic-investment-projects-4912022"
+        "url": "https://www.investing.com/news/commodities-news/oil-falls-on-increased-gulf-supply-and-hopes-for-usiran-talks-4912001"
       }
     ]
   },
   "2026-09-22": {
-    "articles_count": 243,
+    "articles_count": 245,
     "signal_count": 36,
     "tone_cb": -0.2,
     "tone_global": 0.0094,
@@ -136,12 +136,12 @@
     ]
   },
   "2026-09-21": {
-    "articles_count": 259,
-    "signal_count": 30,
+    "articles_count": 287,
+    "signal_count": 33,
     "tone_cb": 0.0372,
-    "tone_global": -0.0135,
-    "regul_crypto": 0.12,
-    "stress": 0.0123,
+    "tone_global": -0.0015,
+    "regul_crypto": 0.2,
+    "stress": 0.0142,
     "top": [
       {
         "id": "1dc1d3a804bd729f4ef23a88",
@@ -3966,7 +3966,7 @@
     ]
   },
   "2026-06-25": {
-    "articles_count": 5,
+    "articles_count": 4,
     "signal_count": 4,
     "tone_cb": 0.0,
     "tone_global": -0.2318,
@@ -3988,14 +3988,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625b.htm"
-      },
-      {
-        "id": "e4e8fc7973605ee067a78ad4",
-        "title": "The Retail Payments Infrastructure Board launches consultation on the next generation UK payments infrastructure",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/news/2026/june/rpib-launches-consultation-on-next-generation-uk-payments-infrastructure"
       },
       {
         "id": "12e0fd3b22a8328a21388fbe",
