@@ -36,13 +36,29 @@
     ]
   },
   "2026-09-23": {
-    "articles_count": 43,
-    "signal_count": 7,
-    "tone_cb": null,
-    "tone_global": 0.4792,
-    "regul_crypto": null,
-    "stress": 0.0,
+    "articles_count": 120,
+    "signal_count": 22,
+    "tone_cb": 0.5,
+    "tone_global": 0.2047,
+    "regul_crypto": 0.8093,
+    "stress": 0.007,
     "top": [
+      {
+        "id": "d10701765e89f58cd6d77b11",
+        "title": "Scaling up European firms: the case for an EU company law regime to unlock cross-border investment, innovation and growth",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.5,
+        "url": "https://www.ecb.europa.eu//press/economic-bulletin/articles/2026/html/ecb.ebart202606_01~2b533feaed.en.html"
+      },
+      {
+        "id": "9808f6601ef7d7061097f532",
+        "title": "Barr, A Long-Term View on the Costs of Shelter",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/barr20260923a.htm"
+      },
       {
         "id": "f8c86ae933898d5b7d80968c",
         "title": "Almost ten million people took part in ECB survey on new euro banknotes",
@@ -52,44 +68,28 @@
         "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260923~6ebddaf01e.en.html"
       },
       {
-        "id": "6da2cedc398c46d464792b48",
-        "title": "Opening address by Commissioner Kubilius at the 2nd Access to Space Conference \"Ready to Launch: Building Europe's Competitive, Resilient and Responsive Access to Space\"",
+        "id": "c2f3b0ef29dd0fea7b723395",
+        "title": "EU adopts €505 million package to support Lebanon's stability, recovery and reforms",
         "source": "ec_press",
-        "score": 0.6,
-        "tone": 0.6667,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1945"
-      },
-      {
-        "id": "29aa6e9af9c19e7037774578",
-        "title": "Le nombre d’investisseurs particuliers sur les marchés atteint un nouveau record au premier semestre 2026",
-        "source": "amf_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/le-nombre-dinvestisseurs-particuliers-sur-les-marches-atteint-un-nouveau-record-au-premier-semestre#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "49bee74f8e114fc409b588cb",
-        "title": "Tableau de bord des investisseurs particuliers actifs - n°22 - Septembre 2026",
-        "source": "amf_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/publications/observatoire-de-lepargne/tableau-de-bord-des-investisseurs-particuliers/tableau-de-bord-des-investisseurs-particuliers-actifs-ndeg22-septembre-2026#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "e4ce021dfc63fd010084770b",
-        "title": "Oil holds near two-week lows on easing supply concerns",
-        "source": "investing_com",
-        "score": 0.3,
+        "score": 0.9,
         "tone": 0.5,
-        "url": "https://www.investing.com/news/commodities-news/oil-falls-on-increased-gulf-supply-and-hopes-for-usiran-talks-4912001"
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1946"
+      },
+      {
+        "id": "1e3f7b5801d6937f6fca4106",
+        "title": "Remarks by Commissioner Dombrovskis on Better Regulation at plenary session of the European Economic and Social Committee",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1952"
       }
     ]
   },
   "2026-09-22": {
-    "articles_count": 245,
-    "signal_count": 36,
-    "tone_cb": -0.2,
-    "tone_global": 0.0094,
+    "articles_count": 248,
+    "signal_count": 37,
+    "tone_cb": -0.2857,
+    "tone_global": -0.0342,
     "regul_crypto": 0.0,
     "stress": 0.0,
     "top": [
@@ -110,6 +110,14 @@
         "url": "https://www.bankofengland.co.uk/markets/market-notices/2026/september/foreign-currency-reserves-2026-market-notice-22-september-2026"
       },
       {
+        "id": "ae52e3742ddbb6fedf5ac912",
+        "title": "Artificial intelligence and financial markets",
+        "source": "bce_pub",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpdps/ecb.dp32~90bd9a7638.en.pdf"
+      },
+      {
         "id": "d565b6264b0cb1091b3d94ed",
         "title": "Opening statement - House of Representatives Standing Committee on Economics",
         "source": "bis_cb_speeches",
@@ -124,24 +132,16 @@
         "score": 1.95,
         "tone": 0.0,
         "url": "https://www.bis.org/speeches/20260922-statement-base-rate-national-bank-kazakhstan"
-      },
-      {
-        "id": "3fb383aa9900c690d5d7556c",
-        "title": "US equity market developments during the AI boom",
-        "source": "bce_pub",
-        "score": 1.3,
-        "tone": -0.5,
-        "url": "https://www.ecb.europa.eu//press/economic-bulletin/focus/2026/html/ecb.ebbox202606_06~ef276e3f80.en.html"
       }
     ]
   },
   "2026-09-21": {
-    "articles_count": 287,
+    "articles_count": 288,
     "signal_count": 33,
     "tone_cb": 0.0372,
     "tone_global": -0.0015,
     "regul_crypto": 0.2,
-    "stress": 0.0142,
+    "stress": 0.0141,
     "top": [
       {
         "id": "1dc1d3a804bd729f4ef23a88",
