@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-24T01:04:29.981642+00:00",
+  "updated_at": "2026-09-24T07:11:16.489647+00:00",
   "pending": [
     {
-      "fingerprint": "trend:nikkei:indecise->haussiere:2026-09-24",
-      "title": "Nikkei 225 : tendance haussière",
-      "body": "Nikkei 225 passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-24.",
+      "fingerprint": "trend:shanghai:indecise->baissiere:2026-09-24",
+      "title": "Shanghai : tendance baissière",
+      "body": "Shanghai passe de « sans direction nette » à « baissière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-24.",
       "kind": "tendance",
-      "detected_at": "2026-09-24T01:04:29.981555+00:00"
+      "detected_at": "2026-09-24T07:11:16.489598+00:00"
     }
   ],
   "sent": [
@@ -88,7 +88,8 @@
     "trend:msci_world:haussiere->indecise:2026-09-18",
     "trend:shanghai:baissiere->indecise:2026-09-18",
     "trend:shanghai:baissiere->indecise:2026-09-19",
-    "trend:nikkei:indecise->haussiere:2026-09-24"
+    "trend:nikkei:indecise->haussiere:2026-09-24",
+    "trend:shanghai:indecise->baissiere:2026-09-24"
   ],
   "extremes_active": []
 }
