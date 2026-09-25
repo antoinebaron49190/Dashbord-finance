@@ -36,52 +36,52 @@
     ]
   },
   "2026-09-25": {
-    "articles_count": 11,
-    "signal_count": 1,
-    "tone_cb": null,
-    "tone_global": -0.5,
+    "articles_count": 31,
+    "signal_count": 5,
+    "tone_cb": 0.6667,
+    "tone_global": 0.2867,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
-        "id": "a84e264c0af4b56a18502a4d",
-        "title": "Iran war takes Southeast Asia's renewable plans to new heights",
+        "id": "0e33072f5646003c63c87b63",
+        "title": "(BOJ Review)The Expansion and Diversification of Private Credit Funds",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.6667,
+        "url": "http://www.boj.or.jp/en/research/wps_rev/rev_2026/rev26e13.htm"
+      },
+      {
+        "id": "80ba0da23f0ea1bd644e7635",
+        "title": "(BOJ Review) Granular Insights into Depositor Dynamics and Deposit Spreads in Japanese G-SIBs' Foreign Currency Deposits",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/research/wps_rev/rev_2026/rev26e12.htm"
+      },
+      {
+        "id": "b96aeef9d84e1ec5ad599d77",
+        "title": "Bank of Japan Accounts (September 20)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260920.htm"
+      },
+      {
+        "id": "76ced92586fa2032ea3302f6",
+        "title": "Nepal struggles to raise $5bn for flood recovery as global aid retreats",
         "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/economy/natural-disasters/nepal-struggles-to-raise-5bn-for-flood-recovery-as-global-aid-retreats"
+      },
+      {
+        "id": "91e4a1b92c79be66d7431bc4",
+        "title": "Japanese bank stocks rise tracking yield surge, rate hike bets",
+        "source": "investing_com",
         "score": 0.3,
         "tone": -0.5,
-        "url": "https://asia.nikkei.com/business/energy/iran-war-takes-southeast-asia-s-renewable-plans-to-new-heights"
-      },
-      {
-        "id": "8f4c9acc35a672c9052f2cf0",
-        "title": "Trump-Xi summit live: US president hosts state dinner with tech leaders",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/trump-xi-summit/trump-xi-summit-live-us-president-hosts-state-dinner-with-tech-leaders"
-      },
-      {
-        "id": "3478f48fed4f893886dfcf33",
-        "title": "Chinese CEOs travel to Washington despite summit invite uncertainty",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/trump-xi-summit/chinese-ceos-travel-to-washington-despite-summit-invite-uncertainty"
-      },
-      {
-        "id": "d434d9642029434089b8a6f0",
-        "title": "Xi draws crowds of Chinese welcomers to Washington's Waldorf Astoria",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/trump-xi-summit/xi-draws-crowds-of-chinese-welcomers-to-washington-s-waldorf-astoria"
-      },
-      {
-        "id": "bc907d5797a0420eab4beae5",
-        "title": "MUFG Bank to work with Japan's JAXA on human spaceflight R&D",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/finance/mufg-bank-to-work-with-japan-s-jaxa-on-human-spaceflight-r-d"
+        "url": "https://www.investing.com/news/stock-market-news/japanese-bank-stocks-rise-tracking-yield-surge-rate-hike-bets-4916599"
       }
     ]
   },
