@@ -36,12 +36,12 @@
     ]
   },
   "2026-09-26": {
-    "articles_count": 48,
-    "signal_count": 6,
+    "articles_count": 62,
+    "signal_count": 7,
     "tone_cb": null,
-    "tone_global": -0.1833,
-    "regul_crypto": null,
-    "stress": 0.0204,
+    "tone_global": -0.0714,
+    "regul_crypto": 0.6,
+    "stress": 0.0159,
     "top": [
       {
         "id": "1dfb75e87ac23c8639f6965b",
@@ -50,6 +50,14 @@
         "score": 0.6,
         "tone": 0.0,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1989"
+      },
+      {
+        "id": "72d98c484fad2e3cb6f59671",
+        "title": "Bitcoin ETFs turn positive for 2026 with $2.4 billion weekly inflow, their largest since October",
+        "source": "theblock",
+        "score": 0.3,
+        "tone": 0.6,
+        "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944"
       },
       {
         "id": "24a838d4e1c72c584d75f83f",
@@ -74,14 +82,6 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://asia.nikkei.com/spotlight/trump-xi-summit/us-and-china-agree-on-tariff-relief-for-30bn-of-nonsensitive-goods-each"
-      },
-      {
-        "id": "7d54c5300a2b181324d56f88",
-        "title": "Solana’s 150-millisecond settlement upgrade reaches second public test network",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network"
       }
     ]
   },
