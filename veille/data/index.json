@@ -36,13 +36,37 @@
     ]
   },
   "2026-09-26": {
-    "articles_count": 12,
-    "signal_count": 1,
+    "articles_count": 29,
+    "signal_count": 4,
     "tone_cb": null,
-    "tone_global": -0.5,
+    "tone_global": 0.0,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "240ae726e40191d76b9b183e",
+        "title": "US and China agree on tariff relief for $30bn of nonsensitive goods each",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/spotlight/trump-xi-summit/us-and-china-agree-on-tariff-relief-for-30bn-of-nonsensitive-goods-each"
+      },
+      {
+        "id": "7d54c5300a2b181324d56f88",
+        "title": "Solana’s 150-millisecond settlement upgrade reaches second public test network",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network"
+      },
+      {
+        "id": "9c55afe5dd1342f6c373469d",
+        "title": "XRP Ledger’s Batch upgrade slips to Oct. 9 after validator support resets",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.coindesk.com/tech/2026/09/26/xrp-ledger-s-batch-upgrade-slips-to-oct-9-after-validator-support-resets"
+      },
       {
         "id": "a41f1388b45a22f6cbc43c75",
         "title": "Pomp, tariffs and AI: 5 things to know about the Trump-Xi summit",
@@ -52,44 +76,20 @@
         "url": "https://asia.nikkei.com/spotlight/trump-xi-summit/pomp-tariffs-and-ai-5-things-to-know-about-the-trump-xi-summit"
       },
       {
-        "id": "651da4e5ac50b0aa4160e7d1",
-        "title": "Trump-Xi summit: How the Chinese leader's trip to Washington unfolded",
+        "id": "c19d5d9aa5fb347401af0a21",
+        "title": "Indian expats in Germany unnerved by far-right AfD's electoral gains",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/trump-xi-summit/trump-xi-summit-how-the-chinese-leader-s-trip-to-washington-unfolded"
-      },
-      {
-        "id": "093c26fd750fff1254781b21",
-        "title": "Lyft CFO Erin Brewer sells $219,631 in company stock",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/lyft-cfo-erin-brewer-sells-219631-in-company-stock-93CH-4918390"
-      },
-      {
-        "id": "ae08d0fcc958c461dfcd5eba",
-        "title": "Crowdstrike CFO Burt Podbere sells $125.5m in CRWD shares",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/crowdstrike-cfo-burt-podbere-sells-1255m-in-crwd-shares-93CH-4918388"
-      },
-      {
-        "id": "b5fa77a2306907034198fd5a",
-        "title": "Natera director Sheena’s trusts dispose of $7.0m in NTRA stock",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/natera-director-sheenas-trusts-dispose-of-70m-in-ntra-stock-93CH-4918389"
+        "url": "https://asia.nikkei.com/spotlight/immigration/indian-expats-in-germany-unnerved-by-far-right-afd-s-electoral-gains"
       }
     ]
   },
   "2026-09-25": {
-    "articles_count": 152,
-    "signal_count": 22,
-    "tone_cb": 0.0,
-    "tone_global": 0.0569,
+    "articles_count": 157,
+    "signal_count": 23,
+    "tone_cb": 0.1482,
+    "tone_global": 0.1238,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
@@ -118,30 +118,30 @@
         "url": "http://www.boj.or.jp/en/research/wps_rev/rev_2026/rev26e13.htm"
       },
       {
+        "id": "a221cfea2dd49a888fc34686",
+        "title": "(BOJ Review)The Expansion and Diversification of Private Credit Funds",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.6667,
+        "url": "https://www.boj.or.jp/en/research/wps_rev/rev_2026/rev26e13.htm"
+      },
+      {
         "id": "45b3059b955a0b8dcef2e8be",
         "title": "Conduct of Funds-Supplying Operations against Pooled Collateral",
         "source": "boj_news",
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260925a.pdf"
-      },
-      {
-        "id": "5e7255b0fd2b3b01eeb3f7bc",
-        "title": "Japanese Government Bonds Held by the Bank of Japan",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260918.xlsx"
       }
     ]
   },
   "2026-09-24": {
-    "articles_count": 192,
+    "articles_count": 193,
     "signal_count": 24,
     "tone_cb": 0.375,
     "tone_global": 0.1418,
     "regul_crypto": -0.6,
-    "stress": 0.0037,
+    "stress": 0.0036,
     "top": [
       {
         "id": "0e2bae28dbb9774ea8700505",
@@ -176,12 +176,12 @@
         "url": "http://www.boj.or.jp/en/statistics/bis/ibs/index.htm"
       },
       {
-        "id": "5c3f2206246fa512fbecc399",
-        "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-        "source": "fed_press_all",
+        "id": "b1568d3e5707212cccf9cc80",
+        "title": "Results of BIS International Locational Banking Statistics and International Consolidated Banking Statistics in Japan",
+        "source": "boj_news",
         "score": 1.3,
         "tone": 0.0,
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm"
+        "url": "https://www.boj.or.jp/en/statistics/bis/ibs/index.htm"
       }
     ]
   },
@@ -436,12 +436,12 @@
     ]
   },
   "2026-09-18": {
-    "articles_count": 286,
+    "articles_count": 289,
     "signal_count": 31,
     "tone_cb": 0.0,
     "tone_global": -0.019,
     "regul_crypto": 0.075,
-    "stress": 0.0029,
+    "stress": 0.0028,
     "top": [
       {
         "id": "bbfeeec78b01a0a9127b453e",
@@ -536,12 +536,12 @@
     ]
   },
   "2026-09-16": {
-    "articles_count": 384,
+    "articles_count": 386,
     "signal_count": 63,
     "tone_cb": 0.25,
     "tone_global": 0.0484,
     "regul_crypto": 0.0199,
-    "stress": 0.0042,
+    "stress": 0.0041,
     "top": [
       {
         "id": "7b5fc0fc5093a082245be779",
@@ -586,12 +586,12 @@
     ]
   },
   "2026-09-15": {
-    "articles_count": 338,
+    "articles_count": 339,
     "signal_count": 40,
     "tone_cb": 0.6667,
     "tone_global": 0.1716,
     "regul_crypto": 0.0,
-    "stress": 0.005,
+    "stress": 0.0049,
     "top": [
       {
         "id": "eb913fa6017e0f5b9085cf5f",
@@ -636,12 +636,12 @@
     ]
   },
   "2026-09-14": {
-    "articles_count": 348,
+    "articles_count": 351,
     "signal_count": 26,
     "tone_cb": 0.5834,
     "tone_global": 0.1193,
     "regul_crypto": -0.6,
-    "stress": 0.0046,
+    "stress": 0.0045,
     "top": [
       {
         "id": "349a620f5ce2339156bfda39",
