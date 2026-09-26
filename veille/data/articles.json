@@ -62,6 +62,31 @@
     "scored_by": "lexique"
   },
   {
+    "id": "106c4ceb66d786abdcc546e0",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Itochu, Aioi to develop robotaxi insurance aimed at US operators",
+    "url": "https://asia.nikkei.com/business/finance/itochu-aioi-to-develop-robotaxi-insurance-aimed-at-us-operators",
+    "summary": "",
+    "published_at": "2026-09-26T21:49:33.558966+00:00",
+    "collected_at": "2026-09-26T21:49:33.558966+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "0386bbc1ab1b01ed5cb62987",
     "source": "nikkei_asia",
     "tier": 3,
@@ -2254,6 +2279,37 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "21a69b8c02670b5200c9f275",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "President von der Leyen announces €710 million to support displaced people in Africa and global crisis relief",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1985",
+    "summary": "European Commission Press release New York, 26 Sep 2026 As the 81st UN General Assembly High Level Week draws to a close in New York, President of the European Commission Ursula von der Leyen announced almost €710 million in EU support to displaced people and communities in Sub-Saharan Africa, as well as emergency assistance to people affected by crises worldwide. The announcement was made as part of international advocacy organisation Global Citizen's campaign.",
+    "published_at": "2026-09-25T22:00:00+00:00",
+    "collected_at": "2026-09-26T21:49:33.558966+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.9,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
     "scored_by": "lexique"
   },
   {
