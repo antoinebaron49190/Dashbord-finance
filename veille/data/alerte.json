@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-09-26T09:06:33.575733+00:00",
-  "pending": [],
+  "updated_at": "2026-09-28T03:39:21.415946+00:00",
+  "pending": [
+    {
+      "fingerprint": "agenda:2026-09-30:BCE",
+      "title": "Conseil des gouverneurs de la BCE — décision de taux — dans 2 jours",
+      "body": "Conseil des gouverneurs de la BCE — décision de taux, mercredi 30 septembre. Une date de réunion est un fait, pas une prévision : l'outil ne dit pas ce qui en sortira.",
+      "kind": "agenda",
+      "detected_at": "2026-09-28T03:39:21.415868+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -84,7 +92,8 @@
     "trend:shanghai:indecise->baissiere:2026-09-24",
     "trend:nikkei:indecise->haussiere:2026-09-25",
     "trend:shanghai:indecise->baissiere:2026-09-25",
-    "trend:nikkei:indecise->haussiere:2026-09-26"
+    "trend:nikkei:indecise->haussiere:2026-09-26",
+    "agenda:2026-09-30:BCE"
   ],
   "extremes_active": []
 }

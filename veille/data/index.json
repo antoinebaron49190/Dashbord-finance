@@ -35,14 +35,80 @@
       }
     ]
   },
+  "2026-09-28": {
+    "articles_count": 15,
+    "signal_count": 3,
+    "tone_cb": null,
+    "tone_global": 0.5556,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "1543f8ede83faf39be86ffd0",
+        "title": "China posts weakest industrial profit growth this year, expanding 4.2% in August",
+        "source": "cnbc_economy",
+        "score": 0.3,
+        "tone": 0.6667,
+        "url": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html"
+      },
+      {
+        "id": "9eb6c63a854e4b856e85879c",
+        "title": "SMBC Indonesia pivots to wealthier millennials to drive growth",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/business/finance/smbc-indonesia-pivots-to-wealthier-millennials-to-drive-growth"
+      },
+      {
+        "id": "6cf9619f6a1077944d8c5013",
+        "title": "China’s industrial profit growth slows further as economic imbalances deepen",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/economic-indicators/china-industrial-profits-rise-157-in-januaryaugust-4919250"
+      },
+      {
+        "id": "1dd95ffe695d5ba88df13253",
+        "title": "Kazakh oil producers weigh new trans-Caspian route to avoid Russia",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/energy/kazakh-oil-producers-weigh-new-trans-caspian-route-to-avoid-russia"
+      },
+      {
+        "id": "6a5e1ea8caa621526105ad8c",
+        "title": "Geely to acquire 30% of competitor Nio's battery swapping unit",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/geely-to-acquire-30-of-competitor-nio-s-battery-swapping-unit"
+      }
+    ]
+  },
   "2026-09-27": {
-    "articles_count": 64,
+    "articles_count": 66,
     "signal_count": 4,
     "tone_cb": null,
     "tone_global": -0.275,
     "regul_crypto": null,
-    "stress": 0.0156,
+    "stress": 0.0138,
     "top": [
+      {
+        "id": "8d39194ae792cb901f8c27e9",
+        "title": "Minutes of the Monetary Policy Meeting on July 30 and 31, 2026",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/mopo/mpmsche_minu/minu_2026/g260731.pdf"
+      },
+      {
+        "id": "eef5194086ff0218bf4250bd",
+        "title": "Services Producer Price Index (Aug.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/pi/cspi_release/sppi2608.pdf"
+      },
       {
         "id": "2443f99f7fa9804d8e256917",
         "title": "How might a U.S. fiscal crisis unfold? Capital Economics charts the path",
@@ -66,22 +132,6 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.marketwatch.com/story/micron-could-dethrone-nvidia-and-become-the-biggest-driver-of-s-p-500-profit-growth-d62e0e68?mod=mw_rss_topstories"
-      },
-      {
-        "id": "1257f7e383b7471899c4464a",
-        "title": "Look closer, and Wall Street’s rally is showing cracks",
-        "source": "marketwatch",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.marketwatch.com/story/look-closer-and-wall-streets-rally-is-showing-cracks-94952048?mod=mw_rss_topstories"
-      },
-      {
-        "id": "70c358e9cf5148017d23f4f6",
-        "title": "BOJ ups climate loans as debate swirls on how green central banks should be",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/markets/trading-asia/boj-ups-climate-loans-as-debate-swirls-on-how-green-central-banks-should-be"
       }
     ]
   },
@@ -4048,37 +4098,13 @@
     ]
   },
   "2026-06-30": {
-    "articles_count": 18,
-    "signal_count": 2,
-    "tone_cb": -0.05,
-    "tone_global": -0.05,
+    "articles_count": 8,
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
     "regul_crypto": null,
-    "stress": 0.0645,
+    "stress": 0.0,
     "top": [
-      {
-        "id": "ea166427ee876760e713a918",
-        "title": "The Bank of Japan's Semiannual Report on Currency and Monetary Control",
-        "source": "bis_cb_speeches",
-        "score": 1.95,
-        "tone": 0.0,
-        "url": "https://www.bis.org/speeches/20260630-bank-japans-semiannual-report-currency-and-monetary-control"
-      },
-      {
-        "id": "69485a0871bb75f3b688c78c",
-        "title": "Introductory remarks",
-        "source": "bis_cb_speeches",
-        "score": 1.3,
-        "tone": -0.6,
-        "url": "https://www.bis.org/speeches/20260630-introductory-remarks"
-      },
-      {
-        "id": "16216712a6afd3f560cdd645",
-        "title": "Global imbalances, growth and stability",
-        "source": "bis_cb_speeches",
-        "score": 1.3,
-        "tone": 0.5,
-        "url": "https://www.bis.org/speeches/20260630-global-imbalances-growth-and-stability"
-      },
       {
         "id": "27bf74161d09dbd998a4e505",
         "title": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
@@ -4094,6 +4120,30 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-06"
+      },
+      {
+        "id": "b12efced76fe86681873e208",
+        "title": "L'AMF publie sa cartographie 2026 des marchés et des risques",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-publie-sa-cartographie-2026-des-marches-et-des-risques#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "dfce17f55eb338c3707cd97e",
+        "title": "Décision relative à la modification des règles de fonctionnement de la chambre de compensation LCH SA pour le service DigitalAssetClear",
+        "source": "amf_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/reglementation/regles-professionnelles-approuvees/decision-relative-la-modification-des-regles-de-fonctionnement-de-la-chambre-de-compensation-lch-sa-1#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "970094f950d9731e6697bb92",
+        "title": "SEC Seeks Public Comment on Novel Exchange-Traded Funds",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-60-sec-seeks-public-comment-novel-exchange-traded-funds"
       }
     ]
   },
