@@ -36,62 +36,62 @@
     ]
   },
   "2026-09-28": {
-    "articles_count": 15,
-    "signal_count": 3,
+    "articles_count": 51,
+    "signal_count": 14,
     "tone_cb": null,
-    "tone_global": 0.5556,
+    "tone_global": -0.0524,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
-        "id": "1543f8ede83faf39be86ffd0",
-        "title": "China posts weakest industrial profit growth this year, expanding 4.2% in August",
-        "source": "cnbc_economy",
+        "id": "e5df4acf7a845369afcf20af",
+        "title": "ESMA sets 2027 priorities for stronger, simpler and more integrated EU capital markets",
+        "source": "esma_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-2027-priorities-stronger-simpler-and-more-integrated-eu-capital"
+      },
+      {
+        "id": "d224350153283455848ebdd6",
+        "title": "Commission welcomes Member States' endorsement of five joint European defence projects",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1990"
+      },
+      {
+        "id": "9ccf50405cc57559adf8da9b",
+        "title": "EU provides €61 million in humanitarian aid amidst rapidly deteriorating situation in Ethiopia",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": -0.5858,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1991"
+      },
+      {
+        "id": "1b33a96ebe1b1036a3bbcb51",
+        "title": "Daily News 28 / 09 / 2026",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": -0.5,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1993"
+      },
+      {
+        "id": "5a3d36490bf885c9c453641a",
+        "title": "TSMC affiliate already eyes expansion as first Singapore plant 'sells out'",
+        "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.6667,
-        "url": "https://www.cnbc.com/2026/09/28/china-posts-weakest-industrial-profit-growth-this-year-expanding-4point2percent-in-august-.html"
-      },
-      {
-        "id": "9eb6c63a854e4b856e85879c",
-        "title": "SMBC Indonesia pivots to wealthier millennials to drive growth",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/business/finance/smbc-indonesia-pivots-to-wealthier-millennials-to-drive-growth"
-      },
-      {
-        "id": "6cf9619f6a1077944d8c5013",
-        "title": "China’s industrial profit growth slows further as economic imbalances deepen",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/economic-indicators/china-industrial-profits-rise-157-in-januaryaugust-4919250"
-      },
-      {
-        "id": "1dd95ffe695d5ba88df13253",
-        "title": "Kazakh oil producers weigh new trans-Caspian route to avoid Russia",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/energy/kazakh-oil-producers-weigh-new-trans-caspian-route-to-avoid-russia"
-      },
-      {
-        "id": "6a5e1ea8caa621526105ad8c",
-        "title": "Geely to acquire 30% of competitor Nio's battery swapping unit",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/automobiles/electric-vehicles/geely-to-acquire-30-of-competitor-nio-s-battery-swapping-unit"
+        "url": "https://asia.nikkei.com/business/tech/semiconductors/tsmc-affiliate-already-eyes-expansion-as-first-singapore-plant-sells-out"
       }
     ]
   },
   "2026-09-27": {
-    "articles_count": 66,
+    "articles_count": 67,
     "signal_count": 4,
     "tone_cb": null,
     "tone_global": -0.275,
     "regul_crypto": null,
-    "stress": 0.0138,
+    "stress": 0.0132,
     "top": [
       {
         "id": "8d39194ae792cb901f8c27e9",
@@ -110,6 +110,14 @@
         "url": "http://www.boj.or.jp/en/statistics/pi/cspi_release/sppi2608.pdf"
       },
       {
+        "id": "5828b1fbcac9a4bb8a1a1c53",
+        "title": "EU trade agreements continue to benefit European businesses",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1983"
+      },
+      {
         "id": "2443f99f7fa9804d8e256917",
         "title": "How might a U.S. fiscal crisis unfold? Capital Economics charts the path",
         "source": "investing_com",
@@ -124,24 +132,16 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://www.investing.com/news/economy-news/iran-says-it-wont-soften-hormuz-demands-after-trump-rejects-proposal-4918887"
-      },
-      {
-        "id": "527624ac79cec16478bf8269",
-        "title": "Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth",
-        "source": "marketwatch",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.marketwatch.com/story/micron-could-dethrone-nvidia-and-become-the-biggest-driver-of-s-p-500-profit-growth-d62e0e68?mod=mw_rss_topstories"
       }
     ]
   },
   "2026-09-26": {
-    "articles_count": 71,
+    "articles_count": 72,
     "signal_count": 7,
     "tone_cb": null,
     "tone_global": -0.0714,
     "regul_crypto": 0.6,
-    "stress": 0.0139,
+    "stress": 0.0137,
     "top": [
       {
         "id": "1dfb75e87ac23c8639f6965b",
@@ -4098,7 +4098,7 @@
     ]
   },
   "2026-06-30": {
-    "articles_count": 8,
+    "articles_count": 6,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
@@ -4114,14 +4114,6 @@
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm"
       },
       {
-        "id": "a38d18e09505a33906f0f8aa",
-        "title": "Statistical Notice 2026/06 - Form PL - updates to definitions",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/statistics/notice/2026/statistical-notice-2026-06"
-      },
-      {
         "id": "b12efced76fe86681873e208",
         "title": "L'AMF publie sa cartographie 2026 des marchés et des risques",
         "source": "amf_news",
@@ -4130,20 +4122,28 @@
         "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-publie-sa-cartographie-2026-des-marches-et-des-risques#xts=607212&xtor=RSS-3&type=RSS"
       },
       {
-        "id": "dfce17f55eb338c3707cd97e",
-        "title": "Décision relative à la modification des règles de fonctionnement de la chambre de compensation LCH SA pour le service DigitalAssetClear",
-        "source": "amf_news",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/reglementation/regles-professionnelles-approuvees/decision-relative-la-modification-des-regles-de-fonctionnement-de-la-chambre-de-compensation-lch-sa-1#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
         "id": "970094f950d9731e6697bb92",
         "title": "SEC Seeks Public Comment on Novel Exchange-Traded Funds",
         "source": "sec_press",
         "score": 0.6,
         "tone": 0.0,
         "url": "https://www.sec.gov/newsroom/press-releases/2026-60-sec-seeks-public-comment-novel-exchange-traded-funds"
+      },
+      {
+        "id": "1efb5ac8a3f48748e981bc91",
+        "title": "Cartographie 2026 des marchés et des risques - Conférence de presse",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/espace-presse/conferences-de-presse/cartographie-2026-des-marches-et-des-risques-conference-de-presse#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "f28e60ff6bcffa9c9757178f",
+        "title": "Cartographie 2026 des marchés et des risques",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/publications/rapports-etudes-et-analyses/cartographie-2026-des-marches-et-des-risques#xts=607212&xtor=RSS-3&type=RSS"
       }
     ]
   },
