@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-09-28T10:34:04.568747+00:00",
-  "pending": [],
+  "updated_at": "2026-09-28T23:42:34.400574+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:msci_world:haussiere->indecise:2026-09-28",
+      "title": "MSCI World : tendance sans direction nette",
+      "body": "MSCI World passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-28.",
+      "kind": "tendance",
+      "detected_at": "2026-09-28T23:42:34.400494+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -85,7 +93,8 @@
     "trend:nikkei:indecise->haussiere:2026-09-25",
     "trend:shanghai:indecise->baissiere:2026-09-25",
     "trend:nikkei:indecise->haussiere:2026-09-26",
-    "agenda:2026-09-30:BCE"
+    "agenda:2026-09-30:BCE",
+    "trend:msci_world:haussiere->indecise:2026-09-28"
   ],
   "extremes_active": []
 }
