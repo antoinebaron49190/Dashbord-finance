@@ -36,62 +36,62 @@
     ]
   },
   "2026-09-28": {
-    "articles_count": 51,
-    "signal_count": 14,
+    "articles_count": 108,
+    "signal_count": 21,
     "tone_cb": null,
-    "tone_global": -0.0524,
+    "tone_global": 0.0505,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
-        "id": "e5df4acf7a845369afcf20af",
-        "title": "ESMA sets 2027 priorities for stronger, simpler and more integrated EU capital markets",
-        "source": "esma_news",
-        "score": 0.9,
+        "id": "f305137a19e70c91d5e21888",
+        "title": "We are raising the policy rate to dampen inflation",
+        "source": "bis_cb_speeches",
+        "score": 1.95,
         "tone": 0.0,
-        "url": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-2027-priorities-stronger-simpler-and-more-integrated-eu-capital"
+        "url": "https://www.bis.org/speeches/20260928-we-are-raising-policy-rate-dampen-inflation"
       },
       {
-        "id": "d224350153283455848ebdd6",
-        "title": "Commission welcomes Member States' endorsement of five joint European defence projects",
-        "source": "ec_press",
-        "score": 0.9,
+        "id": "24d1d3a738e322a59b1cfb25",
+        "title": "Cook, An Update on AI and the Economy",
+        "source": "fed_speeches",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1990"
+        "url": "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm"
       },
       {
-        "id": "9ccf50405cc57559adf8da9b",
-        "title": "EU provides €61 million in humanitarian aid amidst rapidly deteriorating situation in Ethiopia",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": -0.5858,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1991"
+        "id": "27a2f7f58ea058f54c3e0c6b",
+        "title": "Christine Lagarde: Hearing of the Committee on Economic and Monetary Affairs of the European Parliament",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260928~a875675544.en.html"
       },
       {
-        "id": "1b33a96ebe1b1036a3bbcb51",
-        "title": "Daily News 28 / 09 / 2026",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": -0.5,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_1993"
+        "id": "4f37914535b4db6f54eb64af",
+        "title": "Discount window modernization and treasury market functioning",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20260928-discount-window-modernization-and-treasury-market-functioning"
       },
       {
-        "id": "5a3d36490bf885c9c453641a",
-        "title": "TSMC affiliate already eyes expansion as first Singapore plant 'sells out'",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://asia.nikkei.com/business/tech/semiconductors/tsmc-affiliate-already-eyes-expansion-as-first-singapore-plant-sells-out"
+        "id": "17d38e340ebdd558317476f4",
+        "title": "Has Europe fully digested the new geoeconomic realities - and does it have the energy to cope with them",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20260928-has-europe-fully-digested-new-geoeconomic-realities-and-does-it-have-energy-cope-them"
       }
     ]
   },
   "2026-09-27": {
-    "articles_count": 67,
+    "articles_count": 69,
     "signal_count": 4,
     "tone_cb": null,
     "tone_global": -0.275,
     "regul_crypto": null,
-    "stress": 0.0132,
+    "stress": 0.0124,
     "top": [
       {
         "id": "8d39194ae792cb901f8c27e9",
@@ -118,20 +118,20 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1983"
       },
       {
-        "id": "2443f99f7fa9804d8e256917",
-        "title": "How might a U.S. fiscal crisis unfold? Capital Economics charts the path",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://www.investing.com/news/economy-news/how-might-a-us-fiscal-crisis-unfold-capital-economics-charts-the-path-4919024"
+        "id": "61f216e6a2b9e46be76a9c07",
+        "title": "Commission launches EU Screening Week with new recommendations on cardiovascular health checks",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1859"
       },
       {
-        "id": "1959279584bdc44fca9b8cc5",
-        "title": "Trump: Oil prices will plummet after war ends ‘very soon’",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/iran-says-it-wont-soften-hormuz-demands-after-trump-rejects-proposal-4918887"
+        "id": "7153c825ec7c09481a8b17ca",
+        "title": "Questions and answers on the proposed Recommendation on cardiovascular health checks",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_1860"
       }
     ]
   },
@@ -286,12 +286,12 @@
     ]
   },
   "2026-09-23": {
-    "articles_count": 243,
+    "articles_count": 245,
     "signal_count": 40,
     "tone_cb": 0.5,
     "tone_global": 0.0713,
     "regul_crypto": 0.1919,
-    "stress": 0.0171,
+    "stress": 0.0169,
     "top": [
       {
         "id": "d10701765e89f58cd6d77b11",
