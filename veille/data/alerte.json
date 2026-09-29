@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-28T23:42:34.400574+00:00",
+  "updated_at": "2026-09-29T04:14:26.766163+00:00",
   "pending": [
     {
-      "fingerprint": "trend:msci_world:haussiere->indecise:2026-09-28",
-      "title": "MSCI World : tendance sans direction nette",
-      "body": "MSCI World passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-28.",
+      "fingerprint": "trend:nikkei:haussiere->indecise:2026-09-29",
+      "title": "Nikkei 225 : tendance sans direction nette",
+      "body": "Nikkei 225 passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-09-29.",
       "kind": "tendance",
-      "detected_at": "2026-09-28T23:42:34.400494+00:00"
+      "detected_at": "2026-09-29T04:14:26.766075+00:00"
     }
   ],
   "sent": [
@@ -94,7 +94,8 @@
     "trend:shanghai:indecise->baissiere:2026-09-25",
     "trend:nikkei:indecise->haussiere:2026-09-26",
     "agenda:2026-09-30:BCE",
-    "trend:msci_world:haussiere->indecise:2026-09-28"
+    "trend:msci_world:haussiere->indecise:2026-09-28",
+    "trend:nikkei:haussiere->indecise:2026-09-29"
   ],
   "extremes_active": []
 }
