@@ -36,13 +36,45 @@
     ]
   },
   "2026-09-29": {
-    "articles_count": 61,
-    "signal_count": 10,
-    "tone_cb": null,
-    "tone_global": 0.2667,
-    "regul_crypto": null,
-    "stress": 0.0,
+    "articles_count": 109,
+    "signal_count": 18,
+    "tone_cb": -0.6667,
+    "tone_global": -0.0167,
+    "regul_crypto": -0.75,
+    "stress": 0.0126,
     "top": [
+      {
+        "id": "22d864ec2425e4d2f1f098be",
+        "title": "Statement - 2026 Innovation Financial Forum",
+        "source": "bis_cb_speeches",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20260928-statement-2026-innovation-financial-forum"
+      },
+      {
+        "id": "e20796fbc1aaa0670c6b64a9",
+        "title": "Quantitative tightening - the next chapter",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": -0.6667,
+        "url": "https://www.bis.org/speeches/20260929-quantitative-tightening-next-chapter"
+      },
+      {
+        "id": "46782cc9c2a2e93e8df3ced2",
+        "title": "Barr, Economic Conditions and Monetary Policy",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/barr20260929a.htm"
+      },
+      {
+        "id": "80314b331841ce7392ce2508",
+        "title": "Bowman, Opening Remarks",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm"
+      },
       {
         "id": "fceae5812a922ed638640389",
         "title": "ECB amends monetary policy implementation guidelines as part of regular review",
@@ -50,46 +82,14 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html"
-      },
-      {
-        "id": "b52d083a5f71402046602145",
-        "title": "EU support to research and innovation increases with additional €500 million for research programme Horizon Europe",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2004"
-      },
-      {
-        "id": "4b09df70d103a7365f0dcdbf",
-        "title": "Daily News 29 / 09 / 2026",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2003"
-      },
-      {
-        "id": "e7794ed1a6e0c71834e8d3fe",
-        "title": "Commission proposes 5-point plan to strengthen resilience and security of EU external borders",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2002"
-      },
-      {
-        "id": "b2ac29addaad55a648447569",
-        "title": "Discours de la Commissaire Lahbib au Parlement fédéral Belge",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/fr/speech_26_2001"
       }
     ]
   },
   "2026-09-28": {
-    "articles_count": 132,
-    "signal_count": 24,
-    "tone_cb": null,
-    "tone_global": 0.0007,
+    "articles_count": 133,
+    "signal_count": 25,
+    "tone_cb": 0.0,
+    "tone_global": 0.0006,
     "regul_crypto": -0.6,
     "stress": 0.0,
     "top": [
@@ -4098,21 +4098,13 @@
     ]
   },
   "2026-07-01": {
-    "articles_count": 8,
-    "signal_count": 1,
+    "articles_count": 1,
+    "signal_count": 0,
     "tone_cb": null,
-    "tone_global": 0.5,
+    "tone_global": null,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
-      {
-        "id": "c49882aedafdf469af604a00",
-        "title": "Timur M Suleimenov: Statement - base rate of the National Bank of Kazakhstan",
-        "source": "bis_cb_speeches",
-        "score": 1.95,
-        "tone": 0.0,
-        "url": "https://www.bis.org/review/r260701i.htm"
-      },
       {
         "id": "732487fa0dbdfa86d12bff7b",
         "title": "Federal Reserve issues initial findings from its 2025 triennial payments study",
@@ -4120,30 +4112,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm"
-      },
-      {
-        "id": "38c2ff553cb99d3b94e4e25a",
-        "title": "Zhu Hexin: New landscape of global capital flows and China's high-level opening-up",
-        "source": "bis_cb_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bis.org/review/r260701e.htm"
-      },
-      {
-        "id": "a676317413ecd7eb66f3cb9c",
-        "title": "Andrew Hauser: \"The straight line belongs to man, the curved line belongs to God\"",
-        "source": "bis_cb_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bis.org/review/r260701d.htm"
-      },
-      {
-        "id": "481934d7cf1726884724570f",
-        "title": "Naoki Tamura: Economic activity, prices and monetary policy in Japan",
-        "source": "bis_cb_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bis.org/review/r260701c.htm"
       }
     ]
   },
