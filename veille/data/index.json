@@ -36,12 +36,12 @@
     ]
   },
   "2026-09-29": {
-    "articles_count": 109,
-    "signal_count": 18,
+    "articles_count": 146,
+    "signal_count": 23,
     "tone_cb": -0.6667,
-    "tone_global": -0.0167,
+    "tone_global": 0.0026,
     "regul_crypto": -0.75,
-    "stress": 0.0126,
+    "stress": 0.0097,
     "top": [
       {
         "id": "22d864ec2425e4d2f1f098be",
@@ -60,28 +60,28 @@
         "url": "https://www.bis.org/speeches/20260929-quantitative-tightening-next-chapter"
       },
       {
+        "id": "a3cb8b3ae597defe346187da",
+        "title": "Agencies publish resolution plan feedback letters for 15 banking organizations",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm"
+      },
+      {
+        "id": "adce0dc8804dcedb83fc7f36",
+        "title": "Waller, Payments in the Age of AI Agents",
+        "source": "fed_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/speech/waller20260928a.htm"
+      },
+      {
         "id": "46782cc9c2a2e93e8df3ced2",
         "title": "Barr, Economic Conditions and Monetary Policy",
         "source": "fed_speeches",
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/speech/barr20260929a.htm"
-      },
-      {
-        "id": "80314b331841ce7392ce2508",
-        "title": "Bowman, Opening Remarks",
-        "source": "fed_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm"
-      },
-      {
-        "id": "fceae5812a922ed638640389",
-        "title": "ECB amends monetary policy implementation guidelines as part of regular review",
-        "source": "bce_press",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260929~050089e922.en.html"
       }
     ]
   },
