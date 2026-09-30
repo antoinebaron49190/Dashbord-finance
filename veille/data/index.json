@@ -36,12 +36,12 @@
     ]
   },
   "2026-09-30": {
-    "articles_count": 48,
-    "signal_count": 4,
-    "tone_cb": null,
-    "tone_global": 0.1667,
+    "articles_count": 100,
+    "signal_count": 9,
+    "tone_cb": -0.75,
+    "tone_global": -0.2257,
     "regul_crypto": null,
-    "stress": 0.0,
+    "stress": 0.0387,
     "top": [
       {
         "id": "2d93d9c03d90cdf5d50f3be0",
@@ -52,46 +52,46 @@
         "url": "https://www.bis.org/speeches/20260930-statement-base-rate-national-bank-kazakhstan"
       },
       {
+        "id": "aec036e2c2fd17aeb9b5347c",
+        "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": -0.75,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm"
+      },
+      {
+        "id": "f8a18d05c8f9898dfe478f63",
+        "title": "Financial Policy Committee Record – September 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/september-2026"
+      },
+      {
+        "id": "4f6a0adf3ba63c087d49bd9d",
+        "title": "Quarterly Schedule of Outright Purchases of Japanese Government Bonds (Competitive Auction Method) (October-December 2026)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260930a.pdf"
+      },
+      {
         "id": "9888799d7c4c2b99d3178ee7",
         "title": "Liquidity Indicators in the JGB Markets (August)",
         "source": "boj_news",
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/paym/bond/ryudo.pdf"
-      },
-      {
-        "id": "e6aface764442499a27a7eb7",
-        "title": "Frank Elderson: Supervisory risk appetite, efficiency and effectiveness",
-        "source": "bce_press",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260930~d495288355.en.html"
-      },
-      {
-        "id": "693577a38d9c4daef9d68cbb",
-        "title": "Payment and Settlement Statistics (Aug.)",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/set/kess/release/2026/kess2608.pdf"
-      },
-      {
-        "id": "64ec2a57bfd91c339cb4fe7a",
-        "title": "Good practices of green finance in Southeast Asia",
-        "source": "bis_cb_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bis.org/speeches/20260930-good-practices-green-finance-southeast-asia"
       }
     ]
   },
   "2026-09-29": {
-    "articles_count": 148,
-    "signal_count": 23,
+    "articles_count": 152,
+    "signal_count": 24,
     "tone_cb": -0.6667,
-    "tone_global": 0.0026,
+    "tone_global": 0.023,
     "regul_crypto": -0.75,
-    "stress": 0.0096,
+    "stress": 0.0185,
     "top": [
       {
         "id": "22d864ec2425e4d2f1f098be",
@@ -136,7 +136,7 @@
     ]
   },
   "2026-09-28": {
-    "articles_count": 133,
+    "articles_count": 134,
     "signal_count": 25,
     "tone_cb": 0.0,
     "tone_global": 0.0006,
@@ -4098,7 +4098,7 @@
     ]
   },
   "2026-07-02": {
-    "articles_count": 7,
+    "articles_count": 2,
     "signal_count": 2,
     "tone_cb": 0.0,
     "tone_global": 0.0667,
@@ -4112,30 +4112,6 @@
         "score": 1.95,
         "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260702a.htm"
-      },
-      {
-        "id": "ce8392174032117f70fb4ea2",
-        "title": "Minutes of the London FXJSC Main Committee Meeting – 26 March 2026",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/minutes/2026/march/fxjsc-main-committee-meeting-26-march-2026"
-      },
-      {
-        "id": "cb9b9e56213a8d9da5ddde20",
-        "title": "Minutes of the London FXJSC Legal Sub Committee Meeting – 17 March 2026",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/minutes/2026/march/fxjsc-legal-sub-committee-meeting-17-march-2026"
-      },
-      {
-        "id": "7deed278c4e4d1e7b2936eda",
-        "title": "Minutes of the London FXJSC Operations Sub-Committee Meeting – 18 March 2026",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/minutes/2026/march/fxjsc-operations-sub-committee-meeting-18-march-2026"
       },
       {
         "id": "8636f9b96679f76fa4e9f195",
