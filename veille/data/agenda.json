@@ -1,16 +1,6 @@
 {
-  "generated_at": "2026-09-30T19:49:57.935244+00:00",
+  "generated_at": "2026-09-30T23:28:39.836404+00:00",
   "upcoming": [
-    {
-      "date": "2026-09-30",
-      "label": "Conseil des gouverneurs de la BCE — décision de taux",
-      "source": "BCE",
-      "importance": 3,
-      "when": "aujourd'hui",
-      "days": 0,
-      "imminent": true,
-      "date_fr": "mercredi 30 septembre"
-    },
     {
       "date": "2026-10-28",
       "label": "Réunion du FOMC (Fed) — décision de taux",
@@ -40,8 +30,18 @@
       "days": 30,
       "imminent": false,
       "date_fr": "vendredi 30 octobre"
+    },
+    {
+      "date": "2026-11-05",
+      "label": "Comité de politique monétaire (BoE) — décision de taux",
+      "source": "Bank of England",
+      "importance": 2,
+      "when": "dans 36 jours",
+      "days": 36,
+      "imminent": false,
+      "date_fr": "jeudi 5 novembre"
     }
   ],
-  "all_known": 114,
+  "all_known": 113,
   "failures": []
 }
