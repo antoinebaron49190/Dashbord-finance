@@ -35,13 +35,63 @@
       }
     ]
   },
+  "2026-10-01": {
+    "articles_count": 16,
+    "signal_count": 2,
+    "tone_cb": null,
+    "tone_global": -0.25,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "739969be820e8875aa924fd6",
+        "title": "Sources of Changes in Current Account Balances and Market Operations (Sept.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/boj/fm/juqf/juqf09.xlsx"
+      },
+      {
+        "id": "7be4036b78e67320af6b414d",
+        "title": "Goldman Sachs pushes Fed rate hike forecast to December",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/goldman-sachs-pushes-fed-rate-hike-forecast-to-december-4926222"
+      },
+      {
+        "id": "c794f5b5c4ca3cb27a37e0bb",
+        "title": "Jardines' DFI Retail swaps Maxim's stake for Starbucks license and $340m",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/business-deals/jardines-dfi-retail-swaps-maxim-s-stake-for-starbucks-license-and-340m"
+      },
+      {
+        "id": "8bfbc8304b4ea5adf3a390a4",
+        "title": "BOJ Tankan shows sixth straight rise in manufacturer sentiment",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-tankan-shows-sixth-straight-rise-in-manufacturer-sentiment"
+      },
+      {
+        "id": "85f90edbccacceb8a86d7b11",
+        "title": "Himalayan hydropower boom faces mounting insurance pressures",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/energy/himalayan-hydropower-boom-faces-mounting-insurance-pressures"
+      }
+    ]
+  },
   "2026-09-30": {
-    "articles_count": 166,
+    "articles_count": 168,
     "signal_count": 16,
     "tone_cb": -0.75,
     "tone_global": -0.2806,
     "regul_crypto": -0.6918,
-    "stress": 0.0256,
+    "stress": 0.0248,
     "top": [
       {
         "id": "2d93d9c03d90cdf5d50f3be0",
@@ -60,28 +110,28 @@
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm"
       },
       {
+        "id": "1a5b7503a0e0bff330d1607b",
+        "title": "Summary of Opinions at the Monetary Policy Meeting on September 17 and 18, 2026",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/mopo/mpmsche_minu/opinion_2026/opi260918.pdf"
+      },
+      {
+        "id": "80660a92784f841a107ee2cc",
+        "title": "Tankan (Sept.): Summary and Outline",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/tk/tankan09a.htm"
+      },
+      {
         "id": "29c681d8593c530394be1f73",
         "title": "Cook, The Dual Mandate in Rural America",
         "source": "fed_speeches",
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm"
-      },
-      {
-        "id": "06283e7f0a62a661a92b8831",
-        "title": "Christine Lagarde: Interview with La Croix",
-        "source": "bce_press",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260930~10084a5f3d.en.html"
-      },
-      {
-        "id": "2152b9cbd545e92c1e278767",
-        "title": "Isabel Schnabel: Monetary policy in a world of overlapping shocks",
-        "source": "bce_press",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260930_1~7c6c120482.en.html"
       }
     ]
   },
