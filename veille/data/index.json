@@ -36,11 +36,11 @@
     ]
   },
   "2026-10-01": {
-    "articles_count": 16,
-    "signal_count": 2,
+    "articles_count": 59,
+    "signal_count": 7,
     "tone_cb": null,
-    "tone_global": -0.25,
-    "regul_crypto": null,
+    "tone_global": 0.3265,
+    "regul_crypto": 0.6,
     "stress": 0.0,
     "top": [
       {
@@ -52,46 +52,46 @@
         "url": "http://www.boj.or.jp/en/statistics/boj/fm/juqf/juqf09.xlsx"
       },
       {
-        "id": "7be4036b78e67320af6b414d",
-        "title": "Goldman Sachs pushes Fed rate hike forecast to December",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/goldman-sachs-pushes-fed-rate-hike-forecast-to-december-4926222"
+        "id": "ccd321dd04dbb3cf73951627",
+        "title": "Europe must scale up research and innovation to remain competitive, new Commission report says",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2041"
       },
       {
-        "id": "c794f5b5c4ca3cb27a37e0bb",
-        "title": "Jardines' DFI Retail swaps Maxim's stake for Starbucks license and $340m",
-        "source": "nikkei_asia",
-        "score": 0.3,
+        "id": "e84168e5a870103e84363cc3",
+        "title": "Opening Statement by Commissioner Kubilius at the European Parliament Security and Defence Committee hearings",
+        "source": "ec_press",
+        "score": 0.9,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/business-deals/jardines-dfi-retail-swaps-maxim-s-stake-for-starbucks-license-and-340m"
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2040"
       },
       {
-        "id": "8bfbc8304b4ea5adf3a390a4",
-        "title": "BOJ Tankan shows sixth straight rise in manufacturer sentiment",
-        "source": "nikkei_asia",
-        "score": 0.3,
+        "id": "7e651489d7550fe911f37d0f",
+        "title": "Daily News 01 / 10 / 2026",
+        "source": "ec_press",
+        "score": 0.9,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/economy/bank-of-japan/boj-tankan-shows-sixth-straight-rise-in-manufacturer-sentiment"
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2038"
       },
       {
-        "id": "85f90edbccacceb8a86d7b11",
-        "title": "Himalayan hydropower boom faces mounting insurance pressures",
-        "source": "nikkei_asia",
-        "score": 0.3,
+        "id": "f55ea0b8f9c965e50fd13691",
+        "title": "L’AMF procède à deux nouvelles nominations au sein de son comité exécutif",
+        "source": "amf_news",
+        "score": 0.9,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/energy/himalayan-hydropower-boom-faces-mounting-insurance-pressures"
+        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-procede-deux-nouvelles-nominations-au-sein-de-son-comite-executif#xts=607212&xtor=RSS-3&type=RSS"
       }
     ]
   },
   "2026-09-30": {
-    "articles_count": 168,
+    "articles_count": 179,
     "signal_count": 16,
     "tone_cb": -0.75,
     "tone_global": -0.2806,
     "regul_crypto": -0.6918,
-    "stress": 0.0248,
+    "stress": 0.0222,
     "top": [
       {
         "id": "2d93d9c03d90cdf5d50f3be0",
@@ -4114,7 +4114,7 @@
     ]
   },
   "2026-07-03": {
-    "articles_count": 3,
+    "articles_count": 1,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
@@ -4128,22 +4128,6 @@
         "score": 0.9,
         "tone": 0.0,
         "url": "https://www.amf-france.org/fr/actualites-publications/actualites/communique-esma-esma-reminds-firms-existing-rules-and-obligations-under-binary-option-measures-amid#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "c4e8655cfd82a64eca51a0f6",
-        "title": "La présence de parts sociales dans un PEA peut en compliquer la clôture",
-        "source": "amf_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/le-mediateur/journal-de-bord-du-mediateur/dossiers-du-mois/la-presence-de-parts-sociales-dans-un-pea-peut-en-compliquer-la-cloture#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "cebfff8296300ba2fde68972",
-        "title": "Christine Lagarde leaves door open to early ECB exit, as she mulls French politics",
-        "source": "cnbc_economy",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.cnbc.com/2026/07/03/christine-lagarde-ecb-france-election.html"
       }
     ]
   },
