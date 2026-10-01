@@ -36,62 +36,62 @@
     ]
   },
   "2026-10-01": {
-    "articles_count": 59,
-    "signal_count": 7,
+    "articles_count": 108,
+    "signal_count": 16,
     "tone_cb": null,
-    "tone_global": 0.3265,
-    "regul_crypto": 0.6,
+    "tone_global": 0.1244,
+    "regul_crypto": -0.2,
     "stress": 0.0,
     "top": [
       {
-        "id": "739969be820e8875aa924fd6",
-        "title": "Sources of Changes in Current Account Balances and Market Operations (Sept.)",
-        "source": "boj_news",
+        "id": "096c8fdb863f946243f6ee1f",
+        "title": "Jefferson, The U.S. Economy and Monetary Policy",
+        "source": "fed_speeches",
         "score": 1.3,
         "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/boj/fm/juqf/juqf09.xlsx"
+        "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm"
       },
       {
-        "id": "ccd321dd04dbb3cf73951627",
-        "title": "Europe must scale up research and innovation to remain competitive, new Commission report says",
-        "source": "ec_press",
-        "score": 0.9,
+        "id": "37c42986d39a1f9c1fd02791",
+        "title": "Isabel Schnabel: Central banks on-chain",
+        "source": "bce_press",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2041"
+        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001_1~a0be67193b.en.pdf"
       },
       {
-        "id": "e84168e5a870103e84363cc3",
-        "title": "Opening Statement by Commissioner Kubilius at the European Parliament Security and Defence Committee hearings",
-        "source": "ec_press",
-        "score": 0.9,
+        "id": "651c2554a43d881bb0c50ea2",
+        "title": "Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI",
+        "source": "fed_speeches",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2040"
+        "url": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm"
       },
       {
-        "id": "7e651489d7550fe911f37d0f",
-        "title": "Daily News 01 / 10 / 2026",
-        "source": "ec_press",
-        "score": 0.9,
+        "id": "8be572f73d36c8e117b018e7",
+        "title": "Christine Lagarde: Where AI risks meet",
+        "source": "bce_press",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2038"
+        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001~cf3c630379.en.html"
       },
       {
-        "id": "f55ea0b8f9c965e50fd13691",
-        "title": "L’AMF procède à deux nouvelles nominations au sein de son comité exécutif",
-        "source": "amf_news",
-        "score": 0.9,
+        "id": "e839a8baeba685c1bdeb1d8e",
+        "title": "Minutes of the Meeting of the Court of Directors held on 16 July 2026",
+        "source": "boe_news",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-procede-deux-nouvelles-nominations-au-sein-de-son-comite-executif#xts=607212&xtor=RSS-3&type=RSS"
+        "url": "https://www.bankofengland.co.uk/minutes/2026/july/court-minutes-16-july-2026"
       }
     ]
   },
   "2026-09-30": {
-    "articles_count": 179,
+    "articles_count": 182,
     "signal_count": 16,
     "tone_cb": -0.75,
     "tone_global": -0.2806,
     "regul_crypto": -0.6918,
-    "stress": 0.0222,
+    "stress": 0.0215,
     "top": [
       {
         "id": "2d93d9c03d90cdf5d50f3be0",
@@ -486,7 +486,7 @@
     ]
   },
   "2026-09-22": {
-    "articles_count": 356,
+    "articles_count": 357,
     "signal_count": 51,
     "tone_cb": -0.2857,
     "tone_global": -0.0213,
