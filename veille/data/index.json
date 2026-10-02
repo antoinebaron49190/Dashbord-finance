@@ -36,13 +36,29 @@
     ]
   },
   "2026-10-02": {
-    "articles_count": 89,
-    "signal_count": 14,
+    "articles_count": 123,
+    "signal_count": 21,
     "tone_cb": 0.0,
-    "tone_global": 0.1572,
-    "regul_crypto": 0.6478,
-    "stress": 0.0164,
+    "tone_global": 0.0766,
+    "regul_crypto": 0.4398,
+    "stress": 0.0118,
     "top": [
+      {
+        "id": "dc6b005aac87cd0660d237f1",
+        "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+        "source": "fed_press_all",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm"
+      },
+      {
+        "id": "d6f78541c6bc29c3611e98ad",
+        "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+        "source": "fed_press_all",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm"
+      },
       {
         "id": "606d803d6d203dbc09d30418",
         "title": "Appointment of members of the Enforcement Decision Making Committee (EDMC)",
@@ -66,22 +82,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261002~54c6b5672b.en.html"
-      },
-      {
-        "id": "4a87e6d9a7d3d268dea81b1c",
-        "title": "Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking",
-        "source": "bce_press",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261002_1~419efe18e0.en.html"
-      },
-      {
-        "id": "9b60c181e698689aeb0b4165",
-        "title": "Japanese Government Bonds Held by the Bank of Japan",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260930.xlsx"
       }
     ]
   },
