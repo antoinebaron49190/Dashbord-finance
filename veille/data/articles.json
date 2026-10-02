@@ -62,6 +62,505 @@
     "scored_by": "lexique"
   },
   {
+    "id": "06d259b7078a97b23c8e47c2",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Pakistan's new YouTuber tax threatens to spark talent flight",
+    "url": "https://asia.nikkei.com/business/technology/pakistan-s-new-youtuber-tax-threatens-to-spark-talent-flight",
+    "summary": "",
+    "published_at": "2026-10-02T02:07:15.983757+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ced2fda564e065993423a546",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Taiwanese banks urged to trim branches as office rents hit high",
+    "url": "https://asia.nikkei.com/business/business-trends/taiwanese-banks-urged-to-trim-branches-as-office-rents-hit-high",
+    "summary": "",
+    "published_at": "2026-10-02T02:07:15.983757+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0dfff46c1a58c01f2d89e1f5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dollar at 17-month high as global bond rout hits euro",
+    "url": "https://www.investing.com/news/economy-news/dollar-at-17month-high-as-global-bond-rout-hits-euro-4928797",
+    "summary": "",
+    "published_at": "2026-10-02T01:54:31+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2ea29aba7a82fe4bef35bc54",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oil holds gains as U.S. weighs more Middle East military presence",
+    "url": "https://www.investing.com/news/commodities-news/oil-holds-gains-as-us-weighs-more-middle-east-military-presence-4928800",
+    "summary": "",
+    "published_at": "2026-10-02T01:50:13+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "599634c7ee80e88f99404def",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Samsara CEO Sanjit Biswas sells $10m in IoT shares",
+    "url": "https://www.investing.com/news/insider-trading-news/samsara-ceo-sanjit-biswas-sells-10m-in-iot-shares-93CH-4928795",
+    "summary": "",
+    "published_at": "2026-10-02T01:46:23+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "58b2b070b046a740428ac82d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Samsara CTO John Bicket sells shares worth over $10 million",
+    "url": "https://www.investing.com/news/insider-trading-news/samsara-cto-john-bicket-sells-shares-worth-over-10-million-93CH-4928794",
+    "summary": "",
+    "published_at": "2026-10-02T01:46:16+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "efaffdc92b69fe63202bdf70",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Lipocine director John Higuchi buys $55,042 in company stock",
+    "url": "https://www.investing.com/news/insider-trading-news/lipocine-director-john-higuchi-buys-55042-in-company-stock-93CH-4928793",
+    "summary": "",
+    "published_at": "2026-10-02T01:45:59+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8011bbd7c7f3ac684447e25a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "CoreWeave CEO Michael Intrator sells $26.7m in stock",
+    "url": "https://www.investing.com/news/insider-trading-news/coreweave-ceo-michael-intrator-sells-267m-in-stock-93CH-4928784",
+    "summary": "",
+    "published_at": "2026-10-02T01:31:12+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "03b645d4035c708b84c8de54",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Australia’s Sunrise Energy Metals plans US redomicile, primary Nasdaq listing",
+    "url": "https://www.investing.com/news/stock-market-news/australias-sunrise-energy-metals-plans-us-redomicile-primary-nasdaq-listing-4928774",
+    "summary": "",
+    "published_at": "2026-10-02T01:30:34+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6b544039907c9a33334e0e77",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oil rises slightly as market weighs mixed supply signals",
+    "url": "https://www.investing.com/news/commodities-news/oil-rises-slightly-as-market-weighs-mixed-supply-signals-4928763",
+    "summary": "",
+    "published_at": "2026-10-02T01:12:26+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0adbf2914c6e4f90b218bfa8",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Tokyo core inflation rate jumps in September, bolsters case for more BOJ hikes",
+    "url": "https://www.investing.com/news/economy-news/tokyo-core-inflation-jumps-in-september-bolsters-case-for-more-boj-hikes-4928698",
+    "summary": "",
+    "published_at": "2026-10-02T01:07:55+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "77a1850a173460cee7805e0d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "G20 trade chiefs to denounce food trade coercion but not excess factory capacity",
+    "url": "https://www.investing.com/news/forex-news/g20-trade-chiefs-to-denounce-food-trade-coercion-but-not-excess-factory-capacity-4928684",
+    "summary": "",
+    "published_at": "2026-10-02T01:06:57+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "75670dab66509899cab57db3",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Ethereum Foundation launches zkAPI to let users pay for AI models without revealing identity",
+    "url": "https://www.theblock.co/news/defi/2026-10-01-ethereum-foundation-launches-zkapi-417504",
+    "summary": "Users deposit funds into an Ethereum vault and authorize spending with zero-knowledge proofs, so the API provider can't link requests to a payer.",
+    "published_at": "2026-10-02T00:22:58+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [
+      "eth"
+    ],
+    "assets_effective": [
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "75d27bd161adc19e9f7389f7",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Here’s who’s joining the S&P 500 in the index’s latest shakeup",
+    "url": "https://www.marketwatch.com/story/heres-whos-joining-the-s-p-500-in-the-indexs-latest-shakeup-07280a15?mod=mw_rss_topstories",
+    "summary": "Twilio gets the nod, as current component Warner Bros Discovery is due to merger with Paramount.",
+    "published_at": "2026-10-02T00:14:00+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "64ca50787b4b5c7d53da54e3",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "This could be the worst year ever for Nike’s stock, with sales set to fall further",
+    "url": "https://www.marketwatch.com/story/nikes-troubles-are-mounting-and-sales-could-fall-further-2c19699d?mod=mw_rss_topstories",
+    "summary": "The company has faced struggles in China and in its sneaker business.",
+    "published_at": "2026-10-02T00:13:00+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b28798ccfe20c9a150e9163a",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Average Contract Interest Rates on Loans and Discounts (Aug.)",
+    "url": "http://www.boj.or.jp/en/statistics/dl/loan/yaku/yaku2608.pdf",
+    "summary": "",
+    "published_at": "2026-10-01T23:50:00+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d0d0528107592f0175281735",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Monetary Base (Sept.)",
+    "url": "http://www.boj.or.jp/en/statistics/boj/other/mb/mb.htm",
+    "summary": "",
+    "published_at": "2026-10-01T23:50:00+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "94a3d18123d3e26d05fd8181",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Tankan (Sept.): Comprehensive Data Set",
+    "url": "http://www.boj.or.jp/en/statistics/tk/tankan09b.htm",
+    "summary": "",
+    "published_at": "2026-10-01T23:50:00+00:00",
+    "collected_at": "2026-10-02T02:07:15.983757+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "8573dd7eeb15c8545c9e9d9d",
     "source": "nikkei_asia",
     "tier": 3,
