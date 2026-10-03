@@ -62,6 +62,122 @@
     "scored_by": "lexique"
   },
   {
+    "id": "c4c47dac55a6a94fbca7ce54",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "OpenAI safety employee quits, says ’time for trial and error is over’",
+    "url": "https://www.investing.com/news/economy-news/openai-safety-employee-quits-says-time-for-trial-and-error-is-over-4930874",
+    "summary": "",
+    "published_at": "2026-10-03T19:06:31+00:00",
+    "collected_at": "2026-10-03T19:44:25.080349+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "63d88042332de05b7f1a6b26",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin stuck at $84,947 in tightening range: Live levels",
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-to-83119-bears-eye-81194-live-levels-93CH-4919475",
+    "summary": "",
+    "published_at": "2026-10-03T19:02:33+00:00",
+    "collected_at": "2026-10-03T19:44:25.080349+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0
+    },
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3621bd6cba7a6ab037838465",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin jumps above $85,000 as SEC custody proposal boosts institutional outlook",
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-below-85000-as-sec-custody-proposal-boosts-institutional-outlook-4930676",
+    "summary": "",
+    "published_at": "2026-10-03T18:16:48+00:00",
+    "collected_at": "2026-10-03T19:44:25.080349+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7621b9586c538bec6ae6f5cc",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "A tough job market is pushing more young Americans to make a big bet: on themselves",
+    "url": "https://www.marketwatch.com/story/a-tough-job-market-is-pushing-more-young-americans-to-make-a-big-bet-on-themselves-1aaddeca?mod=mw_rss_topstories",
+    "summary": "There has been a rise in entrepreneurship among young Americans as the entry-level labor market has become tougher to join.",
+    "published_at": "2026-10-03T17:24:00+00:00",
+    "collected_at": "2026-10-03T19:44:25.080349+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "bddc0e2840f2a07d2b0548bd",
     "source": "nikkei_asia",
     "tier": 3,

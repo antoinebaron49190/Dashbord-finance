@@ -36,11 +36,11 @@
     ]
   },
   "2026-10-03": {
-    "articles_count": 55,
-    "signal_count": 4,
+    "articles_count": 59,
+    "signal_count": 6,
     "tone_cb": null,
-    "tone_global": 0.1667,
-    "regul_crypto": null,
+    "tone_global": 0.1278,
+    "regul_crypto": 0.6,
     "stress": 0.0,
     "top": [
       {
@@ -50,6 +50,22 @@
         "score": 0.3,
         "tone": 0.6667,
         "url": "https://www.coindesk.com/business/2026/10/03/openpayd-targets-year-end-nasdaq-listing-to-fund-u-s-expansion-and-acquisitions"
+      },
+      {
+        "id": "3621bd6cba7a6ab037838465",
+        "title": "Bitcoin jumps above $85,000 as SEC custody proposal boosts institutional outlook",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.6,
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-holds-below-85000-as-sec-custody-proposal-boosts-institutional-outlook-4930676"
+      },
+      {
+        "id": "63d88042332de05b7f1a6b26",
+        "title": "Bitcoin stuck at $84,947 in tightening range: Live levels",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-to-83119-bears-eye-81194-live-levels-93CH-4919475"
       },
       {
         "id": "aa8455b180cb2cec2c5212ef",
@@ -66,22 +82,6 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://www.investing.com/news/economy-news/trump-says-iran-war-could-end-after-us-elections-as-hormuz-tensions-persist-4930741"
-      },
-      {
-        "id": "bddc0e2840f2a07d2b0548bd",
-        "title": "Nitori tackles Japan's furniture waste with giant recycling center",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/consumer/nitori-tackles-japan-s-furniture-waste-with-giant-recycling-center"
-      },
-      {
-        "id": "04d562ca46a2b6c57a55ac02",
-        "title": "Airbnb unlikely to let AI agents like Muse make bookings, CEO says",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/travel-leisure/airbnb-unlikely-to-let-ai-agents-like-muse-make-bookings-ceo-says"
       }
     ]
   },
