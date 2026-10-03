@@ -62,6 +62,423 @@
     "scored_by": "lexique"
   },
   {
+    "id": "bddc0e2840f2a07d2b0548bd",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Nitori tackles Japan's furniture waste with giant recycling center",
+    "url": "https://asia.nikkei.com/business/consumer/nitori-tackles-japan-s-furniture-waste-with-giant-recycling-center",
+    "summary": "",
+    "published_at": "2026-10-03T16:58:25.593350+00:00",
+    "collected_at": "2026-10-03T16:58:25.593350+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "04d562ca46a2b6c57a55ac02",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Airbnb unlikely to let AI agents like Muse make bookings, CEO says",
+    "url": "https://asia.nikkei.com/business/travel-leisure/airbnb-unlikely-to-let-ai-agents-like-muse-make-bookings-ceo-says",
+    "summary": "",
+    "published_at": "2026-10-03T16:58:25.593350+00:00",
+    "collected_at": "2026-10-03T16:58:25.593350+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c8a37ec93506808cfd0b7468",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bessent says rising Treasury yields reflect global trend, not cause for alarm",
+    "url": "https://www.investing.com/news/economy-news/bessent-says-rising-treasury-yields-reflect-global-trend-not-cause-for-alarm-4930869",
+    "summary": "",
+    "published_at": "2026-10-03T16:49:38+00:00",
+    "collected_at": "2026-10-03T16:58:25.593350+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e440d489cefafef39b237c44",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Turkey extends lower margin trading requirement to Oct. 30",
+    "url": "https://www.investing.com/news/stock-market-news/turkey-extends-lower-margin-trading-requirement-to-oct-30-93CH-4930868",
+    "summary": "",
+    "published_at": "2026-10-03T16:32:50+00:00",
+    "collected_at": "2026-10-03T16:58:25.593350+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c7f59033b8c2a881d2ba9158",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions",
+    "url": "https://www.coindesk.com/business/2026/10/03/openpayd-targets-year-end-nasdaq-listing-to-fund-u-s-expansion-and-acquisitions",
+    "summary": "",
+    "published_at": "2026-10-03T16:00:00+00:00",
+    "collected_at": "2026-10-03T16:58:25.593350+00:00",
+    "categories": {
+      "croissance": 2.0,
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6667,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.6667,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "693291ba564805f62b8c216c",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Crypto job postings triple to over 1,200 in September, but applications fall",
+    "url": "https://www.coindesk.com/business/2026/10/03/crypto-job-postings-triple-to-over-1-200-in-september-but-applications-fall",
+    "summary": "",
+    "published_at": "2026-10-03T16:00:00+00:00",
+    "collected_at": "2026-10-03T16:58:25.593350+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9c3a02293663f0f4459daba9",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Exclusive-Key ShinyHunters hacker detained in Jordan, is cooperating, sources say",
+    "url": "https://www.investing.com/news/stock-market-news/exclusivekey-shinyhunters-hacker-detained-in-jordan-is-cooperating-sources-say-4930864",
+    "summary": "",
+    "published_at": "2026-10-03T15:18:33+00:00",
+    "collected_at": "2026-10-03T16:58:25.593350+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a2e5c21c383d4af310ea534f",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Cathie Wood says smart investors need to start watching where AI agents spend money",
+    "url": "https://www.coindesk.com/markets/2026/10/01/cathie-wood-says-smart-investors-need-to-start-watching-where-ai-agents-spend-money",
+    "summary": "",
+    "published_at": "2026-10-03T15:00:00+00:00",
+    "collected_at": "2026-10-03T16:58:25.593350+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3498be93b91b4eb9f141d36e",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "PennyMac Mortgage CAO Hendry disposes of $19,209 in shares",
+    "url": "https://www.investing.com/news/insider-trading-news/pennymac-mortgage-cao-hendry-disposes-of-19209-in-shares-93CH-4930860",
+    "summary": "",
+    "published_at": "2026-10-03T14:46:14+00:00",
+    "collected_at": "2026-10-03T16:58:25.593350+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7d7449b7b05d7a36b4ba3e37",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Raven Raises at $90M Valuation From CMCC Global and Coinbase Ventures for Prediction Markets",
+    "url": "https://www.investing.com/news/press-releases/raven-raises-at-90m-valuation-from-cmcc-global-and-coinbase-ventures-for-prediction-markets-4930857",
+    "summary": "",
+    "published_at": "2026-10-03T14:02:17+00:00",
+    "collected_at": "2026-10-03T16:58:25.593350+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ab6cc009928908c175049104",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "U.S. to reportedly lend Vistra $4.2 billion to expand nuclear power output",
+    "url": "https://www.investing.com/news/stock-market-news/us-to-reportedly-lend-vistra-42-billion-to-expand-nuclear-power-output-4930854",
+    "summary": "",
+    "published_at": "2026-10-03T13:39:07+00:00",
+    "collected_at": "2026-10-03T16:58:25.593350+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "765a59b31ad3166564b2d4db",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Crypto's Sisyphean struggle",
+    "url": "https://www.coindesk.com/opinion/2026/10/03/crypto-s-sisyphean-struggle",
+    "summary": "",
+    "published_at": "2026-10-03T13:00:00+00:00",
+    "collected_at": "2026-10-03T16:58:25.593350+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d325a3896335630b5e2a7e6a",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "BlackRock offers a glimpse of how tokenization may change your investment portfolio",
+    "url": "https://www.coindesk.com/business/2026/10/03/blackrock-offers-a-glimpse-of-how-tokenization-may-change-your-investment-portfolio",
+    "summary": "",
+    "published_at": "2026-10-03T13:00:00+00:00",
+    "collected_at": "2026-10-03T16:58:25.593350+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a6d69dd195816e6211d5c88c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Smoke and fire reported near Aramco facility in Riyadh as Houthi tensions escalate",
+    "url": "https://www.investing.com/news/economy-news/smoke-and-fire-reported-near-aramco-facility-in-riyadh-as-houthi-tensions-escalate-4930846",
+    "summary": "",
+    "published_at": "2026-10-03T12:12:49+00:00",
+    "collected_at": "2026-10-03T16:58:25.593350+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cf26437db1c5d8ffbde78845",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Renault to invest over €10 billion in France for EVs",
+    "url": "https://www.investing.com/news/stock-market-news/renault-to-invest-over-10-billion-in-france-for-evs-93CH-4930845",
+    "summary": "",
+    "published_at": "2026-10-03T12:05:10+00:00",
+    "collected_at": "2026-10-03T16:58:25.593350+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "3b0a87fcf350046706c98a2f",
     "source": "marketwatch",
     "tier": 3,

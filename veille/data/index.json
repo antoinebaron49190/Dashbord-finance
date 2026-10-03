@@ -36,13 +36,21 @@
     ]
   },
   "2026-10-03": {
-    "articles_count": 40,
-    "signal_count": 2,
+    "articles_count": 55,
+    "signal_count": 4,
     "tone_cb": null,
-    "tone_global": 0.0,
+    "tone_global": 0.1667,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "c7f59033b8c2a881d2ba9158",
+        "title": "Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": 0.6667,
+        "url": "https://www.coindesk.com/business/2026/10/03/openpayd-targets-year-end-nasdaq-listing-to-fund-u-s-expansion-and-acquisitions"
+      },
       {
         "id": "aa8455b180cb2cec2c5212ef",
         "title": "Why rising exports aren’t easing oil market fears",
@@ -60,28 +68,20 @@
         "url": "https://www.investing.com/news/economy-news/trump-says-iran-war-could-end-after-us-elections-as-hormuz-tensions-persist-4930741"
       },
       {
-        "id": "3b0a87fcf350046706c98a2f",
-        "title": "I bought a $126 concert ticket for my sister and now she can’t go. Will I be able to make a profit selling the ticket?",
-        "source": "marketwatch",
+        "id": "bddc0e2840f2a07d2b0548bd",
+        "title": "Nitori tackles Japan's furniture waste with giant recycling center",
+        "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.marketwatch.com/story/i-bought-a-126-concert-ticket-for-my-sister-and-now-she-cant-go-will-i-be-able-to-make-a-profit-selling-the-ticket-1dd5cbe9?mod=mw_rss_topstories"
+        "url": "https://asia.nikkei.com/business/consumer/nitori-tackles-japan-s-furniture-waste-with-giant-recycling-center"
       },
       {
-        "id": "6df17ce454081815b74205fa",
-        "title": "Flydubai co-pilot attacked pilot with axe in attempted ’terrorist attack’, UAE says",
-        "source": "investing_com",
+        "id": "04d562ca46a2b6c57a55ac02",
+        "title": "Airbnb unlikely to let AI agents like Muse make bookings, CEO says",
+        "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/commodities-news/flydubai-copilot-attacked-pilot-with-axe-attempted-terrorist-attack-uae-says-4930768"
-      },
-      {
-        "id": "de796f165107370f663880cf",
-        "title": "As Treasury yields touch generational highs, investors brace for the market fallout",
-        "source": "marketwatch",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.marketwatch.com/story/as-treasury-yields-touch-generational-highs-investors-brace-for-the-market-fallout-0457e698?mod=mw_rss_topstories"
+        "url": "https://asia.nikkei.com/business/travel-leisure/airbnb-unlikely-to-let-ai-agents-like-muse-make-bookings-ceo-says"
       }
     ]
   },
