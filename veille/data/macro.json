@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T19:44:54.719002+00:00",
+  "generated_at": "2026-10-03T22:41:59.669382+00:00",
   "regime": {
     "state": "favorable au risque",
     "favorable": 9,
@@ -12,21 +12,21 @@
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": true,
-      "value": "84 792 $",
+      "value": "84 778 $",
       "reference": "MM200 71 426 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": true,
-      "value": "84 792 $",
-      "reference": "MM50 78 557 $"
+      "value": "84 778 $",
+      "reference": "MM50 78 556 $"
     },
     {
       "group": "Crypto",
       "label": "ETH au-dessus de sa MM200",
       "ok": true,
-      "value": "2 683 $",
+      "value": "2 688 $",
       "reference": "MM200 2 116 $"
     },
     {
@@ -47,7 +47,7 @@
       "group": "Crypto",
       "label": "Financement des perpétuels BTC",
       "ok": true,
-      "value": "+0.0051 %",
+      "value": "+0.0034 %",
       "reference": "positif"
     },
     {
@@ -88,27 +88,27 @@
   ],
   "crypto": {
     "btc": {
-      "price": 84791.9,
-      "ma50": 78556.55200000004,
-      "ma200": 71426.22049999994,
-      "drawdown_1y": 0.32039529841744385,
-      "volatility_30d": 0.3767580535498592,
+      "price": 84778.2,
+      "ma50": 78556.27800000005,
+      "ma200": 71426.15199999993,
+      "drawdown_1y": 0.3205051035334004,
+      "volatility_30d": 0.3767477162266884,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "eth": {
-      "price": 2683.16,
-      "ma50": 2483.9426000000008,
-      "ma200": 2115.855349999999,
-      "drawdown_1y": 0.42777076366614347,
-      "volatility_30d": 0.40250808456483317,
+      "price": 2687.52,
+      "ma50": 2484.0298000000007,
+      "ma200": 2115.877149999999,
+      "drawdown_1y": 0.4268409199481335,
+      "volatility_30d": 0.4027189951875255,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "spot_venue": "kraken",
-    "funding_btc": 5.06686591259e-05,
+    "funding_btc": 3.4001948104e-05,
     "funding_venue": "okx"
   },
   "equities": {
@@ -227,11 +227,11 @@
       "fear_greed": 67,
       "assets": {
         "btc": {
-          "close": 84791.9,
+          "close": 84778.2,
           "trend": "haussiere"
         },
         "eth": {
-          "close": 2683.16,
+          "close": 2687.52,
           "trend": "haussiere"
         },
         "sp500": {
