@@ -62,6 +62,395 @@
     "scored_by": "lexique"
   },
   {
+    "id": "0473c825c519047f40eabf32",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Thai protesters slam Chinese, other foreign companies as economy slows",
+    "url": "https://asia.nikkei.com/economy/thai-protesters-slam-chinese-other-foreign-companies-as-economy-slows",
+    "summary": "",
+    "published_at": "2026-10-04T15:08:30.191143+00:00",
+    "collected_at": "2026-10-04T15:08:30.191143+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fab416a6407fdf9f55ac3ec8",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Trump names Clayton, Ferguson, Michael and Kupor to lead AI task force",
+    "url": "https://www.investing.com/news/economy-news/white-house-forms-ai-task-force-to-assess-technology-risks--wsj-4930893",
+    "summary": "",
+    "published_at": "2026-10-04T14:41:03+00:00",
+    "collected_at": "2026-10-04T15:08:30.191143+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5a27aa0ea155bb367ab54af7",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Yemen leader announces major military operations against Iran-backed Houthis",
+    "url": "https://www.investing.com/news/commodities-news/head-of-yemens-presidential-council-announces-military-operations-to-retake-territory-4930932",
+    "summary": "",
+    "published_at": "2026-10-04T14:18:36+00:00",
+    "collected_at": "2026-10-04T15:08:30.191143+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "245bbce879f48549e4d56e5a",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Crypto poured years into new products. The next challenge is keeping users",
+    "url": "https://www.coindesk.com/business/2026/10/04/crypto-poured-years-into-new-products-the-next-challenge-is-keeping-users",
+    "summary": "",
+    "published_at": "2026-10-04T14:00:00+00:00",
+    "collected_at": "2026-10-04T15:08:30.191143+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c3ff928e63a2911fd8147217",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Corporate America has never been this upbeat about future profits",
+    "url": "https://www.marketwatch.com/story/corporate-america-has-never-been-this-upbeat-about-future-profits-fbaf8cd9?mod=mw_rss_topstories",
+    "summary": "As third-quarter earnings kick off this week, more companies than ever have expressed optimism about their bottom lines.",
+    "published_at": "2026-10-04T14:00:00+00:00",
+    "collected_at": "2026-10-04T15:08:30.191143+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "af11f8f0eb08513dd80493cb",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Explainer-Who are the Houthis, Iran’s allies in Yemen?",
+    "url": "https://www.investing.com/news/commodities-news/explainerwho-are-the-houthis-irans-allies-in-yemen-4930937",
+    "summary": "",
+    "published_at": "2026-10-04T13:36:33+00:00",
+    "collected_at": "2026-10-04T15:08:30.191143+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4ee4860593ee6aa37d732843",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Spiking bond yields, midterms, earnings to test US stocks’ typical fourth-quarter strength",
+    "url": "https://www.investing.com/news/economy-news/spiking-bond-yields-midterms-earnings-to-test-us-stocks-typical-fourthquarter-strength-4930935",
+    "summary": "",
+    "published_at": "2026-10-04T13:00:32+00:00",
+    "collected_at": "2026-10-04T15:08:30.191143+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f797028154a749433ac8d200",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "The Clarity Act stalled. Bankers aren’t hitting the brakes yet on crypto dealmaking",
+    "url": "https://www.coindesk.com/business/2026/10/04/the-clarity-act-stalled-crypto-dealmakers-aren-t-hitting-the-brakes-yet",
+    "summary": "",
+    "published_at": "2026-10-04T13:00:00+00:00",
+    "collected_at": "2026-10-04T15:08:30.191143+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dd2254746d4857d5b32b1f77",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "October can be a scary month for stocks. Here’s what investors need to watch this year.",
+    "url": "https://www.marketwatch.com/story/october-can-be-a-scary-month-for-stocks-heres-what-investors-need-to-watch-this-year-ac1da700?mod=mw_rss_topstories",
+    "summary": "If stocks see another big swoon this year, investors already know why.",
+    "published_at": "2026-10-04T13:00:00+00:00",
+    "collected_at": "2026-10-04T15:08:30.191143+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d8752bf172dc7d08025ff19a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Saudi Arabia stocks higher at close of trade; Tadawul All Share up 1.09%",
+    "url": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-higher-at-close-of-trade-tadawul-all-share-up-109-4930934",
+    "summary": "",
+    "published_at": "2026-10-04T12:45:04+00:00",
+    "collected_at": "2026-10-04T15:08:30.191143+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "37a75f5bee2488687d047339",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "OPEC+ holds output targets steady as Middle East conflict tightens supply",
+    "url": "https://www.investing.com/news/commodities-news/opec-set-to-hold-november-oil-quotas-steady-as-middle-east-conflict-hits-output-4930914",
+    "summary": "",
+    "published_at": "2026-10-04T12:38:26+00:00",
+    "collected_at": "2026-10-04T15:08:30.191143+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cc6b2825f3ef41cb5f8be197",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "OPEC+ agrees to keep November oil output targets steady",
+    "url": "https://www.investing.com/news/commodities-news/opec-agrees-in-principle-to-keep-november-oil-output-targets-steady-sources-say-4930923",
+    "summary": "",
+    "published_at": "2026-10-04T12:12:28+00:00",
+    "collected_at": "2026-10-04T15:08:30.191143+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5df76cc7043701aa8166a86e",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Fed minutes coming this week could give markets important clues about future rate hikes",
+    "url": "https://www.marketwatch.com/story/fed-minutes-coming-this-week-could-give-markets-important-clues-about-future-rate-hikes-31bfba5b?mod=mw_rss_topstories",
+    "summary": "Minutes from the September meeting may provide extra context, as the real fed-funds rate is now surprisingly low.",
+    "published_at": "2026-10-04T12:00:00+00:00",
+    "collected_at": "2026-10-04T15:08:30.191143+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f83d66f162dfde06b2dd3c5f",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Iran keeps Hormuz closed as talks with Washington remain deadlocked",
+    "url": "https://www.investing.com/news/economy-news/houthis-claim-strike-on-saudi-aramco-facility-as-yemen-fighting-intensifies-4930902",
+    "summary": "",
+    "published_at": "2026-10-04T11:36:07+00:00",
+    "collected_at": "2026-10-04T15:08:30.191143+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "5406e44537b46e23d7cf2bee",
     "source": "nikkei_asia",
     "tier": 3,
@@ -595039,36 +595428,6 @@
     ],
     "has_decision_marker": true,
     "importance": 0.9,
-    "tone_lexical": 0.0,
-    "crypto_tone": 0.0,
-    "is_stress": false,
-    "tone": 0.0,
-    "scored_by": "lexique"
-  },
-  {
-    "id": "f29f657faac5fe48a75dd76f",
-    "source": "fed_speeches",
-    "tier": 1,
-    "weight": 1.0,
-    "category": "politique_monetaire",
-    "assets": [
-      "sp500",
-      "msci_world"
-    ],
-    "title": "Waller, Two Thoughts on the Transmission of Monetary Policy",
-    "url": "https://www.federalreserve.gov/newsevents/speech/waller20260706a.htm",
-    "summary": "Speech At \"Challenges for Monetary Policy Transmission in a Changing World,\" a conference sponsored by the Bank of Italy for the research network initiated by the European System of Central Banks, Rome, Italy",
-    "published_at": "2026-07-06T15:00:00+00:00",
-    "collected_at": "2026-07-31T16:01:54.092103+00:00",
-    "categories": {},
-    "assets_detected": [
-      "europe"
-    ],
-    "assets_effective": [
-      "europe"
-    ],
-    "has_decision_marker": false,
-    "importance": 1.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
