@@ -36,52 +36,52 @@
     ]
   },
   "2026-10-04": {
-    "articles_count": 6,
-    "signal_count": 0,
+    "articles_count": 20,
+    "signal_count": 1,
     "tone_cb": null,
-    "tone_global": null,
+    "tone_global": -0.5,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
-        "id": "2d1bac7661c27487c77c33db",
-        "title": "Japan's Seto Inland Sea cruise tours target wealthy visitors",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/travel-leisure/japan-s-seto-inland-sea-cruise-tours-target-wealthy-visitors"
-      },
-      {
-        "id": "05a97aa223ec9d8de61f69d2",
-        "title": "China's Songmont, Pane accessory brands shine with thrifty shoppers",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/retail/china-s-songmont-pane-accessory-brands-shine-with-thrifty-shoppers"
-      },
-      {
-        "id": "23099b3277c1b4dec7e90271",
-        "title": "Exploring Langkawi's ancient ecosystem",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/life-arts/life/destinations/exploring-langkawi-s-ancient-ecosystem"
-      },
-      {
-        "id": "91ff17b9ab0538eb03841086",
-        "title": "FlyDubai copilot lost earlier job over radical views",
+        "id": "def27354074bc363a62ac52f",
+        "title": "OPEC+ set to hold November oil quotas steady as Middle East conflict hits output",
         "source": "investing_com",
         "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/company-news/flydubai-copilot-lost-earlier-job-over-radical-views-4930895"
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/commodities-news/opec-set-to-hold-november-oil-quotas-steady-as-middle-east-conflict-hits-output-4930914"
       },
       {
-        "id": "d762c101d6e0f99d02aae0fa",
-        "title": "OpenAI safety employee quits, criticizes company’s approach to AI risks",
-        "source": "investing_com",
+        "id": "5406e44537b46e23d7cf2bee",
+        "title": "Thai protestors slam Chinese, other foreign companies as economy slows",
+        "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/company-news/openai-safety-employee-quits-criticizes-companys-approach-to-ai-risks-4930894"
+        "url": "https://asia.nikkei.com/economy/thai-protestors-slam-chinese-other-foreign-companies-as-economy-slows"
+      },
+      {
+        "id": "bdb9fc9bdcb2a73cccc29b56",
+        "title": "Takaichi policy speech, Malaysia budget, Pacific islands climate summit",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/spotlight/your-week-in-asia/takaichi-policy-speech-malaysia-budget-pacific-islands-climate-summit"
+      },
+      {
+        "id": "e10e51dfa9ea970f478048ab",
+        "title": "Hiroshima and Nagasaki disasters offer lesson for AI governance",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/spotlight/comment/hiroshima-and-nagasaki-disasters-offer-lesson-for-ai-governance"
+      },
+      {
+        "id": "380102daa1fd979672a9f2c0",
+        "title": "Turkish arms group eyes Japan ties in air defense and underwater drones",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/business/aerospace-defense-industries/turkish-arms-group-eyes-japan-ties-in-air-defense-and-underwater-drones"
       }
     ]
   },
@@ -4214,21 +4214,13 @@
     ]
   },
   "2026-07-06": {
-    "articles_count": 7,
+    "articles_count": 5,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
-      {
-        "id": "4f5d43b39ca3e94484555162",
-        "title": "Bank of England appoints Rhys Phillips as the new Chief Cashier",
-        "source": "boe_news",
-        "score": 1.95,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/news/2026/july/boe-appoints-rhys-phillips-as-the-new-chief-cashier"
-      },
       {
         "id": "483c404b161e16e4b02dd9a5",
         "title": "Monetary Base and the Bank of Japan's Transactions (June)",
@@ -4260,6 +4252,14 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/speech/waller20260706a.htm"
+      },
+      {
+        "id": "b78455e7aad12d9081cd187e",
+        "title": "SEC Names Paul Knight as Chief Operating Officer",
+        "source": "sec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-62-sec-names-paul-knight-chief-operating-officer"
       }
     ]
   },
