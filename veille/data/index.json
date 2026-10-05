@@ -36,13 +36,21 @@
     ]
   },
   "2026-10-05": {
-    "articles_count": 102,
-    "signal_count": 17,
-    "tone_cb": 0.5834,
-    "tone_global": 0.2639,
+    "articles_count": 129,
+    "signal_count": 19,
+    "tone_cb": 0.3333,
+    "tone_global": 0.2193,
     "regul_crypto": -0.39,
-    "stress": 0.0131,
+    "stress": 0.0108,
     "top": [
+      {
+        "id": "cf09837380697c7ff697d43e",
+        "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
+        "source": "fed_press_all",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm"
+      },
       {
         "id": "b64e6ac8b42411239497a554",
         "title": "From digital banking to resilient banking - technology, cyber security and ai as pillars of trust",
@@ -74,14 +82,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3293~a7c6243bcc.en.pdf"
-      },
-      {
-        "id": "f55a5a0dec864f9254a5ed54",
-        "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
-        "source": "bce_press",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html"
       }
     ]
   },
@@ -4214,10 +4214,10 @@
     ]
   },
   "2026-07-07": {
-    "articles_count": 3,
-    "signal_count": 1,
-    "tone_cb": 0.0,
-    "tone_global": 0.0,
+    "articles_count": 2,
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
@@ -4236,14 +4236,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/statistics/br/bop_06/bpdata/diiqcy.htm"
-      },
-      {
-        "id": "3fdffabf9ff8ee7a938a1721",
-        "title": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
-        "source": "fed_press_all",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm"
       }
     ]
   },
