@@ -36,13 +36,21 @@
     ]
   },
   "2026-10-05": {
-    "articles_count": 40,
-    "signal_count": 7,
-    "tone_cb": 0.5,
-    "tone_global": 0.4129,
-    "regul_crypto": 0.6,
-    "stress": 0.0,
+    "articles_count": 102,
+    "signal_count": 17,
+    "tone_cb": 0.5834,
+    "tone_global": 0.2639,
+    "regul_crypto": -0.39,
+    "stress": 0.0131,
     "top": [
+      {
+        "id": "b64e6ac8b42411239497a554",
+        "title": "From digital banking to resilient banking - technology, cyber security and ai as pillars of trust",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.6667,
+        "url": "https://www.bis.org/speeches/20261005-digital-banking-resilient-banking-technology-cyber-security-and-ai-pillars-trust"
+      },
       {
         "id": "95df5b7585ef6a41d634f7cd",
         "title": "Output Gap, Potential Growth Rate, and Labor Market Indicators",
@@ -52,44 +60,36 @@
         "url": "http://www.boj.or.jp/en/research/research_data/gap/index.htm"
       },
       {
+        "id": "d2087f814c30def89974ef3d",
+        "title": "Understanding inflation: insights from the term structure of inflation risks",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3294~343f6d6c31.en.pdf"
+      },
+      {
+        "id": "36ae31be176558e8fb4e8942",
+        "title": "ECB monetary policy transmission to unilaterally euroised economies",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3293~a7c6243bcc.en.pdf"
+      },
+      {
         "id": "f55a5a0dec864f9254a5ed54",
         "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
         "source": "bce_press",
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html"
-      },
-      {
-        "id": "7e655e1be3b85ca05cf31350",
-        "title": "Opening Remarks by Deputy Governor UCHIDA at the ECONDAT 2026 Fall Meeting (AI, Big Data, and Monetary Policy)",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261005a.htm"
-      },
-      {
-        "id": "09aa49523d6619be028415fd",
-        "title": "8th Conference on Nontraditional Data, Machine Learning, and Natural Language Processing in Macroeconomics (ECONDAT 2026 Fall Meeting)",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/research/conf/conf2610a.htm"
-      },
-      {
-        "id": "fa83dce224e337f07ce68d9c",
-        "title": "Speech by Commissioner Lahbib at the 30th anniversary of the European Association of Service Providers for People with Disabilities",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2067"
       }
     ]
   },
   "2026-10-04": {
-    "articles_count": 61,
-    "signal_count": 5,
+    "articles_count": 63,
+    "signal_count": 7,
     "tone_cb": null,
-    "tone_global": -0.5,
+    "tone_global": -0.0439,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
@@ -100,6 +100,22 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/statistics/boj/fm/juqp/juqp2610.xlsx"
+      },
+      {
+        "id": "272e5515782c75394077975d",
+        "title": "Commission finds Polish support for MAN Trucks factory expansion incompatible State aid",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.6667,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2056"
+      },
+      {
+        "id": "356b4349c919ba1c4eaaa8cb",
+        "title": "Commission unlocks €157 million to Moldova for reform progress under the Growth Plan",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.5,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2054"
       },
       {
         "id": "5a27aa0ea155bb367ab54af7",
@@ -116,22 +132,6 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://www.investing.com/news/commodities-news/germanys-merz-arrives-in-kyiv-to-the-sound-of-sirens-and-explosions-4930915"
-      },
-      {
-        "id": "37a75f5bee2488687d047339",
-        "title": "OPEC+ holds output targets steady as Middle East conflict tightens supply",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/commodities-news/opec-set-to-hold-november-oil-quotas-steady-as-middle-east-conflict-hits-output-4930914"
-      },
-      {
-        "id": "5df76cc7043701aa8166a86e",
-        "title": "Fed minutes coming this week could give markets important clues about future rate hikes",
-        "source": "marketwatch",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.marketwatch.com/story/fed-minutes-coming-this-week-could-give-markets-important-clues-about-future-rate-hikes-31bfba5b?mod=mw_rss_topstories"
       }
     ]
   },
@@ -1436,12 +1436,12 @@
     ]
   },
   "2026-09-07": {
-    "articles_count": 322,
+    "articles_count": 323,
     "signal_count": 28,
     "tone_cb": null,
     "tone_global": 0.0184,
     "regul_crypto": 0.0,
-    "stress": 0.0029,
+    "stress": 0.0028,
     "top": [
       {
         "id": "7f97fc5838835d35b052e6b6",
@@ -1476,12 +1476,12 @@
         "url": "https://www.boj.or.jp/en/statistics/market/short/call/call.xlsx"
       },
       {
-        "id": "681433e2367867ffc0f84853",
-        "title": "Commission approves €400 million German State aid to enhance insulin supply resilience",
-        "source": "ec_press",
-        "score": 0.9,
+        "id": "f414d930a25ddb632641109d",
+        "title": "Consumption Activity Index",
+        "source": "boj_news",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1798"
+        "url": "http://www.boj.or.jp/en/research/research_data/cai/index.htm"
       }
     ]
   },
@@ -4214,11 +4214,11 @@
     ]
   },
   "2026-07-07": {
-    "articles_count": 8,
-    "signal_count": 3,
+    "articles_count": 3,
+    "signal_count": 1,
     "tone_cb": 0.0,
-    "tone_global": -0.2411,
-    "regul_crypto": -0.75,
+    "tone_global": 0.0,
+    "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
@@ -4244,22 +4244,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm"
-      },
-      {
-        "id": "45697ff8a54d23324bcf2371",
-        "title": "Bowman, Opening Remarks on Sound Practices for Artificial Intelligence",
-        "source": "fed_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20260707a.htm"
-      },
-      {
-        "id": "47b76b40f13da025ad6d7491",
-        "title": "Financial Policy Committee Record – July 2026",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/financial-policy-committee-record/2026/july-2026"
       }
     ]
   },
