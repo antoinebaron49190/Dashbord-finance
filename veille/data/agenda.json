@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T04:52:45.626144+00:00",
+  "generated_at": "2026-10-06T11:48:09.032166+00:00",
   "upcoming": [
     {
       "date": "2026-10-28",
@@ -22,16 +22,6 @@
       "date_fr": "jeudi 29 octobre"
     },
     {
-      "date": "2026-10-30",
-      "label": "Réunion de politique monétaire (BoJ) — décision de taux",
-      "source": "Banque du Japon",
-      "importance": 2,
-      "when": "dans 24 jours",
-      "days": 24,
-      "imminent": false,
-      "date_fr": "vendredi 30 octobre"
-    },
-    {
       "date": "2026-11-05",
       "label": "Comité de politique monétaire (BoE) — décision de taux",
       "source": "Bank of England",
@@ -40,8 +30,18 @@
       "days": 30,
       "imminent": false,
       "date_fr": "jeudi 5 novembre"
+    },
+    {
+      "date": "2026-11-25",
+      "label": "Conseil des gouverneurs de la BCE — décision de taux",
+      "source": "BCE",
+      "importance": 3,
+      "when": "dans 50 jours",
+      "days": 50,
+      "imminent": false,
+      "date_fr": "mercredi 25 novembre"
     }
   ],
-  "all_known": 113,
+  "all_known": 97,
   "failures": []
 }
