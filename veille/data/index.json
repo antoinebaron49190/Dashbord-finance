@@ -36,52 +36,52 @@
     ]
   },
   "2026-10-07": {
-    "articles_count": 12,
-    "signal_count": 2,
+    "articles_count": 65,
+    "signal_count": 9,
     "tone_cb": null,
-    "tone_global": 0.0834,
-    "regul_crypto": null,
+    "tone_global": 0.0346,
+    "regul_crypto": 0.6,
     "stress": 0.0,
     "top": [
       {
-        "id": "dc8017e504f0ec550567559a",
-        "title": "Bank of Japan Accounts (September 30)",
-        "source": "boj_news",
+        "id": "3f06456219c050feba4454a6",
+        "title": "Does shareholder diversification enhance firm investment resilience? Evidence from the euro area",
+        "source": "bce_pub",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3296~db309862b0.en.pdf"
+      },
+      {
+        "id": "6079477c8f167de59010e05e",
+        "title": "Monitoring banks’ vulnerabilities using stressed depletion indices",
+        "source": "bce_pub",
         "score": 1.3,
         "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260930.htm"
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3295~5961ce0e96.en.pdf"
       },
       {
-        "id": "af27748b33422cac33ae7906",
-        "title": "Samsung takes Vietnam up semiconductor value chain with $5bn expansion",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://asia.nikkei.com/business/tech/semiconductors/samsung-takes-vietnam-up-semiconductor-value-chain-with-5bn-expansion"
-      },
-      {
-        "id": "e6db92f75c9215d9c1e203f1",
-        "title": "Vance says Iran must reduce nuclear enrichment capacity to end war - Reuters",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/vance-says-iran-must-reduce-nuclear-enrichment-capacity-to-end-war--reuters-4935512"
-      },
-      {
-        "id": "1f8257fcfe842c224d440ecc",
-        "title": "UK universities review China ties after MI5 espionage alert",
-        "source": "nikkei_asia",
-        "score": 0.3,
+        "id": "f5aa27089bc7bdf5c3bab828",
+        "title": "Regulatory thresholds set to shift to automatic increases",
+        "source": "boe_news",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/politics/international-relations/uk-universities-review-china-ties-after-mi5-espionage-alert"
+        "url": "https://www.bankofengland.co.uk/news/2026/october/regulatory-thresholds-set-to-shift-to-automatic-increases"
       },
       {
-        "id": "bd5808e22ac7e75f4f99d48c",
-        "title": "Australian gold stocks rise as bullion gains, Fed hike bets fade",
-        "source": "investing_com",
-        "score": 0.3,
+        "id": "6fed4c4f29ed788bc4f5cfc8",
+        "title": "Results of the September 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
+        "source": "bce_press",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/stock-market-news/australian-gold-stocks-rise-as-bullion-gains-fed-hike-bets-fade-4935529"
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261007~6447350434.en.html"
+      },
+      {
+        "id": "2c086ebf64244bf2d5bab95f",
+        "title": "Survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/other/SESFOD_2026_Q3_summary.en.pdf"
       }
     ]
   },
@@ -136,12 +136,12 @@
     ]
   },
   "2026-10-05": {
-    "articles_count": 135,
+    "articles_count": 137,
     "signal_count": 19,
     "tone_cb": 0.3333,
     "tone_global": 0.2193,
     "regul_crypto": -0.39,
-    "stress": 0.01,
+    "stress": 0.0097,
     "top": [
       {
         "id": "cf09837380697c7ff697d43e",
@@ -186,7 +186,7 @@
     ]
   },
   "2026-10-04": {
-    "articles_count": 64,
+    "articles_count": 65,
     "signal_count": 7,
     "tone_cb": null,
     "tone_global": -0.0439,
@@ -226,12 +226,12 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2087"
       },
       {
-        "id": "5a27aa0ea155bb367ab54af7",
-        "title": "Yemen leader announces major military operations against Iran-backed Houthis",
-        "source": "investing_com",
-        "score": 0.45,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/commodities-news/head-of-yemens-presidential-council-announces-military-operations-to-retake-territory-4930932"
+        "id": "fbfc7a83cf159ca40979b5cb",
+        "title": "Speech by Commissioner Costas Kadis at the opening reception of the 10th anniversary of the Malta Maritime Summit and the Malta Maritime Awards 2026 Ceremony",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2093"
       }
     ]
   },
@@ -4214,10 +4214,10 @@
     ]
   },
   "2026-07-09": {
-    "articles_count": 12,
-    "signal_count": 2,
+    "articles_count": 5,
+    "signal_count": 1,
     "tone_cb": 0.0,
-    "tone_global": 0.1098,
+    "tone_global": 0.0,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
@@ -4246,20 +4246,20 @@
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm"
       },
       {
-        "id": "7c7f3f9e8d359bf9eb3a0081",
-        "title": "Regional Economic Report (Summary) (July 2026)",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/research/brp/rer/rer260709.htm"
-      },
-      {
         "id": "d57c9dfb379e9dba95dd96ae",
         "title": "L'AMF et l'ACPR mettent en garde le public contre plusieurs acteurs proposant en France des investissements sur le marché des devises non régulé (Forex) et sur des produits dérivés sur crypto-actifs, sans y être autorisés",
         "source": "amf_news",
         "score": 0.9,
         "tone": 0.0,
         "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-et-lacpr-mettent-en-garde-le-public-contre-plusieurs-acteurs-proposant-en-france-des-1#xts=607212&xtor=RSS-3&type=RSS"
+      },
+      {
+        "id": "c3192b54a25792635bf3557f",
+        "title": "Job seekers giving up: Labor force participation rate falls to lowest in 50 years, outside of Covid era",
+        "source": "cnbc_economy",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
       }
     ]
   },

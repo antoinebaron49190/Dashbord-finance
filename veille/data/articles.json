@@ -62,6 +62,1490 @@
     "scored_by": "lexique"
   },
   {
+    "id": "93562359ce7dffde462b93f0",
+    "source": "esma_news",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "reglementation",
+    "assets": [
+      "europe",
+      "btc",
+      "eth"
+    ],
+    "title": "ESMA clarifies access for EU market participants to the services of third-country CSDs",
+    "url": "https://www.esma.europa.eu/press-news/esma-news/esma-clarifies-access-eu-market-participants-services-third-country-csds",
+    "summary": "ESMA clarifies access for EU market participants to the services of third-country CSDs 07 October 2026 Post Trading The European Securities and Markets Authority (ESMA), the EU regulator and supervisor, has published today a statement clarifying that EU market participants should not be prevented from accessing third-country Central Securities Depositories (CSDs) beyond 17 January 2027 and until the EU finalises the legislation to extend the current transitional regime. The current transitional regime, which allows certain third-country CSDs to provide notary and central maintenance services…",
+    "published_at": "2026-10-07T09:48:09.685106+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.9,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "93ad68da5e9771f415a87403",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Indonesia's new labor law soothes workers, worries businesses",
+    "url": "https://asia.nikkei.com/politics/indonesia-s-new-labor-law-soothes-workers-worries-businesses2",
+    "summary": "",
+    "published_at": "2026-10-07T09:48:09.685106+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9794c04fa35a702c3f4958e9",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "India's central bank delivers first rate hike since 2023 as inflation bites",
+    "url": "https://asia.nikkei.com/business/markets/india-s-central-bank-delivers-first-rate-hike-since-2023-as-inflation-bites",
+    "summary": "",
+    "published_at": "2026-10-07T09:48:09.685106+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "53f738ccdbaadb60f52de8fb",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "India's opposition protests pile pressure on Modi government",
+    "url": "https://asia.nikkei.com/politics/india-s-opposition-protests-pile-pressure-on-modi-government",
+    "summary": "",
+    "published_at": "2026-10-07T09:48:09.685106+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "cf70c51c2f0506306c7d1872",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "France showcases long-range air power to bolster Indo-Pacific deterrence",
+    "url": "https://asia.nikkei.com/politics/defense/france-showcases-long-range-air-power-to-bolster-indo-pacific-deterrence",
+    "summary": "",
+    "published_at": "2026-10-07T09:48:09.685106+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d74871b3f693ac4ce136246f",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Cyberattacks sweep Japan and South Korea businesses",
+    "url": "https://asia.nikkei.com/spotlight/cybersecurity/cyberattacks-sweep-japan-and-south-korea-businesses",
+    "summary": "",
+    "published_at": "2026-10-07T09:48:09.685106+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f80c7606424ede6363e3a1fd",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Japan demand draws entry of home-exchange service for wealthy owners",
+    "url": "https://asia.nikkei.com/business/travel-leisure/japan-demand-draws-entry-of-home-exchange-service-for-wealthy-owners",
+    "summary": "",
+    "published_at": "2026-10-07T09:48:09.685106+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "60d00da7a584d820fd74157a",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AMD’s chief executive is planning to invest ‘tens of billions’ as Asian tour addresses supply-chain chokepoints",
+    "url": "https://www.marketwatch.com/story/amds-chief-executive-is-planning-to-invest-tens-of-billions-as-asian-tour-addresses-supply-chain-chokepoints-c6485919?mod=mw_rss_topstories",
+    "summary": "AMD’s CEO has been meeting executives in Taiwan and South Korea.",
+    "published_at": "2026-10-07T09:37:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1453f80e4e2b8c78288429ce",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Longtime tech bull Dan Ives says these are his top tech plays going into 2027",
+    "url": "https://www.marketwatch.com/story/longtime-tech-bull-dan-ives-says-these-are-his-top-tech-plays-going-into-2027-3796cb9f?mod=mw_rss_topstories",
+    "summary": "Investors are “underestimating the scale and scope” of the AI spending wave, said Dan Ives as he laid out five stocks to own.",
+    "published_at": "2026-10-07T09:33:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1c26fce330134a11c2ade933",
+    "source": "amf_news",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "reglementation",
+    "assets": [
+      "europe",
+      "btc",
+      "eth"
+    ],
+    "title": "Arrêté du 28 août 2026 portant homologation d’une modification du règlement général de l’Autorité des marchés financiers",
+    "url": "https://www.amf-france.org/fr/reglementation/reglement-general/arrete-du-28-aout-2026-portant-homologation-dune-modification-du-reglement-general-de-lautorite-des#xts=607212&xtor=RSS-3&type=RSS",
+    "summary": "Arrêté d'homologation Obligation d'information OPCVM Certification professionnelle Arrêté du 28 août 2026 portant homologation d’une modification du règlement général de l’Autorité des marchés financiers",
+    "published_at": "2026-10-07T09:30:03+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6ee1a45c4d5661c644e53b70",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Euro languishes as Indian rupee tests all-time lows; Dollar awaits FOMC minutes",
+    "url": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-dollar-holds-gains-yen-weakens-near-158-4935567",
+    "summary": "",
+    "published_at": "2026-10-07T09:27:39+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b821ff874d2fc20a31738af2",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "UK sells £1bn of 2031 gilts at 4.842% average yield",
+    "url": "https://www.investing.com/news/company-news/uk-sells-1bn-of-2031-gilts-at-4842-average-yield-93CH-4935980",
+    "summary": "",
+    "published_at": "2026-10-07T09:26:45+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "25b4863cfb12a6e137d4a838",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is Marks & Spencer stock climbing today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-marks--spencer-stock-climbing-today-93CH-4935979",
+    "summary": "",
+    "published_at": "2026-10-07T09:25:42+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "dd4a2a6184f3b84d656f7c11",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "OpenAI’s Altman says AI benefits warrant accepting some risks",
+    "url": "https://www.investing.com/news/economy-news/openais-altman-says-ai-benefits-warrant-accepting-some-risks-4935978",
+    "summary": "",
+    "published_at": "2026-10-07T09:25:25+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "21867f6b1e845f037e298574",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Uber stock holds outperform rating after ezCater acquisition",
+    "url": "https://www.investing.com/news/analyst-ratings/uber-stock-holds-outperform-rating-after-ezcater-acquisition-93CH-4935977",
+    "summary": "",
+    "published_at": "2026-10-07T09:24:56+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6ad1fa2e41124ded44a2dff8",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Citizens reiterates Savara stock rating on Molbreevi launch outlook",
+    "url": "https://www.investing.com/news/analyst-ratings/citizens-reiterates-savara-stock-rating-on-molbreevi-launch-outlook-93CH-4935976",
+    "summary": "",
+    "published_at": "2026-10-07T09:24:54+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d2d349dae8de6656461f3587",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "OpenAI, Anthropic tell Australia they would welcome data breach rules",
+    "url": "https://www.investing.com/news/economy-news/australias-abc-rejects-ai-copyright-carveout-believes-already-been-scraped-4933144",
+    "summary": "",
+    "published_at": "2026-10-07T09:24:52+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "92baac0fa720229406593533",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Citizens reiterates Skydance stock rating on merger completion",
+    "url": "https://www.investing.com/news/analyst-ratings/citizens-reiterates-skydance-stock-rating-on-merger-completion-93CH-4935975",
+    "summary": "",
+    "published_at": "2026-10-07T09:24:50+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "570c9e700adcc0bc1ae2c40d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Citizens maintains Terreno Realty stock rating on healthy trends",
+    "url": "https://www.investing.com/news/analyst-ratings/citizens-maintains-terreno-realty-stock-rating-on-healthy-trends-93CH-4935974",
+    "summary": "",
+    "published_at": "2026-10-07T09:24:49+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fa42b6a936d493226443a674",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Trump names intelligence chief Clayton as AI czar, to head task force",
+    "url": "https://www.investing.com/news/stock-market-news/trump-names-intelligence-chief-clayton-as-ai-czar-to-head-task-force-4935973",
+    "summary": "",
+    "published_at": "2026-10-07T09:24:34+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4e7f8384acda5833dc77323a",
+    "source": "amf_news",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "reglementation",
+    "assets": [
+      "europe",
+      "btc",
+      "eth"
+    ],
+    "title": "Discours de clôture de Marie-Anne Barbat-Layani, présidente de l'AMF - 19e colloque de la Commission des sanctions de l’AMF, lundi 5 octobre 2026",
+    "url": "https://www.amf-france.org/fr/actualites-publications/prises-de-parole/discours-de-cloture-de-marie-anne-barbat-layani-presidente-de-lamf-19e-colloque-de-la-commission-des#xts=607212&xtor=RSS-3&type=RSS",
+    "summary": "Prise de parole Sanctions & transactions Discours de clôture de Marie-Anne Barbat-Layani, présidente de l'AMF - 19e colloque de la Commission des sanctions de l’AMF, lundi 5 octobre 2026",
+    "published_at": "2026-10-07T09:16:37+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {
+      "geopolitique": 1.7321
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": -0.634,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.634,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a3678d0e25f98a7f7042b3b5",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "‘He grew up wealthy’: My husband inherited $3 million. He wants a vacation home. I want to save for retirement.",
+    "url": "https://www.marketwatch.com/story/he-grew-up-wealthy-my-husband-inherited-3-million-he-wants-a-vacation-home-i-want-to-save-for-retirement-a240f0d8?mod=mw_rss_topstories",
+    "summary": "“I keep thinking about giving each child $750,000 toward a house.”",
+    "published_at": "2026-10-07T09:15:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "de51e236c54937ff7d6279c1",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SpaceX reportedly is looking to raise as much money as the company generates in revenue to buy Nvidia chips",
+    "url": "https://www.marketwatch.com/story/spacex-reportedly-is-looking-to-raise-as-much-money-as-the-company-generates-in-revenue-to-buy-nvidia-chips-01ca6d82?mod=mw_rss_topstories",
+    "summary": "Elon Musk’s SpaceX is in talks with banks and investors to borrow $40 billion to fund a purchase of Nvidia chips, according to a Financial Times report.",
+    "published_at": "2026-10-07T09:15:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b268ced5f4aea42e2315db59",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Opening remarks by Commissioner Serafin during the European Parliament plenary debate – an ambitious multiannual financial framework 2028-2034 for a strong and resilient Europe",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2095",
+    "summary": "European Commission Speech Strasbourg, 07 Oct 2026 Honourable members, dear Minister Byrne, More than a year ago, the Commission has put forward its proposal for the next MFF. We have proposed a budget that refl...",
+    "published_at": "2026-10-07T09:14:50+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {
+      "croissance": 2.0
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.6667,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.6667,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "71baad290141a2acf49f8440",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Rain is seeking a national trust bank charter to bypass third-party banks",
+    "url": "https://www.coindesk.com/business/2026/10/07/rain-becomes-12th-crypto-firm-seeking-occ-trust-bank-charter-amid-community-bank-pushback",
+    "summary": "",
+    "published_at": "2026-10-07T09:09:06+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bb3652821a6aa552c8ee7e99",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Josh Brolin sells Atlanta-area mansion for $4 million after slashing price",
+    "url": "https://www.marketwatch.com/story/josh-brolin-sells-atlanta-area-mansion-for-4-million-after-slashing-price-52561a89?mod=mw_rss_topstories",
+    "summary": "Actor Josh Brolin has sold his lavish Sandy Springs, Ga., estate for $4 million—a final sale price falling just under $1 million less than the original asking price of $4.999 million.",
+    "published_at": "2026-10-07T09:05:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "aa97b87badc057aca3c46778",
+    "source": "amf_news",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "reglementation",
+    "assets": [
+      "europe",
+      "btc",
+      "eth"
+    ],
+    "title": "Discours d'ouverture de Valérie Michel-Amsellem, présidente de la Commission des sanctions - 19e colloque de la Commission des sanctions de l'AMF, Lundi 5 octobre 2026",
+    "url": "https://www.amf-france.org/fr/actualites-publications/prises-de-parole/discours-douverture-de-valerie-michel-amsellem-presidente-de-la-commission-des-sanctions-19e#xts=607212&xtor=RSS-3&type=RSS",
+    "summary": "Prise de parole Sanctions & transactions Institutionnel Discours d'ouverture de Valérie Michel-Amsellem, présidente de la Commission des sanctions - 19e colloque de la Commission des sanctions de l'AMF, Lundi 5 octobre 2026",
+    "published_at": "2026-10-07T09:02:38+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {
+      "geopolitique": 2.2361
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": -0.691,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.691,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0e1d6f0e14fd4ce5c842cdea",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "A Laguna Beach gem renovated by Diane Keaton is up for grabs for $10.3 million",
+    "url": "https://www.marketwatch.com/story/a-laguna-beach-gem-renovated-by-diane-keaton-is-up-for-grabs-for-10-3-million-8e6e1927?mod=mw_rss_topstories",
+    "summary": "Boasting breathtaking views of the Pacific Ocean, the charming 4-bedroom home is located on a triangular 0.4-acre oceanfront lot with direct access to a sandy beach via a wooden staircase.",
+    "published_at": "2026-10-07T09:01:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3f06456219c050feba4454a6",
+    "source": "bce_pub",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Does shareholder diversification enhance firm investment resilience? Evidence from the euro area",
+    "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3296~db309862b0.en.pdf",
+    "summary": "This paper develops novel firm-level measures of shareholder geographical concentration and examines how elevated home bias in equity holdings affects investment resilience in the euro area. We combine security-level holdings data from the ECB’s Securities Holdings Statistics (SHS-S) with firm-level financial-statement data from Compustat, and document that equity ownership remains strongly concentrated domestically, with limited cross-border diversification within the monetary union. Using a difference-in-differences design around the COVID-19 shock, combined with a propensity score matching…",
+    "published_at": "2026-10-07T09:00:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": true,
+    "importance": 1.95,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6079477c8f167de59010e05e",
+    "source": "bce_pub",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Monitoring banks’ vulnerabilities using stressed depletion indices",
+    "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3295~5961ce0e96.en.pdf",
+    "summary": "We introduce two indicators to track the build-up of vulnerabilities in the euro area banking sector on a quarterly basis by leveraging the information collected in EU-wide solvency stress tests. First, we introduce an indicator of conditional capital depletion, the Stress Vulnerability Index (SVI), which quantifies potential losses under adverse scenarios when tail credit risk is highest. Second, we introduce an indicator of earnings vulnerability, the Profitability Vulnerability Index (PVI), which assesses the capacity of the banking sector to generate capital organically. While the two ind…",
+    "published_at": "2026-10-07T09:00:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f5aa27089bc7bdf5c3bab828",
+    "source": "boe_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Regulatory thresholds set to shift to automatic increases",
+    "url": "https://www.bankofengland.co.uk/news/2026/october/regulatory-thresholds-set-to-shift-to-automatic-increases",
+    "summary": "Proportionality is set to be improved for firms as over 100 regulatory thresholds could be automatically increased periodically.",
+    "published_at": "2026-10-07T09:00:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "11ae32c1210aab56b1d67c26",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Robinhood adds bitcoin worth $25 million to its balance sheet",
+    "url": "https://www.coindesk.com/markets/2026/10/07/robinhood-adds-bitcoin-worth-usd25-million-to-its-balance-sheet-report",
+    "summary": "",
+    "published_at": "2026-10-07T08:53:27+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "78d2ce305531492af1fa3229",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Commission disburses €1.24 billion to Ukraine for drones and missiles",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2094",
+    "summary": "European Commission Press release Brussels, 07 Oct 2026 The European Commission today disbursed €1.24 billion under the defence component part of the €90 billion Ukraine Support Loan.",
+    "published_at": "2026-10-07T08:44:20+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f74f9bcaa9f50ed6933b7073",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "‘Every single exchange’ will have to adopt public blockchain infrastructure to compete, Hyperliquid Policy Center CEO says",
+    "url": "https://www.theblock.co/news/regulation/2026-10-07-hyperliquid-policy-center-jake-chervinsky-interview-417896",
+    "summary": "Chervinsky says that beyond regulated perps, onchain markets need to enter the U.S. regulatory perimeter, a step he expects will happen soon.",
+    "published_at": "2026-10-07T08:30:01+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f1d388ce875e2e1728ed8088",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Meta stock achieves a golden cross as shares thrive since Muse introduction",
+    "url": "https://www.marketwatch.com/story/meta-stock-achieves-a-golden-cross-as-shares-thrive-since-muse-introduction-5ba818d4?mod=mw_rss_topstories",
+    "summary": "Meta Platforms, whose stock has thrived after the introduction of an artificial-intelligence assistant, just got another piece of good news.",
+    "published_at": "2026-10-07T08:07:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a76d92fc88449c8c08eb8026",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "A popular tech fund is now overbought. That’s no reason to sell, history shows.",
+    "url": "https://www.marketwatch.com/story/a-popular-tech-fund-is-now-overbought-thats-no-reason-to-sell-history-shows-d998aab3?mod=mw_rss_topstories",
+    "summary": "A surge to record highs for technology stocks has pushed them to what is considered by technical analysts to be overbought levels, but history shows investors should not use that as reason to cut their exposure.",
+    "published_at": "2026-10-07T08:01:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6fed4c4f29ed788bc4f5cfc8",
+    "source": "bce_press",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Results of the September 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
+    "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261007~6447350434.en.html",
+    "summary": "",
+    "published_at": "2026-10-07T08:00:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2c086ebf64244bf2d5bab95f",
+    "source": "bce_pub",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
+    "url": "https://www.ecb.europa.eu//pub/pdf/other/SESFOD_2026_Q3_summary.en.pdf",
+    "summary": "",
+    "published_at": "2026-10-07T08:00:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e8cb9080a539fd78700adfb2",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "NextGenerationEU shows strong delivery record as implementation reaches finish line",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2092",
+    "summary": "European Commission Press release Brussels, 07 Oct 2026 Today, the European Commission presents the fifth annual report on the Recovery and Resilience Facility (RRF).",
+    "published_at": "2026-10-07T07:59:42+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3354f3aa019c8d9c738d70fe",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Down but not out. Bitcoin's stair-step bullish trajectory is still intact",
+    "url": "https://www.coindesk.com/markets/2026/10/07/down-but-not-out-bitcoin-s-stair-step-bullish-trajectory-is-still-intact",
+    "summary": "",
+    "published_at": "2026-10-07T07:52:22+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.6,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d33e529e5824c631c0cbce1b",
+    "source": "amf_news",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "reglementation",
+    "assets": [
+      "europe",
+      "btc",
+      "eth"
+    ],
+    "title": "Webinaire - Risque cyber et résilience opérationnelle à l'heure des IA génératives",
+    "url": "https://www.amf-france.org/fr/actualites-publications/evenements-de-lamf/colloques-et-conferences-de-lamf/webinaire-risque-cyber-et-resilience-operationnelle-lheure-des-ia-generatives#xts=607212&xtor=RSS-3&type=RSS",
+    "summary": "Support événement Intelligence artificielle Innovation Gestion d'actifs Webinaire - Risque cyber et résilience opérationnelle à l'heure des IA génératives",
+    "published_at": "2026-10-07T07:44:52+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c3bd2f6586e1e5f26ba3c8b8",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Robinhood adds $25 million worth of bitcoin to balance sheet as it deepens crypto push",
+    "url": "https://www.theblock.co/news/business/2026-10-07-robinhood-adds-25-million-bitcoin-balance-sheet-417890",
+    "summary": "Robinhood SVP Johann Kerbrat says the purchase was intended to signal the company's commitment to the crypto sector.",
+    "published_at": "2026-10-07T07:08:36+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8451d58729bf2e06b87748a7",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "How one trend-following fund outperformed rivals by bringing humans back into the decision-making process",
+    "url": "https://www.marketwatch.com/story/how-one-trend-following-fund-outperformed-rivals-by-bringing-humans-back-into-the-decision-making-process-12285e18?mod=mw_rss_topstories",
+    "summary": "One trend-following fund has outperformed rivals this year by deciding to take profits.",
+    "published_at": "2026-10-07T07:08:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "450fd14077e516103042cc40",
+    "source": "cnbc_economy",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "statistiques",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why AI is both the hope and the hazard for world leaders, according to IMF chief Georgieva",
+    "url": "https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html",
+    "summary": "Kristalina Georgieva warns that the technology lifting growth hopes is also pushing up inflation and yields, just as public debt levels rose.",
+    "published_at": "2026-10-07T06:16:39+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8bb92d5a161abd4dc0687882",
+    "source": "boj_news",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "asie",
+      "msci_world"
+    ],
+    "title": "Amounts Outstanding in the Call Money Market (Sept.)",
+    "url": "http://www.boj.or.jp/en/statistics/market/short/call/call.xlsx",
+    "summary": "",
+    "published_at": "2026-10-07T06:00:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "asie",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e6b870c80c40e56371e3137d",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "U.S. government moves over $100 million in BTC and BNB. A sale hasn't been confirmed",
+    "url": "https://www.coindesk.com/markets/2026/10/07/u-s-government-moves-over-usd100-million-in-btc-and-bnb-a-sale-hasn-t-been-confirmed",
+    "summary": "",
+    "published_at": "2026-10-07T05:58:25+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "a1cc606c7a126979bdff000d",
+    "source": "cnbc_economy",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "statistiques",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "India’s central bank hikes rates for the first time since 2023 as inflation risks build",
+    "url": "https://www.cnbc.com/2026/10/07/india-rbi-interest-rates-inflation.html",
+    "summary": "HSBC and Goldman Sachs expect the RBI to raise interest rates in December as well.",
+    "published_at": "2026-10-07T05:11:55+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "eafd184971478ef9f05140bd",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Pudgy Penguins’ Abstract becomes second Ethereum layer 2 to shut in a week",
+    "url": "https://www.coindesk.com/tech/2026/10/07/pudgy-penguins-abstract-becomes-second-ethereum-layer-2-to-shut-in-a-week",
+    "summary": "",
+    "published_at": "2026-10-07T04:31:14+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "eth"
+    ],
+    "assets_effective": [
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0c4776195e92cad4a7b2c840",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Cardano gives token issuers power to freeze, seize and restrict assets",
+    "url": "https://www.coindesk.com/tech/2026/10/07/cardano-gives-token-issuers-power-to-freeze-seize-and-restrict-assets",
+    "summary": "",
+    "published_at": "2026-10-07T04:11:33+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "191614348896e50111f5b34d",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin dips below $84,000 as oil jumps on Iranian tanker attacks",
+    "url": "https://www.coindesk.com/markets/2026/10/07/bitcoin-dips-below-usd84-000-as-oil-jumps-on-iranian-tanker-attacks",
+    "summary": "",
+    "published_at": "2026-10-07T04:00:51+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fff2f8041f40a9f79704eff9",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin briefly slides below $84,000 as crypto long liquidations reach $487 million",
+    "url": "https://www.theblock.co/news/markets/2026-10-06-bitcoin-slides-crypto-long-liquidations-surge-417882",
+    "summary": "Crypto liquidations amounted to $555.6 million over the past 24 hours, including $487.2 million in long positions, according to CoinGlass.",
+    "published_at": "2026-10-07T03:57:21+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b5f184a7f60f8469b0b433f8",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Coinbase Pro to return; Deribit integration creates Coinbase Global Exchange",
+    "url": "https://www.theblock.co/news/business/2026-10-06-coinbase-pro-deribit-integration-coinbase-global-exchange-417867",
+    "summary": "Coinbase plans to relaunch Coinbase Pro by year-end and has completed its Deribit integration, creating Coinbase Global Exchange.",
+    "published_at": "2026-10-07T03:00:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "af27748b33422cac33ae7906",
     "source": "nikkei_asia",
     "tier": 3,
@@ -372,6 +1856,35 @@
     "summary": "",
     "published_at": "2026-10-07T01:00:00+00:00",
     "collected_at": "2026-10-07T02:05:37.891703+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e089ebb7369fafbfd070f952",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Preserving financial stability in an evolving world",
+    "url": "https://www.bis.org/speeches/20261006-preserving-financial-stability-evolving-world",
+    "summary": "Special address by Mr Sanjay Malhotra, Governor of the Reserve Bank of India, at the Fifth Kautilya Economic Conclave, Mumbai, 3 October 2026.",
+    "published_at": "2026-10-07T00:00:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
     "categories": {},
     "assets_detected": [
       "asie"
@@ -5232,6 +6745,35 @@
     "scored_by": "lexique"
   },
   {
+    "id": "0c126716dda86577793ad798",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Speech by Commissioner Kos - Press conference on Pre-enlargement policy reviews",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2090",
+    "summary": "European Commission Speech Strasbourg, 07 Oct 2026 Good afternoon, Today, we adopted the Communication on “Preparing for a wider Union”. The Communication is complemented by an in-depth sectoral analysis of the ...",
+    "published_at": "2026-10-05T22:00:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.9,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "a2759a78c9750a1cc0185db0",
     "source": "marketwatch",
     "tier": 3,
@@ -8343,6 +9885,33 @@
     "scored_by": "lexique"
   },
   {
+    "id": "73a92176f4902ca56a2757bf",
+    "source": "bis_cb_speeches",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Changing without losing sight of the goal",
+    "url": "https://www.bis.org/speeches/20261005-changing-without-losing-sight-goal",
+    "summary": "Welcome address (virtually) by Andriy Pyshnyy, Governor of the National Bank of Ukraine, at the 10th National Bank of Ukraine and Narodowy Bank Polski (NBU-NBP) Annual Research Conference \"Central banks’ response to future challenges: resilience, credibility, and innovation\", Kyiv, 21 September 2026.",
+    "published_at": "2026-10-05T00:00:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "28c621ca89082e0605aab35a",
     "source": "boj_news",
     "tier": 1,
@@ -8611,6 +10180,35 @@
     "summary": "European Commission Speech Strasbourg, 06 Oct 2026 President, Honourable Members, Patients should be able to trust that the medicines they take are safe and genuine. That's put at risk by falsified medicines. Th...",
     "published_at": "2026-10-04T22:00:00+00:00",
     "collected_at": "2026-10-06T17:55:37.806910+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fbfc7a83cf159ca40979b5cb",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Speech by Commissioner Costas Kadis at the opening reception of the 10th anniversary of the Malta Maritime Summit and the Malta Maritime Awards 2026 Ceremony",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2093",
+    "summary": "European Commission Speech Malta, 07 Oct 2026 Secretary-General Dominguez,Chairman Mizzi,Commissioner Vella (Dear Karmenu),Distinguished guests,Ladies and gentlemen, I am deeply honoured to participate in t...",
+    "published_at": "2026-10-04T22:00:00+00:00",
+    "collected_at": "2026-10-07T09:48:09.685106+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -603554,218 +605152,6 @@
     "crypto_tone": 0.0,
     "is_stress": false,
     "tone": 0.0,
-    "scored_by": "lexique"
-  },
-  {
-    "id": "e755e81e3df27dd674826d97",
-    "source": "amf_news",
-    "tier": 2,
-    "weight": 0.6,
-    "category": "reglementation",
-    "assets": [
-      "europe",
-      "btc",
-      "eth"
-    ],
-    "title": "Visites mystère en agences bancaires : l'AMF encourage les professionnels à renforcer la qualité du questionnement des clients et de la présentation des frais",
-    "url": "https://www.amf-france.org/fr/actualites-publications/actualites/visites-mystere-en-agences-bancaires-lamf-encourage-les-professionnels-renforcer-la-qualite-du#xts=607212&xtor=RSS-3&type=RSS",
-    "summary": "Actualité Commercialisation Obligation d'information MIF Conseil en investissement Visites mystère en agences bancaires : l'AMF encourage les professionnels à renforcer la qualité du questionnement des clients et de la présentation des frais",
-    "published_at": "2026-07-09T09:26:25+00:00",
-    "collected_at": "2026-07-31T16:01:54.092103+00:00",
-    "categories": {},
-    "assets_detected": [],
-    "assets_effective": [
-      "europe",
-      "btc",
-      "eth"
-    ],
-    "has_decision_marker": false,
-    "importance": 0.6,
-    "tone_lexical": 0.0,
-    "crypto_tone": 0.0,
-    "is_stress": false,
-    "tone": 0.0,
-    "scored_by": "lexique"
-  },
-  {
-    "id": "94fcfb363b434be623f504e3",
-    "source": "amf_news",
-    "tier": 2,
-    "weight": 0.6,
-    "category": "reglementation",
-    "assets": [
-      "europe",
-      "btc",
-      "eth"
-    ],
-    "title": "Lettre de l'Observatoire de l'épargne de l'AMF - N°66 - Juillet 2026",
-    "url": "https://www.amf-france.org/fr/actualites-publications/publications/observatoire-de-lepargne/lettres-de-lobservatoire-de-lepargne/lettre-de-lobservatoire-de-lepargne-de-lamf-ndeg66-juillet-2026#xts=607212&xtor=RSS-3&type=RSS",
-    "summary": "Lettre de l'Observatoire Commercialisation Obligation d'information MIF Conseil en investissement Lettre de l'Observatoire de l'épargne de l'AMF - N°66 - Juillet 2026",
-    "published_at": "2026-07-09T09:14:20+00:00",
-    "collected_at": "2026-07-31T16:01:54.092103+00:00",
-    "categories": {},
-    "assets_detected": [],
-    "assets_effective": [
-      "europe",
-      "btc",
-      "eth"
-    ],
-    "has_decision_marker": false,
-    "importance": 0.6,
-    "tone_lexical": 0.0,
-    "crypto_tone": 0.0,
-    "is_stress": false,
-    "tone": 0.0,
-    "scored_by": "lexique"
-  },
-  {
-    "id": "d30f0cb15dd0d1b6c43a77a5",
-    "source": "amf_news",
-    "tier": 2,
-    "weight": 0.6,
-    "category": "reglementation",
-    "assets": [
-      "europe",
-      "btc",
-      "eth"
-    ],
-    "title": "Résultats de la campagne de visites mystère risquophobe/risquophile 2025",
-    "url": "https://www.amf-france.org/fr/actualites-publications/publications/rapports-etudes-et-analyses/resultats-de-la-campagne-de-visites-mystere-risquophoberisquophile-2025#xts=607212&xtor=RSS-3&type=RSS",
-    "summary": "Rapport / étude Commercialisation Obligation d'information MIF Conseil en investissement Résultats de la campagne de visites mystère risquophobe/risquophile 2025",
-    "published_at": "2026-07-09T09:10:40+00:00",
-    "collected_at": "2026-07-31T16:01:54.092103+00:00",
-    "categories": {},
-    "assets_detected": [],
-    "assets_effective": [
-      "europe",
-      "btc",
-      "eth"
-    ],
-    "has_decision_marker": false,
-    "importance": 0.6,
-    "tone_lexical": 0.0,
-    "crypto_tone": 0.0,
-    "is_stress": false,
-    "tone": 0.0,
-    "scored_by": "lexique"
-  },
-  {
-    "id": "423aa2442e8d16fb8a4687ca",
-    "source": "fsb_news",
-    "tier": 2,
-    "weight": 0.6,
-    "category": "statistiques",
-    "assets": [
-      "msci_world"
-    ],
-    "title": "Exploring cross-sectoral interconnections in resolution planning",
-    "url": "https://www.fsb.org/2026/07/exploring-cross-sectoral-interconnections-in-resolution-planning/",
-    "summary": "In this speech, FSB Secretary General, John Schindler highlights the importance of resolve in resolution planning, emphasising collaboration, preparedness, in maintaining financial system resilience.",
-    "published_at": "2026-07-09T08:04:47+00:00",
-    "collected_at": "2026-08-06T12:33:25.479701+00:00",
-    "categories": {},
-    "assets_detected": [],
-    "assets_effective": [
-      "msci_world"
-    ],
-    "has_decision_marker": false,
-    "importance": 0.6,
-    "tone_lexical": 0.0,
-    "crypto_tone": 0.0,
-    "is_stress": false,
-    "tone": 0.0,
-    "scored_by": "lexique"
-  },
-  {
-    "id": "5072b8f837a25f2fbc067be2",
-    "source": "amf_news",
-    "tier": 2,
-    "weight": 0.6,
-    "category": "reglementation",
-    "assets": [
-      "europe",
-      "btc",
-      "eth"
-    ],
-    "title": "L’Autorité des marchés financiers prend acte de l’arrêt rendu par la Cour d’appel de Paris dans le dossier Vivendi SE",
-    "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lautorite-des-marches-financiers-prend-acte-de-larret-rendu-par-la-cour-dappel-de-paris-dans-le#xts=607212&xtor=RSS-3&type=RSS",
-    "summary": "Actualité Information et opérations financières L’Autorité des marchés financiers prend acte de l’arrêt rendu par la Cour d’appel de Paris dans le dossier Vivendi SE",
-    "published_at": "2026-07-09T06:00:00+00:00",
-    "collected_at": "2026-07-31T16:01:54.092103+00:00",
-    "categories": {},
-    "assets_detected": [],
-    "assets_effective": [
-      "europe",
-      "btc",
-      "eth"
-    ],
-    "has_decision_marker": false,
-    "importance": 0.6,
-    "tone_lexical": 0.0,
-    "crypto_tone": 0.0,
-    "is_stress": false,
-    "tone": 0.0,
-    "scored_by": "lexique"
-  },
-  {
-    "id": "7c7f3f9e8d359bf9eb3a0081",
-    "source": "boj_news",
-    "tier": 1,
-    "weight": 1.0,
-    "category": "politique_monetaire",
-    "assets": [
-      "asie",
-      "msci_world"
-    ],
-    "title": "Regional Economic Report (Summary) (July 2026)",
-    "url": "http://www.boj.or.jp/en/research/brp/rer/rer260709.htm",
-    "summary": "",
-    "published_at": "2026-07-09T05:00:00+00:00",
-    "collected_at": "2026-08-06T12:33:25.479701+00:00",
-    "categories": {},
-    "assets_detected": [],
-    "assets_effective": [
-      "asie",
-      "msci_world"
-    ],
-    "has_decision_marker": false,
-    "importance": 1.3,
-    "tone_lexical": 0.0,
-    "crypto_tone": 0.0,
-    "is_stress": false,
-    "tone": 0.0,
-    "scored_by": "lexique"
-  },
-  {
-    "id": "1d21e0348c29d073a842c569",
-    "source": "cnbc_economy",
-    "tier": 3,
-    "weight": 0.3,
-    "category": "statistiques",
-    "assets": [
-      "sp500",
-      "msci_world"
-    ],
-    "title": "China consumer price growth weakens in June while producer inflation rises to near 4-year high",
-    "url": "https://www.cnbc.com/2026/07/09/china-cpi-ppi-june-inflation-iran-war-.html",
-    "summary": "Investors increasingly view China's two-speed growth with robust export and tepid domestic demand as a defining long-term feature of the Chinese economy.",
-    "published_at": "2026-07-09T02:31:37+00:00",
-    "collected_at": "2026-08-06T12:33:25.479701+00:00",
-    "categories": {
-      "croissance": 1.4142
-    },
-    "assets_detected": [
-      "asie"
-    ],
-    "assets_effective": [
-      "asie"
-    ],
-    "has_decision_marker": false,
-    "importance": 0.3,
-    "tone_lexical": 0.5858,
-    "crypto_tone": 0.0,
-    "is_stress": false,
-    "tone": 0.5858,
     "scored_by": "lexique"
   }
 ]
