@@ -36,10 +36,10 @@
     ]
   },
   "2026-10-07": {
-    "articles_count": 65,
-    "signal_count": 9,
-    "tone_cb": null,
-    "tone_global": 0.0346,
+    "articles_count": 128,
+    "signal_count": 14,
+    "tone_cb": 0.5858,
+    "tone_global": 0.1487,
     "regul_crypto": 0.6,
     "stress": 0.0,
     "top": [
@@ -52,46 +52,46 @@
         "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3296~db309862b0.en.pdf"
       },
       {
-        "id": "6079477c8f167de59010e05e",
-        "title": "Monitoring banks’ vulnerabilities using stressed depletion indices",
-        "source": "bce_pub",
+        "id": "ac0796773223b7e7f6e26fdb",
+        "title": "From commitment to execution - mobilizing the financial sector for Uganda's tenfold growth opening",
+        "source": "bis_cb_speeches",
         "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3295~5961ce0e96.en.pdf"
+        "tone": 0.5858,
+        "url": "https://www.bis.org/speeches/20261007-commitment-execution-mobilizing-financial-sector-ugandas-tenfold-growth-opening"
       },
       {
-        "id": "f5aa27089bc7bdf5c3bab828",
-        "title": "Regulatory thresholds set to shift to automatic increases",
+        "id": "278e05c08f17df87b59755d3",
+        "title": "Minutes of the London FXJSC Legal Sub Committee Meeting – 16 June 2026",
         "source": "boe_news",
         "score": 1.3,
         "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/news/2026/october/regulatory-thresholds-set-to-shift-to-automatic-increases"
+        "url": "https://www.bankofengland.co.uk/minutes/2026/june/fxjsc-legal-sub-committee-meeting-16-june-26"
       },
       {
-        "id": "6fed4c4f29ed788bc4f5cfc8",
-        "title": "Results of the September 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
-        "source": "bce_press",
+        "id": "5da7d3ddb1a301330896cd16",
+        "title": "Minutes of the London FXJSC Operations Sub-Committee Meeting – 16 June 2026",
+        "source": "boe_news",
         "score": 1.3,
         "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261007~6447350434.en.html"
+        "url": "https://www.bankofengland.co.uk/minutes/2026/june/fxjsc-operations-sub-committee-meeting-16-june-2026"
       },
       {
-        "id": "2c086ebf64244bf2d5bab95f",
-        "title": "Survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
-        "source": "bce_pub",
+        "id": "072d90b473dc8378d76ba193",
+        "title": "Minutes of the London FXJSC Main Committee Meeting – 24 June 2026",
+        "source": "boe_news",
         "score": 1.3,
         "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//pub/pdf/other/SESFOD_2026_Q3_summary.en.pdf"
+        "url": "https://www.bankofengland.co.uk/minutes/2026/june/fxjsc-main-committee-meeting-24-june-2026"
       }
     ]
   },
   "2026-10-06": {
-    "articles_count": 149,
+    "articles_count": 150,
     "signal_count": 23,
     "tone_cb": -0.1333,
     "tone_global": 0.0855,
     "regul_crypto": null,
-    "stress": 0.0378,
+    "stress": 0.0374,
     "top": [
       {
         "id": "aaa28fcb2c04197fe02653c5",
@@ -136,12 +136,12 @@
     ]
   },
   "2026-10-05": {
-    "articles_count": 137,
+    "articles_count": 138,
     "signal_count": 19,
     "tone_cb": 0.3333,
     "tone_global": 0.2193,
     "regul_crypto": -0.39,
-    "stress": 0.0097,
+    "stress": 0.0095,
     "top": [
       {
         "id": "cf09837380697c7ff697d43e",
@@ -4214,10 +4214,10 @@
     ]
   },
   "2026-07-09": {
-    "articles_count": 5,
-    "signal_count": 1,
-    "tone_cb": 0.0,
-    "tone_global": 0.0,
+    "articles_count": 2,
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
@@ -4236,30 +4236,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/statistics/pi/cgpi_release/cgpi2606.pdf"
-      },
-      {
-        "id": "82ee47c8a3ddec1b38aa3406",
-        "title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
-        "source": "fed_press_all",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260709a.htm"
-      },
-      {
-        "id": "d57c9dfb379e9dba95dd96ae",
-        "title": "L'AMF et l'ACPR mettent en garde le public contre plusieurs acteurs proposant en France des investissements sur le marché des devises non régulé (Forex) et sur des produits dérivés sur crypto-actifs, sans y être autorisés",
-        "source": "amf_news",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-lamf/lamf-et-lacpr-mettent-en-garde-le-public-contre-plusieurs-acteurs-proposant-en-france-des-1#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "c3192b54a25792635bf3557f",
-        "title": "Job seekers giving up: Labor force participation rate falls to lowest in 50 years, outside of Covid era",
-        "source": "cnbc_economy",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html"
       }
     ]
   },
