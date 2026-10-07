@@ -35,13 +35,63 @@
       }
     ]
   },
+  "2026-10-07": {
+    "articles_count": 12,
+    "signal_count": 2,
+    "tone_cb": null,
+    "tone_global": 0.0834,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "dc8017e504f0ec550567559a",
+        "title": "Bank of Japan Accounts (September 30)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac260930.htm"
+      },
+      {
+        "id": "af27748b33422cac33ae7906",
+        "title": "Samsung takes Vietnam up semiconductor value chain with $5bn expansion",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.6667,
+        "url": "https://asia.nikkei.com/business/tech/semiconductors/samsung-takes-vietnam-up-semiconductor-value-chain-with-5bn-expansion"
+      },
+      {
+        "id": "e6db92f75c9215d9c1e203f1",
+        "title": "Vance says Iran must reduce nuclear enrichment capacity to end war - Reuters",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/vance-says-iran-must-reduce-nuclear-enrichment-capacity-to-end-war--reuters-4935512"
+      },
+      {
+        "id": "1f8257fcfe842c224d440ecc",
+        "title": "UK universities review China ties after MI5 espionage alert",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/politics/international-relations/uk-universities-review-china-ties-after-mi5-espionage-alert"
+      },
+      {
+        "id": "bd5808e22ac7e75f4f99d48c",
+        "title": "Australian gold stocks rise as bullion gains, Fed hike bets fade",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/stock-market-news/australian-gold-stocks-rise-as-bullion-gains-fed-hike-bets-fade-4935529"
+      }
+    ]
+  },
   "2026-10-06": {
-    "articles_count": 146,
+    "articles_count": 149,
     "signal_count": 23,
     "tone_cb": -0.1333,
     "tone_global": 0.0855,
     "regul_crypto": null,
-    "stress": 0.04,
+    "stress": 0.0378,
     "top": [
       {
         "id": "aaa28fcb2c04197fe02653c5",
@@ -68,20 +118,20 @@
         "url": "https://www.bis.org/speeches/20261006-resilience-integration-and-competitiveness-building-future-european-banking"
       },
       {
-        "id": "f8559af9186b8b12eed45d4d",
-        "title": "Bowman, Modernizing the Regulatory and Supervisory Landscape",
-        "source": "fed_speeches",
+        "id": "1e790f6e463201db135f0d6b",
+        "title": "Monetary Base and the Bank of Japan's Transactions (Sept.)",
+        "source": "boj_news",
         "score": 1.3,
         "tone": 0.0,
-        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261006a.htm"
+        "url": "http://www.boj.or.jp/en/statistics/boj/other/mbt/mbt2609.pdf"
       },
       {
-        "id": "a88e716ad3d4ed31c4889376",
-        "title": "Minutes of the UK Money Markets Code Sub-Committee – September 2026",
-        "source": "boe_news",
+        "id": "7ff043a7d03f91a961fc0a47",
+        "title": "Bank of Japan's Transactions with the Government (Sept.)",
+        "source": "boj_news",
         "score": 1.3,
         "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/minutes/2026/september/uk-money-markets-committee-minutes-september-2026"
+        "url": "http://www.boj.or.jp/en/statistics/boj/other/tseifu/release/2026/seifu2609.pdf"
       }
     ]
   },
