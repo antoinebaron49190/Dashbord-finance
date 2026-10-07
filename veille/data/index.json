@@ -36,10 +36,10 @@
     ]
   },
   "2026-10-07": {
-    "articles_count": 128,
-    "signal_count": 14,
+    "articles_count": 162,
+    "signal_count": 19,
     "tone_cb": 0.5858,
-    "tone_global": 0.1487,
+    "tone_global": 0.119,
     "regul_crypto": 0.6,
     "stress": 0.0,
     "top": [
@@ -60,6 +60,14 @@
         "url": "https://www.bis.org/speeches/20261007-commitment-execution-mobilizing-financial-sector-ugandas-tenfold-growth-opening"
       },
       {
+        "id": "486b233e2b321f2a7428d986",
+        "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm"
+      },
+      {
         "id": "278e05c08f17df87b59755d3",
         "title": "Minutes of the London FXJSC Legal Sub Committee Meeting – 16 June 2026",
         "source": "boe_news",
@@ -74,14 +82,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.bankofengland.co.uk/minutes/2026/june/fxjsc-operations-sub-committee-meeting-16-june-2026"
-      },
-      {
-        "id": "072d90b473dc8378d76ba193",
-        "title": "Minutes of the London FXJSC Main Committee Meeting – 24 June 2026",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/minutes/2026/june/fxjsc-main-committee-meeting-24-june-2026"
       }
     ]
   },
@@ -4214,21 +4214,13 @@
     ]
   },
   "2026-07-09": {
-    "articles_count": 2,
+    "articles_count": 1,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
-      {
-        "id": "a8ffd9cace96bc4d898634c6",
-        "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "source": "fed_press_all",
-        "score": 1.95,
-        "tone": 0.0,
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm"
-      },
       {
         "id": "6bda211b49edbd6e3cc2997a",
         "title": "Corporate Goods Price Index (June)",
