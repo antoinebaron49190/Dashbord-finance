@@ -36,13 +36,21 @@
     ]
   },
   "2026-10-08": {
-    "articles_count": 112,
-    "signal_count": 18,
-    "tone_cb": -0.2361,
-    "tone_global": -0.0858,
-    "regul_crypto": 0.3574,
-    "stress": 0.0564,
+    "articles_count": 152,
+    "signal_count": 23,
+    "tone_cb": -0.1574,
+    "tone_global": -0.0472,
+    "regul_crypto": 0.2383,
+    "stress": 0.0446,
     "top": [
+      {
+        "id": "a25eab9b8099b09344cec01a",
+        "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+        "source": "fed_press_all",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm"
+      },
       {
         "id": "b0ba3454f7f18bc7244979fb",
         "title": "Introductory statement - roundtable \"Preparing for transformative AI\"",
@@ -74,19 +82,11 @@
         "score": 1.3,
         "tone": -0.5286,
         "url": "https://www.bis.org/speeches/20261007-reinforcing-europes-financial-resilience-and-growth-potential"
-      },
-      {
-        "id": "2119ab0ee977c701bb271023",
-        "title": "Shifting ground – how geopolitics is reshaping growth, monetary policy and the role of gold as a reserve asset",
-        "source": "bis_cb_speeches",
-        "score": 1.3,
-        "tone": 0.5,
-        "url": "https://www.bis.org/speeches/20261007-shifting-ground-how-geopolitics-reshaping-growth-monetary-policy-and-role-gold-reserve-asset"
       }
     ]
   },
   "2026-10-07": {
-    "articles_count": 170,
+    "articles_count": 172,
     "signal_count": 19,
     "tone_cb": 0.5858,
     "tone_global": 0.119,
