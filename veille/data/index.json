@@ -36,62 +36,62 @@
     ]
   },
   "2026-10-09": {
-    "articles_count": 16,
-    "signal_count": 1,
+    "articles_count": 60,
+    "signal_count": 7,
     "tone_cb": null,
-    "tone_global": -0.5,
-    "regul_crypto": null,
+    "tone_global": 0.0125,
+    "regul_crypto": 0.2,
     "stress": 0.0,
     "top": [
       {
-        "id": "70119b54ac30a0583ba09757",
-        "title": "Taliban face civil war as China's Afghanistan-Pakistan mediation fails",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/politics/international-relations/afghanistan-turmoil/taliban-face-civil-war-as-china-s-afghanistan-pakistan-mediation-fails"
+        "id": "9419cad2be94891bcb5994af",
+        "title": "CMORG holds sector-wide cloud outage simulation exercise",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/october/cmorg-holds-sector-wide-cloud-outage-simulation-exercise"
       },
       {
-        "id": "51b1e91b931bd4cb367cd012",
-        "title": "Line aims to be Thailand's 'everyday AI app' in key market",
-        "source": "nikkei_asia",
-        "score": 0.3,
+        "id": "2faf5d902f241beee0b3a300",
+        "title": "Twenty-fifth Meeting of the \"Council for Cooperation on Financial Stability\"",
+        "source": "boj_news",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/line-aims-to-be-thailand-s-everyday-ai-app-in-key-market"
+        "url": "http://www.boj.or.jp/en/finsys/macpru/mac261009a.pdf"
       },
       {
-        "id": "5fc40892a0b823c212229c4e",
-        "title": "Through the Lens: China's Golden Week holiday",
-        "source": "nikkei_asia",
-        "score": 0.3,
+        "id": "7418d8c6b7356be2537a50f6",
+        "title": "Amendment to \"Prices of Eligible Collateral\"",
+        "source": "boj_news",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/photos/through-the-lens-china-s-golden-week-holiday"
+        "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr261009a.pdf"
       },
       {
-        "id": "700ba18a2879e11aad2b062f",
-        "title": "Nvidia-backed Firmus scraps $5bn Australian IPO on weak demand",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/markets/ipo/nvidia-backed-firmus-scraps-5bn-australian-ipo-on-weak-demand"
+        "id": "028e69340805e2de3228c6dd",
+        "title": "ESMA seeks evidence on the use of tokenised collateral in central clearing",
+        "source": "esma_news",
+        "score": 0.6,
+        "tone": 0.6,
+        "url": "https://www.esma.europa.eu/press-news/esma-news/esma-seeks-evidence-use-tokenised-collateral-central-clearing"
       },
       {
-        "id": "d5eaad21a4724b3a6f6fe2e3",
-        "title": "Coca-Cola looks to sell Costa Coffee, Semafor reports",
-        "source": "investing_com",
-        "score": 0.3,
+        "id": "7799114db4eb18f2090105e8",
+        "title": "ESMA appoints Carlos San Basilio as the new member of its Management Board",
+        "source": "esma_news",
+        "score": 0.6,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/stock-market-news/cocacola-looks-to-sell-costa-coffee-semafor-reports-4939724"
+        "url": "https://www.esma.europa.eu/press-news/esma-news/esma-appoints-carlos-san-basilio-new-member-its-management-board"
       }
     ]
   },
   "2026-10-08": {
-    "articles_count": 152,
+    "articles_count": 156,
     "signal_count": 23,
     "tone_cb": -0.1574,
     "tone_global": -0.0472,
     "regul_crypto": 0.2383,
-    "stress": 0.0446,
+    "stress": 0.0428,
     "top": [
       {
         "id": "a25eab9b8099b09344cec01a",
