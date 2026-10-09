@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-10-08T22:53:57.498505+00:00",
-  "pending": [],
+  "updated_at": "2026-10-09T02:47:05.209814+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:dax:indecise->baissiere:2026-10-09",
+      "title": "DAX : tendance baissière",
+      "body": "DAX passe de « sans direction nette » à « baissière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-10-09.",
+      "kind": "tendance",
+      "detected_at": "2026-10-09T02:47:05.209721+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -94,7 +102,8 @@
     "trend:msci_world:indecise->haussiere:2026-10-05",
     "trend:eth:haussiere->indecise:2026-10-08",
     "trend:dax:indecise->baissiere:2026-10-08",
-    "trend:msci_world:haussiere->indecise:2026-10-08"
+    "trend:msci_world:haussiere->indecise:2026-10-08",
+    "trend:dax:indecise->baissiere:2026-10-09"
   ],
   "extremes_active": []
 }
