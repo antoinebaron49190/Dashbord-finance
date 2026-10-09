@@ -36,13 +36,21 @@
     ]
   },
   "2026-10-09": {
-    "articles_count": 60,
-    "signal_count": 7,
+    "articles_count": 116,
+    "signal_count": 20,
     "tone_cb": null,
-    "tone_global": 0.0125,
-    "regul_crypto": 0.2,
-    "stress": 0.0,
+    "tone_global": -0.1655,
+    "regul_crypto": 0.0412,
+    "stress": 0.0067,
     "top": [
+      {
+        "id": "ecbfe1903420b271a6bd2cb8",
+        "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+        "source": "fed_press_all",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm"
+      },
       {
         "id": "9419cad2be94891bcb5994af",
         "title": "CMORG holds sector-wide cloud outage simulation exercise",
@@ -68,30 +76,22 @@
         "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr261009a.pdf"
       },
       {
-        "id": "028e69340805e2de3228c6dd",
-        "title": "ESMA seeks evidence on the use of tokenised collateral in central clearing",
-        "source": "esma_news",
-        "score": 0.6,
-        "tone": 0.6,
-        "url": "https://www.esma.europa.eu/press-news/esma-news/esma-seeks-evidence-use-tokenised-collateral-central-clearing"
-      },
-      {
-        "id": "7799114db4eb18f2090105e8",
-        "title": "ESMA appoints Carlos San Basilio as the new member of its Management Board",
-        "source": "esma_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.esma.europa.eu/press-news/esma-news/esma-appoints-carlos-san-basilio-new-member-its-management-board"
+        "id": "55da58a680282b96de926494",
+        "title": "Statement on the International Criminal Court following announcement of US sanctions",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": -0.5,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2127"
       }
     ]
   },
   "2026-10-08": {
-    "articles_count": 156,
+    "articles_count": 158,
     "signal_count": 23,
     "tone_cb": -0.1574,
     "tone_global": -0.0472,
     "regul_crypto": 0.2383,
-    "stress": 0.0428,
+    "stress": 0.0417,
     "top": [
       {
         "id": "a25eab9b8099b09344cec01a",
