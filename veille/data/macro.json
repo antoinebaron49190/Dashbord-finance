@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T23:13:59.366870+00:00",
+  "generated_at": "2026-10-11T04:00:10.452659+00:00",
   "regime": {
     "state": "favorable au risque",
     "favorable": 8,
@@ -12,22 +12,22 @@
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": true,
-      "value": "82 990 $",
-      "reference": "MM200 71 918 $"
+      "value": "82 737 $",
+      "reference": "MM200 71 975 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": true,
-      "value": "82 990 $",
-      "reference": "MM50 80 810 $"
+      "value": "82 737 $",
+      "reference": "MM50 80 921 $"
     },
     {
       "group": "Crypto",
       "label": "ETH au-dessus de sa MM200",
       "ok": true,
-      "value": "2 505 $",
-      "reference": "MM200 2 132 $"
+      "value": "2 497 $",
+      "reference": "MM200 2 134 $"
     },
     {
       "group": "Crypto",
@@ -47,7 +47,7 @@
       "group": "Crypto",
       "label": "Financement des perpétuels BTC",
       "ok": false,
-      "value": "-0.0030 %",
+      "value": "-0.0004 %",
       "reference": "positif"
     },
     {
@@ -82,33 +82,33 @@
       "group": "Sentiment",
       "label": "Fear & Greed crypto",
       "ok": true,
-      "value": "64/100",
+      "value": "61/100",
       "reference": "50 ou plus"
     }
   ],
   "crypto": {
     "btc": {
-      "price": 82990.5,
-      "ma50": 80809.67800000001,
-      "ma200": 71918.19999999995,
-      "drawdown_1y": 0.2793805436523959,
-      "volatility_30d": 0.3820926297322054,
+      "price": 82736.6,
+      "ma50": 80921.20200000003,
+      "ma200": 71974.94599999995,
+      "drawdown_1y": 0.28158519695568546,
+      "volatility_30d": 0.38174250765137796,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "eth": {
-      "price": 2505.02,
-      "ma50": 2553.851800000001,
-      "ma200": 2132.0504499999997,
-      "drawdown_1y": 0.4098002996918263,
-      "volatility_30d": 0.4511168850396976,
+      "price": 2496.78,
+      "ma50": 2555.3100000000004,
+      "ma200": 2133.68705,
+      "drawdown_1y": 0.41174169957308043,
+      "volatility_30d": 0.4371741485843705,
       "above_ma50": false,
       "above_ma200": true,
       "trend": "indecise"
     },
     "spot_venue": "kraken",
-    "funding_btc": -3.04795288036e-05,
+    "funding_btc": -3.7712989099e-06,
     "funding_venue": "okx"
   },
   "equities": {
@@ -214,12 +214,72 @@
     }
   },
   "fear_greed": {
-    "value": 64,
+    "value": 61,
     "label": "Greed"
   },
   "fred": {},
   "failures": [],
   "history": {
+    "2026-10-11": {
+      "regime": "favorable au risque",
+      "favorable": 8,
+      "available": 11,
+      "fear_greed": 61,
+      "assets": {
+        "btc": {
+          "close": 82736.6,
+          "trend": "haussiere"
+        },
+        "eth": {
+          "close": 2496.78,
+          "trend": "indecise"
+        },
+        "sp500": {
+          "close": 7811.54,
+          "trend": "haussiere"
+        },
+        "nasdaq": {
+          "close": 27366.1699,
+          "trend": "haussiere"
+        },
+        "eurostoxx": {
+          "close": 6173.3701,
+          "trend": "indecise"
+        },
+        "cac40": {
+          "close": 7803.3301,
+          "trend": "baissiere"
+        },
+        "dax": {
+          "close": 25087.2695,
+          "trend": "indecise"
+        },
+        "nikkei": {
+          "close": 69030.9219,
+          "trend": "haussiere"
+        },
+        "hangseng": {
+          "close": 24211.3496,
+          "trend": "baissiere"
+        },
+        "shanghai": {
+          "close": 3813.791,
+          "trend": "baissiere"
+        },
+        "msci_world": {
+          "close": 209.14,
+          "trend": "haussiere"
+        },
+        "vix": {
+          "close": 14.84,
+          "trend": "baissiere"
+        },
+        "dxy": {
+          "close": 102.21,
+          "trend": "haussiere"
+        }
+      }
+    },
     "2026-10-10": {
       "regime": "favorable au risque",
       "favorable": 8,
