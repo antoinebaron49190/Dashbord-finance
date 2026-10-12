@@ -36,12 +36,12 @@
     ]
   },
   "2026-10-12": {
-    "articles_count": 81,
-    "signal_count": 12,
+    "articles_count": 109,
+    "signal_count": 16,
     "tone_cb": null,
-    "tone_global": -0.02,
+    "tone_global": -0.0755,
     "regul_crypto": 0.3,
-    "stress": 0.02,
+    "stress": 0.0344,
     "top": [
       {
         "id": "170599bd0ca7da079628d144",
@@ -68,31 +68,39 @@
         "url": "https://www.fsb.org/2026/10/fsb-chair-sets-out-fsb-work-on-ai-and-stablecoins/"
       },
       {
+        "id": "79a0809911c41332c59dbb3f",
+        "title": "Press remarks by Commissioner Hoekstra following the Environment (ENVI) Council",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2145"
+      },
+      {
         "id": "fb67a6e021ce573eed448e01",
         "title": "Speech by Executive Vice-President Teresa Ribera at an event organised by BusinessEurope on Important Projects of Common European Interest",
         "source": "ec_press",
         "score": 0.6,
         "tone": 0.0,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2144"
-      },
-      {
-        "id": "4588d288c60c4b747d4c2861",
-        "title": "Speech by Executive Vice-President Fitto at “European Week of Regions and Cities 2026”",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2141"
       }
     ]
   },
   "2026-10-11": {
-    "articles_count": 68,
+    "articles_count": 69,
     "signal_count": 2,
     "tone_cb": null,
     "tone_global": -0.5,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "1f902d64f0159c83d9dd6432",
+        "title": "Commission opens in-depth investigation into XXXLutz's proposed acquisition of Porta",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2126"
+      },
       {
         "id": "cce54c9eee7e7c6278f708d5",
         "title": "Read-out by President von der Leyen following her call with President Zelenskyy",
@@ -124,14 +132,6 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://www.investing.com/news/economy-news/middle-east-war-high-debt-levels-to-dominate-imfworld-bank-meetings-in-bangkok-4942461"
-      },
-      {
-        "id": "3ea549710c64f74e0106930d",
-        "title": "PubMatic chairman Amar Goel sells $138,545 in shares",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/pubmatic-chairman-amar-goel-sells-138545-in-shares-93CH-4942909"
       }
     ]
   },
