@@ -36,13 +36,29 @@
     ]
   },
   "2026-10-12": {
-    "articles_count": 24,
-    "signal_count": 3,
+    "articles_count": 81,
+    "signal_count": 12,
     "tone_cb": null,
-    "tone_global": 0.1,
+    "tone_global": -0.02,
     "regul_crypto": 0.3,
-    "stress": 0.0,
+    "stress": 0.02,
     "top": [
+      {
+        "id": "170599bd0ca7da079628d144",
+        "title": "Fiscal integration as a Pareto improvement",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3297~601502aed4.en.pdf"
+      },
+      {
+        "id": "bb91ea352c201b77d892b1ad",
+        "title": "ESMA promotes clarity in claims on impact and transition",
+        "source": "esma_news",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://www.esma.europa.eu/press-news/esma-news/esma-promotes-clarity-claims-impact-and-transition"
+      },
       {
         "id": "64af7f328745162fe6992645",
         "title": "FSB Chair sets out FSB work on AI and stablecoins",
@@ -52,36 +68,20 @@
         "url": "https://www.fsb.org/2026/10/fsb-chair-sets-out-fsb-work-on-ai-and-stablecoins/"
       },
       {
-        "id": "d373ec4ee04a1adbcf6ea564",
-        "title": "Global stablecoin arrangements: Cross-border vulnerabilities and financial stability monitoring",
-        "source": "fsb_news",
+        "id": "fb67a6e021ce573eed448e01",
+        "title": "Speech by Executive Vice-President Teresa Ribera at an event organised by BusinessEurope on Important Projects of Common European Interest",
+        "source": "ec_press",
         "score": 0.6,
         "tone": 0.0,
-        "url": "https://www.fsb.org/2026/10/global-stablecoin-arrangements-cross-border-vulnerabilities-and-financial-stability-monitoring/"
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2144"
       },
       {
-        "id": "f84d95d94f40bf29f4fbf199",
-        "title": "FSB Chair’s letter to G20 Finance Ministers and Central Bank Governors: October 2026",
-        "source": "fsb_news",
+        "id": "4588d288c60c4b747d4c2861",
+        "title": "Speech by Executive Vice-President Fitto at “European Week of Regions and Cities 2026”",
+        "source": "ec_press",
         "score": 0.6,
         "tone": 0.0,
-        "url": "https://www.fsb.org/2026/10/fsb-chairs-letter-to-g20-finance-ministers-and-central-bank-governors-october-2026/"
-      },
-      {
-        "id": "6a4263d89d1d1a9ebf3213bc",
-        "title": "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://www.coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls"
-      },
-      {
-        "id": "8a8e0e888577ca4eb1168ca7",
-        "title": "China sanctions Paraguay, Belize ministers over Taiwan ties",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/politics/international-relations/china-sanctions-paraguay-belize-ministers-over-taiwan-ties"
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2141"
       }
     ]
   },
@@ -4314,21 +4314,13 @@
     ]
   },
   "2026-07-14": {
-    "articles_count": 6,
-    "signal_count": 1,
-    "tone_cb": 0.5,
-    "tone_global": 0.5,
+    "articles_count": 4,
+    "signal_count": 0,
+    "tone_cb": null,
+    "tone_global": null,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
-      {
-        "id": "065e464884fb9e33833860ed",
-        "title": "PRA and FCA propose new captive insurance regime to drive UK growth and competitiveness",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.5,
-        "url": "https://www.bankofengland.co.uk/news/2026/july/pra-and-fca-propose-new-captive-insurance-regime-to-drive-uk-growth-and-competitiveness"
-      },
       {
         "id": "4bda63b5b3177ccf2f56bfae",
         "title": "Bowman, Responsible Innovation and Financial Inclusion",
@@ -4354,12 +4346,12 @@
         "url": "https://www.federalreserve.gov/newsevents/speech/barr20260714a.htm"
       },
       {
-        "id": "ddd028114298ab971aa20876",
-        "title": "Japanese Government Bonds Held by the Bank of Japan",
-        "source": "boj_news",
-        "score": 1.3,
+        "id": "2c164664c65a9e9a80cafac0",
+        "title": "Consumer prices rose 3.5% annually in June, less than expected as energy prices eased",
+        "source": "cnbc_economy",
+        "score": 0.3,
         "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260710.xlsx"
+        "url": "https://www.cnbc.com/2026/07/14/consumer-price-index-inflation-report-june-2026.html"
       }
     ]
   },
