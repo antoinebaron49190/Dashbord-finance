@@ -36,44 +36,52 @@
     ]
   },
   "2026-10-12": {
-    "articles_count": 4,
-    "signal_count": 0,
+    "articles_count": 24,
+    "signal_count": 3,
     "tone_cb": null,
-    "tone_global": null,
-    "regul_crypto": null,
+    "tone_global": 0.1,
+    "regul_crypto": 0.3,
     "stress": 0.0,
     "top": [
       {
-        "id": "9f6932d5029cbde073302c63",
-        "title": "Inflation, AI and climate: IMF kicks off key meeting in Bangkok",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/economy/inflation-ai-and-climate-imf-kicks-off-key-meeting-in-bangkok"
+        "id": "64af7f328745162fe6992645",
+        "title": "FSB Chair sets out FSB work on AI and stablecoins",
+        "source": "fsb_news",
+        "score": 0.6,
+        "tone": 0.75,
+        "url": "https://www.fsb.org/2026/10/fsb-chair-sets-out-fsb-work-on-ai-and-stablecoins/"
       },
       {
-        "id": "520a5fc7ac3a35e7845d0b47",
-        "title": "Amex: Stephen Schwarzman (12)",
-        "source": "nikkei_asia",
-        "score": 0.3,
+        "id": "d373ec4ee04a1adbcf6ea564",
+        "title": "Global stablecoin arrangements: Cross-border vulnerabilities and financial stability monitoring",
+        "source": "fsb_news",
+        "score": 0.6,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/my-personal-history/amex-stephen-schwarzman-12"
+        "url": "https://www.fsb.org/2026/10/global-stablecoin-arrangements-cross-border-vulnerabilities-and-financial-stability-monitoring/"
       },
       {
-        "id": "b48b39b991a0672e71d788e0",
-        "title": "Investors bet on Japan, Australia rental housing as rates, home prices rise",
-        "source": "nikkei_asia",
-        "score": 0.3,
+        "id": "f84d95d94f40bf29f4fbf199",
+        "title": "FSB Chair’s letter to G20 Finance Ministers and Central Bank Governors: October 2026",
+        "source": "fsb_news",
+        "score": 0.6,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/markets/trading-asia/investors-bet-on-japan-australia-rental-housing-as-rates-home-prices-rise"
+        "url": "https://www.fsb.org/2026/10/fsb-chairs-letter-to-g20-finance-ministers-and-central-bank-governors-october-2026/"
       },
       {
-        "id": "cbd3c18b50e5dd1d4d0b5afa",
-        "title": "Monopar Therapeutics director Christopher Starr sells shares worth $659k",
-        "source": "investing_com",
+        "id": "6a4263d89d1d1a9ebf3213bc",
+        "title": "Bitcoin shrugs off ETF outflows to trade above $84,000 as oil falls",
+        "source": "coindesk",
         "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/monopar-therapeutics-director-christopher-starr-sells-shares-worth-659k-93CH-4942925"
+        "tone": -0.6,
+        "url": "https://www.coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls"
+      },
+      {
+        "id": "8a8e0e888577ca4eb1168ca7",
+        "title": "China sanctions Paraguay, Belize ministers over Taiwan ties",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/politics/international-relations/china-sanctions-paraguay-belize-ministers-over-taiwan-ties"
       }
     ]
   },
@@ -4306,7 +4314,7 @@
     ]
   },
   "2026-07-14": {
-    "articles_count": 7,
+    "articles_count": 6,
     "signal_count": 1,
     "tone_cb": 0.5,
     "tone_global": 0.5,
