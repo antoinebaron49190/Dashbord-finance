@@ -36,13 +36,29 @@
     ]
   },
   "2026-10-13": {
-    "articles_count": 30,
-    "signal_count": 5,
-    "tone_cb": null,
-    "tone_global": -0.24,
-    "regul_crypto": null,
-    "stress": 0.06,
+    "articles_count": 88,
+    "signal_count": 11,
+    "tone_cb": 0.25,
+    "tone_global": 0.0571,
+    "regul_crypto": 0.6,
+    "stress": 0.0141,
     "top": [
+      {
+        "id": "68974129750d17397f8c10b6",
+        "title": "Why is the last mile of disinflation taking so long?",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.5,
+        "url": "https://www.bis.org/speeches/20261013-why-last-mile-disinflation-taking-so-long"
+      },
+      {
+        "id": "401e65b55f36b002f34296ca",
+        "title": "Basic Figures on Fails (Sept.)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/statistics/set/bffail/sjgb2609.pdf"
+      },
       {
         "id": "0fd7d350cbb5eb5c5f28b3ad",
         "title": "Results of the 107th Opinion Survey on the General Public's Views and Behavior",
@@ -52,46 +68,30 @@
         "url": "http://www.boj.or.jp/en/research/o_survey/ishiki2610.htm"
       },
       {
-        "id": "94863a2de2cab8a9e7cabdd1",
-        "title": "Character.AI files for bankruptcy, agrees to sell some assets to Disney for $20 million",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://www.investing.com/news/stock-market-news/characterai-files-for-bankruptcy-agrees-to-sell-some-assets-to-disney-for-20-million-4945401"
+        "id": "d05ef4ab51f7f68ef50764cc",
+        "title": "Modernizing the regulatory and supervisory landscape",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20261013-modernizing-regulatory-and-supervisory-landscape"
       },
       {
-        "id": "3e2710928bf1c3a0369a6d12",
-        "title": "Once-largest Ethereum NFT marketplace Blur is shutting down after volumes collapse 99%",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99"
-      },
-      {
-        "id": "e05aa3e8db8078c463c61836",
-        "title": "Asian brands tighten grip on Tokyo's high-end shopping districts",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/business/retail/asian-brands-tighten-grip-on-tokyo-s-high-end-shopping-districts"
-      },
-      {
-        "id": "d282c5831c01ebb6fce164ad",
-        "title": "India, ASEAN growth revised up in IMF's latest world outlook",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/economy/india-asean-growth-revised-up-in-imf-s-latest-world-outlook"
+        "id": "88c3651d8c5ab1ddae0eb803",
+        "title": "Investing through uncertainty - financing Europe's future",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20261013-investing-through-uncertainty-financing-europes-future"
       }
     ]
   },
   "2026-10-12": {
-    "articles_count": 111,
+    "articles_count": 112,
     "signal_count": 16,
     "tone_cb": null,
     "tone_global": -0.0755,
     "regul_crypto": 0.3,
-    "stress": 0.0323,
+    "stress": 0.0318,
     "top": [
       {
         "id": "ee0b7d820c78677ca7289540",
@@ -286,12 +286,12 @@
     ]
   },
   "2026-10-08": {
-    "articles_count": 158,
+    "articles_count": 159,
     "signal_count": 23,
     "tone_cb": -0.1574,
     "tone_global": -0.0472,
     "regul_crypto": 0.2383,
-    "stress": 0.0417,
+    "stress": 0.0413,
     "top": [
       {
         "id": "a25eab9b8099b09344cec01a",
@@ -4314,7 +4314,7 @@
     ]
   },
   "2026-07-15": {
-    "articles_count": 6,
+    "articles_count": 3,
     "signal_count": 2,
     "tone_cb": null,
     "tone_global": 0.5,
@@ -4330,36 +4330,20 @@
         "url": "https://www.federalreserve.gov/newsevents/speech/cook20260715a.htm"
       },
       {
-        "id": "ef9f98b6c44ff8c01acd9e22",
-        "title": "L'AMF publie une étude sur les comportements des investisseurs particuliers sur les valeurs du CAC 40 à l'ère des réseaux sociaux",
-        "source": "amf_news",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/lamf-publie-une-etude-sur-les-comportements-des-investisseurs-particuliers-sur-les-valeurs-du-cac-40#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "c2e0dbfc0c62a9fd17637578",
-        "title": "L'influence des réseaux sociaux sur l'activité des investisseurs particuliers sur les titres du CAC 40",
-        "source": "amf_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/publications/rapports-etudes-et-analyses/linfluence-des-reseaux-sociaux-sur-lactivite-des-investisseurs-particuliers-sur-les-titres-du-cac-40#xts=607212&xtor=RSS-3&type=RSS"
-      },
-      {
-        "id": "fea33a65c1575457f7d4be47",
-        "title": "Renewed Hormuz hostilities drive ECB rates rethink amid ‘extremely volatile’ outlook",
-        "source": "cnbc_economy",
-        "score": 0.45,
-        "tone": 0.0,
-        "url": "https://www.cnbc.com/2026/07/15/ecb-interest-rates-outlook-iran-war-hormuz.html"
-      },
-      {
         "id": "7c1eac299f2bf603eb019760",
         "title": "World Cup gave bars and restaurants a needed boost as consumers flash warning signs, Fed says",
         "source": "cnbc_economy",
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.cnbc.com/2026/07/15/world-cup-economy-spending-alcohol-hotels-fed.html"
+      },
+      {
+        "id": "d7401d7a13e0462c591878c7",
+        "title": "Wholesale prices unexpectedly declined 0.3% in June on big drop in gasoline",
+        "source": "cnbc_economy",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html"
       }
     ]
   },
