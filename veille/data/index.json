@@ -36,13 +36,45 @@
     ]
   },
   "2026-10-15": {
-    "articles_count": 45,
-    "signal_count": 11,
+    "articles_count": 87,
+    "signal_count": 14,
     "tone_cb": null,
-    "tone_global": -0.09,
-    "regul_crypto": null,
-    "stress": 0.0452,
+    "tone_global": -0.0574,
+    "regul_crypto": -0.6,
+    "stress": 0.0303,
     "top": [
+      {
+        "id": "101307ce48d89b43c0a3c7f2",
+        "title": "David Roberts CV and questionnaire for the Treasury Select Committee",
+        "source": "boe_news",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/news/2026/october/david-roberts-tsc-reappointment"
+      },
+      {
+        "id": "4884d8018620a25320bfc386",
+        "title": "Stop believing in haircuts - at least the way you think about them",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3301~1585c96063.en.pdf"
+      },
+      {
+        "id": "2acb1ef6379bc63e6fecf934",
+        "title": "When less is more: behavioral effects of CBDC holding limits",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3300~0277bae3af.en.pdf"
+      },
+      {
+        "id": "f08637826bd6f04d9437e4bd",
+        "title": "Minutes of the SONIA Stakeholder Advisory Group - 25 September 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/september/sonia-stakeholder-advisory-group-25-september-2026"
+      },
       {
         "id": "11206a9663422b43c28f35fd",
         "title": "ESCB SSM Shared Values Charter 2026",
@@ -50,38 +82,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//pub/pdf/other/ESCB-SSM-Shared-Values-Charter-2026.en.pdf"
-      },
-      {
-        "id": "4022fba5da01a19d97fa5496",
-        "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
-        "source": "fed_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm"
-      },
-      {
-        "id": "0fc89c22f681e221d0198d1e",
-        "title": "Speech by Board Member KOEDA in Kumamoto (Economic Activity, Prices, and Monetary Policy in Japan)",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/about/press/koen_2026/ko261015a.htm"
-      },
-      {
-        "id": "1dcbb8ef25930401348888c8",
-        "title": "Summary of the \"Meeting on Market Operations\" (October 2026)",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/paym/market/mkt261015a.pdf"
-      },
-      {
-        "id": "2f8e065f1fc5259b45f379ac",
-        "title": "ESMA's third Sanctions Report highlights the need for greater convergence in enforcement",
-        "source": "esma_news",
-        "score": 0.9,
-        "tone": -0.691,
-        "url": "https://www.esma.europa.eu/press-news/esma-news/esmas-third-sanctions-report-highlights-need-greater-convergence-enforcement"
       }
     ]
   },
