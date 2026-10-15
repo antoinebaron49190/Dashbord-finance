@@ -36,13 +36,21 @@
     ]
   },
   "2026-10-15": {
-    "articles_count": 22,
-    "signal_count": 3,
+    "articles_count": 45,
+    "signal_count": 11,
     "tone_cb": null,
-    "tone_global": 0.4175,
+    "tone_global": -0.09,
     "regul_crypto": null,
-    "stress": 0.0,
+    "stress": 0.0452,
     "top": [
+      {
+        "id": "11206a9663422b43c28f35fd",
+        "title": "ESCB SSM Shared Values Charter 2026",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/other/ESCB-SSM-Shared-Values-Charter-2026.en.pdf"
+      },
       {
         "id": "4022fba5da01a19d97fa5496",
         "title": "Bowman, Supervisory Modernization After Silicon Valley Bank",
@@ -68,30 +76,22 @@
         "url": "http://www.boj.or.jp/en/paym/market/mkt261015a.pdf"
       },
       {
-        "id": "f920be659a1e236ada412b05",
-        "title": "G20 finance chiefs to forgo joint statement as Bessent skips Bangkok meeting",
-        "source": "nikkei_asia",
-        "score": 0.45,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/politics/international-relations/g20-finance-chiefs-to-forgo-joint-statement-as-bessent-skips-bangkok-meeting"
-      },
-      {
-        "id": "cbec786a2900d838b5b3d281",
-        "title": "7-Eleven's India exit casts shadow over Lawson's expansion plans",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://asia.nikkei.com/business/retail/7-eleven-s-india-exit-casts-shadow-over-lawson-s-expansion-plans"
+        "id": "2f8e065f1fc5259b45f379ac",
+        "title": "ESMA's third Sanctions Report highlights the need for greater convergence in enforcement",
+        "source": "esma_news",
+        "score": 0.9,
+        "tone": -0.691,
+        "url": "https://www.esma.europa.eu/press-news/esma-news/esmas-third-sanctions-report-highlights-need-greater-convergence-enforcement"
       }
     ]
   },
   "2026-10-14": {
-    "articles_count": 176,
+    "articles_count": 178,
     "signal_count": 25,
     "tone_cb": -0.6,
     "tone_global": 0.1213,
     "regul_crypto": 0.675,
-    "stress": 0.0199,
+    "stress": 0.0196,
     "top": [
       {
         "id": "2e125d0984c21f8bb0f6a040",
@@ -4330,29 +4330,13 @@
     ]
   },
   "2026-07-17": {
-    "articles_count": 3,
+    "articles_count": 1,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
-      {
-        "id": "ca00d24c86ae5dbed1061b77",
-        "title": "Loan Disbursement under the Funds-Supplying Operations to Support Financing for Climate Change Responses",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260717a.pdf"
-      },
-      {
-        "id": "987b28a3a132192099694e64",
-        "title": "Loan Disbursement under the Funds-Supplying Operations to Support Financing for Climate Change Responses",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260717a.pdf"
-      },
       {
         "id": "655deeee39769d7915fcaa09",
         "title": "Import prices post surprise gain as costs of goods from China hit highest since 2008",

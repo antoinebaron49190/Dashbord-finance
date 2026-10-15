@@ -62,6 +62,660 @@
     "scored_by": "lexique"
   },
   {
+    "id": "2f8e065f1fc5259b45f379ac",
+    "source": "esma_news",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "reglementation",
+    "assets": [
+      "europe",
+      "btc",
+      "eth"
+    ],
+    "title": "ESMA's third Sanctions Report highlights the need for greater convergence in enforcement",
+    "url": "https://www.esma.europa.eu/press-news/esma-news/esmas-third-sanctions-report-highlights-need-greater-convergence-enforcement",
+    "summary": "ESMA's third Sanctions Report highlights the need for greater convergence in enforcement 15 October 2026 Market Abuse Supervisory convergence Transparency The European Securities and Markets Authority (ESMA), the EU's financial markets regulator and supervisor, published today its consolidated report on sanctions and measures imposed across the European Economic Area (EEA) in 2025, enhancing the transparency of sanctions data reported under EU financial acts within its remit. In 2025, national authorities across the EEA imposed more than 950 administrative sanctions and measures, a stable num…",
+    "published_at": "2026-10-15T08:50:49.653653+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {
+      "geopolitique": 2.2361
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.9,
+    "tone_lexical": -0.691,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.691,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e84f9ed6c8dd2b5a38f6fadb",
+    "source": "cnbc_economy",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "statistiques",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "UK economy grew 0.1% in August, beating expectations",
+    "url": "https://www.cnbc.com/2026/10/15/uk-gdp-august-2026-economy.html",
+    "summary": "The U.K. is grappling with a cost-of-living crisis sparked by sticky inflation and surging energy costs.",
+    "published_at": "2026-10-15T08:44:17+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e8a58e9779788df78cb3f49c",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "TSMC CEO sees no sign of a slowdown as chip foundry reports record profit",
+    "url": "https://www.marketwatch.com/story/tsmc-ceo-sees-no-sign-of-a-slowdown-as-chip-foundry-reports-record-profit-17a065d3?mod=mw_rss_topstories",
+    "summary": "The semiconductor foundry announced third-quarter net profits of 763.34 Taiwanese new dollars, marking a record.",
+    "published_at": "2026-10-15T08:42:00+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "620d2f59f811249f3fd639ee",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Speech by Commissioner Lahbib at the International Conference on the Protection of Aid Workers",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2171",
+    "summary": "European Commission Speech Brussels, 15 Oct 2026 I have spent much of my life travelling from one crisis to the next, first as a journalist, later as Foreign Minister, and now as Commissioner for humanitarian ...",
+    "published_at": "2026-10-15T08:29:41+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "16ce596e01b409efd8b1d4bb",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Coventry Building Society to redeem £400m notes in November",
+    "url": "https://www.investing.com/news/company-news/coventry-building-society-to-redeem-400m-notes-in-november-93CH-4950782",
+    "summary": "",
+    "published_at": "2026-10-15T08:28:32+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "deea336c8e9b1c2d66c46d8f",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Mondi Q3 2024 profit rises, but shares fall 9.9%",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-mondi-q3-2024-profit-rises-but-shares-fall-99-93CH-4950781",
+    "summary": "",
+    "published_at": "2026-10-15T08:28:29+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "570330474980b93afa71def7",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: SLP posts strong Q3 2026 growth, stock slips 0.15%",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-slp-posts-strong-q3-2026-growth-stock-slips-015-93CH-4950780",
+    "summary": "",
+    "published_at": "2026-10-15T08:28:13+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "84cf954da96a4a133bc16d1d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nasdaq futures dive 1% as AI rout deepens on debt concerns",
+    "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-dive-1-as-ai-rout-deepens-on-debt-concerns-4950779",
+    "summary": "",
+    "published_at": "2026-10-15T08:24:20+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "317aff35ef781d2c287b01e6",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is Soitec stock sliding today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-soitec-stock-sliding-today-93CH-4950777",
+    "summary": "",
+    "published_at": "2026-10-15T08:21:52+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "98e9f9213ba5c40f405bf44b",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Citizens initiates Vail Resorts stock coverage at Market Perform",
+    "url": "https://www.investing.com/news/analyst-ratings/citizens-initiates-vail-resorts-stock-coverage-at-market-perform-93CH-4950774",
+    "summary": "",
+    "published_at": "2026-10-15T08:20:59+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5788eaa3bb8cc53598ccddd5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is Technoprobe stock tumbling today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-technoprobe-stock-tumbling-today-93CH-4950773",
+    "summary": "",
+    "published_at": "2026-10-15T08:19:07+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5dcecf11bb7449aa9042aef5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Duell rises on FY2026 cash flow gains and guidance",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-duell-rises-on-fy2026-cash-flow-gains-and-guidance-93CH-4950772",
+    "summary": "",
+    "published_at": "2026-10-15T08:18:28+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "200c64279d281789a090fd14",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "NYSE short interest hits record high in late September - report",
+    "url": "https://www.investing.com/news/stock-market-news/nyse-short-interest-hits-record-high-in-late-september--report-93CH-4950770",
+    "summary": "",
+    "published_at": "2026-10-15T08:17:55+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "afa2b8d413e822ad72b61a38",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "EQT Q3 2026 slides: FAUM jumps €42bn, fundraising target raised",
+    "url": "https://www.investing.com/news/company-news/eqt-q3-2026-slides-faum-jumps-42bn-fundraising-target-raised-93CH-4950769",
+    "summary": "",
+    "published_at": "2026-10-15T08:16:54+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "11206a9663422b43c28f35fd",
+    "source": "bce_pub",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "ESCB SSM Shared Values Charter 2026",
+    "url": "https://www.ecb.europa.eu//pub/pdf/other/ESCB-SSM-Shared-Values-Charter-2026.en.pdf",
+    "summary": "",
+    "published_at": "2026-10-15T07:30:00+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 1.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6ba620e025a053aaef11a76e",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "BlackRock's Fink names a U.S. recession trigger, sounds alarm over $40 trillion national debt",
+    "url": "https://www.coindesk.com/markets/2026/10/15/blackrock-s-larry-fink-names-a-u-s-recession-trigger-and-its-tied-to-ai",
+    "summary": "",
+    "published_at": "2026-10-15T06:17:58+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "134551fcaf608dedaa1a2e83",
+    "source": "theblock",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin drops below $81,000 as risk-off sentiment weighs on Asian equities",
+    "url": "https://www.theblock.co/news/markets/2026-10-15-bitcoin-drops-asian-equities-tumble-418623",
+    "summary": "Asian equities tumbled on Thursday, with South Korea's Kospi losing 8% and Japan's Nikkei 225 declining 5% during morning trading.",
+    "published_at": "2026-10-15T04:38:48+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie",
+      "btc"
+    ],
+    "assets_effective": [
+      "asie",
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "05c64ec1b612ef96b51d46f4",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Nearly $1 billion in crypto bets liquidated as bitcoin, ether and XRP slide",
+    "url": "https://www.coindesk.com/markets/2026/10/15/nearly-usd1-billion-in-crypto-bets-liquidated-as-bitcoin-ether-and-xrp-slide",
+    "summary": "",
+    "published_at": "2026-10-15T04:25:15+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "25f3645c16a93ab3a5199991",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin mining pool once handling 2.3% of network shuts after hashrate falls 65%",
+    "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-mining-pool-once-handling-2-3-of-network-shuts-after-hashrate-falls-65",
+    "summary": "",
+    "published_at": "2026-10-15T04:13:56+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5e66ac2571e95af0a1a448a0",
+    "source": "fsb_news",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Sound Practices for Responsible Adoption of Artificial Intelligence (AI): Overview of consultation responses",
+    "url": "https://www.fsb.org/2026/10/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-overview-of-consultation-responses/",
+    "summary": "This document summarises the responses to the June 2026 public consultation on the Sound Practices for financial institutions’ responsible AI adoption.",
+    "published_at": "2026-10-15T04:00:01+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {
+      "crypto_favorable": 2.8284
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.8093,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d820bd060a1437b934330b73",
+    "source": "fsb_news",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "FSB finalises sound practices for the responsible adoption of artificial intelligence (AI)",
+    "url": "https://www.fsb.org/2026/10/fsb-finalises-sound-practices-for-the-responsible-adoption-of-artificial-intelligence-ai/",
+    "summary": "FSB publishes sound practices for financial institutions to adopt, use, and innovate with AI in a responsible manner.",
+    "published_at": "2026-10-15T04:00:01+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {
+      "crypto_favorable": 2.0
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": true,
+    "importance": 0.9,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.75,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9f7caef00d62da6c2bf11a00",
+    "source": "fsb_news",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "Sound Practices for Responsible Adoption of Artificial Intelligence (AI): Final report",
+    "url": "https://www.fsb.org/2026/10/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-final-report/",
+    "summary": "FSB sets out 12 sound practices to facilitate responsible AI adoption by financial institutions.",
+    "published_at": "2026-10-15T04:00:01+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {
+      "crypto_favorable": 2.8284
+    },
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.8093,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "38060fc50087bd295776515c",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Bitcoin wilts as Fed rate uncertainty weighs. Kospi plunges 8%",
+    "url": "https://www.coindesk.com/markets/2026/10/15/bitcoin-is-back-below-usd81-000-as-fed-rate-uncertainty-weighs",
+    "summary": "",
+    "published_at": "2026-10-15T03:57:45+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie",
+      "btc"
+    ],
+    "assets_effective": [
+      "asie",
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "bb7dbdb5ad9732c981029397",
     "source": "nikkei_asia",
     "tier": 3,
@@ -1158,6 +1812,35 @@
     "assets_effective": [],
     "has_decision_marker": false,
     "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "678bf4d46e469fdda39dbb14",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Main messages from the Tripartite Social Summit",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2165",
+    "summary": "European Commission Press release Brussels, 15 Oct 2026 EU leaders and social partners met in Brussels for the Tripartite Social Summit, a twice-yearly forum for dialogue that brings together the leaders of the EU institutions and the European social partners.",
+    "published_at": "2026-10-14T22:00:00+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
@@ -2432,6 +3115,35 @@
     "summary": "European Commission Press release Brussels, 14 Oct 2026 Six outstanding EU-funded projects, and the people behind them, were honored last night in Brussels at the 2026 REGIOSTARS Awards, held as part of the 24th European Week of Regions and Cities.",
     "published_at": "2026-10-14T16:10:29+00:00",
     "collected_at": "2026-10-14T20:27:02.920848+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8e53f56cebbe07760df0f905",
+    "source": "ec_press",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Commission awards six projects making lasting contributions for Europe's cohesion at REGIOSTARS ceremony *",
+    "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2167",
+    "summary": "European Commission Press release Brussels, 15 Oct 2026 Six outstanding EU-funded projects, and the people behind them, were honored last night in Brussels at the 2026 REGIOSTARS Awards, held as part of the 24th European Week of Regions and Cities.",
+    "published_at": "2026-10-14T16:10:29+00:00",
+    "collected_at": "2026-10-15T08:50:49.653653+00:00",
     "categories": {},
     "assets_detected": [],
     "assets_effective": [
@@ -632577,64 +633289,6 @@
     ],
     "has_decision_marker": false,
     "importance": 0.3,
-    "tone_lexical": 0.0,
-    "crypto_tone": 0.0,
-    "is_stress": false,
-    "tone": 0.0,
-    "scored_by": "lexique"
-  },
-  {
-    "id": "ca00d24c86ae5dbed1061b77",
-    "source": "boj_news",
-    "tier": 1,
-    "weight": 1.0,
-    "category": "politique_monetaire",
-    "assets": [
-      "asie",
-      "msci_world"
-    ],
-    "title": "Loan Disbursement under the Funds-Supplying Operations to Support Financing for Climate Change Responses",
-    "url": "http://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260717a.pdf",
-    "summary": "",
-    "published_at": "2026-07-17T07:00:00+00:00",
-    "collected_at": "2026-08-06T12:33:25.479701+00:00",
-    "categories": {},
-    "assets_detected": [],
-    "assets_effective": [
-      "asie",
-      "msci_world"
-    ],
-    "has_decision_marker": false,
-    "importance": 1.3,
-    "tone_lexical": 0.0,
-    "crypto_tone": 0.0,
-    "is_stress": false,
-    "tone": 0.0,
-    "scored_by": "lexique"
-  },
-  {
-    "id": "987b28a3a132192099694e64",
-    "source": "boj_news",
-    "tier": 1,
-    "weight": 1.0,
-    "category": "politique_monetaire",
-    "assets": [
-      "asie",
-      "msci_world"
-    ],
-    "title": "Loan Disbursement under the Funds-Supplying Operations to Support Financing for Climate Change Responses",
-    "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/mpr260717a.pdf",
-    "summary": "",
-    "published_at": "2026-07-17T07:00:00+00:00",
-    "collected_at": "2026-08-16T21:40:13.916327+00:00",
-    "categories": {},
-    "assets_detected": [],
-    "assets_effective": [
-      "asie",
-      "msci_world"
-    ],
-    "has_decision_marker": false,
-    "importance": 1.3,
     "tone_lexical": 0.0,
     "crypto_tone": 0.0,
     "is_stress": false,
