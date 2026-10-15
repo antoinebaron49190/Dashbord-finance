@@ -1,6 +1,21 @@
 {
-  "updated_at": "2026-10-14T20:27:37.750638+00:00",
-  "pending": [],
+  "updated_at": "2026-10-15T03:12:26.629630+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:btc:haussiere->indecise:2026-10-15",
+      "title": "Bitcoin : tendance sans direction nette",
+      "body": "Bitcoin passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-10-15.",
+      "kind": "tendance",
+      "detected_at": "2026-10-15T03:12:26.629563+00:00"
+    },
+    {
+      "fingerprint": "trend:nikkei:haussiere->indecise:2026-10-15",
+      "title": "Nikkei 225 : tendance sans direction nette",
+      "body": "Nikkei 225 passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-10-15.",
+      "kind": "tendance",
+      "detected_at": "2026-10-15T03:12:26.629578+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -99,7 +114,9 @@
     "trend:msci_world:indecise->haussiere:2026-10-09",
     "trend:dax:baissiere->indecise:2026-10-10",
     "trend:eth:indecise->haussiere:2026-10-12",
-    "trend:msci_world:haussiere->indecise:2026-10-14"
+    "trend:msci_world:haussiere->indecise:2026-10-14",
+    "trend:btc:haussiere->indecise:2026-10-15",
+    "trend:nikkei:haussiere->indecise:2026-10-15"
   ],
   "extremes_active": []
 }
