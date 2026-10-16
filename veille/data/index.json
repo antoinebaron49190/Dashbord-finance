@@ -35,13 +35,39 @@
       }
     ]
   },
-  "2026-10-15": {
-    "articles_count": 149,
-    "signal_count": 21,
+  "2026-10-16": {
+    "articles_count": 2,
+    "signal_count": 0,
     "tone_cb": null,
-    "tone_global": -0.0696,
+    "tone_global": null,
+    "regul_crypto": null,
+    "stress": 0.0,
+    "top": [
+      {
+        "id": "80d6049117a98e23402b092c",
+        "title": "China rewired its army in 2016. Why is India only doing it now?",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/opinion/china-rewired-its-army-in-2016.-why-is-india-only-doing-it-now"
+      },
+      {
+        "id": "674ebd438be8237dbb97a50d",
+        "title": "Samurai: Stephen Schwarzman (15)",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://asia.nikkei.com/spotlight/my-personal-history/samurai-stephen-schwarzman-15"
+      }
+    ]
+  },
+  "2026-10-15": {
+    "articles_count": 162,
+    "signal_count": 22,
+    "tone_cb": null,
+    "tone_global": -0.0512,
     "regul_crypto": -0.6,
-    "stress": 0.0256,
+    "stress": 0.024,
     "top": [
       {
         "id": "101307ce48d89b43c0a3c7f2",
