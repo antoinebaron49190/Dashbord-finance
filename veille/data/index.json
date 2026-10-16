@@ -36,28 +36,52 @@
     ]
   },
   "2026-10-16": {
-    "articles_count": 2,
-    "signal_count": 0,
+    "articles_count": 26,
+    "signal_count": 4,
     "tone_cb": null,
-    "tone_global": null,
+    "tone_global": 0.0167,
     "regul_crypto": null,
-    "stress": 0.0,
+    "stress": 0.0377,
     "top": [
       {
-        "id": "80d6049117a98e23402b092c",
-        "title": "China rewired its army in 2016. Why is India only doing it now?",
-        "source": "nikkei_asia",
-        "score": 0.3,
+        "id": "5640d4fcfb8fa99f39f90bc6",
+        "title": "FDA approves Enspryng for thyroid eye disease treatment",
+        "source": "investing_com",
+        "score": 0.45,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/opinion/china-rewired-its-army-in-2016.-why-is-india-only-doing-it-now"
+        "url": "https://www.investing.com/news/company-news/fda-approves-enspryng-for-thyroid-eye-disease-treatment-93CH-4953094"
       },
       {
-        "id": "674ebd438be8237dbb97a50d",
-        "title": "Samurai: Stephen Schwarzman (15)",
+        "id": "eaea630115a476333b41269a",
+        "title": "Australian lithium miner PLS green-lights expansion",
         "source": "nikkei_asia",
         "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/my-personal-history/samurai-stephen-schwarzman-15"
+        "tone": 0.6667,
+        "url": "https://asia.nikkei.com/business/markets/commodities/australian-lithium-miner-pls-green-lights-expansion"
+      },
+      {
+        "id": "a696d12a899ca3b80b74f268",
+        "title": "Analysis-Europe’s bond market turmoil shines a spotlight on hedge funds’ role in key markets",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://www.investing.com/news/economy-news/analysiseuropes-bond-market-turmoil-shines-a-spotlight-on-hedge-funds-role-in-key-markets-4953095"
+      },
+      {
+        "id": "8872722558bdf7140af6d4f3",
+        "title": "Exclusive-US holds more secret talks with Myanmar’s military-backed rulers in Tokyo, sources say",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/commodities-news/exclusiveus-holds-more-secret-talks-with-myanmars-militarybacked-rulers-in-tokyo-sources-say-4953078"
+      },
+      {
+        "id": "eabb7a06f0820243a9ed5d26",
+        "title": "Bitcoin buyers snap up a brief drop below $80,000 as Asian stocks rebound",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.coindesk.com/markets/2026/10/16/bitcoin-buyers-snap-up-a-brief-drop-below-usd80-000-as-asian-stocks-rebound"
       }
     ]
   },
