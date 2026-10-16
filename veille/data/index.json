@@ -36,13 +36,37 @@
     ]
   },
   "2026-10-16": {
-    "articles_count": 67,
-    "signal_count": 11,
+    "articles_count": 103,
+    "signal_count": 12,
     "tone_cb": null,
-    "tone_global": -0.1424,
+    "tone_global": -0.1806,
     "regul_crypto": -0.6,
-    "stress": 0.0249,
+    "stress": 0.0228,
     "top": [
+      {
+        "id": "1754500f70890fc5949dbb2a",
+        "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+        "source": "fed_press_all",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm"
+      },
+      {
+        "id": "07bd32b73feedc0ff53b1c80",
+        "title": "MoU on information sharing in support of non-bank payment service providers access to central bank operated payment systems",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//pub/pdf/other/ecb.2026-10-16_MoU.en.pdf"
+      },
+      {
+        "id": "b2c3ff26d938df685bd4902f",
+        "title": "Banknote imagery advisory group minutes – 15 July 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/july/banknote-advisory-minutes-15-july"
+      },
       {
         "id": "6f1307d25d872f0ec0e8d4dc",
         "title": "BOJ Current Account Balances by Sector (Sept.)",
@@ -52,36 +76,12 @@
         "url": "http://www.boj.or.jp/en/statistics/boj/other/cabs/cabs.xlsx"
       },
       {
-        "id": "4174d3465164d6d121ed834d",
-        "title": "Statement by Executive Vice-President Mînzatu ahead of the International Day for the Eradication of Poverty",
-        "source": "ec_press",
+        "id": "4ad43e996123a965018f7627",
+        "title": "New Q&As available",
+        "source": "esma_news",
         "score": 0.9,
         "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2188"
-      },
-      {
-        "id": "ce5a97ad6fe28e8e14facf30",
-        "title": "Statement by President von der Leyen with Presidents Zelenskyy and Costa ahead of the European Council meeting of 16 October",
-        "source": "ec_press",
-        "score": 0.9,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2181"
-      },
-      {
-        "id": "6d25eb3bc23bc5899ae76636",
-        "title": "ESMA finalises the review of guidelines on the delay in disclosure of inside information",
-        "source": "esma_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.esma.europa.eu/press-news/esma-news/esma-finalises-review-guidelines-delay-disclosure-inside-information"
-      },
-      {
-        "id": "9a364136246c0d7e8d540c1a",
-        "title": "One year to go for T+1 settlement: the regulatory framework is complete, now let’s make it happen",
-        "source": "esma_news",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+        "url": "https://www.esma.europa.eu/press-news/esma-news/new-qas-available-27"
       }
     ]
   },
