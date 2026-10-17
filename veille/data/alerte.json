@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-10-16T22:31:18.211925+00:00",
-  "pending": [],
+  "updated_at": "2026-10-17T17:48:16.421755+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:btc:haussiere->indecise:2026-10-17",
+      "title": "Bitcoin : tendance sans direction nette",
+      "body": "Bitcoin passe de « haussière » à « sans direction nette ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-10-17.",
+      "kind": "tendance",
+      "detected_at": "2026-10-17T17:48:16.421661+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -107,7 +115,8 @@
     "trend:nikkei:haussiere->indecise:2026-10-16",
     "trend:nasdaq:haussiere->indecise:2026-10-16",
     "trend:btc:haussiere->indecise:2026-10-16",
-    "trend:sp500:haussiere->indecise:2026-10-16"
+    "trend:sp500:haussiere->indecise:2026-10-16",
+    "trend:btc:haussiere->indecise:2026-10-17"
   ],
   "extremes_active": []
 }
