@@ -62,6 +62,391 @@
     "scored_by": "lexique"
   },
   {
+    "id": "1cada5d9a79879451cfcd9f3",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Delhi crackdown fosters Gen Z defenders of Indian democracy",
+    "url": "https://asia.nikkei.com/politics/delhi-crackdown-fosters-gen-z-defenders-of-indian-democracy",
+    "summary": "",
+    "published_at": "2026-10-17T06:33:24.737748+00:00",
+    "collected_at": "2026-10-17T06:33:24.737748+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "5a25c63c41a77fc47fdebd56",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Southeast Asia caught amid competing US and Chinese AI blocs",
+    "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/southeast-asia-caught-amid-competing-us-and-chinese-ai-blocs",
+    "summary": "",
+    "published_at": "2026-10-17T06:33:24.737748+00:00",
+    "collected_at": "2026-10-17T06:33:24.737748+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "557a9bcb537a49d892ed0fa9",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "IMF members call for increased support for countries amid negative risks and war spillovers",
+    "url": "https://www.investing.com/news/economy-news/imf-members-call-for-increased-support-for-countries-amid-negative-risks-and-war-spillovers-4955272",
+    "summary": "",
+    "published_at": "2026-10-17T06:24:18+00:00",
+    "collected_at": "2026-10-17T06:33:24.737748+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0ce7b1edddcfc5a657e6b9c5",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Walmart president & CEO John Furner sells $1.58m in WMT shares",
+    "url": "https://www.investing.com/news/insider-trading-news/walmart-president--ceo-john-furner-sells-158m-in-wmt-shares-93CH-4955270",
+    "summary": "",
+    "published_at": "2026-10-17T06:20:36+00:00",
+    "collected_at": "2026-10-17T06:33:24.737748+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2ef4d1e4fe41a82f6bb7031e",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Walmart EVP Latriece Watkins disposes of $575,000 in WMT stock",
+    "url": "https://www.investing.com/news/insider-trading-news/walmart-evp-latriece-watkins-disposes-of-575000-in-wmt-stock-93CH-4955265",
+    "summary": "",
+    "published_at": "2026-10-17T06:16:18+00:00",
+    "collected_at": "2026-10-17T06:33:24.737748+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6d1a7ca9830b9b36d8c471e3",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Walmart EVP Nicholas James sells $349,751 of WMT shares",
+    "url": "https://www.investing.com/news/insider-trading-news/walmart-evp-nicholas-james-sells-349751-of-wmt-shares-93CH-4955264",
+    "summary": "",
+    "published_at": "2026-10-17T06:16:12+00:00",
+    "collected_at": "2026-10-17T06:33:24.737748+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bf18b11fed47ef7a4a6db9c4",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Aptera Motors Co-CEO Steve Fambro sells $60,180 of stock",
+    "url": "https://www.investing.com/news/insider-trading-news/aptera-motors-coceo-steve-fambro-sells-60180-of-stock-93CH-4955263",
+    "summary": "",
+    "published_at": "2026-10-17T06:16:11+00:00",
+    "collected_at": "2026-10-17T06:33:24.737748+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "75e09a473889ea8943c16a9a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Everpure CVO John Colgrove sells $14.5m in company stock",
+    "url": "https://www.investing.com/news/insider-trading-news/everpure-cvo-john-colgrove-sells-145m-in-company-stock-93CH-4955262",
+    "summary": "",
+    "published_at": "2026-10-17T06:15:59+00:00",
+    "collected_at": "2026-10-17T06:33:24.737748+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f5a81e821854d50fbce64119",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin price holds above $81,000 as ETF outflows weigh on sentiment",
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-81000-as-etf-outflows-weigh-on-sentiment-4955253",
+    "summary": "",
+    "published_at": "2026-10-17T05:59:15+00:00",
+    "collected_at": "2026-10-17T06:33:24.737748+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "ccc43c291747e8403e01ef66",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Trump waives key Russia-related sanctions, tariffs before they take effect under new law",
+    "url": "https://www.investing.com/news/commodities-news/trump-waives-many-russiarelated-sanctions-tariffs-before-they-were-to-take-effect-under-new-law-4955088",
+    "summary": "",
+    "published_at": "2026-10-17T05:54:17+00:00",
+    "collected_at": "2026-10-17T06:33:24.737748+00:00",
+    "categories": {
+      "geopolitique": 2.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6667,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.6667,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "daa78b91b6f6d44503548575",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Everpure director Scott Dietzen sells $8.5m in company stock",
+    "url": "https://www.investing.com/news/insider-trading-news/everpure-director-scott-dietzen-sells-85m-in-company-stock-93CH-4955252",
+    "summary": "",
+    "published_at": "2026-10-17T05:48:35+00:00",
+    "collected_at": "2026-10-17T06:33:24.737748+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "142dad9d7ec4fab2dca98c1f",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Marvell technology president sells $865,864 in shares",
+    "url": "https://www.investing.com/news/insider-trading-news/marvell-technology-president-sells-865864-in-shares-93CH-4955250",
+    "summary": "",
+    "published_at": "2026-10-17T05:46:04+00:00",
+    "collected_at": "2026-10-17T06:33:24.737748+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "90631116fa2cc1a4e94b920e",
+    "source": "bce_press",
+    "tier": 1,
+    "weight": 1.0,
+    "category": "politique_monetaire",
+    "assets": [
+      "europe",
+      "msci_world"
+    ],
+    "title": "Christine Lagarde: IMFC Statement",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html",
+    "summary": "",
+    "published_at": "2026-10-17T05:00:00+00:00",
+    "collected_at": "2026-10-17T06:33:24.737748+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "europe",
+      "msci_world"
+    ],
+    "has_decision_marker": true,
+    "importance": 1.95,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "fedd312ac1d31a6d15e4f6d6",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Satoshi-era bitcoin faces a bigger quantum threat after Google’s new Willow breakthrough",
+    "url": "https://www.coindesk.com/tech/2026/10/16/satoshi-era-bitcoin-faces-a-bigger-quantum-threat-after-google-s-new-willow-breakthrough",
+    "summary": "",
+    "published_at": "2026-10-17T02:30:00+00:00",
+    "collected_at": "2026-10-17T06:33:24.737748+00:00",
+    "categories": {},
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "ec4dcbc6f8c031786ba3d695",
     "source": "nikkei_asia",
     "tier": 3,
