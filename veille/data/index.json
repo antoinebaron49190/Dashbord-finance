@@ -36,12 +36,12 @@
     ]
   },
   "2026-10-17": {
-    "articles_count": 23,
-    "signal_count": 4,
+    "articles_count": 37,
+    "signal_count": 6,
     "tone_cb": null,
-    "tone_global": -0.4417,
+    "tone_global": -0.4795,
     "regul_crypto": -0.6,
-    "stress": 0.0,
+    "stress": 0.0233,
     "top": [
       {
         "id": "90631116fa2cc1a4e94b920e",
@@ -52,6 +52,14 @@
         "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html"
       },
       {
+        "id": "2cf4d2a1e3f8a1c87a6a04bf",
+        "title": "Fed interest-rate decision this month is a closer call than markets think",
+        "source": "marketwatch",
+        "score": 0.45,
+        "tone": -0.5,
+        "url": "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95?mod=mw_rss_topstories"
+      },
+      {
         "id": "ccc43c291747e8403e01ef66",
         "title": "Trump waives key Russia-related sanctions, tariffs before they take effect under new law",
         "source": "investing_com",
@@ -60,28 +68,20 @@
         "url": "https://www.investing.com/news/commodities-news/trump-waives-many-russiarelated-sanctions-tariffs-before-they-were-to-take-effect-under-new-law-4955088"
       },
       {
+        "id": "fdea5bc269a856b0d0135c8e",
+        "title": "Saudi finance minister says Middle East economies divided by crisis",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": -0.6,
+        "url": "https://asia.nikkei.com/economy/saudi-finance-minister-says-middle-east-economies-divided-by-crisis"
+      },
+      {
         "id": "f5a81e821854d50fbce64119",
         "title": "Bitcoin price holds above $81,000 as ETF outflows weigh on sentiment",
         "source": "investing_com",
         "score": 0.3,
         "tone": -0.6,
         "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-81000-as-etf-outflows-weigh-on-sentiment-4955253"
-      },
-      {
-        "id": "557a9bcb537a49d892ed0fa9",
-        "title": "IMF members call for increased support for countries amid negative risks and war spillovers",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/imf-members-call-for-increased-support-for-countries-amid-negative-risks-and-war-spillovers-4955272"
-      },
-      {
-        "id": "1cada5d9a79879451cfcd9f3",
-        "title": "Delhi crackdown fosters Gen Z defenders of Indian democracy",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/politics/delhi-crackdown-fosters-gen-z-defenders-of-indian-democracy"
       }
     ]
   },
