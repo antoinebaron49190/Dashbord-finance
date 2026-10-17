@@ -62,6 +62,455 @@
     "scored_by": "lexique"
   },
   {
+    "id": "04e8e5034fead99a33c04819",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Toyota to build next-gen Corolla in China from 2028",
+    "url": "https://asia.nikkei.com/business/automobiles/toyota-to-build-next-gen-corolla-in-china-from-2028",
+    "summary": "",
+    "published_at": "2026-10-17T14:57:18.431377+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3aaf3de726de5fcdc88bd7af",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "DeepSeek releases AI model update, opens search APIs to all users",
+    "url": "https://www.investing.com/news/stock-market-news/deepseek-releases-ai-model-update-opens-search-apis-to-all-users-4955445",
+    "summary": "",
+    "published_at": "2026-10-17T14:33:21+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "625b5e8e2749d4d543c6f5b1",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Tether global investments fund buys $1.28m in Gold.com stock",
+    "url": "https://www.investing.com/news/insider-trading-news/tether-global-investments-fund-buys-128m-in-goldcom-stock-93CH-4955444",
+    "summary": "",
+    "published_at": "2026-10-17T14:31:42+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "208d42d62a76e7125b348f30",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Axis Bank posts strong Q2 2026 profit growth",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-axis-bank-posts-strong-q2-2026-profit-growth-93CH-4955438",
+    "summary": "",
+    "published_at": "2026-10-17T14:21:53+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d435019b3a0b9cf742ca64d3",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bitcoin price holds near $81,000 as ETF outflows weigh on sentiment",
+    "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-holds-above-81000-as-etf-outflows-weigh-on-sentiment-4955253",
+    "summary": "",
+    "published_at": "2026-10-17T14:14:28+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "btc"
+    ],
+    "assets_effective": [
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e89771c78adad53951543d6e",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Bank of Canada sees sharply higher inflation outlook as oil surges, Macklem says",
+    "url": "https://www.investing.com/news/economy-news/bank-of-canada-sees-sharply-higher-inflation-outlook-as-oil-surges-macklem-says-4955437",
+    "summary": "",
+    "published_at": "2026-10-17T14:06:43+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b7bf72883d8d1ed7d473c474",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Polygon sees Coinme acquisition as entry to payments sector dominated by Visa, Stripe",
+    "url": "https://www.coindesk.com/business/2026/10/17/polygon-sees-coinme-acquisition-as-entry-to-payments-sector-dominated-by-visa-stripe",
+    "summary": "",
+    "published_at": "2026-10-17T14:00:00+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "17045bf3f52a9e590a7cf6fb",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Ferguson COO Thees sells $127,125 of FERG stock",
+    "url": "https://www.investing.com/news/insider-trading-news/ferguson-coo-thees-sells-127125-of-ferg-stock-93CH-4955433",
+    "summary": "",
+    "published_at": "2026-10-17T13:46:11+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d116bf74487f4d8d6d8910f2",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Which company has the world’s highest earnings? The answer may surprise you",
+    "url": "https://www.investing.com/news/stock-market-news/which-company-has-the-worlds-highest-earnings-the-answer-may-surprise-you-4955422",
+    "summary": "",
+    "published_at": "2026-10-17T13:12:06+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "143f20518b912f952bbf3b51",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Meet the home buyers totally unfazed by 7% mortgage rates",
+    "url": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7?mod=mw_rss_topstories",
+    "summary": "Individual investors and second-home buyers accounted for 1 in 5 home purchases in September — the highest share in a little over a year.",
+    "published_at": "2026-10-17T13:00:00+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6000d9ce2954e2b1c31728bf",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "ICICI Bank Q2-2027 slides: 23% profit growth amid margin pressure",
+    "url": "https://www.investing.com/news/company-news/icici-bank-q22027-slides-23-profit-growth-amid-margin-pressure-93CH-4955420",
+    "summary": "",
+    "published_at": "2026-10-17T12:54:30+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0a85d14a1882e2b5aabc565f",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: ICICI Bank posts strong Q2 2026 profit growth, shares flat",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-icici-bank-posts-strong-q2-2026-profit-growth-shares-flat-93CH-4955418",
+    "summary": "",
+    "published_at": "2026-10-17T12:38:06+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "146184b9a098b2bd51aff695",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Silver’s recent 50% drop from a record high hints that an economic slowdown looms",
+    "url": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1?mod=mw_rss_topstories",
+    "summary": "There’s a relatively off-the-radar commodity that can provide hints on where the economy is headed — and it’s seen its value drop more than 50% from a record high earlier this year.",
+    "published_at": "2026-10-17T12:30:00+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {
+      "croissance": 1.4142
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5858,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5858,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "2d0a20a09e1db09aed372514",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Microsoft, Shopify and 3 more AI stocks that are favorite Wall Street earnings plays",
+    "url": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81?mod=mw_rss_topstories",
+    "summary": "As earnings season kicks off, select tech companies have the opportunity to deliver big positive surprises for investors.",
+    "published_at": "2026-10-17T12:01:00+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "80f3ebabf1cd7a0cd87f36a7",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Banks could slow stablecoin growth by paying savers more, BIS paper finds",
+    "url": "https://www.coindesk.com/business/2026/10/14/banks-could-slow-stablecoin-growth-by-paying-savers-more-bis-paper-finds",
+    "summary": "",
+    "published_at": "2026-10-17T12:00:00+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "384ce2c41f4938e3cffe87e5",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "It was another great week for the average stock as market leadership shifts away from tech",
+    "url": "https://www.marketwatch.com/story/it-was-another-great-week-for-the-average-stock-as-market-leadership-shifts-away-from-tech-8e8516da?mod=mw_rss_topstories",
+    "summary": "The S&P 500’s tech sector just had its worst week in a year and a half, while an equal-weighted version of the index cemented a second-straight weekly advance.",
+    "published_at": "2026-10-17T11:30:00+00:00",
+    "collected_at": "2026-10-17T14:57:18.431377+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "fdea5bc269a856b0d0135c8e",
     "source": "nikkei_asia",
     "tier": 3,

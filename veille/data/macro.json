@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T11:22:17.912631+00:00",
+  "generated_at": "2026-10-17T14:57:51.233607+00:00",
   "regime": {
     "state": "favorable au risque",
     "favorable": 9,
@@ -12,21 +12,21 @@
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM200",
       "ok": true,
-      "value": "81 465 $",
+      "value": "81 474 $",
       "reference": "MM200 72 425 $"
     },
     {
       "group": "Crypto",
       "label": "BTC au-dessus de sa MM50",
       "ok": true,
-      "value": "81 465 $",
+      "value": "81 474 $",
       "reference": "MM50 81 324 $"
     },
     {
       "group": "Crypto",
       "label": "ETH au-dessus de sa MM200",
       "ok": true,
-      "value": "2 432 $",
+      "value": "2 425 $",
       "reference": "MM200 2 146 $"
     },
     {
@@ -88,21 +88,21 @@
   ],
   "crypto": {
     "btc": {
-      "price": 81465.2,
-      "ma50": 81323.68400000004,
-      "ma200": 72425.43599999993,
-      "drawdown_1y": 0.28857504896956504,
-      "volatility_30d": 0.37840737809017955,
+      "price": 81474.4,
+      "ma50": 81323.86800000003,
+      "ma200": 72425.48199999993,
+      "drawdown_1y": 0.2884947065712222,
+      "volatility_30d": 0.3783978308686406,
       "above_ma50": true,
       "above_ma200": true,
       "trend": "haussiere"
     },
     "eth": {
-      "price": 2431.7,
-      "ma50": 2552.0826,
-      "ma200": 2146.3428,
-      "drawdown_1y": 0.415278221957184,
-      "volatility_30d": 0.4342864452423266,
+      "price": 2424.84,
+      "ma50": 2551.9454000000005,
+      "ma200": 2146.3084999999996,
+      "drawdown_1y": 0.4169277640048764,
+      "volatility_30d": 0.4339954360170376,
       "above_ma50": false,
       "above_ma200": true,
       "trend": "indecise"
@@ -227,11 +227,11 @@
       "fear_greed": 55,
       "assets": {
         "btc": {
-          "close": 81465.2,
+          "close": 81474.4,
           "trend": "haussiere"
         },
         "eth": {
-          "close": 2431.7,
+          "close": 2424.84,
           "trend": "indecise"
         },
         "sp500": {
