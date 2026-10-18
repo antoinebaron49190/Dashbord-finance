@@ -36,10 +36,10 @@
     ]
   },
   "2026-10-18": {
-    "articles_count": 67,
-    "signal_count": 5,
+    "articles_count": 77,
+    "signal_count": 6,
     "tone_cb": null,
-    "tone_global": -0.3,
+    "tone_global": -0.1667,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
@@ -50,6 +50,14 @@
         "score": 0.9,
         "tone": 0.0,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2194"
+      },
+      {
+        "id": "bcbb8962cf1ab6586a70cc5a",
+        "title": "Japan's regional banks log record growth in property lending",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/business/finance/japan-s-regional-banks-log-record-growth-in-property-lending"
       },
       {
         "id": "fd99dc3551c5be1f81ccc17e",
@@ -74,14 +82,6 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://www.investing.com/news/commodities-news/rubio-says-trump-to-take-up-to-60-days-to-weigh-russia-sanctions-4955750"
-      },
-      {
-        "id": "59d3977148c1270a0e6ebf1c",
-        "title": "Iran war: Tankers hit near Hormuz as Tehran offers U.S. reopening plan",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/iran-war-tankers-hit-near-hormuz-as-tehran-offers-us-reopening-plan-4955749"
       }
     ]
   },
