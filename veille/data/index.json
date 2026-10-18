@@ -36,13 +36,29 @@
     ]
   },
   "2026-10-18": {
-    "articles_count": 47,
-    "signal_count": 4,
+    "articles_count": 57,
+    "signal_count": 5,
     "tone_cb": null,
-    "tone_global": -0.25,
+    "tone_global": -0.3,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "20327b22b2e9b9be3c24b909",
+        "title": "Commission statement on the protests in Albania",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2194"
+      },
+      {
+        "id": "fd99dc3551c5be1f81ccc17e",
+        "title": "Trump endorses Israeli Prime Minister Netanyahu for reelection amid Iran war",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/iran-appoints-new-defence-minister-amid-escalating-tensions-with-us-4955858"
+      },
       {
         "id": "c28b23f0894b698a3af307a6",
         "title": "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
@@ -66,22 +82,6 @@
         "score": 0.3,
         "tone": -0.5,
         "url": "https://www.investing.com/news/economy-news/iran-war-tankers-hit-near-hormuz-as-tehran-offers-us-reopening-plan-4955749"
-      },
-      {
-        "id": "4461a620cb7fd9bf99d5ee2f",
-        "title": "Australian home prices tumble as tax rules, rate hikes bite",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://asia.nikkei.com/business/markets/property/australian-home-prices-tumble-as-tax-rules-rate-hikes-bite"
-      },
-      {
-        "id": "34c17093fb51b4c2c499f9a1",
-        "title": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946"
       }
     ]
   },
@@ -186,12 +186,12 @@
     ]
   },
   "2026-10-15": {
-    "articles_count": 163,
+    "articles_count": 164,
     "signal_count": 22,
     "tone_cb": null,
     "tone_global": -0.0512,
     "regul_crypto": -0.6,
-    "stress": 0.0238,
+    "stress": 0.0235,
     "top": [
       {
         "id": "101307ce48d89b43c0a3c7f2",
