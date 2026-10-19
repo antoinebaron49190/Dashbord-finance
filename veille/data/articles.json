@@ -62,6 +62,359 @@
     "scored_by": "lexique"
   },
   {
+    "id": "a200ab65fbc6db4c96944745",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Flooding tests Ho Chi Minh City's growth ambitions",
+    "url": "https://asia.nikkei.com/economy/natural-disasters/flooding-tests-ho-chi-minh-city-s-growth-ambitions",
+    "summary": "",
+    "published_at": "2026-10-19T00:48:10.732530+00:00",
+    "collected_at": "2026-10-19T00:48:10.732530+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "920a272982b1ed9e414b2e4d",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Dick’s Sporting Goods president buys $499,868 in DKS shares",
+    "url": "https://www.investing.com/news/insider-trading-news/dicks-sporting-goods-president-buys-499868-in-dks-shares-93CH-4956171",
+    "summary": "",
+    "published_at": "2026-10-19T00:30:56+00:00",
+    "collected_at": "2026-10-19T00:48:10.732530+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "0ca0fa4909e40180097f324e",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Royce Global Trust CEO Clark buys $10,565 in shares",
+    "url": "https://www.investing.com/news/insider-trading-news/royce-global-trust-ceo-clark-buys-10565-in-shares-93CH-4956172",
+    "summary": "",
+    "published_at": "2026-10-19T00:30:56+00:00",
+    "collected_at": "2026-10-19T00:48:10.732530+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6d1baea82b6e98edbb177959",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why is Challenger stock surging today?",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-challenger-stock-surging-today-93CH-4956167",
+    "summary": "",
+    "published_at": "2026-10-19T00:27:35+00:00",
+    "collected_at": "2026-10-19T00:48:10.732530+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "298b26192d176e469d840005",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "BOJ Governor Ueda says underlying inflation ’quite close’ to 2% target",
+    "url": "https://www.investing.com/news/economy-news/boj-governor-ueda-says-underlying-inflation-quite-close-to-2-target-4956166",
+    "summary": "",
+    "published_at": "2026-10-19T00:18:18+00:00",
+    "collected_at": "2026-10-19T00:48:10.732530+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "b81a45543cc7bc5841146a07",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oil prices slide as Trump waives Russia sanctions",
+    "url": "https://www.investing.com/news/commodities-news/oil-prices-slide-as-trump-waives-russia-sanctions-4956158",
+    "summary": "",
+    "published_at": "2026-10-19T00:14:24+00:00",
+    "collected_at": "2026-10-19T00:48:10.732530+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "259c3a33d47513445e561a83",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Australia’s Cleanaway agrees to $6.5 bln EQT buyout bid; shares surge",
+    "url": "https://www.investing.com/news/stock-market-news/australias-cleanaway-agrees-to-65-bln-eqt-buyout-bid-shares-surge-4956157",
+    "summary": "",
+    "published_at": "2026-10-19T00:13:21+00:00",
+    "collected_at": "2026-10-19T00:48:10.732530+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c69b109bddc0ed74bcc607c7",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "OpenWorld signs merger deal with AI agent firm Blocksight",
+    "url": "https://www.investing.com/news/company-news/openworld-signs-merger-deal-with-ai-agent-firm-blocksight-93CH-4956155",
+    "summary": "",
+    "published_at": "2026-10-19T00:04:36+00:00",
+    "collected_at": "2026-10-19T00:48:10.732530+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "726615fac929e7f38073f8cb",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "OpenWorld signs deal to acquire AI agent firm Blocksight",
+    "url": "https://www.investing.com/news/company-news/openworld-signs-deal-to-acquire-ai-agent-firm-blocksight-93CH-4956154",
+    "summary": "",
+    "published_at": "2026-10-19T00:04:34+00:00",
+    "collected_at": "2026-10-19T00:48:10.732530+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c4f1c04f2a298134eeafcef7",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Royce Micro-Cap Trust CEO Clark acquires $13,400 in RMT stock",
+    "url": "https://www.investing.com/news/insider-trading-news/royce-microcap-trust-ceo-clark-acquires-13400-in-rmt-stock-93CH-4956142",
+    "summary": "",
+    "published_at": "2026-10-18T23:45:56+00:00",
+    "collected_at": "2026-10-19T00:48:10.732530+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "007c59e0f6bfe09f5b63ca20",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Putin proposes summit with Trump and Xi on Ukraine- WSJ",
+    "url": "https://www.investing.com/news/stock-market-news/putin-proposes-summit-with-trump-and-xi-on-ukraine-wsj-93CH-4956133",
+    "summary": "",
+    "published_at": "2026-10-18T23:40:26+00:00",
+    "collected_at": "2026-10-19T00:48:10.732530+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "6a9db7d51ce2f23f1b91b036",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "SEC tokenized stock framework faces issuer pushback as Broadcom, Verizon object to OKX-ICE listing",
+    "url": "https://www.coindesk.com/business/2026/10/18/sec-tokenized-stock-framework-faces-issuer-pushback-as-broadcom-verizon-object-to-okx-ice-listing",
+    "summary": "",
+    "published_at": "2026-10-18T23:28:06+00:00",
+    "collected_at": "2026-10-19T00:48:10.732530+00:00",
+    "categories": {
+      "crypto_favorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c74e739ef6f988a301613714",
+    "source": "cnbc_economy",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "statistiques",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "India’s Finance Minister blames easy exits and excess liquidity for equity market's underperformance",
+    "url": "https://www.cnbc.com/2026/10/18/india-ai-nifty50-sensex-investors.html",
+    "summary": "India's finance minister said that continued capital outflows are one of the biggest risks for the country in 2027.",
+    "published_at": "2026-10-18T23:00:01+00:00",
+    "collected_at": "2026-10-19T00:48:10.732530+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "bfeeacbd2c92e6a134929cd3",
     "source": "nikkei_asia",
     "tier": 3,
@@ -679,6 +1032,38 @@
     "summary": "",
     "published_at": "2026-10-18T16:33:00+00:00",
     "collected_at": "2026-10-18T17:49:21.592024+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500",
+      "btc"
+    ],
+    "assets_effective": [
+      "sp500",
+      "btc"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f8b33616ed8517817e733e42",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "Wall Street freaked out Friday, but VIX and bitcoin trades say the fear may fade Monday.",
+    "url": "https://www.coindesk.com/markets/2026/10/18/wall-street-freaked-out-friday-vix-and-bitcoin-say-it-may-not-last",
+    "summary": "",
+    "published_at": "2026-10-18T16:33:00+00:00",
+    "collected_at": "2026-10-19T00:48:10.732530+00:00",
     "categories": {},
     "assets_detected": [
       "sp500",
