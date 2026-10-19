@@ -36,13 +36,21 @@
     ]
   },
   "2026-10-19": {
-    "articles_count": 76,
-    "signal_count": 12,
-    "tone_cb": -0.6,
-    "tone_global": 0.1315,
-    "regul_crypto": 0.6,
-    "stress": 0.0386,
+    "articles_count": 121,
+    "signal_count": 19,
+    "tone_cb": -0.027,
+    "tone_global": 0.1458,
+    "regul_crypto": 0.3759,
+    "stress": 0.0502,
     "top": [
+      {
+        "id": "eb45ae1538b3c5c976b6663d",
+        "title": "Headwind or tailwind? How banks interpret borrowers’ AI exposure",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": -0.6796,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3302~7ff8a286bc.en.pdf"
+      },
       {
         "id": "d195cf608bdf521947ff7370",
         "title": "Regulatory incentives and the structure of euro area money markets",
@@ -52,36 +60,28 @@
         "url": "https://www.ecb.europa.eu//pub/pdf/scpops/ecb.op401.en.pdf"
       },
       {
+        "id": "00d2d0e2fadd79edc3f76f5c",
+        "title": "Opening remarks - “Beyond the cycle: growth, innovation and resilience of the Chinese economy” Conference",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.5858,
+        "url": "https://www.bis.org/speeches/20261019-opening-remarks-beyond-cycle-growth-innovation-and-resilience-chinese-economy-conference"
+      },
+      {
+        "id": "2f5b3235f740c56db929b44b",
+        "title": "Remarks on the panel topic “Paths to prosperity - forging growth, trade and investment between Europe and Asia”",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.5858,
+        "url": "https://www.bis.org/speeches/20261019-remarks-panel-topic-paths-prosperity-forging-growth-trade-and-investment-between-europe-and-asia"
+      },
+      {
         "id": "98a9ab76b3517958940d0b35",
         "title": "Frank Elderson: From climate and nature risks to economic resilience and competitiveness",
         "source": "bce_press",
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html"
-      },
-      {
-        "id": "521f2fec8f1672281c1a3994",
-        "title": "Effective supervision through timely remediation",
-        "source": "bis_cb_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bis.org/speeches/20261016-effective-supervision-through-timely-remediation"
-      },
-      {
-        "id": "61e3786e0ec3b8b61e08197f",
-        "title": "Building trusted foundations for digital finance",
-        "source": "bis_cb_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bis.org/speeches/20261019-building-trusted-foundations-digital-finance"
-      },
-      {
-        "id": "dc23d1757b53f8dd8ef304cc",
-        "title": "Financial resilience in an age of repeated shocks",
-        "source": "bis_cb_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bis.org/speeches/20261019-financial-resilience-age-repeated-shocks"
       }
     ]
   },
@@ -4462,7 +4462,7 @@
     ]
   },
   "2026-07-21": {
-    "articles_count": 3,
+    "articles_count": 2,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
@@ -4484,14 +4484,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.boj.or.jp/en/statistics/bis/repo/index.htm"
-      },
-      {
-        "id": "3191a35b7f60f2cdab24b694",
-        "title": "ECB appoints Boris Kisselevsky as Director General Secretariat",
-        "source": "bce_press",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260721_1~8c6ba4c5fb.en.html"
       }
     ]
   },
