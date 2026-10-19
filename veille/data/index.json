@@ -36,63 +36,71 @@
     ]
   },
   "2026-10-19": {
-    "articles_count": 31,
-    "signal_count": 5,
-    "tone_cb": null,
-    "tone_global": 0.2556,
+    "articles_count": 76,
+    "signal_count": 12,
+    "tone_cb": -0.6,
+    "tone_global": 0.1315,
     "regul_crypto": 0.6,
-    "stress": 0.0,
+    "stress": 0.0386,
     "top": [
       {
-        "id": "352d927675da4e41c13761c8",
-        "title": "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears",
-        "source": "coindesk",
-        "score": 0.3,
-        "tone": 0.7778,
-        "url": "https://www.coindesk.com/business/2026/10/18/deutsche-bank-targets-asia-crypto-custody-expansion-in-2027-as-german-launch-nears"
+        "id": "d195cf608bdf521947ff7370",
+        "title": "Regulatory incentives and the structure of euro area money markets",
+        "source": "bce_pub",
+        "score": 1.3,
+        "tone": -0.6,
+        "url": "https://www.ecb.europa.eu//pub/pdf/scpops/ecb.op401.en.pdf"
       },
       {
-        "id": "0b15be9be1e50d860fe893de",
-        "title": "China's Q3 GDP narrowly beats forecasts as strong exports buoy growth",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/economy/china-s-q3-gdp-narrowly-beats-forecasts-as-strong-exports-buoy-growth"
-      },
-      {
-        "id": "a200ab65fbc6db4c96944745",
-        "title": "Flooding tests Ho Chi Minh City's growth ambitions",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/economy/natural-disasters/flooding-tests-ho-chi-minh-city-s-growth-ambitions"
-      },
-      {
-        "id": "b81a45543cc7bc5841146a07",
-        "title": "Oil prices slide as Trump waives Russia sanctions",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/commodities-news/oil-prices-slide-as-trump-waives-russia-sanctions-4956158"
-      },
-      {
-        "id": "be14576f555149fedd079cdb",
-        "title": "Indonesian wildfires threaten forest carbon projects",
-        "source": "nikkei_asia",
-        "score": 0.3,
+        "id": "98a9ab76b3517958940d0b35",
+        "title": "Frank Elderson: From climate and nature risks to economic resilience and competitiveness",
+        "source": "bce_press",
+        "score": 1.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/environment/indonesian-wildfires-threaten-forest-carbon-projects"
+        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html"
+      },
+      {
+        "id": "521f2fec8f1672281c1a3994",
+        "title": "Effective supervision through timely remediation",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20261016-effective-supervision-through-timely-remediation"
+      },
+      {
+        "id": "61e3786e0ec3b8b61e08197f",
+        "title": "Building trusted foundations for digital finance",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20261019-building-trusted-foundations-digital-finance"
+      },
+      {
+        "id": "dc23d1757b53f8dd8ef304cc",
+        "title": "Financial resilience in an age of repeated shocks",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20261019-financial-resilience-age-repeated-shocks"
       }
     ]
   },
   "2026-10-18": {
-    "articles_count": 82,
+    "articles_count": 87,
     "signal_count": 8,
     "tone_cb": null,
     "tone_global": -0.125,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "26a36b5c2750b577f17accdc",
+        "title": "Commission sends Statement of Objections to KKR for providing incorrect or misleading information during merger investigation",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2178"
+      },
       {
         "id": "20327b22b2e9b9be3c24b909",
         "title": "Commission statement on the protests in Albania",
@@ -102,36 +110,28 @@
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2194"
       },
       {
-        "id": "bcbb8962cf1ab6586a70cc5a",
-        "title": "Japan's regional banks log record growth in property lending",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/business/finance/japan-s-regional-banks-log-record-growth-in-property-lending"
+        "id": "97f0302a433a95d7b61e90f4",
+        "title": "Andorra and San Marino sign Association Agreement to move closer to the EU",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2182"
       },
       {
-        "id": "fd99dc3551c5be1f81ccc17e",
-        "title": "Trump endorses Israeli Prime Minister Netanyahu for reelection amid Iran war",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/iran-appoints-new-defence-minister-amid-escalating-tensions-with-us-4955858"
+        "id": "2a7cdb56568f74be2c53d8a2",
+        "title": "Commission invests €3.4 billion in net-zero technology projects",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2187"
       },
       {
-        "id": "c28b23f0894b698a3af307a6",
-        "title": "These surprising stocks could be some of the biggest drivers of S&P 500 earnings growth",
-        "source": "marketwatch",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07?mod=mw_rss_topstories"
-      },
-      {
-        "id": "41d0c0e8b5b3197a27343e9d",
-        "title": "Rubio says Trump to take up to 60 days to weigh Russia sanctions",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/commodities-news/rubio-says-trump-to-take-up-to-60-days-to-weigh-russia-sanctions-4955750"
+        "id": "6ab68f47ca53fb253cf12d3c",
+        "title": "EU invests over €390 million in 135 new climate and environment projects",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2184"
       }
     ]
   },
@@ -4462,7 +4462,7 @@
     ]
   },
   "2026-07-21": {
-    "articles_count": 4,
+    "articles_count": 3,
     "signal_count": 0,
     "tone_cb": null,
     "tone_global": null,
@@ -4492,14 +4492,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260721_1~8c6ba4c5fb.en.html"
-      },
-      {
-        "id": "425e3d96684d03dea026d8c5",
-        "title": "July 2026 euro area bank lending survey",
-        "source": "bce_press",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr260721~44ee50f75c.en.html"
       }
     ]
   },
