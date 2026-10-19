@@ -36,13 +36,29 @@
     ]
   },
   "2026-10-19": {
-    "articles_count": 9,
-    "signal_count": 2,
+    "articles_count": 31,
+    "signal_count": 5,
     "tone_cb": null,
-    "tone_global": 0.0,
-    "regul_crypto": null,
+    "tone_global": 0.2556,
+    "regul_crypto": 0.6,
     "stress": 0.0,
     "top": [
+      {
+        "id": "352d927675da4e41c13761c8",
+        "title": "Deutsche Bank targets Asia crypto custody expansion in 2027 as German launch nears",
+        "source": "coindesk",
+        "score": 0.3,
+        "tone": 0.7778,
+        "url": "https://www.coindesk.com/business/2026/10/18/deutsche-bank-targets-asia-crypto-custody-expansion-in-2027-as-german-launch-nears"
+      },
+      {
+        "id": "0b15be9be1e50d860fe893de",
+        "title": "China's Q3 GDP narrowly beats forecasts as strong exports buoy growth",
+        "source": "nikkei_asia",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/economy/china-s-q3-gdp-narrowly-beats-forecasts-as-strong-exports-buoy-growth"
+      },
       {
         "id": "a200ab65fbc6db4c96944745",
         "title": "Flooding tests Ho Chi Minh City's growth ambitions",
@@ -60,28 +76,12 @@
         "url": "https://www.investing.com/news/commodities-news/oil-prices-slide-as-trump-waives-russia-sanctions-4956158"
       },
       {
-        "id": "920a272982b1ed9e414b2e4d",
-        "title": "Dick’s Sporting Goods president buys $499,868 in DKS shares",
-        "source": "investing_com",
+        "id": "be14576f555149fedd079cdb",
+        "title": "Indonesian wildfires threaten forest carbon projects",
+        "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/dicks-sporting-goods-president-buys-499868-in-dks-shares-93CH-4956171"
-      },
-      {
-        "id": "0ca0fa4909e40180097f324e",
-        "title": "Royce Global Trust CEO Clark buys $10,565 in shares",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/royce-global-trust-ceo-clark-buys-10565-in-shares-93CH-4956172"
-      },
-      {
-        "id": "6d1baea82b6e98edbb177959",
-        "title": "Why is Challenger stock surging today?",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/stock-market-news/why-is-challenger-stock-surging-today-93CH-4956167"
+        "url": "https://asia.nikkei.com/spotlight/environment/indonesian-wildfires-threaten-forest-carbon-projects"
       }
     ]
   },
