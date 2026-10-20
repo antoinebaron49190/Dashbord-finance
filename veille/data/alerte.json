@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-10-20T07:10:18.470920+00:00",
-  "pending": [],
+  "updated_at": "2026-10-20T13:20:42.352164+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:eurostoxx:indecise->baissiere:2026-10-20",
+      "title": "Euro Stoxx 50 : tendance baissière",
+      "body": "Euro Stoxx 50 passe de « sans direction nette » à « baissière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-10-20.",
+      "kind": "tendance",
+      "detected_at": "2026-10-20T13:20:42.352070+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -110,7 +118,8 @@
     "trend:sp500:haussiere->indecise:2026-10-16",
     "trend:btc:haussiere->indecise:2026-10-17",
     "trend:btc:indecise->haussiere:2026-10-18",
-    "trend:btc:haussiere->indecise:2026-10-20"
+    "trend:btc:haussiere->indecise:2026-10-20",
+    "trend:eurostoxx:indecise->baissiere:2026-10-20"
   ],
   "extremes_active": []
 }

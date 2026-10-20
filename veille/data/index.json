@@ -36,13 +36,29 @@
     ]
   },
   "2026-10-20": {
-    "articles_count": 31,
-    "signal_count": 4,
+    "articles_count": 78,
+    "signal_count": 9,
     "tone_cb": null,
-    "tone_global": 0.5,
-    "regul_crypto": null,
+    "tone_global": 0.41,
+    "regul_crypto": 0.6,
     "stress": 0.0,
     "top": [
+      {
+        "id": "c1c435d61cda1b660750a349",
+        "title": "IMFC Statement",
+        "source": "bis_cb_speeches",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20261020-imfc-statement"
+      },
+      {
+        "id": "bd0a369e450b24d66489d07f",
+        "title": "Statement - meeting of the Development Committee",
+        "source": "bis_cb_speeches",
+        "score": 1.95,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20261020-statement-meeting-development-committee"
+      },
       {
         "id": "2947a106bf2197028ac478bd",
         "title": "Frank Elderson: Interview with Die Presse",
@@ -52,46 +68,30 @@
         "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html"
       },
       {
-        "id": "acc554bb26bd9d298dc691bb",
-        "title": "Singapore's AI-backed growth masks strains in food services",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/economy/inflation/singapore-s-ai-backed-growth-masks-strains-in-food-services2"
+        "id": "4fff1e27859701e946637f00",
+        "title": "Reimagining assurance - harnessing intelligence, resilience and integrity",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20261020-reimagining-assurance-harnessing-intelligence-resilience-and-integrity"
       },
       {
-        "id": "b34faafb91f0ecdc11fc63ee",
-        "title": "OVH reports first positive free cash flow since IPO, targets 10%+ growth in FY27",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/earnings/ovh-reports-first-positive-free-cash-flow-since-ipo-targets-10-growth-in-fy27-4958951"
-      },
-      {
-        "id": "dc2be249bc07ceb52f43a481",
-        "title": "Wickes on track for 2026 profit forecasts as Q3 sales growth hits 4.5%",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/earnings/wickes-on-track-for-2026-profit-forecasts-as-q3-sales-growth-hits-45-4958941"
-      },
-      {
-        "id": "2413f9ec453810cdf4f642a6",
-        "title": "Oil holds near five-month high as Hormuz attacks threaten supply recovery",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/commodities-news/oil-holds-near-fivemonth-high-as-hormuz-attacks-threaten-supply-recovery-4958615"
+        "id": "c12ea41928beb12b166f7371",
+        "title": "Economic activity, prices, and monetary policy in Japan",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20261020-economic-activity-prices-and-monetary-policy-japan"
       }
     ]
   },
   "2026-10-19": {
-    "articles_count": 149,
+    "articles_count": 151,
     "signal_count": 22,
     "tone_cb": -0.027,
     "tone_global": 0.1848,
     "regul_crypto": 0.3759,
-    "stress": 0.0422,
+    "stress": 0.0412,
     "top": [
       {
         "id": "eb45ae1538b3c5c976b6663d",
@@ -4462,52 +4462,28 @@
     ]
   },
   "2026-07-22": {
-    "articles_count": 10,
-    "signal_count": 2,
+    "articles_count": 2,
+    "signal_count": 0,
     "tone_cb": null,
-    "tone_global": -0.6503,
+    "tone_global": null,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
       {
-        "id": "24a6dfc1fc37db25da61a98b",
-        "title": "PRA consults on updated guidance for friendly society amalgamations and transfers",
-        "source": "boe_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bankofengland.co.uk/news/2026/july/pra-consults-on-updated-guidance-for-friendly-society-amalgamations-and-transfers"
-      },
-      {
-        "id": "7916d05d088cb186ebad5f47",
-        "title": "Japanese Government Bonds Held by the Bank of Japan",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260717.xlsx"
-      },
-      {
-        "id": "b8d4343c01cae74206d15449",
-        "title": "Japanese Government Bonds Held by the Bank of Japan",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.boj.or.jp/en/statistics/boj/other/mei/release/2026/mei260717.xlsx"
-      },
-      {
-        "id": "b6a103d716fe0c23406929bc",
-        "title": "La Commission des sanctions de l’AMF sanctionne une société de gestion de portefeuille et deux de ses dirigeants pour des manquements à leurs obligations professionnelles et met hors de cause deux autres dirigeants",
-        "source": "amf_news",
+        "id": "8c7897859e31f4b945af5c90",
+        "title": "SEC Announces Departure of Principal Deputy Director of Enforcement Sam Waldon",
+        "source": "sec_press",
         "score": 0.9,
-        "tone": -0.6667,
-        "url": "https://www.amf-france.org/fr/actualites-publications/communiques/communiques-de-la-commission-des-sanctions/la-commission-des-sanctions-de-lamf-sanctionne-une-societe-de-gestion-de-portefeuille-et-deux-de-ses#xts=607212&xtor=RSS-3&type=RSS"
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-68-sec-announces-departure-principal-deputy-director-enforcement-sam-waldon"
       },
       {
-        "id": "04edf0337f7ed9c953abac87",
-        "title": "SAN-2026-06 - Décision de la commission des sanctions du 20 juillet 2026 à l'égard de la société Uzès Gestion et de MM. A, B, Jean-Marie Godet et Christian Maugey",
-        "source": "amf_news",
-        "score": 0.9,
-        "tone": -0.634,
-        "url": "https://www.amf-france.org/fr/sanctions-transactions/decisions-de-la-commission-des-sanctions/san-2026-06#xts=607212&xtor=RSS-3&type=RSS"
+        "id": "55214c82784ca3a2d210ec86",
+        "title": "Kevin Warsh has homed in on three key phrases. How Fed watchers interpret them",
+        "source": "cnbc_economy",
+        "score": 0.3,
+        "tone": 0.0,
+        "url": "https://www.cnbc.com/2026/07/22/kevin-warsh-has-homed-in-on-three-key-phrases-how-fed-watchers-interpret-them.html"
       }
     ]
   },
