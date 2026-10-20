@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-20T13:20:42.352164+00:00",
+  "updated_at": "2026-10-20T18:21:18.244171+00:00",
   "pending": [
     {
-      "fingerprint": "trend:eurostoxx:indecise->baissiere:2026-10-20",
-      "title": "Euro Stoxx 50 : tendance baissière",
-      "body": "Euro Stoxx 50 passe de « sans direction nette » à « baissière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-10-20.",
+      "fingerprint": "trend:sp500:indecise->haussiere:2026-10-20",
+      "title": "S&P 500 : tendance haussière",
+      "body": "S&P 500 passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-10-20.",
       "kind": "tendance",
-      "detected_at": "2026-10-20T13:20:42.352070+00:00"
+      "detected_at": "2026-10-20T18:21:18.244067+00:00"
     }
   ],
   "sent": [
@@ -119,7 +119,8 @@
     "trend:btc:haussiere->indecise:2026-10-17",
     "trend:btc:indecise->haussiere:2026-10-18",
     "trend:btc:haussiere->indecise:2026-10-20",
-    "trend:eurostoxx:indecise->baissiere:2026-10-20"
+    "trend:eurostoxx:indecise->baissiere:2026-10-20",
+    "trend:sp500:indecise->haussiere:2026-10-20"
   ],
   "extremes_active": []
 }
