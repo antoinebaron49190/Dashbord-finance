@@ -36,13 +36,21 @@
     ]
   },
   "2026-10-21": {
-    "articles_count": 88,
-    "signal_count": 18,
-    "tone_cb": null,
-    "tone_global": -0.0015,
+    "articles_count": 126,
+    "signal_count": 23,
+    "tone_cb": -0.5858,
+    "tone_global": -0.0353,
     "regul_crypto": -0.6,
-    "stress": 0.0084,
+    "stress": 0.0059,
     "top": [
+      {
+        "id": "3b6b488fcbf9363e38eb5495",
+        "title": "Improving cross-border payments in a changing geopolitical landscape",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": -0.5858,
+        "url": "https://www.bis.org/speeches/20261021-improving-cross-border-payments-changing-geopolitical-landscape"
+      },
       {
         "id": "6b4932654eda65b546fab5de",
         "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
@@ -74,19 +82,11 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.bis.org/speeches/20261021-euro-liquidity-lines-and-international-monetary-system"
-      },
-      {
-        "id": "e574aa27ea48728705afccd5",
-        "title": "Thoughts on several issues of interest to the market",
-        "source": "bis_cb_speeches",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.bis.org/speeches/20261021-thoughts-several-issues-interest-market"
       }
     ]
   },
   "2026-10-20": {
-    "articles_count": 145,
+    "articles_count": 146,
     "signal_count": 18,
     "tone_cb": null,
     "tone_global": 0.3079,
