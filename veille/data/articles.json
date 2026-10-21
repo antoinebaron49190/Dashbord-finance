@@ -62,6 +62,421 @@
     "scored_by": "lexique"
   },
   {
+    "id": "bf45cc7a5ac385204c598270",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "Kazakh borrowers issue billions of yuan debt as China ties tighten",
+    "url": "https://asia.nikkei.com/business/markets/bonds/kazakh-borrowers-issue-billions-of-yuan-debt-as-china-ties-tighten",
+    "summary": "",
+    "published_at": "2026-10-21T01:16:38.024625+00:00",
+    "collected_at": "2026-10-21T01:16:38.024625+00:00",
+    "categories": {
+      "monetaire_restrictif": 1.0
+    },
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "94a282a9645facf507daf91e",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Musk ordered slowdown of Starlink service used by Ukraine’s military, WSJ reports",
+    "url": "https://www.investing.com/news/stock-market-news/musk-ordered-starlink-slowdown-that-blindsided-ukraine-wsj-reports-4961200",
+    "summary": "",
+    "published_at": "2026-10-21T01:12:24+00:00",
+    "collected_at": "2026-10-21T01:16:38.024625+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "7d857afaa3081518c2455a23",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nikkei 225 plunges to 64,872.5 with breakdown risk at 63,600: Live",
+    "url": "https://www.investing.com/news/stock-market-news/nikkei-225-teeters-above-635725-support-live-levels-93CH-4956186",
+    "summary": "",
+    "published_at": "2026-10-21T01:07:15+00:00",
+    "collected_at": "2026-10-21T01:16:38.024625+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d34c6f5bee2cac2612e35f5c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Brazil’s Lula challenges Flavio Bolsonaro to make financial records public ahead of election",
+    "url": "https://www.investing.com/news/economy-news/brazils-lula-challenges-flavio-bolsonaro-to-make-financial-records-public-ahead-of-election-4960755",
+    "summary": "",
+    "published_at": "2026-10-21T01:06:23+00:00",
+    "collected_at": "2026-10-21T01:16:38.024625+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "eda501627de8ccc957c08c4f",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "SK Hynix bounces but bearish trend holds at KRW 1,381,000: Live",
+    "url": "https://www.investing.com/news/stock-market-news/sk-hynix-crashes-206-below-20period-ma-live-levels-93CH-4956188",
+    "summary": "",
+    "published_at": "2026-10-21T01:05:52+00:00",
+    "collected_at": "2026-10-21T01:16:38.024625+00:00",
+    "categories": {
+      "crypto_defavorable": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": -0.6,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "842ebf865a05bf7b1a78e797",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Australia inflation outlook ‘materially worse’, RBA deputy Hauser says",
+    "url": "https://www.investing.com/news/economy-news/australia-inflation-outlook-materially-worse-rba-deputy-hauser-says-4961451",
+    "summary": "",
+    "published_at": "2026-10-21T01:04:56+00:00",
+    "collected_at": "2026-10-21T01:16:38.024625+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "739404e395348d6f18a4286a",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Nippon Life Insurance, a 10% owner, buys $12m in Corebridge Financial",
+    "url": "https://www.investing.com/news/insider-trading-news/nippon-life-insurance-a-10-owner-buys-12m-in-corebridge-financial-93CH-4961448",
+    "summary": "",
+    "published_at": "2026-10-21T01:01:13+00:00",
+    "collected_at": "2026-10-21T01:16:38.024625+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "564f6443fb50551e21d58b18",
+    "source": "cnbc_economy",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "statistiques",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Car buyers are demanding lower prices and better tech. Automakers must deliver both",
+    "url": "https://www.cnbc.com/2026/10/20/car-buyers-china-tech-price-europe.html",
+    "summary": "Bain says tech leads purchase considerations in China while price remains No. 1 in the U.S. and Europe, as pressure mounts on Western carmakers.",
+    "published_at": "2026-10-21T01:01:01+00:00",
+    "collected_at": "2026-10-21T01:16:38.024625+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "23f43cab602a8a22e85371b0",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oruka Therapeutics general counsel sells $706k in shares",
+    "url": "https://www.investing.com/news/insider-trading-news/oruka-therapeutics-general-counsel-sells-706k-in-shares-93CH-4961447",
+    "summary": "",
+    "published_at": "2026-10-21T01:00:59+00:00",
+    "collected_at": "2026-10-21T01:16:38.024625+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e64371874cf1dc49655cb442",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Japan shifting to wage-driven inflation phase, finance minister says",
+    "url": "https://www.investing.com/news/economy-news/japan-shifting-to-wagedriven-inflation-phase-finance-minister-says-4961445",
+    "summary": "",
+    "published_at": "2026-10-21T01:00:19+00:00",
+    "collected_at": "2026-10-21T01:16:38.024625+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1b5cd00640c64af09a1531d1",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Disc Medicine prices $450 million stock offering at $75/share",
+    "url": "https://www.investing.com/news/company-news/disc-medicine-prices-450-million-stock-offering-at-75share-93CH-4961439",
+    "summary": "",
+    "published_at": "2026-10-21T00:56:39+00:00",
+    "collected_at": "2026-10-21T01:16:38.024625+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "32b9cc1325fedfd77bfc9b4f",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Oil rises on Middle East supply worries",
+    "url": "https://www.investing.com/news/commodities-news/oil-rises-on-middle-east-supply-worries-4961438",
+    "summary": "",
+    "published_at": "2026-10-21T00:54:20+00:00",
+    "collected_at": "2026-10-21T01:16:38.024625+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "9ef25e6a078bf8c213b1a66e",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Super Micro’s stock soars after surprise update — with Dell and HPE shares joining the rally",
+    "url": "https://www.marketwatch.com/story/super-micros-stock-soars-after-surprise-update-with-dell-and-hpe-shares-joining-the-rally-1837a69f?mod=mw_rss_topstories",
+    "summary": "Super Micro unexpectedly disclosed that its revenue and profitability could be much stronger than originally anticipated.",
+    "published_at": "2026-10-21T00:15:00+00:00",
+    "collected_at": "2026-10-21T01:16:38.024625+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1866dd0742143caad12841ff",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Tesla’s stock rises as Elon Musk drops new clues about a possible SpaceX merger",
+    "url": "https://www.marketwatch.com/story/teslas-stock-rises-as-elon-musk-drops-new-clues-about-a-possible-spacex-merger-8cc44fc2?mod=mw_rss_topstories",
+    "summary": "Special committees at both companies are assessing merger prospects but a combination is no sure thing, Musk says.",
+    "published_at": "2026-10-21T00:14:00+00:00",
+    "collected_at": "2026-10-21T01:16:38.024625+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "8db9de30bded6e322ee86bef",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Why SpaceX’s stock is surging — and lifting the broader AI universe along with it",
+    "url": "https://www.marketwatch.com/story/why-spacexs-stock-is-surging-and-lifting-the-broader-ai-universe-along-with-it-0cd62f39?mod=mw_rss_topstories",
+    "summary": "SpaceX just gave Wall Street a big reason to believe in the AI boom as demand for its computing power is off the charts.",
+    "published_at": "2026-10-20T23:10:00+00:00",
+    "collected_at": "2026-10-21T01:16:38.024625+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "17bc7727c929f96007539839",
     "source": "nikkei_asia",
     "tier": 3,
