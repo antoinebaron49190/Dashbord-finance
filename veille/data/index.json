@@ -36,13 +36,21 @@
     ]
   },
   "2026-10-21": {
-    "articles_count": 40,
-    "signal_count": 7,
+    "articles_count": 88,
+    "signal_count": 18,
     "tone_cb": null,
-    "tone_global": -0.3042,
-    "regul_crypto": null,
-    "stress": 0.0226,
+    "tone_global": -0.0015,
+    "regul_crypto": -0.6,
+    "stress": 0.0084,
     "top": [
+      {
+        "id": "6b4932654eda65b546fab5de",
+        "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf"
+      },
       {
         "id": "bb65368dba5fae9ba1a8720f",
         "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
@@ -52,36 +60,28 @@
         "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html"
       },
       {
-        "id": "c463b8402d14c0e074be45c1",
-        "title": "Innovation and resilience: managing the risks of a changing financial system",
-        "source": "fsb_news",
-        "score": 0.6,
-        "tone": -0.5,
-        "url": "https://www.fsb.org/2026/10/innovation-and-resilience-managing-the-risks-of-a-changing-financial-system/"
+        "id": "3d49d4cc3a9047fff03cb2d1",
+        "title": "The courage not to act - moving towards a demand-driven operational mode",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20261021-courage-not-act-moving-towards-demand-driven-operational-mode"
       },
       {
-        "id": "222dd7f4d5382688fb31bbd3",
-        "title": "MoonPay, Upbit parent Dunamu explore collaboration on stablecoin payments, GIWA expansion",
-        "source": "theblock",
-        "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://www.theblock.co/news/business/2026-10-20-moonpay-upbit-dunamu-421476"
+        "id": "a8eb3b06b120eb9304472d16",
+        "title": "Euro liquidity lines and the international monetary system",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20261021-euro-liquidity-lines-and-international-monetary-system"
       },
       {
-        "id": "46ba87cbdbb370bb83516639",
-        "title": "Getty Images files for US bankruptcy, advances restructuring plan",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://www.investing.com/news/stock-market-news/getty-images-files-for-us-bankruptcy-advances-restructuring-plan-4961698"
-      },
-      {
-        "id": "8e2d39f66daa4ba508fe9455",
-        "title": "UK inflation jumps to 3.5% — cementing rate hike expectations",
-        "source": "cnbc_economy",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.cnbc.com/2026/10/21/inflation-uk-cpi-interest-rates.html"
+        "id": "e574aa27ea48728705afccd5",
+        "title": "Thoughts on several issues of interest to the market",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bis.org/speeches/20261021-thoughts-several-issues-interest-market"
       }
     ]
   },
@@ -4462,21 +4462,13 @@
     ]
   },
   "2026-07-23": {
-    "articles_count": 9,
-    "signal_count": 2,
+    "articles_count": 4,
+    "signal_count": 0,
     "tone_cb": null,
-    "tone_global": -0.6503,
+    "tone_global": null,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
-      {
-        "id": "b81b347dc23330b7b3e1ffdc",
-        "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement (with Q&A)",
-        "source": "bce_press",
-        "score": 1.95,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is260723~b6fadd48f4.en.html"
-      },
       {
         "id": "16a172b03287a4541a7e9467",
         "title": "Letter from the Governor to the Daily Mail",
@@ -4502,12 +4494,12 @@
         "url": "https://www.ecb.europa.eu//press/pubbydate/2026/html/ecb.desreportbanknotes202607.en.html"
       },
       {
-        "id": "86532bb707d4e452d6a2589b",
-        "title": "Monetary policy decisions",
-        "source": "bce_press",
-        "score": 1.3,
+        "id": "e678075b3cde336f86dcd6b6",
+        "title": "SEC Announces Roundtable on Preparations for 24-Hour Trading",
+        "source": "sec_press",
+        "score": 0.9,
         "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html"
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-69-sec-announces-roundtable-preparations-24-hour-trading"
       }
     ]
   },
