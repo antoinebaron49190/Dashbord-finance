@@ -36,13 +36,21 @@
     ]
   },
   "2026-10-22": {
-    "articles_count": 13,
-    "signal_count": 1,
+    "articles_count": 39,
+    "signal_count": 8,
     "tone_cb": null,
-    "tone_global": 0.0,
-    "regul_crypto": null,
+    "tone_global": 0.175,
+    "regul_crypto": -0.6,
     "stress": 0.0,
     "top": [
+      {
+        "id": "037f401149555b9bdd1c5b7f",
+        "title": "Developments in Real Exports and Real Imports",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/research/research_data/reri/index.htm"
+      },
       {
         "id": "fa45c733c57216e274770d43",
         "title": "Bank of Japan Accounts (October 20)",
@@ -52,36 +60,28 @@
         "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac261020.htm"
       },
       {
-        "id": "19fa571b01fa31da22ca7882",
-        "title": "Why is Tesla stock falling after-hours today?",
-        "source": "investing_com",
+        "id": "75445b2540968279b2aace2f",
+        "title": "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme",
+        "source": "coindesk",
         "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-falling-afterhours-today-93CH-4964486"
+        "tone": -0.6,
+        "url": "https://www.coindesk.com/markets/2026/10/22/china-seeks-to-seize-61-800-btc-tied-to-usd5-7-billion-fraud-scheme"
       },
       {
-        "id": "051a07887e1bc313e2e09410",
-        "title": "Oil rises as US orders diplomats to leave Saudi Arabia amid escalating tensions",
-        "source": "investing_com",
+        "id": "e4cccab195b4d6013ef05d58",
+        "title": "Philippines raises key rate to 5.5% as inflation saps growth",
+        "source": "nikkei_asia",
         "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/commodities-news/oil-rises-as-us-orders-diplomats-to-leave-saudi-arabia-amid-escalating-tensions-4964484"
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/business/markets/philippines-raises-key-rate-to-5.5-as-inflation-saps-growth"
       },
       {
-        "id": "731cd82cb94515af9f389897",
-        "title": "This wonky maneuver kept Mark Zuckerberg from fleeing a California billionaire tax",
-        "source": "marketwatch",
+        "id": "fd7d8605017d34d12c6105c8",
+        "title": "Moderna CEO eyes China partnerships despite geopolitical tensions",
+        "source": "nikkei_asia",
         "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.marketwatch.com/story/this-wonky-maneuver-kept-mark-zuckerberg-from-fleeing-a-california-billionaire-tax-1de34562?mod=mw_rss_topstories"
-      },
-      {
-        "id": "b71130c39ae061b86d98b52f",
-        "title": "Verisign CEO D. James Bidzos sells $1.01 million in company stock",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/insider-trading-news/verisign-ceo-d-james-bidzos-sells-101-million-in-company-stock-93CH-4964483"
+        "tone": -0.5,
+        "url": "https://asia.nikkei.com/editor-s-picks/interview/moderna-ceo-eyes-china-partnerships-despite-geopolitical-tensions"
       }
     ]
   },
@@ -4462,12 +4462,12 @@
     ]
   },
   "2026-07-24": {
-    "articles_count": 18,
+    "articles_count": 17,
     "signal_count": 4,
     "tone_cb": -0.5394,
     "tone_global": -0.5485,
     "regul_crypto": null,
-    "stress": 0.0657,
+    "stress": 0.0688,
     "top": [
       {
         "id": "887f0b31ba1afb07b432a4b1",
