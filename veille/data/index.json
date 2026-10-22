@@ -36,13 +36,21 @@
     ]
   },
   "2026-10-22": {
-    "articles_count": 120,
-    "signal_count": 14,
-    "tone_cb": null,
-    "tone_global": 0.2622,
+    "articles_count": 147,
+    "signal_count": 19,
+    "tone_cb": 0.5,
+    "tone_global": 0.2024,
     "regul_crypto": 0.2,
-    "stress": 0.0,
+    "stress": 0.012,
     "top": [
+      {
+        "id": "5744a4074f9f9ccf32779ce2",
+        "title": "Regulators unveil plans to simplify Senior Manager and Certification Regime",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.5,
+        "url": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime"
+      },
       {
         "id": "5e5b472587a5635ec4441b8a",
         "title": "Japanese Government Bonds Held by the Bank of Japan",
@@ -74,14 +82,6 @@
         "score": 0.6,
         "tone": 0.6667,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2239"
-      },
-      {
-        "id": "a82e059643135ed76c82a197",
-        "title": "Commission welcomes commitments of Coca-Cola, Nestlé, and Danone to modify recycling claims on plastic bottles",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2238"
       }
     ]
   },
