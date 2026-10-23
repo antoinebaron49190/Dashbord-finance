@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-10-22T22:05:45.563140+00:00",
-  "pending": [],
+  "updated_at": "2026-10-23T01:12:29.480572+00:00",
+  "pending": [
+    {
+      "fingerprint": "trend:msci_world:indecise->haussiere:2026-10-23",
+      "title": "MSCI World : tendance haussière",
+      "body": "MSCI World passe de « sans direction nette » à « haussière ». Position du cours face à ses moyennes 50 et 200 jours, relevée le 2026-10-23.",
+      "kind": "tendance",
+      "detected_at": "2026-10-23T01:12:29.480478+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -119,7 +127,8 @@
     "trend:btc:haussiere->indecise:2026-10-22",
     "trend:sp500:haussiere->indecise:2026-10-22",
     "trend:nasdaq:haussiere->indecise:2026-10-22",
-    "trend:eurostoxx:indecise->baissiere:2026-10-22"
+    "trend:eurostoxx:indecise->baissiere:2026-10-22",
+    "trend:msci_world:indecise->haussiere:2026-10-23"
   ],
   "extremes_active": [
     "extreme:Volatilité du Bitcoin sur 30 jours:bas"
