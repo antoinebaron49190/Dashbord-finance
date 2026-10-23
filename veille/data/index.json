@@ -36,13 +36,45 @@
     ]
   },
   "2026-10-23": {
-    "articles_count": 11,
-    "signal_count": 2,
+    "articles_count": 37,
+    "signal_count": 5,
     "tone_cb": null,
-    "tone_global": 0.25,
+    "tone_global": 0.2333,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "62843d9b895a82493bc9ce95",
+        "title": "Financial System Report (October 2026)",
+        "source": "boj_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "http://www.boj.or.jp/en/research/brp/fsr/fsr261023.htm"
+      },
+      {
+        "id": "3b32b738420cde7f05e9db36",
+        "title": "Chainlink partners with LG CNS to drive Korean won stablecoin expansion",
+        "source": "theblock",
+        "score": 0.3,
+        "tone": 0.6667,
+        "url": "https://www.theblock.co/news/business/2026-10-22-chainlink-partners-with-lg-cns-423993"
+      },
+      {
+        "id": "7e9ca85a67ae4e6922eee825",
+        "title": "Earnings call transcript: Momentum Group posts solid Q3 2026 growth",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-momentum-group-posts-solid-q3-2026-growth-93CH-4968081"
+      },
+      {
+        "id": "1b497cad0de298ed2df598b8",
+        "title": "U.S. prepares for prolonged Iran conflict, Trump envoy tells FT",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/us-prepares-for-prolonged-iran-conflict-trump-envoy-tells-ft-4968075"
+      },
       {
         "id": "eb9668a9a4b3297a8f7012fe",
         "title": "ikeGPS H1 FY27 slides: subscription revenue up 22%, ARR growth expected",
@@ -50,38 +82,6 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.investing.com/news/company-news/ikegps-h1-fy27-slides-subscription-revenue-up-22-arr-growth-expected-93CH-4967894"
-      },
-      {
-        "id": "851943d82d765a9eb53f8d8f",
-        "title": "SK Hynix abandons plan for US unit's IPO, citing market volatility",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/tech/semiconductors/sk-hynix-abandons-plan-for-us-unit-s-ipo-citing-market-volatility"
-      },
-      {
-        "id": "cfbb87bc52c88281e1fe63ad",
-        "title": "Nikkei 225 deeply oversold at 62,287 after breakdown: Live levels",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/stock-market-news/nikkei-225-teeters-above-635725-support-live-levels-93CH-4956186"
-      },
-      {
-        "id": "2ceba7d87ac8cb9ef45fea2d",
-        "title": "SK Hynix bounces from oversold low amid bearish trend: Live levels",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/stock-market-news/sk-hynix-crashes-206-below-20period-ma-live-levels-93CH-4956188"
-      },
-      {
-        "id": "411e96d765d9f05bcd6f0759",
-        "title": "HD Hyundai to build US shipyard with Kiewit, create 3,000 jobs",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/stock-market-news/hd-hyundai-to-build-us-shipyard-with-kiewit-create-3000-jobs-4967906"
       }
     ]
   },
