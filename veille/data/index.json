@@ -36,13 +36,21 @@
     ]
   },
   "2026-10-23": {
-    "articles_count": 37,
-    "signal_count": 5,
+    "articles_count": 74,
+    "signal_count": 12,
     "tone_cb": null,
-    "tone_global": 0.2333,
-    "regul_crypto": null,
-    "stress": 0.0,
+    "tone_global": -0.0583,
+    "regul_crypto": -0.3832,
+    "stress": 0.0114,
     "top": [
+      {
+        "id": "5486113a4838ce9055112035",
+        "title": "ECB Consumer Expectations Survey results – September 2026",
+        "source": "bce_press",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html"
+      },
       {
         "id": "62843d9b895a82493bc9ce95",
         "title": "Financial System Report (October 2026)",
@@ -52,46 +60,38 @@
         "url": "http://www.boj.or.jp/en/research/brp/fsr/fsr261023.htm"
       },
       {
-        "id": "3b32b738420cde7f05e9db36",
-        "title": "Chainlink partners with LG CNS to drive Korean won stablecoin expansion",
-        "source": "theblock",
-        "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://www.theblock.co/news/business/2026-10-22-chainlink-partners-with-lg-cns-423993"
+        "id": "efb8ac065178bd0b9e720e3f",
+        "title": "EU announces an additional €22.5 million to reinforce humanitarian assistance in Yemen",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": -0.6667,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2247"
       },
       {
-        "id": "7e9ca85a67ae4e6922eee825",
-        "title": "Earnings call transcript: Momentum Group posts solid Q3 2026 growth",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-momentum-group-posts-solid-q3-2026-growth-93CH-4968081"
+        "id": "30edd0af8c650d18eb4606a1",
+        "title": "Commission proposes stronger recognition of European heritage sites*",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2250"
       },
       {
-        "id": "1b497cad0de298ed2df598b8",
-        "title": "U.S. prepares for prolonged Iran conflict, Trump envoy tells FT",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/us-prepares-for-prolonged-iran-conflict-trump-envoy-tells-ft-4968075"
-      },
-      {
-        "id": "eb9668a9a4b3297a8f7012fe",
-        "title": "ikeGPS H1 FY27 slides: subscription revenue up 22%, ARR growth expected",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://www.investing.com/news/company-news/ikegps-h1-fy27-slides-subscription-revenue-up-22-arr-growth-expected-93CH-4967894"
+        "id": "482f09c26d9698a85af2856a",
+        "title": "Daily News 23 / 10 / 2026",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2249"
       }
     ]
   },
   "2026-10-22": {
-    "articles_count": 152,
+    "articles_count": 154,
     "signal_count": 21,
     "tone_cb": 0.5,
     "tone_global": 0.139,
     "regul_crypto": 0.2,
-    "stress": 0.0233,
+    "stress": 0.0225,
     "top": [
       {
         "id": "5744a4074f9f9ccf32779ce2",
@@ -100,6 +100,14 @@
         "score": 1.3,
         "tone": 0.5,
         "url": "https://www.bankofengland.co.uk/news/2026/october/regulators-unveil-plans-to-simplify-senior-manager-and-certification-regime"
+      },
+      {
+        "id": "b1d1398945325dd4f31d361b",
+        "title": "Minutes of the Securities Lending Committee meeting – September 2026",
+        "source": "boe_news",
+        "score": 1.3,
+        "tone": 0.0,
+        "url": "https://www.bankofengland.co.uk/minutes/2026/september/securities-lending-committee-meeting-september-2026"
       },
       {
         "id": "5e5b472587a5635ec4441b8a",
@@ -124,14 +132,6 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "http://www.boj.or.jp/en/statistics/boj/other/acmai/release/2026/ac261020.htm"
-      },
-      {
-        "id": "b880ec08bb372e8b237538a2",
-        "title": "Speech by Commissioner Lahbib at the Resilient Europe Conference",
-        "source": "ec_press",
-        "score": 0.6,
-        "tone": 0.6667,
-        "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2239"
       }
     ]
   },
@@ -186,7 +186,7 @@
     ]
   },
   "2026-10-20": {
-    "articles_count": 147,
+    "articles_count": 148,
     "signal_count": 18,
     "tone_cb": null,
     "tone_global": 0.3079,
