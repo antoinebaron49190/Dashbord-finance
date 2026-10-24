@@ -62,6 +62,529 @@
     "scored_by": "lexique"
   },
   {
+    "id": "ec3452f4e759428a428d6e72",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "'Three red lines' needed against China, Japan defense academy chief says",
+    "url": "https://asia.nikkei.com/politics/international-relations/three-red-lines-needed-against-china-japan-defense-academy-chief-says",
+    "summary": "",
+    "published_at": "2026-10-24T13:06:14.522323+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c50ebd772ad9014e54ed1c98",
+    "source": "nikkei_asia",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "asie"
+    ],
+    "title": "US lawmaker to press Trump to expedite Taiwan arms sales",
+    "url": "https://asia.nikkei.com/politics/defense/us-lawmaker-to-press-trump-to-expedite-taiwan-arms-sales2",
+    "summary": "",
+    "published_at": "2026-10-24T13:06:14.522323+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {},
+    "assets_detected": [
+      "asie"
+    ],
+    "assets_effective": [
+      "asie"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "e199aee70e9f6dd9a8e8791c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "As winter nears, heating oil emerges as hurdle for Republicans in US Senate races",
+    "url": "https://www.investing.com/news/economic-indicators/as-winter-nears-heating-oil-emerges-as-hurdle-for-republicans-in-us-senate-races-4970790",
+    "summary": "",
+    "published_at": "2026-10-24T12:48:41+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c8d35be8004ab0a34d1e857c",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Parabilis reports phase 1/2 data for desmoid tumor treatment",
+    "url": "https://www.investing.com/news/company-news/parabilis-reports-phase-12-data-for-desmoid-tumor-treatment-93CH-4970830",
+    "summary": "",
+    "published_at": "2026-10-24T12:48:38+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "1a1069e7b00191a945e2fb87",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: AU Small Finance Bank posts strong Q2 2026 profit growth",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-au-small-finance-bank-posts-strong-q2-2026-profit-growth-93CH-4970828",
+    "summary": "",
+    "published_at": "2026-10-24T12:43:20+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "72ada5fa893ffd5892c10bf2",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Moderna’s cancer vaccine is ‘likely’ to get approved. Skeptics question if it will be the best option.",
+    "url": "https://www.marketwatch.com/story/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term-da9af99f?mod=mw_rss_topstories",
+    "summary": "The first Phase 3 data for a custom cancer vaccine has raised questions about whether the potential new treatment is needed.",
+    "published_at": "2026-10-24T12:25:00+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": true,
+    "importance": 0.45,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "4221eeaa6631b664824c75b4",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "First Interstate BancSystem director Scott sells $184,500 in shares",
+    "url": "https://www.investing.com/news/insider-trading-news/first-interstate-bancsystem-director-scott-sells-184500-in-shares-93CH-4970823",
+    "summary": "",
+    "published_at": "2026-10-24T12:15:56+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "bc2467d8c9c6e900f9b39773",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Could France’s debt crisis spread across Europe?",
+    "url": "https://www.investing.com/news/economy-news/could-frances-debt-crisis-spread-across-europe-4970815",
+    "summary": "",
+    "published_at": "2026-10-24T12:11:43+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {
+      "stress_financier": 1.0
+    },
+    "assets_detected": [
+      "europe"
+    ],
+    "assets_effective": [
+      "europe"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.6,
+    "crypto_tone": 0.0,
+    "is_stress": true,
+    "tone": -0.6,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "efb1d00b885646c79f653b60",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Kotak Q2 FY27 slides: profit jumps 26% as asset quality improves",
+    "url": "https://www.investing.com/news/company-news/kotak-q2-fy27-slides-profit-jumps-26-as-asset-quality-improves-93CH-4970820",
+    "summary": "",
+    "published_at": "2026-10-24T12:06:28+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "d7eb703bb30be490c2ebe9a1",
+    "source": "coindesk",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "crypto",
+    "assets": [
+      "btc",
+      "eth"
+    ],
+    "title": "U.S. Clarity Act failure gives Asia and Middle East a competitive edge, says Apex Group CEO",
+    "url": "https://www.coindesk.com/policy/2026/10/24/u-s-clarity-act-failure-gives-asia-and-middle-east-a-competitive-edge-says-apex-group-ceo",
+    "summary": "",
+    "published_at": "2026-10-24T12:00:00+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "805efe9ee79a0e185fa025fc",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "AI fever ignites a boom in thematic ETFs as fund managers hunt for their next big hit",
+    "url": "https://www.marketwatch.com/story/ai-fever-ignites-a-boom-in-thematic-etfs-as-fund-managers-hunt-for-their-next-big-hit-82d1566c?mod=mw_rss_topstories",
+    "summary": "The runaway success of the artificial-intelligence trade has left investors hungry for the next big market theme. Wall Street fund managers are happily obliging with a flurry of new targeted products, helping investors invest in everything from the rise of robotics to the incipient space economy.",
+    "published_at": "2026-10-24T12:00:00+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {},
+    "assets_detected": [
+      "sp500"
+    ],
+    "assets_effective": [
+      "sp500"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c2f047300d721d8921ac5202",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.",
+    "url": "https://www.marketwatch.com/story/my-husband-wants-to-sell-our-1-5-million-home-and-invest-the-proceeds-but-this-is-where-we-raised-our-kids-and-i-cant-bear-to-leave-4feb46ed?mod=mw_rss_topstories",
+    "summary": "“He wants to buy something for $600,000 now that we are empty-nesters.”",
+    "published_at": "2026-10-24T12:00:00+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "f74f8e8e8123e1008b296810",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Earnings call transcript: Kotak Mahindra Bank posts strong Q2 2026 profit growth",
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-kotak-mahindra-bank-posts-strong-q2-2026-profit-growth-93CH-4970814",
+    "summary": "",
+    "published_at": "2026-10-24T11:53:11+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {
+      "croissance": 1.0
+    },
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "3b31d207db0d06417c7bb331",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Netanyahu explores crypto to bypass potential sanctions",
+    "url": "https://www.investing.com/news/economy-news/netanyahu-explores-crypto-to-bypass-potential-sanctions-4970810",
+    "summary": "",
+    "published_at": "2026-10-24T11:42:40+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {
+      "geopolitique": 1.0
+    },
+    "assets_detected": [
+      "btc",
+      "eth"
+    ],
+    "assets_effective": [
+      "btc",
+      "eth"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": -0.5,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": -0.5,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "320353e7bdc2c53e475a7acb",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "‘Non-answers’ aren’t working. This is what investors really need from the Fed.",
+    "url": "https://www.marketwatch.com/story/non-answers-arent-working-this-is-what-investors-really-need-from-the-fed-673a9dce?mod=mw_rss_topstories",
+    "summary": "What really matters to investors, economists say, is for Fed Chairman Kevin Warsh to prove he can successfully communicate the central bank’s strategy.",
+    "published_at": "2026-10-24T11:30:00+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "df79b062cdf50cdc00d15a89",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "How InvestingPro’s Fair Value spotted BWFG’s 109% gain in advance",
+    "url": "https://www.investing.com/news/investment-ideas/how-investingpros-fair-value-spotted-bwfgs-109-gain-in-advance-93CH-4970800",
+    "summary": "",
+    "published_at": "2026-10-24T11:09:15+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "95d0414e4e9d84ee34f9f9a7",
+    "source": "investing_com",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "ProPetro’s 49% decline: how Fair Value spotted the warning signs",
+    "url": "https://www.investing.com/news/investment-ideas/propetros-49-decline-how-fair-value-spotted-the-warning-signs-93CH-4970798",
+    "summary": "",
+    "published_at": "2026-10-24T11:01:57+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "45026f22e42b44999fe93c60",
+    "source": "fsb_news",
+    "tier": 2,
+    "weight": 0.6,
+    "category": "statistiques",
+    "assets": [
+      "msci_world"
+    ],
+    "title": "FSB Regional Consultative Group for Sub-Saharan Africa meets in Maseru",
+    "url": "https://www.fsb.org/2026/10/fsb-regional-consultative-group-for-sub-saharan-africa-meets-in-maseru/",
+    "summary": "Central Bank of Lesotho hosts the FSB Sub-Saharan Africa group in Maseru.",
+    "published_at": "2026-10-24T11:00:00+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [
+      "msci_world"
+    ],
+    "has_decision_marker": false,
+    "importance": 0.6,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
+    "id": "c48f22dd41311fb67fce5761",
+    "source": "marketwatch",
+    "tier": 3,
+    "weight": 0.3,
+    "category": "marche",
+    "assets": [
+      "sp500",
+      "msci_world"
+    ],
+    "title": "Do machines have feelings? AI has philosophers and tech leaders rethinking consciousness.",
+    "url": "https://www.marketwatch.com/story/do-machines-have-feelings-ai-has-philosophers-and-tech-leaders-rethinking-consciousness-00e5ad78?mod=mw_rss_topstories",
+    "summary": "As AI models become more advanced, tech leaders and philosophers are mulling the relationship between humanity and technology.",
+    "published_at": "2026-10-24T11:00:00+00:00",
+    "collected_at": "2026-10-24T13:06:14.522323+00:00",
+    "categories": {},
+    "assets_detected": [],
+    "assets_effective": [],
+    "has_decision_marker": false,
+    "importance": 0.3,
+    "tone_lexical": 0.0,
+    "crypto_tone": 0.0,
+    "is_stress": false,
+    "tone": 0.0,
+    "scored_by": "lexique"
+  },
+  {
     "id": "582f573daab7681d81d3250e",
     "source": "nikkei_asia",
     "tier": 3,

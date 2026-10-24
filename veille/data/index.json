@@ -36,12 +36,12 @@
     ]
   },
   "2026-10-24": {
-    "articles_count": 27,
-    "signal_count": 1,
+    "articles_count": 46,
+    "signal_count": 5,
     "tone_cb": null,
-    "tone_global": -0.5,
+    "tone_global": -0.12,
     "regul_crypto": null,
-    "stress": 0.0,
+    "stress": 0.0195,
     "top": [
       {
         "id": "395b21a88ebbe1f8596e661e",
@@ -52,6 +52,22 @@
         "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html"
       },
       {
+        "id": "45026f22e42b44999fe93c60",
+        "title": "FSB Regional Consultative Group for Sub-Saharan Africa meets in Maseru",
+        "source": "fsb_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.fsb.org/2026/10/fsb-regional-consultative-group-for-sub-saharan-africa-meets-in-maseru/"
+      },
+      {
+        "id": "72ada5fa893ffd5892c10bf2",
+        "title": "Moderna’s cancer vaccine is ‘likely’ to get approved. Skeptics question if it will be the best option.",
+        "source": "marketwatch",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.marketwatch.com/story/the-real-test-for-modernas-cancer-vaccine-isnt-about-beating-keytruda-its-keeping-cancer-from-coming-back-in-the-long-term-da9af99f?mod=mw_rss_topstories"
+      },
+      {
         "id": "c2d6cd77bf111da2bb1217da",
         "title": "Compass Therapeutics publishes tovecimig trial results in JCO",
         "source": "investing_com",
@@ -60,28 +76,12 @@
         "url": "https://www.investing.com/news/company-news/compass-therapeutics-publishes-tovecimig-trial-results-in-jco-93CH-4970718"
       },
       {
-        "id": "53d30bb5516f55778ed3f698",
-        "title": "Trump ends tariffs on some Canadian products, as Senator Collins faces close race",
+        "id": "bc2467d8c9c6e900f9b39773",
+        "title": "Could France’s debt crisis spread across Europe?",
         "source": "investing_com",
         "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/us-to-remove-50-tariffs-on-some-canadian-goods-to-help-republicans-in-midterms-wsj-reports-4970225"
-      },
-      {
-        "id": "582f573daab7681d81d3250e",
-        "title": "SF writer Daniel Suarez warns of AI-powered authoritarianism",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/editor-s-picks/interview/sf-writer-daniel-suarez-warns-of-ai-powered-authoritarianism"
-      },
-      {
-        "id": "bb8ffada005b28da76909201",
-        "title": "Japan net provider GMO seeks 'active cyber defense' from government",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/spotlight/cybersecurity/japan-net-provider-gmo-seeks-active-cyber-defense-from-government"
+        "tone": -0.6,
+        "url": "https://www.investing.com/news/economy-news/could-frances-debt-crisis-spread-across-europe-4970815"
       }
     ]
   },
