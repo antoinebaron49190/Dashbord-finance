@@ -1,6 +1,6 @@
 {
   "schema": 4,
-  "generated_at": "2026-10-24T03:17:41.501608+00:00",
+  "generated_at": "2026-10-25T00:49:37.491618+00:00",
   "horizon_days": 20,
   "assets": {
     "btc": {
@@ -10,16 +10,16 @@
       "current": {
         "trend": "indecise",
         "since": "2026-10-22",
-        "days": 2,
-        "sessions": 3,
-        "longer_than_pct": 24,
+        "days": 3,
+        "sessions": 4,
+        "longer_than_pct": 67,
         "median_sessions": 3,
         "past_phases": 21
       },
       "states": {
         "haussiere": {
           "days": 158,
-          "mean_pct": 0.62,
+          "mean_pct": 0.6,
           "median_pct": -0.71,
           "positive_pct": 45.6
         },
@@ -38,12 +38,12 @@
       },
       "baseline": {
         "days": 501,
-        "mean_pct": -0.54,
+        "mean_pct": -0.55,
         "median_pct": -0.73,
         "positive_pct": 45.9
       },
       "analogues": {
-        "current_stretch": 10.9,
+        "current_stretch": 10.75,
         "bucket": 4,
         "buckets": 5,
         "range_pct": [
@@ -57,7 +57,7 @@
           "positive_pct": 68.0
         }
       },
-      "edge_pct": 1.56,
+      "edge_pct": 1.54,
       "verdict": "signal faible",
       "sentence": "Écart trop faible pour en tirer quoi que ce soit. Après un signal haussier, +0,6 % en moyenne sur 20 séances ; après un signal baissier, -0,9 %."
     },
@@ -68,18 +68,18 @@
       "current": {
         "trend": "indecise",
         "since": "2026-10-08",
-        "days": 16,
-        "sessions": 17,
-        "longer_than_pct": 58,
+        "days": 17,
+        "sessions": 18,
+        "longer_than_pct": 67,
         "median_sessions": 11,
         "past_phases": 12
       },
       "states": {
         "haussiere": {
-          "days": 137,
-          "mean_pct": 4.77,
-          "median_pct": 2.56,
-          "positive_pct": 54.0
+          "days": 138,
+          "mean_pct": 4.64,
+          "median_pct": 2.42,
+          "positive_pct": 53.6
         },
         "baissiere": {
           "days": 182,
@@ -88,36 +88,36 @@
           "positive_pct": 56.6
         },
         "indecise": {
-          "days": 182,
-          "mean_pct": -1.9,
-          "median_pct": -2.74,
-          "positive_pct": 40.7
+          "days": 181,
+          "mean_pct": -1.93,
+          "median_pct": -2.78,
+          "positive_pct": 40.3
         }
       },
       "baseline": {
         "days": 501,
-        "mean_pct": 1.06,
-        "median_pct": 0.01,
-        "positive_pct": 50.1
+        "mean_pct": 1.02,
+        "median_pct": -0.03,
+        "positive_pct": 49.9
       },
       "analogues": {
-        "current_stretch": 10.42,
+        "current_stretch": 9.41,
         "bucket": 4,
         "buckets": 5,
         "range_pct": [
           -4.4,
-          27.2
+          27.4
         ],
         "outcome": {
           "days": 100,
-          "mean_pct": 1.74,
-          "median_pct": -0.95,
-          "positive_pct": 48.0
+          "mean_pct": 1.65,
+          "median_pct": -1.09,
+          "positive_pct": 47.0
         }
       },
-      "edge_pct": 3.55,
+      "edge_pct": 3.42,
       "verdict": "signal utile",
-      "sentence": "Le signal a séparé les deux cas. Après un signal haussier, +4,8 % en moyenne sur 20 séances ; après un signal baissier, +1,2 %."
+      "sentence": "Le signal a séparé les deux cas. Après un signal haussier, +4,6 % en moyenne sur 20 séances ; après un signal baissier, +1,2 %."
     },
     "sp500": {
       "label": "S&P 500",
@@ -671,9 +671,9 @@
     },
     {
       "label": "Fear & Greed crypto",
-      "value": "51/100",
-      "percentile": 59,
-      "sentence": "plus optimiste que 59 % de toute l'histoire de l'indice"
+      "value": "54/100",
+      "percentile": 63,
+      "sentence": "plus optimiste que 63 % de toute l'histoire de l'indice"
     },
     {
       "label": "Volatilité du Bitcoin sur 30 jours",
@@ -684,8 +684,8 @@
     {
       "label": "Décote du Bitcoin sous son plus haut",
       "value": "−29 %",
-      "percentile": 61,
-      "sentence": "plus loin du sommet que 61 % des 2 dernières années"
+      "percentile": 60,
+      "sentence": "plus loin du sommet que 60 % des 2 dernières années"
     }
   ],
   "failures": []
