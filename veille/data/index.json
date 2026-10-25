@@ -36,13 +36,29 @@
     ]
   },
   "2026-10-25": {
-    "articles_count": 33,
+    "articles_count": 49,
     "signal_count": 4,
     "tone_cb": null,
     "tone_global": 0.1667,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "f429a4c8ae3a8958781697df",
+        "title": "Bitcoin steadies near $80,400 after weekend selloff, Fed decision looms",
+        "source": "investing_com",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-btc-recovers-to-80800-ahead-of-fed-meeting-4971035"
+      },
+      {
+        "id": "e4813d3773b8b8d5cdee3b4f",
+        "title": "Audi defends decision to stand by Trump on $4 billion US factory in Georgia",
+        "source": "investing_com",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/stock-market-news/trump-set-to-announce-plan-by-audi-to-build-us-factory-in-georgia-source-says-4970975"
+      },
       {
         "id": "fc60a8ec9ac7fad6b15c78e8",
         "title": "Trump announces Audi will build $4 billion US factory in Georgia",
@@ -66,22 +82,6 @@
         "score": 0.3,
         "tone": 0.5,
         "url": "https://www.investing.com/news/stock-market-news/recent-labor-market-data-show-some-signs-of-airelated-hiring-headwinds-4971102"
-      },
-      {
-        "id": "45db5d50bf3e5003bb6206dd",
-        "title": "Trump touts $4 billion Audi plant in Georgia as he defends tariffs",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/trump-touts-4-billion-audi-plant-in-georgia-as-he-defends-tariffs-4971027"
-      },
-      {
-        "id": "e0eae27ab8f95407a2011fc7",
-        "title": "Japan snack maker Kameda Seika to exit India, shift focus to North America",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/food-beverage/japan-snack-maker-kameda-seika-to-exit-india-shift-focus-to-north-america"
       }
     ]
   },
@@ -4536,12 +4536,12 @@
     ]
   },
   "2026-07-27": {
-    "articles_count": 9,
+    "articles_count": 5,
     "signal_count": 2,
     "tone_cb": null,
     "tone_global": -0.45,
     "regul_crypto": null,
-    "stress": 0.1875,
+    "stress": 0.2727,
     "top": [
       {
         "id": "077c1bbef4bcf909479807fa",
@@ -4576,12 +4576,12 @@
         "url": "https://www.sec.gov/newsroom/press-releases/2026-70-small-business-forums-report-congress-highlights-recommendations-improve-capital-raising-policy"
       },
       {
-        "id": "fc248ccf0b22c80eb83a69b2",
-        "title": "Conseil sur crypto-actifs : l’AMF met à jour sa doctrine concernant les CIF",
-        "source": "amf_news",
-        "score": 0.6,
+        "id": "cae220a06da22eddd42e3819",
+        "title": "Nvidia stock extends gains to hover close to new all-time high",
+        "source": "yahoo_finance",
+        "score": 0.3,
         "tone": 0.0,
-        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/conseil-sur-crypto-actifs-lamf-met-jour-sa-doctrine-concernant-les-cif#xts=607212&xtor=RSS-3&type=RSS"
+        "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-gains-to-hover-close-to-new-all-time-high-193309793.html"
       }
     ]
   },
