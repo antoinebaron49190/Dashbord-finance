@@ -36,13 +36,21 @@
     ]
   },
   "2026-10-25": {
-    "articles_count": 8,
-    "signal_count": 1,
+    "articles_count": 21,
+    "signal_count": 2,
     "tone_cb": null,
-    "tone_global": 0.6667,
+    "tone_global": 0.0834,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "fc60a8ec9ac7fad6b15c78e8",
+        "title": "Trump announces Audi will build $4 billion US factory in Georgia",
+        "source": "investing_com",
+        "score": 0.45,
+        "tone": 0.0,
+        "url": "https://www.investing.com/news/stock-market-news/trump-set-to-announce-plan-by-audi-to-build-us-factory-in-georgia-source-says-4970975"
+      },
       {
         "id": "4d96d7984797a2550c0d049f",
         "title": "China urges US to halt proposed expansion of outbound investment curbs",
@@ -52,36 +60,28 @@
         "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/china-urges-us-to-halt-proposed-expansion-of-outbound-investment-curbs"
       },
       {
-        "id": "a11dccdeef41d744835481d0",
-        "title": "Footloose in Davao: Cracking open the Philippines' 'durian city'",
+        "id": "45db5d50bf3e5003bb6206dd",
+        "title": "Trump touts $4 billion Audi plant in Georgia as he defends tariffs",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": -0.5,
+        "url": "https://www.investing.com/news/economy-news/trump-touts-4-billion-audi-plant-in-georgia-as-he-defends-tariffs-4971027"
+      },
+      {
+        "id": "1eb5cd1edf5da30e9ddb2e77",
+        "title": "Pressed by Chinese EVs in Southeast Asia, Mitsubishi Motors makes risky pivot",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/life-arts/life/destinations/footloose-in-davao-cracking-open-the-philippines-durian-city"
+        "url": "https://asia.nikkei.com/business/automobiles/pressed-by-chinese-evs-in-southeast-asia-mitsubishi-motors-makes-risky-pivot"
       },
       {
-        "id": "6f393b8902d7a154fbd15349",
-        "title": "Saudi-led coalition says it downed 2 missiles fired by Houthis",
+        "id": "cca7a2c59ebfe3a913378dde",
+        "title": "South Korean golfers flock to small Japanese town for deals at resort",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/politics/middle-east-crisis/saudi-led-coalition-says-it-downed-2-missiles-fired-by-houthis"
-      },
-      {
-        "id": "121d9bf70a6149143fba72e0",
-        "title": "Yemen’s Houthis renew threat against Riyadh airport as flights set to resume",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/economy-news/yemens-houthis-renew-threat-against-riyadh-airport-as-flights-set-to-resume-4971006"
-      },
-      {
-        "id": "338d8395ceee2d4e480be941",
-        "title": "El Salvador president says bodies found in Haiti do not belong to ambushed soldiers",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://www.investing.com/news/commodities-news/bodies-of-ambushed-salvadoran-soldiers-found-in-haiti-new-york-timesreports-4970997"
+        "url": "https://asia.nikkei.com/business/travel-leisure/south-korean-golfers-flock-to-small-japanese-town-for-deals-at-resort"
       }
     ]
   },
