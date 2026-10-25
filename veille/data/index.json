@@ -36,10 +36,10 @@
     ]
   },
   "2026-10-25": {
-    "articles_count": 21,
-    "signal_count": 2,
+    "articles_count": 33,
+    "signal_count": 4,
     "tone_cb": null,
-    "tone_global": 0.0834,
+    "tone_global": 0.1667,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
@@ -60,6 +60,14 @@
         "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/china-urges-us-to-halt-proposed-expansion-of-outbound-investment-curbs"
       },
       {
+        "id": "46df0b830d2f3eb85052685d",
+        "title": "Recent labor market data show some signs of AI-related hiring headwinds",
+        "source": "investing_com",
+        "score": 0.3,
+        "tone": 0.5,
+        "url": "https://www.investing.com/news/stock-market-news/recent-labor-market-data-show-some-signs-of-airelated-hiring-headwinds-4971102"
+      },
+      {
         "id": "45db5d50bf3e5003bb6206dd",
         "title": "Trump touts $4 billion Audi plant in Georgia as he defends tariffs",
         "source": "investing_com",
@@ -68,20 +76,12 @@
         "url": "https://www.investing.com/news/economy-news/trump-touts-4-billion-audi-plant-in-georgia-as-he-defends-tariffs-4971027"
       },
       {
-        "id": "1eb5cd1edf5da30e9ddb2e77",
-        "title": "Pressed by Chinese EVs in Southeast Asia, Mitsubishi Motors makes risky pivot",
+        "id": "e0eae27ab8f95407a2011fc7",
+        "title": "Japan snack maker Kameda Seika to exit India, shift focus to North America",
         "source": "nikkei_asia",
         "score": 0.3,
         "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/automobiles/pressed-by-chinese-evs-in-southeast-asia-mitsubishi-motors-makes-risky-pivot"
-      },
-      {
-        "id": "cca7a2c59ebfe3a913378dde",
-        "title": "South Korean golfers flock to small Japanese town for deals at resort",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://asia.nikkei.com/business/travel-leisure/south-korean-golfers-flock-to-small-japanese-town-for-deals-at-resort"
+        "url": "https://asia.nikkei.com/business/food-beverage/japan-snack-maker-kameda-seika-to-exit-india-shift-focus-to-north-america"
       }
     ]
   },
@@ -4536,45 +4536,13 @@
     ]
   },
   "2026-07-27": {
-    "articles_count": 17,
-    "signal_count": 3,
-    "tone_cb": -0.6667,
-    "tone_global": -0.5627,
+    "articles_count": 9,
+    "signal_count": 2,
+    "tone_cb": null,
+    "tone_global": -0.45,
     "regul_crypto": null,
-    "stress": 0.0763,
+    "stress": 0.1875,
     "top": [
-      {
-        "id": "8ec7b98ed30470cec4690273",
-        "title": "The effects of a large energy price shock on bank credit",
-        "source": "bce_pub",
-        "score": 1.3,
-        "tone": -0.6667,
-        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3260~7f05446cac.en.pdf"
-      },
-      {
-        "id": "20f4712f959d1045b7773f61",
-        "title": "Central banks, debt managers, and specialness in the Bund repo market",
-        "source": "bce_pub",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.ecb.europa.eu//pub/pdf/scpwps/ecb.wp3259~ca31e19d1b.en.pdf"
-      },
-      {
-        "id": "281f685f9ebf532d5516ee56",
-        "title": "(IMES Newsletter) 2026 BOJ-IMES Conference",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "http://www.boj.or.jp/en/about/release_2026/rel260727a.htm"
-      },
-      {
-        "id": "9f468dd5d54ef9b7e61c7b45",
-        "title": "(IMES Newsletter) 2026 BOJ-IMES Conference",
-        "source": "boj_news",
-        "score": 1.3,
-        "tone": 0.0,
-        "url": "https://www.boj.or.jp/en/about/release_2026/rel260727a.htm"
-      },
       {
         "id": "077c1bbef4bcf909479807fa",
         "title": "Commission approves €149 million Swedish State aid for agricultural, fishing and aquaculture companies facing increased fuel and fertiliser prices",
@@ -4582,6 +4550,38 @@
         "score": 0.9,
         "tone": -0.6,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1691"
+      },
+      {
+        "id": "f09405c414a270d1e3ab7ba7",
+        "title": "Joint statement by European Commission and High Representative marking the 75th anniversary of the 1951 Convention relating to the Status of Refugees",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1694"
+      },
+      {
+        "id": "542314c8dc33456b32380f01",
+        "title": "Commission seeks feedback on proposed amendments to regional State aid guidelines",
+        "source": "ec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1690"
+      },
+      {
+        "id": "52151f0b1ac297cf0c2bcc2c",
+        "title": "Small Business Forum’s Report to Congress Highlights Recommendations to Improve Capital-Raising Policy",
+        "source": "sec_press",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.sec.gov/newsroom/press-releases/2026-70-small-business-forums-report-congress-highlights-recommendations-improve-capital-raising-policy"
+      },
+      {
+        "id": "fc248ccf0b22c80eb83a69b2",
+        "title": "Conseil sur crypto-actifs : l’AMF met à jour sa doctrine concernant les CIF",
+        "source": "amf_news",
+        "score": 0.6,
+        "tone": 0.0,
+        "url": "https://www.amf-france.org/fr/actualites-publications/actualites/conseil-sur-crypto-actifs-lamf-met-jour-sa-doctrine-concernant-les-cif#xts=607212&xtor=RSS-3&type=RSS"
       }
     ]
   },
