@@ -36,10 +36,10 @@
     ]
   },
   "2026-10-25": {
-    "articles_count": 59,
-    "signal_count": 7,
+    "articles_count": 67,
+    "signal_count": 8,
     "tone_cb": null,
-    "tone_global": 0.0238,
+    "tone_global": 0.0833,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
@@ -76,12 +76,12 @@
         "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/china-urges-us-to-halt-proposed-expansion-of-outbound-investment-curbs"
       },
       {
-        "id": "e1ff01e7664b7f9aeefa96ef",
-        "title": "Trump says there will be no strike on Iran today; Qatari delegation in Tehran",
-        "source": "investing_com",
+        "id": "4e2743cbdd37e53ba878d243",
+        "title": "From trust to growth: the next chapter in Japan-UK relations",
+        "source": "nikkei_asia",
         "score": 0.3,
-        "tone": -0.5,
-        "url": "https://www.investing.com/news/economy-news/yemens-houthis-renew-threat-against-riyadh-airport-as-flights-set-to-resume-4971006"
+        "tone": 0.5,
+        "url": "https://asia.nikkei.com/opinion/from-trust-to-growth-the-next-chapter-in-japan-uk-relations"
       }
     ]
   },
@@ -4536,12 +4536,12 @@
     ]
   },
   "2026-07-27": {
-    "articles_count": 5,
-    "signal_count": 2,
+    "articles_count": 3,
+    "signal_count": 1,
     "tone_cb": null,
-    "tone_global": -0.45,
+    "tone_global": -0.6,
     "regul_crypto": null,
-    "stress": 0.2727,
+    "stress": 0.375,
     "top": [
       {
         "id": "077c1bbef4bcf909479807fa",
@@ -4566,22 +4566,6 @@
         "score": 0.6,
         "tone": 0.0,
         "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1690"
-      },
-      {
-        "id": "52151f0b1ac297cf0c2bcc2c",
-        "title": "Small Business Forum’s Report to Congress Highlights Recommendations to Improve Capital-Raising Policy",
-        "source": "sec_press",
-        "score": 0.6,
-        "tone": 0.0,
-        "url": "https://www.sec.gov/newsroom/press-releases/2026-70-small-business-forums-report-congress-highlights-recommendations-improve-capital-raising-policy"
-      },
-      {
-        "id": "cae220a06da22eddd42e3819",
-        "title": "Nvidia stock extends gains to hover close to new all-time high",
-        "source": "yahoo_finance",
-        "score": 0.3,
-        "tone": 0.0,
-        "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-gains-to-hover-close-to-new-all-time-high-193309793.html"
       }
     ]
   },

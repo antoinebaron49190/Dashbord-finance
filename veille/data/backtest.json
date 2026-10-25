@@ -1,6 +1,6 @@
 {
   "schema": 4,
-  "generated_at": "2026-10-25T00:49:37.491618+00:00",
+  "generated_at": "2026-10-25T21:26:14.212434+00:00",
   "horizon_days": 20,
   "assets": {
     "btc": {
@@ -43,7 +43,7 @@
         "positive_pct": 45.9
       },
       "analogues": {
-        "current_stretch": 10.75,
+        "current_stretch": 10.09,
         "bucket": 4,
         "buckets": 5,
         "range_pct": [
@@ -77,7 +77,7 @@
       "states": {
         "haussiere": {
           "days": 138,
-          "mean_pct": 4.64,
+          "mean_pct": 4.63,
           "median_pct": 2.42,
           "positive_pct": 53.6
         },
@@ -101,7 +101,7 @@
         "positive_pct": 49.9
       },
       "analogues": {
-        "current_stretch": 9.41,
+        "current_stretch": 8.31,
         "bucket": 4,
         "buckets": 5,
         "range_pct": [
@@ -115,7 +115,7 @@
           "positive_pct": 47.0
         }
       },
-      "edge_pct": 3.42,
+      "edge_pct": 3.41,
       "verdict": "signal utile",
       "sentence": "Le signal a séparé les deux cas. Après un signal haussier, +4,6 % en moyenne sur 20 séances ; après un signal baissier, +1,2 %."
     },
@@ -683,9 +683,9 @@
     },
     {
       "label": "Décote du Bitcoin sous son plus haut",
-      "value": "−29 %",
-      "percentile": 60,
-      "sentence": "plus loin du sommet que 60 % des 2 dernières années"
+      "value": "−30 %",
+      "percentile": 61,
+      "sentence": "plus loin du sommet que 61 % des 2 dernières années"
     }
   ],
   "failures": []
