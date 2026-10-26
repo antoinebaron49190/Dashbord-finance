@@ -1,6 +1,14 @@
 {
-  "updated_at": "2026-10-23T12:29:16.003560+00:00",
-  "pending": [],
+  "updated_at": "2026-10-26T03:13:21.288859+00:00",
+  "pending": [
+    {
+      "fingerprint": "agenda:2026-10-28:Federal Reserve",
+      "title": "Réunion du FOMC (Fed) — décision de taux — dans 2 jours",
+      "body": "Réunion du FOMC (Fed) — décision de taux, mercredi 28 octobre. Une date de réunion est un fait, pas une prévision : l'outil ne dit pas ce qui en sortira.",
+      "kind": "agenda",
+      "detected_at": "2026-10-26T03:13:21.288776+00:00"
+    }
+  ],
   "sent": [
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-07-31",
     "extreme:Décote du Bitcoin sous son plus haut:haut:2026-08-01",
@@ -121,7 +129,8 @@
     "trend:nasdaq:haussiere->indecise:2026-10-22",
     "trend:eurostoxx:indecise->baissiere:2026-10-22",
     "trend:msci_world:indecise->haussiere:2026-10-23",
-    "trend:eurostoxx:indecise->baissiere:2026-10-23"
+    "trend:eurostoxx:indecise->baissiere:2026-10-23",
+    "agenda:2026-10-28:Federal Reserve"
   ],
   "extremes_active": [
     "extreme:Volatilité du Bitcoin sur 30 jours:bas"
