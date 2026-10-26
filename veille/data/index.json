@@ -36,13 +36,29 @@
     ]
   },
   "2026-10-26": {
-    "articles_count": 45,
-    "signal_count": 6,
-    "tone_cb": null,
-    "tone_global": -0.35,
-    "regul_crypto": null,
-    "stress": 0.0182,
+    "articles_count": 91,
+    "signal_count": 11,
+    "tone_cb": 0.5,
+    "tone_global": 0.0935,
+    "regul_crypto": -0.6,
+    "stress": 0.0072,
     "top": [
+      {
+        "id": "459082b423061ac01fe1e0db",
+        "title": "On taxes, credit and growth",
+        "source": "bis_cb_speeches",
+        "score": 1.95,
+        "tone": 0.5,
+        "url": "https://www.bis.org/speeches/20261007-taxes-credit-and-growth"
+      },
+      {
+        "id": "e40ec3b79f7b2cc02e053f78",
+        "title": "Growth with responsibility - the next balance sheet",
+        "source": "bis_cb_speeches",
+        "score": 1.3,
+        "tone": 0.5,
+        "url": "https://www.bis.org/speeches/20261026-growth-responsibility-next-balance-sheet"
+      },
       {
         "id": "547bc070185304fdb75ca988",
         "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
@@ -66,33 +82,25 @@
         "score": 1.3,
         "tone": 0.0,
         "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261026~d903d7ad85.en.html"
-      },
-      {
-        "id": "c7ffff5b5940f3863c56cc03",
-        "title": "Musk says SpaceX raised $40 bln in debt, warns of neocloud collapse",
-        "source": "investing_com",
-        "score": 0.3,
-        "tone": -0.6,
-        "url": "https://www.investing.com/news/stock-market-news/musk-says-spacex-raised-40-bln-in-debt-warns-of-neocloud-collapse-4971344"
-      },
-      {
-        "id": "3ec9fc49b1cfa84e76c949e6",
-        "title": "For India's IT giants TCS and Infosys, AI both dents and supports growth",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.5,
-        "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/for-india-s-it-giants-tcs-and-infosys-ai-both-dents-and-supports-growth"
       }
     ]
   },
   "2026-10-25": {
-    "articles_count": 79,
+    "articles_count": 80,
     "signal_count": 10,
     "tone_cb": null,
     "tone_global": 0.1833,
     "regul_crypto": null,
     "stress": 0.0,
     "top": [
+      {
+        "id": "02c974b0cdb0eff51739c51c",
+        "title": "EU citizens think innovative foods can be useful but want more information, new Eurobarometer shows",
+        "source": "ec_press",
+        "score": 0.9,
+        "tone": 0.0,
+        "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2231"
+      },
       {
         "id": "f429a4c8ae3a8958781697df",
         "title": "Bitcoin steadies near $80,400 after weekend selloff, Fed decision looms",
@@ -124,14 +132,6 @@
         "score": 0.3,
         "tone": 0.6667,
         "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-hinge-health-stock-price-target-on-app-growth-rebound-93CH-4971301"
-      },
-      {
-        "id": "4d96d7984797a2550c0d049f",
-        "title": "China urges US to halt proposed expansion of outbound investment curbs",
-        "source": "nikkei_asia",
-        "score": 0.3,
-        "tone": 0.6667,
-        "url": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/china-urges-us-to-halt-proposed-expansion-of-outbound-investment-curbs"
       }
     ]
   },
@@ -336,7 +336,7 @@
     ]
   },
   "2026-10-20": {
-    "articles_count": 148,
+    "articles_count": 149,
     "signal_count": 18,
     "tone_cb": null,
     "tone_global": 0.3079,
@@ -1586,12 +1586,12 @@
     ]
   },
   "2026-09-25": {
-    "articles_count": 158,
+    "articles_count": 159,
     "signal_count": 24,
     "tone_cb": 0.1482,
     "tone_global": 0.0727,
     "regul_crypto": null,
-    "stress": 0.0144,
+    "stress": 0.0141,
     "top": [
       {
         "id": "fc2876d8afec6f88ad588ab7",
@@ -4536,7 +4536,7 @@
     ]
   },
   "2026-07-28": {
-    "articles_count": 6,
+    "articles_count": 5,
     "signal_count": 1,
     "tone_cb": null,
     "tone_global": -0.5,
