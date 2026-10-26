@@ -9,3 +9,7 @@ __pycache__/
 *.pem
 secrets.json
 credentials.json
+
+# Day Trader skills : donnees locales (config avec nom/email SEC, portefeuille,
+# journal des ordres). Ne pas publier dans un depot public.
+trader/
